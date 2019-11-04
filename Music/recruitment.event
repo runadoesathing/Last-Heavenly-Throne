@@ -1,0 +1,2877 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	recruitment_grp  voicegroup000
+	#define	recruitment_pri  0
+	#define	recruitment_rev  0
+	#define	recruitment_mvl  127
+	#define	recruitment_key  0
+	#define	recruitment_tbs  1
+	#define	recruitment_exg  0
+	#define	recruitment_cmp  1
+
+	// .rodata
+	//	recruitment
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+recruitment_1:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   160*recruitment_tbs/2
+	BYTE		VOICE   61
+	BYTE		VOL     38*recruitment_mvl/mxv
+	BYTE		PAN     c_v-8
+	BYTE		N32     An3   v100
+	BYTE	W36
+	BYTE		        Bn3 
+	BYTE	W36
+	BYTE		        Cn4 
+	BYTE	W24
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W36
+	BYTE		N06   
+	BYTE		N06     Bn3 
+	BYTE	W24
+	BYTE		        An3 
+	BYTE		N06     Cn4 
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE		N28     Bn3 
+	BYTE	W36
+	BYTE		N32     Cn4 
+	BYTE	W36
+	BYTE		N21     Dn4 
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE		N07     Bn2 
+	BYTE		N07     En3 
+	BYTE		N06     Bn3 
+	BYTE	W12
+	BYTE		N07     Cn3 
+	BYTE		N07     Fn3 
+	BYTE		N32     Cn4 
+	BYTE	W12
+	BYTE		N07     Cs3 
+	BYTE		N07     Fs3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE		N07     Gn3 
+	BYTE		N06     Dn4 
+	BYTE	W24
+	BYTE		N07     En3 
+	BYTE		N07     Gs3 
+	BYTE		N06     En4 
+	BYTE	W24
+recruitment_1_B1:
+// 004   ----------------------------------------
+recruitment_1_004:
+	BYTE		N06     An2   v100
+	BYTE	W84
+	BYTE		N22     Fn2 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+recruitment_1_005:
+	BYTE	W12
+	BYTE		N06     Fn2   v100
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N22     Gn2 
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_004
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_005
+// 008   ----------------------------------------
+recruitment_1_008:
+	BYTE		N32     An2   v100
+	BYTE	W36
+	BYTE		        Bn2 
+	BYTE	W36
+	BYTE		        Cn3 
+	BYTE	W24
+	BYTE	PEND
+// 009   ----------------------------------------
+recruitment_1_009:
+	BYTE	W12
+	BYTE		N32     An2   v100
+	BYTE	W36
+	BYTE		N06     Bn2 
+	BYTE	W24
+	BYTE		        Cn3 
+	BYTE	W24
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_008
+// 011   ----------------------------------------
+recruitment_1_011:
+	BYTE	W12
+	BYTE		N32     Dn3   v100
+	BYTE	W36
+	BYTE		N06     Cn3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE	W24
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_008
+// 013   ----------------------------------------
+recruitment_1_013:
+	BYTE	W12
+	BYTE		N06     En2   v100
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+recruitment_1_014:
+	BYTE		N32     An2   v100
+	BYTE	W36
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N23   
+	BYTE	W24
+	BYTE	PEND
+// 015   ----------------------------------------
+recruitment_1_015:
+	BYTE		N32     Fn2   v100
+	BYTE	W36
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+recruitment_1_016:
+	BYTE		N06     Fs2   v100
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W24
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 022   ----------------------------------------
+recruitment_1_022:
+	BYTE		N06     Fs2   v100
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+recruitment_1_024:
+	BYTE		N32     Dn3   v100
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W36
+	BYTE		        Fs3 
+	BYTE	W24
+	BYTE	PEND
+// 025   ----------------------------------------
+recruitment_1_025:
+	BYTE	W12
+	BYTE		N32     Dn3   v100
+	BYTE	W36
+	BYTE		N06     En3 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE	W24
+	BYTE	PEND
+// 026   ----------------------------------------
+recruitment_1_026:
+	BYTE		N32     En3   v100
+	BYTE	W36
+	BYTE		        Fs3 
+	BYTE	W36
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 027   ----------------------------------------
+recruitment_1_027:
+	BYTE	W12
+	BYTE		N32     En3   v100
+	BYTE	W36
+	BYTE		N06     Fs3 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_024
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_025
+// 030   ----------------------------------------
+recruitment_1_030:
+	BYTE		N32     En3   v100
+	BYTE	W36
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W24
+	BYTE	PEND
+// 031   ----------------------------------------
+	BYTE		N32   
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		N23     Gn3 
+	BYTE	W24
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_004
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_005
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_008
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_011
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_013
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_014
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_015
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_016
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_022
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_024
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_025
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_026
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_027
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_024
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_025
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_1_030
+// 059   ----------------------------------------
+	BYTE		N32     En3   v100
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		N23     Gn3 
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	recruitment_1_B1
+recruitment_1_B2:
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+recruitment_2:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     29*recruitment_mvl/mxv
+	BYTE		PAN     c_v+6
+	BYTE		N10     An2   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W24
+// 001   ----------------------------------------
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W24
+	BYTE		N10   
+	BYTE	W24
+// 002   ----------------------------------------
+	BYTE		        Dn2 
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE		        En2 
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+recruitment_2_B1:
+// 004   ----------------------------------------
+recruitment_2_004:
+	BYTE		N06     An2   v100
+	BYTE	W84
+	BYTE		N22     Fn2 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W36
+	BYTE		        Gn2 
+	BYTE	W60
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_004
+// 007   ----------------------------------------
+	BYTE	W36
+	BYTE		N22     Gn2   v100
+	BYTE	W60
+// 008   ----------------------------------------
+recruitment_2_008:
+	BYTE		N12     An2   v100
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+recruitment_2_009:
+	BYTE		N12     Fn2   v100
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+recruitment_2_010:
+	BYTE		N12     Dn2   v100
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+recruitment_2_011:
+	BYTE		N12     Fn2   v100
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_009
+// 014   ----------------------------------------
+recruitment_2_014:
+	BYTE		N12     Dn2   v100
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W24
+	BYTE	PEND
+// 015   ----------------------------------------
+recruitment_2_015:
+	BYTE		N12     Fn2   v100
+	BYTE	W36
+	BYTE		N22   
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE	PEND
+// 016   ----------------------------------------
+recruitment_2_016:
+	BYTE		N12     Fs2   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W24
+	BYTE	PEND
+// 017   ----------------------------------------
+recruitment_2_017:
+	BYTE		N12     Fs2   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_016
+// 019   ----------------------------------------
+recruitment_2_019:
+	BYTE		N12     Bn1   v100
+	BYTE	W36
+	BYTE		N10     Cs2 
+	BYTE	W24
+	BYTE		N06     Dn2 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_017
+// 021   ----------------------------------------
+recruitment_2_021:
+	BYTE		N12     Fs2   v100
+	BYTE	W36
+	BYTE		N10     En2 
+	BYTE	W36
+	BYTE		N06     Dn2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE	PEND
+// 022   ----------------------------------------
+recruitment_2_022:
+	BYTE		N12     Bn1   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+recruitment_2_023:
+	BYTE		N21     Cs2   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+recruitment_2_024:
+	BYTE		N12     Dn3   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+recruitment_2_025:
+	BYTE		N12     Bn2   v100
+	BYTE	W36
+	BYTE		N22   
+	BYTE	W24
+	BYTE		N06     An2 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 026   ----------------------------------------
+recruitment_2_026:
+	BYTE		N12     En2   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W24
+	BYTE	PEND
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_026
+// 028   ----------------------------------------
+recruitment_2_028:
+	BYTE		N12     Dn2   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N06     Cs2 
+	BYTE	W24
+	BYTE	PEND
+// 029   ----------------------------------------
+recruitment_2_029:
+	BYTE		N12     Bn1   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W24
+	BYTE	PEND
+// 030   ----------------------------------------
+recruitment_2_030:
+	BYTE		N12     Cs2   v100
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 031   ----------------------------------------
+	BYTE		N12   
+	BYTE	W36
+	BYTE		N22     Bn1 
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_004
+// 033   ----------------------------------------
+	BYTE	W36
+	BYTE		N22     Gn2   v100
+	BYTE	W60
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_004
+// 035   ----------------------------------------
+	BYTE	W36
+	BYTE		N22     Gn2   v100
+	BYTE	W60
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_011
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_009
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_014
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_015
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_016
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_017
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_016
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_019
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_017
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_021
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_022
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_023
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_024
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_025
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_026
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_026
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_028
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_029
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_2_030
+// 059   ----------------------------------------
+	BYTE		N12     Cs2   v100
+	BYTE	W36
+	BYTE		N22     Bn1 
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	recruitment_2_B1
+recruitment_2_B2:
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+recruitment_3:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   40
+	BYTE		VOL     45*recruitment_mvl/mxv
+	BYTE		TIE     En3   v100
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W80
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W02
+	BYTE		N03   
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+// 002   ----------------------------------------
+	BYTE		N92     Fn3 
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE		N03     En3 
+	BYTE	W12
+	BYTE		N32     Fn3 
+	BYTE	W36
+	BYTE		N42     En3 
+	BYTE	W48
+recruitment_3_B1:
+// 004   ----------------------------------------
+recruitment_3_004:
+	BYTE		N06     An3   v100
+	BYTE		N06     An4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N10     Dn4 
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N44     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+recruitment_3_005:
+	BYTE	W36
+	BYTE		N22     En4   v100
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W24
+	BYTE		N10     Cn4 
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+recruitment_3_006:
+	BYTE		N06     En3   v100
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		        Cn3 
+	BYTE		N06     En3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     En4 
+	BYTE	W12
+	BYTE		N10     Bn3 
+	BYTE		N10     Dn4 
+	BYTE	W12
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		N22     Gn3 
+	BYTE		N22     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+recruitment_3_007:
+	BYTE	W12
+	BYTE		N05     An3   v100
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		N42     Cn4 
+	BYTE		N42     En4 
+	BYTE	W48
+	BYTE		N21     Bn3 
+	BYTE		N21     Dn4 
+	BYTE	W24
+	BYTE	PEND
+// 008   ----------------------------------------
+recruitment_3_008:
+	BYTE		N32     Cn3   v100
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N32     Dn3 
+	BYTE		N06     En4 
+	BYTE	W12
+	BYTE		N10     Dn4 
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		N32     En3 
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		N22     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+recruitment_3_009:
+	BYTE	W12
+	BYTE		N32     Cn3   v100
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N36     En3 
+	BYTE	W12
+	BYTE		N06     Dn3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+recruitment_3_010:
+	BYTE		N32     Cn3   v100
+	BYTE		TIE     An3 
+	BYTE	W36
+	BYTE		N32     Dn3 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W24
+	BYTE	PEND
+// 011   ----------------------------------------
+recruitment_3_011:
+	BYTE	W12
+	BYTE		N32     Fn3   v100
+	BYTE	W36
+	BYTE		N06     En3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W14
+	BYTE	PEND
+	BYTE		EOT     An3 
+	BYTE	W10
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_008
+// 013   ----------------------------------------
+recruitment_3_013:
+	BYTE	W12
+	BYTE		N32     Cn3   v100
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W24
+	BYTE		N06     Dn3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W24
+	BYTE	PEND
+// 014   ----------------------------------------
+recruitment_3_014:
+	BYTE		N32     Cn3   v100
+	BYTE	W36
+	BYTE		        Dn3 
+	BYTE	W28
+	BYTE	W01
+	BYTE	PEND
+	BYTE		EOT     Cn4 
+	BYTE	W07
+	BYTE		N24     En3 
+	BYTE		N03     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+// 015   ----------------------------------------
+recruitment_3_015:
+	BYTE		N10     En3   v100
+	BYTE		N21     Dn4 
+	BYTE	W12
+	BYTE		N32     Fn3 
+	BYTE	W12
+	BYTE		N21     En4 
+	BYTE	W24
+	BYTE		        An3 
+	BYTE		N21     Fn4 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE		N21     Gn4 
+	BYTE	W24
+	BYTE	PEND
+// 016   ----------------------------------------
+recruitment_3_016:
+	BYTE		N06     Cs3   v100
+	BYTE		N06     Fs3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE		N06     Cs3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Fs3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Cs4 
+	BYTE	W12
+	BYTE		N10     Gs3 
+	BYTE		N10     Bn3 
+	BYTE	W12
+	BYTE		N06     Fs3 
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE		N06     Fs3 
+	BYTE	W12
+	BYTE		N22     En3 
+	BYTE		N22     Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 017   ----------------------------------------
+recruitment_3_017:
+	BYTE	W12
+	BYTE		N06     Fs3   v100
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE		N06     Fs3 
+	BYTE	W12
+	BYTE		N54     An2 
+	BYTE		N54     Cs3 
+	BYTE	W60
+	BYTE	PEND
+// 018   ----------------------------------------
+recruitment_3_018:
+	BYTE	W12
+	BYTE		N06     An2   v100
+	BYTE		N06     Cs3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Fs3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Cs4 
+	BYTE	W12
+	BYTE		N10     Gs3 
+	BYTE		N10     Bn3 
+	BYTE	W12
+	BYTE		N06     Fs3 
+	BYTE		N06     An3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE		N06     Fs3 
+	BYTE	W12
+	BYTE		N22     En3 
+	BYTE		N22     Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 019   ----------------------------------------
+recruitment_3_019:
+	BYTE	W12
+	BYTE		N03     Dn3   v100
+	BYTE		N03     Fs3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N03     Gs3 
+	BYTE	W06
+	BYTE		N64     Fs3 
+	BYTE		N64     An3 
+	BYTE	W72
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_006
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_007
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_011
+	BYTE		EOT     An3 
+	BYTE	W10
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_013
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_014
+	BYTE		EOT     Cn4 
+	BYTE	W07
+	BYTE		N24     En3   v100
+	BYTE		N03     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_015
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_016
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_017
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_018
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_3_019
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	recruitment_3_B1
+recruitment_3_B2:
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+recruitment_4:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   60
+	BYTE		VOL     38*recruitment_mvl/mxv
+	BYTE		PAN     c_v-8
+	BYTE		TIE     En3   v100
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE		N32     Cn3 
+	BYTE	W36
+	BYTE		        Dn3 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W24
+// 003   ----------------------------------------
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		N42     En3 
+	BYTE	W48
+recruitment_4_B1:
+// 004   ----------------------------------------
+recruitment_4_004:
+	BYTE		N06     An2   v100
+	BYTE	W84
+	BYTE		N22     Fn2 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W36
+	BYTE		        Gn2 
+	BYTE	W60
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_004
+// 007   ----------------------------------------
+	BYTE	W36
+	BYTE		N22     Gn2   v100
+	BYTE	W60
+// 008   ----------------------------------------
+recruitment_4_008:
+	BYTE		N32     En3   v100
+	BYTE	W36
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N32   
+	BYTE	W24
+	BYTE	PEND
+// 009   ----------------------------------------
+recruitment_4_009:
+	BYTE	W12
+	BYTE		N32     En3   v100
+	BYTE	W36
+	BYTE		N06     Dn3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W24
+	BYTE	PEND
+// 010   ----------------------------------------
+recruitment_4_010:
+	BYTE		N32     En3   v100
+	BYTE	W36
+	BYTE		        Dn3 
+	BYTE	W36
+	BYTE		        En3 
+	BYTE	W24
+	BYTE	PEND
+// 011   ----------------------------------------
+recruitment_4_011:
+	BYTE	W12
+	BYTE		N32     Fn3   v100
+	BYTE	W36
+	BYTE		N06     En3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W24
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_009
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_010
+// 015   ----------------------------------------
+recruitment_4_015:
+	BYTE	W12
+	BYTE		N32     Fn3   v100
+	BYTE	W36
+	BYTE		N21     An3 
+	BYTE	W24
+	BYTE		        Bn3 
+	BYTE	W24
+	BYTE	PEND
+// 016   ----------------------------------------
+recruitment_4_016:
+	BYTE		N06     Cs3   v100
+	BYTE		N06     Fs3 
+	BYTE	W36
+	BYTE		        Cs3 
+	BYTE		N06     Fs3 
+	BYTE	W36
+	BYTE		        Cs3 
+	BYTE		N06     Fs3 
+	BYTE	W24
+	BYTE	PEND
+// 017   ----------------------------------------
+recruitment_4_017:
+	BYTE		N06     Bn2   v100
+	BYTE		N06     En3 
+	BYTE	W36
+	BYTE		        Bn2 
+	BYTE		N06     En3 
+	BYTE	W36
+	BYTE		        Bn2 
+	BYTE		N06     En3 
+	BYTE	W24
+	BYTE	PEND
+// 018   ----------------------------------------
+recruitment_4_018:
+	BYTE		N06     Bn2   v100
+	BYTE		N06     Ds3 
+	BYTE	W36
+	BYTE		        Bn2 
+	BYTE		N06     Ds3 
+	BYTE	W36
+	BYTE		        Bn2 
+	BYTE		N06     Ds3 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+recruitment_4_019:
+	BYTE		N06     An2   v100
+	BYTE		N06     Dn3 
+	BYTE	W36
+	BYTE		        An2 
+	BYTE		N06     Dn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE		N06     Dn3 
+	BYTE	W12
+	BYTE		        An2 
+	BYTE		N06     Dn3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Fs3 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_016
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_017
+// 022   ----------------------------------------
+recruitment_4_022:
+	BYTE		N06     An2   v100
+	BYTE		N06     Dn3 
+	BYTE	W36
+	BYTE		        An2 
+	BYTE		N06     Dn3 
+	BYTE	W36
+	BYTE		        An2 
+	BYTE		N06     Dn3 
+	BYTE	W24
+	BYTE	PEND
+// 023   ----------------------------------------
+recruitment_4_023:
+	BYTE		N06     An2   v100
+	BYTE		N06     Dn3 
+	BYTE	W36
+	BYTE		        An2 
+	BYTE		N06     Dn3 
+	BYTE	W60
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_004
+// 033   ----------------------------------------
+	BYTE	W36
+	BYTE		N22     Gn2   v100
+	BYTE	W60
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_004
+// 035   ----------------------------------------
+	BYTE	W36
+	BYTE		N22     Gn2   v100
+	BYTE	W60
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_011
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_009
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_010
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_015
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_016
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_017
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_018
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_019
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_016
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_017
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_022
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_4_023
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	recruitment_4_B1
+recruitment_4_B2:
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+recruitment_5:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   119
+	BYTE		VOL     41*recruitment_mvl/mxv
+	BYTE		PAN     c_v+3
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W24
+	BYTE		N68     As2   v100
+	BYTE	W72
+recruitment_5_B1:
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W24
+	BYTE		N68     As2   v100
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W24
+	BYTE		N68   
+	BYTE	W72
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W24
+	BYTE		N68   
+	BYTE	W72
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W24
+	BYTE		N68   
+	BYTE	W72
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W24
+	BYTE		N68   
+	BYTE	W72
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W24
+	BYTE		N68   
+	BYTE	W72
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W24
+	BYTE		N68   
+	BYTE	W72
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W24
+	BYTE		N68   
+	BYTE	W72
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W24
+	BYTE		N68   
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	recruitment_5_B1
+recruitment_5_B2:
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+recruitment_6:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   51
+	BYTE		VOL     36*recruitment_mvl/mxv
+	BYTE		PAN     c_v-7
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+recruitment_6_B1:
+// 004   ----------------------------------------
+recruitment_6_004:
+	BYTE		N06     An3   v100
+	BYTE	W84
+	BYTE		N44     Dn4 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W36
+	BYTE		N56     En4 
+	BYTE	W60
+// 006   ----------------------------------------
+recruitment_6_006:
+	BYTE		N06     Cn4   v100
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N10     Dn4 
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N44     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+recruitment_6_007:
+	BYTE	W36
+	BYTE		N32     Cn4   v100
+	BYTE	W36
+	BYTE		N23     Bn3 
+	BYTE	W24
+	BYTE	PEND
+// 008   ----------------------------------------
+recruitment_6_008:
+	BYTE		N06     An4   v100
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        En5 
+	BYTE	W12
+	BYTE		N11     Dn5 
+	BYTE	W12
+	BYTE		N06     Cn5 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N23     Bn4 
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+recruitment_6_009:
+	BYTE	W12
+	BYTE		N06     Cn5   v100
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N48     En4 
+	BYTE	W48
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE		TIE     An4 
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W84
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W10
+// 012   ----------------------------------------
+recruitment_6_012:
+	BYTE		N06     An4   v100
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        En5 
+	BYTE	W12
+	BYTE		N10     Dn5 
+	BYTE	W12
+	BYTE		N06     Cn5 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		N22     Bn4 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+recruitment_6_013:
+	BYTE	W12
+	BYTE		N06     Cn5   v100
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W72
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W30
+	BYTE	W01
+// 015   ----------------------------------------
+recruitment_6_015:
+	BYTE		N21     Fn4   v100
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		        An4 
+	BYTE	W24
+	BYTE		        Bn4 
+	BYTE	W24
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+recruitment_6_020:
+	BYTE	W12
+	BYTE		N06     An3   v100
+	BYTE		N06     Cs4 
+	BYTE	W12
+	BYTE		N06   
+	BYTE		N06     Fs4 
+	BYTE	W12
+	BYTE		        An4 
+	BYTE		N06     Cs5 
+	BYTE	W12
+	BYTE		N10     Fs4 
+	BYTE		N10     Bn4 
+	BYTE	W12
+	BYTE		N06     En4 
+	BYTE		N06     An4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE		N06     Fs4 
+	BYTE	W12
+	BYTE		N22     En4 
+	BYTE		N22     Gs4 
+	BYTE	W12
+	BYTE	PEND
+// 021   ----------------------------------------
+recruitment_6_021:
+	BYTE	W12
+	BYTE		N06     Fs4   v100
+	BYTE		N06     An4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE		N06     Fs4 
+	BYTE	W12
+	BYTE		N44     An3 
+	BYTE		N44     Cs4 
+	BYTE	W48
+	BYTE		N06     An3 
+	BYTE		N06     Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 022   ----------------------------------------
+	BYTE		N92     Dn4 
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 023   ----------------------------------------
+recruitment_6_023:
+	BYTE		N21     Bn2   v100
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+recruitment_6_028:
+	BYTE		N05     Dn4   v100
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 029   ----------------------------------------
+recruitment_6_029:
+	BYTE		N05     En4   v100
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W18
+	BYTE		        Fs4 
+	BYTE	W24
+	BYTE	PEND
+// 030   ----------------------------------------
+recruitment_6_030:
+	BYTE		N05     En4   v100
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE	PEND
+// 031   ----------------------------------------
+	BYTE		N32     En4 
+	BYTE	W36
+	BYTE		        Fn4 
+	BYTE	W36
+	BYTE		N23     Gn4 
+	BYTE	W24
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_004
+// 033   ----------------------------------------
+	BYTE	W36
+	BYTE		N56     En4   v100
+	BYTE	W60
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_006
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_007
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_009
+// 038   ----------------------------------------
+	BYTE		TIE     An4   v100
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W84
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W10
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_012
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_013
+// 042   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		EOT     Cn5 
+	BYTE	W30
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_015
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_020
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_021
+// 050   ----------------------------------------
+	BYTE		N92     Dn4   v100
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_023
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_028
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_029
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_6_030
+// 059   ----------------------------------------
+	BYTE		N32     En4   v100
+	BYTE	W36
+	BYTE		        Fn4 
+	BYTE	W36
+	BYTE		N23     Gn4 
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	recruitment_6_B1
+recruitment_6_B2:
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+recruitment_7:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		VOL     36*recruitment_mvl/mxv
+	BYTE		PAN     c_v+8
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+recruitment_7_B1:
+// 004   ----------------------------------------
+recruitment_7_004:
+	BYTE		N06     An3   v100
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N10     Dn4 
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		TIE     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 006   ----------------------------------------
+recruitment_7_006:
+	BYTE		N06     An3   v100
+	BYTE	W12
+	BYTE		        En3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		        En4 
+	BYTE	W12
+	BYTE		N10     Dn4 
+	BYTE	W12
+	BYTE		N06     Cn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N22     Bn3 
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+recruitment_7_007:
+	BYTE	W12
+	BYTE		N05     Cn4   v100
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N42     En4 
+	BYTE	W48
+	BYTE		N21     Dn4 
+	BYTE	W24
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_006
+// 009   ----------------------------------------
+recruitment_7_009:
+	BYTE	W12
+	BYTE		N06     Cn4   v100
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N44     En3 
+	BYTE	W48
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE		TIE     An3 
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W84
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W10
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_006
+// 013   ----------------------------------------
+recruitment_7_013:
+	BYTE	W12
+	BYTE		N06     Cn4   v100
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W72
+	BYTE	PEND
+// 014   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W07
+	BYTE		N03     Gn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+// 015   ----------------------------------------
+recruitment_7_015:
+	BYTE		N21     Dn4   v100
+	BYTE	W24
+	BYTE		        En4 
+	BYTE	W24
+	BYTE		        Fn4 
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_004
+// 033   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Bn3 
+	BYTE	W01
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_006
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_007
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_006
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_009
+// 038   ----------------------------------------
+	BYTE		TIE     An3   v100
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W84
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W10
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_006
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_013
+// 042   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		EOT     Cn4 
+	BYTE	W07
+	BYTE		N03     Gn3   v100
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_7_015
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE	W96
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	recruitment_7_B1
+recruitment_7_B2:
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+recruitment_8:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   41
+	BYTE		VOL     25*recruitment_mvl/mxv
+	BYTE		PAN     c_v-5
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+recruitment_8_B1:
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+recruitment_8_017:
+	BYTE	W48
+	BYTE		N06     Gs4   v100
+	BYTE	W12
+	BYTE		        An4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		TIE     Cs4 
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 019   ----------------------------------------
+recruitment_8_019:
+	BYTE	W24
+	BYTE		N23     Bn3   v100
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W24
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 021   ----------------------------------------
+recruitment_8_021:
+	BYTE	W24
+	BYTE		N06     Bn3   v100
+	BYTE	W12
+	BYTE		N44     An3 
+	BYTE	W48
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 022   ----------------------------------------
+recruitment_8_022:
+	BYTE		N06     An3   v100
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N42     Fs3 
+	BYTE	W48
+	BYTE	PEND
+// 023   ----------------------------------------
+recruitment_8_023:
+	BYTE		N21     An2   v100
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+recruitment_8_024:
+	BYTE		N23     Dn3   v100
+	BYTE	W24
+	BYTE		        An2 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE	W24
+	BYTE	PEND
+// 025   ----------------------------------------
+recruitment_8_025:
+	BYTE		N23     Fs3   v100
+	BYTE	W24
+	BYTE		N06     Dn3 
+	BYTE	W12
+	BYTE		N23     Fs3 
+	BYTE	W24
+	BYTE		N06     Dn3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE	PEND
+// 026   ----------------------------------------
+recruitment_8_026:
+	BYTE		N80     Bn3   v100
+	BYTE	W84
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE	PEND
+// 027   ----------------------------------------
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 028   ----------------------------------------
+recruitment_8_028:
+	BYTE		N92     Dn4   v068
+	BYTE	W24
+	BYTE		N56     Fs3   v100
+	BYTE	W60
+	BYTE		N06     Gs3 
+	BYTE	W12
+	BYTE	PEND
+// 029   ----------------------------------------
+recruitment_8_029:
+	BYTE		N56     An3   v100
+	BYTE		N92     En4   v068
+	BYTE	W60
+	BYTE		N06     Fs3   v100
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE	W12
+	BYTE	PEND
+// 030   ----------------------------------------
+recruitment_8_030:
+	BYTE		N68     Bn3   v100
+	BYTE	W72
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE	PEND
+// 031   ----------------------------------------
+	BYTE		N32     En4 
+	BYTE	W36
+	BYTE		        Cn4 
+	BYTE	W36
+	BYTE		N23     Dn4 
+	BYTE	W24
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_017
+// 046   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Cs4 
+	BYTE	W01
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_019
+// 048   ----------------------------------------
+	BYTE		N92     Cs4   v100
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_021
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_022
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_023
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_024
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_025
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_026
+// 055   ----------------------------------------
+	BYTE		N92     Gs3   v100
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_028
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_029
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_8_030
+// 059   ----------------------------------------
+	BYTE		N32     En4   v100
+	BYTE	W36
+	BYTE		        Cn4 
+	BYTE	W36
+	BYTE		N23     Dn4 
+	BYTE	W23
+	BYTE	GoTo
+	 POIN2	recruitment_8_B1
+recruitment_8_B2:
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.10) ****************//
+
+recruitment_9:
+	BYTE	KEYSH   recruitment_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     32*recruitment_mvl/mxv
+	BYTE		PAN     c_v+3
+	BYTE		N01     Dn1   v100
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W12
+	BYTE		        En1   v060
+	BYTE	W12
+	BYTE		        Dn1   v100
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W12
+	BYTE		        En1   v060
+	BYTE	W12
+	BYTE		        Dn1   v100
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W12
+// 001   ----------------------------------------
+recruitment_9_001:
+	BYTE		N01     En1   v060
+	BYTE	W12
+	BYTE		        Dn1   v100
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W12
+	BYTE		        En1   v060
+	BYTE	W12
+	BYTE		        Dn1   v100
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W12
+	BYTE		N01   
+	BYTE	W06
+	BYTE		        En1   v088
+	BYTE	W06
+	BYTE		        En1   v092
+	BYTE	W06
+	BYTE		        En1   v096
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE		        Dn1   v100
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W12
+	BYTE		        En1   v060
+	BYTE	W12
+	BYTE		        Dn1   v100
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W12
+	BYTE		        En1   v060
+	BYTE	W12
+	BYTE		        Dn1   v100
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_001
+recruitment_9_B1:
+// 004   ----------------------------------------
+recruitment_9_004:
+	BYTE		N01     Dn1   v100
+	BYTE		N01     Cs2 
+	BYTE	W84
+	BYTE		        Dn1 
+	BYTE		N01     An2 
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+recruitment_9_005:
+	BYTE	W12
+	BYTE		N01     En1   v100
+	BYTE	W12
+	BYTE		N01   
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE		N01     An2 
+	BYTE	W24
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En1   v080
+	BYTE	W06
+	BYTE		        En1   v088
+	BYTE	W06
+	BYTE		        En1   v092
+	BYTE	W06
+	BYTE		        En1   v096
+	BYTE	W06
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_004
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_005
+// 008   ----------------------------------------
+recruitment_9_008:
+	BYTE		N01     En1   v100
+	BYTE		N01     Cs2 
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+recruitment_9_009:
+	BYTE		N01     En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE		N01     Fs1   v080
+	BYTE	W06
+	BYTE		        Fs1   v088
+	BYTE	W06
+	BYTE		        Fs1   v092
+	BYTE	W06
+	BYTE		        Fs1   v096
+	BYTE	W06
+	BYTE	PEND
+// 010   ----------------------------------------
+recruitment_9_010:
+	BYTE		N01     En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 019   ----------------------------------------
+recruitment_9_019:
+	BYTE		N01     En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W06
+	BYTE		N01   
+	BYTE	W06
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 023   ----------------------------------------
+recruitment_9_023:
+	BYTE		N01     En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W06
+	BYTE		        Fs1   v080
+	BYTE	W06
+	BYTE		N01   
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_023
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_004
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_005
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_009
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_023
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_008
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_019
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	recruitment_9_010
+// 059   ----------------------------------------
+	BYTE		N01     En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W12
+	BYTE		        Fs1   v080
+	BYTE	W24
+	BYTE		        En1   v100
+	BYTE	W06
+	BYTE		        Fs1   v080
+	BYTE	W06
+	BYTE		N01   
+	BYTE	W11
+	BYTE	GoTo
+	 POIN2	recruitment_9_B1
+recruitment_9_B2:
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+recruitment:
+	BYTE	9	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	recruitment_pri	// Priority
+	BYTE	recruitment_rev	// Reverb.
+
+	POIN2	recruitment_grp
+
+	POIN2	recruitment_1
+	POIN2	recruitment_2
+	POIN2	recruitment_3
+	POIN2	recruitment_4
+	POIN2	recruitment_5
+	POIN2	recruitment_6
+	POIN2	recruitment_7
+	POIN2	recruitment_8
+	POIN2	recruitment_9
+
+	

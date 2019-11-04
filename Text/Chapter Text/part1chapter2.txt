@@ -1,0 +1,875 @@
+## AillenBQ
+[BattleText]
+[OpenMidLeft][LoadFace][0x31][0x1]
+You came to rescue the girl?
+[ToggleSmile]I'll take you and her down![X]
+
+
+
+## AillenDQ
+[BattleText]
+[OpenMidLeft][LoadFace][0x31][0x1]
+Blast... How can [CloseEyes]they be this strong?![X]
+
+
+
+## Lalitha1BQ
+[BattleText]
+[OpenMidRight][LoadLalitha]
+Remember me, savage beast?[ToggleSmile]
+See how I've blasted all your scummy friends to bits?[ClearFace][ToggleSmile]
+
+[OpenMidLeft][LoadFace][0x31][0x1]
+You've come straight to me, however.
+I'll cut you down where you stand, arrogant lass!
+[X]
+
+
+
+## CaerGolud
+Caer Golud[X]
+
+
+
+## P1C2WMIntro
+Cethern,[....] S[0xE9]tanta,[....] and Ferdiad stave off[N]
+the brigands near their village.[AN]
+After their act of heroism,[.....][N]
+they are informed by a Crownflier,[.....] Lady[AN]
+Sadhbh of Caer Siddi,[.....] that Heichalot has[N]
+declared war on their kingdom.[AN]
+After considering the situation,[.....][N]
+the three agree to join the[AN]
+Kingdom's defense against the[N]
+Principality invaders.[AN]
+Receiving their rushed send-off,[AN]
+they leave swiftly towards Caer[N]
+Wydyr,[.....] at the Kingdom's north border.[A][X]
+
+
+
+## P1C2WMIntro2
+To reach Caer Wydyr,[.....] they must cut[N]
+through another province,[.....] Caer Golud:[......][N]
+a province that borders the sea[N]
+to the lands of southern Myanchao.[AN]
+Along the way to their destination,[.....][N]
+the four companions encounter several[N]
+obstacles to their goals...[A][X]
+
+
+
+## P1C2HelloSetanta
+[ConversationText]
+[OpenMidLeft][LoadSetanta]
+[OpenRight][LoadCethern]
+[OpenFarRight][LoadFerdiad]
+So we're waiting for her to finish talking to your grandfather.
+Why do we have to wait outside![CloseEyes]
+I'm freezing![OpenEyes]
+
+[OpenMidLeft]
+Winter's coming soon.
+I wonder if we're going to have enough food with the war going on.
+
+[OpenRight]
+We'll have to hope the bandits don't hit the further villages...
+There's not much more we can do...
+
+[OpenMidLeft]
+Well, at least we can eat each other if it comes to that.
+
+[OpenRight][CloseEyes]
+Now's not the time for a remark, S[0xE9]tanta.[OpenEyes]
+
+[OpenMidLeft]
+Fine.[MoveMidLeft]
+Is everything fine with you, Cethern?
+You seem... mournful.
+
+[OpenRight]
+I've been considering a few things.
+Don't worry about me.
+
+[OpenFarFarLeft][LoadSadhbh]
+Excuse me...
+May I interrupt your conversation?
+
+[OpenMidLeft][MoveFarLeft][OpenFarFarLeft][MoveLeft][OpenLeft]
+Terribly sorry to bother you three.[ToggleSmile]
+I would simply like to thank you.
+Your hospitality has been a welcome surprise, despite my hostility.
+
+[OpenRight]
+It is no problem at all, Lady Sadhbh.[ToggleSmile]
+How did things go with my grandfather?
+
+[OpenLeft]
+Sir MacCumail is a character, but his insight is like no one's I've heard.
+It is a shame I cannot take him with me.
+
+[OpenFarRight]
+We thank you for informing us of the war with Heichalot. 
+These extra few days should help with preparing for winter, Lady Sadhbh.
+
+[OpenLeft]
+It is nothing but my duty.
+I'll set up my pegasus and be off to Caer Wydyr in the hour.
+I wish your village the best.[ClearFace][.......]
+
+[OpenRight][MoveRight]
+Lady Sadhbh!
+Please hold for a second!
+
+[OpenLeft][LoadSadhbh]
+Is something wrong, Cethern?
+I must leave with haste.
+
+[OpenRight]
+I...[......][MoveRight][LoadOverworldFaces]
+I would like to accompany you to Caer Wydyr!
+
+[OpenFarLeft]
+Cethern, what in the bearers are you--![A]
+
+[OpenLeft][CloseEyes]
+Well,[......][OpenEyes] if you truly wish.
+I would not be against letting Sir MacCumail's grandson join me.
+
+[OpenFarRight]
+Cethern!
+Are you absolutely sure about this?!
+Those aren't just bandits up there!
+And what about Airmed or Miach?[OpenEyes]
+
+[OpenFarLeft]
+You'll die in Caer Wydyr!
+How would that make t--
+
+[OpenRight]
+If we cannot win the war against Heichalot, what will happen to my brother and sister?!
+I need to do what I can to protect both Cluain Bolg and my family![CloseEyes]
+This is the only choice I have to keep everyone safe.[OpenEyes]
+
+[OpenFarRight]
+...Then I'm coming too.
+I'm not letting you die.
+
+[OpenFarLeft]
+Fern, are you insane?!
+How'll you fight a war with a weapon you can't use?!
+
+[OpenFarRight]
+S[0xE9]tanta, be quiet!
+At least I'm going to fight!
+Even with your axe, you hide away like a coward!
+So yes, I wish to join you as well, Lady Sadhbh.
+Please forgive me.
+
+[OpenFarLeft]
+...I've got no other choice but to come with you two.[CloseEyes]
+We might as well die together.[OpenEyes]
+
+[OpenLeft][ToggleSmile]
+You are all very brave. You shall serve your nation well.
+Gather what you can for the road.
+We'll leave on the hour.[X]
+
+
+
+## P1C2GoodbyeFamily
+[ConversationText]
+[OpenLeft][LoadMiach]
+[OpenFarLeft][LoadAirmed]
+[OpenMidRight][LoadCethern]
+I'll need you to look after our grandfather together, both of you.
+I don't know how long I'll be gone, but I should be back eventually.[A]
+
+[OpenFarLeft]
+That's not fair at all!
+I'm coming with you Cethern!
+Miach thinks he's competent enough already to help with anything, so let him take care of grandpa!
+
+[OpenLeft]
+No! I want to come with Cethern too!
+He already said I could!
+
+[OpenMidRight]
+I need you both to stay here.
+The town's going to need your help.
+You'll be doing something just as valuable as fighting.[A]
+
+[OpenFarLeft]
+But Cethern...!
+
+[OpenFarFarLeft]
+Cethern...
+Please, come closer...
+  
+[OpenMidRight]
+...!
+Grandfather, what is it?
+
+[MoveRight][OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenMidLeft][LoadFace][0x59][0x1][ToggleSmile][MoveMidLeft]
+Cethern, you make me proud.
+Please take care out there...
+[OpenRight]
+I will, grandfather. Don't worry about me.
+You've trained me well enough.
+
+[OpenFarFarRight][LoadSadhbh][MoveFarRight]
+Sir MacCumail.
+I'll take care of your son.
+It is my duty to make sure no harm befalls him.
+I swear it upon Aingha herself.
+
+[OpenMidLeft]
+You have the attitude of a Crownflier...
+I trust you to have the strength.[MoveMidLeft]
+Now go. Show the Heichalotians that we cannot be slighted so easily...!
+
+[OpenRight]
+Thank you grandfather.
+Let's head out, Lady Sadhbh.[X]
+
+
+
+## P1C2ToCaerWydyr
+[ConversationText]
+[OpenFarFarRight][LoadSadhbh][MoveMidLeft][OpenMidLeft]
+It's a slow ride, isn't it?
+I would usually go faster than this.
+
+[OpenFarFarRight][LoadFerdiad][MoveFarRight][OpenFarRight]
+None of us have ridden outside of Caer Rigor before, Lady Sadhbh.
+The ground here is softer and wet.
+Please excuse our inexperience.
+
+[OpenFarFarRight][LoadCethern][MoveRight][OpenRight]
+What's happened since Heichalot declared war?
+I assume not much yet.
+
+[OpenMidLeft]
+We've heard of attacks organized from Caer Vedwyd, but nothing more.
+Trying to gather information is tricky, early as it is now.
+But it's salt in the wounds, planning invasion from our land.
+
+[OpenFarRight]
+Caer Vedwyd...
+That's where your father fought, yes Cethern?
+
+[OpenRight]
+That's right.[ToggleSmile]
+If he knew all this, maybe he would've came along.
+
+[OpenFarRight][ClearFace][LoadSetanta]
+He'd probably try to even his own score despite his age.
+I don't think he'd care if he died trying that.
+
+[OpenMidLeft][ToggleSmile]
+It's definitely a plan of some Caer Siddi nobles to plan a retaking of Caer Vedwyd.
+But for now, we're on the defensive.
+
+[OpenFarRight]
+We're startled with war, and all the nobles can think about are land grabs.[CloseEyes]
+I can't stand nobility at all.[OpenEyes]
+
+[OpenRight]
+S[0xE9]tanta, you know Lady Sadhbh is part of the nobility, right?
+Same with all of the Crownfliers.
+
+[OpenMidLeft]
+No, no. It's all okay.
+I have a distaste for nobles as well.
+It's not like they enjoy my company much either.
+
+[OpenFarRight][ToggleSmile]
+You're quite a knight then, Sadhbh.
+I think I actually like you.
+
+[OpenFarFarRight][ToggleSmile]
+Uh, everyone?
+I think we're being followed!
+
+[OpenMidLeft][ClearFace][LoadSadhbh]
+Ferdiad, huddle back in.
+Who would be following us...?
+
+[OpenFarRight]
+Sadhbh? She's gone.
+She ran back to see.
+
+[OpenMidLeft]
+...Are you kidding?!
+Ferdiad, I told you to huddle back![X]
+
+
+
+## P1C2MiachAppear
+[ConversationText]
+[OpenFarFarLeft][LoadFerdiad][MoveMidLeft]
+Come out from where you are!
+We know you're there!
+
+[OpenFarFarRight]
+Please don't hurt me!
+Please don't hurt me...
+
+[OpenMidLeft]
+Wait, that voice...
+It can't--!
+
+[LoadOverworldFaces][OpenMidRight][LoadMiach]
+I just wanted to come along!
+I'm so sorry!
+
+[OpenMidLeft]
+Miach?! What are you doing?![.....]
+And how did you follow us...?
+
+[OpenMidRight]
+You were all leaving, but Cethern wouldn't let me come along...
+But I'm strong enough!
+I know I'm strong enough!
+So I snuck out of town with Airmed, but she got caught.[MoveMidRight][ToggleSmile]
+But I didn't!
+So I chased after you! It helped that you were moving slowly, and I could sneak through the forest...
+
+[OpenFarFarLeft][ToggleSmile]
+Miach! What in the bearers' name are you doing here?!
+
+[OpenMidLeft][MoveLeft][OpenFarLeft][LoadCethern][OpenMidRight]
+Hi Cethern! Airmed says hi.
+She couldn't make it though.
+
+[OpenFarLeft]
+No. Miach, you need to head back.
+It's amazingly dangerous up here.
+
+[OpenLeft]
+Cethern...[.....][CloseEyes] 
+I think it would be more dangerous if we didn't take Miach with us...[OpenEyes]
+We're already a few hours away from Caer Rigor.
+It'd be tough to get back.
+
+[OpenMidRight]
+I can pull my own weight, Cethern!
+I won't get in your way, promise!
+
+[OpenFarLeft]
+...I don't have a choice then.
+You're staying with us.
+
+[OpenMidRight][ToggleSmile]
+Thank you so much Cethern!
+I'll make sure to--!
+
+[OpenFarLeft][ToggleSmile]
+But you're not getting involved in any fighting.
+You're not trained enough to fight, and you most likely didn't bring a weapon with you.
+Once we get to Caer Wydyr, you'll have to find a way to help out.
+
+[OpenMidRight]
+Aww, but...![.....][MoveMidRight][ToggleSmile] 
+Alright, I promise!
+I'll make you proud Cethern!
+
+[OpenFarFarLeft]
+Cethern![....] Fern![....]
+What's going on over there?!
+
+[OpenLeft][ToggleSmile]
+Don't worry, S[0xE9]tanta!
+It's just Miach!
+
+[OpenFarLeft]
+Alright Miach, you can get on my horse.
+Hold onto me tight, understood?
+
+[OpenMidRight]
+Understood![MoveMidRight]
+Let's go![X]
+
+
+
+## P1C2SadhbhWorry
+[ConversationText]
+[OpenFarFarRight][LoadSadhbh][MoveLeft][OpenLeft]
+We'll have to pass by this fortress to continue forwards to Caer Wydyr.
+[OpenLeft][MoveMidLeft][OpenMidLeft]
+Hmm? There's people up ahead.
+Everyone, hold for a moment.[X]
+
+
+
+## P1C2HarrassingATeenGirl
+[ConversationText]
+[OpenRight][LoadLalitha][OpenFarRight][LoadFace][0x4D][0x1][OpenMidLeft][LoadFace][0x31][0x1]
+What do we have here?[....][ToggleSmile]
+Usually the intruders we kill aren't waifs like you.
+Maybe you're old enough to beg for your life properly though?
+
+[OpenRight]
+That's quite a bold assumption.[....]
+Be glad I'm not destroying you where you stand.
+You're standing before the strongest, most powerful magician in Maghmeall!
+If I were you, I'd hand over this dusty fortress to me right now and scram.
+
+[OpenMidLeft]
+She's confident as well! I have a better idea then.
+Boys, do you think she'll fetch a pretty price in Myanchao?
+
+[OpenFarRight][ToggleSmile]
+She's looking from down south...
+Aye, should fetch a pretty coin!
+
+[OpenRight]
+Just try and lay a finger on me.
+I'll blast your head off your body![X]
+
+
+
+## P1C2BroYouJustKilledMyBestFriend
+[ConversationText]
+[OpenRight][LoadLalitha]
+[OpenFarRight][LoadFace][0x4C][0x01]
+[OpenMidLeft][LoadFace][0x31][0x1][ToggleSmile]
+That's a pretty trick you have there!
+Shame it just means we're gonna break you more before we ship you away!
+
+[OpenRight][MoveRight][ToggleSmile]
+Hey![....][MoveRight] 
+Let go of me![MoveRight]
+I might spare your lives!
+
+[OpenMidLeft]
+Put her in the cell. 
+Take her tome and be sure she doesn't slip away!
+
+[OpenFarRight]
+Understood boss![ToggleSmile]
+You'll sure line our pockets...[X]
+
+
+
+## P1C2Sad
+[ConversationText]
+[OpenMidLeft][LoadFace][0x31][0x1]
+Hmm...? I'm sensing the presence of someone else...[MoveMidLeft]
+Everyone come out! The waif may have friends![X]
+
+
+
+## P1C2LetsGoSaveTheWaif
+[ConversationText]
+[OpenMidLeft][LoadSadhbh]
+[OpenFarRight][LoadMiach]
+[OpenRight][LoadCethern]
+Excuse me for suggesting this, Sadhbh.
+I'm going to go save that girl.
+
+[OpenMidLeft][CloseEyes]
+Yet more bandits. What pathetic people.[OpenEyes]
+I will not oppose you, Cethern.
+I simply ask that caution is expressed.
+Death is a real possibility for any of us.
+
+[OpenRight]
+Thank you for the reminder, Sadhbh.
+Miach, I'll need you to hide away.
+We can't have you near us when we're fighting like this.
+
+[OpenFarRight]
+Cethern...![MoveFarRight]
+Fine, I promised.[CloseEyes]
+I'll just go hide around the corner of the fort...[ClearFace][......]
+
+[OpenRight][MoveRight]
+Ferdiad![....] S[0xE9]tanta![....]
+Let's move forward![X]
+
+
+
+## P1C2BlackNino
+[ConversationText]
+[OpenMidLeft][LoadLalitha][CloseEyes][ToggleSmile]
+They didn't notice... 
+That I was able to snatch the key from under their nose!
+[MoveMidRight][LoadOverworldFaces][OpenMidRight][OpenEyes]
+I cannot be stopped by a locked door!
+Behold the magician's true power![MoveMidRight][ToggleSmile]
+Huh?[MoveMidRight][MoveMidRight]
+No, no,[CloseEyes] no![....]
+I must've grabbed the wrong key!
+[OpenEyes][MoveMidLeft][LoadOverworldFaces][OpenMidLeft]
+Hmph! I'll just have to fight them once they let me out![CloseEyes]
+Buffoons...[X]
+
+
+
+## P1C2YetMoreDialogue
+[ConversationText]
+[OpenFarFarLeft][LoadBres][MoveMidLeft][OpenMidLeft][ToggleSmile]
+Phew... He almost saw me.
+I'll have to check out this side of the fortress as well.
+As long as I can find some information, this trip to Caer Golud will be perfect![MoveMidLeft][CloseEyes]
+I'm sorry, you petty bandits...[OpenEyes]
+This is for the sake of my people.[X]
+
+
+
+## P1C2BresCethern
+[ConversationText]
+[OpenMidRight][LoadCethern][OpenMidLeft][LoadBres][ToggleSmile]
+Excuse me! You don't look like any of the brigands running about.
+Are you trying to rout them too?
+
+[OpenMidRight][ToggleSmile]
+That would be my plan...[MoveMidRight]
+Sorry, who are you?
+
+[OpenMidLeft][ToggleSmile]
+You can simply call me Bres.
+It seems our goals align.
+We both seem well-versed in swordplay, so why don't we work together?
+
+[OpenMidRight][ToggleSmile]
+We're heading to Caer Wydyr as soon as we can afterwards.
+Fighting a war against Heichalot.
+Unless you want to become involved in that trouble, perhaps not.
+
+[OpenMidLeft]
+Heichalot?[....][ToggleSmile] Well, maybe an ally just for the time being then.
+We'll see where the road takes us when the bandits are gone.
+
+[OpenMidRight]
+Then it's good to have you on our side, Bres.
+Follow me![X]
+
+
+
+## P1C2LalithaFerdiad
+[ConversationText]
+[OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadLalitha]
+You foolish bandit! You'll...[MoveMidLeft][ToggleSmile]
+Oh, you're not that awful man!
+Thank you very much for saving me!
+My name is Lalitha Pancala, strongest magician in all of Maghmeall!
+I pledge myself to your cause until all of those terrible bandits are gone![.....][ToggleSmile]
+But[CloseEyes] I may need my tome back first...[X]
+
+
+
+## P1C2HelpMeCethern
+[ConversationText]
+[OpenFarRight][LoadFace][0x4D][0x1][OpenMidLeft][LoadMiach]
+Cethern...!
+Cethern, where are you?!
+Please help me Cethern!
+
+[OpenFarFarLeft]
+Miach!![X]
+
+
+
+## P1C2MiachYouDummy
+[ConversationText]
+[OpenMidLeft][LoadMiach]
+[OpenMidRight][LoadCethern]
+Miach, I told you to hide away!
+It's dangerous out here!
+
+[OpenMidLeft]
+I was hiding Cethern!
+They saw me between some rocks...
+
+[OpenMidRight]
+You need to be extremely careful if you're coming with us.
+This isn't just a game, Miach.[X]
+
+
+
+## P1C2SadhbhAlive
+[ConversationText]
+[OpenRight][LoadMiach]
+[OpenFarRight][LoadCethern]
+[OpenMidLeft][LoadSadhbh]
+Cethern!
+Are you both unharmed?!
+
+[FarRight]
+We're fine, thankfully.
+Have the bandits fled?
+
+[MidLeft]
+Indeed.[ToggleSmile] A successful rout.
+Let's gather inside and catch our breath before leaving again.[X]
+
+
+
+## P1C2FerdiadAlive
+[ConversationText]
+[OpenRight][LoadMiach]
+[OpenFarRight][LoadCethern]
+[OpenMidLeft][LoadFerdiad]
+Cethern!
+Have you seen Lady Sadhbh?
+I've looked everywhere inside, but she's nowhere to be found...!
+
+[FarRight]
+I haven't.[....][MoveFarRight]
+Don't tell me she's...!
+
+[MidLeft]
+I'll head back inside to look again.[CloseEyes]
+I don't know what we'd do if she...[X]
+
+
+
+## P1C2SetantaAlive
+[ConversationText]
+[OpenRight][LoadMiach]
+[OpenFarRight][LoadCethern]
+[OpenMidLeft][LoadSetanta]
+Cethern!
+Where is Fern?!
+
+[FarRight]
+I haven't seen her anywhere.
+Maybe she's still inside the fortress?
+
+[MidLeft]
+Dammit Cethern, I've checked everywhere inside and she's nowhere!
+
+[FarRight]
+She has to be somewhere.
+She couldn't just...[X]
+
+
+
+## P1C2NoOneAlive
+[ConversationText]
+[OpenMidLeft][LoadMiach]
+[OpenMidRight][LoadCethern]
+Miach, I told you to hide away!
+It's dangerous out here!
+
+[OpenMidLeft]
+I was hiding Cethern!
+They saw me between some rocks...
+
+[OpenMidRight]
+You need to be extremely careful if you're coming with us.
+This isn't just a game, Miach.
+
+[OpenMidLeft]
+Where's everyone else?
+Are they still inside?
+
+[OpenMidRight]
+...Head inside with me Miach.
+We need to talk about something.[X]
+
+
+
+## P1C2LalithaAndBres
+[ConversationText]
+[FarLeft][LoadBres]
+[Left][LoadLalitha]
+[OpenMidRight][LoadCethern]
+So you both helped us during the fight.
+What do you plan on doing now?
+
+[FarLeft]
+I'm trying to find a certain... someone.
+What's going on with Heichalot makes it harder to find them.
+If you're going to fight them, I'd join you until it's over.
+
+[Left]
+And I've already pledged myself to fend off those terrible bandits...
+From what I've heard, Heichalot is just another group of terrible bandits![ToggleSmile]
+Think of it as an extension.
+I'm coming with you too.
+
+[MidRight]
+If you're both absolutely sure, having you would be excellent.
+We'll leave for the camp once we've gotten back on our feet.[X]
+
+
+
+## P1C2LalithaOnly
+[ConversationText]
+[OpenMidRight][LoadCethern]
+[MidLeft][LoadLalitha]
+Excuse me! Mister!
+You're leaving soon?
+
+[MidRight]
+We're heading north to fight against Heichalot.
+There's been war declared.
+
+[MidLeft]
+I've heard about that...
+You should take me with you.
+I've pledged to stay until the bandits have been destroyed.[ToggleSmile]
+I think you may need someone of my skill!
+
+[MidRight]
+Someone with magical abilities would be excellent to have.
+If you truly wish to come, we'll head out in a few.[X]
+
+
+
+## P1C2BresOnly
+[ConversationText]
+[MidLeft][LoadBres]
+[OpenMidRight][LoadCethern]
+Bres, you said you would think on joining us to Heichalot.
+What are your thoughts on it?
+
+[MidLeft]
+I have no qualms with it.[ToggleSmile] 
+It would be much easier to find what I'm looking for if Heichalot isn't breathing down Corbenic's neck.
+
+[MidRight][ToggleSmile]
+What are you looking for that would be inside this fortress?
+
+[MidLeft]
+I'm looking for a specific someone.
+I haven't had much luck, though.
+Maybe I'll find them further north.
+
+[MidRight]
+Perhaps you will.
+We'll head out in a few.
+Gather yourself and be ready to leave.[X]
+
+
+
+## P1C2BresOnlyButLalitha
+[ConversationText]
+[MidLeft][LoadBres]
+[OpenMidRight][LoadCethern]
+Bres, you said you would think on joining us to Heichalot.
+What are your thoughts on it?
+
+[MidLeft]
+I have no qualms with it.[ToggleSmile] 
+It would be much easier to find what I'm looking for if Heichalot isn't breathing down Corbenic's neck.
+
+[MidRight][ToggleSmile]
+What are you looking for that would be inside this fortress?
+
+[MidLeft]
+I'm looking for a specific someone.
+I haven't had much luck, though.
+Maybe I'll find them further north.
+
+[MidRight]
+Perhaps you will.
+We'll head out in a few.
+Gather your-
+
+[FarFarLeft][LoadLalitha]
+Wait up there, both of you!
+You can't just leave me here!
+[MoveLeft][MidLeft][MoveFarLeft][Left][LoadOverworldFaces]
+I'm coming with you.
+It's better than staying in some moldy fort!
+
+[MidRight]
+You're the girl from earlier... Did you need something?
+
+[Left][ToggleSmile]
+I am Lalitha Pancala, strongest magician in all of Maghmeall!
+Taking me with you would be a wise decision, mister.
+My magical abilities are completely unparalleled!
+
+[FarLeft]
+If you're so strong, how did you get captured by them?
+
+[Left][ToggleSmile]
+Hmph![MoveLeft]
+I could've defeated them had I tried with more than-
+
+[MidRight]
+Lalitha. If you truly wish to come, I will not stop you.
+Just know we are headed to a battleground.
+
+[Left]
+I know and understand that!
+Why else would I say yes?
+
+[MidRight]
+Very well then.
+We'll leave in a few. Be ready.[ClearFace][......]
+
+[FarLeft][ToggleSmile]
+Tried with more than what, Lalitha?
+You didn't finish your sentence.
+
+[Left][ToggleSmile]
+I'm not talking to you, blueberry![ClearFace][......]
+
+[FarLeft]
+Blueberry...?[X]
+
+
+
+## P1C2ButLalitha
+[ConversationText]
+[OpenMidRight][LoadCethern]
+[FarFarLeft][LoadLalitha]
+Wait up there mister![MoveMidLeft][MidLeft]
+You're leaving soon?
+
+[MidRight]
+We're heading north to fight against Heichalot.
+Did you need something?
+
+[MidLeft]
+Well, of course I need something![.....][LoadOverworldFaces]
+I need you to take me with you!
+You can't leave me in this moldy fortress alone, can you?
+
+[MidRight]
+I saw you using magic earlier...
+Are you truly a magician?
+
+[MidLeft]
+Of course I am! You're talking to Lalitha Pancala, strongest mage in all of Maghmeall!
+I can blast anyone I wish down with my arcane might!
+
+[MidRight]
+Someone with those powers would be useful, but this is a war we are heading to fight.
+
+[MidLeft]
+I know and understand that!
+Why else would I say yes?
+
+[MidRight]
+...Very well then.[N]
+We'll leave in a few. Be ready.[X]
+
+
+
+## P1C2MiachOnly
+[ConversationText]
+[MidLeft][LoadCethern]
+[MidRight][LoadMiach]
+W[....]-Where is everyone, Cethern?
+They can't be...![.....][MoveMidRight]
+Say something!
+
+[MidLeft][CloseEyes]
+I'm sorry, Miach.[.....][OpenEyes]
+We're the only two that made it...
+
+[MidRight]
+Are we still going to Caer Wydyr?
+Even without everybody...?
+
+[MidLeft][CloseEyes]
+...[.....][OpenEyes]Yes. 
+Gather what you brought.
+We're still going to head for the camp.[X]

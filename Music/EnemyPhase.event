@@ -1,0 +1,1452 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	EnemyPhase_grp  voicegroup000
+	#define	EnemyPhase_pri  0
+	#define	EnemyPhase_rev  0
+	#define	EnemyPhase_mvl  127
+	#define	EnemyPhase_key  0
+	#define	EnemyPhase_tbs  1
+	#define	EnemyPhase_exg  0
+	#define	EnemyPhase_cmp  1
+
+	// .rodata
+	//	EnemyPhase
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+EnemyPhase_1:
+	BYTE	KEYSH   EnemyPhase_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   180*EnemyPhase_tbs/2
+	BYTE		VOICE   23
+	BYTE		VOL     54*EnemyPhase_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+EnemyPhase_1_B1:
+// 005   ----------------------------------------
+EnemyPhase_1_005:
+	BYTE		N44     Fs3   v100
+	BYTE		N44     Fs4 
+	BYTE	W48
+	BYTE		        Cs3 
+	BYTE		N44     Cs4 
+	BYTE	W48
+	BYTE	PEND
+// 006   ----------------------------------------
+EnemyPhase_1_006:
+	BYTE		N44     Bn2   v100
+	BYTE		N44     Bn3 
+	BYTE	W48
+	BYTE		        En3 
+	BYTE		N44     En4 
+	BYTE	W48
+	BYTE	PEND
+// 007   ----------------------------------------
+EnemyPhase_1_007:
+	BYTE		N05     Cs3   v100
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE	PEND
+// 008   ----------------------------------------
+EnemyPhase_1_008:
+	BYTE		N05     Cs3   v100
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Dn2 
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Dn2 
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_005
+// 010   ----------------------------------------
+EnemyPhase_1_010:
+	BYTE		N44     Gs3   v100
+	BYTE		N44     Gs4 
+	BYTE	W48
+	BYTE		        Cs3 
+	BYTE		N44     Cs4 
+	BYTE	W48
+	BYTE	PEND
+// 011   ----------------------------------------
+EnemyPhase_1_011:
+	BYTE		N05     Fs3   v100
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE		N05     Gs4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N05     An4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE		N05     Cs5 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE		N05     Gs4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N05     An4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE		N05     Cs5 
+	BYTE	W06
+	BYTE		N11     Bn3 
+	BYTE		N11     Bn4 
+	BYTE	W12
+	BYTE		        An3 
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE		N11     Gs4 
+	BYTE	W12
+	BYTE		        En3 
+	BYTE		N11     En4 
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+EnemyPhase_1_012:
+	BYTE		N05     Gs3   v100
+	BYTE		N05     Gs4 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Gs4 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE		N05     Gs4 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE		N05     En4 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE		N92     Cs3 
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		N32     Gs3 
+	BYTE		N32     Gs4 
+	BYTE	W36
+	BYTE		        An3 
+	BYTE		N32     An4 
+	BYTE	W36
+	BYTE		N23     Bn3 
+	BYTE		N23     Bn4 
+	BYTE	W24
+// 016   ----------------------------------------
+	BYTE		N32     An3 
+	BYTE		N32     An4 
+	BYTE	W36
+	BYTE		        Gs3 
+	BYTE		N32     Gs4 
+	BYTE	W36
+	BYTE		N23     En3 
+	BYTE		N23     En4 
+	BYTE	W24
+// 017   ----------------------------------------
+	BYTE		N32     Fs3 
+	BYTE		N32     Fs4 
+	BYTE	W36
+	BYTE		        Cs3 
+	BYTE		N32     Cs4 
+	BYTE	W36
+	BYTE		N23     Bn2 
+	BYTE		N23     Bn3 
+	BYTE	W24
+// 018   ----------------------------------------
+	BYTE		N32     En3 
+	BYTE		N32     En4 
+	BYTE	W36
+	BYTE		        An2 
+	BYTE		N32     An3 
+	BYTE	W36
+	BYTE		N23     Gs2 
+	BYTE		N23     Gs3 
+	BYTE	W24
+// 019   ----------------------------------------
+	BYTE		N92     An2 
+	BYTE		N92     An3 
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE		N92     Bn3 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        Cs3 
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_005
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_006
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_007
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_008
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_005
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_010
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_011
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_012
+// 031   ----------------------------------------
+EnemyPhase_1_031:
+	BYTE		N44     Gs3   v100
+	BYTE		N44     Gs4 
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE		N44     Ds4 
+	BYTE	W48
+	BYTE	PEND
+// 032   ----------------------------------------
+	BYTE		        Cs3 
+	BYTE		N44     Cs4 
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE		N44     Fs4 
+	BYTE	W48
+// 033   ----------------------------------------
+	BYTE		N05     Ds3 
+	BYTE		N05     Ds4 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     As3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE		N05     Ds4 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     As3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     As3 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     As3 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE	W06
+// 034   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE		N05     Ds4 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     As3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE		N05     Ds4 
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     As3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_031
+// 036   ----------------------------------------
+	BYTE		N44     As3   v100
+	BYTE		N44     As4 
+	BYTE	W48
+	BYTE		        Ds3 
+	BYTE		N44     Ds4 
+	BYTE	W48
+// 037   ----------------------------------------
+	BYTE		N05     Gs3 
+	BYTE		N05     Gs4 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE		N05     As4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE		N05     Ds5 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE		N05     Gs4 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE		N05     As4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE		N05     Bn4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE		N05     Ds5 
+	BYTE	W06
+	BYTE		N11     Cs4 
+	BYTE		N11     Cs5 
+	BYTE	W12
+	BYTE		        Bn3 
+	BYTE		N11     Bn4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE		N11     As4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N11     Fs4 
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE		N92     Ds3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_005
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_006
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_007
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_008
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_005
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_010
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_1_011
+// 046   ----------------------------------------
+	BYTE		N23     Gs3   v100
+	BYTE		N23     Gs4 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE		N23     Fs4 
+	BYTE	W24
+	BYTE		        En3 
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N23     Ds4 
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	EnemyPhase_1_B1
+EnemyPhase_1_B2:
+// 047   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+EnemyPhase_2:
+	BYTE	KEYSH   EnemyPhase_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   14
+	BYTE		VOL     35*EnemyPhase_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+EnemyPhase_2_B1:
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE		N92     Cs3   v100
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE		        Cs3 
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE		        Bn2 
+	BYTE		N92     Bn3 
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE		        Cs3 
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE		N92     Gs4 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        An3 
+	BYTE		N92     An4 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE		N92     Bn4 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE		        Cs3 
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE		        En3 
+	BYTE		N92     En4 
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE		        An3 
+	BYTE		N92     An4 
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE		N92     Gs4 
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE		        En3 
+	BYTE		N92     En4 
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE		TIE     Ds3 
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 033   ----------------------------------------
+	BYTE		TIE     Fn3 
+	BYTE		TIE     Fn4 
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fn3 
+	BYTE		        Fn4 
+	BYTE	W01
+// 035   ----------------------------------------
+	BYTE		N92     Fs3 
+	BYTE		N92     Fs4 
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE		N92     Fn4 
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE		N44     Fs3 
+	BYTE		N44     Fs4 
+	BYTE	W48
+	BYTE		        Fn3 
+	BYTE		N44     Fn4 
+	BYTE	W48
+// 038   ----------------------------------------
+	BYTE		N92     Ds3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	EnemyPhase_2_B1
+EnemyPhase_2_B2:
+// 047   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+EnemyPhase_3:
+	BYTE	KEYSH   EnemyPhase_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   51
+	BYTE		VOL     35*EnemyPhase_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+EnemyPhase_3_B1:
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE		N92     Cs1   v100
+	BYTE		N92     Cs2 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		        Ds1 
+	BYTE		N92     Ds2 
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		        Fs1 
+	BYTE		N92     Fs2 
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE		        Cs1 
+	BYTE		N92     Cs2 
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE		        Bn0 
+	BYTE		N92     Bn1 
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE		        Cs1 
+	BYTE		N92     Cs2 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		        Fs1 
+	BYTE		N92     Fs2 
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE		        Gs1 
+	BYTE		N92     Gs2 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        An1 
+	BYTE		N92     An2 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        Bn1 
+	BYTE		N92     Bn2 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE		        Cs1 
+	BYTE		N92     Cs2 
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE		        Ds1 
+	BYTE		N92     Ds2 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE		        En1 
+	BYTE		N92     En2 
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE		        Fs1 
+	BYTE		N92     Fs2 
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE		        An1 
+	BYTE		N92     An2 
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE		        Gs1 
+	BYTE		N92     Gs2 
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE		        Fs1 
+	BYTE		N92     Fs2 
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE		        En1 
+	BYTE		N92     En2 
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE		TIE     Ds1 
+	BYTE		TIE     Ds2 
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds1 
+	BYTE		        Ds2 
+	BYTE	W01
+// 033   ----------------------------------------
+	BYTE		TIE     Fn1 
+	BYTE		TIE     Fn2 
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fn1 
+	BYTE		        Fn2 
+	BYTE	W01
+// 035   ----------------------------------------
+	BYTE		N92     Fs1 
+	BYTE		N92     Fs2 
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE		        Fn1 
+	BYTE		N92     Fn2 
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE		N44     Fs1 
+	BYTE		N44     Fs2 
+	BYTE	W48
+	BYTE		        Fn1 
+	BYTE		N44     Fn2 
+	BYTE	W48
+// 038   ----------------------------------------
+	BYTE		N92     Ds1 
+	BYTE		N92     Ds2 
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	EnemyPhase_3_B1
+EnemyPhase_3_B2:
+// 047   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+EnemyPhase_4:
+	BYTE	KEYSH   EnemyPhase_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     66*EnemyPhase_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N11     Cs1   v100
+	BYTE		N11     Cs2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W12
+	BYTE		        Cs1 
+	BYTE		N11     Cs2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W12
+// 001   ----------------------------------------
+EnemyPhase_4_001:
+	BYTE		N11     Cs1   v100
+	BYTE		N11     Cs2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W12
+	BYTE		        Cs1 
+	BYTE		N11     Cs2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE		N11     En2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+EnemyPhase_4_B1:
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 031   ----------------------------------------
+EnemyPhase_4_031:
+	BYTE		N11     Ds1   v100
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE		N11     Fs2 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE		N11     Fn2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Gs2 
+	BYTE	W12
+	BYTE	PEND
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_031
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_031
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_031
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_031
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_031
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_031
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_031
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_4_001
+	BYTE	GoTo
+	 POIN2	EnemyPhase_4_B1
+EnemyPhase_4_B2:
+// 047   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+EnemyPhase_5:
+	BYTE	KEYSH   EnemyPhase_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     66*EnemyPhase_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N11     Cn1   v100
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N23     Ds1 
+	BYTE	W06
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 001   ----------------------------------------
+EnemyPhase_5_001:
+	BYTE		N11     Cn1   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N23     Dn1 
+	BYTE	W06
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N23     Dn1 
+	BYTE	W06
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+EnemyPhase_5_002:
+	BYTE		N11     Cn1   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N23     Dn1 
+	BYTE	W06
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N23     Dn1 
+	BYTE	W06
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+EnemyPhase_5_003:
+	BYTE		N11     Cn1   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE		N23     Dn1 
+	BYTE	W12
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N23     Dn1 
+	BYTE	W06
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 004   ----------------------------------------
+EnemyPhase_5_004:
+	BYTE		N11     Cn1   v100
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N23     Dn1 
+	BYTE	W06
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N23     Dn1 
+	BYTE		N23     Ds1 
+	BYTE	W06
+	BYTE		N05     Cn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+EnemyPhase_5_B1:
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_001
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_002
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_003
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	EnemyPhase_5_004
+	BYTE	GoTo
+	 POIN2	EnemyPhase_5_B1
+EnemyPhase_5_B2:
+// 047   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+EnemyPhase:
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	EnemyPhase_pri	// Priority
+	BYTE	EnemyPhase_rev	// Reverb.
+
+	POIN2	EnemyPhase_grp
+
+	POIN2	EnemyPhase_1
+	POIN2	EnemyPhase_2
+	POIN2	EnemyPhase_3
+	POIN2	EnemyPhase_4
+	POIN2	EnemyPhase_5
+
+	

@@ -1,0 +1,191 @@
+#define ConversationBGTable $95DD1C
+#define SetConvoBackground(Index, ImagePointer, TSAPointer, PalettePointer) "PUSH; ORG ConvoBackgroundTable + (Index * 0xC); POIN ImagePointer TSAPointer PalettePointer; POP"
+
+SparseForestImage:
+#incbin "SparseForestImage.bin"
+
+SparseForestTSA:
+#incbin "SparseForestTSA.bin"
+
+SparseForestPalette:
+#incbin "SparseForestPalette.bin"
+
+VillageGateImage:
+#incbin "VillageGateImage.bin"
+
+VillageGateTSA:
+#incbin "VillageGateTSA.bin"
+
+VillageGatePalette:
+#incbin "VillageGatePalette.bin"
+
+ForestOutskirtsImage:
+#incbin "ForestOutskirtsImage.bin"
+
+ForestOutskirtsTSA:
+#incbin "ForestOutskirtsTSA.bin"
+
+ForestOutskirtsPalette:
+#incbin "ForestOutskirtsPalette.bin"
+
+InsideBrightHouseImage:
+#incbin "InsideBrightHouseImage.bin"
+
+InsideBrightHouseTSA:
+#incbin "InsideBrightHouseTSA.bin"
+
+InsideBrightHousePalette:
+#incbin "InsideBrightHousePalette.bin"
+
+LakesideImage:
+#incbin "LakesideImage.bin"
+
+LakesideTSA:
+#incbin "LakesideTSA.bin"
+
+LakesidePalette:
+#incbin "LakesidePalette.bin"
+
+InsideBrightHouse2Image:
+#incbin "InsideBrightHouse2Image.bin"
+
+InsideBrightHouse2TSA:
+#incbin "InsideBrightHouse2TSA.bin"
+
+InsideBrightHouse2Palette:
+#incbin "InsideBrightHouse2Palette.bin"
+
+ForestPathImage:
+#incbin "ForestPathImage.bin"
+
+ForestPathTSA:
+#incbin "ForestPathTSA.bin"
+
+ForestPathPalette:
+#incbin "ForestPathPalette.bin"
+
+FortInteriorImage:
+#incbin "FortInteriorImage.bin"
+
+FortInteriorTSA:
+#incbin "FortInteriorTSA.bin"
+
+FortInteriorPalette:
+#incbin "FortInteriorPalette.bin"
+
+OutsideHouseImage:
+#incbin "OutsideHouseImage.bin"
+
+OutsideHouseTSA:
+#incbin "OutsideHouseTSA.bin"
+
+OutsideHousePalette:
+#incbin "OutsideHousePalette.bin"
+
+BlackImage:
+#incbin "BlackImage.bin"
+
+BlackTSA:
+#incbin "BlackTSA.bin"
+
+BlackPalette:
+#incbin "BlackPalette.bin"
+
+FortRealImage:
+#incbin "ForRealFortInsideImage.bin"
+
+FortRealTSA:
+#incbin "ForRealFortInsideTSA.bin"
+
+FortRealPalette:
+#incbin "ForRealFortInsidePalette.bin"
+
+ArmyCampImage:
+#incbin "ArmyCampImage.bin"
+
+ArmyCampTSA:
+#incbin "ArmyCampTSA.bin"
+
+ArmyCampPalette:
+#incbin "ArmyCampPalette.bin"
+
+VillageImage:
+#incbin "VillageImage.bin"
+
+VillageTSA:
+#incbin "VillageTSA.bin"
+
+VillagePalette:
+#incbin "VillagePalette.bin"
+
+WarriorTentImage:
+#incbin "WarriorTentImage.bin"
+
+WarriorTentTSA:
+#incbin "WarriorTentTSA.bin"
+
+WarriorTentPalette:
+#incbin "WarriorTentPalette.bin"
+
+Village2Image:
+#incbin "Village2Image.bin"
+
+Village2TSA:
+#incbin "Village2TSA.bin"
+
+Village2Palette:
+#incbin "Village2Palette.bin"
+
+ForestMorningImage:
+#incbin "ForestMorningImage.bin"
+
+ForestMorningTSA:
+#incbin "ForestMorningTSA.bin"
+
+ForestMorningPalette:
+#incbin "ForestMorningPalette.bin"
+
+TavernImage:
+#incbin "TavernImage.bin"
+
+TavernTSA:
+#incbin "TavernTSA.bin"
+
+TavernPalette:
+#incbin "TavernPalette.bin"
+
+ThroneRoomNightImage:
+#incbin "ThroneRoomNightImage.bin"
+
+ThroneRoomNightTSA:
+#incbin "ThroneRoomNightTSA.bin"
+
+ThroneRoomNightPalette:
+#incbin "ThroneRoomNightPalette.bin"
+
+ForestImage:
+#incbin "ForestImage.bin"
+
+ForestTSA:
+#incbin "ForestTSA.bin"
+
+ForestPalette:
+#incbin "ForestPalette.bin"
+
+HealerTentImage:
+#incbin "HealerTentImage.bin"
+
+HealerTentTSA:
+#incbin "HealerTentTSA.bin"
+
+HealerTentPalette:
+#incbin "HealerTentPalette.bin"
+
+CaravanImage:
+#incbin "CaravanImage.bin"
+
+CaravanTSA:
+#incbin "CaravanTSA.bin"
+
+CaravanPalette:
+#incbin "CaravanPalette.bin"

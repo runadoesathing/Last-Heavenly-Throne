@@ -1,0 +1,389 @@
+EventPointerTable(0x7, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN UnitsP UnitsP  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x1A OhNoTheyreHere [1, 255] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0xA, TalkEventCS, Cethern, Setanta)
+CharacterEventBothWays(0xB, TalkEventCF, Cethern, Ferdiad)
+CharacterEventBothWays(0xC, TalkEventSF, Setanta, Ferdiad)
+END_MAIN
+
+LocationBasedEvents:
+House(0x0,House1Boy,14,4)
+House(0x0,House2Boy,8,8)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AREA 0xf UhOh [0,0] [8,4]
+AREA 0xf UhOh2 [0,5] [8,9]
+AFEV 0 EndingScene 0x16
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+UnitsP:
+UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA14R8 [IronSword, Vulnerary] [0x0,0x0,0x0,0x0]
+UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA12R9 [IronAxe] [0x0,0x0,0x0,0x0]
+UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA13R9 [IronBow, Vulnerary] [0x0,0x0,0x0,0x0]
+UNIT
+
+CutscenePeople:
+UNIT 0x80 EirikaLord 0x1 Level(1, Ally, 0)    [2,3] 0x0 0x0 0x1 REDA4R2 [0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x81 AxeCav 0x1 Level(1, Ally, 0)        [2,3] 0x0 0x0 0x1 REDA5R2 [0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x82 BowCav 0x1 Level(1, Ally, 0)        [2,3] 0x0 0x0 0x1 REDA4R3 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+SaivePeople:
+UNIT Sadhbh 0x49 0x1 Level(0, Ally, 0)    [9,0] 0x0 0x0 0x1 REDA7R2 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+EnemyUnits:
+UNIT 0x68 Fighter 0x68 Level(3, Enemy, 1)    [2,3] 0 0 0 0 [HandAxe] NeverMoveAI
+UNIT
+
+EnemyElse:
+UNIT 0x80 Brigand 0x68 Level(1, Enemy, 1)        [0,8] 0 0 1 REDA6R1 [IronAxe] [0x0,0x0,0x4,0x0]
+UNIT 0x80 AxeCav 0x68 Level(1, Enemy, 1)         [0,9] 0 0 1 REDA1R7 [IronAxe] AttackInRangeAI
+UNIT 0x81 Soldier 0x68 Level(1, Enemy, 1)        [0,8] 0 0 1 REDA12R3 [IronLance] AttackInRangeAI
+UNIT 0x80 LanceKnight 0x68 Level(1, Enemy, 1)    [0,9] DropItem 0 1 REDA8R6 [IronLance] NeverMoveAI
+UNIT 0x80 Brigand 0x68 Level(1, Enemy, 1)        [0,9] 0 0 1 REDA4R8 [IronAxe] AttackInRangeAI
+UNIT 0x80 Fighter 0x68 Level(1, Enemy, 1)        [0,9] 0 0 1 REDA11R7 [IronAxe] AttackInRangeAI
+UNIT 0x80 Archer 0x68 Level(1, Enemy, 1)         [0,8] 0 0 1 REDA5R4 [IronBow] AttackInRangeAI
+UNIT
+
+ReinforcementsBroH:
+UNIT 0x80 BowCav 0x68 Level(2, Enemy, 1)    [13,0] 0 0 0x1 REDA13R0 [SlimBow] [0x0,0x0,0x4,0x0]
+UNIT 0x80 Soldier 0x68 Level(1, Enemy, 1)    [12,0] 0 0 0x1 REDA12R0 [IronLance] [0x0,0x0,0x4,0x0]
+UNIT
+
+ReinforcementsBro:
+UNIT 0x80 Archer 0x68 Level(1, Enemy, 1)    [13,0] 0 0 0x1 REDA13R0 [SlimBow] [0x0,0x0,0x4,0x0]
+UNIT 0x80 Soldier 0x68 Level(1, Enemy, 1)    [12,0] 0 0 0x1 REDA12R0 [IronLance] [0x0,0x0,0x4,0x0]
+UNIT
+
+ReinforcementsBroDownH:
+UNIT 0x80 BowCav 0x68 Level(2, Enemy, 1)    [13,9] 0 0 0x1 REDA13R9 [SlimBow] [0x0,0x0,0x4,0x0]
+UNIT 0x80 Soldier 0x68 Level(1, Enemy, 1)    [12,9] 0 0 0x1 REDA12R9 [IronLance] [0x0,0x0,0x4,0x0]
+UNIT
+
+ReinforcementsBroDown:
+UNIT 0x80 Archer 0x68 Level(1, Enemy, 1)    [13,9] 0 0 0x1 REDA13R9 [SlimBow] [0x0,0x0,0x4,0x0]
+UNIT 0x80 Soldier 0x68 Level(1, Enemy, 1)    [12,9] 0 0 0x1 REDA12R9 [IronLance] [0x0,0x0,0x4,0x0]
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+SetBackground(0x35)
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
+STAL 120
+TUTORIALTEXTBOXSTART
+TEXTSHOW ShallYouSkip
+TEXTEND
+REMA
+STAL 120
+MUSC 0x5
+SetBackground(0x34)
+STAL 60
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW MaghmeallIntro
+TEXTEND
+REMA
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW MaghmeallTwo
+TEXTEND
+REMA
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW MaghmeallThree
+TEXTEND
+REMA
+MUSCMID 0x7FFF //fades out the music
+FADI 3
+STAL 120
+EnterStop
+MUSC 0x52
+SetBackground(0x22)
+TEXTSTART
+TEXTSHOW PrologueInTheForest
+TEXTEND
+MUSC 0x24
+TEXTCONT // for loadoverworldfaces
+TEXTEND
+REMA
+FADI 16
+CLEAN
+LOAD1 0x1 EnemyUnits
+FADU 16
+STAL 60
+BROWNBOXTEXT CaerRigor [8,8] // box in the top right that's pretty cool for small text
+STAL 60
+LOAD1 0x1 UnitsP
+CUMO [14,8] // loads a cursor
+STAL 60
+CURE // removes the cursor
+Text(P1C1BanditNotice)
+STAL 30
+CUMO [2,3] // loads a cursor
+STAL 90
+CURE // removes the cursor
+MUSC 0x25
+Text(0x3,P1C1AnluanHere)
+STAL 30
+LOAD1 0x1 EnemyElse
+ENUN
+CUMO [13,9] // loads a cursor
+STAL 60
+CURE // removes the cursor
+TEXTSTART
+TEXTSHOW P1C1RealBanditNotice
+TEXTEND
+MUSC 0x9
+TEXTCONT // for loadoverworldfaces
+TEXTEND
+REMA
+NoFade
+ENDA
+
+EndingScene:
+MUSC 0x31
+CUMO Cethern // loads a cursor
+STAL 60
+CURE // removes the cursor
+TEXTSTART
+TEXTSHOW P1C1Hooray
+TEXTEND
+REMA
+FADI 5
+SetBackground(0x3)
+TEXTSTART
+TEXTSHOW P1C1WeDidIt
+TEXTEND
+REMA
+MUSCMID 0x7FFF // fades out the music
+FADI 3
+SetBackground(0x1)
+MUSC 0x2A
+TEXTSTART
+TEXTSHOW P1C1MiachAirmedCethern
+TEXTEND
+REMA
+MUSCMID 0x7FFF // fades out the music
+FADI 4
+EnterStop
+CLEAN // removes the background
+CLEA 0x0 // removes all player units
+CLEE 0x0 // removes all enemy units
+CLEN 0x0 // removes all npc units
+FADU 4
+STAL 15
+BROWNBOXTEXT LaterThatDay [8,8] // box in the top right that's pretty cool for small text
+STAL 60
+LOAD2 0x1 CutscenePeople
+ENUN
+STAL 10
+CUMO [4,2] // loads a cursor
+STAL 60
+CURE // removes the cursor
+FADI 16
+SetBackground(0x4)
+MUSC 0x52
+TEXTSTART
+TEXTSHOW P1C1Heichalot
+TEXTEND
+REMA
+FADI 16
+CLEAN
+FADU 16
+STAL 30
+LOAD2 0x0 SaivePeople
+ENUN
+CUMO [7,2] // loads a cursor
+STAL 60
+CURE // removes the cursor
+FADI 16
+SetBackground(0x4)
+TEXTSTART
+TEXTSHOW P1C1SadhbhHere
+TEXTEND
+MUSC 0x28
+TEXTCONT // forloadoverworldfaces
+TEXTEND
+MUSC 0x52
+TEXTCONT // forloadoverworldfaces
+TEXTEND
+REMA
+FADI 4
+MNC2 0x1
+CLEAN
+NoFade
+ENDA
+
+House1Boy:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideMapHouse // decides background 
+SVAL 0x3 P1C1House1Text // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
+NoFade
+ENDA
+
+House2Boy:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideMapHouse // decides background 
+SVAL 0x3 P1C1House2Text // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
+NoFade
+ENDA
+
+UhOh:
+SVAL 0x2 0x0
+CALL 0x9EE1B8 // this and sval check if the unit triggering the area is a player unit
+CUMO Anluan // loads a cursor
+STAL 60
+CURE // removes the cursor
+TEXTSTART
+TEXTSHOW ReinforcementWarningWarningWarning
+TEXTEND
+REMA
+SVAL 0x1 0x00040000 // sets ai to [0x0,0x0,0x4,0x0] (pursue without heed)
+CHAI 0x80 // changes the ai of 0x80
+SVAL 0x1 0x00040000 // sets ai to [0x0,0x0,0x4,0x0] (pursue without heed)
+CHAI 0x81 // changes the ai of 0x81
+SVAL 0x1 0x20040303 // sets ai to [0x3,0x3,0x4,0x20] (never move)
+CHAI [8,6] // changes the ai of this coordinate
+NoFade
+ENDA
+
+UhOh2:
+SVAL 0x2 0x0
+CALL 0x9EE1B8 // this and sval check if the unit triggering the area is a player unit
+CUMO Anluan // loads a cursor
+STAL 60
+CURE // removes the cursor
+TEXTSTART
+TEXTSHOW ReinforcementWarningWarningWarning
+TEXTEND
+REMA
+SVAL 0x1 0x00040000 // sets ai to [0x0,0x0,0x4,0x0] (pursue without heed)
+CHAI 0x80 // changes the ai of 0x80
+SVAL 0x1 0x00040000 // sets ai to [0x0,0x0,0x4,0x0] (pursue without heed)
+CHAI 0x81 // changes the ai of 0x81
+SVAL 0x1 0x20040303 // sets ai to [0x3,0x3,0x4,0x20] (never move)
+CHAI [8,6] // changes the ai of this coordinate
+ENUT 0x13
+NoFade
+ENDA
+
+TalkEventCS:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+TEXTSHOW P1C1CSTalk
+TEXTEND
+REMA
+MUNO // increases music volume
+NoFade
+ENDA
+
+TalkEventCF:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+TEXTSHOW P1C1CFTalk
+TEXTEND
+REMA
+MUNO // increases music volume
+NoFade
+ENDA
+
+TalkEventSF:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+TEXTSHOW P1C1SFTalk
+TEXTEND
+REMA
+MUNO // increases music volume
+NoFade
+ENDA
+
+OhNoTheyreHere:
+CHECK_EVENTID 0xF // check if flag 0xF is on
+BEQ 0x0 0x0 0xC // if flag 0xF is not on, jump to label 0x0
+	CHECK_EVENTID 0x13 // check if flag 0x13 is on
+	BEQ 0x52 0x0 0xC // if flag 0x13 is not on, jump to label 0x52
+		CHECK_HARD
+		BEQ 0x51 0xC 0x0 // if game isn't on hard, jump to label 0x51
+			LOAD1 0x1 ReinforcementsBroH
+			ENUN
+			GOTO 0x2
+		LABEL 0x51
+			LOAD1 0x1 ReinforcementsBro
+			ENUN
+			STAL 60
+			GOTO 0x2
+	LABEL 0x52
+		CHECK_HARD
+		BEQ 0x56 0xC 0x0 // if game isn't on hard, jump to label 0x56
+			LOAD1 0x1 ReinforcementsBroDownH
+			ENUN
+			GOTO 0x2
+		LABEL 0x56
+			LOAD1 0x1 ReinforcementsBroDown
+			ENUN
+			STAL 60
+			GOTO 0x2
+LABEL 0x0
+    ENUF 0x1A
+	GOTO 0x1
+LABEL 0x2
+	CUMO Cethern // loads a cursor
+	STAL 60
+	CURE // removes the cursor
+	TEXTSTART
+	TEXTSHOW P1C1PincerAttack
+	TEXTEND
+	REMA
+LABEL 0x1
+NoFade
+ENDA

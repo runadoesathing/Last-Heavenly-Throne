@@ -1,0 +1,685 @@
+## BanditBQ
+[BattleText]
+[OpenMidLeft][LoadFace][0x30][0x1]What's this? A group of[N]
+children have come to play?[A][N]
+I'll break those toys you call[N]
+weapons under my boot![A][X]
+
+
+
+## BanditDQ
+[BattleText]
+[OpenMidLeft][LoadFace][0x30][0x1]Impossible...!
+I...[CloseEyes] cannot be bested...[X]
+
+
+
+## PrologueInTheForest
+[ConversationText]
+[OpenLeft][LoadFerdiad][OpenEyes]
+You stay there, Gontia.
+I'm only here to practice for a bit.
+Alright, what was the procedure?
+Focus... Allow the wind to show you its method, its own behaviour.[AN]
+... Aim your bow.
+One eye on the target, and one on the wind.[......]
+And then there was another step,[MoveLeft][CloseEyes] but I can't remember it! Ugh!
+
+[OpenFarFarRight]
+Hey Fern! Your pa was looking for you! What are you doing out here?
+
+[OpenLeft][OpenEyes][MoveMidLeft][OpenMidLeft]
+S[0xE9]tanta! Were you watching me?!
+And please don't call me that...
+[LoadOverworldFaces]
+
+[OpenFarFarRight][LoadSetanta][MoveFarRight][OpenFarRight][ToggleSmile]
+Oh come on, it's only fourteen years of it.
+You can't be sick of the name yet!
+
+[OpenMidLeft][ToggleSmile][CloseEyes]
+I am sick of it, shockingly.[OpenEyes]
+Now could you please go away?
+I'm trying to practice my archery.
+
+[OpenFarRight][ToggleSmile]
+Archery, huh?
+You're really sticking with it.
+So who are you trying to impress, your parents or Cethern?
+
+[OpenMidLeft][ToggleSmile]
+Leave![......]
+Though... if you've gotta ask,[CloseEyes] it's Cethern.[OpenEyes]
+You and him have been showing off sparring in town, and I've got nothing to show for it but my horse riding.
+I've gotta pick up a weapon soon, and this one's coming the easiest.
+
+[OpenFarFarRight]
+So you were trying to impress me?
+I'd say you were doing a good job.
+
+[OpenMidLeft]
+Cethern, are you there too?!
+
+[OpenFarFarRight][LoadCethern][MoveRight][OpenRight]
+We were gonna deliver the news sooner, but I wanted to see how you were doing.[ToggleSmile]
+Not bad for just having picked it up.
+
+[OpenMidLeft][ToggleSmile][CloseEyes]
+Why do you both have to torture me like this...[OpenEyes]
+
+[OpenFarRight][ToggleSmile]
+Hey, it's a compliment from Cethern.
+Isn't that a good thing?
+
+[OpenRight][ToggleSmile]
+S[0xE9]tanta, you don't have to tease her that much.
+Past that, we should probably head back to town soon.
+Don't wanna keep your father waiting too long for us.
+
+[OpenFarRight][ToggleSmile]
+Spoken like a true knight.
+
+[OpenRight][CloseEyes]
+So I'm not safe from your jabs, either...[A][X]
+
+
+
+## P1C1BanditNotice
+[ConversationText]
+[OpenFarFarRight][LoadCethern][MoveMidLeft][OpenMidLeft]
+That's interesting. It looks like someone's at the town gate.
+
+[OpenRight][LoadSetanta][OpenFarRight][LoadFerdiad]
+He wasn't there when you both left?[A]
+
+[OpenRight]
+I didn't see anyone. What's going on?[A][X]
+
+
+
+## P1C1AnluanHere
+[ConversationText]
+[OpenLeft][LoadFace][0x5A][0x1][OpenMidRight][LoadFace][0x30][0x1]
+To think a town like this would be such easy pickings...
+I guess the crown really is busy with everything else!
+Give us all you got or we'll burn this place down![A]
+
+[OpenLeft][CloseEyes]
+How did we leave ourselves so open to this...?[OpenEyes]
+We'll give what we have.
+Just don't hurt any of us.
+
+[OpenMidRight]
+Of course you will!
+Start collecting it now![ClearFace][......]
+
+[OpenFarFarLeft][LoadFace][0x61][0x1][MoveFarLeft][OpenFarLeft]
+I tried finding Cethern and S[0xE9]tanta, but their horses are gone!
+
+[OpenLeft]
+What about Ferdiad or A[0xED]fe?
+There has to be someone who can help![X]
+
+
+
+## P1C1RealBanditNotice
+[ConversationText]
+[OpenMidLeft][LoadCethern][OpenRight][LoadSetanta][OpenFarRight][LoadFerdiad]
+Oh no!
+Those are brigands!
+
+[OpenRight]
+They must have saw us leave town and barged in.
+Dammit![MoveRight][CloseEyes] We should've seen this coming![OpenEyes]
+
+[OpenMidLeft]
+Calm down.
+If they're only brigands, they're probably untrained.
+We can most likely take them out with the three of us.
+
+[OpenRight]
+The three of us?!
+Do you not notice we're completely outnumbered?!
+
+[OpenFarRight]
+Cethern's right.
+Our families are in danger the longer we stay watching them.
+
+[OpenRight]
+You barely know how to use that bow, Fern!
+You could die!
+
+[OpenMidLeft][......]
+S[0xE9]tanta, stay close by me.
+Ferdiad, stay in the back.[MoveMidLeft][OpenMidLeft][LoadOverworldFaces]
+None of us are going to die.
+I won't allow it. Now come on, let's get moving![X]
+
+
+
+## P1C1House1Text
+[ConversationText]
+[OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadFace][0x60][0x1]
+Eh? You're telling me there's bandits out there?!
+We haven't gotten those in forever! Thanks for the warning.[MoveMidLeft]
+Say, you must be from Cluain Bolg!
+Stop by some time again and I'll make you stew as thanks![X]
+
+
+
+## P1C1House2Text
+[ConversationText]
+[OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadFace][0x58][0x1]
+Brigands?
+Why am I not surprised?
+We're so far away from the capital that it'd be shocking to get any actual protection or care from them.
+But at the same time, we don't usually need it...[X]
+
+
+
+## P1C1CSTalk
+[ConversationText]
+[OpenMidRight][LoadSetanta][OpenMidLeft][LoadCethern]
+This isn't like you S[0xE9]tanta.
+You're fighting with us?
+
+[OpenMidRight]
+It's Fern.[N]
+If she got hurt, I don't know what I'd do.
+As long as she's out here, I gotta stay.
+
+[OpenMidLeft][ToggleSmile]
+That's quite noble.
+Or maybe it's something else...?
+
+[OpenMidRight][ToggleSmile]
+Cethern, if you finish that thought, I will join the brigands.[X]
+
+
+
+## P1C1CFTalk
+[ConversationText]
+[OpenMidRight][LoadFerdiad][OpenMidLeft][LoadCethern]
+Ferdiad.
+Are you holding up well?
+
+[OpenMidRight]
+I'll be fine.
+I'm more scared for you two.
+You said they're untrained, but they still seem dangerous!
+
+[OpenMidLeft]
+S[0xE9]tanta and I have traded blows more times than I can count.
+You're the one we should be worried about. Make sure to stay behind us.
+
+[OpenMidRight]
+I know that,[CloseEyes] but this isn't training.[OpenEyes]
+If we're all gonna fighting like this, please be careful.
+I can't protect you as much as I'd like with a bow and arrow.
+
+[OpenMidLeft][ToggleSmile]
+I'll keep that in mind, Ferdiad.
+You stay careful as well.[X]
+
+
+
+## P1C1SFTalk
+[ConversationText]
+[OpenMidRight][LoadFerdiad][OpenMidLeft][LoadSetanta][ToggleSmile]
+Fern!
+I think it would be better if you moved over there!
+Better vantage point.
+
+[OpenMidRight][ToggleSmile]
+S[0xE9]tanta,[CloseEyes] that's back in the forest.[OpenEyes]
+I'm staying with you both.
+I don't care how dangerous it is.
+
+[OpenMidLeft][ToggleSmile]
+Come on, Fern![ToggleSmile] 
+It'd suck if you had to die the same way Cethern and I will.
+
+[OpenMidRight]
+You're not going to.
+I'm not letting my mother down by letting either of you get killed.
+
+[OpenMidLeft]
+Hmm,[ToggleSmile] so you were trying to impress your parents after all!
+[MoveFarFarRight][OpenFarFarRight][ClearFace]
+
+[OpenMidRight][MoveMidRight][ToggleSmile]
+S[0xE9]tanta,[CloseEyes] you rat![OpenEyes]
+Get back here![X]
+
+
+
+## P1C1WeDidIt
+[ConversationText]
+[OpenMidLeft][LoadFace][0x5A][0x1]
+[OpenFarFarRight][LoadCethern][MoveRight]
+[OpenFarFarRight][LoadSetanta][MoveFarRight]
+[OpenMidLeft][ToggleSmile]
+Thank the bearers!
+You two are truly our saviours!
+I'm glad to know that your training came in hand.
+
+[OpenRight]
+It's nothing.
+Ferdiad's coming behind us.
+She was a big help as well.
+
+[OpenFarRight][ToggleSmile]
+Where's everyone else?
+Any wounded?
+
+[OpenMidLeft]
+There's a few injured.
+Cethern, your grandfather got a few of them on his own.
+Miach and Airmed are checking after him with the nurse.
+They're thankfully both safe.
+
+[OpenRight]
+They're helping with that?
+There's something interesting.
+
+[OpenFarRight][ClearFace][LoadFerdiad]
+I'm sorry![CloseEyes] I'm very sorry for riding out with no warning...[OpenEyes]
+Is my father okay too?
+
+[OpenMidLeft]
+Yes, yes![AN]
+Thankfully uninjured as well.
+You'll have to find him though.
+He's always out and about, huh?
+
+[OpenFarRight][MoveFarRight]
+I'll see you and S[0xE9]tanta later.
+I'm not entirely sure what he wants...[ClearFace][OpenFarRight][LoadSetanta][.....]
+
+[OpenMidLeft]
+I should take my leave as well.
+There's plenty of cleanup to be done.
+Don't worry, I won't force either of you to.
+You're heroes enough![ClearFace][.....]
+
+[OpenRight][MoveMidLeft][OpenMidLeft][ClearFace][LoadCethern]
+I'm gonna head out and check on my father.
+We should meet up with Ferdiad later and talk to her about everything.
+T[CloseEyes]oday was quite a day...[OpenEyes]
+
+[OpenFarRight][MoveMidRight][OpenMidRight]
+I don't have much else to do myself.
+Guess I'll check on my pa too.[MoveMidRight]
+Meet up together at the usual spot?
+
+[OpenMidLeft]
+I'll make sure of it.[ToggleSmile]
+We make a great duo, don't we?
+
+[OpenMidRight]
+Trio, as of today.[ToggleSmile]
+Not gonna be able to keep Fern out of it now.[CloseEyes]
+Let's just hope we stay alive...[X]
+
+
+
+## P1C1MiachAirmedCethern
+[ConversationText]
+[OpenMidLeft][LoadMiach][OpenMidRight][LoadAirmed]
+Miach! You're gonna spill the water everywhere! 
+It took so long to heat!
+
+[OpenMidLeft]
+You try holding it! It's hotter and heavier than you think!
+
+[OpenMidRight]
+I can't believe the nurse let you do this with me!
+
+[OpenMidLeft]
+I can't believe the nurse thought you were the best person to take care of him! 
+If you're gonna nag at me, do the whole thing yourself!
+
+[OpenFarFarRight][LoadCethern]
+Miach? Airmed?
+Are you both in there?
+
+[OpenMidLeft]
+It's Cethern![MoveMidLeft][MoveFarLeft]
+
+[OpenMidRight]
+Why are you putting the pot down?! 
+Our grandpa needs it!
+
+[MoveLeft][ClearFace][OpenLeft][LoadAirmed]
+[OpenFarFarRight][MoveFarRight][OpenFarRight][ToggleSmile]
+Am I bothering something?
+I see you're both quite busy.
+
+[OpenFarLeft]
+Cethern! Did you beat those bandits into a pulp?!
+
+[OpenFarRight]
+I guess you could say that.
+You both taking care of our old man?
+
+[OpenLeft][ToggleSmile]
+I'm trying to take care of him.
+But Miach keeps messing everything up!
+
+[OpenFarLeft]
+Sorry, who did the nurse say could help?
+You're not even helping, only bothering me around![MoveFarLeft][ToggleSmile]
+Can I come kill some brigands instead with you next time, Cethern?
+
+[OpenFarRight]
+I'll think about it. 
+I think you've got a lot of training yourself before you could help.
+
+[OpenLeft][ToggleSmile]
+That's not fair! 
+Am I not allowed?
+I've actually been working myself tired unlike some brothers!
+I'm barely even younger than you!
+
+[OpenFarRight][MoveFarRight]
+...[ToggleSmile]Maybe I should leave you two alone.
+You're better taking care of him without me distracting you.
+I'll be out helping with some of the clean-up.
+
+[ClearFace][ToggleSmile][OpenFarLeft][......]
+Airmed!
+You scared him away!
+
+[OpenLeft]
+What are you talking about?!
+It was obviously your begging![X]
+
+
+
+## P1C1Heichalot
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenRight][LoadFerdiad]
+[OpenFarRight][LoadSetanta]
+Took you a while, Fern.
+What was the big deal?
+
+[OpenRight]
+My father can be quite persistent in worrying about me.
+Just some rumours that have him riled up about me running off.
+
+[OpenFarRight][CloseEyes]
+After your ma I assume...[OpenEyes]
+Where is she anyways?
+
+[OpenRight]
+I think she's up in Caer Wydyr right now.
+There's been some tensions with Heichalot, but she couldn't tell me much else.
+
+[OpenFarRight]
+Caer Wydyr? That's up to the north, isn't it?
+
+[OpenMidLeft]
+That's a fair bit away.
+Though, A[0xED]fe makes trips all over the place...[MoveMidLeft]
+Hopefully we're overthinking.
+
+[OpenRight][CloseEyes]
+I hope we are.[......][MoveRight][OpenEyes] 
+How were Miach and Airmed? Bickering like always?
+
+[OpenMidLeft]
+That's what they do.
+I guess I'm lucky I never had that phase with them.
+Sometimes I feel more like their father than an older brother...
+
+[OpenFarRight]
+Though, your grandpa is quite someone.[ToggleSmile]
+I'm sure the brigands were scared for their life when they saw that old man chasing them down with a sword!
+
+[OpenMidLeft]
+That's true,[ToggleSmile] but I wish he was more active without being provoked like this...
+
+[OpenRight]
+Hold on! Do you both hear that?[MoveRight]
+There's something coming in the air.
+
+[OpenFarRight][MoveFarRight]
+It's up there!
+Is that a pegasus knight?
+
+[OpenRight]
+Mother?
+Could it be...?[X]
+
+
+
+## P1C1SadhbhHere
+[ConversationText]
+[OpenFarLeft][LoadFerdiad]
+[OpenLeft][LoadCethern]
+[OpenMidRight][LoadSadhbh]
+Cluain Bolg in Caer Rigor territory.
+Am I correct in saying this?
+
+[OpenFarLeft][CloseEyes]
+It's not my mother,
+but still a sky knight...[OpenEyes]
+
+[OpenLeft]
+This is Cluain Bolg.
+May I ask who you are?
+
+[OpenMidRight]
+I am Sadhbh of the Crownflight.
+I've been tasked with finding two figures who may help with...
+recent political developments.
+
+[OpenFarLeft]
+The Crownflight?![MoveFarLeft]
+...So you're looking for my mother?
+
+[OpenMidRight][ToggleSmile]
+You must be A[0xED]fe's daughter.
+I assume much has changed since we last met.
+Where may I find her?
+
+[OpenFarLeft]
+She left for Caer Wydyr yesterday...
+I'm very sorry, Lady Sadhbh.
+
+[OpenMidRight][CloseEyes][ToggleSmile]
+That is unfortunate on my part.[OpenEyes]
+What about a Sir MacCumail?
+I've heard quite a few tales of him.
+
+[OpenLeft]
+That would be my grandfather. 
+I can show you to him, but he's completely exhausted.
+A few hours ago we fought off some brigands.[MoveLeft] 
+What did you need him for...?
+
+[OpenMidRight]
+I suppose I may as well tell.
+Though it only happened a short bit ago.[......][MoveMidRight][......][LoadOverworldFaces]
+The Principality of Heichalot has declared war on the entirety of Corbenic.
+I was hoping to gather support from two warriors I had heard were the best, but it appears that my flight was indeed for naught.
+
+[OpenFarLeft]
+W[.....]-War?![.....][MoveFarLeft]
+That can't be!
+
+[OpenMidRight]
+It seems that a few bandits have already begun to take advantage of the chaos.
+Your village should stay very alert.
+
+[OpenLeft]
+...If you want to talk to my father, you could stay the night and speak in the morning.
+Of course, I don't think he's fought since the rebellion all the way in Caer Vedwyd...
+
+[OpenMidRight]
+Caer Vedwyd?[MoveMidRight][CloseEyes]
+But that was more than fourty years ago![......][OpenEyes]
+I have no reason to see your grandfather.
+Please send him my regards. I must go.
+
+[OpenFarLeft][ClearFace][LoadSetanta]
+Wait, you're leaving that quickly?[ToggleSmile]
+Sadhbh, you're stifling your opportunity.
+
+[OpenLeft][ToggleSmile]
+S[0xE9]tanta!
+You need to be--
+
+[OpenMidRight]
+It is fine. But opportunity...
+What do you mean?
+
+[OpenFarLeft]
+You're in a village that you know has two amazing warriors.[ToggleSmile]
+Don't you wanna see what you can gather?
+Any possible advice or information?
+Maybe try to recruit some people?
+
+[OpenMidRight][ToggleSmile]
+That is a fair point.
+Talking with Sir MacCumail may be beneficial in some way.
+Would there be any place for me to prepare for the night if so?
+
+[OpenFarLeft][ToggleSmile]
+I'm sure I could bother my pa.
+But keep the pegasus safe.[ToggleSmile]
+Don't know if the bandits might return any time soon.
+
+[OpenMidRight]
+That would be most excellent.
+Thank you, S[0xE9]tanta.
+[ClearFace][.......]
+
+[OpenRight][LoadFerdiad][LoadOverworldFaces]
+Offering that to her?
+That's very nice, S[0xE9]tanta.
+What's changed?
+
+[OpenFarLeft][ToggleSmile]
+My pa's lonely!
+He could use a companion for the night.
+
+[OpenRight][ToggleSmile]
+Oh,[CloseEyes] of course it's that!
+Why did I assume otherwise?![OpenEyes]
+
+[OpenLeft][MoveLeft]
+It's getting late. 
+Should we head back in?
+We can always talk again tomorrow.
+
+[OpenRight]
+...Yes. I'm feeling quite exhausted.
+Though, I'd like to talk a bit to that Crownflier tomorrow.
+
+[OpenFarLeft][ToggleSmile]
+I'll come wake you before she leaves.[......][CloseEyes][ToggleSmile] 
+I'm more concerned about what she told us...[OpenEyes]
+
+[OpenLeft][CloseEyes]
+War...[X]
+
+## ShallYouSkip
+The first part of this game[N]
+is an introduction to the plot.[A][N]
+It introduces several characters and[N]
+factions that are important to[AN]
+understanding the story of this[N]
+game.[A][N]
+If you wish to skip it,[.....] however,[.....][N]
+you may make that choice here.[A][X]
+
+## MaghmeallIntro
+Maghmeall,[.....] year 879.[.....] A continent[N]
+covered in past bloodshed.[AN]
+The tides of war have calmed,[....][N]
+and relative peace has been[AN]
+enjoyed in Maghmeall for the[N]
+previous fourty years.[AN]
+The five nations that inhabit[N]
+Maghmeall draw their origin[AN]
+from legendary beings known[N]
+as the Wardbearers.[AN]
+Before the nations stood,[.....] the[N]
+Wardbearers extinguished the[AN]
+corruption that had taken root[N]
+in Maghmeall,[.....] allowing[AN]
+their subjects to live in peace.[AN]
+Those humans grew to create[N]
+the five nations of Maghmeall,[AN]
+continuing to venerate those who[N]
+gifted them purity and life.[A][X]
+
+## MaghmeallTwo
+The north holds twin nations:[N]
+Myanchao and Heichalot.[A][N]
+The Principality of Heichalot is[N]
+ruled by the Heavenly Prince,[AN]
+and its people survive the arid[N]
+seasons with piety and labour.[AN]
+Meanwhile further east,[....][N]
+the united Myanchao peoples live[AN]
+diverse lives among the ranging[N]
+climate of their land,[....] under[AN]
+the rule of their matriarch.[AN]
+To the opposite end lies the[N]
+Kingdom of Srughna,[.....] isolated[AN]
+from its northern neighbours[N]
+by edict of its new king.[AN]
+Its east is covered by the[N]
+forest of Bhuloka,[....] a dense[AN]
+yet truly isolated collection[N]
+of monasteries and villages.[A][X]
+
+## MaghmeallThree
+Finally,[.....] in the centre of Maghmeall,[.....][N]
+the Kingdom of Corbenic acts as[AN]
+crossroads for the many nations,[.....][N]
+and many of its people live[AN]
+comfortably because of it.[AN]
+These nations have existed ever[N]
+since the disappearance[AN]
+of the Wardbearers almost a[N]
+millenia ago.[AN]
+However,[.....] tensions among several[N]
+nations are viciously stirring[AN]
+out of sight,[......] gathering up[N]
+before an explosion of warfare...[A][X]
+
+
+
+## ReinforcementWarningWarningWarning
+[ConversationText]
+[OpenMidLeft][LoadFace][0x30][0x1]
+What the?[MoveMidLeft]
+Who's coming on the distance?![MoveMidLeft]
+You fools! Get out of hiding!
+We will not be taken down![X]
+
+
+
+## P1C1Hooray
+[ConversationText]
+[OpenMidLeft][LoadCethern][ToggleSmile]
+We've gotten their leader down![.....][N]
+Everyone come to the gate![A][X]
+
+
+
+## P1C1PincerAttack
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+They're encircling us...![MoveMidLeft]
+S[0xE9]tanta, Ferdiad! Watch out![X]
+
+## LaterThatDay
+Later that day...[X]
+
+## CaerRigor
+Caer Rigor[X]

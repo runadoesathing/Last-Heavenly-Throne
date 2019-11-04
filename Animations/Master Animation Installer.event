@@ -1,0 +1,199 @@
+#ifndef ClassAnimTable
+  #ifdef _FE8_
+    #define ClassAnimTable (0xc00008-0x20)
+  #endif
+  #ifdef _FE7_
+    #define ClassAnimTable (0xe00008-0x20)
+  #endif
+#endif
+
+#define AnimTableEntry(index) "ORG ClassAnimTable + (index * 0x20)"
+
+#define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
+#define SpearAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
+#define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
+#define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
+#define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
+#define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
+#define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
+#define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
+#define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
+
+//////////////Installed animations go here:
+
+{
+#include "Archer M/5. Bow/Bow Installer.event"
+}
+{
+#include "Archer M/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Archer F/5. Bow/Bow Installer.event"
+}
+{
+#include "Archer F/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Cavalier F/1. Sword/Sword Installer.event"
+}
+{
+#include "Cavalier F/2. Lance/Lance Installer.event"
+}
+{
+#include "Cavalier F/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Cavalier M/1. Sword/Sword Installer.event"
+}
+{
+#include "Cavalier M/2. Lance/Lance Installer.event"
+}
+{
+#include "Cavalier M/3. Axe/Axe Installer.event"
+}
+{
+#include "Cavalier M/4. Handaxe/Handaxe Installer.event"
+}
+{
+#include "Cavalier M/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Halberdier M (TBA)/2. Lance/Lance Installer.event"
+}
+{
+#include "Halberdier M (TBA)/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Halberdier F (Black Mage)/2. Lance (Ting)/Lance Installer.event"
+}
+{
+#include "Halberdier F (Black Mage)/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Knight (Lieutenant) (Male and Female)/Axe/Axe Installer.event"
+}
+{
+#include "Knight (Lieutenant) (Male and Female)/Handaxe/Handaxe Installer.event"
+}
+{
+#include "Knight (Lieutenant) (Male and Female)/Sword/Sword Installer.event"
+}
+{
+#include "Mage F/Magic Installer.event"
+}
+{
+#include "Nomad F/5. Bow/Bow Installer.event"
+}
+{
+#include "Nomad F/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Sibyl/7. Staff/Staff Installer.event"
+}
+{
+#include "Sibyl/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Soldier F (Alusq, Maiser6)/Lance/Lance Installer.event"
+}
+{
+#include "Soldier F (Alusq, Maiser6)/Unarmed/Unarmed Installer.event"
+}
+{
+#include "Soldier M (Improved by Alusq)/Lance/Lance Installer.event"
+}
+{
+#include "Soldier M (Improved by Alusq)/Disarmed/Disarmed Installer.event"
+}
+{
+#include "TerasparkMonk/Magic Installer.event"
+}
+{
+#include "Villager M (Nuramon)/1. Sword/Sword Installer.event"
+}
+{
+#include "Villager M (Nuramon)/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Villager F (Nuramon)/1. Sword/Sword Installer.event"
+}
+{
+#include "Villager F (Nuramon)/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Wyvern Rider/Axe/Axe Installer.event"
+}
+{
+#include "Wyvern Rider/Handaxe/Handaxe Installer.event"
+}
+
+ConallAnim:
+SwordAnim(0x34)
+SpearAnim(0x35)
+UnarmedAnim(0x36)
+WORD 0x0    // Seperator
+
+CavalierMAnim:
+SwordAnim(0x34)
+SpearAnim(0x35)
+AxeAnim(0xd2)
+HandAxeAnim(0xd3)
+UnarmedAnim(0x36)
+WORD 0x0    // Seperator
+
+CavalierFAnim:
+SwordAnim(0x37)
+SpearAnim(0x38)
+UnarmedAnim(0x39)
+WORD 0x0    // Seperator
+
+BowCavalierAnim:
+BowAnim(0xd4)
+UnarmedAnim(0xd5)
+WORD 0x0    // Seperator
+
+KnightAnim:
+SwordAnim(0xcb)
+SpearAnim(0x40)
+AxeAnim(0xca)
+HandAxeAnim(0xcc)
+UnarmedAnim(0x41)
+WORD 0x0    // Seperator
+
+WyvernRiderAnim:
+AxeAnim(0xcd)
+HandAxeAnim(0xce)
+UnarmedAnim(0x59)
+WORD 0x0    // Seperator
+
+VillagerMAnim:
+SwordAnim(0xd6)
+UnarmedAnim(0xd7)
+WORD 0x0    // Seperator
+
+VillagerFAnim:
+SwordAnim(0xd8)
+UnarmedAnim(0xd9)
+WORD 0x0    // Seperator
+
+SibylAnim:
+StaffAnim(0xda)
+UnarmedAnim(0xdb)
+WORD 0x0    // Seperator
+
+HalberdierAnim:
+SpearAnim(0xdc)
+UnarmedAnim(0xdd)
+WORD 0x0    // Seperator
+
+HalberdierFAnim:
+SpearAnim(0xde)
+UnarmedAnim(0xd1)
+WORD 0x0    // Seperator
+
+SoldierFAnim:
+SpearAnim(0xcf)
+UnarmedAnim(0xd0)
+WORD 0x0    // Seperator

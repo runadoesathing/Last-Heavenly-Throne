@@ -1,0 +1,32 @@
+#include "drumfix_fe8.event"
+
+PUSH
+ORG 0x1001860
+#incbin "bin/custom_piano.bin"
+POP
+
+voicegroup000:
+#incbin "FE8_NI_Map_custompiano.bin"
+
+voicegroup001:
+#incbin "FE8 native instrument map (revised).bin"
+
+// Corbenic Pride
+SongTable(0x9,cethernpride, 1)
+#include "cethernpride.event"
+
+// Ritual Song of Dhara
+SongTable(0xA,srihwen, 1)
+#include "srihwen.event"
+
+// With Us
+SongTable(0x30,recruitment, 0)
+#include "recruitment.event"
+
+// Quiet Palace Courtyard
+SongTable(0x43,harpy, 0)
+#include "harpy.event"
+
+// Quiet Palace Courtyard
+SongTable(0x58,KnightsOath, 0)
+#include "KnightsOath.event"

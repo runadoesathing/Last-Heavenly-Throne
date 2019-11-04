@@ -1,0 +1,3541 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	finalholywar_grp  voicegroup000
+	#define	finalholywar_pri  0
+	#define	finalholywar_rev  0
+	#define	finalholywar_mvl  127
+	#define	finalholywar_key  0
+	#define	finalholywar_tbs  1
+	#define	finalholywar_exg  0
+	#define	finalholywar_cmp  1
+
+	// .rodata
+	//	finalholywar
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+finalholywar_1:
+	BYTE	KEYSH   finalholywar_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   120*finalholywar_tbs/2
+	BYTE		VOICE   68
+	BYTE		VOL     75*finalholywar_mvl/mxv
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W48
+	BYTE	TEMPO   145*finalholywar_tbs/2
+	BYTE		PAN     c_v-14
+	BYTE		MOD     30
+	BYTE	W24
+	BYTE		        0
+	BYTE		N18     An3   v127
+	BYTE	W19
+// 001   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N18     En4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N09     Dn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N09     Cs4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N18     Bn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N18     Gn3 
+	BYTE	W19
+// 002   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N18     Bn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N18     Dn4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N18     Fn4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N18     Cn4 
+	BYTE	W19
+// 003   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N18     An4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N09     Gn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N09     Fn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N18     Gn4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N18     Dn4 
+	BYTE	W19
+// 004   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N18     Gn4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N18     As4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		TIE     Dn5 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N18     Gn4 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v+6
+	BYTE		MOD     0
+	BYTE		N44     Dn3 
+	BYTE	W01
+finalholywar_1_B1:
+	BYTE	W23
+	BYTE		MOD     0
+	BYTE	W19
+// 009   ----------------------------------------
+finalholywar_1_009:
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N23     An3   v127
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Gn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N44     Fs3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+	BYTE	PEND
+// 010   ----------------------------------------
+finalholywar_1_010:
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N23     En3   v127
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		TIE     En3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N44     Dn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_1_009
+// 014   ----------------------------------------
+finalholywar_1_014:
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N23     En3   v127
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N11     En3 
+	BYTE	W18
+	BYTE		MOD     0
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		TIE     Gn3 
+	BYTE	W19
+	BYTE	PEND
+// 015   ----------------------------------------
+finalholywar_1_015:
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE	W90
+	BYTE	W01
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT     Gn3 
+	BYTE	W24
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N23     An3   v127
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N92     Bn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 017   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		        0
+	BYTE		N44     Dn4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 018   ----------------------------------------
+	BYTE	W05
+	BYTE		        0
+	BYTE		N44     Gn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W24
+	BYTE		        0
+	BYTE		N68     Fs3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 019   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		        0
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		N68     Fs3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 020   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		        0
+	BYTE		N23     En3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Gn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Dn3 
+	BYTE	W19
+// 021   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE	W12
+	BYTE		        0
+	BYTE		N11   
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N44     Fn3 
+	BYTE	W19
+// 022   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE	W24
+	BYTE		        0
+	BYTE		N23   
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N68     Gn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 023   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		        0
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		N05     Fn3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		N68     Gn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 024   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		        0
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		N05     Gn3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		N05     Fn3 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE		TIE     Gn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W28
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N11     Cn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		TIE     Dn4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W05
+	BYTE	TEMPO   120*finalholywar_tbs/2
+	BYTE	W11
+	BYTE		EOT   
+	BYTE	W13
+	BYTE		MOD     0
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE	TEMPO   145*finalholywar_tbs/2
+	BYTE		MOD     0
+	BYTE		N44     Gn4 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 029   ----------------------------------------
+	BYTE	W05
+	BYTE		        0
+	BYTE		N23     Dn5 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N11     Cn5 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     As4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N68     An4 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 030   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		        0
+	BYTE		N11     Fn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N44     An4 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 031   ----------------------------------------
+	BYTE	W17
+	BYTE		        0
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Cn5 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N23     As4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     An4 
+	BYTE	W19
+// 032   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N23     As4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Cn5 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N44     Dn5 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 033   ----------------------------------------
+	BYTE	W05
+	BYTE		        0
+	BYTE		N68     Gn4 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W48
+	BYTE		        0
+	BYTE		N23   
+	BYTE	W19
+// 034   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N23     An4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     As4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N68   
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 035   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		        0
+	BYTE		N11     An4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Gn4 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N92     Fn4 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 036   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v-14
+	BYTE		MOD     0
+	BYTE		N92     Dn3 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 037   ----------------------------------------
+finalholywar_1_037:
+	BYTE	W52
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N68     En3   v127
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+	BYTE	PEND
+// 038   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		        0
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N68     Fn3 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 039   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		        0
+	BYTE		N23     Dn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N92     En3 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 040   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		        0
+	BYTE		N92     Dn3 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_1_037
+// 042   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N11     Fn3   v127
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N11     Gn3 
+	BYTE	W12
+	BYTE		MOD     0
+	BYTE		N23     Fn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Cn3 
+	BYTE	W19
+// 043   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N23     Fn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Cn4 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N44     Gn3 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 044   ----------------------------------------
+	BYTE	W05
+	BYTE		        0
+	BYTE		N44     Cn4 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W24
+	BYTE		        0
+	BYTE		N92   
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 045   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		        0
+	BYTE		N23   
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Bn3 
+	BYTE	W19
+// 046   ----------------------------------------
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N23     Bn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		TIE     Cs4 
+	BYTE	W24
+	BYTE		MOD     30
+	BYTE	W19
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W52
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		PAN     c_v+6
+	BYTE		MOD     0
+	BYTE		N44     Dn3 
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	finalholywar_1_B1
+finalholywar_1_B2:
+	BYTE	W23
+	BYTE		MOD     0
+	BYTE	W19
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_1_009
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_1_010
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT     En3 
+	BYTE	W48
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N44     Dn3   v127
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_1_009
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_1_014
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_1_015
+// 056   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT     Gn3 
+	BYTE	W24
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE		N23     An3   v127
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE		N48     Bn3 
+	BYTE	W24
+	BYTE		MOD     0
+	BYTE	W19
+// 057   ----------------------------------------
+	BYTE	W14
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+finalholywar_2:
+	BYTE	KEYSH   finalholywar_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   51
+	BYTE		VOL     39*finalholywar_mvl/mxv
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W48
+	BYTE		PAN     c_v+36
+	BYTE		N92     Cs3   v127
+	BYTE	W42
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N56     Bn2 
+	BYTE	W42
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N92     An2 
+	BYTE	W42
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N11     Gn2 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W17
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W42
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W52
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N11     Dn2 
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+// 007   ----------------------------------------
+finalholywar_2_007:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Dn2   v127
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v+36
+	BYTE		N11   
+	BYTE	W01
+finalholywar_2_B1:
+	BYTE	W32
+	BYTE	W03
+	BYTE		N11     Dn2   v127
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 014   ----------------------------------------
+finalholywar_2_014:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Cn2   v127
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_014
+// 016   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     En3   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 017   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Cn3 
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 018   ----------------------------------------
+finalholywar_2_018:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Bn2   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_018
+// 020   ----------------------------------------
+finalholywar_2_020:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     As2   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     An2 
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_020
+// 023   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N23     Cn3   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 024   ----------------------------------------
+finalholywar_2_024:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Dn3   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_024
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_024
+// 027   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N11     Dn3   v068
+	BYTE	W12
+	BYTE		        Dn3   v080
+	BYTE	W12
+	BYTE		        Dn3   v088
+	BYTE	W07
+// 028   ----------------------------------------
+	BYTE	W05
+	BYTE		        Dn3   v100
+	BYTE	W12
+	BYTE		        Dn3   v108
+	BYTE	W12
+	BYTE		        Dn3   v120
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        As2   v127
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W30
+	BYTE	W01
+// 029   ----------------------------------------
+finalholywar_2_029:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     An2   v127
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W30
+	BYTE	W01
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_029
+// 031   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N44     Gn2   v127
+	BYTE	W42
+	BYTE	W01
+// 032   ----------------------------------------
+	BYTE	W05
+	BYTE		N23     Fs2 
+	BYTE	W24
+	BYTE		        Fn2 
+	BYTE	W24
+	BYTE		N11     En2 
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W30
+	BYTE	W01
+// 033   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W30
+	BYTE	W01
+// 034   ----------------------------------------
+finalholywar_2_034:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N92     Fn2   v127
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_034
+// 036   ----------------------------------------
+finalholywar_2_036:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N92     Dn3   v127
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 037   ----------------------------------------
+finalholywar_2_037:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N92     Cn3   v127
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_036
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_037
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_036
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_037
+// 042   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		TIE     Cn3   v127
+	BYTE	W42
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N44     An2 
+	BYTE	W48
+	BYTE		N92   
+	BYTE	W42
+	BYTE	W01
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_034
+// 046   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N92     En2   v127
+	BYTE	W42
+	BYTE	W01
+// 047   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N07     Cs3 
+	BYTE	W24
+	BYTE		N07   
+	BYTE	W07
+// 048   ----------------------------------------
+	BYTE	W17
+	BYTE		N07   
+	BYTE	W24
+	BYTE		N07   
+	BYTE	W12
+	BYTE		PAN     c_v+36
+	BYTE		N11     Dn2 
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	finalholywar_2_B1
+finalholywar_2_B2:
+	BYTE	W32
+	BYTE	W03
+	BYTE		N11     Dn2   v127
+	BYTE	W07
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_007
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_014
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_2_014
+// 056   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     En3   v127
+	BYTE	W36
+	BYTE		N15   
+	BYTE	W07
+// 057   ----------------------------------------
+	BYTE	W14
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+finalholywar_3:
+	BYTE	KEYSH   finalholywar_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   51
+	BYTE		VOL     42*finalholywar_mvl/mxv
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W48
+	BYTE		PAN     c_v-54
+	BYTE		N92     En2   v127
+	BYTE	W42
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N56     Dn2 
+	BYTE	W42
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N92     Cn2 
+	BYTE	W42
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N11     As1 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W17
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W42
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W52
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N11     An2 
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+// 007   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		        Fs2 
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+// 008   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		PAN     c_v-44
+	BYTE		N11     An2 
+	BYTE	W01
+finalholywar_3_B1:
+	BYTE	W32
+	BYTE	W03
+	BYTE		N11     An2   v127
+	BYTE	W07
+// 009   ----------------------------------------
+finalholywar_3_009:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     An2   v127
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+	BYTE	PEND
+// 010   ----------------------------------------
+finalholywar_3_010:
+	BYTE	W40
+	BYTE	W01
+	BYTE		N11     An1   v127
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+	BYTE	PEND
+// 011   ----------------------------------------
+finalholywar_3_011:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Bn2   v127
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+	BYTE	PEND
+// 012   ----------------------------------------
+finalholywar_3_012:
+	BYTE	W40
+	BYTE	W01
+	BYTE		N11     An1   v127
+	BYTE	W12
+	BYTE		        An2 
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_009
+// 014   ----------------------------------------
+finalholywar_3_014:
+	BYTE	W40
+	BYTE	W01
+	BYTE		N11     An1   v127
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+	BYTE	PEND
+// 015   ----------------------------------------
+finalholywar_3_015:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Gn2   v127
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W07
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		        Gn3 
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 017   ----------------------------------------
+finalholywar_3_017:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     En3   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 018   ----------------------------------------
+finalholywar_3_018:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Dn3   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_018
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_018
+// 021   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Cn3   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_018
+// 023   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N23     Dn3   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 024   ----------------------------------------
+finalholywar_3_024:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Fn3   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_017
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_024
+// 027   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N11     En3   v068
+	BYTE	W12
+	BYTE		        En3   v080
+	BYTE	W12
+	BYTE		        En3   v088
+	BYTE	W07
+// 028   ----------------------------------------
+	BYTE	W05
+	BYTE		        En3   v100
+	BYTE	W12
+	BYTE		        En3   v108
+	BYTE	W12
+	BYTE		        En3   v120
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Dn3   v127
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W30
+	BYTE	W01
+// 029   ----------------------------------------
+finalholywar_3_029:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Cn3   v127
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W30
+	BYTE	W01
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_029
+// 031   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N44     Dn3   v127
+	BYTE	W42
+	BYTE	W01
+// 032   ----------------------------------------
+	BYTE	W05
+	BYTE		N44   
+	BYTE	W48
+	BYTE		N11     Cn3 
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W30
+	BYTE	W01
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_029
+// 034   ----------------------------------------
+finalholywar_3_034:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N92     Cn3   v127
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_034
+// 036   ----------------------------------------
+finalholywar_3_036:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N92     Fn3   v127
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 037   ----------------------------------------
+finalholywar_3_037:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N92     En3   v127
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_036
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_037
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_036
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_037
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_036
+// 043   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N44     Fn3   v127
+	BYTE	W42
+	BYTE	W01
+// 044   ----------------------------------------
+	BYTE	W05
+	BYTE		        En3 
+	BYTE	W48
+	BYTE		N44   
+	BYTE	W42
+	BYTE	W01
+// 045   ----------------------------------------
+	BYTE	W05
+	BYTE		        Cn3 
+	BYTE	W48
+	BYTE		N44   
+	BYTE	W42
+	BYTE	W01
+// 046   ----------------------------------------
+	BYTE	W05
+	BYTE		        Dn3 
+	BYTE	W48
+	BYTE		N92     En3 
+	BYTE	W42
+	BYTE	W01
+// 047   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N07   
+	BYTE	W24
+	BYTE		N07   
+	BYTE	W07
+// 048   ----------------------------------------
+	BYTE	W17
+	BYTE		N07   
+	BYTE	W24
+	BYTE		N07   
+	BYTE	W12
+	BYTE		PAN     c_v-44
+	BYTE		N11     An2 
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	finalholywar_3_B1
+finalholywar_3_B2:
+	BYTE	W32
+	BYTE	W03
+	BYTE		N11     An2   v127
+	BYTE	W07
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_009
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_010
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_011
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_012
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_009
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_014
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_3_015
+// 056   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Gn3   v127
+	BYTE	W36
+	BYTE		N15   
+	BYTE	W07
+// 057   ----------------------------------------
+	BYTE	W14
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+finalholywar_4:
+	BYTE	KEYSH   finalholywar_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   40
+	BYTE		VOL     53*finalholywar_mvl/mxv
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W48
+	BYTE		PAN     c_v+16
+	BYTE	W42
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W76
+	BYTE	W01
+	BYTE		N23     As3   v127
+	BYTE	W19
+// 005   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		        Dn3 
+	BYTE	W24
+	BYTE		N80     As2 
+	BYTE	W42
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		N04     Dn4 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		N09   
+	BYTE	W42
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+finalholywar_4_008:
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v-54
+	BYTE	W01
+	BYTE	PEND
+finalholywar_4_B1:
+	BYTE	W42
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+finalholywar_4_016:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Gn2   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Fn2 
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 018   ----------------------------------------
+finalholywar_4_018:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     En2   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_4_018
+// 020   ----------------------------------------
+finalholywar_4_020:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Dn2   v127
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Cn2 
+	BYTE	W36
+	BYTE		N44   
+	BYTE	W07
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_4_020
+// 023   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Fn2   v127
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N44   
+	BYTE	W07
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_4_016
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_4_016
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_4_016
+// 027   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N11     Gn2   v068
+	BYTE	W12
+	BYTE		        Gn2   v080
+	BYTE	W12
+	BYTE		        Gn2   v088
+	BYTE	W07
+// 028   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn2   v100
+	BYTE	W12
+	BYTE		        Gn2   v108
+	BYTE	W12
+	BYTE		        Gn2   v120
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W54
+	BYTE	W01
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v+26
+	BYTE		TIE     Dn3   v127
+	BYTE	W42
+	BYTE	W01
+// 037   ----------------------------------------
+	BYTE	W76
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		N24     Cn3 
+	BYTE	W19
+// 038   ----------------------------------------
+finalholywar_4_038:
+	BYTE	W05
+	BYTE		N24     Gn3   v127
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+	BYTE		        Gn3 
+	BYTE	W24
+	BYTE		N96     Fn3 
+	BYTE	W19
+	BYTE	PEND
+// 039   ----------------------------------------
+finalholywar_4_039:
+	BYTE	W76
+	BYTE	W01
+	BYTE		N24     Cn3   v127
+	BYTE	W19
+	BYTE	PEND
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_4_038
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_4_039
+// 042   ----------------------------------------
+	BYTE	W05
+	BYTE		N24     Gn3   v127
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W66
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_4_008
+	BYTE	GoTo
+	 POIN2	finalholywar_4_B1
+finalholywar_4_B2:
+	BYTE	W42
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N11     Gn2   v127
+	BYTE	W36
+	BYTE		N15   
+	BYTE	W07
+// 057   ----------------------------------------
+	BYTE	W14
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+finalholywar_5:
+	BYTE	KEYSH   finalholywar_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   40
+	BYTE		VOL     59*finalholywar_mvl/mxv
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W90
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v+11
+	BYTE		N44     Dn4   v127
+	BYTE	W01
+finalholywar_5_B1:
+	BYTE	W42
+// 009   ----------------------------------------
+finalholywar_5_009:
+	BYTE	W05
+	BYTE		N23     An4   v127
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		N44     Fs4 
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 010   ----------------------------------------
+finalholywar_5_010:
+	BYTE	W05
+	BYTE		N23     En4   v127
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W24
+	BYTE		TIE     En4 
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT   
+	BYTE	W48
+	BYTE	W01
+	BYTE		N44     Dn4 
+	BYTE	W42
+	BYTE	W01
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_5_009
+// 014   ----------------------------------------
+finalholywar_5_014:
+	BYTE	W05
+	BYTE		N23     En4   v127
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W24
+	BYTE		N11     En4 
+	BYTE	W18
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		TIE     Gn4 
+	BYTE	W19
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W01
+	BYTE		N23     An4 
+	BYTE	W24
+	BYTE		N92     Bn4 
+	BYTE	W42
+	BYTE	W01
+// 017   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N44     Dn5 
+	BYTE	W42
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn4 
+	BYTE	W48
+	BYTE		N68     Fs4 
+	BYTE	W42
+	BYTE	W01
+// 019   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        An4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		N68     Fs4 
+	BYTE	W42
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		        Dn4 
+	BYTE	W19
+// 021   ----------------------------------------
+	BYTE	W17
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+	BYTE		        Cn5 
+	BYTE	W12
+	BYTE		N23     An4 
+	BYTE	W24
+	BYTE		N44     Fn4 
+	BYTE	W19
+// 022   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N68     Gn4 
+	BYTE	W42
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		N05     An4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		N68     Gn4 
+	BYTE	W42
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE	W32
+	BYTE	W03
+	BYTE		N05     An4 
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Fn4 
+	BYTE	W06
+	BYTE		TIE     Gn4 
+	BYTE	W42
+	BYTE	W01
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W28
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N11     Cn5 
+	BYTE	W12
+	BYTE		        Fn5 
+	BYTE	W12
+	BYTE		TIE     Dn5 
+	BYTE	W42
+	BYTE	W01
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W16
+	BYTE		EOT   
+	BYTE	W80
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v-14
+	BYTE		TIE     Dn4 
+	BYTE	W42
+	BYTE	W01
+// 037   ----------------------------------------
+	BYTE	W76
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		N24     Cn4 
+	BYTE	W19
+// 038   ----------------------------------------
+finalholywar_5_038:
+	BYTE	W05
+	BYTE		N24     Gn4   v127
+	BYTE	W24
+	BYTE		        Cn5 
+	BYTE	W24
+	BYTE		        Gn4 
+	BYTE	W24
+	BYTE		N96     Fn4 
+	BYTE	W19
+	BYTE	PEND
+// 039   ----------------------------------------
+finalholywar_5_039:
+	BYTE	W76
+	BYTE	W01
+	BYTE		N24     Cn4   v127
+	BYTE	W19
+	BYTE	PEND
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_5_038
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_5_039
+// 042   ----------------------------------------
+	BYTE	W05
+	BYTE		N24     Gn4   v127
+	BYTE	W24
+	BYTE		        Cn5 
+	BYTE	W24
+	BYTE		N48     Fn4 
+	BYTE	W42
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	W05
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        Cn5 
+	BYTE	W24
+	BYTE		N48     Gn4 
+	BYTE	W42
+	BYTE	W01
+// 044   ----------------------------------------
+	BYTE	W05
+	BYTE		        Cn5 
+	BYTE	W48
+	BYTE		N96   
+	BYTE	W42
+	BYTE	W01
+// 045   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        Bn4 
+	BYTE	W19
+// 046   ----------------------------------------
+	BYTE	W05
+	BYTE		        An4 
+	BYTE	W24
+	BYTE		        Bn4 
+	BYTE	W24
+	BYTE		TIE     Cs5 
+	BYTE	W42
+	BYTE	W01
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		PAN     c_v+11
+	BYTE		N44     Dn4 
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	finalholywar_5_B1
+finalholywar_5_B2:
+	BYTE	W42
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_5_009
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_5_010
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT     En4 
+	BYTE	W48
+	BYTE	W01
+	BYTE		N44     Dn4   v127
+	BYTE	W42
+	BYTE	W01
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_5_009
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_5_014
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	W04
+	BYTE		EOT     Gn4 
+	BYTE	W24
+	BYTE	W01
+	BYTE		N23     An4   v127
+	BYTE	W24
+	BYTE		N48     Bn4 
+	BYTE	W42
+	BYTE	W01
+// 057   ----------------------------------------
+	BYTE	W14
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+finalholywar_6:
+	BYTE	KEYSH   finalholywar_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   34
+	BYTE		VOL     81*finalholywar_mvl/mxv
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W48
+	BYTE		PAN     c_v-24
+	BYTE		N92     An1   v127
+	BYTE	W42
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N68     Gn1 
+	BYTE	W42
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N92     Fn1 
+	BYTE	W42
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W64
+	BYTE	W01
+	BYTE		N11     Ds1 
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W17
+	BYTE		N11   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W42
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W52
+	BYTE		EOT   
+	BYTE	W01
+	BYTE		N11     Dn2 
+	BYTE	W42
+	BYTE	W01
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+finalholywar_6_008:
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v-24
+	BYTE	W01
+	BYTE	PEND
+finalholywar_6_B1:
+	BYTE	W42
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+finalholywar_6_016:
+	BYTE	W28
+	BYTE	W01
+	BYTE		N24     An2   v127
+	BYTE	W24
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        An2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        An2   v127
+	BYTE	W07
+	BYTE	PEND
+// 017   ----------------------------------------
+	BYTE	W05
+	BYTE		        An2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        An2   v127
+	BYTE	W12
+	BYTE		        An2   v088
+	BYTE	W12
+	BYTE		        Fn2   v127
+	BYTE	W12
+	BYTE		        Fn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Fn2   v127
+	BYTE	W07
+// 018   ----------------------------------------
+	BYTE	W05
+	BYTE		        Fn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Fn2   v127
+	BYTE	W12
+	BYTE		        Fn2   v088
+	BYTE	W12
+	BYTE		        En2   v127
+	BYTE	W12
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        En2   v127
+	BYTE	W07
+// 019   ----------------------------------------
+	BYTE	W05
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        En2   v127
+	BYTE	W12
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		        En2   v127
+	BYTE	W12
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        En2   v127
+	BYTE	W07
+// 020   ----------------------------------------
+	BYTE	W05
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        En2   v127
+	BYTE	W12
+	BYTE		        En2   v088
+	BYTE	W12
+	BYTE		        Dn2   v127
+	BYTE	W12
+	BYTE		        Dn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Dn2   v127
+	BYTE	W07
+// 021   ----------------------------------------
+	BYTE	W05
+	BYTE		        Dn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Dn2   v127
+	BYTE	W12
+	BYTE		        Dn2   v088
+	BYTE	W12
+	BYTE		        Cn2   v127
+	BYTE	W12
+	BYTE		        Cn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Cn2   v127
+	BYTE	W07
+// 022   ----------------------------------------
+	BYTE	W05
+	BYTE		        Cn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Cn2   v127
+	BYTE	W12
+	BYTE		        Cn2   v088
+	BYTE	W12
+	BYTE		        Dn2   v127
+	BYTE	W12
+	BYTE		        Dn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Dn2   v127
+	BYTE	W07
+// 023   ----------------------------------------
+	BYTE	W05
+	BYTE		        Dn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Dn2   v127
+	BYTE	W12
+	BYTE		        Dn2   v088
+	BYTE	W12
+	BYTE		        Fn2   v127
+	BYTE	W12
+	BYTE		        Fn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Fn2   v127
+	BYTE	W07
+// 024   ----------------------------------------
+	BYTE	W05
+	BYTE		        Fn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Fn2   v127
+	BYTE	W12
+	BYTE		        Fn2   v088
+	BYTE	W12
+	BYTE		        Gn2   v127
+	BYTE	W12
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Gn2   v127
+	BYTE	W07
+// 025   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Gn2   v127
+	BYTE	W12
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		        Gn2   v127
+	BYTE	W12
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Gn2   v127
+	BYTE	W07
+// 026   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N18     Gn2   v127
+	BYTE	W24
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Gn2   v127
+	BYTE	W07
+// 027   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Gn2   v127
+	BYTE	W12
+	BYTE		        Gn2   v088
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Gn2   v100
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W07
+// 028   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn2   v108
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Gn2   v127
+	BYTE	W12
+	BYTE		N09   
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		N60   
+	BYTE	W30
+	BYTE	W01
+// 029   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N60   
+	BYTE	W30
+	BYTE	W01
+// 030   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N09     Dn2 
+	BYTE	W12
+	BYTE		N60   
+	BYTE	W30
+	BYTE	W01
+// 031   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		N36     Gn2 
+	BYTE	W42
+	BYTE	W01
+// 032   ----------------------------------------
+	BYTE	W05
+	BYTE		N13     Fs2 
+	BYTE	W18
+	BYTE		N22     Fn2 
+	BYTE	W30
+	BYTE		N36     En2 
+	BYTE	W42
+	BYTE	W01
+// 033   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gn2 
+	BYTE	W48
+	BYTE		        Cn3 
+	BYTE	W42
+	BYTE	W01
+// 034   ----------------------------------------
+	BYTE	W05
+	BYTE		N18     Gn2 
+	BYTE	W24
+	BYTE		        Cn3 
+	BYTE	W24
+	BYTE		N54     Fn2 
+	BYTE	W42
+	BYTE	W01
+// 035   ----------------------------------------
+	BYTE	W28
+	BYTE	W01
+	BYTE		N09     An2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N72     Fn2 
+	BYTE	W42
+	BYTE	W01
+// 036   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		PAN     c_v-34
+	BYTE		N21     As2 
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W07
+// 037   ----------------------------------------
+finalholywar_6_037:
+	BYTE	W05
+	BYTE		N42     As2   v127
+	BYTE	W60
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N10   
+	BYTE	W07
+	BYTE	PEND
+// 038   ----------------------------------------
+finalholywar_6_038:
+	BYTE	W05
+	BYTE		N42     As2   v127
+	BYTE	W48
+	BYTE		N21   
+	BYTE	W36
+	BYTE		N10   
+	BYTE	W07
+	BYTE	PEND
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_6_037
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_6_038
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_6_037
+// 042   ----------------------------------------
+	BYTE	W05
+	BYTE		N42     As2   v127
+	BYTE	W48
+	BYTE		N10     An2 
+	BYTE	W12
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N10   
+	BYTE	W07
+// 043   ----------------------------------------
+	BYTE	W05
+	BYTE		        Gs2 
+	BYTE	W12
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N10   
+	BYTE	W07
+// 044   ----------------------------------------
+	BYTE	W05
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N10     Fn2 
+	BYTE	W12
+	BYTE		        Dn2 
+	BYTE	W12
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N10   
+	BYTE	W07
+// 045   ----------------------------------------
+	BYTE	W05
+	BYTE		N10   
+	BYTE	W12
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N10   
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N10   
+	BYTE	W07
+// 046   ----------------------------------------
+	BYTE	W05
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N21   
+	BYTE	W24
+	BYTE		N84     An2 
+	BYTE	W42
+	BYTE	W01
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_6_008
+	BYTE	GoTo
+	 POIN2	finalholywar_6_B1
+finalholywar_6_B2:
+	BYTE	W42
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_6_016
+// 057   ----------------------------------------
+	BYTE	W05
+	BYTE		N03     An2   v088
+	BYTE	W09
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.10) ****************//
+
+finalholywar_7:
+	BYTE	KEYSH   finalholywar_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     84*finalholywar_mvl/mxv
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W48
+	BYTE		PAN     c_v+0
+	BYTE		N04     Dn1   v088
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W03
+// 001   ----------------------------------------
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N12     Dn1   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N04     Dn1   v088
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W03
+// 002   ----------------------------------------
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N12     Dn1   v127
+	BYTE	W12
+	BYTE		N04     Dn1   v088
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N36     Dn1   v127
+	BYTE	W36
+	BYTE		N04     Dn1   v088
+	BYTE	W04
+	BYTE		N04   
+	BYTE	W03
+// 003   ----------------------------------------
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W04
+	BYTE		N36     Dn1   v127
+	BYTE	W36
+	BYTE		TIE     Dn1   v088
+	BYTE	W24
+	BYTE		N24     Cn1   v127
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W07
+// 004   ----------------------------------------
+	BYTE	W17
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W42
+	BYTE	W01
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		EOT     Cn1 
+	BYTE		N60   
+	BYTE	W07
+// 007   ----------------------------------------
+finalholywar_7_007:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N36     Cn1   v127
+	BYTE	W36
+	BYTE		N96   
+	BYTE	W07
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W01
+finalholywar_7_B1:
+	BYTE	W32
+	BYTE	W03
+	BYTE		N60     Cn1   v127
+	BYTE	W07
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 010   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 012   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 014   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 016   ----------------------------------------
+	BYTE	W17
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 018   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 020   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 021   ----------------------------------------
+finalholywar_7_021:
+	BYTE	W52
+	BYTE	W01
+	BYTE		N36     Cn1   v127
+	BYTE	W36
+	BYTE		TIE   
+	BYTE	W07
+	BYTE	PEND
+// 022   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N18   
+	BYTE	W18
+	BYTE		N24   
+	BYTE	W07
+// 023   ----------------------------------------
+finalholywar_7_023:
+	BYTE	W17
+	BYTE		N24     Dn1   v127
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N18   
+	BYTE	W18
+	BYTE		N24   
+	BYTE	W07
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_023
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_023
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_023
+// 027   ----------------------------------------
+	BYTE	W17
+	BYTE		N24     Dn1   v127
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12     Dn1   v080
+	BYTE	W12
+	BYTE		        Dn1   v088
+	BYTE	W07
+// 028   ----------------------------------------
+	BYTE	W05
+	BYTE		        Dn1   v100
+	BYTE	W12
+	BYTE		        Dn1   v108
+	BYTE	W12
+	BYTE		        Dn1   v120
+	BYTE	W12
+	BYTE		N60     Dn1   v127
+	BYTE	W12
+	BYTE		EOT     Cn1 
+	BYTE		N96   
+	BYTE	W42
+	BYTE	W01
+// 029   ----------------------------------------
+finalholywar_7_029:
+	BYTE	W05
+	BYTE		N12     Dn1   v127
+	BYTE	W12
+	BYTE		PAN     c_v-64
+	BYTE		N12     Dn1   v068
+	BYTE	W12
+	BYTE		PAN     c_v+63
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v-64
+	BYTE		N60   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		N96     Cn1   v127
+	BYTE	W42
+	BYTE	W01
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	W05
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		PAN     c_v-64
+	BYTE		N12     Dn1   v068
+	BYTE	W12
+	BYTE		PAN     c_v+63
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v-64
+	BYTE		N60   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		TIE     Cn1   v127
+	BYTE	W42
+	BYTE	W01
+// 031   ----------------------------------------
+	BYTE	W05
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		PAN     c_v-64
+	BYTE		N12     Dn1   v068
+	BYTE	W12
+	BYTE		PAN     c_v+63
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v-64
+	BYTE		N48   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE	W36
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N18   
+	BYTE	W01
+// 032   ----------------------------------------
+	BYTE	W05
+	BYTE		EOT     Cn1 
+	BYTE		N18   
+	BYTE	W12
+	BYTE		N24     Dn1 
+	BYTE	W06
+	BYTE		N30     Cn1 
+	BYTE	W18
+	BYTE		N60     Dn1 
+	BYTE	W12
+	BYTE		N96     Cn1 
+	BYTE	W42
+	BYTE	W01
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_029
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_029
+// 035   ----------------------------------------
+	BYTE	W05
+	BYTE		N12     Dn1   v127
+	BYTE	W12
+	BYTE		PAN     c_v-64
+	BYTE		N12     Dn1   v068
+	BYTE	W12
+	BYTE		PAN     c_v+63
+	BYTE		N12   
+	BYTE	W12
+	BYTE		PAN     c_v-64
+	BYTE		N72   
+	BYTE	W12
+	BYTE		PAN     c_v+0
+	BYTE		N96     Cn1   v127
+	BYTE	W42
+	BYTE	W01
+// 036   ----------------------------------------
+	BYTE	W17
+	BYTE		N02     Dn1   v068
+	BYTE	W02
+	BYTE		N02   
+	BYTE	W02
+	BYTE		N02   
+	BYTE	W02
+	BYTE		        Dn1   v100
+	BYTE	W02
+	BYTE		N02   
+	BYTE	W02
+	BYTE		N02   
+	BYTE	W02
+	BYTE		N72     Dn1   v127
+	BYTE	W24
+	BYTE		TIE     Cn1 
+	BYTE	W42
+	BYTE	W01
+// 037   ----------------------------------------
+	BYTE	W05
+	BYTE		N96     Dn1 
+	BYTE	W90
+	BYTE	W01
+// 038   ----------------------------------------
+	BYTE	W05
+	BYTE		N36   
+	BYTE	W36
+	BYTE		N60   
+	BYTE	W12
+	BYTE		EOT     Cn1 
+	BYTE		TIE   
+	BYTE	W42
+	BYTE	W01
+// 039   ----------------------------------------
+	BYTE	W05
+	BYTE		        Dn1 
+	BYTE	W90
+	BYTE	W01
+// 040   ----------------------------------------
+	BYTE	W05
+	BYTE		EOT     Cn1 
+	BYTE		N48   
+	BYTE	W12
+	BYTE		EOT     Dn1 
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N60   
+	BYTE	W12
+	BYTE		N96     Cn1 
+	BYTE	W42
+	BYTE	W01
+// 041   ----------------------------------------
+	BYTE	W05
+	BYTE		        Dn1 
+	BYTE	W48
+	BYTE		TIE     Cn1 
+	BYTE	W42
+	BYTE	W01
+// 042   ----------------------------------------
+	BYTE	W05
+	BYTE		N24     Dn1 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Dn1   v108
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W07
+// 043   ----------------------------------------
+finalholywar_7_043:
+	BYTE	W17
+	BYTE		N24     Dn1   v108
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W07
+	BYTE	PEND
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_043
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_043
+// 046   ----------------------------------------
+	BYTE	W17
+	BYTE		N24     Dn1   v108
+	BYTE	W24
+	BYTE		N72   
+	BYTE	W54
+	BYTE	W01
+// 047   ----------------------------------------
+	BYTE	W17
+	BYTE		N24     Dn1   v088
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		        Dn1   v108
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W07
+// 048   ----------------------------------------
+	BYTE	W17
+	BYTE		        Dn1   v127
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	finalholywar_7_B1
+finalholywar_7_B2:
+	BYTE	W32
+	BYTE	W03
+	BYTE		EOT     Cn1 
+	BYTE		N60     Cn1   v127
+	BYTE	W07
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 050   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 052   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_007
+// 054   ----------------------------------------
+	BYTE	W40
+	BYTE	W01
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		TIE   
+	BYTE	W36
+	BYTE		N60     Cn1 
+	BYTE	W07
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_7_021
+// 056   ----------------------------------------
+	BYTE	W17
+	BYTE		EOT     Dn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N68   
+	BYTE	W54
+	BYTE	W01
+// 057   ----------------------------------------
+	BYTE	W09
+	BYTE	W04
+	BYTE		EOT     Cn1 
+	BYTE	W01
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.11) ****************//
+
+finalholywar_8:
+	BYTE	KEYSH   finalholywar_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     67*finalholywar_mvl/mxv
+	BYTE	W05
+	BYTE		MOD     0
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W48
+	BYTE		PAN     c_v-54
+	BYTE	W42
+	BYTE	W01
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W76
+	BYTE	W01
+	BYTE		N24     Fs1   v127
+	BYTE	W19
+// 006   ----------------------------------------
+finalholywar_8_006:
+	BYTE	W05
+	BYTE		N24     Fs1   v127
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W19
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 008   ----------------------------------------
+finalholywar_8_008:
+	BYTE	W05
+	BYTE		N24     Fs1   v127
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W01
+	BYTE	PEND
+finalholywar_8_B1:
+	BYTE	W23
+	BYTE		N24     Fs1   v127
+	BYTE	W19
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 016   ----------------------------------------
+finalholywar_8_016:
+	BYTE	W05
+	BYTE		N24     Fs1   v127
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+	BYTE	PEND
+// 017   ----------------------------------------
+finalholywar_8_017:
+	BYTE	W05
+	BYTE		N06     Fs1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_017
+// 027   ----------------------------------------
+	BYTE	W05
+	BYTE		N06     Fs1   v127
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N06   
+	BYTE	W06
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+// 028   ----------------------------------------
+	BYTE	W05
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W12
+	BYTE		N96     As1 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+// 029   ----------------------------------------
+finalholywar_8_029:
+	BYTE	W05
+	BYTE		N12     Fs1   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W12
+	BYTE		N60     As1 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+	BYTE	PEND
+// 030   ----------------------------------------
+	BYTE	W05
+	BYTE		N24   
+	BYTE	W12
+	BYTE		N36     As1 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W12
+	BYTE		N48     As1 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W07
+// 031   ----------------------------------------
+	BYTE	W05
+	BYTE		TIE     As1 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+// 032   ----------------------------------------
+	BYTE	W05
+	BYTE		N24   
+	BYTE	W12
+	BYTE		EOT     As1 
+	BYTE		N36   
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W12
+	BYTE		N96     As1 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_029
+// 034   ----------------------------------------
+	BYTE	W05
+	BYTE		N24     Fs1   v127
+	BYTE	W12
+	BYTE		TIE     As1 
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+// 035   ----------------------------------------
+	BYTE	W05
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W42
+	BYTE	W01
+// 036   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		EOT     As1 
+	BYTE		TIE   
+	BYTE	W12
+	BYTE		EOT     Fs1 
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+// 037   ----------------------------------------
+finalholywar_8_037:
+	BYTE	W05
+	BYTE		N12     Fs1   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+	BYTE	PEND
+// 038   ----------------------------------------
+	BYTE	W05
+	BYTE		N24   
+	BYTE	W12
+	BYTE		EOT     As1 
+	BYTE		TIE   
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_037
+// 040   ----------------------------------------
+	BYTE	W05
+	BYTE		N24     Fs1   v127
+	BYTE	W12
+	BYTE		EOT     As1 
+	BYTE		TIE   
+	BYTE	W12
+	BYTE		N12     Fs1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W07
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_037
+// 042   ----------------------------------------
+	BYTE	W05
+	BYTE		N24     Fs1   v127
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		TIE   
+	BYTE	W54
+	BYTE	W01
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W52
+	BYTE	W01
+	BYTE		EOT   
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N24   
+	BYTE	W19
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_008
+	BYTE	GoTo
+	 POIN2	finalholywar_8_B1
+finalholywar_8_B2:
+	BYTE	W23
+	BYTE		N24     Fs1   v127
+	BYTE	W19
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_006
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	finalholywar_8_016
+// 057   ----------------------------------------
+	BYTE	W05
+	BYTE		N03     Fs1   v127
+	BYTE	W08
+	BYTE		EOT     As1 
+	BYTE	W01
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+finalholywar:
+	BYTE	8	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	finalholywar_pri	// Priority
+	BYTE	finalholywar_rev	// Reverb.
+
+	POIN2	finalholywar_grp
+
+	POIN2	finalholywar_1
+	POIN2	finalholywar_2
+	POIN2	finalholywar_3
+	POIN2	finalholywar_4
+	POIN2	finalholywar_5
+	POIN2	finalholywar_6
+	POIN2	finalholywar_7
+	POIN2	finalholywar_8
+
+	

@@ -1,0 +1,260 @@
+PUSH
+ItemIconSlot(0x00,"Weapon Icons/Items/IronSword.png")
+ItemIconSlot(0x01,"Weapon Icons/Items/SlimSword.png")
+ItemIconSlot(0x02,"Weapon Icons/Items/SteelSword.png")
+ItemIconSlot(0x03,"Weapon Icons/Items/SilverSword.png")
+ItemIconSlot(0x04,"Weapon Icons/Items/IronBlade.png")
+ItemIconSlot(0x05,"Weapon Icons/Items/SteelBlade.png")
+ItemIconSlot(0x06,"Weapon Icons/Items/SilverBlade.png")
+ItemIconSlot(0x07,"Weapon Icons/Items/ToxinSword.png")
+//0x08 - replaceable
+//0x09 - replaceable
+ItemIconSlot(0x0A,"Weapon Icons/Items/BraveSword.png")
+//0x0B - replaceable
+ItemIconSlot(0x0C,"Weapon Icons/Items/KillingEdge.png")
+ItemIconSlot(0x0D,"Weapon Icons/Items/Armorslayer.png")
+ItemIconSlot(0x0E,"Weapon Icons/Items/Wyrmslayer.png")
+ItemIconSlot(0x0F,"Weapon Icons/Items/LightBrand.png")
+ItemIconSlot(0x10,"Weapon Icons/Items/RuneSword.png")
+ItemIconSlot(0x11,"Weapon Icons/Items/Lancereaver.png")
+ItemIconSlot(0x12,"Weapon Icons/Items/Zanbato.png")
+ItemIconSlot(0x13,"Weapon Icons/Items/IronLance.png")
+ItemIconSlot(0x14,"Weapon Icons/Items/SlimLance.png")
+ItemIconSlot(0x15,"Weapon Icons/Items/SteelLance.png")
+ItemIconSlot(0x16,"Weapon Icons/Items/SilverLance.png")
+ItemIconSlot(0x17,"Weapon Icons/Items/ToxinLance.png")
+ItemIconSlot(0x18,"Weapon Icons/Items/BraveLance.png")
+ItemIconSlot(0x19,"Weapon Icons/Items/KillerLance.png")
+ItemIconSlot(0x1A,"Weapon Icons/Items/Horseslayer.png")
+ItemIconSlot(0x1B,"Weapon Icons/Items/Javelin.png")
+ItemIconSlot(0x1C,"Weapon Icons/Items/Spear.png")
+ItemIconSlot(0x1D,"Weapon Icons/Items/Axereaver.png")
+ItemIconSlot(0x1E,"Weapon Icons/Items/IronAxe.png")
+ItemIconSlot(0x1F,"Weapon Icons/Items/SteelAxe.png")
+ItemIconSlot(0x20,"Weapon Icons/Items/SilverAxe.png")
+ItemIconSlot(0x21,"Weapon Icons/Items/ToxinAxe.png")
+ItemIconSlot(0x22,"Weapon Icons/Items/BraveAxe.png")
+ItemIconSlot(0x23,"Weapon Icons/Items/KillerAxe.png")
+ItemIconSlot(0x24,"Weapon Icons/Items/Halberd.png")
+ItemIconSlot(0x25,"Weapon Icons/Items/Hammer.png")
+ItemIconSlot(0x26,"Weapon Icons/Items/DevilAxe.png")
+ItemIconSlot(0x27,"Weapon Icons/Items/HandAxe.png")
+ItemIconSlot(0x28,"Weapon Icons/Items/Tomahawk.png")
+ItemIconSlot(0x29,"Weapon Icons/Items/Swordreaver.png")
+ItemIconSlot(0x2A,"Weapon Icons/Items/Swordslayer.png")
+ItemIconSlot(0x2B,"Weapon Icons/Items/IronBow.png")
+ItemIconSlot(0x2C,"Weapon Icons/Items/SteelBow.png")
+ItemIconSlot(0x2D,"Weapon Icons/Items/SilverBow.png")
+ItemIconSlot(0x2E,"Weapon Icons/Items/ToxinBow.png")
+ItemIconSlot(0x2F,"Weapon Icons/Items/KillerBow.png")
+ItemIconSlot(0x30,"Weapon Icons/Items/BraveBow.png")
+ItemIconSlot(0x31,"Weapon Icons/Items/ShortBow.png")
+ItemIconSlot(0x32,"Weapon Icons/Items/LongBow.png")
+ItemIconSlot(0x36,"Weapon Icons/Items/Fire.png")
+ItemIconSlot(0x37,"Weapon Icons/Items/Thunder.png")
+ItemIconSlot(0x38,"Weapon Icons/Items/Elfire.png")
+ItemIconSlot(0x39,"Weapon Icons/Items/Bolting.png")
+ItemIconSlot(0x3A,"Weapon Icons/Items/Fimbulvetr.png")
+//0x3B - replaceable
+//0x3C - Excalibur
+ItemIconSlot(0x3D,"Weapon Icons/Items/MalkuthI.png")
+ItemIconSlot(0x3E,"Weapon Icons/Items/YesodII.png")
+//0x3F - divine
+//0x40 - purge
+//0x41 - aura
+//0x42 - light tome that's nice
+//0x43 - flux d
+//0x44 - luna l
+ItemIconSlot(0x45,"Weapon Icons/Items/ResireS.png")
+//0x46 - bohr x
+//0x47 - fenrir n
+//0x48 - dark tome that's nice
+ItemIconSlot(0x49,"Weapon Icons/Items/Heal.png")
+ItemIconSlot(0x4A,"Weapon Icons/Items/Mend.png")
+ItemIconSlot(0x4B,"Weapon Icons/Items/Recover.png")
+ItemIconSlot(0x4C,"Weapon Icons/Items/Physic.png")
+ItemIconSlot(0x4D,"Weapon Icons/Items/Fortify.png")
+ItemIconSlot(0x4E,"Weapon Icons/Items/Restore.png")
+ItemIconSlot(0x4F,"Weapon Icons/Items/Silence.png")
+ItemIconSlot(0x50,"Weapon Icons/Items/Sleep.png")
+ItemIconSlot(0x51,"Weapon Icons/Items/Berserk.png")
+ItemIconSlot(0x52,"Weapon Icons/Items/Warp.png")
+ItemIconSlot(0x53,"Weapon Icons/Items/Rescue.png")
+ItemIconSlot(0x54,"Weapon Icons/Items/TorchStaff.png")
+ItemIconSlot(0x55,"Weapon Icons/Items/Hammerne.png")
+ItemIconSlot(0x56,"Weapon Icons/Items/Unlock.png")
+ItemIconSlot(0x57,"Weapon Icons/Items/Barrier.png")
+ItemIconSlot(0x58,"Weapon Icons/Items/DragonAxe.png")
+ItemIconSlot(0x59,"Weapon Icons/Items/SeraphRobe.png")
+ItemIconSlot(0x5A,"Weapon Icons/Items/EnergyRing.png")
+ItemIconSlot(0x5B,"Weapon Icons/Items/SecretBook.png")
+ItemIconSlot(0x5C,"Weapon Icons/Items/Speedwing.png")
+ItemIconSlot(0x5D,"Weapon Icons/Items/GoddessIcon.png")
+ItemIconSlot(0x5E,"Weapon Icons/Items/Dracoshield.png")
+ItemIconSlot(0x5F,"Weapon Icons/Items/Talisman.png")
+ItemIconSlot(0x60,"Weapon Icons/Items/Boots.png")
+ItemIconSlot(0x61,"Weapon Icons/Items/BodyRing.png")
+//0x62 - hero crest (replaceable?)
+//0x63 - knight crest (replaceable?)
+//0x64 - orion bolt (replaceable?)
+//0x65 - elysian whip (replaceable?)
+//0x66 - guiding ring (replaceable?)
+ItemIconSlot(0x67,"Weapon Icons/Items/ChestKey.png")
+ItemIconSlot(0x68,"Weapon Icons/Items/DoorKey.png")
+ItemIconSlot(0x69,"Weapon Icons/Items/Lockpick.png")
+ItemIconSlot(0x58,"Weapon Icons/Items/Vulnerary.png")
+ItemIconSlot(0x58,"Weapon Icons/Items/Elixir.png")
+ItemIconSlot(0x58,"Weapon Icons/Items/PureWater.png")
+ItemIconSlot(0x58,"Weapon Icons/Items/Antitoxin.png")
+ItemIconSlot(0x58,"Weapon Icons/Items/Torch.png")
+//0x6F - whip thing (replaceable?)
+
+ORG 0x5926F4+(0x80*0x70)
+#incbin "Weapon Icons/SwordProf.dmp"
+
+ORG 0x5926F4+(0x80*0x71)
+#incbin "Weapon Icons/LanceProf.dmp"
+
+ORG 0x5926F4+(0x80*0x72)
+#incbin "Weapon Icons/AxeProf.dmp"
+
+ORG 0x5926F4+(0x80*0x73)
+#incbin "Weapon Icons/BowProf.dmp"
+
+ORG 0x5926F4+(0x80*0x74)
+#incbin "Weapon Icons/StaffProf.dmp"
+
+ORG 0x5926F4+(0x80*0x75)
+#incbin "Weapon Icons/AnimaProf.dmp"
+
+ORG 0x5926F4+(0x80*0x76)
+#incbin "Weapon Icons/LightProf.dmp"
+
+ORG 0x5926F4+(0x80*0x77)
+#incbin "Weapon Icons/SwordProf.dmp"
+
+//0x78 - replaceable
+//0x79 - replaceable
+
+ORG 0x5926F4+(0x80*0x7A)
+#incbin "Weapon Icons/FireAff.dmp"
+
+ORG 0x5926F4+(0x80*0x7B)
+#incbin "Weapon Icons/ThunderAff.dmp"
+
+ORG 0x5926F4+(0x80*0x7C)
+#incbin "Weapon Icons/WindAff.dmp"
+
+ORG 0x5926F4+(0x80*0x7D)
+#incbin "Weapon Icons/WaterAff.dmp"
+
+ORG 0x5926F4+(0x80*0x7E)
+#incbin "Weapon Icons/DarkAff.dmp"
+
+ORG 0x5926F4+(0x80*0x7F)
+#incbin "Weapon Icons/LightAff.dmp"
+
+ORG 0x5926F4+(0x80*0x80)
+#incbin "Weapon Icons/EarthAff.dmp"
+
+//0x81 - horse icon
+//0x82 - flying icon
+//0x83 - wyvern icon
+
+ORG 0x5926F4+(0x80*0x84)
+#incbin "Weapon Icons/HeavenAff.dmp"
+
+ItemIconSlot(0x85,"Weapon Icons/Items/SilverCard.png")
+ItemIconSlot(0x86,"Weapon Icons/Items/WhiteGem.png")
+ItemIconSlot(0x87,"Weapon Icons/Items/BlueGem.png")
+ItemIconSlot(0x88,"Weapon Icons/Items/RedGem.png")
+//0x89 - yellow bag
+//0x8A - spear thing (replaceable?)
+//0x8B - key duplicate (replaceable?)
+ItemIconSlot(0x8C,"Weapon Icons/Items/Mine.png")
+ItemIconSlot(0x8D,"Weapon Icons/Items/ShineGuard.png")
+//0x8E - shield thing (replaceable?)
+//0x8F - replaceable
+//0x90 - replaceable
+//0x91 - replaceable
+//0x92 - replaceable
+//0x93 - replaceable
+//0x94 - replaceable
+//0x95 - replaceable
+//0x96 - replaceable
+//0x97 - replaceable
+//0x98 - replaceable
+//0x99 - replaceable
+//0x9A - replaceable
+//0x9B - replaceable
+//0x9C - replaceable
+//0x9D - replaceable
+//0x9E - replaceable
+//0x9F - replaceable
+//0xA0 - replaceable
+//0xA1 - replaceable
+//0xA2 - replaceable
+//0xA3 - replaceable
+//0xA4 - replaceable
+//0xA5 - replaceable
+//0xA6 - replaceable
+ItemIconSlot(0xA7,"Weapon Icons/Items/HeavySpear.png")
+ItemIconSlot(0xAC,"Weapon Icons/Items/ShortSpear.png")
+//0xA9 - ocean seal (replaceable?)
+ItemIconSlot(0xAC,"Weapon Icons/Items/WindSword.png")
+//0xAB - SPIRIT DUST [DO NOT DELETE]
+ItemIconSlot(0xAC,"Weapon Icons/Items/SlimAxe.png")
+ItemIconSlot(0xAD,"Weapon Icons/Items/SlimBow.png")
+ItemIconSlot(0xAE,"Weapon Icons/Items/Padma.png")
+ItemIconSlot(0xAF,"Weapon Icons/Items/Wind.png")
+//0xB0 - replaceable
+//0xB1 - replaceable
+//0xB2 - replaceable
+//0xB3 - replaceable
+//0xB4 - replaceable
+//0xB5 - replaceable
+ItemIconSlot(0xAC,"Weapon Icons/Items/Dragonspear.png")
+//0xB7 - replaceable
+//0xB8 - replaceable
+//0xB9 - replaceable
+//0xBA - replaceable
+//0xBB - replaceable
+//0xBC - replaceable
+//0xBD - replaceable
+//0xBE - replaceable
+//0xBF - replaceable
+//0xC0 - replaceable
+//0xC1 - replaceable
+//0xC2 - replaceable
+//0xC3 - Latona (keep?)
+//0xC4 - replaceable
+//0xC5 - replaceable
+//0xC6 - replaceable
+//0xC7 - replaceable
+//0xC8 - replaceable
+//0xC9 - replaceable
+ItemIconSlot(0xCA,"Weapon Icons/SkillBooks/RallyLuck.png")
+//0xCB - replaceable
+//0xCC - replaceable
+//0xCD - replaceable
+//0xCE - replaceable
+//0xCF - replaceable
+//0xD0 - replaceable
+//0xD1 - replaceable
+//0xD2 - replaceable
+//0xD3 - replaceable
+//0xD4 - replaceable
+//0xD5 - replaceable
+//0xD6 - replaceable
+//0xD7 - replaceable
+//0xD8 - replaceable
+ItemIconSlot(0x8D,"Weapon Icons/Items/MasterSeal.png")
+//0xDA - FILI SHIELD
+//0xDB - HOPLON GUARD
+//0xDC - METIS TOME
+//0xDD - JUNA FRUIT
+//0xDE - replaceable
+//0xDF - replaceable
+POP
+
+MESSAGE Item slots filled

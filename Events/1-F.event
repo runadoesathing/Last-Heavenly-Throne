@@ -1,0 +1,120 @@
+EventPointerTable(0x17, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN UnitsP UnitsP  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 CleartheSeal [1,0] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+UnitsP:
+UNIT Cormac EirikaLord 0x1 Level(1, Ally, 0)    [9,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Miach Villager 0x1 Level(1, Ally, 0)       [9,10] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+SetantaP:
+UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [8,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+FerdiadP:
+UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [10,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+LalithaP:
+UNIT Lalitha Mage_F 0x1 Level(1, Ally, 0)    [8,10] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+BresP:
+UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [10,10] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+HanlinP:
+UNIT Hanlin Trobairitz 0x1 Level(2, Ally, 0)    [9,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+AengusP:
+UNIT Aengus Knight 0x1 Level(1, Ally, 0)    [8,11] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+EthniuP:
+UNIT Ethniu Shaman_F 0x1 Level(1, Ally, 0)    [10,11] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+SadhbhP:
+UNIT Sadhbh Crownflier 0x1 Level(1, Ally, 0)    [9,12] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+GedeonP:
+UNIT Gedeon Fighter 0x1 Level(1, Ally, 0)    [9,11] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+EnemyUnits:
+UNIT Gedaliah Halberdier 0x0 Level(1, Enemy, 1)     [0,5]   0 0 0 0            [Javelin] NeverMoveAI
+UNIT 0x84 BowCav 0x0 Level(7, Enemy, 1)             [0,3]   0 0 0 0            [IronBow] NeverMoveAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 EnemyUnits
+ENUN
+LOAD2 0x1 UnitsP
+ENUN
+AliveCLoad(Setanta,SetantaP,0xA)
+AliveCLoad(Ferdiad,FerdiadP,0xB)
+AliveCLoad(Lalitha,LalithaP,0xC)
+AliveCLoad(Bres,BresP,0xD)
+AliveCLoad(Ethniu,EthniuP,0xE)
+AliveCLoad(Aengus,AengusP,0xF)
+AliveCLoad(Hanlin,HanlinP,0x10)
+AliveCLoad(Sadhbh,SadhbhP,0x11)
+AliveCLoad(Gedeon,GedeonP,0x12)
+ENDA
+
+EndingScene:
+MNCH 0x5
+FADI 2
+NoFade
+ENDA
+
+CleartheSeal:
+ASMC ClearDebuffs|1
+NoFade
+ENDA

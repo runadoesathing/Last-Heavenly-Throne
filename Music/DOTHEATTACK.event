@@ -1,0 +1,752 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	DOTHEATTACK_grp  voicegroup000
+	#define	DOTHEATTACK_pri  0
+	#define	DOTHEATTACK_rev  0
+	#define	DOTHEATTACK_mvl  127
+	#define	DOTHEATTACK_key  0
+	#define	DOTHEATTACK_tbs  1
+	#define	DOTHEATTACK_exg  0
+	#define	DOTHEATTACK_cmp  1
+
+	// .rodata
+	//	DOTHEATTACK
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+DOTHEATTACK_1:
+	BYTE	KEYSH   DOTHEATTACK_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   160*DOTHEATTACK_tbs/2
+	BYTE		VOICE   57
+	BYTE		VOL     54*DOTHEATTACK_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N92     Gs3   v100
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W96
+// 003   ----------------------------------------
+DOTHEATTACK_1_003:
+	BYTE		N44     Cs4   v100
+	BYTE	W48
+	BYTE		        As3 
+	BYTE	W48
+	BYTE	PEND
+DOTHEATTACK_1_B1:
+// 004   ----------------------------------------
+	BYTE		N92     Gs3   v100
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE		N44     En3 
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_1_003
+// 012   ----------------------------------------
+	BYTE		N92     Gs3   v100
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE		N44     En3 
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE	W48
+// 016   ----------------------------------------
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE		        Bn3 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_1_003
+// 020   ----------------------------------------
+	BYTE		N92     Gs3   v100
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        Fs3 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE		N44     En3 
+	BYTE	W48
+	BYTE		        Fs3 
+	BYTE	W48
+	BYTE	GoTo
+	 POIN2	DOTHEATTACK_1_B1
+DOTHEATTACK_1_B2:
+// 024   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+DOTHEATTACK_2:
+	BYTE	KEYSH   DOTHEATTACK_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   2
+	BYTE		VOL     60*DOTHEATTACK_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+DOTHEATTACK_2_B1:
+// 004   ----------------------------------------
+	BYTE		N92     Gs2   v100
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE		N44     Gs2 
+	BYTE		N44     Gs3 
+	BYTE	W48
+	BYTE		        As2 
+	BYTE		N44     As3 
+	BYTE	W48
+// 008   ----------------------------------------
+DOTHEATTACK_2_008:
+	BYTE		N28     Gs2   v100
+	BYTE		N28     Gs3 
+	BYTE	W30
+	BYTE		N17     Fs2 
+	BYTE		N17     Fs3 
+	BYTE	W18
+	BYTE		N28     Gs2 
+	BYTE		N28     Gs3 
+	BYTE	W30
+	BYTE		N17     Fs2 
+	BYTE		N17     Fs3 
+	BYTE	W18
+	BYTE	PEND
+// 009   ----------------------------------------
+DOTHEATTACK_2_009:
+	BYTE		N28     Gs2   v100
+	BYTE		N28     Gs3 
+	BYTE	W30
+	BYTE		N17     Fs2 
+	BYTE		N17     Fs3 
+	BYTE	W18
+	BYTE		N07     Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE		N07     Cs4 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE		N07     Ds4 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE		N07     Cs4 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE	PEND
+// 010   ----------------------------------------
+DOTHEATTACK_2_010:
+	BYTE		N28     Ds3   v100
+	BYTE		N28     Ds4 
+	BYTE	W30
+	BYTE		N17     Cs3 
+	BYTE		N17     Cs4 
+	BYTE	W18
+	BYTE		N28     Ds3 
+	BYTE		N28     Ds4 
+	BYTE	W30
+	BYTE		N17     Cs3 
+	BYTE		N17     Cs4 
+	BYTE	W18
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE		N28     Ds3 
+	BYTE		N28     Ds4 
+	BYTE	W30
+	BYTE		N17     Cs3 
+	BYTE		N17     Cs4 
+	BYTE	W18
+	BYTE		N07     Ds3 
+	BYTE		N07     Ds4 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE		N07     Cs4 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE		N07     Ds4 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        As2 
+	BYTE		N07     As3 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_2_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_2_009
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_2_010
+// 015   ----------------------------------------
+	BYTE		N28     Ds3   v100
+	BYTE		N28     Ds4 
+	BYTE	W30
+	BYTE		N17     Fs3 
+	BYTE		N17     Fs4 
+	BYTE	W18
+	BYTE		N07     Gs3 
+	BYTE		N07     Gs4 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE		N07     Ds4 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE		N07     Cs4 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        As3 
+	BYTE		N07     As4 
+	BYTE	W08
+// 016   ----------------------------------------
+	BYTE		N92     Gs2 
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE		        Gs2 
+	BYTE		N92     Gs3 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE		N07     Gs2 
+	BYTE		N07     Gs3 
+	BYTE	W08
+	BYTE		        As2 
+	BYTE		N07     As3 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Gs2 
+	BYTE		N07     Gs3 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE		N07     Ds4 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE		N07     Cs4 
+	BYTE	W08
+	BYTE		        As2 
+	BYTE		N07     As3 
+	BYTE	W08
+	BYTE		        Fs2 
+	BYTE		N07     Fs3 
+	BYTE	W08
+	BYTE		        As2 
+	BYTE		N07     As3 
+	BYTE	W08
+	BYTE		        Fs2 
+	BYTE		N07     Fs3 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE		N07     Cs4 
+	BYTE	W08
+// 020   ----------------------------------------
+	BYTE		N92     Bn2 
+	BYTE		N92     Bn3 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        Ds3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE		        Cs3 
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE		N07     Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE		N07     Cs4 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE		N07     Ds4 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE		N07     Cs4 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE		N07     Ds4 
+	BYTE	W08
+	BYTE		        As2 
+	BYTE		N07     As3 
+	BYTE	W08
+	BYTE		        Fs2 
+	BYTE		N07     Fs3 
+	BYTE	W08
+	BYTE		        Ds2 
+	BYTE		N07     Ds3 
+	BYTE	W08
+	BYTE		        As2 
+	BYTE		N07     As3 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        As2 
+	BYTE		N07     As3 
+	BYTE	W08
+	BYTE	GoTo
+	 POIN2	DOTHEATTACK_2_B1
+DOTHEATTACK_2_B2:
+// 024   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+DOTHEATTACK_3:
+	BYTE	KEYSH   DOTHEATTACK_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     66*DOTHEATTACK_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N07     Gs1   v100
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+// 001   ----------------------------------------
+DOTHEATTACK_3_001:
+	BYTE		N07     Fs1   v100
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_001
+// 003   ----------------------------------------
+DOTHEATTACK_3_003:
+	BYTE		N07     Gs1   v100
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE	PEND
+DOTHEATTACK_3_B1:
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 007   ----------------------------------------
+DOTHEATTACK_3_007:
+	BYTE		N07     Bn1   v100
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		        As1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_003
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_3_007
+	BYTE	GoTo
+	 POIN2	DOTHEATTACK_3_B1
+DOTHEATTACK_3_B2:
+// 024   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+DOTHEATTACK_4:
+	BYTE	KEYSH   DOTHEATTACK_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     73*DOTHEATTACK_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N23     Cn1   v100
+	BYTE	W24
+	BYTE		N07   
+	BYTE		N23     Dn1 
+	BYTE	W08
+	BYTE		N07     Cn1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N07   
+	BYTE		N23     Dn1 
+	BYTE	W08
+	BYTE		N07     Cn1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+// 001   ----------------------------------------
+DOTHEATTACK_4_001:
+	BYTE		N23     Cn1   v100
+	BYTE	W24
+	BYTE		N07   
+	BYTE		N23     Dn1 
+	BYTE	W08
+	BYTE		N07     Cn1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N07   
+	BYTE		N23     Dn1 
+	BYTE	W08
+	BYTE		N07     Cn1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 003   ----------------------------------------
+DOTHEATTACK_4_003:
+	BYTE		N23     Cn1   v100
+	BYTE	W24
+	BYTE		N23   
+	BYTE		N07     Dn1 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		        Cn1 
+	BYTE		N23     Dn1 
+	BYTE		N07     Cn2 
+	BYTE	W08
+	BYTE		        Cn1 
+	BYTE		N07     Cn2 
+	BYTE	W08
+	BYTE		        Cn1 
+	BYTE		N07     Bn1 
+	BYTE	W08
+	BYTE		        Cn1 
+	BYTE		N05     Dn1 
+	BYTE		N07     Bn1 
+	BYTE	W06
+	BYTE		N05     Dn1 
+	BYTE	W02
+	BYTE		N07     Cn1 
+	BYTE		N07     Gn1 
+	BYTE	W04
+	BYTE		N05     Dn1 
+	BYTE	W04
+	BYTE		N07     Cn1 
+	BYTE		N07     Gn1 
+	BYTE	W02
+	BYTE		N05     Dn1 
+	BYTE	W06
+	BYTE	PEND
+DOTHEATTACK_4_B1:
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_001
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	DOTHEATTACK_4_003
+	BYTE	GoTo
+	 POIN2	DOTHEATTACK_4_B1
+DOTHEATTACK_4_B2:
+// 024   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+DOTHEATTACK:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	DOTHEATTACK_pri	// Priority
+	BYTE	DOTHEATTACK_rev	// Reverb.
+
+	POIN2	DOTHEATTACK_grp
+
+	POIN2	DOTHEATTACK_1
+	POIN2	DOTHEATTACK_2
+	POIN2	DOTHEATTACK_3
+	POIN2	DOTHEATTACK_4
+
+	

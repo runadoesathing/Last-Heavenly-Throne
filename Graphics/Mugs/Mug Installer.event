@@ -1,0 +1,67 @@
+#include "Tools/Tool Helpers.txt"
+
+/*
+Conall_Mug:
+#incext PortraitFormatter "ConallAlpha.png"
+setMugEntry(0x2, Conall_Mug, 2, 5, 3, 3)
+*/
+
+Airmed_Mug:
+#incext PortraitFormatter "AirmedAlpha.png"
+setMugEntry(0x3, Airmed_Mug, 2, 6, 3, 4)
+
+Setanta_Mug:
+#incext PortraitFormatter "SetantaAlpha.png"
+setMugEntry(0x4, Setanta_Mug, 3, 5, 3, 3)
+
+Ferdiad_Mug:
+#incext PortraitFormatter "FerdiadAlpha.png"
+setMugEntry(0x5, Ferdiad_Mug, 2, 5, 3, 3)
+
+Hanlin_Mug:
+#incext PortraitFormatter "HanlinAlpha.png"
+setMugEntry(0x6, Hanlin_Mug, 2, 6, 3, 4)
+
+Sadhbh_Mug:
+#incext PortraitFormatter "SadhbhAlpha.png"
+setMugEntry(0x8, Sadhbh_Mug, 2, 5, 3, 3)
+
+Lalitha_Mug:
+#incext PortraitFormatter "LalithaAlpha.png"
+setMugEntry(0x9, Lalitha_Mug, 2, 6, 3, 4)
+
+Aengus_Mug:
+#incext PortraitFormatter "AengusAlpha.png"
+setMugEntry(0xA, Aengus_Mug, 2, 5, 3, 3)
+
+Miach_Mug:
+#incext PortraitFormatter "MiachAlpha.png"
+setMugEntry(0xB, Miach_Mug, 3, 7, 3, 5)
+
+Bres_Mug:
+#incext PortraitFormatter "BresAlpha.png"
+setMugEntry(0xC, Bres_Mug, 2, 5, 3, 3)
+
+Ethniu_Mug:
+#incext PortraitFormatter "EthniuAlpha.png"
+setMugEntry(0xE, Ethniu_Mug, 2, 6, 3, 4)
+
+Srihwen_Mug:
+#incext PortraitFormatter "Srihwen.png"
+setMugEntry(0x2, Srihwen_Mug, 4, 5, 4, 3)
+
+Anluan_Mug:
+#incext PortraitFormatter "Anluan.png"
+setMugEntry(0x30, Anluan_Mug, 3, 5, 3, 3)
+
+Aillen_Mug:
+#incext PortraitFormatter "Aillen.png"
+setMugEntry(0x31, Aillen_Mug, 3, 5, 3, 3)
+
+Lamech_Mug:
+#incext PortraitFormatter "Lamech.png"
+setMugEntry(0x32, Lamech_Mug, 3, 5, 3, 3)
+
+Ishpan_Mug:
+#incext PortraitFormatter "Ishpan.png"
+setMugEntry(0x33, Ishpan_Mug, 3, 5, 3, 3)

@@ -1,0 +1,65 @@
+
+Map_DruidF_Stand:
+#incext Png2Dmp "DruidFS.png" --lz77
+Map_DruidF_Move:
+#incext Png2Dmp "DruidFM.png" --lz77
+Map_Aknight_Stand:
+#incext Png2Dmp "Axe Stand.png" --lz77
+Map_Aknight_Move:
+#incext Png2Dmp "Axe Move.png" --lz77
+Map_Sknight_Stand:
+#incext Png2Dmp "Sword Stand.png" --lz77
+Map_Sknight_Move:
+#incext Png2Dmp "Sword Move.png" --lz77
+Map_Lknight_Stand:
+#incext Png2Dmp "Lance Stand New.png" --lz77
+Map_Lknight_Move:
+#incext Png2Dmp "Lance Move.png" --lz77
+Map_Soldier_Stand:
+#incext Png2Dmp "Soldier (Alusq) S.png" --lz77
+Map_Soldier_Move:
+#incext Png2Dmp "Soldier (Alusq) M.png" --lz77
+Map_WyvernR_Stand:
+#incext Png2Dmp "WyvernUS.png" --lz77
+Map_WyvernR_Move:
+#incext Png2Dmp "WyvernUM.png" --lz77
+Map_AxeCav_Stand:
+#incext Png2Dmp "AxeCavS (Siuloir).png" --lz77
+Map_AxeCav_Move:
+#incext Png2Dmp "AxeCavM (Siuloir).png" --lz77
+Map_BowCav_Stand:
+#incext Png2Dmp "BCavS.png" --lz77
+Map_BowCav_Move:
+#incext Png2Dmp "BCavM.png" --lz77
+Map_FirstLord_Stand:
+#incext Png2Dmp "FirstLordS.png" --lz77
+Map_FirstLord_Move:
+#incext Png2Dmp "FirstLordM.png" --lz77
+Map_SwordCav_Stand:
+#incext Png2Dmp "Scav (Agro).png" --lz77
+Map_SwordCav_Move:
+#incext Png2Dmp "ScavM (Agro).png" --lz77
+Map_ShamanF_Stand:
+#incext Png2Dmp "ShamanFS.png" --lz77
+Map_ShamanF_Move:
+#incext Png2Dmp "ShamanFM.png" --lz77
+Map_Sibyl_Stand:
+#incext Png2Dmp "SibylS.png" --lz77
+Map_Sibyl_Move:
+#incext Png2Dmp "SibylM.png" --lz77
+Map_VillagerF_Stand:
+#incext Png2Dmp "VillagerFS.png" --lz77
+Map_VillagerF_Move:
+#incext Png2Dmp "VillagerFM.png" --lz77
+Map_VillagerM_Stand:
+#incext Png2Dmp "VillagerMS.png" --lz77
+Map_VillagerM_Move:
+#incext Png2Dmp "VillagerMM.png" --lz77
+Map_HalberdierF_Stand:
+#incext Png2Dmp "HalberdierFS.png" --lz77
+Map_HalberdierF_Move:
+#incext Png2Dmp "HalberdierFM.png" --lz77
+Map_HalberdierM_Stand:
+#incext Png2Dmp "HalberdierMS.png" --lz77
+Map_HalberdierM_Move:
+#incext Png2Dmp "HalberdierMM.png" --lz77

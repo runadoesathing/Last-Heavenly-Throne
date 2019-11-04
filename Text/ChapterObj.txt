@@ -1,0 +1,37 @@
+## PlaceholderText
+[OpenFarLeft][LoadLalitha][OpenFarRight][LoadLalitha][OpenRight][LoadLalitha]
+Placeholder text![A][X]
+
+## Ch0Long
+Defeat the bandit[N]
+captain, Anl[0xFA]an[X]
+
+## DefeatBossObj
+Defeat boss[X]
+
+## Ch1Long
+Defeat the bandit[N]
+leader in the fort[X]
+
+## Ch2Long
+Defeat all[N]
+enemy units[X]
+
+## RoutObj
+Rout enemy[X]
+
+## Ch3Long
+Secure the[N]
+border fortress[X]
+
+## Ch4Long
+Defend Miach for[N]
+11 turns[X]
+
+## DefendObj
+Defend[X]
+
+#include "Chapter Text/part1chapter1.txt"
+#include "Chapter Text/part1chapter2.txt"
+#include "Chapter Text/part1chapter3.txt"
+#include "Chapter Text/chapter 1-4.txt"

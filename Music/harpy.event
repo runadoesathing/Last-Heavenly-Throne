@@ -1,0 +1,1056 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	harpy_grp  voicegroup000
+	#define	harpy_pri  0
+	#define	harpy_rev  0
+	#define	harpy_mvl  127
+	#define	harpy_key  0
+	#define	harpy_tbs  1
+	#define	harpy_exg  0
+	#define	harpy_cmp  1
+
+	// .rodata
+	//	harpy
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.5) ****************//
+
+harpy_1:
+	BYTE	KEYSH   harpy_key+0
+harpy_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   120*harpy_tbs/2
+	BYTE		VOICE   46
+	BYTE		VOL     43*harpy_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N07     En3   v100
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE	W08
+// 001   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE	W08
+// 002   ----------------------------------------
+harpy_1_002:
+	BYTE		N07     En3   v100
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE		N07     An3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE	W08
+	BYTE		N07   
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE		N07     An3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE	W08
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_002
+// 004   ----------------------------------------
+harpy_1_004:
+	BYTE		N07     Bn2   v100
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE	W08
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_004
+// 006   ----------------------------------------
+harpy_1_006:
+	BYTE		N07     Bn2   v100
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_006
+// 008   ----------------------------------------
+harpy_1_008:
+	BYTE		N07     Bn2   v100
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE	W08
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_008
+// 010   ----------------------------------------
+harpy_1_010:
+	BYTE		N07     Bn2   v100
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Cn4 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Cn4 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 030   ----------------------------------------
+harpy_1_030:
+	BYTE		N07     Bn2   v100
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Cn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Cn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE	PEND
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_030
+// 032   ----------------------------------------
+harpy_1_032:
+	BYTE		N07     Bn2   v100
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Cn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Cn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE	PEND
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_032
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_030
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_030
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_032
+// 037   ----------------------------------------
+	BYTE		N07     Bn2   v100
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Cn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE		N07     En5 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE		N07     Bn4 
+	BYTE		N07     En5 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE		N07     En5 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Cn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     En5 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     Gn4 
+	BYTE		N07     An4 
+	BYTE		N07     Bn4 
+	BYTE		N07     En5 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     En5 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Dn4 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     Gn4 
+	BYTE		N07     Bn4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Bn3 
+	BYTE		N07     En4 
+	BYTE		N07     Fs4 
+	BYTE		N07     An4 
+	BYTE	W08
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_1_010
+// 040   ----------------------------------------
+	BYTE		N07     Bn2   v100
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Gn4 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE		N07     Fs4 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE		N07     En4 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Bn2 
+	BYTE		N07     En3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Fs3 
+	BYTE		N07     An3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE		N07     Fs3 
+	BYTE	W08
+// 041   ----------------------------------------
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE		N07     An3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE		N07     Bn3 
+	BYTE	W08
+	BYTE		        En3 
+	BYTE		N07     Gn3 
+	BYTE	W08
+	BYTE		        Dn3 
+	BYTE		N07     Fs3 
+	BYTE	W08
+	BYTE		        Cn3 
+	BYTE		N07     En3 
+	BYTE	W08
+	BYTE		N07   
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        Gn3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		N15     En3 
+	BYTE	W16
+	BYTE	GoTo
+	 POIN2	harpy_1_B1
+harpy_1_B2:
+// 042   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.6) ****************//
+
+harpy_2:
+	BYTE	KEYSH   harpy_key+0
+harpy_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   51
+	BYTE		VOL     58*harpy_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE		TIE     En1   v100
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE		TIE     Dn1 
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE		TIE     En1 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE		TIE     Dn1 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 022   ----------------------------------------
+harpy_2_022:
+	BYTE		TIE     En1   v100
+	BYTE		TIE     Bn1 
+	BYTE	W96
+	BYTE	PEND
+// 023   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     En1 
+	BYTE		        Bn1 
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE		TIE     En1 
+	BYTE		TIE     Cn2 
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     En1 
+	BYTE		        Cn2 
+	BYTE	W01
+// 026   ----------------------------------------
+	BYTE		TIE     An1 
+	BYTE		TIE     Dn2 
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     An1 
+	BYTE		        Dn2 
+	BYTE	W01
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_2_022
+// 029   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     En1 
+	BYTE		        Bn1 
+	BYTE	W01
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_2_022
+// 031   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     En1 
+	BYTE		        Bn1 
+	BYTE	W01
+// 032   ----------------------------------------
+	BYTE		TIE     Gn1   v100
+	BYTE		TIE     En2 
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Gn1 
+	BYTE		        En2 
+	BYTE	W01
+// 034   ----------------------------------------
+	BYTE		TIE     Fs1 
+	BYTE		TIE     Dn2 
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs1 
+	BYTE		        Dn2 
+	BYTE	W01
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	harpy_2_022
+// 037   ----------------------------------------
+	BYTE		N92     En2   v100
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     En1 
+	BYTE		        Bn1 
+	BYTE	W01
+// 038   ----------------------------------------
+	BYTE		TIE     En1 
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	harpy_2_B1
+harpy_2_B2:
+// 042   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+harpy:
+	BYTE	2	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	harpy_pri	// Priority
+	BYTE	harpy_rev	// Reverb.
+
+	POIN2	harpy_grp
+
+	POIN2	harpy_1
+	POIN2	harpy_2
+
+	

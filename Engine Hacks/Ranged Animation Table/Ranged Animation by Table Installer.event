@@ -1,0 +1,12 @@
+PUSH
+ORG $58290
+jumpToHack(RangeAnimHack)
+POP
+
+RangeAnimHack:
+#incbin "rangecheck.dmp"
+POIN RangeAnimList
+
+RangeAnimList:
+BYTE Runesword Tomahawk HandAxe Lightbrand WindSword 0
+ALIGN 4

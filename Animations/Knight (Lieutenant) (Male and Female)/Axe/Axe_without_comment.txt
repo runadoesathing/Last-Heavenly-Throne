@@ -1,0 +1,199 @@
+/// - Mode 1
+C03
+C07
+1 p- Axe_without_comment_000.png
+4 p- Axe_without_comment_001.png
+4 p- Axe_without_comment_002.png
+C1B
+4 p- Axe_without_comment_003.png
+C2B
+4 p- Axe_without_comment_004.png
+C15
+10 p- Axe_without_comment_005.png
+C04
+C24
+4 p- Axe_without_comment_006.png
+C1B
+C2B
+1 p- Axe_without_comment_007.png
+C15
+C1A
+C21
+1 p- Axe_without_comment_008.png
+C01
+4 p- Axe_without_comment_009.png
+4 p- Axe_without_comment_010.png
+4 p- Axe_without_comment_011.png
+4 p- Axe_without_comment_012.png
+4 p- Axe_without_comment_013.png
+4 p- Axe_without_comment_014.png
+10 p- Axe_without_comment_015.png
+4 p- Axe_without_comment_016.png
+4 p- Axe_without_comment_017.png
+C15
+C2B
+C1B
+10 p- Axe_without_comment_018.png
+2 p- Axe_without_comment_019.png
+C06
+2 p- Axe_without_comment_020.png
+C1B
+C15
+4 p- Axe_without_comment_021.png
+C2B
+C0D
+~~~
+/// - Mode 3
+C03
+C07
+1 p- Axe_without_comment_022.png
+C22
+C2B
+5 p- Axe_without_comment_023.png
+3 p- Axe_without_comment_024.png
+3 p- Axe_without_comment_025.png
+3 p- Axe_without_comment_026.png
+3 p- Axe_without_comment_027.png
+C22
+3 p- Axe_without_comment_028.png
+3 p- Axe_without_comment_029.png
+3 p- Axe_without_comment_030.png
+3 p- Axe_without_comment_031.png
+3 p- Axe_without_comment_032.png
+C22
+3 p- Axe_without_comment_033.png
+3 p- Axe_without_comment_034.png
+3 p- Axe_without_comment_035.png
+3 p- Axe_without_comment_036.png
+3 p- Axe_without_comment_037.png
+4 p- Axe_without_comment_038.png
+5 p- Axe_without_comment_039.png
+C2B
+15 p- Axe_without_comment_040.png
+4 p- Axe_without_comment_041.png
+4 p- Axe_without_comment_042.png
+C1B
+C15
+4 p- Axe_without_comment_043.png
+4 p- Axe_without_comment_044.png
+C2B
+10 p- Axe_without_comment_045.png
+C04
+C24
+4 p- Axe_without_comment_046.png
+C1B
+C2B
+1 p- Axe_without_comment_047.png
+C15
+C0C
+C21
+1 p- Axe_without_comment_048.png
+C01
+4 p- Axe_without_comment_049.png
+4 p- Axe_without_comment_050.png
+4 p- Axe_without_comment_051.png
+4 p- Axe_without_comment_052.png
+4 p- Axe_without_comment_053.png
+4 p- Axe_without_comment_054.png
+10 p- Axe_without_comment_055.png
+4 p- Axe_without_comment_056.png
+C1B
+C15
+4 p- Axe_without_comment_057.png
+C2B
+10 p- Axe_without_comment_058.png
+2 p- Axe_without_comment_059.png
+C06
+2 p- Axe_without_comment_060.png
+C1B
+C15
+4 p- Axe_without_comment_061.png
+C2B
+C0D
+~~~
+/// - Mode 5
+1 p- Axe_without_comment_062.png
+~~~
+/// - Mode 6
+1 p- Axe_without_comment_063.png
+~~~
+/// - Mode 7
+C02
+1 p- Axe_without_comment_064.png
+C0E
+3 p- Axe_without_comment_065.png
+C2B
+1 p- Axe_without_comment_066.png
+C01
+3 p- Axe_without_comment_067.png
+C2B
+C0D
+~~~
+/// - Mode 8
+C02
+1 p- Axe_without_comment_068.png
+C0E
+3 p- Axe_without_comment_069.png
+C2B
+1 p- Axe_without_comment_070.png
+C01
+3 p- Axe_without_comment_071.png
+C2B
+C0D
+~~~
+/// - Mode 9
+1 p- Axe_without_comment_072.png
+C01
+~~~
+/// - Mode 10
+1 p- Axe_without_comment_073.png
+C01
+~~~
+/// - Mode 11
+1 p- Axe_without_comment_074.png
+C01
+~~~
+/// - Mode 12
+C03
+C07
+1 p- Axe_without_comment_075.png
+4 p- Axe_without_comment_076.png
+4 p- Axe_without_comment_077.png
+C1B
+4 p- Axe_without_comment_078.png
+C2B
+4 p- Axe_without_comment_079.png
+C15
+10 p- Axe_without_comment_080.png
+C04
+C24
+4 p- Axe_without_comment_081.png
+C1B
+C2B
+1 p- Axe_without_comment_082.png
+C15
+1 p- Axe_without_comment_083.png
+C01
+4 p- Axe_without_comment_084.png
+4 p- Axe_without_comment_085.png
+4 p- Axe_without_comment_086.png
+4 p- Axe_without_comment_087.png
+4 p- Axe_without_comment_088.png
+4 p- Axe_without_comment_089.png
+10 p- Axe_without_comment_090.png
+4 p- Axe_without_comment_091.png
+4 p- Axe_without_comment_092.png
+C15
+C2B
+C1B
+10 p- Axe_without_comment_093.png
+2 p- Axe_without_comment_094.png
+C06
+2 p- Axe_without_comment_095.png
+C1B
+C15
+4 p- Axe_without_comment_096.png
+C2B
+C0D
+~~~
+/// - End of animation

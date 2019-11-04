@@ -1,0 +1,41 @@
+//FE8-Staff and Item Lock
+//Originally by jjl2357, modified by Tequila to work with EA and fix some errors in the patch
+
+#ifdef _FE8_
+	#include "Extensions/Hack Installation.txt"
+	
+	#ifndef FreeSpace
+		#define FreeSpace 0xB2B000
+		ORG FreeSpace
+	#endif
+	
+	PUSH
+	
+	//Item and staff lock check
+	ORG $28880
+	callHack_r3(CanUnitUseStaffOrItem)
+	
+	//Staff check
+	ORG $167A4
+	jumpToHack(CanUnitWieldStaff)
+	
+	POP
+	
+	ALIGN 4
+	CanUnitUseStaffOrItem:
+	#incbin "CanUnitUseStaffOrItem.dmp"
+	POIN Staff_Item_Lock
+	
+	ALIGN 4
+	CanUnitWieldStaff:
+	#incbin "CanUnitWieldStaff.dmp"
+	POIN Staff_Item_Lock
+	
+	ALIGN 4
+	Staff_Item_Lock:
+	#incbin "Staff_Item_Lock.dmp"
+	
+	
+#else
+	ERROR "You're not assembling FE8 events!
+#endif

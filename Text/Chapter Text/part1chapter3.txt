@@ -1,0 +1,1549 @@
+## LamechBQ
+[BattleText]
+[OpenMidLeft][LoadFace][0x32][0x1]
+Surrender, or fall before the might of Heichalot's forces![X]
+
+
+
+## LamechDQ
+[BattleText]
+[OpenMidLeft][LoadFace][0x32][0x1]
+I cannot fall here...[.....]
+[CloseEyes]The village should've been...![X]
+
+
+
+## P1C3WMIntro
+The party departs towards[N]
+the encampment on the border[N]
+between Corbenic and Heichalot.[AN]
+Bringing with themselves[N]
+Cethern's younger brother Miach,[AN]
+they rout an abandoned fortress of[N]
+bandits harrassing a young girl.[AN]
+With an additional notch on[N]
+their belts,[.....] the group continues[N]
+from Caer Golud to Caer Wydyr.[A][X]
+
+
+
+## P1C3WMIntro2
+Caer Wydyr covers the majority[N]
+of Corbenic's border with the[N]
+Principality of Heichalot.[AN]
+Originally a neighbour to Caer[N]
+Vedwyd before its rebellion,[.....] Caer[AN]
+Wydyr normally shares friendship[N]
+with both Myanchao and Heichalot.[AN]
+The chills of coming winter and[N]
+war chip away at this peace,[AN]
+leaving an unsteady and looming[N]
+dread over the Corbenic camp...[A][X]
+
+
+
+## CaerWydyr
+Caer Wydyr[X]
+
+
+
+## Picodobra
+Picodobra[X]
+
+
+
+## P1C3EveryoneAlive
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenMidRight][LoadSadhbh]
+We've finally arrived at the border.
+Gather your breath for a second.
+We'll need to introduce ourselves to the commander as soon as we can.
+
+[OpenMidLeft]
+Thank you, Lady Sadhbh.[....][MoveMidLeft]
+Looks like a lot of soldiers are here.
+
+[OpenMidRight]
+It's not as many as it should be.
+We had a few forces in Srughna helping with some flooding, but trying to get them back up here is quite tricky.
+It doesn't help that Srughna refuses to be involved in this confrontation.
+
+[OpenMidLeft]
+Sounds like a messy situation.
+I'm glad that all of us are here to help bolster the encampment.[....]
+But, is it normally this cold up here so early...?
+
+[OpenMidRight]
+It is. We should get you inside.
+You'll get used to it soon enough.[X]
+
+
+
+## P1C3SaAliveFeDead
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenMidRight][LoadSadhbh]
+We've finally arrived at the border.
+Gather your breath for a second.
+We'll need to introduce ourselves to the commander as soon as we can.
+
+[OpenMidLeft]
+Thank you, Lady Sadhbh.[....][MoveMidLeft]
+Looks like a lot of soldiers are here.
+
+[OpenMidRight]
+It's not as many as it should be.
+We had a few forces in Srughna helping with some flooding, but trying to get them back up here is quite tricky.
+It doesn't help that Srughna refuses to be involved in this confrontation.
+
+[OpenMidLeft]
+Sounds like a messy situation.[.....][CloseEyes]
+... ...
+
+[OpenMidRight]
+What was your friend's name again...
+It was Feridad, correct?
+
+[OpenMidLeft][OpenEyes]
+Yes...
+I should have been able to protect her.
+But I couldn't.
+I'm doubting my choice to be here.
+I couldn't imagine losing S[0xE9]tanta, or...
+
+[OpenMidRight]
+That is the reality of war, Cethern.
+If you wish to go back, I could--
+
+[OpenMidLeft]
+I'm not going back, Lady Sadhbh.
+I need to protect my family.
+
+[OpenMidRight]
+Very well then. Let's head to the commander.
+You must be freezing cold here outside.[X]
+
+
+
+
+## P1C3SaAliveSeDead
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenMidRight][LoadSadhbh]
+We've finally arrived at the border.
+Gather your breath for a second.
+We'll need to introduce ourselves to the commander as soon as we can.
+
+[OpenMidLeft]
+Thank you, Lady Sadhbh.[....][MoveMidLeft]
+Looks like a lot of soldiers are here.
+
+[OpenMidRight]
+It's not as many as it should be.
+We had a few forces in Srughna helping with some flooding, but trying to get them back up here is quite tricky.
+It doesn't help that Srughna refuses to be involved in this confrontation.
+
+[OpenMidLeft]
+Sounds like a messy situation.[.....][CloseEyes]
+... ...
+
+[OpenMidRight]
+That other boy's name...
+Wasn't it S[0xE9]tanta?
+
+[OpenMidLeft][OpenEyes]
+It was...
+He said that me, Ferdiad, and him would be a trio together.
+It's hard to register that he's gone.
+
+[OpenMidRight]
+That is the reality of war, Cethern.
+If you wish to go back, I could--
+
+[OpenMidLeft]
+I'm not going back, Lady Sadhbh.
+I need to protect my family.
+
+[OpenMidRight]
+Very well then. Let's head to the commander.
+You must be freezing cold here outside.[X]
+
+
+
+## P1C3SaAliveRestDead
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenMidRight][LoadSadhbh]
+We've finally arrived at the border.
+Gather your breath for a second.
+We'll need to introduce ourselves to the commander as soon as we can.
+
+[OpenMidLeft]
+Thank you, Lady Sadhbh.[....][MoveMidLeft]
+Looks like a lot of soldiers are here.
+
+[OpenMidRight]
+It's not as many as it should be.
+We had a few forces in Srughna helping with some flooding, but trying to get them back up here is quite tricky.
+It doesn't help that Srughna refuses to be involved in this confrontation.
+
+[OpenMidLeft]
+Sounds like a messy situation.[.....][CloseEyes]
+... ...
+
+[OpenMidRight]
+I'm terribly sorry that I was unable to keep your friends safe.
+Even with you knowing the risk, I should've done more to protect you.
+
+[OpenMidLeft][OpenEyes]
+It was not your fault, Lady Sadhbh.[.....]
+I shouldn't have let them come...
+
+[OpenMidRight]
+You should not feel pressured to stay.
+I can return you to Cluain Bolg if--
+
+[OpenMidLeft]
+I'm not going back, Lady Sadhbh.
+I need to protect my family.
+
+[OpenMidRight]
+Very well then. Let's head to the commander.
+You must be freezing cold here outside.[X]
+
+
+
+## P1C3SeAlive
+[ConversationText]
+[OpenMidRight][LoadSetanta]
+[OpenMidLeft][LoadCethern]
+We're here at the camp...
+Are you holding up okay, S[0xE9]tanta?
+
+[OpenMidRight]
+I'm just in shock.
+I didn't think Sadhbh would be the first one to die...
+
+[OpenMidLeft]
+I'm surprised as well.[CloseEyes]
+It's a terrible thing to happen...[OpenEyes]
+Will the people here even take us seriously without her?
+
+[OpenMidRight]
+We could always head back...
+We should head back.
+But I know that you'd never take that as an option.
+
+[OpenMidLeft]
+You know that I cannot, S[0xE9]tanta.
+Neither would Ferdiad.
+We're here to fight for the safety of our village and families.
+
+[OpenMidRight]
+I don't agree with it, but I understand it.
+You should try to find whoever runs this camp then.
+They should probably know what happened to Sadhbh.
+
+[OpenMidLeft]
+Are you not coming with me?
+
+[OpenMidRight]
+I need to make sure Fern is alright.
+She might put on a courageous front when we're talking about fighting, but she's still the same person as always, constantly fretting over everyone...
+
+[OpenMidLeft]
+Check up on Miach too.
+He could be distraught as well.
+I'll be back soon.[X]
+
+
+
+## P1C3SeAliveFeDead
+[ConversationText]
+[OpenMidRight][LoadSetanta]
+[OpenMidLeft][LoadCethern]
+We're here at the camp...
+Are you holding up okay, S[0xE9]tanta?
+
+[OpenMidRight]
+I still can't believe they're gone...[MoveMidRight]
+We shouldn't be out here Cethern.
+Sadhbh and Fern are both dead.
+Either of us could be next.
+
+[OpenMidLeft][CloseEyes]
+I know that.[OpenEyes]
+It hurts me just as much.
+But running away would just make their loss be in vain.
+
+[OpenMidRight][CloseEyes]
+Fern...[......][OpenEyes]
+I have to stay for her. She'd yell at me if I tried to run away without you.
+But we have to promise not to die on each other, Cethern.
+We are a duo, aren't we?
+
+[OpenMidLeft]
+We are, S[0xE9]tanta.
+Indeed we are.[.....]
+Could you check up on Miach?
+
+[OpenMidRight]
+Trying to find the person who runs this encampment?
+I don't know if I'm the best person to comfort your brother...
+
+[OpenMidLeft]
+You'll do fine, S[0xE9]tanta.
+I need to tell them about Lady Sadhbh.
+I'll be back soon, I promise.[X]
+
+
+
+## P1C3FeAlive
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenMidRight][LoadFerdiad]
+I can't believe we made it here...[CloseEyes]
+It didn't seem like we would.[OpenEyes]
+
+[OpenMidLeft]
+You and Miach should take some rest.
+I'll try and find the commander.
+
+[OpenMidRight]
+Cethern, I'm coming with you.
+You're not the only person--
+
+[OpenMidLeft]
+Ferdiad, you really should rest.
+You might be hiding it now, but there are tears behind your eyes.
+I've known you for long enough.
+
+[OpenMidRight]
+And what about you Cethern?
+You stress about everything, but you push people away instead of letting them help you!
+
+[OpenMidLeft]
+Ferdiad, I...!
+
+[OpenMidRight]
+Have you decided that you're somehow more resilient than I am?![MoveMidRight]
+Maybe you are.[......] 
+Maybe you've buried your regret for S[0xE9]tanta and Lady Sadhbh.
+
+[OpenMidLeft]
+That's not what I meant, Ferdiad![CloseEyes]
+... ...[OpenEyes]
+
+[OpenMidRight]
+... ...
+
+[OpenMidLeft]
+... ...[MoveMidLeft]
+Can you please take care of Miach?
+I'm worried about him as well.
+He knew S[0xE9]tanta almost as well as us, and I'm not sure if he understood the risk of going to war as much as we do...
+
+[OpenMidRight][MoveMidRight][CloseEyes]
+If you say so...[OpenEyes]
+But know this Cethern.
+You are not the only competent member of our whole group.[CloseEyes]
+We cannot push others away and expect to be fine...[X]
+
+
+
+## P1C3NoOneAlive
+[ConversationText]
+[OpenMidRight][LoadMiach]
+[OpenMidLeft][LoadCethern]
+Miach, stay close to me. I don't want to lose you among everyone.
+
+[OpenMidRight]
+I'm staying as close as I can.[MoveMidRight]
+Cethern...?
+
+[OpenMidLeft]
+Is everything okay, Miach?
+
+[OpenMidRight]
+I[.....]-I[CloseEyes] shouldn't have come, Cethern.[OpenEyes]
+We should've stayed back home...
+
+[OpenMidLeft]
+Miach, I--
+
+[OpenMidRight][CloseEyes]
+We might not win the war, but at least we'd all be together again...
+
+[OpenMidLeft]
+Stop with that!
+We need to stay strong, Miach!
+Everyone might be gone, but we're still here![MoveMidLeft]
+You came to help everyone keep Cluain Bolg safe.
+To keep Airmed safe as well.
+
+[OpenMidRight][OpenEyes]
+Sniff...
+Cethern...
+
+[OpenMidLeft]
+You stay here, alright?
+I need to find the commander and tell him we're willing to help.
+I promise I'll keep us safe, Miach.[X]
+
+
+
+## P1C3AengusAndEthniu
+[ConversationText]
+[OpenMidLeft][LoadAengus]
+[OpenMidRight][LoadEthniu][MoveMidRight]
+I told you Aengus!
+Look what's happened!
+
+[OpenMidLeft][CloseEyes]
+Huh...?[.....][MoveMidLeft][OpenEyes] Oh no!
+There's raiders in the town!
+
+[OpenMidRight]
+That's what I was trying to tell you, you incompetent oaf!
+Do you ever listen to me?!
+
+[OpenMidLeft]
+Wait, over there!
+Are those Corbenic forces?
+
+[OpenMidRight][CloseEyes]
+I just asked, do you...![OpenEyes]
+Oh. Those are Corbenic!
+
+[OpenMidLeft]
+Should we assist them?
+They seem to have everythin' handled pretty well...
+
+[OpenMidRight]
+Aren't you supposed to help them? Come on, we're fighting.
+Dust yourself off and follow my lead. Got it?
+
+[ClearFace][......][OpenMidLeft]
+Wait a minute![....][MoveMidLeft]
+Ethniu,[....] please wait![X]
+
+
+
+## P1C3ReinforcementTime
+[ConversationText]
+[OpenMidRight][LoadFace][0x32][0x1]
+They're bringing more forces in...
+Send out our reserves!
+We can shock them out of this village and take it![X]
+
+
+
+## P1C3AengusCethern
+[ConversationText]
+[OpenMidRight][LoadCethern]
+[.....][OpenFarFarLeft][LoadAengus]
+[MoveMidLeft]
+Hold up a second there!
+You're the leader of everyone, right?
+
+[OpenMidRight]
+You could say that.
+And you must be the guard stationed here?
+
+[OpenMidLeft]
+Yes I am!
+Though it's more accurate to say I live here.
+The name's Aengus. If you've seen the girl in the robes, she's my sis' Ethniu.
+
+[OpenMidRight]
+Good to have you and your sister. My name's Cethern.
+We came from the encampment east of here in case of this.
+
+[OpenMidLeft]
+Huh?[....] Oh right.[....]
+The war.
+
+[OpenMidRight]
+...Did you not know about it?
+Are you sure you're--
+
+[OpenMidLeft]
+Yep, yep I am! Perfectly fine![....][MoveMidLeft]
+Let's stop talkin' and start fightin'![X]
+
+
+
+## P1C3EthniuLalitha
+[ConversationText]
+[OpenMidLeft][LoadLalitha]
+[OpenMidRight][LoadEthniu]
+Is there something bothering you?
+Shouldn't you be focusing on the enemy?
+
+[OpenMidLeft]
+You're a magician too, aren't you?
+Holding that book like that?
+
+[OpenMidRight]
+If you don't have anything else to say, please leave me alone.
+Maybe you haven't noticed, but we're in the middle of a fight.
+
+[OpenMidLeft][ToggleSmile]
+Oh, I definitely did notice!
+It's not like I need to focus that hard on it though.
+Maybe you haven't noticed my prowess yet?
+
+[OpenMidRight][ToggleSmile]
+Your prowess...?[MoveMidRight][CloseEyes]
+You know what? Sure.[OpenEyes]
+Just don't get impaled.[X]
+
+
+
+## P1C3LamechRein
+[ConversationText]
+[OpenMidLeft][LoadFace][0x32][0x1]
+[OpenMidRight][LoadEnemySoldier]
+Lamech! Our forces are being obliterated!
+What are we to do now?![A]
+
+[OpenMidLeft]
+There's not many options left...
+Let's all charge on my signal.
+The cavalry may have failed, but perhaps we can still shock them!
+We cannot return to Heichalot empty-handed![X]
+
+
+
+## P1C3NoLamechRein
+[ConversationText]
+[OpenMidRight][LoadEnemySoldier]
+Lamech has been finished...![MoveMidRight]
+Everyone, charge on my signal!
+We will not return home without victory![X]
+
+
+
+## P1C3JavelinText
+[ConversationText]
+[OpenMidLeft][LoadFace][0xFF][0xFF]
+[OpenMidRight][LoadFace][0x5A][0x1]
+Don't tell me...
+Have the Heichalotians broken through?![MoveMidRight]
+My body might be strong, but I've got no place fighting alongside youse.
+Maybe you'd find a better use for this?
+I know it's good for huntin' at least.[X]
+
+
+
+## P1C3SteelAxeText
+[ConversationText]
+[OpenMidLeft][LoadFace][0xFF][0xFF]
+[OpenMidRight][LoadFace][0x5D][0x1]
+My pa's still out choppin' wood now, but he left his good axe at home.[MoveMidRight]
+To be perfectly honest with ya, I'm too scared to fight.
+But I don't think he'd be too mad if I gave ya it to shoo them off.[X]
+
+
+
+## P1C3GoddessIconText
+[ConversationText]
+[OpenMidLeft][LoadFace][0xFF][0xFF]
+[OpenMidRight][LoadFace][0x5F][0x1]
+To think of how brutal the fighting must be...
+I pray for your safety.
+Know that Aingha and her divinity watch over your souls as you fight.
+Take her with you, and be ever courageous in the face of danger.[X]
+
+
+
+## P1C3CommanderTime
+[ConversationText]
+[OpenRight][LoadSadhbh]
+[OpenFarRight][LoadCethern]
+[OpenMidLeft][LoadWydyrCommander]
+Hmmm...
+You must be Lady Sadhbh.
+And an additional soul?
+
+[OpenRight]
+Indeed. I do not believe I have had the pleasure of meeting you.
+
+[OpenMidLeft]
+Perhaps not.
+I am C[0xFA] Raoi, the strategist of Caer Wydyr's nobles.
+I assume you intend on fighting on these lines, the both of you?
+
+[OpenFarRight]
+If you would allow us.
+There are more than just us two.
+
+[OpenMidLeft]
+It is always better to have more willing to lay down their lives.[ToggleSmile]
+Especially when one of them is a Crownflier...
+
+[OpenRight][ToggleSmile]
+...Have you heard any news of A[0xED]fe?
+I was told she flew here from Caer Rigor.
+
+[OpenMidLeft]
+Yes, she did.
+She was sent to ward off potential strike forces, but she's been missing from us for the past day now.
+No sign of her anywhere.
+
+[OpenRight]
+That's unfortunate...[MoveRight]
+I'm sure she will be alright.
+I'd like to ask about this young man here, Cethern.
+
+[OpenFarRight][MoveRight][FarRight]
+Cethern, if you would?
+
+[Right]
+Both my brother and I have come from Cluain Bolg to fight here, Sir C[0xFA] Raoi.
+Though, I'd rather my brother not fight.
+If there's anything we may do, please tell us. We wish to stop Heichalot.
+
+[OpenMidLeft][ToggleSmile]
+What a passionate boy.
+Is your brother trained in anything?
+
+[OpenRight][ToggleSmile]
+No. Basic knowledge of a sword, but not enough to fight anybody.
+
+[OpenMidLeft]
+We've suffered somewhat heavy injuries protecting the border.
+Tell your brother to head to the tent on the north of the camp.
+The few healers that we have could use all the support they could get.[ToggleSmile]
+As for you two...
+I'd like the boy to head to Picodobra.
+There's been a lack of forces to divert to other parts of the border.
+You should do fine fortifying the village against attack.
+
+[OpenFarRight][ToggleSmile]
+That's to the east of here...
+Being so close to the border, I could see the need.
+But you didn't mention my name, C[0xFA] Raoi.
+What about myself?
+
+[OpenMidLeft]
+I'll need you to head further east to Caer Ochren, Lady Sadhbh.
+Duke Ochren has failed to offer as much support as he should.
+I assume that with your duress we may achieve better results.
+
+[OpenFarRight]
+Understood.
+Will you be fine without my help for now, Cethern?
+
+[OpenRight]
+I believe I can manage.
+I'll inform my brother and prepare to head for Picodobra.
+
+[OpenMidLeft]
+If you require resupply, I may allocate you a small amount of funds to purchase further resources.
+There could be conflict there.
+
+[OpenRight]
+Thank you for the offer, Sir C[0xFA] Raoi.
+I will do Corbenic proud![X]
+
+
+
+## P1C3CommanderTimeSaDead
+[ConversationText]
+[OpenMidRight][LoadCethern]
+[OpenMidLeft][LoadWydyrCommander]
+Hmmm... Do you have a reason to be bothering me, knave?
+
+[OpenMidRight]
+Terribly sorry to, sir.
+My name is Cethern.
+I came with Lady Sadhbh to help around here, but...
+
+[OpenMidLeft]
+Ah? Lady Sadhbh?
+I've not yet been acquainted with her.
+Where would she be?
+
+[OpenMidRight]
+...She didn't make it here.
+We didn't know what to do, so we continued on our way here.
+
+[OpenMidLeft]
+Lady Sadhbh is...[....][MoveMidLeft] !![....]
+That is a Crownflier's...!
+
+[OpenMidRight]
+I didn't know how else to show her intention, so I took her kerchief.
+It was the only thing I could think of...
+
+[OpenMidLeft]
+Hold right there! This proves nothing!
+You could have killed her yourself!
+Explain yourself quickly, or you'll find yourself dead in but a few seconds!
+
+[OpenMidRight]
+Please sir, you have to believe me!
+Both her and Sir MacCumail wanted to--
+
+[OpenMidLeft]
+Sir MacCumail?[....][MoveMidLeft] Hold once again!
+You bear the resemblance of him...!
+
+[OpenMidRight]
+Both my brother and I are grandchildren of Sir MacCumail.
+I would have no intentions of ever harming a Crownflier.
+
+[OpenMidLeft]
+I can't say I completely believe your story,[CloseEyes] but there's no harm believing it.[OpenEyes]
+If you attempt anything, you'll be whelmed down before you realize it.
+My name is C[0xFA] Raoi.
+I'm the strategist for Caer Wydyr's nobility.
+You must be wishing to lay down your life to fight Heichalot, yes?
+
+[OpenMidRight]
+Yes. I've brought others with me.
+Though, I'd rather my brother not fight.
+He's not the most trained with a weapon.
+
+[OpenMidLeft]
+Hmmm.[.....] I can think of some tasks that either of you could fulfill.[MoveMidLeft]
+Tell your brother to head to the tent on the north of camp.
+Most of our healers are still in Srughna, and support is greatly needed.
+As for you.[.....]
+Would you happen to know where Picodobra is located?
+
+[MidRight]
+I'm afraid not.
+We come from Caer Rigor.
+
+[MidLeft]
+Picodobra is a border village due eastward from this camp.
+We've had a lack of forces to send there.[ToggleSmile]
+Until now.
+I'd like you and whoever is with you to help fortify the town.[ToggleSmile]
+Should you need it, I can offer funds for you to resupply with.
+It would be a small amount, but enough to pay for weaponry.
+
+[MidRight]
+You are too generous, Sir C[0xFA] Raoi.[....]
+I'll tell everyone immediately.[MoveMidRight]
+We will do Corbenic proud![X]
+
+
+
+## P1C3CommanderTimeAllDead
+[ConversationText]
+[OpenMidRight][LoadCethern]
+[OpenMidLeft][LoadWydyrCommander]
+Hmmm... Do you have a reason to be bothering me, knave?
+
+[OpenMidRight]
+Terribly sorry to, sir.
+My name is Cethern.
+I came with Lady Sadhbh to help around here, but...
+
+[OpenMidLeft]
+Ah? Lady Sadhbh?
+I've not yet been acquainted with her.
+Where would she be?
+
+[OpenMidRight]
+...She didn't make it here.
+We didn't know what to do, so we continued on our way here.
+
+[OpenMidLeft]
+Lady Sadhbh is...[....][MoveMidLeft] !![....]
+That is a Crownflier's...!
+
+[OpenMidRight]
+I didn't know how else to show her intention, so I took her kerchief.
+It was the only thing I could think of...
+
+[OpenMidLeft]
+Hold right there! This proves nothing!
+You could have killed her yourself!
+Explain yourself quickly, or you'll find yourself dead in but a few seconds!
+
+[OpenMidRight]
+Please sir, you have to believe me!
+Both her and Sir MacCumail wanted to--
+
+[OpenMidLeft]
+Sir MacCumail?[....][MoveMidLeft] Hold once again!
+You bear the resemblance of him...!
+
+[OpenMidRight]
+Both my brother and I are grandchildren of Sir MacCumail.
+I would have no intentions of ever harming a Crownflier.
+
+[OpenMidLeft]
+I can't say I completely believe your story,[CloseEyes] but there's no harm believing it.[OpenEyes]
+If you attempt anything, you'll be whelmed down before you realize it.
+My name is C[0xFA] Raoi.
+I'm the strategist for Caer Wydyr's nobility.
+You must be wishing to lay down your life to fight Heichalot, yes?
+
+[OpenMidRight]
+Yes. It's only us two though.
+We had more with us, but...
+
+[FarFarRight][LoadMiach]
+Cethern!
+
+[MidRight]
+In the bearers' name, Miach don't--!
+
+[FarFarRight][MoveFarRight][FarRight]
+Hello![....][MoveFarRight]
+Are you the guy in charge?
+
+[MidRight][MoveRight][Right]
+Excuse my brother's behaviour, Sir C[0xFA] Raoi.
+He can be an absolute nuisance.
+
+[FarRight]
+Hey!
+
+[MidLeft]
+Hmmm.[.....] Excuse me for one second.
+Touch nothing in here.[ClearFace][......]
+
+[Right]
+I told you to stay outside, Miach!
+What are you thinking?!
+
+[FarRight]
+You're not gonna convince him alone!
+I'm helping you, I swear!
+
+[Right]
+It's good to have a second face, but you need to watch your tone!
+We're talking with nobility.
+
+[FarLeft][LoadWydyrCommander]
+Terribly sorry to leave. I've decided what you two may help with.
+Hanlin, may you come inside?
+
+[Left][LoadHanlin]
+... ...
+
+[FarLeft]
+This is Hanlin, one of our healers.
+Hanlin, these are Cethern and Miach.
+
+[Left]
+Greetings.
+
+[FarLeft]
+We're lucky to have her here, but we're still lacking support.[MoveFarLeft]
+I'd like you to take the younger boy and train him as a medic.
+Even some basic understanding would go a long way to helping the injured.
+As for Cethern...
+Would you happen to know where Picodobra is located?
+
+[Right]
+I'm afraid not.
+We come from Caer Rigor.
+
+[FarLeft]
+Picodobra is a border village due eastward from this camp.
+We've had a lack of forces to send there.[ToggleSmile]
+Until now.
+I'd like you and whoever is with you to help fortify the town.[ToggleSmile]
+Should you need it, I can offer funds for you to resupply with.
+It would be a small amount, but enough to pay for weaponry.
+
+[Left]
+...[MoveLeft][LoadOverworldFaces]
+C[0xFA] Raoi. Please find another.
+I cannot teach this boy.
+
+[FarLeft]
+Hanlin, what are you--?
+
+[Left]
+My skills are in riding, not staying put in some army camp.
+I wish to accompany Cethern to Picodobra.
+
+[FarLeft]
+Absolutely not!
+I refuse to let one of our few healers endanger herself as such!
+
+[Left]
+Our lack of medics is because of a lack of willing hands.
+Getting a different medic to train Miach would be as effective as my stay.
+
+[FarLeft][CloseEyes]
+Hmmm...[.....] I do not like this idea.
+But you are not one of our own.
+I cannot force you to stay here, no matter how much recommendation I give you.
+You may join Cethern.
+Take this gold and escort Miach to the north tent.
+
+[Right]
+You are too generous, Sir C[0xFA] Raoi.
+We will do Corbenic proud![X]
+
+
+
+## P1C3HanlinOutsideBoiBoiBoiBoi
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenMidRight][LoadMiach]
+Are you sure I can't come with you?
+Being with the healers sounds boring...
+
+[MidLeft]
+It's the safest choice.
+Just think of it as weapon training.
+I'm sure I'll be back to check in on you eventually.
+
+[FarFarRight][LoadHanlin]
+Excuse me?
+[MoveFarRight][FarRight]You came in recently, yes?
+
+[MidRight][MoveRight][MidLeft]
+We just came in from the south.
+Who may you be?
+
+[FarRight]
+My name is Hanlin.
+I'm one of the few medics here, but I overheard something.
+Something about the healers?
+
+[Right]
+That old guy's forcing me to stay with them.[CloseEyes] My brother's forcing me too...[OpenEyes]
+
+[FarRight]
+And you must be heading off to fight.[.....][LoadOverworldFaces]
+I implore you to take me as well.
+My skills are being wasted living in a nurses' tent.
+
+[MidLeft]
+Would it be okay with Sir C[0xFA] Raoi?
+He told me of a lack of medics...
+
+[FarRight]
+This boy is joining them. It's a lack of hands, not skill.
+Please. I am trained with both staves and horseback.
+
+[MidLeft]
+We could use that...[MoveMidLeft]
+As long as Sir C[0xFA] Raoi allows it, absolutely.
+
+[Right]
+What?!
+Even the healer gets to join you?!
+That's not fair at all!
+
+[FarRight][ToggleSmile]
+I thank you for understanding.
+Let me escort the boy.[ToggleSmile]
+I will grab my belongings and be ready to leave on the hour.[ClearFace][......]
+
+[Right][MoveLeft][MidLeft][MoveFarLeft][Left]
+Cethern!![X]
+
+
+
+## P1C3HanlinHereInPicodobraWithFerdiad
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenRight][LoadHanlin]
+[OpenFarRight][LoadFerdiad]
+Picodobra...
+It feels similar to Cluain Bolg.
+Doesn't feel like we're far from home.
+
+[OpenMidLeft]
+It's a smaller village.
+We're so close to the border, yet everyone is so calm.
+
+[OpenRight]
+Most of the fighting has been kept east of here.
+These people are spared strife.
+
+[OpenFarRight]
+Are you from Caer Wydyr, Hanlin?
+Your dress and hair are interesting.
+
+[OpenRight]
+I am not. I come from the far north of Myanchao.
+
+[OpenMidLeft]
+Myanchao? How did you get involved with this conflict?
+From what I've heard, Myanchao and Heichalot are allies, not enemies...
+
+[OpenRight]
+I am somewhat distrusted because of it.
+But my duty is to heal, not to fight.
+Most who do not like me change their mind when I tend to their wounds.
+
+[OpenFarFarRight]
+'Cuse my tongue, but...[X]
+
+
+
+## P1C3HanlinHereInPicodobra
+[ConversationText]
+[OpenRight][LoadHanlin]
+[OpenMidLeft][LoadCethern]
+Picodobra...
+It's smaller than home.
+We're so close to the border, yet everyone is so calm.
+
+[OpenRight]
+Most of the fighting has been kept eastward of here.
+These people have been uninvolved.
+
+[OpenMidLeft]
+Your voice and name sound different, Hanlin.
+Are you from Corbenic?
+
+[OpenRight]
+I am not.
+I come from the far north of Myanchao.
+
+[OpenMidLeft]
+Myanchao?
+How did you get involved with this conflict?
+From what I've heard, Myanchao and Heichalot are allies, not enemies...
+
+[OpenRight]
+Not all of us are as loyal to Heichalot.
+Of course, with me being Myanchao, I am somewhat distrusted by others.
+But my duty is to heal, not to fight.
+Most who do not like me change their mind when I tend to their wounds.
+
+[OpenFarFarRight]
+'Cuse my tongue, but...[X]
+
+
+
+## P1C3VillagerBoi
+[ConversationText]
+[OpenLeft][LoadCethern]
+[OpenFarLeft][LoadHanlin]
+[OpenMidRight][LoadFace][0x5C][0x1]
+Youse group looks quite stocked up.
+What business do you have here?
+
+[OpenLeft]
+We've been sent here from Caer Wydyr to help fortify Picodobra against Heichalot.
+
+[OpenMidRight]
+Shows what a sad time it is...
+But we don't need any protection.
+We've already got our own guard watching the town as we speak.
+
+[OpenLeft]
+Your own guard?
+Where are they?
+
+[OpenMidRight]
+They're holed up and rarin' to go in the watchtower on the outskirts of town.
+Don't worry.
+When the sun comes tomorrow youse can ride back out east.
+
+[OpenLeft]
+Are you sure you need no bolstering?
+Your village is close to Heichalot.
+
+[OpenMidRight]
+We've always been friendly with those on the other side.
+Even with the war, who's to say that stops now?[MoveMidRight]
+Come now, rest yourselves up and leave back tomorrow.
+You must be exhausted.[ClearFace][......]
+
+[OpenFarLeft]
+This isn't right.
+Those close to the border could be friendly, but they still have ties.
+Heichalotians feel quite heavy loyalties to their nation.
+
+[OpenLeft]
+Let's keep our guards up.
+Rest may be good for us right now, but Heichalot could strike at any time.[X]
+
+
+
+## P1C3OhNoMyMan
+[ConversationText]
+[OpenMidRight][LoadFace][0x32][0x1]
+Picodobra...
+Our first victory shall be here.[X]
+
+
+
+## P1C3HouseHouseBres
+[ConversationText]
+[OpenMidRight][LoadBres]
+[OpenMidLeft][LoadCethern]
+It feels wrong sitting like this.
+Yet Picodobra doesn't want to fortify...
+
+[MidRight][ToggleSmile]
+Maybe they're confident enough in their own abilities.
+Maybe they truly believe themselves immune from any harm.
+
+[MidLeft][ToggleSmile]
+Perhaps. I feel uneasy waiting just to leave back to camp tomorrow.
+There has to be some way to convince the people here that they need help.
+
+[MidRight]
+They mentioned their own guard.
+We may wish to talk with them?[ToggleSmile]
+I'm sure they could convince the villagers of the need for protection.
+
+[MidLeft][ToggleSmile]
+That may be best for us.
+We should head out to find th--
+
+[FarFarRight]
+Stay inside!
+It's too dangerous out!
+
+[MidRight][ToggleSmile]
+There's something going on.
+Sounds like an interesting time.
+Shall we go check it?
+
+[MidLeft][ToggleSmile]
+This is no time to be cheerful, Bres.
+Let's head out front![X]
+
+
+
+## P1C3HouseHouseHanlin
+[ConversationText]
+[OpenMidRight][LoadHanlin]
+[OpenMidLeft][LoadCethern]
+It feels wrong sitting like this.
+Yet Picodobra doesn't want to fortify...
+
+[MidRight]
+I've said that.
+They will eventually learn to regret this inaction.
+
+[MidLeft]
+Perhaps. I hope that we don't let it reach that tragedy.
+There has to be some way to convince the people here that they need help.
+
+[MidRight]
+Talking with their own guard may prove fruitful.
+They should understand the need for an active defense against Heichalot.
+
+[MidLeft]
+That may be best for us.
+We should head out to find th--
+
+[FarFarRight]
+Stay inside!
+It's too dangerous out!
+
+[MidRight]
+There's something going on.[CloseEyes]
+Are we too late...?[OpenEyes]
+
+[MidLeft]
+We should hope not, Hanlin.
+Let's head out front![X]
+
+
+
+## P1C3HouseHouseNope
+[ConversationText]
+[Right][LoadFace][0x61][0x1]
+[FarRight][LoadFace][0x5C][0x1]
+We should be able to keep out anyone who's come in.
+Stay inside here 'til it's safe to go outside.
+
+[FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
+What's happening outside?
+
+[FarRight]
+Nothin' to worry about.
+Raiders have come down, but our guard should be enough!
+Youse group should stay inside.
+Better to keep youse safe to head back in one piece.
+
+[MidLeft]
+We came here to help protect Picodobra, not sit around like helpless children!
+I'm sorry sir, but I'll need to head us past you.
+
+[FarRight]
+I will not!
+This is Picodobra's business.
+We're competent enough!
+
+[MidLeft][CloseEyes]
+... ...[.....] Very well, sir.[OpenEyes]
+You can block the entrance.
+But we will find another way out!
+We came to help, and we will![ClearFace][......]
+
+[Right]
+Will our guard truly be enough?
+I saw so many outside...
+
+[FarRight]
+I trust in those two.
+If we can't stop that boy, they'll benefit from his help too...[X]
+
+
+
+## P1C3SoMany
+[ConversationText]
+[MidLeft][LoadHanlin]
+[MidRight][LoadCethern]
+There's so many Heichalotians...
+And I can't see anyone who looks like this town's guard.
+Are we truly to do this alone?
+
+[MidLeft]
+We are competent enough.
+Trust in your own skills.
+
+[MidRight]
+I will...[.....][MoveMidRight]
+Prepare yourselves!
+We're to rout these invaders![X]
+
+
+
+## P1C3LetsGoLesbians
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+That should be the last of them.
+Let's do rounds and check on the villagers![X]
+
+
+
+## P1C3TheHeichalotiansAreGone
+[ConversationText]
+[Left][LoadFace][0x5C][0x1]
+[FarLeft][LoadFace][0x60][0x1]
+Thank Aingha!
+The raiders are gone!
+
+[Left]
+I can't find Aengus or Ethniu...
+Could that group o' soldiers truly have saved us?
+
+[FarFarRight][LoadCethern][MoveMidRight][FarLeft]
+You must be the leader of that force from the encampment, right?
+You saved Picodobra.
+You saved us from those invaders!
+
+[MidRight][ToggleSmile]
+It was simply what I had to do.
+Though, we cannot stay forever.[ToggleSmile]
+If I could recommend something, you will need to build up defenses.
+We may not be able to provide much more aid in the coming days.
+
+[Left]
+... Youse saved us.
+Perhaps having more than a guard or two may be what keeps us safe.
+
+[MidRight]
+Thank you for understanding.
+I hope that working together like this can prevent another attack from Heichalot.[X]
+
+
+
+## P1C3AengusEthniuCethernInTheVilla
+[ConversationText]
+[OpenMidRight][LoadCethern]
+What an exhausting fight.
+I hope Miach is doing fine...
+
+[OpenFarFarLeft][LoadAengus]
+Hey, look!
+It's him![MoveLeft]
+You're the person who was helpin' us fight off those raiders!
+
+[OpenFarFarLeft][LoadEthniu][MoveFarLeft]
+It is him.
+Did you want to say anything that matters, Aengus?
+
+[OpenMidRight]
+Aengus...
+You must both be the guard of the town.
+I thank you for your assistance earlier.
+
+[OpenFarLeft]
+It's what we're supposed to do.
+We don't do much often though, so some of us stick to napping during their watch.
+Isn't that right, Aengus?
+
+[Left]
+Pretend you haven't slacked off during your watch!
+
+[FarLeft]
+I'm not the one stationed here.
+I only do this because you're my brother!
+If I didn't cover for you, this town would be ash.[.....]
+Maybe I should leave to help against Heichalot and see how you do alone.
+
+[MidRight]
+I wouldn't be against more help, but it seems like Picodobra could use all the protection it can get.
+
+[Left]
+Ethniu, you can't leave me alone!
+If you're gonna leave, I'm comin' with ya!
+
+[FarLeft]
+Don't worry about Picodobra.
+By the time it can be protected, we can have way more than two people watching over everyone.
+Give us the few days and we'll be well ready for anything else.
+
+[MidRight]
+I'll think on it. 
+For now, our priority is your village's safety.
+
+[Left]
+Well, maybe I can buy you a drink to convince you.
+As thanks for helping us out!
+
+[FarLeft]
+Aengus...![.....][MoveFarLeft]
+If you're going to be convinced by him, [CloseEyes]prepare for lots of this.[OpenEyes]
+
+[MidRight]
+Don't worry.
+This kind of interaction is all too familiar for me...[X]
+
+
+
+## P1C3AengusCethernInTheVilla
+[ConversationText]
+[OpenMidRight][LoadCethern]
+What an exhausting fight.
+I hope Miach is doing fine...
+
+[OpenFarFarLeft][LoadAengus][MoveMidLeft][MidLeft]
+You're the person who was helpin' us fight off those raiders, huh?
+
+[MidRight]
+You're the guard of the town.
+Where's the other one?
+I saw a woman with you as well.
+
+[MidLeft]
+About that...[.....]
+I'm quittin' from my position as guard.
+I may be a royal knight, but that doesn't matter to me anymore.
+
+[MidRight]
+Hold on a second...!
+You're resigning from being a royal knight?
+Why would you want to do that?!
+
+[MidLeft]
+...[......]My sister didn't make it through the battle.
+
+[MidRight]
+Oh...
+I'm very sorry for your loss.
+
+[MidLeft]
+If I couldn't protect her, who am I to protect anyone else?
+I wanted to ask if I could come with you.
+
+[MidRight]
+...I can understand where you're coming from.
+But are you sure you can leave?
+This town desperately needs defenses.
+
+[MidLeft]
+Don't worry.
+I might not be able to keep the town safe, but I know a thin' or two about it in my head.
+Give me a few days and I can be helpin' everyone with it.
+
+[MidRight]
+I'll think about it for now.
+For now, our priority is your village's safety.
+
+[MidLeft]
+If it'll help convince you, I'll buy you a drink.
+I could use one myself...
+
+[MidRight]
+I don't drink that much, but I won't say no.
+I could use the stress relief...[X]
+
+
+
+## P1C3EthniuCethernInTheVilla
+[ConversationText]
+[OpenMidRight][LoadCethern]
+What an exhausting fight.
+I hope Miach is doing fine...
+
+[OpenFarFarLeft][LoadEthniu][MoveMidLeft][MidLeft]
+You look like the leader of that group.
+The one that helped stave off Heichalot.
+
+[MidRight]
+I suppose I am.
+You must be the woman who was helping us.
+Can I ask who you are?
+
+[MidLeft]
+My name is Ethniu.
+I was the sister of the oaf who should've been guarding the town, before he...
+
+[MidRight]
+...[.....]I'm very sorry for your loss Ethniu.
+Losing a sibling like that...
+I couldn't imagine the pain.
+
+[MidLeft]
+Don't apologize.
+It's his stupid oaf self's fault.[CloseEyes]
+He should've listened to me...[.....][OpenEyes]
+But that doesn't matter.
+What matters is my request.
+I'd like to join your party back to the border encampment.
+
+[MidRight]
+Are you sure you can leave?
+This town desperately needs defenses.
+
+[MidLeft]
+Unlike my brother, I was never supposed to guard the town.
+But if you truly require it, I could educate them on my position.
+
+[MidRight]
+I'll think about it for now.
+For now, our priority is your village's safety.
+
+[MidLeft]
+Good.
+I hope you'll make the right decision.[ClearFace][......]
+
+[MidRight][CloseEyes]
+What a stubborn woman...[X]
+
+
+
+## P1C3CethernInTheVilla
+[ConversationText]
+[OpenMidRight][LoadCethern]
+What an exhausting fight.
+I hope Miach is doing fine...
+
+[OpenFarFarLeft][LoadFace][0x5E][0x1]
+Mister! Mister!
+[MoveMidLeft][MidLeft][ToggleSmile]
+You're the one who was fightin' all of those evil folk!
+Riding around and smashin' down everyone...
+I'm goin' ta be a knight like ya when I grow up!
+
+[MidRight]
+A knight?[ToggleSmile]
+I'm terribly sorry, but I'm no knight.
+Only from a village like this down south.
+
+[MidLeft]
+You're not a knight?
+But ya look just like one!
+Well, more than the knight that lives here.
+
+[MidRight]
+The knight that lives here...?[.....][MoveMidRight]
+Oh.[....] The guard.
+I'm hoping to be a knight too, like my grandfather.
+If you're truly enthusiastic about it, then perhaps one day we will both make it there.
+
+[FarFarLeft]
+L[0xE9]n! Get back here!
+Don't go running off talking to strangers!
+
+[MidLeft]
+Sorry ma![MoveMidLeft][ToggleSmile]
+Gotta go mister.
+One day I'll slice down brigands like you![ClearFace][......]
+
+[MidRight]
+What a familiar presence...[.....][CloseEyes]
+Miach...[A][X]
+
+
+
+## CaerOchren
+Caer Ochren[X]
+
+
+
+## P1C3SadhbhRionall
+[ConversationText]
+[MidRight][LoadSadhbh][MidLeft][LoadRionall][ToggleSmile]
+Lady Sadhbh.
+It is interesting to see you at this hour.
+To what do I owe this pleasure?
+
+[MidRight]
+Duke Ochren.[ToggleSmile]
+I apologize for the late entry.
+During times of war, speed is of the essence.
+
+[MidLeft]
+Indeed it is, indeed it is...
+What is required of me now?
+
+[MidRight]
+It is business from the Caer Wydyr border camp.
+Questions from the tacticians about the amount of support you have given.
+
+[MidLeft]
+Lady Sadhbh, I have given as much support as I can.
+Our already small militia is protecting this side of the border from Heichalotian assault.
+We have given what food we can to your encampment.
+What else does Caer Wydyr ask of us?
+
+[MidRight]
+The path into Caer Ochren is small and rarely used.
+Are you certain that no more of your forces can be given?
+
+[MidLeft]
+I am absolutely certain, Lady Sadhbh.
+Perhaps you may find resolution when the soldiers in Srughna return.
+
+[MidRight]
+Mayhaps we will.
+The encampment shall be informed of your current perils.
+Please continue with your aid, Duke Ochren.[ClearFace][.......]
+
+[FarFarRight]
+Has she left back for Caer Wydyr?
+
+[MidLeft]
+Indeed she has.
+I am terribly sorry to hide you away.
+
+[MidRight][LoadIshpan][LoadOverworldFaces]
+No matter.
+The gravity of the manner calls for it.
+I assume Heichalot may still count on your assistance?
+
+[MidLeft]
+So long as my people are kept unharmed, my lands are yours.
+I understand that any struggle would be futile.
+
+[MidRight]
+Caer Ochren will be left alone.
+Your land will join Caer Vedwyd in its union under the prince.
+
+[MidLeft]
+That is fine.
+I thank you for your merciful grace in allowing my surrender.
+
+[MidRight]
+I shall return to Caer Vedwyd to tell my men the news.
+If any more forces from Corbenic bother you, they will deal with us at your borders.[ClearFace][......]
+
+[MidLeft]
+I am making the correct call.
+This is the right decision for Caer Ochren...[X]

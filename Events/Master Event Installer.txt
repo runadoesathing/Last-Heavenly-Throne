@@ -1,0 +1,107 @@
+#define ItemMusic(itemID,routineOffset) "ORG 4*(itemID-75)+ItemMusicTable; POIN routineOffset"
+#define Healing_Music_Routine 0x7269C
+#define Status_Music_Routine 0x726A0
+#define Default_Music_Routine 0x726A4
+
+ALIGN 4
+{
+  ALIGN 4
+  #include "1-1.event"
+}
+
+{
+  ALIGN 4
+  #include "1-2.event"
+}
+
+{
+  ALIGN 4
+  #include "1-3.event"
+}
+
+{
+  ALIGN 4
+  #include "1-4.event"
+}
+
+{
+  ALIGN 4
+  #include "1-F.event"
+}
+
+//changes supply and seize to srihwen
+PUSH
+ORG 0x23F88
+	BYTE 0x0F
+ORG 0x37B86
+	BYTE 0x0F
+POP
+
+//fixes remu bug (7743)
+PUSH
+ORG 0x102D4
+	BYTE 0x00 0x20
+POP
+
+//fe9 support time (venno)
+PUSH
+ORG $284E4
+	BYTE 0x00 0x00 0x04 0xE0
+ORG $28442
+	BYTE 0x6D 0xD1
+POP
+
+PUSH
+// Party leader becomes first deployed
+ORG $3325A 
+	BYTE 0x21 0xE0
+POP
+
+PUSH
+// Remove arrow wiggling advancing RN
+ORG 0x1A774
+    SHORT 0x2000 0
+POP
+
+ALIGN 4
+#include "REDAs.event"
+ALIGN 4
+#include "effectiveness clauses.txt"
+ALIGN 4
+#include "Support Table.event"
+ALIGN 4
+
+//ITEM MUSIC TABLE STUFF
+PUSH
+ORG 0x7257E
+BYTE 0xB4 //additionally allows items from 0x8D to 0xFF to not default to phase battle music (vanilla byte is 0x41)
+  
+ORG 0x72590
+POIN ItemMusicTable
+POP
+
+ALIGN 4
+ItemMusicTable:
+#include "ItemMusicTable.event"
+
+ALIGN 4
+WeaponDebuffTable:
+defWeaponDebuffs(0,0,0,0,0,0,0) //0x0: let 0-index entry be no debuffs.
+defWeaponDebuffs(0,0,0,0,0,3,3) //0x1: Yesod II debuff.
+
+// People who stay in the party when they die
+PUSH
+ORG $84864
+	POIN Load2AlwaysTable
+POP
+
+ALIGN 4
+Load2AlwaysTable:
+BYTE 0x1 Soma
+BYTE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 // separator
+
+//RunaDeathQuoteEvent:
+//Text(RunaDeathQ)
+//ENDA
+
+ALIGN 4

@@ -1,0 +1,147 @@
+#define FreeSpace 0xb2a610
+#define FreeSpace2 0x1077c30
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+
+#ifndef DebuffTable
+  #define DebuffTable     0x0203F100
+  #define DebuffTableSize 0x00000900
+#endif
+
+// all the fun macros
+#define LearnSkillActive(skillID,label) "SVAL r1 skillID; SVAL r2 (-1); ASMC (ASMC_HasSkill+1); BNE label 0xC 0x0; ASMC (ASMC_LearnNewSkill+1); LABEL label"
+#define LearnSkill(skillID,character,label) "SVAL r1 skillID; SVAL r2 character; ASMC (ASMC_HasSkill+1); BNE label 0xC 0x0; ASMC (ASMC_LearnNewSkill+1); LABEL label"
+#define GiveItem(item,character) "SVAL 0x3 item; GIVEITEMTO character"
+#define AliveCLoad(character,unitgroup,labell) "CHECK_ALIVE character; BEQ labell 0xC 0x0; LOAD2 0x1 unitgroup; ENUN; LABEL labell"
+#define EnterStop "EVBIT_F 0x2"
+#define PlaceholderT "TEXTSTART; TEXTSHOW PlaceholderText; TEXTEND; REMA"
+#define ItemIconSlot(slot,path) "ORG 0x5926F4+(0x80*slot); #incext Png2Dmp path"
+
+// OUR DEFINITIONS
+#define Conall 0x1
+#define Cormac 0x1
+#define Cethern 0x1
+#define Setanta 0x2
+#define Ferdiad 0x3
+#define Hanlin 0x4
+#define Aingha 0x5
+#define Sadhbh 0x6
+#define Lalitha 0x7
+#define Aengus 0x8
+#define Bres 0x9
+#define Ethniu 0xA
+#define Gedeon 0xB
+#define Soma 0xC
+#define Varuna 0xD
+#define Sanjana 0xE
+#define Srihwen 0xF
+#define Rudram 0x10
+#define Nala 0x11
+#define Sirin 0x12
+#define Birnath 0x13
+#define SinGu 0x14
+#define Len 0x15
+#define Miach 0x2E
+#define Aillen 0x46
+#define Lamech 0x47
+#define Ishpan 0x48
+#define Jhudiel_1 0x49
+#define Gedaliah 0x4A
+#define Anluan 0x68
+#define Ochren 0x86
+#define OchrenMag 0x87
+
+#define Sibyl 0x1
+#define Hobelar 0x2
+#define Theurge 0x3
+#define Dracolord 0x4
+#define LanceCav 0x5
+#define LanceCav_F 0x6
+#define LanceKnight 0x9
+#define LanceKnight_F 0xA
+#define Vagabond 0x10
+#define Thief_F 0x12
+#define SwordCav 0x37
+#define SwordCav_F 0x38
+#define AxeCav 0x39
+#define BowCav 0x3A
+#define Soldier_F 0x3B
+#define Arbalest 0x3C
+#define Arbalest_F 0x3D
+#define Rogue_F 0x3E
+#define Trobairitz 0x4B
+#define WarMonk 0x46
+#define WarCleric 0x47
+#define SkyKnight 0x48
+#define Crownflier 0x49
+#define AxeKnight 0x52
+#define SwordKnight 0x54
+#define Templar 0x55
+#define DarkKnight 0x56
+#define DarkKnight_F 0x57
+#define Halberdier 0x58
+#define Halberdier_F 0x59
+#define Child 0x6D
+#define Child_F 0x6E
+#define Villager 0x6F
+#define Villager_F 0x70
+
+#define MalkuthI 0x3F
+#define YesodII 0x40
+#define FluxD 0x45
+#define Padma 0xB8
+#define SlimAxe 0xBC
+#define SlimBow 0xBD
+#define Wind 0xBE
+#define RallyLuckManual 0xC0
+
+#define FireAff 0x1
+#define ThunderAff 0x2
+#define WindAff 0x3
+#define WaterAff 0x4
+#define DarkAff 0x5
+#define LightAff 0x6
+#define EarthAff 0x7
+#define HeavenAff 0xB
+
+#define WindAnim 0x48
+
+#define InsideHouse 0x0
+#define InsideMapHouse 0x1
+#define OutsideHouse 0x2
+#define VillageGate 0x3
+#define ForestOutskirts 0x4
+#define VillageMountain 0x5
+#define VillageCG 0x6
+#define ForestCG 0x7
+#define HealerTent 0x8
+#define TavernCG 0x9
+#define CaravanCG 0xA
+#define WarriorTent 0xF
+#define BrownCastleInterior 0x12
+#define ArmyCamp 0x14
+#define Lakeside 0x21
+#define SparseForest 0x22
+#define FortInterior 0x26
+#define ForestMorning 0x2B
+#define ThroneRoomNight 0x2D
+#define BlackCG 0x35
+
+#define CluainBolgGone 0x78
+
+// Attribute for defining items with passive stat bonuses
+#define PASSIVE_ITEM_BOOSTS_ATTR 0x00800000
+
+// this is for if you use the legacy way of define item attributes in your table (this is for byte 3)
+// (which is sadly what the included table also does TODO: fix that)
+#define PassiveBoosts 0x80
+
+#include "Engine Hacks/SkillSystem/skill_definitions.event"
+
+// #define __DEBUG__ // Uncomment to get the Debug startup menu :p

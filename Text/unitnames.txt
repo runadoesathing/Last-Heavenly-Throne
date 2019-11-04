@@ -1,0 +1,557 @@
+## ConallName
+Cethern[X]
+
+## SetantaName
+S[0xE9]tanta[X]
+
+## FerdiadName
+Ferdiad[X]
+
+## HanlinName
+Hanlin[X]
+
+## AinghaName
+Aingha[X]
+
+## SadhbhName
+Sadhbh[X]
+
+## LalithaName
+Lalitha[X]
+
+## AengusName
+Aengus[X]
+
+## SrihwenName
+Srihwen[X]
+
+## MiachName
+Miach[X]
+
+## AnluanName
+Anl[0xFA]an[X]
+
+## BresName
+Bres[X]
+
+## EthniuName
+Ethniu[X]
+
+## GedeonName
+Gedeon[X]
+
+## SomaName
+Soma[X]
+
+## VarunaName
+Varuna[X]
+
+## SanjanaName
+Sanjana[X]
+
+## RudramName
+Rudram[X]
+
+## IshpanName
+Ishpan[X]
+
+## JhudielName
+Jhudiel[X]
+
+## CamnielName
+Camniel[X]
+
+## AillenName
+Aillen[X]
+
+## LamechName
+Lamech[X]
+
+## GedaliahName
+Gedaliah[X]
+
+## BanditName
+Bandit[X]
+
+## HeichalotName
+Heichalot[X]
+
+## OchrenName
+Ochren[X]
+
+
+
+## ConallDesc
+Young boy from Cluain Bolg. Wishes to[N]
+defend those he keeps dear.[X]
+
+## SetantaDesc
+Childhood friend of Cethern. Is[N]
+somewhat snarky and cynical.[X]
+
+## FerdiadDesc
+Childhood friend of Cethern. Becomes[N]
+worried very easily, especially for others.[X]
+
+## HanlinDesc
+Healer from Myanchao, Maghmeall's[N]
+northeast edge. Stoic and frank.[X]
+
+## SadhbhDesc
+Recruiter from Caer Siddi, the capital[N]
+of Corbenic. She's loyal to the crown.[X]
+
+## AinghaDesc
+Wayfarer from the captured kingdom of[N]
+Corbenic. Leads the Knights of Liberation.[X]
+
+## SrihwenDesc
+Priestess from the Order of Dhara.[N]
+She's both devout and pacifistic.[X]
+
+## SomaDesc
+Eccentric lady of the Order of[N]
+Chandra, loyal to Srihwen.[X]
+
+## VarunaDesc
+Rookie wyvern rider of Srughna.[N]
+He has a drive to prove himself.[X]
+
+## SanjanaDesc
+Rookie horsewoman of Srughna.[N]
+She has a knack for flirting.[X]
+
+## RudramDesc
+Former Prabhasan who ran from his[N]
+grove. Wants to explore the world.[X]
+
+## IshpanDesc
+Heichalotian defending the hills[N]
+across Caer Ochren's borders.[X]
+
+## GedaliahDesc
+Knight of Heichalot. Very[N]
+faithful to his liege Jhudiel.[X]
+
+## JhudielDesc
+One of the Ten Stems of Heichalot.[N]
+Honour-bound and mournful.[X]
+
+## CamnielDesc
+One of the Ten Stems of Heichalot.[N]
+Loyal to the prince at all costs.[X]
+
+## MiachDesc
+Younger brother of Cethern. Despite his[N]
+age, he wishes to fight Heichalot.[X]
+
+## AnluanDesc
+A petty bandit leader who pillages[N]
+around the province of Caer Rigor.[X]
+
+## LalithaDesc
+Wandering magician from the south.[N]
+She's arrogant and cheeky at times.[X]
+
+## AengusDesc
+Royal knight from Caer Wydyr.[N]
+He tires easily, but is caring.[X]
+
+## BresDesc
+Swordsman with unknown goals.[N]
+He's jovial and scholarly.[X]
+
+## EthniuDesc
+Sister of Aengus, with prowess in[N]
+elder magic. Quite obstinate.[X]
+
+## GedeonDesc
+Mercenary from the border of[N]
+Heichalot and Corbenic.[X]
+
+## AillenDesc
+Brigand of Caer Golud. Seeks revenge[N]
+on Lalitha for killing his men.[X]
+
+## LamechDesc
+Squadron leader charged with the[N]
+raid on Corbenic villages.[X]
+
+## BanditDesc
+Crooks who rob civilians for money.[X]
+
+## HeichalotDesc
+Soldiers of the Principality of[N]
+Heichalot in the far north.[X]
+
+## OchrenDesc
+Militia of Caer Ochren, Corbenic's[N]
+northwestern province.[X]
+
+
+
+## Hobelar_Name
+Hobelar[X]
+
+## Hobelar_Desc
+Agile cavalry of Corbenic origin.[N]
+Equip: Swords, lances.[X]
+
+## Sibyl_Name
+Sibyl[X]
+
+## Sibyl_Desc
+Oracles of an unknown entity.[N]
+Equip: Staves.[X]
+
+## Theurge_Name
+Theurge[X]
+
+## Theurge_Desc
+Spiritualists of the olden Wardbearers.[N]
+Equip: Light, dark, staves.[X]
+
+## Vagabond_Name
+Vagabond[X]
+
+## Vagabond_Desc
+Warriors working towards reclamation[N]
+of their home. Equip: Axes.[X]
+
+## Dracolord_Name
+Dracolord[X]
+
+## Dracolord_Desc
+Masterful riders for a new Corbenic.[N]
+Equip: Swords, axes, bows.[X]
+
+## Villager_Name
+Villager[X]
+
+## Villager_Desc
+Common folk with little experience[N]
+in combat. Equip: Swords.[X]
+
+## Aknight_Name
+Axe Keeper[X]
+
+## Lknight_Name
+Lnc. Keeper[X]
+
+## Sknight_Name
+Swd. Keeper[X]
+
+## Aknight_Desc
+Heavily armored knights with poor[N]
+agility. Equip: Axes.[X]
+
+## Lknight_Desc
+Heavily armored knights with poor[N]
+agility. Equip: Lances.[X]
+
+## Sknight_Desc
+Heavily armored knights with poor[N]
+agility. Equip: Swords.[X]
+
+## Wrider_Desc
+High-flying knights vulnerable only to[N]
+bows and magic. Equip: Axes.[X]
+
+## Lcav_Name
+Lnc. Knight[X]
+
+## Scav_Name
+Swd. Knight[X]
+
+## Acav_Name
+Axe Knight[X]
+
+## Bcav_Name
+Bow Knight[X]
+
+## Lcav_Desc
+Mounted knights with swift movement.[N]
+Equip: Lances.[X]
+
+## Scav_Desc
+Mounted knights with swift movement.[N]
+Equip: Swords.[X]
+
+## Acav_Desc
+Mounted knights with swift movement.[N]
+Equip: Axes.[X]
+
+## Bcav_Desc
+Mounted knights with swift movement.[N]
+Equip: Bows.[X]
+
+## SkyKnight_Name
+Sky Knight[X]
+
+## Crownflier_Name
+Crownflier[X]
+
+## MageKnight_Desc
+Knights trained in both spell and[N]
+sword. Equip: Swords, anima, staves.[X]
+
+## DarkKnight_Name
+Dark Knight[X]
+
+## DarkKnight_Desc
+Ominous mages who control battles on[N]
+horseback. Equip: Swords, dark, staves.[X]
+
+## Arbalest_Name
+Arbalest[X]
+
+## Arbalest_Desc
+Riders of griffons who easily rush[N]
+down enemies. Equip: Lances, bows.[X]
+
+## WarMonk_Name
+War Monk[X]
+
+## WarCleric_Name
+War Cleric[X]
+
+## WarMonk_Desc
+Pious fighters with many different[N]
+skills. Equip: Axes, light, staves.[X]
+
+## Templar_Name
+Templar[X]
+
+## Templar_Desc
+Battle priests who wield both staves[N]
+and light magic. Equip: Light, staves.[X]
+
+## Soldier_Desc
+Average soldiers with room for[N]
+limitless growth. Equip: Lances.[X]
+
+## Halberdier_Name
+Halberdier[X]
+
+## Halberdier_Desc
+Combat experts with unrivaled[N]
+spearwork. Equip: Lances.[X]
+
+## GoldKnight_Name
+Goldknight[X]
+
+## GoldKnight_Desc
+Mounted knights with superior[N]
+abilities. Equip: Swords, axes.[X]
+
+## SilverKnight_Name
+Silverknight[X]
+
+## SilverKnight_Desc
+Mounted knights with superior[N]
+abilities. Equip: Lances, bows.[X]
+
+## General_Desc
+Knights of great and varied skill.[N]
+Equip: Swords, lances, axes, bows.[X]
+
+## WyvernLord_Desc
+Wyvern-mounted knights of superior[N]
+skill. Equip: Swords, axes.[X]
+
+## WyvernKnight_Desc
+Wyvern riders who can pierce enemy[N]
+defenses. Equip: Lances, axes.[X]
+
+## Summoner_Desc
+Master sorcerers who summon fighters.[N]
+Equip: Axes, dark, staves.[X]
+
+## Bishop_Desc
+Users of holy magic, using sacred power[N]
+to weaken enemies. Equip: Light, staves.[X]
+
+## Sniper_Desc
+Archers of unparalleled accuracy[N]
+and strength. Equip: Bows.[X]
+
+## Rogue_Desc
+Knaves who need no tools or keys to[N]
+open locks. Equip: Swords, staves.[X]
+
+## Assassin_Desc
+Masters of the killing arts who[N]
+can kill in one slice. Equip: Swords.[X]
+
+## Woodsman_Name
+Woodsman[X]
+
+
+
+## PadmaName
+Padma[X]
+
+## PadmaDesc
+Restores HP to allies.[N]
+Srihwen only.[X]
+
+## ToxinSwordName
+Toxin Sword[X]
+
+## ToxinAxeName
+Toxin Axe[X]
+
+## ToxinBowName
+Toxin Bow[X]
+
+## WindName
+Wind[X]
+
+## WindDesc
+Effective against fliers.[X]
+
+## BrineName
+Brine[X]
+
+## BrineDesc
++3 Def/Res when foe attacks.[X]
+
+## ElwindName
+Elwind[X]
+
+## OniName
+Oni[X]
+
+## OniDesc
+Strong against dark magic.[X]
+
+## TsunamiName
+Tsunami[X]
+
+## MalkuthIName
+Malkuth I[X]
+
+## YesodIIName
+Yesod II[X]
+
+## YesodIIDesc
+Debuff enemy's Mag/Res by 3.[X]
+
+## HodIIIName
+Hod III[X]
+
+## HodIIDesc
+Debuff enemy's Skl by 6.[X]
+
+## NetzahIVName
+Netzah IV[X]
+
+## NetzahIVDesc
+Debuff enemy's Spd by 4.[X]
+
+## TiferetVName
+Tiferet V[X]
+
+## TiferetVDesc
+Tomebreaking magic.[X]
+
+## GevurahVIName
+Gevurah VI[X]
+
+## GevurahVIDesc
+Long-range strength sapping.[X]
+
+## ChesedVIIName
+Chesed VII[X]
+
+## ChesedVIIDesc
+Nullifies enemy skills.[X]
+
+## BinahVIIIName
+Binah VIII[X]
+
+## BinahVIIIDesc
+Nullifies enemy skills.[X]
+
+## ChokhmahXIName
+Chokhmah XI[X]
+
+## ChokhmahXIDesc
+Debuffs enemy Str/Def by 6.[X]
+
+## FluxDName
+Flux[X]
+
+## WormHName
+Worm[X]
+
+## WormHDesc
+Poisons enemy on hit.[X]
+
+## ResireSName
+Resire[X]
+
+## LunaLName
+Luna[X]
+
+## BurstOName
+Burst[X]
+
+## GrimoireWName
+Grimoire[X]
+
+## GrimoireWDesc
+Gives unit rallying power.[X]
+
+## FenrirGName
+Dark Spikes[X]
+
+## BohrXName
+Bohr[X]
+
+## RushZName
+Rush[X]
+
+## RushZDesc
+Boosts unit movement.[X]
+
+## HadesOName
+Beseech[X]
+
+## BadbYName
+Badb[X]
+
+## BadbYDesc
+Transfers defense to offense.[X]
+
+## SlimAxeName
+Slim Axe[X]
+
+## SlimBowName
+Slim Bow[X]
+
+## LongswordName
+Longsword[X]
+
+## EnergyRingDesc
+Increases Str by 2[N]
+points. Vanishes after use.[X]
+
+## EnergyRingUse
+Raises strength.[X]
+
+## SpiritDustName
+Spirit Dust[X]
+
+## SpiritDustDesc
+Increases Mag by 2[N]
+points. Vanishes after use.[X]
+
+## SpiritDustUse
+Raises magic.[X]
+
+## RallyLuckManualName
+R. Luck M.[X]
+
+## RallyLuckManualUse
+Teaches Rally Luck.[X]

@@ -1,0 +1,321 @@
+// Adept
+ALIGN 4
+AdeptScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD AdeptID
+
+ALIGN 4
+AdeptScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD AdeptID
+
+// Aegis
+ALIGN 4
+AegisScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD AegisID
+
+ALIGN 4
+AegisScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD AegisID
+
+// Astra
+ALIGN 4
+AstraScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD AstraID
+
+ALIGN 4
+AstraScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD AstraID
+
+// Boon
+ALIGN 4
+BoonScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD BoonID
+
+ALIGN 4
+BoonScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD BoonID
+
+// CantoPlus
+ALIGN 4
+CantoPlusScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD CantoPlusID
+
+ALIGN 4
+CantoPlusScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD CantoPlusID
+
+// Luna
+ALIGN 4
+LunaScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD LunaID
+
+ALIGN 4
+LunaScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD LunaID
+
+// Nihil
+ALIGN 4
+NihilScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD NihilID
+
+ALIGN 4
+NihilScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD NihilID
+
+// Nullify
+ALIGN 4
+NullifyScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD NullifyID
+
+ALIGN 4
+NullifyScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD NullifyID
+
+// Paragon
+ALIGN 4
+ParagonScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD ParagonID
+
+ALIGN 4
+ParagonScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD ParagonID
+
+// Pass
+ALIGN 4
+PassScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD PassID
+
+ALIGN 4
+PassScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD PassID
+
+// Pavise
+ALIGN 4
+PaviseScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD PaviseID
+
+ALIGN 4
+PaviseScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD PaviseID
+
+// RallyDef
+ALIGN 4
+RallyDefScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallyDefID
+
+ALIGN 4
+RallyDefScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallyDefID
+
+// RallyLuk
+ALIGN 4
+RallyLukScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallyLukID
+
+ALIGN 4
+RallyLukScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallyLukID
+
+// RallyMag
+ALIGN 4
+RallyMagScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallyMagID
+
+ALIGN 4
+RallyMagScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallyMagID
+
+// RallyMov
+ALIGN 4
+RallyMovScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallyMovID
+
+ALIGN 4
+RallyMovScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallyMovID
+
+// RallyRes
+ALIGN 4
+RallyResScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallyResID
+
+ALIGN 4
+RallyResScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallyResID
+
+// RallySkl
+ALIGN 4
+RallySklScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallySklID
+
+ALIGN 4
+RallySklScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallySklID
+
+// RallySpd
+ALIGN 4
+RallySpdScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallySpdID
+
+ALIGN 4
+RallySpdScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallySpdID
+
+// RallySpectrum
+ALIGN 4
+RallySpectrumScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallySpectrumID
+
+ALIGN 4
+RallySpectrumScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallySpectrumID
+
+// RallyStr
+ALIGN 4
+RallyStrScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RallyStrID
+
+ALIGN 4
+RallyStrScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RallyStrID
+
+// Renewal
+ALIGN 4
+RenewalScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD RenewalID
+
+ALIGN 4
+RenewalScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD RenewalID
+
+// Sol
+ALIGN 4
+SolScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD SolID
+
+ALIGN 4
+SolScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD SolID
+
+// Wrath
+ALIGN 4
+WrathScrollUsability:
+#incbin "SpecificScrollUsability.dmp"
+POIN SkillTester|1
+WORD WrathID
+
+ALIGN 4
+WrathScrollEffect:
+#incbin "SpecificScrollEffect.dmp"
+POIN SkillTester|1
+POIN prLearnNewSkill|1
+WORD WrathID

@@ -1,0 +1,363 @@
+/*
+Battle palette rework, by hypergammaspaces
+
+Implements custom palettes as a list of members that can be in each class.
+
+A .nmm is included to generate a table linking each class to this list of palettes (a pre-generated CSV is also included).
+*/
+
+#include "Extensions/Hack Installation.txt"
+
+#ifndef CharacterPaletteTable
+	#define CharacterPaletteTable $08EF7FF8 //entry 0 which is invalid is here
+#endif
+
+PUSH
+	ORG $5742C
+	callHack_r7(PaletteLoadReworkPt2)
+	
+	ORG $5746A
+	ALIGN 4
+	callHack_r7(PaletteLoadReworkPt1)
+	
+	ORG $CD108
+	callHack_r5(PaletteLoadReworkPromoBranch)
+POP
+
+PaletteLoadReworkPt1:
+#incbin "PaletteLoadReworkPart1.dmp"
+POIN PaletteAssociationTable
+POIN CharacterPaletteTable
+
+PaletteLoadReworkPt2:
+#incbin "PaletteLoadReworkPart2.dmp"
+POIN PaletteAssociationTable
+POIN CharacterPaletteTable
+
+PaletteLoadReworkPromoBranch:
+#incbin "PaletteLoadReworkPromoBranch.dmp"
+POIN PaletteAssociationTable
+POIN CharacterPaletteTable
+
+#define PaletteEntry(index) "(CharacterPaletteTable) + (index*$10)"
+#define PaletteAssociationEntry(charID, index) "BYTE charID; BYTE $00 $00 $00; POIN PaletteEntry(index)"
+
+EmptyPaletteList: //point here for anything that doesnt need custom palettes (lords included)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+SibylPaletteList:
+PaletteAssociationEntry(Srihwen, $12)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+HobelarPaletteList:
+PaletteAssociationEntry(Cethern, $1)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+TheurgePaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+DracolordPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+CavalierPaletteList:
+PaletteAssociationEntry(Setanta, $2)
+PaletteAssociationEntry(Aillen, $C)
+PaletteAssociationEntry(Len, $13)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+GoldKnightPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+SilverKnightPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ArmorPaletteList:
+PaletteAssociationEntry(Aengus, $9)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+GeneralPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ThiefPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+MercPaletteList:
+PaletteAssociationEntry(Lamech, $E)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+HeroPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+VagabondPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+MyrmPaletteList:
+PaletteAssociationEntry(Bres, $7)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+SwordmasterPaletteList:
+PaletteAssociationEntry(Bres, $19)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+AssassinPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ArcherPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+SniperPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+RangerPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+WyvRiderPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+WyvLordPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+WyvKnightPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+MagePaletteList:
+PaletteAssociationEntry(Lalitha, $6)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+SagePaletteList:
+PaletteAssociationEntry(Lalitha, $14)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+MageKnightPaletteList:
+PaletteAssociationEntry(Lalitha, $15)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+SaintPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ShamanPaletteList:
+PaletteAssociationEntry(Ethniu, $8)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+DruidPaletteList:
+PaletteAssociationEntry(Lalitha, $16)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+SummonerPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+RoguePaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+GKPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ManaketePaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+BowCavalierPaletteList:
+PaletteAssociationEntry(Ferdiad, $3)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ArbalestPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+AxeFighterPaletteList:
+PaletteAssociationEntry(Gedeon, $A)
+PaletteAssociationEntry(Anluan, $B)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+WarriorPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+BrigandPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+PiratePaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+BerserkerPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+MonkPaletteList:
+PaletteAssociationEntry(Ishpan, $F)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+PriestPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+WarMonkPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+WarClericPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+PegKnightPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+FalcoknightPaletteList:
+PaletteAssociationEntry(Sadhbh, $5)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ClericPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+TroubadourPaletteList:
+PaletteAssociationEntry(Hanlin, $4)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ValkyriePaletteList:
+PaletteAssociationEntry(Hanlin, $17)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+DancerPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+SoldierPaletteList:
+PaletteAssociationEntry(Soma, $11)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+NecromancerPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+TemplarPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+DarkKnightPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+HalberdierPaletteList:
+PaletteAssociationEntry(Gedaliah, $10)
+PaletteAssociationEntry(Soma, $18)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+RevenantPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+EntombedPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+BonewalkerPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+WightPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+BaelPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ElderBaelPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+CyclopsPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+DogPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+BigDogPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+TarvosPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+MaelduinPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+MogallPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+ArchMogallPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+GorgonPaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+GargoylePaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+DeathgoylePaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+DracozombiePaletteList:
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+VillagerPaletteList:
+PaletteAssociationEntry(Miach, $D)
+BYTE $00 $00 $00 $00 $00 $00 $00 $00
+ALIGN 4
+
+BYTE $FF $FF $FF $FF $FF $FF $FF $FF
+ALIGN 4

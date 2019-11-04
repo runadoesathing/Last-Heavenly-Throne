@@ -1,0 +1,164 @@
+## ConallDeathPQ
+[BattleText]
+[OpenMidRight][LoadCethern]
+Nngh...! I'm sorry. Airmed and [CloseEyes]Miach, please be safe...
+
+[ClearFace]
+[OpenMidRight][LoadFerdiad][OpenEyes]
+Cethern...! No... 
+You can't die! 
+Please!
+
+[ClearFace]
+[OpenMidRight][LoadSetanta]
+Fern, we need to go!
+They'll get us too if we don't run![X]
+
+
+
+## SetantaDeathPQ
+[BattleText]
+[OpenMidRight][LoadSetanta][CloseEyes]
+Damn, that hurts!
+[OpenEyes][ToggleSmile]
+Sorry Fern, you really were...[CloseEyes] better...
+
+[ClearFace]
+[OpenMidRight][LoadFerdiad][ToggleSmile]
+S[0xE9]tanta!
+[CloseEyes]N[.....]-No, this can't be happening...![X]
+
+
+
+## FerdiadDeathPQ
+[BattleText]
+[OpenMidRight][LoadFerdiad]
+Aah...! I was careless...
+I'm sorry, [CloseEyes]Mother...
+
+[ClearFace]
+[OpenMidRight][LoadSetanta][OpenEyes]
+Fern!
+No, she wasn't supposed to die!
+[CloseEyes]It should've been me...![X]
+
+
+
+## ConallDeathQ
+[BattleText]
+[OpenMidRight][LoadCethern]
+Please, keep my brother safe...
+[CloseEyes]I can't go on...[X]
+
+
+
+## SetantaDeathQ
+[BattleText]
+[OpenMidRight][LoadSetanta]
+I wasn't good enough for you Fern...[.....][CloseEyes]
+Hope you'll forgive me...[X]
+
+
+
+## FerdiadDeathQ
+[BattleText]
+[OpenMidRight][LoadFerdiad]
+Mother...?[....]
+[CloseEyes]I don't want to die...[X]
+
+
+
+## HanlinDeathQ
+[BattleText]
+[OpenMidRight][LoadHanlin]
+... ...[.....][CloseEyes]
+I was useless...[X]
+
+
+
+## SadhbhDeathQ
+[BattleText]
+[OpenMidRight][LoadSadhbh]
+So this is it.
+You are all competent.[CloseEyes]
+I trust in your strength...[X]
+
+
+
+## LalithaDeathQ
+[BattleText]
+[OpenMidRight][LoadLalitha]
+Oh...[CloseEyes]
+I guess I wasn't as smart as I thought...[X]
+
+
+
+## AengusDeathQ
+[BattleText]
+[OpenMidRight][LoadAengus]
+No! I can't rest here...!
+I have to get...[CloseEyes] up...[X]
+
+
+
+## BresDeathQ
+[BattleText]
+[OpenMidRight][LoadBres]
+I'm not afraid of death.
+I'll see you soon,[CloseEyes] my...[X]
+
+
+
+## EthniuDeathQ
+[BattleText]
+[OpenMidRight][LoadEthniu]
+So I was the incompetent one this entire time...[.....][CloseEyes]
+Aengus...[X]
+
+
+
+## GedeonDeathQ
+[BattleText]
+[OpenMidRight][LoadGedeon]
+I can hear the bells toll once again...[X]
+
+
+
+## MiachDeathQ
+[BattleText]
+[OpenMidRight][LoadMiach]
+C[....]-Cethern...[CloseEyes] It hurts so much...[ClearFace]
+
+[LoadCethern]
+Miach!![.....][CloseEyes] No...![......][OpenEyes]
+Please don't die on me Miach!![X]
+
+
+
+## SomaDeathQ
+[BattleText]
+[OpenMidRight][LoadFace][0x10][0x1]
+My loyalty to you exceeds my purpose on the battlefield...
+I'm sorry Srihwen, but I must tuck my tail and retreat![X]
+
+
+
+## NalaDeathQ
+[BattleText]
+Abhria would be proud...
+You cannot...[CloseEyes] take that...[X]
+
+
+
+## SanjanaDeathQ
+[BattleText]
+Varuna...[.....][CloseEyes]
+I couldn't keep our promise...[X]
+
+
+
+## VarunaDeathQ
+[BattleText]
+No!
+I'm a knight of Srughna!
+I thought I had become better than this...[X]

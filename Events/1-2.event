@@ -1,0 +1,539 @@
+EventPointerTable(0xA, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN UnitsP UnitsP  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 CleartheSeal [1,0] 0x0
+TURN 0x0 BlackNino [2, 0] 0x0
+TURN 0x0 SexyLadyOnTheFloor [2, 0] 0x24
+TURN 0x1E OhNoTheyreComing [1, 255] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEvent(0x8,LalithaRecruit, Conall, Lalitha)
+CharacterEvent(0x8,LalithaRecruit, Setanta, Lalitha)
+CharacterEvent(0x8,LalithaRecruit, Ferdiad, Lalitha)
+CharacterEvent(0x8,LalithaRecruit, Sadhbh, Lalitha)
+CharacterEvent(0x8,LalithaRecruit, Bres, Lalitha)
+CharacterEvent(0x9,BresRecruit, Conall, Bres)
+END_MAIN
+
+LocationBasedEvents:
+Door(6,6)
+Chest(HandAxe,7,3)
+Chest(Elixir,9,3)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AREA 0x1d BruhHereComesReinNexTTURN [8,0] [16,8]
+AFEV 0 EndingScene 0x2
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+UnitsP:
+UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [16,12] 0x0 0x0 0x1 REDA15R12 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [16,12] 0x0 0x0 0x1 REDA16R12 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [16,11] 0x0 0x0 0x1 REDA16R11 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+SadhbhP:
+UNIT Sadhbh FalcoKnight 0x1 Level(1, Ally, 0)    [16,11] 0x0 0x0 0x1 REDA14R11 [SteelLance,Vulnerary] [0x0,0x0,0x0,0x0]
+UNIT
+
+FakeLalitha:
+UNIT Lalitha Mage_F 0x1 Level(2, NPC, 0)    [2,10] 0x0 0x0 0x0 0x0 [Fire] [0x6,0x3,0x0,0x0]
+UNIT
+
+LalithaLai:
+UNIT Lalitha Mage_F 0x1 Level(2, NPC, 0)    [5,7] 0x0 0x0 0x1 REDA5R8 [ChestKey] [0x6,0x3,0x0,0x0]
+UNIT
+
+GangGang:
+UNIT Breguet LanceCav Breguet Level(5, Enemy, 1)    [2,7] 0 0 0 0 [Javelin] NeverMoveAI
+UNIT 0x80 Mercenary Breguet Level(3, Enemy, 0)    [1,12] 0 0 0 0 [IronBlade] NeverMoveAI
+UNIT 0x81 Fighter Breguet Level(3, Enemy, 1)       [3,12] DropItem 0 0 0 [IronAxe, Fire] NeverMoveAI
+UNIT
+
+EnemyUnits:
+UNIT 0x80 Archer Breguet Level(2, Enemy, 1)            [0,4] 0 0 1 REDA8R3          [IronBow] AttackInRangeAI
+UNIT 0x81 Cavalier Breguet Level(2, Enemy, 1)          [0,4] 0 0 1 REDA11R4        [IronLance] AttackInRangeAI
+UNIT 0x82 AxeKnight Breguet Level(4, Enemy, 1)         [0,4] DropItem 0 1 REDA12R5 [HandAxe,ChestKey] NeverMoveAI
+UNIT 0x80 Brigand Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA2R5          [IronAxe] AttackInRangeAI
+UNIT 0x80 SwordKnight Breguet Level(1, Enemy, 1)       [0,5] 0 0 1 REDA2R8          [IronSword] AttackInRangeAI
+UNIT 0x80 AxeCav Breguet Level(2, Enemy, 1)            [0,5] 0 0 1 REDA5R3          [IronAxe] AttackInRangeAI
+UNIT 0x81 Archer Breguet Level(2, Enemy, 1)            [0,4] 0 0 1 REDA14R5        [IronBow] AttackInRangeAI
+UNIT 0x80 Fighter Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA13R2        [IronAxe] AttackInRangeAI
+UNIT 0x81 Mage Breguet Level(2, Enemy, 1)              [0,4] 0 0 1 REDA15R2        [Fire] AttackInRangeAI
+UNIT 0x83 Monk Breguet Level(2, Enemy, 1)              [0,5] 0 0 1 REDA9R7          [Lightning] AttackInRangeAI
+UNIT 0x81 Soldier Breguet Level(2, Enemy, 1)           [0,4] 0 0 1 REDA12R8        [IronLance] AttackInRangeAI
+UNIT
+
+ReinforcementsHo:
+UNIT 0x81 Fighter Breguet Level(2, Enemy, 1)       [0,4] 0 0 0x1 REDA0R4 [IronAxe] [0x0,0x0,0x4,0x0]
+UNIT 0x81 LanceKnight Breguet Level(2, Enemy, 1)       [0,5] 0 0 0x1 REDA0R5 [Javelin] [0x0,0x0,0x4,0x0]
+UNIT
+
+Bressy:
+UNIT Bres Myrmidon 0x1 Level(1, NPC, 0)    [0,4] 0 0 0x1 REDA0R4 [IronSword, DoorKey] [0x0,0x0,0x4,0x0]
+UNIT
+
+MiachHereBoi:
+UNIT Miach Villager 0x1 Level(1, NPC, 0)    [16,11] 0 0 0x1 REDA12R11 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+BanditOhNoNoNo:
+UNIT 0x80 Brigand Breguet Level(2, Enemy, 1)    [16,11] 0 0 0x1 REDA15R11 [IronAxe] [0x0,0x0,0x0,0x0]
+UNIT
+
+CethernIsADude:
+UNIT Cethern EirikaLord 0x1 Level(2, Ally, 1)    [0,4] 0x0 0x0 0x0 0x0 [IronSword] [0x0,0x0,0x0,0x0]
+UNIT
+
+TheSquadronBoi:
+UNIT Sadhbh Crownflier 0x1 Level(1, Ally, 0)    [0,4] 0x0 0x0 0x1 REDA9R11 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [0,5] 0x0 0x0 0x1 REDA9R12 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [0,5] 0x0 0x0 0x1 REDA8R11 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+SheJoins:
+UNIT Lalitha Mage_F 0x1 Level(2, Ally, 0)    [2,10] 0x0 0x0 0x0 0x0 [Fire] [0x0,0x0,0x0,0x0]
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+STAL 120
+MUSC 0x48
+SetBackground(0x2)
+TEXTSTART
+TEXTSHOW P1C2HelloSetanta
+TEXTEND
+MUSC 0x58
+TEXTCONT
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 3
+STAL 60
+MUSC 0x2B
+SetBackground(0x1)
+TEXTSTART
+TEXTSHOW P1C2GoodbyeFamily
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 3
+STAL 120
+EnterStop
+MUSC 0x5
+SetBackground(0x34)
+STAL 60
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW P1C2WMIntro
+TEXTEND
+REMA
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW P1C2WMIntro2
+TEXTEND
+REMA
+FADI 3
+STAL 120
+CLEAN
+EnterStop
+MUSC 0x24
+SetBackground(0x1B)
+BROWNBOXTEXT CaerGolud [8,8] // box in the top right that's pretty cool for small text
+TEXTSTART
+TEXTSHOW P1C2ToCaerWydyr
+TEXTEND
+REMA
+FADI 4
+CLEAN
+STAL 60
+MUSC 0x47
+SetBackground(0x21)
+TEXTSTART
+TEXTSHOW P1C2MiachAppear
+TEXTEND
+MUSC 0x2A
+TEXTCONT
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 4
+CLEAN
+_0x2620 0xC10 //camera better around borders of map
+STAL 120
+LOAD2 0x1 FakeLalitha
+ENUN
+LOAD1 0x1 GangGang
+ENUN
+FADU 16
+MUSC 0x47
+LOAD2 0x1 UnitsP
+ENUN
+LOAD1 0x1 SadhbhP
+ENUN
+CUMO [14,11]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C2SadhbhWorry
+TEXTEND
+REMA
+_0x2620 0xA02 //camera better around borders of map
+MUSC 0x25
+CUMO [2,7]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C2HarrassingATeenGirl
+TEXTEND
+REMA
+MOVE 0xA 0x80 [2,11]
+ENUN
+MUSS 0x0
+StartBattle
+MissedAttack(0,0)
+CriticalHit(1,0)
+FIG1 0x80 Lalitha 0x0
+MURE 0x2
+SET_SOMETHING 0x80
+DISA_IF 0x80
+MOVE 0xA 0x81 [3,10]
+ENUN
+CUMO [2,7]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C2BroYouJustKilledMyBestFriend
+TEXTEND
+REMA
+MOVE_1STEP 0x8 0x81 0x0
+ENUN
+DISA Lalitha
+MOVE 0x8 0x81 [6,5]
+ENUN
+SOUN 0xB1
+TILECHANGE 0x2
+MOVE 0x8 0x81 [5,7]
+ENUN
+LOAD1 0x1 LalithaLai
+MOVE 0x8 0x81 [6,5]
+ENUN
+SOUN 0xB1
+TILEREVERSE 0x2
+STAL 20
+_0x2620 0x000 //camera better around borders of map
+CUMO [2,7]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C2Sad
+TEXTEND
+REMA
+MOVE 0xA Aillen [14,1]
+LOAD1 0x1 EnemyUnits
+ENUN
+_0x2620 0xC0C //camera better around borders of map
+CUMO [15,12]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C2LetsGoSaveTheWaif
+TEXTEND
+REMA
+MOVE 0xA Sadhbh [0,11]
+MOVE 0xA Setanta [1,12]
+MOVE 0xA Cethern [2,11]
+MOVE 0xA Ferdiad [3,12]
+ENUN
+_0x2620 0xA02 //camera better around borders of map
+STAL 20
+NoFade
+ENDA
+
+EndingScene:
+FADI 4
+ENUT 0x84
+CLEA 0x0
+CLEE 0x0
+CLEN 0x0
+_0x2620 0xC0C
+MUSC 0x26
+FADU 4
+STAL 20
+LOAD2 0x1 MiachHereBoi
+ENUN
+LOAD2 0x1 BanditOhNoNoNo
+ENUN
+CUMO [12,11]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C2HelpMeCethern
+TEXTEND
+REMA
+LOAD2 0x1 CethernIsADude
+ENUN
+MOVE 0xD Cethern [14,11]
+ENUN
+StartBattle
+NormalDamage(0,0)
+MissedAttack(1,0)
+CriticalHit(0,0)
+FIG2 Cethern 0x80 0x0
+SET_SOMETHING 0x81
+DISA_IF 0x81
+CUMO [14,11]
+STAL 60
+CURE
+CHECK_ALIVE Sadhbh
+BEQ 0x0 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1C2MiachYouDummy
+	TEXTEND
+	REMA
+	LOAD2 0x1 TheSquadronBoi
+	ENUN
+	CUMO [9,11]
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW P1C2SadhbhAlive
+	TEXTEND
+	REMA
+	GOTO 0x3
+LABEL 0x0
+	CHECK_ALIVE Ferdiad
+	BEQ 0x1 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1C2MiachYouDummy
+	TEXTEND
+	REMA
+	LOAD2 0x1 TheSquadronBoi
+	ENUN
+	CUMO [8,11]
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW P1C2FerdiadAlive
+	TEXTEND
+	REMA
+	GOTO 0x3
+LABEL 0x1
+	CHECK_ALIVE Setanta
+	BEQ 0x2 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1C2MiachYouDummy
+	TEXTEND
+	REMA
+	LOAD2 0x1 TheSquadronBoi
+	ENUN
+	CUMO [9,12]
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW P1C2SetantaAlive
+	TEXTEND
+	REMA
+	GOTO 0x3
+LABEL 0x2
+ENUT 0xA
+TEXTSTART
+TEXTSHOW P1C2NoOneAlive
+TEXTEND
+REMA
+LABEL 0x3
+MUSCMID 0x7FFF
+CHECK_EVENTID 0x8 // lalitha in party
+BEQ 0x4 0x0 0xC
+CHECK_ALIVE Lalitha
+BEQ 0x4 0x0 0xC
+	FADI 4
+	STAL 60
+	EnterStop
+	SetBackground(FortInterior)
+	MUSC 0x31
+	CHECK_EVENTID 0x9 // bres in party
+	BEQ 0x5 0x0 0xC
+	CHECK_ALIVE Bres
+	BEQ 0x5 0x0 0xC
+		TEXTSTART
+		TEXTSHOW P1C2LalithaAndBres
+		TEXTEND
+		REMA
+		GOTO 0x8
+	LABEL 0x5
+	TEXTSTART
+	TEXTSHOW P1C2LalithaOnly
+	TEXTEND
+	REMA
+	GOTO 0x8
+LABEL 0x4
+CHECK_EVENTID 0x9 // bres in party
+BEQ 0x6 0x0 0xC
+CHECK_ALIVE Bres
+BEQ 0x6 0x0 0xC
+	FADI 4
+	STAL 60
+	EnterStop
+	SetBackground(FortInterior)
+	MUSC 0x31
+	CHECK_EVENTID 0xB // lalitha alive otherwise
+	BNE 0x7 0x0 0xC
+		TEXTSTART
+		TEXTSHOW P1C2BresOnlyButLalitha
+		TEXTEND
+		MUSC 0x30
+		TEXTCONT
+		TEXTEND
+		REMA
+		LOAD1 0x1 SheJoins
+		GOTO 0x8
+	LABEL 0x7
+	TEXTSTART
+	TEXTSHOW P1C2BresOnly
+	TEXTEND
+	GOTO 0x8
+LABEL 0x6
+CHECK_EVENTID 0xB // lalitha alive otherwise
+BNE 0x8 0x0 0xC
+	FADI 4
+	STAL 60
+	EnterStop
+	SetBackground(FortInterior)
+	MUSC 0x31
+	TEXTSTART
+	TEXTSHOW P1C2ButLalitha
+	TEXTEND
+	MUSC 0x30
+	TEXTCONT
+	TEXTEND
+	REMA
+	LOAD1 0x1 SheJoins
+LABEL 0x8
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+CHECK_EVENTID 0xA //is everyone dead from cluain bolg but cethern?
+BEQ 0xA 0x0 0xC
+	EnterStop
+	MUSC 0x2B
+	SetBackground(FortInterior)
+	TEXTSTART
+	TEXTSHOW P1C2MiachOnly
+	TEXTEND
+	REMA
+	MUSCMID 0x7FFF
+	FADI 4
+	STAL 60
+LABEL 0xA
+MNCH 0x2
+ENUF 0x84
+NoFade
+ENDA
+
+SexyLadyOnTheFloor:
+_0x2620 0x400 //camera better around borders of map
+LOAD1 0x1 Bressy
+ENUN
+CUMO [0,4]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C2YetMoreDialogue
+TEXTEND
+REMA
+NoFade
+ENDA
+
+BruhHereComesReinNexTTURN:
+SVAL 0x2 0x0
+CALL 0x9EE1B8
+NoFade
+ENDA
+
+OhNoTheyreComing:
+CHECK_EVENTID 0x1D
+BEQ 0x0 0x0 0xC
+	_0x2620 0x500 //camera better around borders of map
+    LOAD1 0x1 ReinforcementsHo
+	STAL 60
+    GOTO 0x1
+LABEL 0x0
+    ENUF 0x1E
+LABEL 0x1
+NoFade
+ENDA
+
+LalithaRecruit:
+MUSC 0x30
+Text(P1C2LalithaFerdiad)
+CUSA Lalitha
+NoFade
+ENDA
+
+BresRecruit:
+MUSC 0x30
+Text(P1C2BresCethern)
+CUSA Bres
+NoFade
+ENDA
+
+BlackNino:
+CAM1 Lalitha
+CUMO Lalitha
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C2BlackNino
+TEXTEND
+MOVE 0x8 Lalitha [6,7]
+ENUN
+TEXTCONT
+TEXTEND
+MOVE 0x8 Lalitha [5,8]
+ENUN
+TEXTCONT
+TEXTEND
+REMA
+NoFade
+ENDA
+
+CleartheSeal:
+ASMC ClearDebuffs|1
+NoFade
+ENDA

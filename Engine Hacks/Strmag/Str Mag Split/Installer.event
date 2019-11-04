@@ -1,0 +1,15 @@
+//Credits: Teq for the original FE7 version and WIP FE8 Version
+
+#define SpiritDust 0xBF
+
+#include "Level Up\Installer.event"
+
+#include "Combat\Combat Calculations EA.event"
+
+#include "Unit Viewer\Unit Viewer EA.event"
+
+#include "Prep Screen and Mag Booster\Prep Screen EA.event"
+
+#include "Autolevelling and Saves\Autolevel and Save EA.event"
+
+#include "MagicSwordRework\MagicSwordRework.event"

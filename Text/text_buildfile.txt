@@ -1,0 +1,115 @@
+
+# 0x0002 textWeaponRankIncreasedTo
+ Weapon rank increased to [X]
+
+# 0x0094
+HP Bars[.][X]
+
+# 0x00B2
+Set health bar display[X]
+
+# 0x2EA
+Trobairitz[X]
+
+# 0x160
+1-1: Calling to Battle[X]
+
+# 0x161
+1-2: New Companions[X]
+
+# 0x162
+1-3: First Taste of War[X]
+
+# 0x163
+1-4: Caer Ochren[X]
+
+# 0x164
+1-F: Snow Stained Red[X]
+
+# 0x166
+2-1: Roots from the Earth[X]
+
+# 0x167
+2-2: Chandra[X]
+
+# 0x168
+2-3: The Northern Wind[X]
+
+# 0x169
+2-4: Crimson Goddess[X]
+
+# 0x16A
+2-5: Boundary of Life[X]
+
+# 0x16B
+2-5x: Young Girl's Hope[X]
+
+# 0x16C
+2-6: Stoked Rebellion[X]
+
+# 0x16D
+2-7: Eye of the Needle[X]
+
+# 0x16E
+2-8: Ambush from Five Sides[X]
+
+# 0x16F
+2-F: The Caged Bird[X]
+
+#0x3A LearnedSkillText
+#first text ID in the free block
+Learned  [X]
+
+#include "statscreen_text.txt"
+
+#include "unitmenu_text.txt"
+
+#0xd4c HouseText
+#first text ID in the free block
+[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+
+#include "ChapterObj.txt"
+
+#include "death quotes.txt"
+
+#include "unitnames.txt"
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+## nameCamus
+#for identity problems
+Camus[X]
+
+## nameSirius
+Sirius[X]
+
+## nameZeke
+Zeke[X]
+
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[NL]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[NL]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[NL]
+for items and gold.[X]
+
+## Mov_Text_ID
+Mov[X]
+
+## Arrow_Heal
+->[X]
+
+#include "skilldesc_text.txt"

@@ -1,0 +1,255 @@
+INLINE ClassLevelUpSkillTable,Skill Pointer
+0x00 Separator/Nothing,0x0
+Sibyl,SibylSkillList|IsPointer
+Hobelar,HobelarSkillList|IsPointer
+Theurge,TheurgeSkillList|IsPointer
+Dracolord,0x0
+Lnc. Cav,CavalierSkillList|IsPointer
+Lnc. Cav (F),CavalierSkillList|IsPointer
+Gold Knight,GoldKnightSkillList|IsPointer
+Silver Knight,SilverKnightSkillList|IsPointer
+Lance Knight,KnightSkillList|IsPointer
+Lance Knight (F),KnightSkillList|IsPointer
+General,GeneralSkillList|IsPointer
+General (F),GeneralSkillList|IsPointer
+Thief,ThiefSkillList|IsPointer
+Manakete,0x0
+Mercenary,MercenarySkillList|IsPointer
+Vagabond,HarrierSkillList|IsPointer
+Hero,HeroSkillList|IsPointer
+Hero (F),ThiefSkillList|IsPointer
+Myrmidon,MyrmidonSkillList|IsPointer
+Myrmidon (F),MyrmidonSkillList|IsPointer
+Swordmaster,SwordmasterSkillList|IsPointer
+Swordmaster (F),SwordmasterSkillList|IsPointer
+Assassin,AssassinSkillList|IsPointer
+Assassin (F),AssassinSkillList|IsPointer
+Archer,ArcherSkillList|IsPointer
+Archer (F),ArcherSkillList|IsPointer
+Sniper,SniperSkillList|IsPointer
+Sniper (F),SniperSkillList|IsPointer
+Ranger,RangerSkillList|IsPointer
+Ranger (F),RangerSkillList|IsPointer
+Wyvern Rider,WyvernRiderSkillList|IsPointer
+Wyvern Rider (F),WyvernRiderSkillList|IsPointer
+Wyvern Lord,WyvernLordSkillList|IsPointer
+Wyvern Lord (F),WyvernLordSkillList|IsPointer
+Wyvern Knight,WyvernKnightSkillList|IsPointer
+Wyvern Knight (F),WyvernKnightSkillList|IsPointer
+Mage,MageSkillList|IsPointer
+Mage (F),MageSkillList|IsPointer
+Sage,SageSkillList|IsPointer
+Sage (F),SageSkillList|IsPointer
+Mage Knight,MageKnightSkillList|IsPointer
+Mage Knight (F),MageKnightSkillList|IsPointer
+Bishop,BishopSkillList|IsPointer
+Bishop (F),BishopSkillList|IsPointer
+Shaman,ShamanSkillList|IsPointer
+Shaman (F),ShamanSkillList|IsPointer
+Druid,DruidSkillList|IsPointer
+Druid (F),DruidSkillList|IsPointer
+Summoner,SummonerSkillList|IsPointer
+Summoner (F),SummonerSkillList|IsPointer
+Rogue,RogueSkillList|IsPointer
+Gorgon Egg,0x0
+Great Knight,GreatKnightSkillList|IsPointer
+Great Knight (F),GreatKnightSkillList|IsPointer
+Swd. Cav,CavalierSkillList|IsPointer
+Swd. Cav (F),CavalierSkillList|IsPointer
+Axe Cav,CavalierSkillList|IsPointer
+Bow Cav,BowCavSkillList|IsPointer
+Soldier (F),SoldierSkillList|IsPointer
+Arbalest,ArbalestSkillList|IsPointer
+Arbalest (F),ArbalestSkillList|IsPointer
+Rogue (F),RogueSkillList|IsPointer
+Fighter,FighterSkillList|IsPointer
+Warrior,WarriorSkillList|IsPointer
+Brigand,BrigandSkillList|IsPointer
+Pirate,BrigandSkillList|IsPointer
+Berserker,BerserkerSkillList|IsPointer
+Monk,MonkSkillList|IsPointer
+Priest,PriestSkillList|IsPointer
+War Monk,WarMonkSkillList|IsPointer
+War Cleric,WarMonkSkillList|IsPointer
+Pegasus Knight,PegasusKnightSkillList|IsPointer
+Falcon Knight,FalconKnightSkillList|IsPointer
+Cleric,PriestSkillList|IsPointer
+Troubadour,TrobairitzSkillList|IsPointer
+Valkyrie,ValkyrieSkillList|IsPointer
+Dancer,0x0
+Soldier,SoldierSkillList|IsPointer
+Necromancer,0x0
+Fleet,0x0
+Phantom,0x0
+Axe Knight,KnightSkillList|IsPointer
+Entombed,0x0
+Sword Knight,KnightSkillList|IsPointer
+Templar,TemplarSkillList|IsPointer
+Dark Knight,DarkKnightSkillList|IsPointer
+Dark Knight (F),DarkKnightSkillList|IsPointer
+Halberdier,HalberdierSkillList|IsPointer
+Halberdier (F),HalberdierSkillList|IsPointer
+Cyclops,0x0
+Mauthe Doog,0x0
+Gwyllgi,0x0
+Tarvos,0x0
+Maelduin,0x0
+Mogall,0x0
+Arch Mogall,0x0
+Gorgon,0x0
+Gorgon Egg,0x0
+Gargoyle,0x0
+Deathgoyle,0x0
+Dracozombie,0x0
+Demon King,0x0
+Archer on Ballista,0x0
+Archer on Iron Ballista,0x0
+Archer on Killer Ballista,0x0
+Ballista,0x0
+Iron Ballista,0x0
+Killer Ballista,0x0
+Civilian,0x0
+Civilian (F),0x0
+Civilian,VillagerSkillList|IsPointer
+Civilian (F),VillagerSkillList|IsPointer
+Civilian,0x0
+Civilian (F),0x0
+Peer,0x0
+Queen,0x0
+Prince,0x0
+Queen,0x0
+(empty),0x0
+Fallen Prince,0x0
+Tent,0x0
+Pontifex,0x0
+Dead Peer,0x0
+Cyclops,0x0
+Elder Bael,0x0
+Journeyman (2),0x0
+Pupil (2),0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0
+-0,0x0

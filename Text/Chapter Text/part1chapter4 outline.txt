@@ -1,0 +1,61 @@
+outline for part 1 chapter 4
+
+Outside of Camp
+cethern returns to camp a few days after first heading to the town of picodobra
+- if sadhbh is alive, cethern talks to sadhbh about picodobra.
+- if sadhbh is not alive, cethern will talk to ethniu about the encampment.
+- if neither of them are alive, skip this dialogue and move to cú raoi.
+
+Cú Raoi's Tent
+cethern will deliver his success to the tactician. cú raoi will talk to cethern about his first real assignment: a strike into southwestern heichalot from caer ochren.
+- if sadhbh is alive, she will bring the news of caer ochren, but state her suspicions. as for cethern's task, sadhbh will call the mission a suicide mission and implore cú raoi to let her head with cethern. cú raoi will disallow this, and the meeting will be over.
+- if sadhbh is not alive, cethern will head into the meeting alone.
+
+Healer's Tent
+cethern will talk to miach before he leaves for caer ochren. miach is learning alright, but still wishes to fight heichalot.
+- if everyone from cluain bolg died in chapter 2, miach will not want to fight to ward heichalot, but rather protect cethern.
+- if sadhbh is still alive, she will talk to miach and leave camp with miach to help cethern.
+- if sadhbh is not alive, miach will leave the tent and steal a horse.
+
+
+-----
+WORLD MAP TIME
+-----
+
+
+Caer Ochren's Border
+ishpan talks to a few soldiers about their new allegiances and their duty. after leaving, one soldier will express their concerns with being led by heichalot, but the other will remind him that they serve lord rionall and his wishes.
+
+Caer Ochren Forest
+cethern is travelling through the forest with everyone still alive, minus sadhbh and miach.
+- dialogue between cethern, setanta and ferdiad depending on who is still alive.
+
+Actual Map
+cethern will be suspicious of the amount of forces near caer ochren's border and realize what's going on. depending on whether sadhbh is alive or not, she and miach will join the party. cethern will be extremely mad at miach but eventually become reluctantly convinced, and prepare for battle with caer ochren.
+- if sadhbh is alive, she will come from behind in the canopy with miach. 
+- if sadhbh is not alive, miach will arrive on a horse, which will then knock him off and run away (hahaha eat shit miach).
+
+if hanlin is still alive, she will state that for as long as they stay in the forest, the majority of ochren forces should not notice them.
+otherwise, cethern will do the same.
+
+
+======================================================
+Text required:
+- Cethern talking with Sadhbh at the camp
+- Cethern talking with Ethniu at the camp
+[X] Cethern arriving at camp and going to see Cú Raoi
+- Meeting with Cú Raoi with Sadhbh
+- Meeting with Cú Raoi without Sadhbh
+- Talking to Miach in the healer's tent
+- Talking to Miach in the healer's tent with Ferdiad/Setanta/Sadhbh dead in Chapter 2
+- Miach escaping with Sadhbh
+- Miach escaping without Sadhbh
+- Ishpan talking to the soldiers
+- Cethern in the forest with Setanta and Ferdiad
+- Cethern in the forest with Setanta
+- Cethern in the forest with Ferdiad
+- Cethern in the forest alone
+- In the border of the map with Sadhbh
+- In the border of the map without Sadhbh
+- Hanlin stating the forest mechanic to Cethern
+- Cethern stating the forest mechanic
