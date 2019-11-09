@@ -338,6 +338,14 @@ STAL 60
 CURE
 PlaceholderT // P1C4CethernExplains
 LABEL 0xB0BB
+STAL 20
+MUSC 0x9
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
+STAL 120
+TUTORIALTEXTBOXSTART
+TEXTSHOW P1C4Warning
+TEXTEND
+REMA
 NoFade
 ENDA
 

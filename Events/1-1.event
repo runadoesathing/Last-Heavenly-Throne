@@ -174,8 +174,13 @@ CURE // removes the cursor
 TEXTSTART
 TEXTSHOW P1C1RealBanditNotice
 TEXTEND
+REMA
 MUSC 0x9
-TEXTCONT // for loadoverworldfaces
+CALL 0x591F40
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
+STAL 120
+TUTORIALTEXTBOXSTART
+TEXTSHOW P1C1Warning
 TEXTEND
 REMA
 NoFade

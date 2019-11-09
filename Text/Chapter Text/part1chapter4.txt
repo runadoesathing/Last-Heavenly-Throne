@@ -68,8 +68,8 @@ I can hear the bells toll once again...[X]
 Picodobra is defended from the[N]
 Heichalotian raiders.[AN]
 After a few days of repair and[N]
-fortification,[.....] Cethern[AN]
-heads west back towards the[N]
+fortification,[.....] Cethern heads[AN]
+west back towards the[N]
 Caer Wydyr border encampment.[AN]
 There he is entrusted with a[N]
 breach through the border[AN]
@@ -107,3 +107,10 @@ A few days later...[X]
 [MidLeft][LoadCethern]
 We've finally returned to camp...
 I suppose our first order of business is to inform C[0xFA] Raoi.[X]
+
+
+
+## P1C4Warning
+Units with a diamond on them will cause[N]
+a game over if they are killed.[......][N]
+Please be cautious.[A][X]

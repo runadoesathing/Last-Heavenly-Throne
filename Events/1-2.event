@@ -282,6 +282,14 @@ MOVE 0xA Ferdiad [3,12]
 ENUN
 _0x2620 0xA02 //camera better around borders of map
 STAL 20
+MUSC 0x9
+CALL 0x591F40
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
+STAL 120
+TUTORIALTEXTBOXSTART
+TEXTSHOW P1C2Warning
+TEXTEND
+REMA
 NoFade
 ENDA
 

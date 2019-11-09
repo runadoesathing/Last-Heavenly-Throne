@@ -896,3 +896,7 @@ unmounted units.[X]
 Underdog: +10 Hit/Avo when unit level[N]
 is less than enemy's. (Promoted[N]
 units count as Level + 20).[X]
+
+## SD_Chandelle
+Chandelle: Gain +2 Avoid[N]
+per space moved.[X]

@@ -1,20 +1,20 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Cormac /done,ChivalryID
+Cethern /done,ChivalryID
 Setanta /done,QuintainID
 Ferdiad /done,SwiftStanceID
-Hanlin,0x0
+Hanlin | Myanchao Arts,0x0
 Aingha,0x0
-Sabhdh /done,0x0
+Sabhdh /done,ChandelleID
 Lalitha /done,HaughtyID
 Aengus /done,SlowBurnID
 Bres /done,SealSklID
 Ethniu /done,QuickBurnID
-Gedeon /done,0x0
-Soma /done,UnderdogID
+Gedeon,0x0
+"Soma | if next to srihwen, +20 hit",0x0
 Varuna,0x0
-Sanjana,0x0
-Ephraim,0x0
+Sanjana | Philanderer,0x0
+Srihwen | Muted Soul,0x0
 Rudram,0x0
 Kyle,SpurStrID
 Amelia,ParagonID

@@ -23,10 +23,10 @@ C05                               #Call spell associated with equipped weapon
 2 p- Magic_010.png
 2 p- Magic_011.png
 L                                 #LOOPSTART {
-2 p- Magic_012.png
-2 p- Magic_013.png
-2 p- Magic_014.png
-2 p- Magic_015.png
+3 p- Magic_012.png
+3 p- Magic_013.png
+3 p- Magic_014.png
+3 p- Magic_015.png
 C01                               #LOOPEND }  NOP
 2 p- Magic_016.png
 2 p- Magic_017.png
@@ -76,10 +76,10 @@ C05                               #Call spell associated with equipped weapon
 2 p- Magic_010.png
 2 p- Magic_011.png
 L                                 #LOOPSTART {
-2 p- Magic_012.png
-2 p- Magic_013.png
-2 p- Magic_014.png
-2 p- Magic_015.png
+3 p- Magic_012.png
+3 p- Magic_013.png
+3 p- Magic_014.png
+3 p- Magic_015.png
 C01                               #LOOPEND }  NOP
 2 p- Magic_016.png
 2 p- Magic_017.png
@@ -115,10 +115,10 @@ C05                               #Call spell associated with equipped weapon
 2 p- Magic_010.png
 2 p- Magic_011.png
 L                                 #LOOPSTART {
-2 p- Magic_012.png
-2 p- Magic_013.png
-2 p- Magic_014.png
-2 p- Magic_015.png
+3 p- Magic_012.png
+3 p- Magic_013.png
+3 p- Magic_014.png
+3 p- Magic_015.png
 C01                               #LOOPEND }  NOP
 2 p- Magic_016.png
 2 p- Magic_017.png
@@ -167,10 +167,10 @@ C05                               #Call spell associated with equipped weapon
 2 p- Magic_010.png
 2 p- Magic_011.png
 L                                 #LOOPSTART {
-2 p- Magic_012.png
-2 p- Magic_013.png
-2 p- Magic_014.png
-2 p- Magic_015.png
+3 p- Magic_012.png
+3 p- Magic_013.png
+3 p- Magic_014.png
+3 p- Magic_015.png
 C01                               #LOOPEND }  NOP
 2 p- Magic_016.png
 2 p- Magic_017.png
@@ -239,10 +239,10 @@ C05                               #Call spell associated with equipped weapon
 2 p- Magic_010.png
 2 p- Magic_011.png
 L                                 #LOOPSTART {
-2 p- Magic_012.png
-2 p- Magic_013.png
-2 p- Magic_014.png
-2 p- Magic_015.png
+3 p- Magic_012.png
+3 p- Magic_013.png
+3 p- Magic_014.png
+3 p- Magic_015.png
 C01                               #LOOPEND }  NOP
 2 p- Magic_016.png
 2 p- Magic_017.png

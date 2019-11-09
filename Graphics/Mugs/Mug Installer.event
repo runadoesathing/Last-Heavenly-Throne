@@ -11,7 +11,7 @@ Airmed_Mug:
 setMugEntry(0x3, Airmed_Mug, 2, 6, 3, 4)
 
 Setanta_Mug:
-#incext PortraitFormatter "SetantaAlpha.png"
+#incext PortraitFormatter "Setanta.png"
 setMugEntry(0x4, Setanta_Mug, 3, 5, 3, 3)
 
 Ferdiad_Mug:
@@ -42,6 +42,10 @@ Bres_Mug:
 #incext PortraitFormatter "BresAlpha.png"
 setMugEntry(0xC, Bres_Mug, 2, 5, 3, 3)
 
+Rionall_Mug:
+#incext PortraitFormatter "Rionall.png"
+setMugEntry(0xD, Rionall_Mug, 3, 5, 3, 3)
+
 Ethniu_Mug:
 #incext PortraitFormatter "EthniuAlpha.png"
 setMugEntry(0xE, Ethniu_Mug, 2, 6, 3, 4)
@@ -65,3 +69,7 @@ setMugEntry(0x32, Lamech_Mug, 3, 5, 3, 3)
 Ishpan_Mug:
 #incext PortraitFormatter "Ishpan.png"
 setMugEntry(0x33, Ishpan_Mug, 3, 5, 3, 3)
+
+Gedaliah_Mug:
+#incext PortraitFormatter "Gedaliah.png"
+setMugEntry(0x34, Gedaliah_Mug, 3, 5, 3, 3)

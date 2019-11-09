@@ -16,8 +16,9 @@ TurnBasedEvents:
 TURN 0x0 CleartheSeal [1,0] 0x0
 TURN 0x1A OhNoIGotADisease [3,0] 0x0
 TURN 0x1B OhNoOhNoOhNo [4,0] 0x0
-TURN 0x0 OhGoshOhHeck [9,0] 0x0
-TURN 0x0 OhNOOOOOOOOOOOOO [10,0] 0x0
+TURN 0x0 Bandito [5,0] 0x0
+TURN 0x0 OhGoshOhHeck [10,0] 0x0
+TURN 0x0 OhNOOOOOOOOOOOOO [11,0] 0x0
 TURN 0x1E OhNoTheyreComing2 [1, 255] 0x0
 END_MAIN
 
@@ -410,7 +411,7 @@ TEXTEND
 REMA
 FADI 5
 STAL 60
-MUSC 0x30
+MUSC 0x31
 SetBackground(VillageCG)
 TEXTSTART
 TEXTSHOW P1C3TheHeichalotiansAreGone
@@ -491,6 +492,13 @@ ENDA
 
 OhNoOhNoOhNo:
 _0x2620 0x7 //camera better around borders of map
+LOAD1 0x1 MoreDudes2
+ENUN
+NoFade
+ENDA
+
+Bandito:
+_0x2620 0x7 //camera better around borders of map
 LOAD1 0x1 BrigandsAhoy
 ENUN
 CUMO [0,3]
@@ -500,8 +508,6 @@ TEXTSTART
 TEXTSHOW PlaceholderText
 TEXTEND
 REMA
-LOAD1 0x1 MoreDudes2
-ENUN
 NoFade
 ENDA
 

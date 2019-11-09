@@ -654,3 +654,6 @@ ORG SkillIcon(QuintainID)
 
 ORG SkillIcon(UnderdogID)
 #incext Png2Dmp "Skill Icons/Underdog.png"
+
+ORG SkillIcon(ChandelleID)
+#incext Png2Dmp "Skill Icons/Chandelle.png"

@@ -21,7 +21,7 @@
 	POIN MagicSwordList
 
 	MagicSwordList:
-	MagicSwordEntry(LightBrand,WeaponTypeLight,True,HitDef,HitDef)
+	MagicSwordEntry(LightBrand,WeaponTypeLight,True,HitRes,HitRes)
 	MagicSwordEntry(WindSword,WeaponTypeAnima,True,HitLower,HitLower)
 	MagicSwordEntry(Runesword,WeaponTypeDark,True,HitLower,HitLower)
 	BYTE 0 0 0 //terminator

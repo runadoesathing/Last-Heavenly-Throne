@@ -591,6 +591,11 @@ Underdog:
 POIN SkillTester
 WORD UnderdogID
 
+Chandelle:
+#incbin "SoA Skills/Chandelle.dmp"
+POIN SkillTester
+WORD ChandelleID
+
 #include "Other Skills/RandomMugs.event"
 #include "Teq Skills/FE8-StealPlus/FE8-StealPlus EA.txt"
 #include "Teq Skills/FE8-Capture/FE8-Capture Master EA File.txt"

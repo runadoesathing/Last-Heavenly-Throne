@@ -24,21 +24,17 @@ Map_WyvernR_Stand:
 Map_WyvernR_Move:
 #incext Png2Dmp "WyvernUM.png" --lz77
 Map_AxeCav_Stand:
-#incext Png2Dmp "AxeCavS (Siuloir).png" --lz77
+#incext Png2Dmp "AxeCavS.png" --lz77
 Map_AxeCav_Move:
-#incext Png2Dmp "AxeCavM (Siuloir).png" --lz77
+#incext Png2Dmp "AxeCavM.png" --lz77
 Map_BowCav_Stand:
 #incext Png2Dmp "BCavS.png" --lz77
 Map_BowCav_Move:
 #incext Png2Dmp "BCavM.png" --lz77
-Map_FirstLord_Stand:
-#incext Png2Dmp "FirstLordS.png" --lz77
-Map_FirstLord_Move:
-#incext Png2Dmp "FirstLordM.png" --lz77
 Map_SwordCav_Stand:
-#incext Png2Dmp "Scav (Agro).png" --lz77
+#incext Png2Dmp "Scav.png" --lz77
 Map_SwordCav_Move:
-#incext Png2Dmp "ScavM (Agro).png" --lz77
+#incext Png2Dmp "ScavM.png" --lz77
 Map_ShamanF_Stand:
 #incext Png2Dmp "ShamanFS.png" --lz77
 Map_ShamanF_Move:
@@ -63,3 +59,15 @@ Map_HalberdierM_Stand:
 #incext Png2Dmp "HalberdierMS.png" --lz77
 Map_HalberdierM_Move:
 #incext Png2Dmp "HalberdierMM.png" --lz77
+Map_LanceCav_Stand:
+#incext Png2Dmp "LanceCavMS.png" --lz77
+Map_LanceCav_Move:
+#incext Png2Dmp "LanceCavMM.png" --lz77
+Map_LanceCavF_Stand:
+#incext Png2Dmp "LanceCavFS.png" --lz77
+Map_LanceCavF_Move:
+#incext Png2Dmp "LanceCavFM.png" --lz77
+Map_SwordCavF_Stand:
+#incext Png2Dmp "ScavF.png" --lz77
+Map_SwordCavF_Move:
+#incext Png2Dmp "ScavFM.png" --lz77

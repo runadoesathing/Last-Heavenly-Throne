@@ -151,9 +151,10 @@ You could die!
 
 [OpenMidLeft][......]
 S[0xE9]tanta, stay close by me.
-Ferdiad, stay in the back.[MoveMidLeft][OpenMidLeft][LoadOverworldFaces]
+Ferdiad, stay in the back.[MoveMidLeft][OpenMidLeft]
 None of us are going to die.
-I won't allow it. Now come on, let's get moving![X]
+I won't allow it.
+Now come on, let's get moving![X]
 
 
 
@@ -463,8 +464,7 @@ Cluain Bolg in Caer Rigor territory.
 Am I correct in saying this?
 
 [OpenFarLeft][CloseEyes]
-It's not my mother,
-but still a sky knight...[OpenEyes]
+It's not my mother, but still a sky knight...[OpenEyes]
 
 [OpenLeft]
 This is Cluain Bolg.
@@ -678,8 +678,20 @@ Everyone come to the gate![A][X]
 They're encircling us...![MoveMidLeft]
 S[0xE9]tanta, Ferdiad! Watch out![X]
 
+
+
 ## LaterThatDay
 Later that day...[X]
 
+
+
 ## CaerRigor
 Caer Rigor[X]
+
+
+
+## P1C1Warning
+For this chapter, if Cethern,[N]
+S[0xE9]tanta, or Ferdiad are killed,[N]
+a game over will be given.[A][N]
+Please be cautious.[A][X]

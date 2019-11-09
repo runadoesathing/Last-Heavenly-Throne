@@ -33,7 +33,7 @@ BYTE 00 00
 ALIGN 4
 
 BowCavSkillList:
-BYTE 10 QuickDrawID
+BYTE 10 SureShotID
 BYTE 00 00
 ALIGN 4
 
@@ -45,7 +45,7 @@ BYTE 00 00
 ALIGN 4
 
 SilverKnightSkillList:
-BYTE 255 QuickDrawID
+BYTE 255 SwapID
 BYTE 1 LunaID
 BYTE 10 AegisID
 BYTE 00 00
@@ -71,12 +71,12 @@ BYTE 00 00
 ALIGN 4
 
 ArcherSkillList:
-BYTE 10 SureShotID
+BYTE 10 QuickDrawID
 BYTE 00 00
 ALIGN 4
 
 SniperSkillList:
-BYTE 255 SureShotID
+BYTE 255 QuickDrawID
 BYTE 1 CertainBlowID
 BYTE 10 TomebreakerID
 BYTE 00 00
@@ -93,7 +93,7 @@ BYTE 00 00
 ALIGN 4
 
 KnightSkillList:
-BYTE 255 DisciplineID
+BYTE 10 DisciplineID
 BYTE 00 00
 ALIGN 4
 

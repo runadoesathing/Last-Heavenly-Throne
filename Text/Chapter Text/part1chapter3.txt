@@ -1260,8 +1260,8 @@ I hope Miach is doing fine...
 
 [OpenFarFarLeft][LoadAengus]
 Hey, look!
-It's him![MoveLeft]
-You're the person who was helpin' us fight off those raiders!
+It's him!
+The person who was helpin' us fight off those raiders![MoveLeft]
 
 [OpenFarFarLeft][LoadEthniu][MoveFarLeft]
 It is him.
@@ -1294,7 +1294,7 @@ Ethniu, you can't leave me alone!
 If you're gonna leave, I'm comin' with ya!
 
 [FarLeft]
-Don't worry about Picodobra.
+You shouldn't worry about Picodobra.
 By the time it can be protected, we can have way more than two people watching over everyone.
 Give us the few days and we'll be well ready for anything else.
 

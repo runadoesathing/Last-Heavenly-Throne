@@ -168,7 +168,7 @@ Please forgive me.
 
 [OpenFarLeft]
 ...I've got no other choice but to come with you two.[CloseEyes]
-We might as well die together.[OpenEyes]
+We might as well die together...[OpenEyes]
 
 [OpenLeft][ToggleSmile]
 You are all very brave. You shall serve your nation well.
@@ -188,7 +188,7 @@ I don't know how long I'll be gone, but I should be back eventually.[A]
 [OpenFarLeft]
 That's not fair at all!
 I'm coming with you Cethern!
-Miach thinks he's competent enough already to help with anything, so let him take care of grandpa!
+Miach thinks he's competent enough already, so let him take care of grandpa!
 
 [OpenLeft]
 No! I want to come with Cethern too!
@@ -357,7 +357,7 @@ I can pull my own weight, Cethern!
 I won't get in your way, promise!
 
 [OpenFarLeft]
-...I don't have a choice then.
+...[......]I don't have a choice then.
 You're staying with us.
 
 [OpenMidRight][ToggleSmile]
@@ -873,3 +873,10 @@ Even without everybody...?
 ...[.....][OpenEyes]Yes. 
 Gather what you brought.
 We're still going to head for the camp.[X]
+
+
+
+## P1C2Warning
+From this chapter on, only Cethern's[N]
+death will lead to a game over.[A][N]
+Please be cautious.[A][X]

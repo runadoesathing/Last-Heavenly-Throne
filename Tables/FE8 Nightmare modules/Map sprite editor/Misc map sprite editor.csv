@@ -1,10 +1,10 @@
 0x9a2e00,Animation pointer,Another pointer
 Ephraim Lord,Map_Sibyl_Move|0x8000000,0x81c3d7c
-Eirika Lord,Map_FirstLord_Move|0x8000000,0x81c692c
+Eirika Lord,Map_LanceCav_Move|0x8000000,0x81c692c
 Ephraim Great Lord,0x81c4824,0x81c52b4
 Eirika Great Lord,0x81c5414,0x81c5e84
-Cavalier,0x81c5fe4,0x81c692c
-Cavalier (F),0x81c5fe4,0x81c692c
+Cavalier,Map_LanceCav_Move|0x8000000,0x81c692c
+Cavalier (F),Map_LanceCavF_Move|0x8000000,0x81c692c
 Paladin,0x81c6a84,0x81c7428
 Paladin (F),0x81c6a84,0x81c7428
 Armour Knight,Map_Lknight_Move|0x8000000,0x81c7e74
@@ -53,10 +53,10 @@ Rogue,0x81ded90,0x81df548
 Gorgon Egg,0x81df6a0,0x81dfacc
 Great Knight,0x81dfc24,0x81e058c
 Great Knight (F),0x81dfc24,0x81e058c
-Recruit (2),Map_SwordCav_Move|0x8000000,0x81e0e40
-Journeyman (3),Map_SwordCav_Move|0x8000000,0x81e173c
-Pupil (3),Map_AxeCav_Move|0x8000000,0x81e2088
-Recruit (3),Map_BowCav_Move|0x8000000,0x81e0e40
+Recruit (2),Map_SwordCav_Move|0x8000000,0x81c692c
+Journeyman (3),Map_SwordCavF_Move|0x8000000,0x81c692c
+Pupil (3),Map_AxeCav_Move|0x8000000,0x81c692c
+Recruit (3),Map_BowCav_Move|0x8000000,0x81c692c
 Manakete,0x81e21e0,0x81e2f34
 Manakete (F),0x81e308c,0x81e39ec
 Journeyman (1),0x81e0f98,0x81e173c

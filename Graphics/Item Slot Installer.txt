@@ -131,7 +131,7 @@ ORG 0x5926F4+(0x80*0x76)
 #incbin "Weapon Icons/LightProf.dmp"
 
 ORG 0x5926F4+(0x80*0x77)
-#incbin "Weapon Icons/SwordProf.dmp"
+#incbin "Weapon Icons/DarkProf.dmp"
 
 //0x78 - replaceable
 //0x79 - replaceable
