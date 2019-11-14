@@ -73,3 +73,7 @@ setMugEntry(0x33, Ishpan_Mug, 3, 5, 3, 3)
 Gedaliah_Mug:
 #incext PortraitFormatter "Gedaliah.png"
 setMugEntry(0x34, Gedaliah_Mug, 3, 5, 3, 3)
+
+CuRaoi_Mug:
+#incext PortraitFormatter "CuRaoi.png"
+setMugEntry(0x54, CuRaoi_Mug, 3, 5, 3, 3)

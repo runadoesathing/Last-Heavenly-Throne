@@ -1,0 +1,70 @@
+outline for part 1 chapter F
+
+-----
+WORLD MAP TIME
+-----
+
+cethern travelling through the snow at night with miach, before coming across an abandoned fort to rest in for the night
+
+the party keeps the lights low to not alert any sky knights, cethern mentions how hopeless the mission seems but wants to keep hope for airmed and his grandfather
+- if gedeon is alive, cethern will talk to him about the prince of heichalot
+- if sadhbh is alive, cethern will talk to her about the prince of heichalot
+- if hanlin is alive, cethern will talk to her about the prince of heichalot
+- if none are alive, cethern will talk to miach about the prince of heichalot
+- if actually no one is alive, cethern will talk to miach about being alone, before hearing footsteps
+
+the party will be alerted of the sounds of approaching soldiers
+- if lalitha, she will remark on how loud it seems to be
+- if not lalitha, cethern will remark on how loud
+
+cethern will bring everyone out of the fort and tell everyone to give their stand against heichalot
+====
+Gedeon:
+I've made my vow to my friends. That is payment enough to continue fighting!
+
+Hanlin:
+I promised to keep us safe. I'm not letting myself falter.
+
+Lalitha:
+The enemy may be many, but we have the power of many! Leave it to me!
+
+Bres:
+I've stayed with you this far. Might as well see it to the end.
+
+Ethniu:
+Everyone stay cautious. I do not want to see anyone die here...
+
+Aengus:
+Ethniu! I'm doin' this for you! I won't be left behind!
+
+Ferdiad:
+Mother... I hope that I may find you, and show you what I've accomplished. I am following in your footsteps!
+
+Setanta:
+This is for you Fern. I'm not running away!
+
+Sadhbh:
+I fight for Caer Siddi! I will not let the Crownflight down!
+
+=
+Miach:
+Cethern... I'm going to be honest. I'm worried...
+
+Cethern:
+Stay in the fortress if you're too scared, Miach. I'd loathe to see you hurt.
+
+Miach:
+No... I'm doing this for Airmed! We need to be strong!
+
+Cethern:
+Then ready yourself. They'll be here any second!
+=
+
+====
+
+If Hanlin is alive, she will get a torch staff from Sadhbh/Cethern.
+If Hanlin isn't alive, Cethern will find a torch/get a torch from Sadhbh.
+
+-----
+
+======================================================

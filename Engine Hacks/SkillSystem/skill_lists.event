@@ -5,8 +5,8 @@ ALIGN 4
 
 TheurgeSkillList:
 BYTE 255 StaffSavantID
+BYTE 1 MercyID
 BYTE 1 ForesightID
-BYTE 10 TraceID
 BYTE 00 00
 ALIGN 4
 
@@ -16,14 +16,13 @@ BYTE 00 00
 ALIGN 4
 
 HarrierSkillList:
-BYTE 10 SteadyStanceID
+BYTE 10 ArmoredBlowID
 BYTE 00 00
 ALIGN 4
 
 DracolordSkillList:
-BYTE 255 SteadyStanceID
+BYTE 255 ArmoredBlowID
 BYTE 1 AetherID
-BYTE 10 RightfulKingID
 BYTE 00 00
 ALIGN 4
 
@@ -40,14 +39,12 @@ ALIGN 4
 GoldKnightSkillList:
 BYTE 255 SwapID
 BYTE 1 SolID
-BYTE 10 AegisID
 BYTE 00 00
 ALIGN 4
 
 SilverKnightSkillList:
-BYTE 255 SwapID
+BYTE 255 SureShotID
 BYTE 1 LunaID
-BYTE 10 AegisID
 BYTE 00 00
 ALIGN 4
 
@@ -57,16 +54,14 @@ BYTE 00 00
 ALIGN 4
 
 AssassinSkillList:
-BYTE 255 DuelistsBlowID
+BYTE 255 VantageID
 BYTE 1 LethalityID
-BYTE 10 DartingStanceID
 BYTE 00 00
 ALIGN 4
 
 RogueSkillList:
 BYTE 255 DespoilID
-BYTE 1 StealPlusID
-BYTE 10 CelerityID
+BYTE 1 CelerityID
 BYTE 00 00
 ALIGN 4
 
@@ -78,7 +73,7 @@ ALIGN 4
 SniperSkillList:
 BYTE 255 QuickDrawID
 BYTE 1 CertainBlowID
-BYTE 10 TomebreakerID
+BYTE 1 CritUpID
 BYTE 00 00
 ALIGN 4
 
@@ -88,7 +83,7 @@ BYTE 00 00
 ALIGN 4
 
 MageSkillList:
-BYTE 10 AdeptID
+BYTE 10 RallyResID
 BYTE 00 00
 ALIGN 4
 
@@ -99,8 +94,6 @@ ALIGN 4
 
 GeneralSkillList:
 BYTE 255 DisciplineID
-BYTE 1 NaturalCoverID
-BYTE 10 PaviseID
 BYTE 00 00
 ALIGN 4
 
@@ -112,45 +105,41 @@ ALIGN 4
 FalconKnightSkillList:
 BYTE 255 WardingBlowID
 BYTE 1 PassID
-BYTE 10 RallySpdID
 BYTE 00 00 
 ALIGN 4
 
 MyrmidonSkillList:
-BYTE 10 DuelistsBlowID
+BYTE 10 VantageID
 BYTE 00 00
 ALIGN 4
 
 SwordmasterSkillList:
-BYTE 255 DuelistsBlowID
-BYTE 1 VantageID
-BYTE 10 AstraID
+BYTE 255 VantageID
+BYTE 1 AstraID
+BYTE 1 CritUpID
 BYTE 00 00
 ALIGN 4
 
 ShamanSkillList:
-BYTE 10 MaleficAuraID
+BYTE 10 HexID
 BYTE 00 00
 ALIGN 4
 
 DruidSkillList:
-BYTE 255 MaleficAuraID
+BYTE 255 HexID
 BYTE 1 SavageBlowID
-BYTE 10 BowbreakerID
 BYTE 00 00
 ALIGN 4
 
 SummonerSkillList:
-BYTE 255 MaleficAuraID
-BYTE 1 AnathemaID
-BYTE 10 RenewalID
+BYTE 255 HexID
+BYTE 1 RenewalID
 BYTE 00 00
 ALIGN 4
 
 DarkKnightSkillList:
-BYTE 255 MaleficAuraID
-BYTE 1 SealMagID
-BYTE 10 LifetakerID
+BYTE 255 HexID
+BYTE 1 LifetakerID
 BYTE 00 00
 ALIGN 4
 
@@ -161,51 +150,48 @@ ALIGN 4
 
 WarriorSkillList:
 BYTE 255 FieryBloodID
-BYTE 1 TraceID
-BYTE 10 DeathBlowID
+BYTE 1 OpportunistID
 BYTE 00 00
 ALIGN 4
 
 BrigandSkillList:
-BYTE 10 SealSklID
-BYTE 00 00
-ALIGN 4
-
-BerserkerSkillList:
-BYTE 255 SealSklID
-BYTE 1 WrathID
-BYTE 10 TraceID
-BYTE 00 00
-ALIGN 4
-
-MercenarySkillList:
-BYTE 10 RallyStrID
-BYTE 00 00
-ALIGN 4
-
-HeroSkillList:
-BYTE 255 RallyStrID
-BYTE 1 TraceID
-BYTE 10 AxebreakerID
-BYTE 00 00
-ALIGN 4
-
-RangerSkillList:
-BYTE 255 RallyStrID
-BYTE 1 RallySklID
-BYTE 10 SealSpdID
-BYTE 00 00
-ALIGN 4
-
-SoldierSkillList:
 BYTE 10 CamaraderieID
 BYTE 00 00
 ALIGN 4
 
-HalberdierSkillList:
+BerserkerSkillList:
 BYTE 255 CamaraderieID
-BYTE 1 SealDefID
-BYTE 10 TraceID
+BYTE 1 PivotID
+BYTE 1 CritUpID
+BYTE 00 00
+ALIGN 4
+
+MercenarySkillList:
+BYTE 10 ArmsthriftID
+BYTE 00 00
+ALIGN 4
+
+HeroSkillList:
+BYTE 255 ArmsthriftID
+BYTE 1 RallyStrID
+BYTE 00 00
+ALIGN 4
+
+RangerSkillList:
+BYTE 255 ArmsthriftID
+BYTE 1 RallySklID
+BYTE 00 00
+ALIGN 4
+
+SoldierSkillList:
+BYTE 10 RepositionID
+BYTE 00 00
+ALIGN 4
+
+HalberdierSkillList:
+BYTE 255 RepositionID
+BYTE 1 AegisID
+BYTE 1 CritUpID
 BYTE 00 00
 ALIGN 4
 
@@ -215,9 +201,8 @@ BYTE 00 00
 ALIGN 4
 
 GreatKnightSkillList:
-BYTE 255 SwapID
-BYTE 1 ArmoredBlowID
-BYTE 10 SpurDefID
+BYTE 255 DisciplineID
+BYTE 1 RallyDefID
 BYTE 00 00
 ALIGN 4
 
@@ -233,64 +218,55 @@ ALIGN 4
 
 ValkyrieSkillList:
 BYTE 255 RallyMagID
-BYTE 1 RallyResID
-BYTE 10 InspirationID
+BYTE 1 VoiceOfPeaceID
 BYTE 00 00
 ALIGN 4
 
 SageSkillList:
-BYTE 255 AdeptID
-BYTE 1 TraceID
-BYTE 10 IgnisID
+BYTE 255 RallyResID
+BYTE 1 AdeptID
 BYTE 00 00
 ALIGN 4
 
 MageKnightSkillList:
-BYTE 255 AdeptID
-BYTE 1 MirrorStanceID
-BYTE 10 SpurMagID
+BYTE 255 RallyResID
+BYTE 1 SealResID
 BYTE 00 00
 ALIGN 4
 
 WyvernLordSkillList:
 BYTE 255 ChargeID
 BYTE 1 SaviorID
-BYTE 10 SwordbreakerID
 BYTE 00 00
 ALIGN 4
 
 WyvernKnightSkillList:
 BYTE 255 ChargeID
-BYTE 1 RallyMovID
-BYTE 10 KestrelStanceID
+BYTE 1 DuelistsBlowID
 BYTE 00 00
 ALIGN 4
 
 BishopSkillList:
 BYTE 255 WardingStanceID
 BYTE 1 LiveToServeID
-BYTE 10 SpurResID
 BYTE 00 00
 ALIGN 4
 
 WarMonkSkillList:
 BYTE 255 WardingStanceID
-BYTE 1 RallyLukID
-BYTE 10 SpurStrID
+BYTE 1 BreathOfLifeID
 BYTE 00 00
 ALIGN 4
 
 TemplarSkillList:
 BYTE 255 WardingStanceID
-BYTE 1 RallyResID
-BYTE 10 InspirationID
+BYTE 1 VoiceOfPeaceID
 BYTE 00 00
 ALIGN 4
 
 ArbalestSkillList:
-BYTE 255 QuickDrawID
-BYTE 1 SpurSpdID
-BYTE 10 LancebreakerID
+BYTE 255 WardingBlowID
+BYTE 1 RallySpdID
 BYTE 00 00
 ALIGN 4
 

@@ -94,7 +94,7 @@ Childhood friend of Cethern. Becomes[N]
 worried very easily, especially for others.[X]
 
 ## HanlinDesc
-Healer from Myanchao, Maghmeall's[N]
+Healer from Macha, Maghmeall's[N]
 northeast edge. Stoic and frank.[X]
 
 ## SadhbhDesc
@@ -130,8 +130,8 @@ Heichalotian defending the hills[N]
 across Caer Ochren's borders.[X]
 
 ## GedaliahDesc
-Knight of Heichalot. Very[N]
-faithful to his liege Jhudiel.[X]
+Commander under Jhudiel. Very[N]
+faithful to his liege.[X]
 
 ## JhudielDesc
 One of the Ten Stems of Heichalot.[N]

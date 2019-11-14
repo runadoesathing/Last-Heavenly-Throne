@@ -36,16 +36,10 @@ NicktVillagePalette:
 #incext Png2Dmp "NicktVillage.png" --palette-only
 ALIGN 4
 
-NewStatScreen:
+/*NewStatScreen:
 #incext Png2Dmp "StatScreen2.png" --lz77
 NewStatScreenPal:
 #incext Png2Dmp "StatScreen2.png" --palette-only
-
-PUSH
-    ORG 0x5996F4
-    #incbin "weaponpalette.dmp"
-    MESSAGE Item palette updated currentOffset
-POP
 
 //Stat screen
 PUSH
@@ -53,6 +47,13 @@ ORG $88638
 POIN NewStatScreen
 ORG $88640
 POIN NewStatScreenPal
+POP
+*/
+
+PUSH
+    ORG 0x5996F4
+    #incbin "weaponpalette.dmp"
+    MESSAGE Item palette updated currentOffset
 POP
 
 EventPointerTable(0xe0, CorbenicPalette)

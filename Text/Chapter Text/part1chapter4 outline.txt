@@ -8,7 +8,7 @@ cethern returns to camp a few days after first heading to the town of picodobra
 
 Cú Raoi's Tent
 cethern will deliver his success to the tactician. cú raoi will talk to cethern about his first real assignment: a strike into southwestern heichalot from caer ochren.
-- if sadhbh is alive, she will bring the news of caer ochren, but state her suspicions. as for cethern's task, sadhbh will call the mission a suicide mission and implore cú raoi to let her head with cethern. cú raoi will disallow this, and the meeting will be over.
+- if sadhbh is alive, she will bring the news of caer ochren, but state her suspicions. as for cethern's task, sadhbh will call the mission a suicide mission and implore cú raoi to let her head with cethern. cú raoi will disallow this, stating that this mission will help divert forces from caer wydyr to caer ochren, allowing an easier rush through their encampment, and the meeting will be over.
 - if sadhbh is not alive, cethern will head into the meeting alone.
 
 Healer's Tent
@@ -38,6 +38,8 @@ cethern will be suspicious of the amount of forces near caer ochren's border and
 if hanlin is still alive, she will state that for as long as they stay in the forest, the majority of ochren forces should not notice them.
 otherwise, cethern will do the same.
 
+------
+
 
 ======================================================
 Text required:
@@ -59,3 +61,13 @@ Text required:
 - In the border of the map without Sadhbh
 - Hanlin stating the forest mechanic to Cethern
 - Cethern stating the forest mechanic
+====
+- Gedeon appearing
+- Ishpan noticing the party
+- Mend village
+- Thunder village
+- House 1 (talks about who Aingha is)
+- House 2 (talks about how good Lord Rionall is)
+- House 3 (
+====
+- Cethern wants to head back to tell the camp about Rionall's betrayal, but Lord Rionall comes and tries to capture him and Miach, cutting off their escape back with Sky Knights. Cethern's only method of escape is into Heichalot. Lord Rionall sends the Sky Knights not towards Cethern, but further up to find The Shield, a stem of Heichalot. He prays to Aingha, but realizes that she would probably curse his name.

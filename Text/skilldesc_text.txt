@@ -179,7 +179,7 @@ Tomefaire: +4 damage[N]
 when equipping a tome.[X]
 
 ## SD_CritUp
-Crit Boost: +15 critical rate.[X]
+Crit Boost: +10 critical rate.[X]
 
 ## SD_Slayer
 Slayer: Deal effective damage[N]
@@ -452,7 +452,7 @@ a deep and engaging character,[N]
 bursting at the seams with development.[X]
 
 ## SD_QuickDraw
-Quick Draw: +3 damage[N]
+Fierce Blow: +4 damage[N]
 when initiating battle.[X]
 
 ## SD_WindDisciple
@@ -763,7 +763,7 @@ to 20% of the enemy's max[NL]
 HP after every battle.[X]
 
 ## SD_Hex
-Hex: -15 avoid to all[NL]
+Hex: -10 Avoid to all[NL]
 adjacent enemies.[X]
 
 ## SD_Barricade
@@ -900,3 +900,7 @@ units count as Level + 20).[X]
 ## SD_Chandelle
 Chandelle: Gain +2 Avoid[N]
 per space moved.[X]
+
+## SD_MachaArts
+Macha Arts: Take -4 damage/gain +20[N]
+Avo when enemy has a sword equipped.[X]

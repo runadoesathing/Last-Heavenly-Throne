@@ -52,7 +52,7 @@ Wydyr,[.....] at the Kingdom's north border.[A][X]
 To reach Caer Wydyr,[.....] they must cut[N]
 through another province,[.....] Caer Golud:[......][N]
 a province that borders the sea[N]
-to the lands of southern Myanchao.[AN]
+to the lands of southern Macha.[AN]
 Along the way to their destination,[.....][N]
 the four companions encounter several[N]
 obstacles to their goals...[A][X]
@@ -417,7 +417,7 @@ If I were you, I'd hand over this dusty fortress to me right now and scram.
 
 [OpenMidLeft]
 She's confident as well! I have a better idea then.
-Boys, do you think she'll fetch a pretty price in Myanchao?
+Boys, do you think she'll fetch a pretty price in Macha?
 
 [OpenFarRight][ToggleSmile]
 She's looking from down south...

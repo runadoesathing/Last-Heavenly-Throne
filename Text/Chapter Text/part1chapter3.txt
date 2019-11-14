@@ -34,7 +34,7 @@ Principality of Heichalot.[AN]
 Originally a neighbour to Caer[N]
 Vedwyd before its rebellion,[.....] Caer[AN]
 Wydyr normally shares friendship[N]
-with both Myanchao and Heichalot.[AN]
+with both Macha and Heichalot.[AN]
 The chills of coming winter and[N]
 war chip away at this peace,[AN]
 leaving an unsteady and looming[N]
@@ -970,11 +970,11 @@ Are you from Caer Wydyr, Hanlin?
 Your dress and hair are interesting.
 
 [OpenRight]
-I am not. I come from the far north of Myanchao.
+I am not. I come from the far north of Macha.
 
 [OpenMidLeft]
-Myanchao? How did you get involved with this conflict?
-From what I've heard, Myanchao and Heichalot are allies, not enemies...
+Macha? How did you get involved with this conflict?
+From what I've heard, Macha and Heichalot are allies, not enemies...
 
 [OpenRight]
 I am somewhat distrusted because of it.
@@ -1004,16 +1004,16 @@ Are you from Corbenic?
 
 [OpenRight]
 I am not.
-I come from the far north of Myanchao.
+I come from the far north of Macha.
 
 [OpenMidLeft]
-Myanchao?
+Macha?
 How did you get involved with this conflict?
-From what I've heard, Myanchao and Heichalot are allies, not enemies...
+From what I've heard, Macha and Heichalot are allies, not enemies...
 
 [OpenRight]
 Not all of us are as loyal to Heichalot.
-Of course, with me being Myanchao, I am somewhat distrusted by others.
+Of course, with me being Macha, I am somewhat distrusted by others.
 But my duty is to heal, not to fight.
 Most who do not like me change their mind when I tend to their wounds.
 
@@ -1547,3 +1547,26 @@ If any more forces from Corbenic bother you, they will deal with us at your bord
 [MidLeft]
 I am making the correct call.
 This is the right decision for Caer Ochren...[X]
+
+
+
+## P1C3Bandoleo
+[ConversationText]
+[OpenMidLeft][LoadFace][0x4D][0x1]
+The town's already being raided...
+We should blend right in![X]
+
+
+
+## P1C3LamechSignal
+[ConversationText]
+[OpenMidLeft][LoadFace][0x32][0x1]
+Everybody!
+Charge forward![X]
+
+
+
+## P1C3SoldierSignal
+[ConversationText]
+[OpenMidRight][LoadFace][LoadEnemySoldier]
+Anyone who's still alive, take them down![X]

@@ -1,6 +1,6 @@
 ## PlaceholderText
-[OpenFarLeft][LoadLalitha][OpenFarRight][LoadLalitha][OpenRight][LoadLalitha]
-Placeholder text![A][X]
+[OpenMidLeft][LoadSetanta][OpenFarRight][LoadSetanta][OpenRight][LoadSetanta]
+Charlotte is a good friend[A][X]
 
 ## Ch0Long
 Defeat the bandit[N]
