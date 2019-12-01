@@ -10,9 +10,9 @@ Harbor 0x07,ForestImage|IsPointer,ForestTSA|IsPointer,ForestPalette|IsPointer
 Ship 0x08,HealerTentImage|IsPointer,HealerTentTSA|IsPointer,HealerTentPalette|IsPointer
 Inn 0x09,TavernImage|IsPointer,TavernTSA|IsPointer,TavernPalette|IsPointer
 Castle_Hall 0x0A,CaravanImage|IsPointer,CaravanTSA|IsPointer,CaravanPalette|IsPointer
-Castle_Hall_Night 0x0B,0x88eef14,0x88f0b58,0x88f110c
-Castle_Hall_2 0x0C,0x88f120c,0x88f5af4,0x88f5fa8
-Castle_Hall_2_Past 0x0D,0x88f120c,0x88f5af4,0x88f60a8
+Castle_Hall_Night 0x0B,FortNightImage|IsPointer,FortNightTSA|IsPointer,FortNightPalette|IsPointer
+Castle_Hall_2 0x0C,ForestNightImage|IsPointer,ForestNightTSA|IsPointer,ForestNightPalette|IsPointer
+Castle_Hall_2_Past 0x0D,HillsNightImage|IsPointer,HillsNightTSA|IsPointer,HillsNightPalette|IsPointer
 Castle_Room 0x0E,0x88f61a8,0x88f9598,0x88f9a4c
 Castle_Room_Past 0x0F,WarriorTentImage|IsPointer,WarriorTentTSA|IsPointer,WarriorTentPalette|IsPointer
 Castle_Hall_3 0x10,0x88f9c4c,0x88fb350,0x88fb804

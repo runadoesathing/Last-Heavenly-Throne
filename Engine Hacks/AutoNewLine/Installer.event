@@ -12,11 +12,11 @@
 
 // Maximum width of [ConversationText]. Setting this too high will glitch your text boxes out.
 MaxConversationWidth:
-BYTE 190
+BYTE 195
 
 // Maximum width of [BattleText]. Setting this too high will glitch your text boxes out.
 MaxBattleWidth:
-BYTE 130
+BYTE 135
 
 // This option resizes textboxes on the fly to create a much more natural flow of dialog
 // It's a bit difficult to explain, so give it a try and see if you like how it looks

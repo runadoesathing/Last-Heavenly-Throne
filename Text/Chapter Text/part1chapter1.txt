@@ -8,9 +8,9 @@ weapons under my boot![A][X]
 
 
 ## BanditDQ
-[BattleText]
-[OpenMidLeft][LoadFace][0x30][0x1]Impossible...!
-I...[CloseEyes] cannot be bested...[X]
+[OpenMidLeft][LoadFace][0x30][0x1]
+Impossible...! I...[CloseEyes][N]
+cannot be bested...[A][X]
 
 
 
@@ -181,7 +181,7 @@ But at the same time, we don't usually need it...[X]
 ## P1C1CSTalk
 [ConversationText]
 [OpenMidRight][LoadSetanta][OpenMidLeft][LoadCethern]
-This isn't like you S[0xE9]tanta.
+This isn't like you, S[0xE9]tanta.
 You're fighting with us?
 
 [OpenMidRight]
@@ -369,7 +369,7 @@ But Miach keeps messing everything up!
 
 [OpenFarLeft]
 Sorry, who did the nurse say could help?
-You're not even helping, only bothering me around![MoveFarLeft][ToggleSmile]
+You're not even helping, only bossing me around![MoveFarLeft][ToggleSmile]
 Can I come kill some brigands instead with you next time, Cethern?
 
 [OpenFarRight]
@@ -477,7 +477,7 @@ recent political developments.
 
 [OpenFarLeft]
 The Crownflight?![MoveFarLeft]
-...So you're looking for my mother?
+So you're looking for my mother?
 
 [OpenMidRight][ToggleSmile]
 You must be A[0xED]fe's daughter.

@@ -384,7 +384,7 @@ Bond: All allies within 3 tiles[N]
 recover 10% HP each turn.[X]
 
 ## SD_Anathema
-Anathema: -10 Avoid/Dodge to all[N]
+Anathema: -10 Avoid/Crit Avoid to all[N]
 enemies within 3 tiles.[X]
 
 ## SD_LilysPoise
@@ -873,7 +873,7 @@ Drive Defense: Allies within[N]
 2 spaces receive +2 defense.[X]
 
 ##SD_DriveRes
-Drive Resistance: Allies within[N]
+Sowed Faith: Allies within[N]
 2 spaces receive +2 resistance.[X]
 
 ##SD_Blossom
@@ -885,11 +885,11 @@ Aptitude: +20% to[N]
 all growth rates.[X]
 
 ##SD_Haughty
-Haughty: +10 Crit when user's Magic[N]
-is higher than the enemy's Strength.[X]
+Haughty: +10 Crit/Crit Avoid when[N]
+user's Mag is higher than enemy's Str.[X]
 
 ##SD_Quintain
-Quintain: +10 Hit against[N]
+Quintain: +15 Hit against[N]
 unmounted units.[X]
 
 ##SD_Underdog

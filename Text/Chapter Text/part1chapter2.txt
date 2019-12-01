@@ -64,8 +64,8 @@ obstacles to their goals...[A][X]
 [OpenMidLeft][LoadSetanta]
 [OpenRight][LoadCethern]
 [OpenFarRight][LoadFerdiad]
-So we're waiting for her to finish talking to your grandfather.
-Why do we have to wait outside![CloseEyes]
+So, if we're waiting for her to finish talking to your grandfather...
+Why do we have to wait outside!?[CloseEyes]
 I'm freezing![OpenEyes]
 
 [OpenMidLeft]
@@ -147,8 +147,8 @@ You'll die in Caer Wydyr!
 How would that make t--
 
 [OpenRight]
-If we cannot win the war against Heichalot, what will happen to my brother and sister?!
-I need to do what I can to protect both Cluain Bolg and my family![CloseEyes]
+If we cannot win the war against Heichalot, what will happen to my family?!
+I need to do what I can to protect Cluain Bolg![CloseEyes]
 This is the only choice I have to keep everyone safe.[OpenEyes]
 
 [OpenFarRight]
@@ -187,7 +187,7 @@ I don't know how long I'll be gone, but I should be back eventually.[A]
 
 [OpenFarLeft]
 That's not fair at all!
-I'm coming with you Cethern!
+I'm coming with you, Cethern!
 Miach thinks he's competent enough already, so let him take care of grandpa!
 
 [OpenLeft]
@@ -229,7 +229,7 @@ I trust you to have the strength.[MoveMidLeft]
 Now go. Show the Heichalotians that we cannot be slighted so easily...!
 
 [OpenRight]
-Thank you grandfather.
+Thank you, grandfather.
 Let's head out, Lady Sadhbh.[X]
 
 
@@ -256,7 +256,7 @@ But it's salt in the wounds, planning invasion from our land.
 
 [OpenFarRight]
 Caer Vedwyd...
-That's where your father fought, yes Cethern?
+That's where your grandfather fought, yes?
 
 [OpenRight]
 That's right.[ToggleSmile]
@@ -361,7 +361,7 @@ I won't get in your way, promise!
 You're staying with us.
 
 [OpenMidRight][ToggleSmile]
-Thank you so much Cethern!
+Thank you so much, Cethern!
 I'll make sure to--!
 
 [OpenFarLeft][ToggleSmile]
@@ -372,7 +372,7 @@ Once we get to Caer Wydyr, you'll have to find a way to help out.
 [OpenMidRight]
 Aww, but...![.....][MoveMidRight][ToggleSmile] 
 Alright, I promise!
-I'll make you proud Cethern!
+I'll make you proud, Cethern!
 
 [OpenFarFarLeft]
 Cethern![....] Fern![....]
@@ -407,7 +407,7 @@ Everyone, hold for a moment.[X]
 [OpenRight][LoadLalitha][OpenFarRight][LoadFace][0x4D][0x1][OpenMidLeft][LoadFace][0x31][0x1]
 What do we have here?[....][ToggleSmile]
 Usually the intruders we kill aren't waifs like you.
-Maybe you're old enough to beg for your life properly though?
+Maybe you're old enough to beg for your life properly?
 
 [OpenRight]
 That's quite a bold assumption.[....]
@@ -580,7 +580,7 @@ Miach, I told you to hide away!
 It's dangerous out here!
 
 [OpenMidLeft]
-I was hiding Cethern!
+I was hiding, Cethern!
 They saw me between some rocks...
 
 [OpenMidRight]
@@ -655,7 +655,7 @@ Miach, I told you to hide away!
 It's dangerous out here!
 
 [OpenMidLeft]
-I was hiding Cethern!
+I was hiding, Cethern!
 They saw me between some rocks...
 
 [OpenMidRight]

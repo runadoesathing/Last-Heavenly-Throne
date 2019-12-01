@@ -17,16 +17,15 @@ They'll get us too if we don't run![X]
 
 
 ## SetantaDeathPQ
-[BattleText]
 [OpenMidRight][LoadSetanta][CloseEyes]
-Damn, that hurts!
+Damn,[.....] that hurts![.....][N]
 [OpenEyes][ToggleSmile]
-Sorry Fern, you really were...[CloseEyes] better...
+Sorry Fern,[.....] I wasn't...[CloseEyes] good enough...[A]
 
 [ClearFace]
 [OpenMidRight][LoadFerdiad][ToggleSmile]
-S[0xE9]tanta!
-[CloseEyes]N[.....]-No, this can't be happening...![X]
+S[0xE9]tanta![.....][N]
+[CloseEyes]N[.....]-No,[.....] this can't be happening...![A][X]
 
 
 
@@ -53,9 +52,10 @@ Please, keep my brother safe...
 
 
 ## SetantaDeathQ
+[BattleText]
 [OpenMidRight][LoadSetanta]
-I wasn't good enough for you[N]
-Fern...[......][CloseEyes] Hope you'll forgive me...[A][X]
+I wasn't good enough for either of you...
+I'm running back to Cluain Bolg and staying there for good![X]
 
 
 
@@ -109,8 +109,9 @@ I'll see you soon,[CloseEyes] my...[X]
 ## EthniuDeathQ
 [BattleText]
 [OpenMidRight][LoadEthniu]
-So I was the incompetent one this entire time...[.....][CloseEyes]
-Aengus...[X]
+[CloseEyes]So I was the incompetent one this entire time...[.....][OpenEyes]
+But running away isn't beneath me.
+I'm sorry, Aengus...[X]
 
 
 
@@ -129,7 +130,7 @@ It hurts so much...[ClearFace]
 
 [LoadCethern]
 Miach![.....][CloseEyes] No...![......][OpenEyes]
-Please don't die on me Miach!![X]
+Please don't die on me, Miach!![X]
 
 
 

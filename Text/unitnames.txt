@@ -79,6 +79,60 @@ Heichalot[X]
 ## OchrenName
 Ochren[X]
 
+## NalaName
+Nala[X]
+
+## SirinName
+Sirin[X]
+
+## BirnathName
+Birnath[X]
+
+## SinGuName
+Sin Gu[X]
+
+## LenName
+L[0xE9]n[X]
+
+## CalingiName
+Calingi[X]
+
+## RhibhuName
+Rhibhu[X]
+
+## SengannName
+Sengann[X]
+
+## BhekiName
+Bheki[X]
+
+## DanandName
+Danand[X]
+
+## KyuhnName
+Kyuhn[X]
+
+## GusainjiName
+Gusainji[X]
+
+## MuruganName
+Murugan[X]
+
+## FlidaisName
+Flidais[X]
+
+## ZhengName
+Zheng[X]
+
+## RadheName
+Radhe[X]
+
+## EnochName
+Enoch[X]
+
+## NaamahName
+Naamah[X]
+
 
 
 ## ConallDesc
@@ -98,8 +152,8 @@ Healer from Macha, Maghmeall's[N]
 northeast edge. Stoic and frank.[X]
 
 ## SadhbhDesc
-Recruiter from Caer Siddi, the capital[N]
-of Corbenic. She's loyal to the crown.[X]
+Member of the Crownflight of Caer[N]
+Siddi, Corbenic's capital guard.[X]
 
 ## AinghaDesc
 Wayfarer from the captured kingdom of[N]
@@ -130,11 +184,11 @@ Heichalotian defending the hills[N]
 across Caer Ochren's borders.[X]
 
 ## GedaliahDesc
-Commander under Jhudiel. Very[N]
-faithful to his liege.[X]
+Commander under The Shield, a Stem[N]
+of Heichalot. Faithful to him.[X]
 
 ## JhudielDesc
-One of the Ten Stems of Heichalot.[N]
+Stem of Heichalot. Known as The Shield.[N]
 Honour-bound and mournful.[X]
 
 ## CamnielDesc
@@ -201,14 +255,14 @@ Equip: Swords, lances.[X]
 Sibyl[X]
 
 ## Sibyl_Desc
-Oracles of an unknown entity.[N]
+Oracles of the olden Wardbearers.[N]
 Equip: Staves.[X]
 
 ## Theurge_Name
 Theurge[X]
 
 ## Theurge_Desc
-Spiritualists of the olden Wardbearers.[N]
+Spiritualists blessed with divine power.[N]
 Equip: Light, dark, staves.[X]
 
 ## Vagabond_Name
@@ -375,9 +429,9 @@ to weaken enemies. Equip: Light, staves.[X]
 Archers of unparalleled accuracy[N]
 and strength. Equip: Bows.[X]
 
-## Rogue_Desc
-Knaves who need no tools or keys to[N]
-open locks. Equip: Swords, staves.[X]
+## Trickster_Desc
+Multitalented mages who scour for[N]
+secrets. Equip: Swords, anima.[X]
 
 ## Assassin_Desc
 Masters of the killing arts who[N]
@@ -385,6 +439,34 @@ can kill in one slice. Equip: Swords.[X]
 
 ## Woodsman_Name
 Woodsman[X]
+
+## Diabolist_Name
+Diabolist[X]
+
+## Diabolist_Desc
+Knave magicians with a smell[N]
+for treasures. Equip: Anima.[X]
+
+## Trickster_Name
+Trickster[X]
+
+## Mystic_Name
+Mystic[X]
+
+## Mystic_Desc
+Sturdy mages who study their[N]
+own empowerment. Equip: Dark.[X]
+
+## Diviner_Name
+Diviner[X]
+
+## Diviner_Desc
+Magicians who harness the essence[N]
+of the Wardbearers. Equip: Light.[X]
+
+## Woodsman_Desc
+Strong men with great strength but[N]
+poor defense. Equip: Axes.[X]
 
 
 
@@ -396,13 +478,16 @@ Restores HP to allies.[N]
 Srihwen only.[X]
 
 ## ToxinSwordName
-Toxin Sword[X]
+Snakesword[X]
+
+## ToxinLanceName
+Snakespear[X]
 
 ## ToxinAxeName
-Toxin Axe[X]
+Snake Axe[X]
 
 ## ToxinBowName
-Toxin Bow[X]
+Snake Bow[X]
 
 ## WindName
 Wind[X]
@@ -533,8 +618,12 @@ Slim Bow[X]
 ## LongswordName
 Longsword[X]
 
+## GoddessIconDesc
+Increases luck by 4[N]
+points. Vanishes after use.[X]
+
 ## EnergyRingDesc
-Increases Str by 2[N]
+Increases strength by 2[N]
 points. Vanishes after use.[X]
 
 ## EnergyRingUse
@@ -544,11 +633,15 @@ Raises strength.[X]
 Spirit Dust[X]
 
 ## SpiritDustDesc
-Increases Mag by 2[N]
+Increases magic by 2[N]
 points. Vanishes after use.[X]
 
 ## SpiritDustUse
 Raises magic.[X]
+
+## SecretBookDesc
+Increases skill by 2 points.[N]
+Vanishes after use.[X]
 
 ## RallyLuckManualName
 R. Luck M.[X]

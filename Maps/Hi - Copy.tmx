@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
  <tileset firstgid="1" name="01003803" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../01003803.png" trans="ffffff" width="512" height="512"/>
+  <image source="0100E003.png" trans="ffffff" width="512" height="512"/>
  </tileset>
  <layer id="2" name="Tile Layer 1" width="15" height="10">
   <properties>
@@ -11,8 +11,8 @@
    <tile gid="112"/>
    <tile gid="104"/>
    <tile gid="100"/>
-   <tile gid="849"/>
-   <tile gid="850"/>
+   <tile gid="945"/>
+   <tile gid="947"/>
    <tile gid="165"/>
    <tile gid="131"/>
    <tile gid="203"/>
@@ -33,10 +33,10 @@
    <tile gid="237"/>
    <tile gid="304"/>
    <tile gid="601"/>
-   <tile gid="133"/>
+   <tile gid="686"/>
+   <tile gid="163"/>
    <tile gid="71"/>
    <tile gid="72"/>
-   <tile gid="164"/>
    <tile gid="945"/>
    <tile gid="786"/>
    <tile gid="840"/>
@@ -49,10 +49,10 @@
    <tile gid="326"/>
    <tile gid="602"/>
    <tile gid="163"/>
-   <tile gid="103"/>
-   <tile gid="104"/>
-   <tile gid="134"/>
-   <tile gid="686"/>
+   <tile gid="109"/>
+   <tile gid="39"/>
+   <tile gid="144"/>
+   <tile gid="685"/>
    <tile gid="133"/>
    <tile gid="872"/>
    <tile gid="873"/>
@@ -64,9 +64,9 @@
    <tile gid="235"/>
    <tile gid="3"/>
    <tile gid="210"/>
-   <tile gid="165"/>
    <tile gid="721"/>
-   <tile gid="133"/>
+   <tile gid="103"/>
+   <tile gid="104"/>
    <tile gid="164"/>
    <tile gid="68"/>
    <tile gid="67"/>
@@ -124,7 +124,7 @@
    <tile gid="629"/>
    <tile gid="571"/>
    <tile gid="598"/>
-   <tile gid="783"/>
+   <tile gid="164"/>
    <tile gid="143"/>
    <tile gid="136"/>
    <tile gid="79"/>
@@ -139,7 +139,7 @@
    <tile gid="805"/>
    <tile gid="721"/>
    <tile gid="601"/>
-   <tile gid="164"/>
+   <tile gid="783"/>
    <tile gid="103"/>
    <tile gid="168"/>
    <tile gid="105"/>

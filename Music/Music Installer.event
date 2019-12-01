@@ -19,14 +19,22 @@ SongTable(0x9,cethernpride, 1)
 SongTable(0xA,srihwen, 1)
 #include "srihwen.event"
 
+// Hollow Battle's Call
+SongTable(0x11,redstain, 1)
+#include "redstain.event"
+
+// Fly, Caged Bird
+SongTable(0x19,flycagedbird, 0)
+#include "flycagedbird.event"
+
 // With Us
-SongTable(0x30,recruitment, 0)
-#include "recruitment.event"
+SongTable(0x30,WithUs, 0)
+#include "WithUs.event"
 
 // Quiet Palace Courtyard
 SongTable(0x43,harpy, 0)
 #include "harpy.event"
 
-// Quiet Palace Courtyard
+// Knight's Oath
 SongTable(0x58,KnightsOath, 0)
 #include "KnightsOath.event"

@@ -574,7 +574,6 @@ Blossom:
 POIN SkillTester
 WORD BlossomID
 
-MESSAGE Writing Haughty at currentOffset
 Haughty:
 #incbin "New Skills/Haughty.dmp"
 POIN SkillTester
@@ -585,7 +584,6 @@ Quintain:
 POIN SkillTester
 WORD QuintainID
 
-MESSAGE Writing Underdog at currentOffset
 Underdog:
 #incbin "New Skills/Underdog.dmp"
 POIN SkillTester

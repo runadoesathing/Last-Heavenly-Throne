@@ -36,6 +36,24 @@
 #include "Archer F/8. Unarmed/Unarmed Installer.event"
 }
 {
+#include "Assassin F/1. Sword/Sword Installer.event"
+}
+{
+#include "Assassin F/5. Bow/Bow Installer.event"
+}
+{
+#include "Assassin F/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Assassin M/1. Sword {Keks_Krebs}/Sword Installer.event"
+}
+{
+#include "Assassin M/5. Bow {Peerless, SD9K}/Bow Installer.event"
+}
+{
+#include "Assassin M/8. Unarmed {Keks_Krebs}/Unarmed Installer.event"
+}
+{
 #include "Cavalier F/1. Sword/Sword Installer.event"
 }
 {
@@ -58,6 +76,15 @@
 }
 {
 #include "Cavalier M/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Crownflier/Sword/Sword Installer.event"
+}
+{
+#include "Crownflier/Lance/Lance Installer.event"
+}
+{
+#include "Crownflier/Unarmed/Unarmed Installer.event"
 }
 {
 #include "Halberdier M (TBA)/2. Lance/Lance Installer.event"
@@ -90,10 +117,25 @@
 #include "Nomad F/8. Unarmed/Unarmed Installer.event"
 }
 {
+#include "Pirate/Axe/Axe Installer.event"
+}
+{
+#include "Pirate/Handaxe/Handaxe Installer.event"
+}
+{
+#include "Pirate/Disarmed/Disarmed Installer.event"
+}
+{
 #include "Sibyl/7. Staff/Staff Installer.event"
 }
 {
 #include "Sibyl/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "Sky Knight/Lance/Lance Installer.event"
+}
+{
+#include "Sky Knight/Unarmed/Unarmed Installer.event"
 }
 {
 #include "Soldier F (Alusq, Maiser6)/Lance/Lance Installer.event"
@@ -111,6 +153,12 @@
 #include "TerasparkMonk/Magic Installer.event"
 }
 {
+#include "Trobairitz PikminMaiser/Staff/Staff Installer.event"
+}
+{
+#include "Trobairitz PikminMaiser/Unarmed/Unarmed Installer.event"
+}
+{
 #include "Villager M (Nuramon)/1. Sword/Sword Installer.event"
 }
 {
@@ -121,6 +169,42 @@
 }
 {
 #include "Villager F (Nuramon)/8. Unarmed/Unarmed Installer.event"
+}
+{
+#include "War Cleric/Axe/Axe Installer.event"
+}
+{
+#include "War Cleric/Handaxe/Handaxe Installer.event"
+}
+{
+#include "War Cleric/Staff/Staff Installer.event"
+}
+{
+#include "War Cleric/Unarmed/Unarmed Installer.event"
+}
+{
+#include "War Monk/Axe/Axe Installer.event"
+}
+{
+#include "War Monk/Handaxe/Handaxe Installer.event"
+}
+{
+#include "War Monk/Staff/Staff Installer.event"
+}
+{
+#include "War Monk/Unarmed/Unarmed Installer.event"
+}
+{
+#include "Wyvern Knight/3. Axe {St Jack}/Axe Installer.event"
+}
+{
+#include "Wyvern Knight/4. Handaxe {St Jack}/Handaxe Installer.event"
+}
+{
+#include "Wyvern Lord/3. Axe {TBA}/Axe Installer.event"
+}
+{
+#include "Wyvern Lord/4. Handaxe {TBA}/Handaxe Installer.event"
 }
 {
 #include "Wyvern Rider/Axe/Axe Installer.event"
@@ -196,4 +280,44 @@ WORD 0x0    // Seperator
 SoldierFAnim:
 SpearAnim(0xcf)
 UnarmedAnim(0xd0)
+WORD 0x0    // Seperator
+
+AssassinMAnim:
+SwordAnim(0x8B)
+BowAnim(0xDF)
+UnarmedAnim(0x8C)
+WORD 0x0    // Seperator
+
+AssassinFAnim:
+SwordAnim(0x8D)
+BowAnim(0xE0)
+UnarmedAnim(0x8E)
+WORD 0x0    // Seperator
+
+WyvernLordAnim:
+SwordAnim(0x5C)
+AxeAnim(0x5D)
+HandAxeAnim(0x5F)
+UnarmedAnim(0x5E)
+WORD 0x0    // Seperator
+
+WyvernKnightAnim:
+SpearAnim(0x62)
+AxeAnim(0x60)
+HandAxeAnim(0x61)
+UnarmedAnim(0x63)
+WORD 0x0    // Seperator
+
+WarClericAnim:
+AxeAnim(0xE1)
+HandAxeAnim(0xE2)
+StaffAnim(0xE3)
+UnarmedAnim(0xE4)
+WORD 0x0    // Seperator
+
+WarMonkAnim:
+AxeAnim(0xE5)
+HandAxeAnim(0xE6)
+StaffAnim(0xE7)
+UnarmedAnim(0xE8)
 WORD 0x0    // Seperator

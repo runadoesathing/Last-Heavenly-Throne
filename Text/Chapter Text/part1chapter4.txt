@@ -13,7 +13,7 @@ Run along, knave.
 I do not wish to fight children.[ClearFace]
 
 [OpenMidRight][LoadMiach]
-Well,I wish to fight you!
+Well, I wish to fight you!
 How dare you invade us!
 What have we done to you?![ClearFace]
 

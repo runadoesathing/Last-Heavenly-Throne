@@ -1,6 +1,6 @@
 ## PlaceholderText
 [OpenMidLeft][LoadSetanta][OpenFarRight][LoadSetanta][OpenRight][LoadSetanta]
-Charlotte is a good friend[A][X]
+Fuck you Ryan! You piece of shit![A][X]
 
 ## Ch0Long
 Defeat the bandit[N]
@@ -35,3 +35,4 @@ Defend[X]
 #include "Chapter Text/part1chapter2.txt"
 #include "Chapter Text/part1chapter3.txt"
 #include "Chapter Text/part1chapter4.txt"
+#include "Chapter Text/part1chapterF.txt"

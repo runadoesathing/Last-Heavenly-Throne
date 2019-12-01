@@ -14,7 +14,9 @@ MESSAGE Mugs end at currentOffset
 
 ALIGN 4
 //CGs Install
+MESSAGE Backgrounds begin at currentOffset
 #include "CGs/Background Installer.event"
+MESSAGE Backgrounds end at currentOffset
 
 ALIGN 4
 //Spell Animations Install

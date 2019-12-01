@@ -47,6 +47,19 @@
 #define Birnath 0x13
 #define SinGu 0x14
 #define Len 0x15
+#define Calingi 0x16
+#define Rhibhu 0x17
+#define Sengann 0x18
+#define Bheki 0x19
+#define Danand 0x1A
+#define Kyuhn 0x1B
+#define Gusainji 0x1C
+#define Murugan 0x1D
+#define Flidais 0x1E
+#define Zheng 0x1F
+#define Radhe 0x20
+#define Enoch 0x21
+#define Naamah 0x22
 #define Miach 0x2E
 #define Aillen 0x46
 #define Lamech 0x47
@@ -67,6 +80,10 @@
 #define LanceKnight_F 0xA
 #define Vagabond 0x10
 #define Thief_F 0x12
+#define Diabolist 0x25
+#define Diabolist_F 0x26
+#define Mystic 0x2D
+#define Mystic_F 0x2E
 #define SwordCav 0x37
 #define SwordCav_F 0x38
 #define AxeCav 0x39
@@ -75,11 +92,12 @@
 #define Arbalest 0x3C
 #define Arbalest_F 0x3D
 #define Rogue_F 0x3E
-#define Trobairitz 0x4B
+#define Diviner 0x44
 #define WarMonk 0x46
 #define WarCleric 0x47
 #define SkyKnight 0x48
 #define Crownflier 0x49
+#define Trobairitz 0x4B
 #define AxeKnight 0x52
 #define SwordKnight 0x54
 #define Templar 0x55
@@ -91,10 +109,11 @@
 #define Child_F 0x6E
 #define Villager 0x6F
 #define Villager_F 0x70
+#define Farmer 0x71
+#define Farmer_F 0x72
 
 #define MalkuthI 0x3F
 #define YesodII 0x40
-#define FluxD 0x45
 #define Padma 0xB8
 #define SlimAxe 0xBC
 #define SlimBow 0xBD
@@ -123,6 +142,9 @@
 #define HealerTent 0x8
 #define TavernCG 0x9
 #define CaravanCG 0xA
+#define FortNight 0xB
+#define ForestNight 0xC
+#define HillsNight 0xD
 #define WarriorTent 0xF
 #define BrownCastleInterior 0x12
 #define ArmyCamp 0x14

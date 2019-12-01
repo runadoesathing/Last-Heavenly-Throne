@@ -92,7 +92,7 @@ UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [7,17] 0x0 0x0 0x1 REDA7R16 [0x0] [0
 UNIT
 
 EnemyUnits:
-UNIT 0x84 Archer Bone Level(5, Enemy, 1)         [7,0] 0 0 0 0    [IronBow] AttackInRangeAI
+UNIT 0x84 Archer Bone Level(5, Enemy, 1)         [7,0] 0 0 0 0    [IronBow,Dracoshield] AttackInRangeAI
 UNIT 0x85 Monk Bone Level(3, Enemy, 1)           [13,2] 0 0 0 0   [MalkuthI] AttackInRangeAI
 UNIT 0x84 Fighter Bone Level(4, Enemy, 1)        [8,5] 0 0 0 0    [IronAxe] AttackInRangeAI
 UNIT 0x84 Archer_F Bone Level(3, Enemy, 1)       [10,7] 0 0 0 0   [IronBow] AttackInRangeAI
@@ -102,8 +102,8 @@ UNIT 0x85 Monk Bone Level(3, Enemy, 1)           [3,14] 0 0 0 0   [MalkuthI] Att
 UNIT 0x85 Monk Bone Level(3, Enemy, 1)           [2,6] 0 0 0 0    [MalkuthI] AttackInRangeAI
 UNIT 0x85 Mage Bone Level(4, Enemy, 1)           [13,6] 0 0 0 0   [Wind] AttackInRangeAI
 UNIT 0x84 SwordKnight Bone Level(4, Enemy, 1)    [5,7] 0 0 0 0    [IronSword] AttackInRangeAI
-UNIT 0x84 LanceCav_F Bone Level(4, Enemy, 1)     [7,11] 0 0 0 0   [IronLance] AttackInRangeAI
-UNIT 0x84 Fighter Bone Level(4, Enemy, 1)        [11,12] 0 0 0 0  [IronAxe] AttackInRangeAI
+UNIT 0x84 LanceCav_F Bone Level(2, Enemy, 1)     [7,11] 0 0 0 0   [IronLance] AttackInRangeAI
+UNIT 0x84 Fighter Bone Level(3, Enemy, 1)        [11,12] 0 0 0 0  [IronAxe] AttackInRangeAI
 UNIT 0x84 LanceKnight Bone Level(5, Enemy, 1)    [3,4] 0 0 0 0    [SteelLance] NeverMoveAI
 UNIT
 
@@ -669,7 +669,7 @@ NoFade
 ENDA
 	
 ShopBruh:
-SHLI Fire Flux Lightning Heal Vulnerary 
+SHLI Fire Flux Heal Vulnerary 
 ALIGN 4
 
 ArmoryBruh:

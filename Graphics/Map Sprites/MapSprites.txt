@@ -1,4 +1,3 @@
-
 Map_DruidF_Stand:
 #incext Png2Dmp "DruidFS.png" --lz77
 Map_DruidF_Move:
@@ -71,3 +70,39 @@ Map_SwordCavF_Stand:
 #incext Png2Dmp "ScavF.png" --lz77
 Map_SwordCavF_Move:
 #incext Png2Dmp "ScavFM.png" --lz77
+Map_SkyKnight_Stand:
+#incext Png2Dmp "SkyKnightS.png" --lz77
+Map_SkyKnight_Move:
+#incext Png2Dmp "SkyKnightM.png" --lz77
+Map_Crownflier_Stand:
+#incext Png2Dmp "CrownflierS.png" --lz77
+Map_Crownflier_Move:
+#incext Png2Dmp "CrownflierM.png" --lz77
+Map_Pirate_Stand:
+#incext Png2Dmp "PirateS.png" --lz77
+Map_Pirate_Move:
+#incext Png2Dmp "PirateM.png" --lz77
+Map_AssassinF_Stand:
+#incext Png2Dmp "AssassinFS.png" --lz77
+Map_AssassinF_Move:
+#incext Png2Dmp "AssassinFM.png" --lz77
+Map_AssassinM_Stand:
+#incext Png2Dmp "AssassinMS.png" --lz77
+Map_AssassinM_Move:
+#incext Png2Dmp "AssassinMM.png" --lz77
+Map_WarCleric_Stand:
+#incext Png2Dmp "WarClericS.png" --lz77
+Map_WarCleric_Move:
+#incext Png2Dmp "WarClericM.png" --lz77
+Map_WarMonk_Stand:
+#incext Png2Dmp "WarMonkS.png" --lz77
+Map_WarMonk_Move:
+#incext Png2Dmp "WarMonkM.png" --lz77
+Map_WyvernKnight_Stand:
+#incext Png2Dmp "WyvernKS.png" --lz77
+Map_WyvernKnight_Move:
+#incext Png2Dmp "WyvernKM.png" --lz77
+Map_WyvernLord_Stand:
+#incext Png2Dmp "WyvernLS.png" --lz77
+Map_WyvernLord_Move:
+#incext Png2Dmp "WyvernLM.png" --lz77

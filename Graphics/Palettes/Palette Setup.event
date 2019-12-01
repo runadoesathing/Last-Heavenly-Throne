@@ -27,11 +27,24 @@
 	setGenericPalette(0xCB,Generic_Knight)
 	setGenericPalette(0xCC,Generic_Knight)
 
+// Generic_SkyKnight
+	setGenericPalette(0x66,Generic_SkyKnight)
+	setGenericPalette(0x67,Generic_SkyKnight)
+
+// Generic_Crownflier
+	setGenericPalette(0x68,Generic_Crownflier)
+	setGenericPalette(0x69,Generic_Crownflier)
+	setGenericPalette(0x6A,Generic_Crownflier)
+
 // Generic_MageM
 	setGenericPalette(0x6B,Generic_MageM)
 
 // Generic_MageF
 	setGenericPalette(0x6C,Generic_MageF)
+
+// Generic_Trobairitz
+	setGenericPalette(0x85,Generic_Trobairitz)
+	setGenericPalette(0x86,Generic_Trobairitz)
 
 // Generic_Nomad
 	setGenericPalette(0xD4,Generic_Nomad)
@@ -55,36 +68,36 @@
 	setPalette(0x1,Cethern_Hobelar)
 	setCBSP(0x1,0x0,0x0,0x0)
 
-// Setanta_Cavalier
-	setPalette(0x2,Setanta_Cavalier)
+// Setanta_AxeKnight
+	setPalette(0x2,Setanta_AxeKnight)
 	setCBSP(0x2,0x0,0x0,0x0)
 
-// Ferdiad_Nomad
-	setPalette(0x3,Ferdiad_Nomad)
+// Ferdiad_BowKnight
+	setPalette(0x3,Ferdiad_BowKnight)
 	setCBSP(0x3,0x0,0x0,0x0)
 
 // Hanlin_Trobairitz
 	setPalette(0x4,Hanlin_Trobairitz)
 	setCBSP(0x4,0x0,0x0,0x0)
 
-// Sadhbh_FalcoKnight
-	setPalette(0x5,Sadhbh_FalcoKnight)
+// Sadhbh_Crownflier
+	setPalette(0x5,Sadhbh_Crownflier)
 	setCBSP(0x5,0x0,0x0,0x0)
 
-// Lalitha_Mage
-	setPalette(0x6,Lalitha_Mage)
+// Lalitha_Diabolist
+	setPalette(0x6,Lalitha_Diabolist)
 	setCBSP(0x6,0x0,0x0,0x0)
 
 // Bres_Myrmidon
 	setPalette(0x7,Bres_Myrmidon)
 	setCBSP(0x7,0x0,0x0,0x0)
 
-// Ethniu_Shaman
-	setPalette(0x8,Ethniu_Shaman)
+// Ethniu_Mystic
+	setPalette(0x8,Ethniu_Mystic)
 	setCBSP(0x8,0x0,0x0,0x0)
 
-// Aengus_LanceKnight
-	setPalette(0x9,Aengus_LanceKnight)
+// Aengus_LanceKeeper
+	setPalette(0x9,Aengus_LanceKeeper)
 	setCBSP(0x9,0x0,0x0,0x0)
 
 // Gedeon_Fighter
@@ -95,8 +108,8 @@
 	setPalette(0xB,Anluan_Fighter)
 	setCBSP(0xB,0x0,0x0,0x0)
 
-// Aillen_LanceCav
-	setPalette(0xC,Aillen_LanceCav)
+// Aillen_LanceKnight
+	setPalette(0xC,Aillen_LanceKnight)
 	setCBSP(0xC,0x0,0x0,0x0)
 
 // Miach_Villager
@@ -107,8 +120,8 @@
 	setPalette(0xE,Lamech_Mercenary)
 	setCBSP(0xE,0x0,0x0,0x0)
 
-// Ishpan_Monk
-	setPalette(0xF,Ishpan_Monk)
+// Ishpan_Diviner
+	setPalette(0xF,Ishpan_Diviner)
 	setCBSP(0xF,0x0,0x0,0x0)
 
 // Gedaliah_Halberdier
@@ -123,8 +136,8 @@
 	setPalette(0x12,Srihwen_Sibyl)
 	setCBSP(0x12,0x0,0x0,0x0)
 
-// Len_Cavalier
-	setPalette(0x13,Len_Cavalier)
+// Len_SwordKnight
+	setPalette(0x13,Len_SwordKnight)
 	setCBSP(0x13,0x0,0x0,0x0)
 
 // Lalitha_Sage
@@ -135,8 +148,8 @@
 	setPalette(0x15,Lalitha_MageKnight)
 	setCBSP(0x15,0x0,0x0,0x0)
 
-// Lalitha_Druid
-	setPalette(0x16,Lalitha_Druid)
+// Nala_SwordKeeper
+	setPalette(0x16,Nala_SwordKeeper)
 	setCBSP(0x16,0x0,0x0,0x0)
 
 // Hanlin_Valkyrie
@@ -150,3 +163,23 @@
 // Bres_Swordmaster
 	setPalette(0x19,Bres_Swordmaster)
 	setCBSP(0x19,0x0,0x0,0x0)
+
+// Calingi_Archer
+	setPalette(0x1A,Calingi_Archer)
+	setCBSP(0x1A,0x0,0x0,0x0)
+
+// Naamah_Diabolist
+	setPalette(0x1B,Naamah_Diabolist)
+	setCBSP(0x1B,0x0,0x0,0x0)
+
+// Sirin_SkyKnight
+	setPalette(0x1C,Sirin_SkyKnight)
+	setCBSP(0x1C,0x0,0x0,0x0)
+
+// SinGu_WarCleric
+	setPalette(0x1D,SinGu_WarCleric)
+	setCBSP(0x1D,0x0,0x0,0x0)
+
+// Enoch_Diviner
+	setPalette(0x1E,Enoch_Diviner)
+	setCBSP(0x1E,0x0,0x0,0x0)

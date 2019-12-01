@@ -61,7 +61,7 @@ ALIGN 4
 
 RogueSkillList:
 BYTE 255 DespoilID
-BYTE 1 CelerityID
+BYTE 1 AcrobatID
 BYTE 00 00
 ALIGN 4
 

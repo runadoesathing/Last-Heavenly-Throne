@@ -26,7 +26,7 @@ bne		GoBack
 
 add		r4,#0x60
 ldrh	r0,[r4]
-add		r0,#10
+add		r0,#15
 strh	r0,[r4]
 
 GoBack:

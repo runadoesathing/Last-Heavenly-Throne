@@ -63,7 +63,7 @@ ItemIconSlot(0x3E,"Weapon Icons/Items/YesodII.png")
 //0x40 - purge
 //0x41 - aura
 //0x42 - light tome that's nice
-//0x43 - flux d
+ItemIconSlot(0x43,"Weapon Icons/Items/Flux.png")
 //0x44 - luna l
 ItemIconSlot(0x45,"Weapon Icons/Items/ResireS.png")
 //0x46 - bohr x
@@ -102,11 +102,11 @@ ItemIconSlot(0x61,"Weapon Icons/Items/BodyRing.png")
 ItemIconSlot(0x67,"Weapon Icons/Items/ChestKey.png")
 ItemIconSlot(0x68,"Weapon Icons/Items/DoorKey.png")
 ItemIconSlot(0x69,"Weapon Icons/Items/Lockpick.png")
-ItemIconSlot(0x58,"Weapon Icons/Items/Vulnerary.png")
-ItemIconSlot(0x58,"Weapon Icons/Items/Elixir.png")
-ItemIconSlot(0x58,"Weapon Icons/Items/PureWater.png")
-ItemIconSlot(0x58,"Weapon Icons/Items/Antitoxin.png")
-ItemIconSlot(0x58,"Weapon Icons/Items/Torch.png")
+ItemIconSlot(0x6A,"Weapon Icons/Items/Vulnerary.png")
+ItemIconSlot(0x6B,"Weapon Icons/Items/Elixir.png")
+ItemIconSlot(0x6C,"Weapon Icons/Items/PureWater.png")
+ItemIconSlot(0x6D,"Weapon Icons/Items/Antitoxin.png")
+ItemIconSlot(0x6E,"Weapon Icons/Items/Torch.png")
 //0x6F - whip thing (replaceable?)
 
 ORG 0x5926F4+(0x80*0x70)
@@ -199,10 +199,10 @@ ItemIconSlot(0x8D,"Weapon Icons/Items/ShineGuard.png")
 //0xA5 - replaceable
 //0xA6 - replaceable
 ItemIconSlot(0xA7,"Weapon Icons/Items/HeavySpear.png")
-ItemIconSlot(0xAC,"Weapon Icons/Items/ShortSpear.png")
+ItemIconSlot(0xA8,"Weapon Icons/Items/ShortSpear.png")
 //0xA9 - ocean seal (replaceable?)
 ItemIconSlot(0xAC,"Weapon Icons/Items/WindSword.png")
-//0xAB - SPIRIT DUST [DO NOT DELETE]
+//0xAB - SPIRIT DUST [DO NOT REPLACE]
 ItemIconSlot(0xAC,"Weapon Icons/Items/SlimAxe.png")
 ItemIconSlot(0xAD,"Weapon Icons/Items/SlimBow.png")
 ItemIconSlot(0xAE,"Weapon Icons/Items/Padma.png")
@@ -213,7 +213,7 @@ ItemIconSlot(0xAF,"Weapon Icons/Items/Wind.png")
 //0xB3 - replaceable
 //0xB4 - replaceable
 //0xB5 - replaceable
-ItemIconSlot(0xAC,"Weapon Icons/Items/Dragonspear.png")
+ItemIconSlot(0xB6,"Weapon Icons/Items/Dragonspear.png")
 //0xB7 - replaceable
 //0xB8 - replaceable
 //0xB9 - replaceable
@@ -248,7 +248,7 @@ ItemIconSlot(0xCA,"Weapon Icons/SkillBooks/RallyLuck.png")
 //0xD6 - replaceable
 //0xD7 - replaceable
 //0xD8 - replaceable
-ItemIconSlot(0x8D,"Weapon Icons/Items/MasterSeal.png")
+ItemIconSlot(0xD9,"Weapon Icons/Items/MasterSeal.png")
 //0xDA - FILI SHIELD
 //0xDB - HOPLON GUARD
 //0xDC - METIS TOME

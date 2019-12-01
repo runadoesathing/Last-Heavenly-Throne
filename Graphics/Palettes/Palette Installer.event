@@ -10,11 +10,20 @@ Generic_Cavalier:
 Generic_Knight:
 	#incbin "./_palettes/Generic_Knight.lzpal"
 
+Generic_SkyKnight:
+	#incbin "./_palettes/Generic_SkyKnight.lzpal"
+
+Generic_Crownflier:
+	#incbin "./_palettes/Generic_Crownflier.lzpal"
+
 Generic_MageM:
 	#incbin "./_palettes/Generic_MageM.lzpal"
 
 Generic_MageF:
 	#incbin "./_palettes/Generic_MageF.lzpal"
+
+Generic_Trobairitz:
+	#incbin "./_palettes/Generic_Trobairitz.lzpal"
 
 Generic_Nomad:
 	#incbin "./_palettes/Generic_Nomad.lzpal"
@@ -31,29 +40,29 @@ Generic_Halberdier:
 Cethern_Hobelar:
 	#incbin "./_palettes/Cethern_Hobelar.lzpal"
 
-Setanta_Cavalier:
-	#incbin "./_palettes/Setanta_Cavalier.lzpal"
+Setanta_AxeKnight:
+	#incbin "./_palettes/Setanta_AxeKnight.lzpal"
 
-Ferdiad_Nomad:
-	#incbin "./_palettes/Ferdiad_Nomad.lzpal"
+Ferdiad_BowKnight:
+	#incbin "./_palettes/Ferdiad_BowKnight.lzpal"
 
 Hanlin_Trobairitz:
 	#incbin "./_palettes/Hanlin_Trobairitz.lzpal"
 
-Sadhbh_FalcoKnight:
-	#incbin "./_palettes/Sadhbh_FalcoKnight.lzpal"
+Sadhbh_Crownflier:
+	#incbin "./_palettes/Sadhbh_Crownflier.lzpal"
 
-Lalitha_Mage:
-	#incbin "./_palettes/Lalitha_Mage.lzpal"
+Lalitha_Diabolist:
+	#incbin "./_palettes/Lalitha_Diabolist.lzpal"
 
 Bres_Myrmidon:
 	#incbin "./_palettes/Bres_Myrmidon.lzpal"
 
-Ethniu_Shaman:
-	#incbin "./_palettes/Ethniu_Shaman.lzpal"
+Ethniu_Mystic:
+	#incbin "./_palettes/Ethniu_Mystic.lzpal"
 
-Aengus_LanceKnight:
-	#incbin "./_palettes/Aengus_LanceKnight.lzpal"
+Aengus_LanceKeeper:
+	#incbin "./_palettes/Aengus_LanceKeeper.lzpal"
 
 Gedeon_Fighter:
 	#incbin "./_palettes/Gedeon_Fighter.lzpal"
@@ -61,8 +70,8 @@ Gedeon_Fighter:
 Anluan_Fighter:
 	#incbin "./_palettes/Anluan_Fighter.lzpal"
 
-Aillen_LanceCav:
-	#incbin "./_palettes/Aillen_LanceCav.lzpal"
+Aillen_LanceKnight:
+	#incbin "./_palettes/Aillen_LanceKnight.lzpal"
 
 Miach_Villager:
 	#incbin "./_palettes/Miach_Villager.lzpal"
@@ -70,8 +79,8 @@ Miach_Villager:
 Lamech_Mercenary:
 	#incbin "./_palettes/Lamech_Mercenary.lzpal"
 
-Ishpan_Monk:
-	#incbin "./_palettes/Ishpan_Monk.lzpal"
+Ishpan_Diviner:
+	#incbin "./_palettes/Ishpan_Diviner.lzpal"
 
 Gedaliah_Halberdier:
 	#incbin "./_palettes/Gedaliah_Halberdier.lzpal"
@@ -82,8 +91,8 @@ Soma_Soldier:
 Srihwen_Sibyl:
 	#incbin "./_palettes/Srihwen_Sibyl.lzpal"
 
-Len_Cavalier:
-	#incbin "./_palettes/Len_Cavalier.lzpal"
+Len_SwordKnight:
+	#incbin "./_palettes/Len_SwordKnight.lzpal"
 
 Lalitha_Sage:
 	#incbin "./_palettes/Lalitha_Sage.lzpal"
@@ -91,8 +100,8 @@ Lalitha_Sage:
 Lalitha_MageKnight:
 	#incbin "./_palettes/Lalitha_MageKnight.lzpal"
 
-Lalitha_Druid:
-	#incbin "./_palettes/Lalitha_Druid.lzpal"
+Nala_SwordKeeper:
+	#incbin "./_palettes/Nala_SwordKeeper.lzpal"
 
 Hanlin_Valkyrie:
 	#incbin "./_palettes/Hanlin_Valkyrie.lzpal"
@@ -102,4 +111,19 @@ Soma_Halberdier:
 
 Bres_Swordmaster:
 	#incbin "./_palettes/Bres_Swordmaster.lzpal"
+
+Calingi_Archer:
+	#incbin "./_palettes/Calingi_Archer.lzpal"
+
+Naamah_Diabolist:
+	#incbin "./_palettes/Naamah_Diabolist.lzpal"
+
+Sirin_SkyKnight:
+	#incbin "./_palettes/Sirin_SkyKnight.lzpal"
+
+SinGu_WarCleric:
+	#incbin "./_palettes/SinGu_WarCleric.lzpal"
+
+Enoch_Diviner:
+	#incbin "./_palettes/Enoch_Diviner.lzpal"
 

@@ -31,12 +31,6 @@ mov r3, #2 @range
 cmp r0, #0
 beq Done
 
-@ mov r0, r5
-@ add     r0,#0x5A    @Move to the defender's damage.
-@ ldrh    r3,[r0]     @Load the defender's damage into r3.
-@ sub     r3,#2    @Subtract 2 from the defender's damage.
-@ strh    r3,[r0]     @Store defender avoid.
-
 @testing
 mov r0, r4
 add r0, #0x5c @attacker defense

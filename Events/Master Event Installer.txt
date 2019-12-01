@@ -58,6 +58,18 @@ ORG $3325A
 POP
 
 PUSH
+// Remove Link Arena
+ORG $AB90E
+	BYTE 0x00 0x00 0x00 0x20
+POP
+
+PUSH
+// Remove Creature Campaign
+ORG $AB944
+	BYTE 0x00 0x00 0x00 0x20
+POP
+
+PUSH
 // Remove arrow wiggling advancing RN
 ORG 0x1A774
     SHORT 0x2000 0
@@ -70,6 +82,7 @@ ALIGN 4
 ALIGN 4
 #include "Support Table.event"
 ALIGN 4
+#include "Stat Boosts.event"
 
 //ITEM MUSIC TABLE STUFF
 PUSH

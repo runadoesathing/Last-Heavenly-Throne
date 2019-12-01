@@ -19,10 +19,6 @@
     #include "Engine Hacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
 	
-	//Music
-    #include "Music/Music Installer.event"
-	MESSAGE Used music space ends at currentOffset
-	
 	//Maps
     #include "Maps/Master Map Installer.event"
 	MESSAGE Used maps space ends at currentOffset
@@ -34,8 +30,14 @@
 	MESSAGE Writing at currentOffset
 	//Animations & Graphics
 	#include "Animations/Master Animation Installer.event"
+	MESSAGE Used animations space ends at currentOffset
+	
 	#include "Graphics/Master Graphics Installer.event"
 	MESSAGE Used graphics space ends at currentOffset
+	
+	//Music
+    #include "Music/Music Installer.event"
+	MESSAGE Used music space ends at currentOffset
 	
     //Events
     #include "Events/Master Event Installer.txt"

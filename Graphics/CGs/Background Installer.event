@@ -189,3 +189,30 @@ CaravanTSA:
 
 CaravanPalette:
 #incbin "CaravanPalette.bin"
+
+FortNightImage:
+#incbin "FortNightImage.bin"
+
+FortNightTSA:
+#incbin "FortNightTSA.bin"
+
+FortNightPalette:
+#incbin "FortNightPalette.bin"
+
+ForestNightImage:
+#incbin "ForestNightImage.bin"
+
+ForestNightTSA:
+#incbin "ForestNightTSA.bin"
+
+ForestNightPalette:
+#incbin "ForestNightPalette.bin"
+
+HillsNightImage:
+#incbin "HillsNightImage.bin"
+
+HillsNightTSA:
+#incbin "HillsNightTSA.bin"
+
+HillsNightPalette:
+#incbin "HillsNightPalette.bin"

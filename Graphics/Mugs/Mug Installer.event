@@ -1,10 +1,8 @@
 #include "Tools/Tool Helpers.txt"
 
-/*
-Conall_Mug:
-#incext PortraitFormatter "ConallAlpha.png"
-setMugEntry(0x2, Conall_Mug, 2, 5, 3, 3)
-*/
+Cethern_Mug:
+#incext PortraitFormatter "Cethern.png"
+setMugEntry(0x2, Cethern_Mug, 3, 5, 3, 3)
 
 Airmed_Mug:
 #incext PortraitFormatter "AirmedAlpha.png"
@@ -52,7 +50,7 @@ setMugEntry(0xE, Ethniu_Mug, 2, 6, 3, 4)
 
 Srihwen_Mug:
 #incext PortraitFormatter "Srihwen.png"
-setMugEntry(0x2, Srihwen_Mug, 4, 5, 4, 3)
+setMugEntry(0x14, Srihwen_Mug, 4, 5, 4, 3)
 
 Anluan_Mug:
 #incext PortraitFormatter "Anluan.png"

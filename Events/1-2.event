@@ -77,15 +77,15 @@ UNIT 0x81 Fighter Breguet Level(3, Enemy, 1)       [3,12] DropItem 0 0 0 [IronAx
 UNIT
 
 EnemyUnits:
-UNIT 0x80 Archer Breguet Level(2, Enemy, 1)            [0,4] 0 0 1 REDA8R3          [IronBow] AttackInRangeAI
-UNIT 0x81 Cavalier Breguet Level(2, Enemy, 1)          [0,4] 0 0 1 REDA11R4        [IronLance] AttackInRangeAI
+UNIT 0x80 Archer Breguet Level(2, Enemy, 1)            [0,4] 0 0 1 REDA8R4          [IronBow] AttackInRangeAI
+UNIT 0x81 Cavalier Breguet Level(2, Enemy, 1)          [0,4] 0 0 1 REDA11R3        [IronLance] AttackInRangeAI
 UNIT 0x82 AxeKnight Breguet Level(4, Enemy, 1)         [0,4] DropItem 0 1 REDA12R5 [HandAxe,ChestKey] NeverMoveAI
-UNIT 0x80 Brigand Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA2R5          [IronAxe] AttackInRangeAI
-UNIT 0x80 SwordKnight Breguet Level(1, Enemy, 1)       [0,5] 0 0 1 REDA2R8          [IronSword] AttackInRangeAI
+UNIT 0x80 Brigand Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA2R6          [IronAxe] AttackInRangeAI
+UNIT 0x80 SwordKnight Breguet Level(1, Enemy, 1)       [0,5] 0 0 1 REDA2R9         [IronSword] AttackInRangeAI
 UNIT 0x80 AxeCav Breguet Level(2, Enemy, 1)            [0,5] 0 0 1 REDA5R3          [IronAxe] AttackInRangeAI
 UNIT 0x81 Archer Breguet Level(2, Enemy, 1)            [0,4] 0 0 1 REDA14R5        [IronBow] AttackInRangeAI
-UNIT 0x80 Fighter Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA13R2        [IronAxe] AttackInRangeAI
-UNIT 0x81 Mage Breguet Level(2, Enemy, 1)              [0,4] 0 0 1 REDA15R2        [Fire] AttackInRangeAI
+UNIT 0x80 Fighter Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA15R2        [IronAxe] AttackInRangeAI
+UNIT 0x81 Mage Breguet Level(2, Enemy, 1)              [0,4] 0 0 1 REDA13R2        [Fire] AttackInRangeAI
 UNIT 0x83 Monk Breguet Level(2, Enemy, 1)              [0,5] 0 0 1 REDA9R7          [Lightning] AttackInRangeAI
 UNIT 0x81 Soldier Breguet Level(2, Enemy, 1)           [0,4] 0 0 1 REDA12R8        [IronLance] AttackInRangeAI
 UNIT
@@ -100,7 +100,7 @@ UNIT Bres Myrmidon 0x1 Level(1, NPC, 0)    [0,4] 0 0 0x1 REDA0R4 [IronSword, Doo
 UNIT
 
 MiachHereBoi:
-UNIT Miach Villager 0x1 Level(1, NPC, 0)    [16,11] 0 0 0x1 REDA12R11 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Miach 0x71 0x1 Level(1, NPC, 0)    [16,11] 0 0 0x1 REDA12R11 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 BanditOhNoNoNo:

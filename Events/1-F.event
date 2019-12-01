@@ -14,6 +14,8 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TURN 0x0 CleartheSeal [1,0] 0x0
+TURN 0x0 CanYouFeelIt [3,0] 0x0
+TURN 0x0 EarthboundBois [5,0] 0x0
 END_MAIN
 
 CharacterBasedEvents:
@@ -80,8 +82,41 @@ UNIT Gedeon Fighter 0x1 Level(1, Ally, 0)    [9,11] 0x0 0x0 0x0 0x0 [0x0] [0x0,0
 UNIT
 
 EnemyUnits:
-UNIT Gedaliah Halberdier 0x0 Level(1, Enemy, 1)     [0,5]   0 0 0 0            [Javelin] NeverMoveAI
-UNIT 0x84 BowCav 0x0 Level(7, Enemy, 1)             [0,3]   0 0 0 0            [IronBow] NeverMoveAI
+UNIT Gedaliah Halberdier 0x0 Level(1, Enemy, 1)     [0,5]   0 0 0 0           [ShortSpear] NeverMoveAI
+UNIT 0x84 Archer_F 0x0 Level(7, Enemy, 1)           [0,3]   0 0 0 0           [IronBow] [0x0,0x0,0x4,0x0]
+UNIT 0x84 Fighter 0x0 Level(6, Enemy, 1)            [4,0]   0 0 0 0           [IronAxe] [0x0,0xE,0x4,0x0]
+UNIT 0x84 Myrmidon 0x0 Level(8, Enemy, 1)           [4,0]   0 0 0 0           [IronSword] [0x0,0x0,0x4,0x0]
+UNIT 0x84 Mercenary 0x0 Level(7, Enemy, 1)          [0,9]   0 0 0 0           [IronSword] [0x0,0xE,0x4,0x0]
+UNIT 0x84 Soldier 0x0 Level(9, Enemy, 1)            [3,7]   0 0 0 0           [IronLance] [0x0,0x0,0x4,0x0]
+UNIT 0x84 SkyKnight 0x0 Level(7, Enemy, 1)          [1,16]  0 0 0 0           [IronLance] [0x0,0x6,0x4,0x0]
+UNIT 0x84 LanceCav 0x0 Level(8, Enemy, 1)           [0,4]   0 0 0 0           [SteelLance] [0x0,0x3,0x4,0x0]
+UNIT 0x85 Diabolist_F 0x0 Level(8, Enemy, 1)        [4,11]  0 0 0 0           [Fire] [0x0,0x3,0x4,0x0]
+UNIT 0x84 AxeKnight 0x0 Level(7, Enemy, 1)          [4,15]  0 0 0 0           [SteelAxe] [0x0,0x6,0x4,0x0]
+UNIT 0x85 Diviner 0x0 Level(8, Enemy, 1)            [9,2]   0 0 0 0           [MalkuthI] [0x0,0x6,0x4,0x0]
+UNIT 0x84 SwordKnight 0x0 Level(7, Enemy, 1)        [7,4]   0 0 0 0           [IronBlade] [0x0,0x0,0x4,0x0]
+UNIT 0x84 Soldier 0x0 Level(8, Enemy, 1)            [12,6]  0 0 0 0           [IronLance] [0x0,0x0,0x4,0x0]
+UNIT
+
+TurnThreeReinforcements:
+UNIT Ochren LanceKnight 0x0 Level(8, Enemy, 1)      [11,17] 0 0 1 REDA11R17   [SteelLance] [0,0,4,0]
+UNIT 0x84 Myrmidon 0x0 Level(8, Enemy, 1)           [0,10]  0 0 1 REDA0R10    [SteelSword] [0,0,4,0]
+UNIT 0x84 LanceCav 0x0 Level(7, Enemy, 1)           [0,6]   0 0 1 REDA0R6     [IronLance] [0,0,4,0]
+UNIT 0x84 Fighter 0x0 Level(8, Enemy, 1)            [3,0]   0 0 1 REDA3R0     [SteelAxe] [0,0,4,0]
+UNIT 0x85 Trobairitz 0x0 Level(7, Enemy, 1)         [5,0]   0 0 1 REDA5R0     [Physic] [0xE,0x3,0x4,0x0]
+UNIT Ochren SkyKnight 0x0 Level(8, Enemy, 1)        [19,6]  0 0 1 REDA19R6    [IronLance] [0,0,4,0]
+UNIT
+
+TurnFiveReinforcements:
+UNIT Ochren SkyKnight 0x0 Level(7, Enemy, 1)        [19,1]  0 0 1 REDA18R1    [IronLance] [0,0,4,0]
+UNIT OchrenMag Diabolist 0x0 Level(7, Enemy, 1)     [12,17] 0 0 1 REDA12R17   [Fire] [0,0,4,0]
+UNIT Ochren SkyKnight 0x0 Level(8, Enemy, 1)        [19,3]  0 0 1 REDA19R3    [SteelLance] [0,0,4,0]
+UNIT 0x85 Diabolist 0x0 Level(8, Enemy, 1)         [0,7]   DropItem 0 1 REDA0R7     [Wind] [0x0,0xE,0x4,0x0]
+UNIT 0x84 SwordCav 0x0 Level(8, Enemy, 1)          [0,6]   0 0 1 REDA3R12    [SteelSword] [0x0,0xE,0x4,0x0]
+UNIT
+
+TurnSixReinforcements:
+UNIT Ochren SkyKnight 0x0 Level(9, Enemy, 1)        [0,15]  0 0 1 REDA0R15    [SlimLance] [0,0,4,0]
+UNIT Ochren SkyKnight 0x0 Level(7, Enemy, 1)        [2,17]  0 0 1 REDA2R17    [IronLance] [0,0,4,0]
 UNIT
 
 Traps1:
@@ -93,6 +128,46 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC 0x5
+SetBackground(0x34)
+STAL 60
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW P1CFWMIntro
+TEXTEND
+REMA
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW P1CFWMIntro2
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 3
+STAL 120
+CLEAN
+EnterStop
+MUSC 0x4A
+SetBackground(HillsNight)
+BROWNBOXTEXT CaerVedwyd [8,8] // box in the top right that's pretty cool for small text
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+CLEAN
+MUSC 0x4E
+SetBackground(FortNight)
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+FADI 4
+STAL 60
+CLEAN
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD2 0x1 UnitsP
@@ -106,11 +181,58 @@ AliveCLoad(Aengus,AengusP,0xF)
 AliveCLoad(Hanlin,HanlinP,0x10)
 AliveCLoad(Sadhbh,SadhbhP,0x11)
 AliveCLoad(Gedeon,GedeonP,0x12)
+CHECK_ALIVE Hanlin
+BEQ 0x0 0xC 0x0
+	CALL 0x591F40
+	SVAL 0x3 TorchStaff
+	GIVEITEMTO Hanlin
+	GOTO 0x1
+LABEL 0x0
+CALL 0x591F40
+SVAL 0x3 TorchItem
+GIVEITEMTO Cethern
+LABEL 0x1
+NoFade
 ENDA
 
 EndingScene:
 MNCH 0x5
 FADI 2
+NoFade
+ENDA
+
+CanYouFeelIt:
+LOAD1 0x1 TurnThreeReinforcements
+ENUN
+CAM1 Cethern
+CUMO Cethern
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+NoFade
+ENDA
+
+EarthboundBois:
+SVAL 0x1 0x00040E00 // sets ai to [0x0,0xE,0x4,0x0] (BREAK THE SNAGS)
+CHAI 0x84 // changes the ai of 0x84
+SVAL 0x1 0x00040E00 // sets ai to [0x0,0xE,0x4,0x0] (BREAK THE SNAGS)
+CHAI 0x85 // changes the ai of 0x85
+LOAD1 0x1 TurnFiveReinforcements
+ENUN
+CHECK_ALIVE Gedeon
+BEQ 0x0 0xC 0x0
+	CAM1 Gedeon
+	CUMO Gedeon
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND
+	REMA
+LABEL 0x0
 NoFade
 ENDA
 

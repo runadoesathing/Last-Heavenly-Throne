@@ -32,6 +32,11 @@ ldrh r0, [r4, r1] @crit
 add r0, #10
 strh r0, [r4,r1]
 
+add r1, #6 @crit avoid
+ldrh    r0,[r4, r1]     @Load the attacker's avoid into r3.
+add     r0,#10    @subtract 10 from the attacker's avoid
+strh    r0,[r4, r1]     @Store attacker avoid
+
 End:
 pop {r4-r7, r15}
 .align

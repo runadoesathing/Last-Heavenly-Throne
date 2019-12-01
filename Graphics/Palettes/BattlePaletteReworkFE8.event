@@ -81,6 +81,7 @@ ALIGN 4
 
 ArmorPaletteList:
 PaletteAssociationEntry(Aengus, $9)
+PaletteAssociationEntry(Nala, $16)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -120,6 +121,7 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 ArcherPaletteList:
+PaletteAssociationEntry(Calingi, $1A)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -145,6 +147,7 @@ ALIGN 4
 
 MagePaletteList:
 PaletteAssociationEntry(Lalitha, $6)
+PaletteAssociationEntry(Naamah, $1B)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -168,7 +171,6 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 DruidPaletteList:
-PaletteAssociationEntry(Lalitha, $16)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -233,10 +235,12 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WarClericPaletteList:
+PaletteAssociationEntry(SinGu, $1D)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 PegKnightPaletteList:
+PaletteAssociationEntry(Sirin, $1C)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

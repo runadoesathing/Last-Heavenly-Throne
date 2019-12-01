@@ -1170,7 +1170,7 @@ Better to keep youse safe to head back in one piece.
 
 [MidLeft]
 We came here to help protect Picodobra, not sit around like helpless children!
-I'm sorry sir, but I'll need to head us past you.
+I'm sorry sir, but I'll need to head past you.
 
 [FarRight]
 I will not!
@@ -1180,8 +1180,8 @@ We're competent enough!
 [MidLeft][CloseEyes]
 ... ...[.....] Very well, sir.[OpenEyes]
 You can block the entrance.
-But we will find another way out!
-We came to help, and we will![ClearFace][......]
+But I'll find another way out!
+I came to help, and I will![ClearFace][......]
 
 [Right]
 Will our guard truly be enough?

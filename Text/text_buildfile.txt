@@ -30,13 +30,13 @@ Trobairitz[X]
 2-1: Roots from the Earth[X]
 
 # 0x167
-2-2: Chandra[X]
+2-2: Chandra Grove[X]
 
 # 0x168
 2-3: The Northern Wind[X]
 
 # 0x169
-2-4: Crimson Goddess[X]
+2-4: Crimson Locks[X]
 
 # 0x16A
 2-5: Boundary of Life[X]
@@ -45,7 +45,7 @@ Trobairitz[X]
 2-5x: Young Girl's Hope[X]
 
 # 0x16C
-2-6: Stoked Rebellion[X]
+2-6: Stoked Revolt[X]
 
 # 0x16D
 2-7: Eye of the Needle[X]

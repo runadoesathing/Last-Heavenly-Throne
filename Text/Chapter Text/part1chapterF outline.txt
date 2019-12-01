@@ -8,8 +8,8 @@ cethern travelling through the snow at night with miach, before coming across an
 
 the party keeps the lights low to not alert any sky knights, cethern mentions how hopeless the mission seems but wants to keep hope for airmed and his grandfather
 - if gedeon is alive, cethern will talk to him about the prince of heichalot
-- if sadhbh is alive, cethern will talk to her about the prince of heichalot
 - if hanlin is alive, cethern will talk to her about the prince of heichalot
+- if sadhbh is alive, cethern will talk to her about the prince of heichalot
 - if none are alive, cethern will talk to miach about the prince of heichalot
 - if actually no one is alive, cethern will talk to miach about being alone, before hearing footsteps
 
@@ -20,38 +20,38 @@ the party will be alerted of the sounds of approaching soldiers
 cethern will bring everyone out of the fort and tell everyone to give their stand against heichalot
 ====
 Gedeon:
-I've made my vow to my friends. That is payment enough to continue fighting!
+I made my vow to my friends, no matter the situation...
 
 Hanlin:
-I promised to keep us safe. I'm not letting myself falter.
+I promised to keep us safe... I'm not letting myself falter.
 
 Lalitha:
-The enemy may be many, but we have the power of many! Leave it to me!
+The enemy may be many, but we have the power of many. We can do this...!
 
 Bres:
-I've stayed with you this far. Might as well see it to the end.
+I've stayed with you this far. Not like I can run away.
 
 Ethniu:
 Everyone stay cautious. I do not want to see anyone die here...
 
 Aengus:
-Ethniu! I'm doin' this for you! I won't be left behind!
+Ethniu! Stay near me!
 
 Ferdiad:
-Mother... I hope that I may find you, and show you what I've accomplished. I am following in your footsteps!
+Mother... I hoped that I could find you.
 
 Setanta:
-This is for you Fern. I'm not running away!
+Fern? This is for you. 
 
 Sadhbh:
-I fight for Caer Siddi! I will not let the Crownflight down!
+I fight for Caer Siddi. I will not let the Crownflight down!
 
 =
 Miach:
 Cethern... I'm going to be honest. I'm worried...
 
 Cethern:
-Stay in the fortress if you're too scared, Miach. I'd loathe to see you hurt.
+Stay in the fortress if you're too scared, Miach. I couldn't imagine to see you hurt.
 
 Miach:
 No... I'm doing this for Airmed! We need to be strong!

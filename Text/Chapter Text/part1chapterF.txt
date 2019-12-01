@@ -1,0 +1,25 @@
+## P1CFWMIntro
+Cethern, accompanied by his brother,[N]
+attacks into Caer Ochren's land.[AN]
+Being surrounded by Lord Rionall,[N]
+they flee north into Heichalot.[AN]
+Chased by sky knights behind them,[N]
+Cethern's group moves quickly to[AN]
+find refuge along the treacherous[N]
+mountain path into Caer Vedwyd.[A][X]
+
+## P1CFWMIntro2
+Caer Vedwyd, after its rebellion fourty[N]
+years ago, seceeded and joined under[N]
+the Principality of Heichalot.[AN]
+Cethern enters through the western part[N]
+of its border with Corbenic, both[N]
+following C[0xFA] Raoi's strategy[AN]
+and attempting to flee from the[N]
+forces of Caer Ochren on his behind.[AN]
+The sky knights pass over him, not[N]
+missing his prescence but signalling[N]
+forward an unexpected maneuver...[A][X]
+
+## CaerVedwyd
+Caer Vedwyd[X]

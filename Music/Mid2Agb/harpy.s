@@ -27,92 +27,92 @@ harpy_1_B1:
 	.byte		        c_v+0
 	.byte		        c_v+0
 	.byte		BEND  , c_v+0
-	.byte		N07   , En3 , v100
-	.byte	W08
-	.byte		        Fs3 
+	.byte		N07   , Fn3 , v100
 	.byte	W08
 	.byte		        Gn3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Gs3 
 	.byte	W08
-	.byte		        Dn3 
+	.byte		        Fn3 
 	.byte	W08
-	.byte		        Cn3 
+	.byte		        Ds3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Cs3 
 	.byte	W08
-	.byte		        Fs3 
+	.byte		        Fn3 
 	.byte	W08
 	.byte		        Gn3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Gs3 
 	.byte	W08
-	.byte		        Dn3 
+	.byte		        Fn3 
 	.byte	W08
-	.byte		        Cn3 
+	.byte		        Ds3 
+	.byte	W08
+	.byte		        Cs3 
 	.byte	W08
 @ 001   ----------------------------------------
-	.byte		        En3 
-	.byte	W08
-	.byte		        Fs3 
+	.byte		        Fn3 
 	.byte	W08
 	.byte		        Gn3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Gs3 
 	.byte	W08
-	.byte		        Dn3 
+	.byte		        Fn3 
 	.byte	W08
-	.byte		        Cn3 
+	.byte		        Ds3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Cs3 
 	.byte	W08
-	.byte		        Fs3 
+	.byte		        Fn3 
 	.byte	W08
 	.byte		        Gn3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Gs3 
 	.byte	W08
-	.byte		        Dn3 
+	.byte		        Fn3 
 	.byte	W08
-	.byte		        Cn3 
+	.byte		        Ds3 
+	.byte	W08
+	.byte		        Cs3 
 	.byte	W08
 @ 002   ----------------------------------------
 harpy_1_002:
-	.byte		N07   , En3 , v100
-	.byte		N07   , Gn3 
-	.byte	W08
-	.byte		        Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Fn3 , v100
+	.byte		N07   , Gs3 
 	.byte	W08
 	.byte		        Gn3 
-	.byte		N07   , Bn3 
+	.byte		N07   , As3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
-	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
 	.byte	W08
 	.byte		N07   
-	.byte		N07   , Gn3 
-	.byte	W08
-	.byte		        Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Gs3 
 	.byte	W08
 	.byte		        Gn3 
-	.byte		N07   , Bn3 
+	.byte		N07   , As3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
-	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
 	.byte	W08
 	.byte	PEND
 @ 003   ----------------------------------------
@@ -120,51 +120,51 @@ harpy_1_002:
 	 .word	harpy_1_002
 @ 004   ----------------------------------------
 harpy_1_004:
-	.byte		N07   , Bn2 , v100
-	.byte		N07   , En3 
+	.byte		N07   , Cn3 , v100
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
+	.byte	W08
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
+	.byte		N07   , As3 
 	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
+	.byte		N07   , Gs3 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Gn3 
-	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte	W08
-	.byte		        Bn2 
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
 	.byte		N07   , Gn3 
 	.byte	W08
 	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , As3 
+	.byte	W08
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte	W08
+	.byte		        Ds3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Gs3 
+	.byte	W08
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
 	.byte	W08
 	.byte	PEND
 @ 005   ----------------------------------------
@@ -172,63 +172,63 @@ harpy_1_004:
 	 .word	harpy_1_004
 @ 006   ----------------------------------------
 harpy_1_006:
-	.byte		N07   , Bn2 , v100
-	.byte		N07   , En3 
+	.byte		N07   , Cn3 , v100
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
+	.byte	W08
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , En4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Fs4 
-	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
+	.byte		N07   , As3 
 	.byte		N07   , Gn4 
 	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Fs4 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Gn3 
-	.byte		N07   , En4 
-	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Bn3 
-	.byte	W08
-	.byte		        Bn2 
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , En4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Fs4 
-	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
 	.byte		N07   , Gn4 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Fs4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , En4 
+	.byte		N07   , Cn4 
 	.byte	W08
 	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Bn3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , As3 
+	.byte		N07   , Gn4 
+	.byte	W08
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gs4 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gn4 
+	.byte	W08
+	.byte		        Ds3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
+	.byte	W08
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Cn4 
 	.byte	W08
 	.byte	PEND
 @ 007   ----------------------------------------
@@ -236,75 +236,75 @@ harpy_1_006:
 	 .word	harpy_1_006
 @ 008   ----------------------------------------
 harpy_1_008:
-	.byte		N07   , Bn2 , v100
-	.byte		N07   , En3 
+	.byte		N07   , Cn3 , v100
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
+	.byte	W08
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , En4 
+	.byte		N07   , As3 
+	.byte		N07   , Gn4 
+	.byte		N07   , As4 
+	.byte	W08
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte	W08
+	.byte		        Ds3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
 	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
-	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Fs4 
-	.byte		N07   , Gn4 
-	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Gn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
 	.byte	W08
 	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Bn2 
-	.byte		N07   , En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , En4 
+	.byte		N07   , As3 
+	.byte		N07   , Gn4 
+	.byte		N07   , As4 
+	.byte	W08
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte	W08
+	.byte		        Ds3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
 	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
-	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Fs4 
-	.byte		N07   , Gn4 
-	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Gn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
 	.byte	W08
 	.byte	PEND
 @ 009   ----------------------------------------
@@ -312,87 +312,87 @@ harpy_1_008:
 	 .word	harpy_1_008
 @ 010   ----------------------------------------
 harpy_1_010:
-	.byte		N07   , Bn2 , v100
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Gn4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Cn3 , v100
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte		N07   , Cn4 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Fs4 
+	.byte		N07   , As3 
+	.byte		N07   , Cs4 
 	.byte		N07   , Gn4 
-	.byte		N07   , An4 
+	.byte		N07   , As4 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte	W08
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
 	.byte	W08
 	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte	W08
-	.byte		        Bn2 
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Gn4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte		N07   , Cn4 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Fs4 
+	.byte		N07   , As3 
+	.byte		N07   , Cs4 
 	.byte		N07   , Gn4 
-	.byte		N07   , An4 
+	.byte		N07   , As4 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
 	.byte	W08
 	.byte	PEND
 @ 011   ----------------------------------------
@@ -454,99 +454,99 @@ harpy_1_010:
 	 .word	harpy_1_010
 @ 030   ----------------------------------------
 harpy_1_030:
-	.byte		N07   , Bn2 , v100
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Gn4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Cn3 , v100
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte		N07   , Cn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , Gn4 
-	.byte		N07   , An4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , As3 
+	.byte		N07   , Cs4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
-	.byte		N07   , An4 
+	.byte		N07   , As4 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte	W08
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , As3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
 	.byte	W08
 	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte	W08
-	.byte		        Bn2 
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Gn4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte		N07   , Cn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , Gn4 
-	.byte		N07   , An4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , As3 
+	.byte		N07   , Cs4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
-	.byte		N07   , An4 
+	.byte		N07   , As4 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , As3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
 	.byte	W08
 	.byte	PEND
 @ 031   ----------------------------------------
@@ -554,99 +554,99 @@ harpy_1_030:
 	 .word	harpy_1_030
 @ 032   ----------------------------------------
 harpy_1_032:
-	.byte		N07   , Bn2 , v100
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Gn4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Cn3 , v100
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte		N07   , Cn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte		N07   , Bn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , Gn4 
-	.byte		N07   , An4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , As3 
+	.byte		N07   , Cs4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
+	.byte		N07   , Cn5 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte	W08
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , As3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
 	.byte	W08
 	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte	W08
-	.byte		        Bn2 
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Gn4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte		N07   , Cn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte		N07   , Bn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , Gn4 
-	.byte		N07   , An4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , As3 
+	.byte		N07   , Cs4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
+	.byte		N07   , Cn5 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , As3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
 	.byte	W08
 	.byte	PEND
 @ 033   ----------------------------------------
@@ -662,109 +662,109 @@ harpy_1_032:
 	.byte	PATT
 	 .word	harpy_1_032
 @ 037   ----------------------------------------
-	.byte		N07   , Bn2 , v100
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Cn3 , v100
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte		N07   , Cn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
-	.byte		N07   , En5 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , Gn4 
-	.byte		N07   , An4 
-	.byte		N07   , Bn4 
-	.byte		N07   , En5 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , As3 
+	.byte		N07   , Cs4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
-	.byte		N07   , An4 
-	.byte		N07   , En5 
+	.byte		N07   , As4 
+	.byte		N07   , Fn5 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte		N07   , Cn5 
+	.byte		N07   , Fn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte		N07   , Fn5 
+	.byte	W08
+	.byte		        Ds3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
+	.byte	W08
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , As3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , As4 
 	.byte	W08
 	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
-	.byte	W08
-	.byte		        Bn2 
-	.byte		N07   , En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte		N07   , Cn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte		N07   , En5 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , Gn4 
-	.byte		N07   , An4 
-	.byte		N07   , Bn4 
-	.byte		N07   , En5 
-	.byte	W08
-	.byte		        En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , As3 
+	.byte		N07   , Cs4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
-	.byte		N07   , En5 
+	.byte		N07   , Fn5 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Ds4 
+	.byte		N07   , Gs4 
+	.byte		N07   , As4 
+	.byte		N07   , Cn5 
+	.byte		N07   , Fn5 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Fn5 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Dn4 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Ds4 
+	.byte		N07   , Fn4 
 	.byte		N07   , Gn4 
-	.byte		N07   , Bn4 
+	.byte		N07   , Gs4 
+	.byte		N07   , Cn5 
 	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Bn3 
-	.byte		N07   , En4 
-	.byte		N07   , Fs4 
-	.byte		N07   , An4 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , As3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Fn4 
+	.byte		N07   , Gn4 
+	.byte		N07   , As4 
 	.byte	W08
 @ 038   ----------------------------------------
 	.byte	PATT
@@ -773,86 +773,86 @@ harpy_1_032:
 	.byte	PATT
 	 .word	harpy_1_010
 @ 040   ----------------------------------------
-	.byte		N07   , Bn2 , v100
-	.byte		N07   , En3 
+	.byte		N07   , Cn3 , v100
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
+	.byte	W08
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
-	.byte		N07   , En4 
-	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
-	.byte		N07   , Fs4 
-	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
+	.byte		N07   , As3 
 	.byte		N07   , Gn4 
 	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
-	.byte		N07   , Fs4 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gs4 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
+	.byte		N07   , Gn4 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , En4 
+	.byte		N07   , Gs3 
+	.byte		N07   , Fn4 
+	.byte	W08
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gn3 
+	.byte		N07   , Cn4 
 	.byte	W08
 	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , Bn3 
+	.byte		N07   , Fn3 
+	.byte		N07   , Gs3 
 	.byte	W08
-	.byte		        Bn2 
-	.byte		N07   , En3 
+	.byte		        Fn3 
 	.byte		N07   , Gn3 
+	.byte		N07   , As3 
 	.byte	W08
-	.byte		        En3 
-	.byte		N07   , Fs3 
-	.byte		N07   , An3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
 	.byte	W08
-	.byte		        Gn3 
-	.byte		N07   , Bn3 
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte		N07   , Cn4 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
-	.byte		N07   , Bn3 
+	.byte		N07   , Gs3 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
 	.byte		N07   , Gn3 
-	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
-	.byte		N07   , Fs3 
 	.byte	W08
 @ 041   ----------------------------------------
-	.byte		        En3 
-	.byte		N07   , Gn3 
-	.byte	W08
-	.byte		        Fs3 
-	.byte		N07   , An3 
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
 	.byte	W08
 	.byte		        Gn3 
-	.byte		N07   , Bn3 
+	.byte		N07   , As3 
 	.byte	W08
-	.byte		        En3 
+	.byte		        Gs3 
+	.byte		N07   , Cn4 
+	.byte	W08
+	.byte		        Fn3 
+	.byte		N07   , Gs3 
+	.byte	W08
+	.byte		        Ds3 
 	.byte		N07   , Gn3 
 	.byte	W08
-	.byte		        Dn3 
-	.byte		N07   , Fs3 
-	.byte	W08
-	.byte		        Cn3 
-	.byte		N07   , En3 
+	.byte		        Cs3 
+	.byte		N07   , Fn3 
 	.byte	W08
 	.byte		N07   
 	.byte	W08
-	.byte		        Fs3 
+	.byte		        Gn3 
+	.byte	W08
+	.byte		        Gs3 
 	.byte	W08
 	.byte		        Gn3 
 	.byte	W08
-	.byte		        Fs3 
-	.byte	W08
-	.byte		N15   , En3 
+	.byte		N15   , Fn3 
 	.byte	W16
 	.byte	GOTO
 	 .word	harpy_1_B1
@@ -905,7 +905,7 @@ harpy_2_B1:
 @ 013   ----------------------------------------
 	.byte	W96
 @ 014   ----------------------------------------
-	.byte		TIE   , En1 , v100
+	.byte		TIE   , Fn1 , v100
 	.byte	W96
 @ 015   ----------------------------------------
 	.byte	W92
@@ -913,7 +913,7 @@ harpy_2_B1:
 	.byte		EOT   
 	.byte	W01
 @ 016   ----------------------------------------
-	.byte		TIE   , Dn1 
+	.byte		TIE   , Ds1 
 	.byte	W96
 @ 017   ----------------------------------------
 	.byte	W92
@@ -921,7 +921,7 @@ harpy_2_B1:
 	.byte		EOT   
 	.byte	W01
 @ 018   ----------------------------------------
-	.byte		TIE   , En1 
+	.byte		TIE   , Fn1 
 	.byte	W96
 @ 019   ----------------------------------------
 	.byte	W92
@@ -929,7 +929,7 @@ harpy_2_B1:
 	.byte		EOT   
 	.byte	W01
 @ 020   ----------------------------------------
-	.byte		TIE   , Dn1 
+	.byte		TIE   , Ds1 
 	.byte	W96
 @ 021   ----------------------------------------
 	.byte	W92
@@ -938,35 +938,35 @@ harpy_2_B1:
 	.byte	W01
 @ 022   ----------------------------------------
 harpy_2_022:
-	.byte		TIE   , En1 , v100
-	.byte		TIE   , Bn1 
+	.byte		TIE   , Fn1 , v100
+	.byte		TIE   , Cn2 
 	.byte	W96
 	.byte	PEND
 @ 023   ----------------------------------------
 	.byte	W92
 	.byte	W03
-	.byte		EOT   , En1 
-	.byte		        Bn1 
+	.byte		EOT   , Fn1 
+	.byte		        Cn2 
 	.byte	W01
 @ 024   ----------------------------------------
-	.byte		TIE   , En1 
-	.byte		TIE   , Cn2 
+	.byte		TIE   , Fn1 
+	.byte		TIE   , Cs2 
 	.byte	W96
 @ 025   ----------------------------------------
 	.byte	W92
 	.byte	W03
-	.byte		EOT   , En1 
-	.byte		        Cn2 
+	.byte		EOT   , Fn1 
+	.byte		        Cs2 
 	.byte	W01
 @ 026   ----------------------------------------
-	.byte		TIE   , An1 
-	.byte		TIE   , Dn2 
+	.byte		TIE   , As1 
+	.byte		TIE   , Ds2 
 	.byte	W96
 @ 027   ----------------------------------------
 	.byte	W92
 	.byte	W03
-	.byte		EOT   , An1 
-	.byte		        Dn2 
+	.byte		EOT   , As1 
+	.byte		        Ds2 
 	.byte	W01
 @ 028   ----------------------------------------
 	.byte	PATT
@@ -974,8 +974,8 @@ harpy_2_022:
 @ 029   ----------------------------------------
 	.byte	W92
 	.byte	W03
-	.byte		EOT   , En1 
-	.byte		        Bn1 
+	.byte		EOT   , Fn1 
+	.byte		        Cn2 
 	.byte	W01
 @ 030   ----------------------------------------
 	.byte	PATT
@@ -983,41 +983,41 @@ harpy_2_022:
 @ 031   ----------------------------------------
 	.byte	W92
 	.byte	W03
-	.byte		EOT   , En1 
-	.byte		        Bn1 
+	.byte		EOT   , Fn1 
+	.byte		        Cn2 
 	.byte	W01
 @ 032   ----------------------------------------
-	.byte		TIE   , Gn1 , v100
-	.byte		TIE   , En2 
+	.byte		TIE   , Gs1 , v100
+	.byte		TIE   , Fn2 
 	.byte	W96
 @ 033   ----------------------------------------
 	.byte	W92
 	.byte	W03
-	.byte		EOT   , Gn1 
-	.byte		        En2 
+	.byte		EOT   , Gs1 
+	.byte		        Fn2 
 	.byte	W01
 @ 034   ----------------------------------------
-	.byte		TIE   , Fs1 
-	.byte		TIE   , Dn2 
+	.byte		TIE   , Gn1 
+	.byte		TIE   , Ds2 
 	.byte	W96
 @ 035   ----------------------------------------
 	.byte	W92
 	.byte	W03
-	.byte		EOT   , Fs1 
-	.byte		        Dn2 
+	.byte		EOT   , Gn1 
+	.byte		        Ds2 
 	.byte	W01
 @ 036   ----------------------------------------
 	.byte	PATT
 	 .word	harpy_2_022
 @ 037   ----------------------------------------
-	.byte		N92   , En2 , v100
+	.byte		N92   , Fn2 , v100
 	.byte	W92
 	.byte	W03
-	.byte		EOT   , En1 
-	.byte		        Bn1 
+	.byte		EOT   , Fn1 
+	.byte		        Cn2 
 	.byte	W01
 @ 038   ----------------------------------------
-	.byte		TIE   , En1 
+	.byte		TIE   , Fn1 
 	.byte	W96
 @ 039   ----------------------------------------
 	.byte	W92
