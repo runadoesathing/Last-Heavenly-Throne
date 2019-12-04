@@ -772,7 +772,7 @@ halved after first being struck.[X]
 
 ## SD_BarricadePlus
 Barricade+: In combat, damage[NL]
-recieved equals half of the[NL]
+received equals half of the[NL]
 damage when struck last.[X]
 
 ## SD_PointBlank
@@ -904,3 +904,11 @@ per space moved.[X]
 ## SD_MachaArts
 Macha Arts: Take -4 damage/gain +20[N]
 Avo when enemy has a sword equipped.[X]
+
+## SD_MutedSoul
+Muted Soul: Adjacent allies receive[N]
+-3 damage, but deal -3 damage.[X]
+
+## SD_ChandrasFealty
+Chandra's Fealty: If adjacent[N]
+to Srihwen, gain +25 Hit.[X]

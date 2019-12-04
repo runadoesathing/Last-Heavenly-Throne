@@ -1,21 +1,21 @@
 INLINE MagClassTable,Base Magic,Magic Growth,Magic Cap,Magic Promotion Bonus
 None,0,5,20,0
-Ephraim Lord,1,15,20,0
-Eirika Lord,1,30,20,0
-Ephraim Master Lord,2,15,24,1
-Eirika Master Lord,2,25,25,2
-Cavalier,0,10,20,0
-Cavalier (F),0,10,20,0
-Paladin,2,15,24,2
-Paladin (F),2,15,24,2
-Armour Knight,0,10,20,0
-Armour Knight (F),0,10,20,0
+Sibyl,1,60,20,0
+Hobelar,1,30,20,0
+Theurge,2,15,24,1
+Dracolord,2,25,25,2
+Lnc. Cav,0,10,20,0
+Lnc. Cav (F),0,10,20,0
+Gold Knight,2,15,24,2
+Silver Knight,2,15,24,2
+Lance Knight,0,10,20,0
+Lance Knight (F),0,10,20,0
 General,0,10,22,0
 General (F),0,10,22,0
 Thief,1,10,20,0
 Manakete,0,10,20,0
 Mercenary,0,10,20,0
-Mercenary (F),0,10,20,0
+Vagabond,0,10,20,0
 Hero,0,10,23,0
 Hero (F),0,10,23,0
 Myrmidon,1,20,20,0
@@ -54,14 +54,14 @@ Rogue,3,30,26,3
 Gorgon Egg,0,10,30,0
 Great Knight,0,10,21,0
 Great Knight (F),0,10,21,0
-Recruit (2),0,10,20,0
-Journeyman (3),0,10,20,0
-Pupil (3),0,10,20,2
-Recruit (3),0,10,20,0
-Manakete,2,10,20,0
-Manakete (F),2,10,20,0
-Journeyman (1),0,10,20,0
-Pupil (1),1,60,20,0
+Swd. Cav,0,10,20,0
+Swd. Cav (F),0,10,20,0
+Axe Cav,0,10,20,2
+Bow Cav,0,10,20,0
+Soldier (F),1,10,20,0
+Arbalest,2,10,20,0
+Arbalest (F),0,10,20,0
+Rogue (F),1,60,20,0
 Fighter,0,10,20,0
 Warrior,0,10,21,0
 Brigand,0,10,20,0
@@ -69,8 +69,8 @@ Pirate,0,10,20,0
 Berserker,0,10,21,0
 Monk,3,40,20,0
 Priest,2,35,20,0
-Bard,1,50,20,0
-Recruit (1),0,10,20,0
+War Monk,1,50,20,0
+War Cleric,0,10,20,0
 Pegasus Knight,1,15,20,0
 Falcon Knight,3,35,23,3
 Cleric,2,35,20,0
@@ -81,14 +81,14 @@ Soldier,0,10,20,0
 Necromancer,9,60,30,0
 Fleet,0,10,20,0
 Phantom,0,10,20,0
-Revenant,0,10,20,0
+Axe Knight,0,10,20,0
 Entombed,0,10,21,0
-Bonewalker,0,10,20,0
+Sword Knight,0,10,20,0
 Bonewalker (Bow),0,10,20,0
-Wight,0,10,21,0
-Wight (Bow),0,10,21,0
-Bael,0,10,20,0
-Elder Bael,0,10,22,0
+Dark Knight,0,10,21,0
+Dark Knight (F),0,10,21,0
+Halberdier,0,10,20,0
+Halberdier (F),0,10,22,0
 Cyclops,0,10,21,0
 Mauthe Doog,0,10,20,0
 Gwyllgi,0,10,23,0

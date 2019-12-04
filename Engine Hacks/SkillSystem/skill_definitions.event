@@ -223,3 +223,5 @@
 #define UnderdogID 220 //DONE
 #define ChandelleID 221 //DONE
 #define MachaArtsID 222 //DONE
+#define MutedSoulID 223 //DONE
+#define ChandrasFealtyID 224 //doesn't work yet

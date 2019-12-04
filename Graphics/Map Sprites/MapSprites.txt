@@ -15,9 +15,13 @@ Map_Lknight_Stand:
 Map_Lknight_Move:
 #incext Png2Dmp "Lance Move.png" --lz77
 Map_Soldier_Stand:
-#incext Png2Dmp "Soldier (Alusq) S.png" --lz77
+#incext Png2Dmp "SoldierMS.png" --lz77
 Map_Soldier_Move:
-#incext Png2Dmp "Soldier (Alusq) M.png" --lz77
+#incext Png2Dmp "SoldierMM.png" --lz77
+Map_SoldierF_Stand:
+#incext Png2Dmp "SoldierFS.png" --lz77
+Map_SoldierF_Move:
+#incext Png2Dmp "SoldierFM.png" --lz77
 Map_WyvernR_Stand:
 #incext Png2Dmp "WyvernUS.png" --lz77
 Map_WyvernR_Move:

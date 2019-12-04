@@ -52,6 +52,12 @@ UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA12R9 [IronAx
 UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA13R9 [IronBow, Vulnerary] [0x0,0x0,0x0,0x0]
 UNIT
 
+UnitsNaKa:
+UNIT Srihwen Sibyl 0x0 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA14R8 [Heal,Padma] [0,0,0,0]
+UNIT Soma Soldier_F Srihwen Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA13R9 [IronLance,Vulnerary] [0,0,0,0]
+UNIT Ethniu Shaman_F Srihwen Level(2, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA12R9 [Flux,Vulnerary] [0,0,0,0]
+UNIT
+
 CutscenePeople:
 UNIT 0x80 EirikaLord 0x1 Level(1, Ally, 0)    [2,3] 0x0 0x0 0x1 REDA4R2 [0x0] [0x0,0x0,0x0,0x0]
 UNIT 0x81 AxeCav 0x1 Level(1, Ally, 0)        [2,3] 0x0 0x0 0x1 REDA5R2 [0x0] [0x0,0x0,0x0,0x0]
@@ -178,7 +184,7 @@ REMA
 MUSC 0x9
 CALL 0x591F40
 SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
-STAL 120
+STAL 20
 TUTORIALTEXTBOXSTART
 TEXTSHOW P1C1Warning
 TEXTEND

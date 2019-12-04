@@ -106,7 +106,942 @@ A few days later...[X]
 [ConversationText]
 [MidLeft][LoadCethern]
 We've finally returned to camp...
-I suppose our first order of business is to inform C[0xFA] Raoi.[X]
+I suppose our first order of business is to inform C[0xFA] Raoi...[X]
+
+
+
+## P1C4SadhbhCamp
+[ConversationText]
+[MidLeft][LoadCethern]
+We've finally returned to camp...
+Our first order of business is to inform C[0xFA] Raoi.
+
+[FarFarRight][LoadSadhbh][MoveMidRight][MidRight][ToggleSmile]
+Cethern.
+I am glad to see you are well.
+
+[MidLeft]
+Lady Sadhbh!
+You made it back from Caer Ochren already?
+
+[MidRight]
+I thankfully have.[ToggleSmile]
+How fared Picodobra?
+
+[MidLeft]
+We were unfortunately assaulted by Heichalot.
+They attempted to gain ground on us, but we fought them off.
+The town should be safeguarded now, more than it was.
+
+[MidRight]
+I assume you've returned to tell C[0xFA] Raoi.
+We should head in together.
+I've news to tell him as well.[X]
+
+
+
+## P1C4EthniuCamp
+[ConversationText]
+[FarFarLeft][LoadCethern][MoveMidRight]
+We've finally returned to camp...
+Our first order of business is to inform the commander.
+
+[MidLeft][LoadEthniu]
+So this is a war encampment.
+It's filthy and horrific.
+Even worse than after the fight at Picodobra.
+
+[MidRight][ClearFace][LoadCethern]
+It's not a very nice place, but it's protecting us from Heichalot.
+If this is offputting, you're free to return home.
+
+[MidLeft]
+I'll be fine.
+Only something to adjust to.
+I'd rather be here.
+Come on, let's go see that commander of yours.
+
+[MidRight]
+Of course.
+It's in that tent, right ahead...[X]
+
+
+
+## P1C4HanlinExplains
+[ConversationText]
+[MidLeft][LoadCethern]
+[MidRight][LoadHanlin]
+We should have a small window of opportunity before we are noticed.
+Best to use it to prepare for the battle ahead.
+
+[MidLeft]
+I'll use it well.
+Everyone, brace yourselves to break through![X]
+
+
+
+## P1C4CethernExplains
+[ConversationText]
+[MidRight][LoadCethern]
+They haven't seemed to notice us yet.
+We should quickly prepare ourselves before we break through![X]
+
+
+
+## P1C4IshpanNotices
+[ConversationText]
+[MidLeft][LoadFace][0x33][0x1]
+Corbenic forces coming from the trees...
+Everyone! Take your positions!
+We fight for Caer Ochren and Caer Vedwyd![X]
+
+
+
+## P1C4CethernRealizesTheTruth
+[ConversationText]
+[MidRight][LoadCethern]
+They're fortified, yes.
+But they're set up towards this forest, not the trail...[MoveMidRight]
+Have they betrayed Corbenic?!
+
+[FarFarRight]
+Cethern!
+Hold on a moment![X]
+
+
+
+## P1C4CuRaoiSadhbh
+[ConversationText]
+[Right][LoadCethern]
+[FarRight][LoadSadhbh]
+[MidLeft][LoadWydyrCommander]
+Both of you have returned.
+I hope only to hear of success.
+
+[Right]
+Picodobra was attacked by Heichalot, but they are fortified now.
+We were lucky to arrive before the raid.
+
+[FarRight]
+Lord Rionall of Caer Ochren is unable to provide further support.
+He states that he must protect his own land from Heichalot.[MoveFarRight]
+If I may speak out of turn, Sir C[0xFA] Raoi...
+I am suspicious of Lord Rionall's actions.
+
+[MidLeft]
+I understand why you may believe that, Lady Sadhbh.
+Despite being isolated, I have faith in Lord Rionall.
+
+[FarRight]
+Understood...[......][MoveFarRight][N]
+What next for us?
+
+[MidLeft]
+I believe that the boy has proven himself a competent soldier.
+The time has come for us to make a move of our own.
+I would like Cethern to head into Caer Ochren.
+From there, he will organize an assault into Caer Vedwyd.
+
+[FarRight]
+!!![.....][N]
+Sir C[0xFA] Raoi...
+
+[MidLeft]
+You do not need to worry, Lady Sadhbh.
+You are dismissed, Cethern.
+Prepare to travel out to Caer Ochren.
+Meet with Lord Rionall and plan with him.
+
+[Right]
+U[....]-Understood, Sir C[0xFA] Raoi.
+I'll do Corbenic proud.[ClearFace][......]
+
+[FarRight][MoveMidRight][MidRight]
+Sir C[0xFA] Raoi!
+I apologize to speak out of turn once more...
+But this is a dangerous mission!
+You're planning on retaking Caer Vedwyd?!
+
+[MidLeft]
+The boy has combat prowess, and the heart of Sir MacCumail.
+I believe him to be the best fighter for this job.
+
+[MidRight]
+But this is a suicide mission, C[0xFA] Raoi!
+Don't you understand you're sending them to their deaths?!
+
+[MidLeft]
+Enough from you, Lady Sadhbh!
+I am the commander here.
+You are subordinate while inside Caer Wydyr.[......]
+Now, for your own mission...
+
+[MidRight][CloseEyes]
+... ...[X]
+
+
+
+## P1C4CuRaoiNoSadhbh
+[ConversationText]
+[MidRight][LoadCethern]
+[MidLeft][LoadWydyrCommander]
+Cethern.
+I hope only to hear of your success.
+
+[MidRight]
+Picodobra was attacked by Heichalot, but they are fortified now.
+We were lucky to arrive before the raid.
+
+[MidLeft]
+That is excellent.
+It seems you have proven yourself a competent soldier.
+I would expect no less from the grandson of Sir MacCumail.
+
+[MidRight]
+Thank you, Sir C[0xFA] Raoi.
+What next for us?
+
+[MidLeft]
+Eager, are we?
+The time has come for us to make a move of our own.
+I would like you to head into Caer Ochren.
+From there, organize an assault into Caer Vedwyd.
+Meet with Lord Rionall and plan with him.
+He should be willing to give his support.
+
+[MidRight]
+Understood, Sir C[0xFA] Raoi.
+I'll do Corbenic proud![ClearFace][......]
+
+[MidLeft][ToggleSmile]
+Everything is according to plan...
+We shall take back Caer Vedwyd, and force Heichalot away for good![X]
+
+
+
+## P1C4MiachTalk
+[ConversationText]
+[FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
+This is the healer's tent...
+I wonder where Miach is?
+
+[MidRight][LoadFace][0x60][0x1]
+Good morn' to you, young mister.
+Are you lookin' for someone?
+
+[MidLeft]
+I'm hoping to find Miach.
+Is he busy at all?
+
+[MidRight]
+You must be his brother!
+I'll find him right now.[ClearFace][......]
+
+[MidLeft][CloseEyes][ToggleSmile]
+Thank the bearers.
+He actually stayed.
+
+[MidRight][LoadMiach][ToggleSmile]
+Cethern?[N]
+You're back already?
+
+[MidLeft][OpenEyes][LoadOverworldFaces]
+Thankfully here.
+How's staying with the healers?
+
+[MidRight]
+It's so tedious...
+Every time I take care of one person, two more show up.
+Are you sure I can't come with you?
+
+[MidLeft]
+You're needed here, Miach.
+It's safer for you, and healing is an essential job.
+
+[MidRight]
+I know I promised I would but...
+Please?
+I promise I've been learning as much as I can!
+When I'm not busy healing, I'm swinging a sword around!
+
+[MidLeft]
+... ...[.....]
+Where exactly are you getting a sword from?
+
+[MidRight]
+Um,[.....][MoveMidRight] never mind!
+Point is, I still want to fight!
+
+[MidLeft]
+Miach, I can't.
+We're headed out to rush into Heichalot.
+I couldn't imagine you getting hurt, or worse...
+
+[MidRight]
+... ...
+Fine.
+I'll stay here.[.....]
+But I'm not happy about it.
+
+[MidLeft]
+Your safety is more important than your happiness, Miach.[ClearFace][......]
+
+[MidRight][CloseEyes]
+Cethern...
+
+[FarFarRight]
+Miach!
+We need your assistance!
+
+[MidRight][OpenEyes]
+I'll be there in a second, hold on a moment![X]
+
+
+
+## P1C4MiachEscapeWithSadhbh
+[ConversationText]
+[MidLeft][LoadMiach]
+Alright, I should have a few moments to...
+
+[FarFarRight]
+Excuse me, Miach?
+
+[MidLeft]
+Huh?
+Who said that?
+
+[MidRight][LoadSadhbh]
+I didn't mean to scare you.
+Shouldn't you be back in the tent?
+
+[MidLeft]
+Is my brother telling you to nag me now?
+I'm only getting a bit of fresh air.
+
+[MidRight]
+Not at all.
+I'm actually concerned for him.
+
+[MidLeft]
+Concerned?
+Aren't you traveling with him?
+
+[MidRight]
+The commander won't allow me to.
+He's sending him to Heichalot, but the mission is perilous.
+Cethern could be walking right into a trap.
+I'm scared he won't return alive.
+
+[MidLeft]
+!!!
+
+[MidRight]
+I'm scared of what C[0xFA] Raoi may do to you if that happens.
+That's why I'm here now.
+
+[MidLeft]
+I'm not going back home![MoveMidLeft]
+I came here to fight, and I--!
+
+[MidRight][ToggleSmile]
+And that's exactly what we're going to do.
+Grab a sword.[X]
+
+
+
+## P1C4MiachEscape
+[ConversationText]
+[MidLeft][LoadMiach]
+Alright, I should have a few moments to myself.[MoveRight]
+My sword should be right around...[MoveRight] here!
+
+[OpenFarFarLeft]
+Miach!
+Where are you?!
+
+[Right]
+I'll be there, sorry![MoveMidRight][MidRight]
+The horses are on the other side of camp...
+If I hurry, I should be able to catch up![MoveFarFarRight][....][X]
+
+
+
+## P1C4IshpanTalks
+[ConversationText]
+[Right][LoadEnemySoldier]
+[FarRight][LoadEnemySoldier]
+[MidLeft][LoadFace][0x33][0x1]
+Your ruler, Lord Rionall, has surrendered to the Heichalotian crown.
+You serve both him and our prince now.
+
+[Right]
+I understand we're not to fight Heichalot...
+But what happens if Corbenic comes?
+
+[MidLeft]
+Any entrance will be treated as invasion.
+I understand they may have been your brothers before...
+But you are Heichalotian now.
+You fight for Caer Vedwyd, not Caer Siddi.
+I hope that realization arrives sooner.[ClearFace][......]
+
+[FarRight]
+Those arrogant priests.
+Makes me want to stab his eyes out.
+Why did Lord Rionall have to buddy up with that prude?
+
+[Right]
+Heichalotian clergy is always like that.
+Always looking down on everybody...[MoveRight]
+I've gotta be honest.
+I don't feel right fighting anymore.
+
+[FarRight]
+Thinking of deserting?[ToggleSmile]
+You're lucky I'm not telling anybody.
+
+[Right][ToggleSmile]
+I've got two brothers in Caer Golud...!
+I couldn't imagine fighting either.
+And I serve Caer Ochren, not Heichalot!
+
+[FarRight]
+But you also serve Lord Rionall.
+To think this all would happen...[X]
+
+
+
+## P1C4SadhbhAndMiachJoin
+[ConversationText]
+[Right][LoadMiach]
+[FarRight][LoadSadhbh]
+[MidLeft][LoadCethern]
+Lady Sadhdh?
+And... Miach!
+What are you both doing here?!
+
+[FarRight]
+You are being sent to your death.
+You have to fall back!
+
+[Right]
+Fall back?!
+You said we were going to fight!
+
+[MidLeft]
+Why did you bring Miach with you, Sadhbh?!
+
+[FarRight]
+If C[0xFA] Raoi assigned you this, heading back to camp would be dangerous.
+You and Miach need to flee south.
+
+[MidLeft]
+With all respect, Lady Sadhbh...
+I'm not fleeing.
+
+[Right]
+I'm not running either!
+I'll be staying with Cethern!
+
+[MidLeft][CloseEyes]
+No, you won't![OpenEyes]
+You need to get back to camp right--!
+
+[FarRight]
+Miach cannot return.
+Who knows what will happen if either of you does.
+
+[Right][LoadOverworldFaces]
+And that's exactly why I'm fighting with Cethern![......][MoveRight]
+I even brought a weapon!
+
+[MidLeft]
+Miach!
+
+[FarRight]
+If neither of you wish to flee, I cannot stop you.
+But I would never be able to sleep at night if I left you alone.[MoveFarRight]
+I'll be accompanying you into Caer Vedwyd.
+I swore on Aingha you'd be safe.
+
+[MidLeft]
+You're not ready, Miach!
+Why can't you just follow instructions?!
+
+[FarRight]
+We can only move forward, Cethern.
+Better for Miach to be armed than not...
+
+[MidLeft]
+Stay as close as you can to me.
+Don't engage with anybody.
+
+[Right]
+I'll stick by you, Cethern.
+I promise that.
+
+[MidLeft][CloseEyes]
+Your promises don't seem to mean much.[ClearFace][......]
+
+[FarRight]
+I'm sorry, Miach.
+Your brother just wants you safe.
+
+[Right]
+I'm going to stay safe.
+So is he, and so is everybody back home.[X]
+
+
+
+## P1C4MiachJoin
+[ConversationText]
+[OpenMidLeft][LoadCethern]
+[OpenFarFarRight][LoadMiach][MoveMidRight]
+Cethern![ClearFace][LoadOverworldFaces][......]
+
+[MidLeft]
+Miach!! You--!
+
+[MidRight][LoadMiach]
+My horse![MoveMidRight]
+It ran away!
+
+[MidLeft][MoveMidLeft]
+What are you thinking, Miach?!
+I told you not to--
+
+[MidRight]
+I know you did!
+You told me to stay back at camp!
+Be with the healers and keep myself safe...
+I don't care about that!
+I want to help you fight!
+
+[MidLeft]
+So you stole a horse and rode here?!
+
+[MidRight]
+I... might have stolen a weapon as well.
+
+[MidLeft]
+Is this what you were betting on?
+Letting your horse run away so you'd be forced to stay?
+Are you so inept at following instructions?!
+
+[MidRight]
+Cethern...
+I just wanted to help...
+That's all I want to do.
+
+[MidLeft]
+Stay as close as you can to me.
+Don't engage with anybody.
+
+[MidRight]
+I'll stick by you, Cethern.
+I promise that.
+
+[MidLeft][CloseEyes]
+Your promises don't seem to mean much.[ClearFace][......]
+
+[MidRight][CloseEyes]
+I'm going to stay safe.
+So is he, and so is everybody back home...[X]
+
+
+
+## P1C4GedeonAppears
+[ConversationText]
+[MidRight][LoadGedeon]
+[Left][LoadEnemySoldier]
+[FarLeft][LoadEnemySoldier]
+Finally, Caer Ochren...
+Why couldn't we be assigned against the other side?
+That trail is torturous!
+
+[MidRight]
+Don't worry about that.
+We're here now, and we'll earn our coin.
+
+[Left]
+Are you sure you're fine with this, Gedeon?
+Don't you have a few friends in Caer Wydyr?
+
+[MidRight]
+... ...
+It's best not to think about that.
+We'll probably be fighting against some capital scum.
+Best to keep our minds on the battle.
+
+[FarLeft]
+Stoic as ever, Gedeon.
+We'll keep up here until they come through![X]
+
+
+
+## P1C4MendVillage
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x61][0x1]
+To think Heichalot would get here so soon...
+You better be careful fighting them off.
+Here, this may not be much, but it'll help if any of you get bloodied.
+Best be safe. You can't heal a corpse.[X]
+
+
+
+## P1C4ThunderVillage
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x5B][0x1]
+I've never understood magic, you know that?
+How the heck a book like this goes from words to summoning lightning...
+Maybe you'd have a better for it than I.
+An old man like me ain't gonna have much luck figuring it out.[X]
+
+
+
+## P1C4GedeonAengus
+[ConversationText]
+[MidRight][LoadAengus]
+[MidLeft][LoadGedeon]
+Aengus?!
+What are you doing in Caer Ochren?!
+
+[MidRight][ToggleSmile]
+Gedeon!
+Always followin' the coin, aren't ya?
+It's a long story, actually.
+You know I don't want to fight ya, right?
+
+[MidLeft][ToggleSmile]
+I don't want to fight you either, Aengus.
+Didn't we just get a drink together a month ago?[MoveMidLeft]
+Now we're here.
+
+[MidRight][ToggleSmile]
+Yeah, we did![ToggleSmile]
+How much are you gettin' for this?
+
+[MidLeft]
+To be perfectly frank, not that much.
+Not the best job, but it's hard to get any.
+
+[MidRight]
+Why don't you join us?
+It's not really a job, but come on.
+You don't wanna have to fight me or Ethniu.
+
+[MidLeft]
+Ethniu, right...[ToggleSmile][MoveMidLeft]
+You know what, Aengus?
+I think I might take you up on that.[X]
+
+
+
+## P1C4GedeonEthniu
+[ConversationText]
+[MidRight][LoadEthniu]
+[MidLeft][LoadGedeon]
+Ethniu?!
+Why are you all the way out here?!
+
+[MidRight]
+Is it really that much of a surprise?
+I'm not chained to my brother, Gedeon.
+
+[MidLeft]
+I know that, but I thought you were helping him back in town!
+
+[MidRight]
+Found a better job.
+Looks like you have too.
+
+[MidLeft]
+I wouldn't call it a better job.
+My last one fell through, and it's hard enough.
+This is the only thing I could find that pays.
+
+[MidRight]
+It doesn't pay, but you could always fight with us.
+I think my brother would loathe one of us dying.
+
+[MidLeft]
+Aengus?
+Loathing something?
+I couldn't imagine him being that serious.
+But at the same time, I don't think I'd wanna risk it...
+
+[MidRight]
+So you're coming with us?
+
+[MidLeft][ToggleSmile]
+You know what, Ethniu?
+I think I will.[X]
+
+
+
+## P1C4AinghaHouse
+[ConversationText]
+[MidRight][LoadFace][0xFF][0xFF]
+[MidLeft][LoadFace][0x60][0x1]
+Conflict here so soon...
+I pray Aingha keeps us safe.[MoveMidLeft]
+Who is Aingha?
+Well, she's the Wardbearer of Corbenic!
+Our lush soil, our rich game, our livelihood...
+It all depends on her.
+She nurtures us, she protects us...
+You could consider her the greatest of all grandmothers.
+I only hope her protection is enough against Heichalot.[X]
+
+
+
+## P1C4RionallHouse
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x5A][0x1]
+I never would've imagined Lord Rionall to side with Heichalot.
+He's always been a saviour of Caer Ochren.
+When Caer Siddi ignored us, he would step in.
+Unlike the capital, he truly treats us as his own.
+It hurts to see this unfold...[X]
+
+
+
+## P1C4LightMagicHouse
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x59][0x1]
+Light magic, holy magic, or whatever you call it...
+It's the absolute power of the Wardbearers.
+To come into contact with their essence weakens the body.
+The scars it leaves behind hurt the soul.
+So if you ever see a diviner of the Wardbearers...
+You'd be best trying not to get hit.[X]
+
+
+
+## P1C4SetFerForest
+[ConversationText]
+[FarFarRight][LoadCethern][MoveMidLeft]
+[FarFarRight][LoadSetanta][MoveRight]
+[FarFarRight][LoadFerdiad][MoveFarRight]
+These forests sure are dense...
+Even more than the ones back home.
+
+[MidLeft]
+It's rockier too.
+Careful riding through.
+
+[Right]
+Have either of you ever been to Heichalot?
+Well, probably not you Cethern.
+
+[MidLeft]
+Definitely not.
+I've gone to Caer Siddi a few times with my grandfather...
+Not much else outside.
+
+[FarRight]
+I've actually been to Heichalot a few times.
+I was really young though.
+Hard to recall anything about it.
+
+[Right]
+Oh, right!
+Fern, you're not from Cluain Bolg, are you?
+
+[FarRight]
+For as long as I can remember, I've been in Cluain Bolg.
+But, if I can be honest...
+I'm not actually sure where I'm from.
+
+[MidLeft]
+You're not sure?
+You've told us--
+
+[FarRight]
+I know what I've told you.
+That was just to get you off my back.
+But every time I've brought the question up, my parents avoid it.
+
+[Right]
+They avoid it?
+That doesn't sound right.
+
+[FarRight]
+It doesn't feel right either.
+What's worth hiding where you're from?
+
+[MidLeft]
+We're almost out of the forest.
+Let's keep moving forward.[X]
+
+
+
+## P1C4SetForest
+[ConversationText]
+[FarFarRight][LoadCethern][MoveMidLeft]
+[FarFarRight][LoadSetanta][MoveMidRight]
+[MidLeft]
+Watch out, S[0xE9]tanta.
+The ground is rockier than it should be.
+
+[MidRight]
+I've noticed that.[MoveMidRight]
+Hey, Cethern.
+Have you ever been to Heichalot?
+
+[MidLeft]
+Definitely not.
+I've gone to Caer Siddi a few times with my grandfather...
+Not much else outside.
+
+[MidRight]
+I haven't either...
+Do you think Fern ever went?
+
+[MidLeft]
+Maybe she did.
+Her mother's in the Crownflight, so...
+
+[MidRight]
+... ...
+I don't know how we'll explain what happened to A[0xED]fe.
+
+[MidLeft]
+That'll be tough.
+She could be proud of Ferdiad, but...
+I couldn't imagine losing Airmed or Miach.
+
+[MidRight]
+Right...[MoveMidRight]
+Hey, the end of the forest is up ahead.
+We can finally get out of here.[X]
+
+
+
+## P1C4FerForest
+[ConversationText]
+[FarFarRight][LoadCethern][MoveMidLeft]
+[FarFarRight][LoadFerdiad][MoveMidRight]
+These forests sure are dense...
+Even more than the ones back home.
+
+[MidLeft]
+It's rockier too.
+Careful riding through.[MoveMidLeft]
+Hey, Ferdiad.
+Have you ever been to Heichalot?
+
+[MidRight]
+I've actually been there a few times.
+I was really young though.
+Hard to recall anything about it.
+
+[MidLeft]
+You're not from Cluain Bolg, right?
+I can't say I've been outside of it much.
+
+[MidRight]
+For as long as I can remember, I've been in Cluain Bolg.
+But, if I can be honest...
+I'm not actually sure where I'm from.
+
+[MidLeft]
+You're not sure?
+You've told us--
+
+[MidRight]
+I know what I've told you.
+That was just to get you off my back.
+But every time I've brought the question up, my parents avoid it.
+
+[MidLeft]
+That doesn't seem right at all.
+They've never told you?
+
+[MidRight]
+It doesn't feel right either.
+What's worth hiding where you're from?
+
+[MidLeft][MoveMidLeft]
+We're almost out of the forest.
+Let's keep moving forward.[X]
+
+
+
+## P1C4CethernForest
+[ConversationText]
+[FarFarRight][LoadCethern][MoveMidLeft]
+This forest sure is rocky...
+I'll have to be careful riding my horse through it.[MoveMidLeft]
+I wonder what Heichalot is like.
+Can't say I've ever been there.[X]
+
+
+
+## P1C4RionallBetray
+[ConversationText]
+[MidRight][LoadMiach]
+[MidLeft][LoadCethern]
+Caer Ochren has turned on us...
+We have to tell somebody.
+Otherwise, everyone in Caer Wydyr will--!
+
+[MidRight]
+Cethern!
+Behind you![X]
+
+
+
+## P1C4RionallExplains
+[ConversationText]
+[Right][LoadCethern]
+[FarRight][LoadMiach]
+[MidLeft][LoadRionall]
+I'm afraid I cannot let you return to your camp.
+
+[Right]
+Lord Rionall!
+What is there to gain from betrayal?!
+
+[MidLeft]
+Heichalot overpowers us on a level that is incomprehensible.
+To fight back against them is to kill us all.
+The people of Caer Ochren are mine to lead, and I will do anything to protect them!
+
+[Right]
+So you would surrender to them?!
+
+[MidLeft]
+Who are you to speak to me like that?[MidLeft]
+Pah, not like it matters.
+Consider those your last words, boy.
+
+[FarRight][MoveFarRight]
+Cethern, run![X]
+
+
+
+## P1C4SkyKnightsAway
+[ConversationText]
+[MidLeft][LoadRionall]
+Foolish soldiers.
+They run directly into Heichalot.[MoveMidLeft]
+Sky knights!
+Do not chase them!
+Bring to them the Stems of Heichalot![X]
+
+
+
+## P1C4AinghaCursesMe
+[ConversationText]
+[MidLeft][LoadRionall]
+Aingha...[MoveMidLeft]
+No, not to her anymore.
+She would curse my name with her every breath.[X]
 
 
 

@@ -13,7 +13,7 @@ Setanta_Mug:
 setMugEntry(0x4, Setanta_Mug, 3, 5, 3, 3)
 
 Ferdiad_Mug:
-#incext PortraitFormatter "FerdiadAlpha.png"
+#incext PortraitFormatter "Ferdiad.png"
 setMugEntry(0x5, Ferdiad_Mug, 2, 5, 3, 3)
 
 Hanlin_Mug:

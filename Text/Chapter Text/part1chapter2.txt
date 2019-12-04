@@ -348,7 +348,7 @@ It's amazingly dangerous up here.
 
 [OpenLeft]
 Cethern...[.....][CloseEyes] 
-I think it would be more dangerous if we didn't take Miach with us...[OpenEyes]
+I think it would be more dangerous if we didn't take Miach.[OpenEyes]
 We're already a few hours away from Caer Rigor.
 It'd be tough to get back.
 
@@ -366,7 +366,7 @@ I'll make sure to--!
 
 [OpenFarLeft][ToggleSmile]
 But you're not getting involved in any fighting.
-You're not trained enough to fight, and you most likely didn't bring a weapon with you.
+You're not trained enough to fight, and you most likely didn't bring a weapon.
 Once we get to Caer Wydyr, you'll have to find a way to help out.
 
 [OpenMidRight]

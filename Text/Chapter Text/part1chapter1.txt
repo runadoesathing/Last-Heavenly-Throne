@@ -33,7 +33,7 @@ S[0xE9]tanta! Were you watching me?!
 And please don't call me that...
 [LoadOverworldFaces]
 
-[OpenFarFarRight][LoadSetanta][MoveFarRight][OpenFarRight][ToggleSmile]
+[OpenFarFarRight][LoadSetanta][ToggleSmile][MoveFarRight][OpenFarRight]
 Oh come on, it's only fourteen years of it.
 You can't be sick of the name yet!
 
@@ -50,7 +50,7 @@ So who are you trying to impress, your parents or Cethern?
 [OpenMidLeft][ToggleSmile]
 Leave![......]
 Though... if you've gotta ask,[CloseEyes] it's Cethern.[OpenEyes]
-You and him have been showing off sparring in town, and I've got nothing to show for it but my horse riding.
+You've both been sparring in town, and I've got nothing to show but my horse riding.
 I've gotta pick up a weapon soon, and this one's coming the easiest.
 
 [OpenFarFarRight]

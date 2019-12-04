@@ -18,14 +18,13 @@ They'll get us too if we don't run![X]
 
 ## SetantaDeathPQ
 [OpenMidRight][LoadSetanta][CloseEyes]
-Damn,[.....] that hurts![.....][N]
-[OpenEyes][ToggleSmile]
-Sorry Fern,[.....] I wasn't...[CloseEyes] good enough...[A]
+Damn,[.....] that hurts![.....] [OpenEyes][ToggleSmile]Sorry Fern,[.....] I[N]
+wasn't...[CloseEyes] good enough...[A]
 
 [ClearFace]
 [OpenMidRight][LoadFerdiad][ToggleSmile]
-S[0xE9]tanta![.....][N]
-[CloseEyes]N[.....]-No,[.....] this can't be happening...![A][X]
+S[0xE9]tanta![.....] [CloseEyes]N[.....]-No,[.....][N]
+this can't be happening...![A][X]
 
 
 

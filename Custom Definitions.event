@@ -155,6 +155,13 @@
 #define ThroneRoomNight 0x2D
 #define BlackCG 0x35
 
+#define SetantaExceeded 0x71
+#define FerdiadExceeded 0x72
+#define SadhbhExceeded 0x73
+#define LalithaExceeded 0x74
+#define BresExceeded 0x75
+#define AengusExceeded 0x76
+#define GedeonExceeded 0x77
 #define CluainBolgGone 0x78
 
 // Attribute for defining items with passive stat bonuses

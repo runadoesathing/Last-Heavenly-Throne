@@ -12,7 +12,7 @@
 
 // Maximum width of [ConversationText]. Setting this too high will glitch your text boxes out.
 MaxConversationWidth:
-BYTE 195
+BYTE 192
 
 // Maximum width of [BattleText]. Setting this too high will glitch your text boxes out.
 MaxBattleWidth:

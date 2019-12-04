@@ -168,3 +168,8 @@ DriveStr:
 #incbin "DriveStr.dmp"
 POIN AuraSkillCheck
 WORD DriveStrID
+
+MutedSoul:
+#incbin "MutedSoul.dmp"
+POIN AuraSkillCheck
+WORD MutedSoulID

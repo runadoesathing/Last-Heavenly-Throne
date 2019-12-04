@@ -66,7 +66,7 @@ Looks like a lot of soldiers are here.
 
 [OpenMidRight]
 It's not as many as it should be.
-We had a few forces in Srughna helping with some flooding, but trying to get them back up here is quite tricky.
+We had forces in Srughna helping with floods, but getting them back is tricky.
 It doesn't help that Srughna refuses to be involved in this confrontation.
 
 [OpenMidLeft]
@@ -94,7 +94,7 @@ Looks like a lot of soldiers are here.
 
 [OpenMidRight]
 It's not as many as it should be.
-We had a few forces in Srughna helping with some flooding, but trying to get them back up here is quite tricky.
+We had forces in Srughna helping with floods, but getting them back is tricky.
 It doesn't help that Srughna refuses to be involved in this confrontation.
 
 [OpenMidLeft]
@@ -141,7 +141,7 @@ Looks like a lot of soldiers are here.
 
 [OpenMidRight]
 It's not as many as it should be.
-We had a few forces in Srughna helping with some flooding, but trying to get them back up here is quite tricky.
+We had forces in Srughna helping with floods, but getting them back is tricky.
 It doesn't help that Srughna refuses to be involved in this confrontation.
 
 [OpenMidLeft]
@@ -185,7 +185,7 @@ Looks like a lot of soldiers are here.
 
 [OpenMidRight]
 It's not as many as it should be.
-We had a few forces in Srughna helping with some flooding, but trying to get them back up here is quite tricky.
+We had forces in Srughna helping with floods, but getting them back is tricky.
 It doesn't help that Srughna refuses to be involved in this confrontation.
 
 [OpenMidLeft]
@@ -629,7 +629,7 @@ What about myself?
 
 [OpenMidLeft]
 I'll need you to head further east to Caer Ochren, Lady Sadhbh.
-Duke Ochren has failed to offer as much support as he should.
+Lord Rionall has failed to offer as much support as he should.
 I assume that with your duress we may achieve better results.
 
 [OpenFarRight]
@@ -638,10 +638,10 @@ Will you be fine without my help for now, Cethern?
 
 [OpenRight]
 I believe I can manage.
-I'll inform my brother and prepare to head for Picodobra.
+I'll inform my brother and prepare to head out.
 
 [OpenMidLeft]
-If you require resupply, I may allocate you a small amount of funds to purchase further resources.
+If you require resupply, I may allocate you a small amount of funds for further resources.
 There could be conflict there.
 
 [OpenRight]
@@ -1341,11 +1341,11 @@ You're resigning from being a royal knight?
 Why would you want to do that?!
 
 [MidLeft]
-...[......]My sister didn't make it through the battle.
+...[......]My sister got really hurt in the battle.
 
 [MidRight]
 Oh...
-I'm very sorry for your loss.
+I'm very sorry about that.
 
 [MidLeft]
 If I couldn't protect her, who am I to protect anyone else?
@@ -1371,7 +1371,7 @@ I could use one myself...
 
 [MidRight]
 I don't drink that much, but I won't say no.
-I could use the stress relief...[X]
+I could use the stress relief.[X]
 
 
 
@@ -1485,7 +1485,7 @@ It is interesting to see you at this hour.
 To what do I owe this pleasure?
 
 [MidRight]
-Duke Ochren.[ToggleSmile]
+Lord Rionall.[ToggleSmile]
 I apologize for the late entry.
 During times of war, speed is of the essence.
 
@@ -1514,7 +1514,7 @@ Perhaps you may find resolution when the soldiers in Srughna return.
 [MidRight]
 Mayhaps we will.
 The encampment shall be informed of your current perils.
-Please continue with your aid, Duke Ochren.[ClearFace][.......]
+Please continue with your aid, Lord of Caer Ochren.[ClearFace][.......]
 
 [FarFarRight]
 Has she left back for Caer Wydyr?

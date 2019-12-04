@@ -11,10 +11,10 @@ Aengus /done,SlowBurnID
 Bres /done,SealSklID
 Ethniu /done,QuickBurnID
 Gedeon,DriveResID
-"Soma | if next to srihwen, +20 hit",0x0
+"Soma | if next to srihwen, +20 hit",ChandrasFealtyID
 Varuna,0x0
 Sanjana | Philanderer,0x0
-Srihwen | Muted Soul,0x0
+Srihwen | Muted Soul,MutedSoulID
 Rudram,0x0
 Kyle,SpurStrID
 Amelia,ParagonID

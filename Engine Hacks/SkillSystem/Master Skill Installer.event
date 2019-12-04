@@ -599,6 +599,11 @@ MachaArts:
 POIN SkillTester
 WORD MachaArtsID
 
+ChandrasFealty:
+#incbin "SoA Skills/ChandrasFealty.dmp"
+POIN SkillTester
+WORD ChandrasFealtyID
+
 #include "Other Skills/RandomMugs.event"
 #include "Teq Skills/FE8-StealPlus/FE8-StealPlus EA.txt"
 #include "Teq Skills/FE8-Capture/FE8-Capture Master EA File.txt"

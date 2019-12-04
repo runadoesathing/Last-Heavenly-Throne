@@ -29,6 +29,9 @@ END_MAIN
 LocationBasedEvents:
 Village(0xD,MendVillage,10,2)
 Village(0xE,ThunderVillage,4,13)
+House(0x0,AinghaHouse,3,4)
+House(0x0,RionallHouse,14,0)
+House(0x0,LightMagicHouse,10,11)
 END_MAIN
 
 MiscBasedEvents:
@@ -61,7 +64,7 @@ Tutorial:
 END_MAIN
 
 UnitsP:
-UNIT Cormac EirikaLord 0x1 Level(1, Ally, 0)    [20,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [20,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 SetantaP:
@@ -109,7 +112,7 @@ UNIT Soma SwordCav 0x1 Level(0, Ally, 0)    [22,8] 0x0 0x0 0x1 REDA20R7 [0x0] [0
 UNIT
 
 EnemyUnits:
-UNIT Ishpan Monk 0x0 Level(10, Enemy, 1)              [1,8]   0 0 0 0            [YesodII]    NeverMoveAI
+UNIT Ishpan Monk 0x0 Level(10, Ally, 1)              [1,8]   0 0 0 0            [YesodII]    NeverMoveAI
 UNIT 0x84 BowCav 0x0 Level(7, Enemy, 1)               [0,7]   DropItem 0 0 0     [SteelBow]   NeverMoveAI
 UNIT Ochren Myrmidon_F 0x0 Level(5, Enemy, 1)         [7,15]  DropItem 0 0 0     [SteelSword] NeverMoveAI
 UNIT 0x85 Mage 0x0 Level(5, Enemy, 1)                 [11,14] 0 0 0 0            [Wind]       NeverMoveAI 
@@ -184,12 +187,12 @@ BROWNBOXTEXT AFewDaysLater [8,8] // box in the top right that's pretty cool for 
 TEXTSTART
 CHECK_ALIVE Sadhbh
 BEQ 0x0 0x0 0xC
-	TEXTSHOW PlaceholderText // P1C4SadhbhCamp
+	TEXTSHOW P1C4SadhbhCamp
 	GOTO 0x2
 LABEL 0x0
 CHECK_ALIVE Ethniu
 BEQ 0x1 0x0 0xC
-	TEXTSHOW PlaceholderText // P1C4EthniuCamp
+	TEXTSHOW P1C4EthniuCamp
 	GOTO 0x2
 LABEL 0x1
 TEXTSHOW P1C4CethernOnlyCamp
@@ -203,25 +206,22 @@ SetBackground(WarriorTent)
 TEXTSTART
 CHECK_ALIVE Sadhbh
 BEQ 0x10 0x0 0xC
-	TEXTSHOW PlaceholderText // P1C4CuRaoiSadhbh
+	TEXTSHOW P1C4CuRaoiSadhbh
 	GOTO 0x11
 LABEL 0x10
-TEXTSHOW PlaceholderText // P1C4CuRaoiNoSadhbh
+TEXTSHOW P1C4CuRaoiNoSadhbh
 LABEL 0x11
 TEXTEND
 REMA
 FADI 4
 STAL 60
-MUSC 0x27
+MUSC 0x48
 SetBackground(HealerTent)
 TEXTSTART
-CHECK_EVENTID CluainBolgGone
-BEQ 0x20 0x0 0xC
-	TEXTSHOW PlaceholderText // P1C4MiachCBG
-	GOTO 0x21
-LABEL 0x20
-TEXTSHOW PlaceholderText //P1C4MiachNoCBG
-LABEL 0x21
+TEXTSHOW P1C4MiachTalk
+TEXTEND
+MUSC 0x27
+TEXTCONT
 TEXTEND
 REMA
 FADI 4
@@ -231,10 +231,10 @@ SetBackground(CaravanCG)
 TEXTSTART
 CHECK_ALIVE Sadhbh
 BEQ 0x30 0x0 0xC
-	TEXTSHOW PlaceholderText // P1C4MiachEscapeWithSadhbh
+	TEXTSHOW P1C4MiachEscapeWithSadhbh
 	GOTO 0x31
 LABEL 0x30
-TEXTSHOW PlaceholderText // P1C4MiachEscape
+TEXTSHOW P1C4MiachEscape
 LABEL 0x31
 TEXTEND
 REMA
@@ -263,7 +263,10 @@ CLEAN
 EnterStop
 MUSC 0x4C
 SetBackground(ForestOutskirts)
-PlaceholderT // P1C4IsphanTalks
+TEXTSTART
+TEXTSHOW P1C4IshpanTalks
+TEXTEND
+REMA
 FADI 4
 STAL 60
 MUSC 0x24
@@ -272,18 +275,30 @@ CHECK_ALIVE Setanta
 BEQ 0x50 0x0 0xC
 	CHECK_ALIVE Ferdiad
 	BEQ 0x51 0x0 0xC
-		PlaceholderT // P1C4SetFerForest
+		TEXTSTART
+		TEXTSHOW P1C4SetFerForest
+		TEXTEND
+		REMA
 		GOTO 0x55
 	LABEL 0x51
-	PlaceholderT // P1C4SetForest
+	TEXTSTART
+	TEXTSHOW P1C4SetForest
+	TEXTEND
+	REMA
 	GOTO 0x55
 LABEL 0x50
 CHECK_ALIVE Ferdiad
 BEQ 0x52 0x0 0xC
-	PlaceholderT // P1C4FerForest
+	TEXTSTART
+	TEXTSHOW P1C4FerForest
+	TEXTEND
+	REMA
 	GOTO 0x55
 LABEL 0x52
-PlaceholderT // P1C4CethernForest
+TEXTSTART
+TEXTSHOW P1C4CethernForest
+TEXTEND
+REMA
 LABEL 0x55
 FADI 4
 CLEAN
@@ -307,7 +322,10 @@ _0x2620 0x515
 CUMO [20,8]
 STAL 60
 CURE
-PlaceholderT // P1C4CethernRealizesTheTruth
+TEXTSTART
+TEXTSHOW P1C4CethernRealizesTheTruth
+TEXTEND
+REMA
 CHECK_ALIVE Sadhbh
 BEQ 0xA0A0 0xC 0x0
 	LOAD2 0x1 SadhbhP
@@ -322,7 +340,13 @@ BEQ 0xA0A0 0xC 0x0
 	STAL 60
 	CURE
 	SetBackground(ForestCG)
-	PlaceholderT // P1C4SadhbhAndMiachJoin
+	TEXTSTART
+	TEXTSHOW P1C4SadhbhAndMiachJoin
+	TEXTEND
+	MUSC 0x30
+	TEXTCONT
+	TEXTEND
+	REMA
 	FADI 16
 	CLEAN
 	GOTO 0xA0AA
@@ -333,7 +357,14 @@ CUMO [20,7]
 STAL 60
 CURE
 SetBackground(ForestCG)
-PlaceholderT // P1C4MiachJoin
+MUSC 0x30
+TEXTSTART
+TEXTSHOW P1C4MiachJoin
+TEXTEND
+SOUN 0x2D7
+TEXTCONT
+TEXTEND
+REMA
 FADI 16
 CLEAN
 CLEA 0x0
@@ -352,21 +383,27 @@ LABEL 0xA0AA
 FADU 16
 CHECK_ALIVE Hanlin
 BEQ 0xB0B0 0x0 0xC
+	MUSC 0x9
 	CUMO Hanlin
 	STAL 60
 	CURE
-	PlaceholderT // P1C4HanlinExplains
+	TEXTSTART
+	TEXTSHOW P1C4HanlinExplains
+	TEXTEND
+	REMA
 	GOTO 0xB0BB
 LABEL 0xB0B0
+MUSC 0x9
 CUMO Cethern
 STAL 60
 CURE
-PlaceholderT // P1C4CethernExplains
+TEXTSTART
+TEXTSHOW P1C4CethernExplains
+TEXTEND
+REMA
 LABEL 0xB0BB
-STAL 20
-MUSC 0x9
 SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
-STAL 120
+STAL 20
 TUTORIALTEXTBOXSTART
 TEXTSHOW P1C4Warning
 TEXTEND
@@ -376,18 +413,19 @@ ENDA
 
 EndingScene:
 MUSC 0x26
-FADI 7
-_0x2620 0x703
+FADI 6
+_0x2620 0x503
+ENUT 0x84
 CLEA 0x0
 CLEE 0x0
 CLEN 0x0
 LOAD2 0x1 CethernMiachMen
-FADU 16
+FADU 10
 CUMO Cethern
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1C4RionallBetray
 TEXTEND
 REMA
 LOAD2 0x1 TheBoisFromOchren
@@ -396,14 +434,14 @@ CUMO [1,8]
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1C4RionallExplains
 TEXTEND
 REMA
 MOVE 0xA Cethern [3,0]
 MOVE 0xA Miach [4,0]
 ENUN
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1C4SkyKnightsAway
 TEXTEND
 REMA
 MOVE 0xA 0x80 [1,0]
@@ -412,11 +450,12 @@ MOVE 0xA 0x82 [6,0]
 MOVE 0xA 0x83 [8,0]
 ENUN
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1C4AinghaCursesMe
 TEXTEND
 REMA
 MNCH 0x4
 FADI 6
+ENUF 0x84
 NoFade
 ENDA
 
@@ -427,7 +466,7 @@ _0x2620 0x800 //camera better around borders of map
 CUMO Ishpan
 STAL 60
 CURE
-Text(PlaceholderText)
+Text(P1C4IshpanNotices)
 SVAL 0x1 0x00040600 // sets ai to [0x0,0x6,0x4,0x0] (chase when approached)
 CHAI 0x84 // changes the ai of 0x84
 SVAL 0x1 0x00040600 // sets ai to [0x0,0x6,0x4,0x0] (chase when approached)
@@ -457,7 +496,7 @@ CUMO [3,1]
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1C4GedeonAppears
 TEXTEND
 REMA
 NoFade
@@ -466,7 +505,7 @@ ENDA
 GedeonRecruitA:
 MUSC 0x30
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1C4GedeonAengus
 TEXTEND
 REMA
 CUSA Gedeon
@@ -477,7 +516,7 @@ ENDA
 GedeonRecruitE:
 MUSC 0x30
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1C4GedeonEthniu
 TEXTEND
 REMA
 CUSA Gedeon
@@ -488,7 +527,7 @@ ENDA
 MendVillage:
 TEXTSTART
 SVAL 0x2 VillageCG
-SVAL 0x3 PlaceholderText
+SVAL 0x3 P1C4MendVillage
 CALL 0x9EE310
 REMA
 CALL 0x591F40
@@ -500,12 +539,42 @@ ENDA
 ThunderVillage:
 TEXTSTART
 SVAL 0x2 VillageCG
-SVAL 0x3 PlaceholderText
+SVAL 0x3 P1C4ThunderVillage
 CALL 0x9EE310
 REMA
 CALL 0x591F40
 SVAL 0x3 Thunder
 GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+AinghaHouse:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideMapHouse // decides background 
+SVAL 0x3 P1C4AinghaHouse // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
+NoFade
+ENDA
+
+LightMagicHouse:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideMapHouse // decides background 
+SVAL 0x3 P1C4LightMagicHouse // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
+NoFade
+ENDA
+
+RionallHouse:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideMapHouse // decides background 
+SVAL 0x3 P1C4RionallHouse // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
 NoFade
 ENDA
 

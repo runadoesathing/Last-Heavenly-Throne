@@ -20,12 +20,12 @@ TURN 0x1E OhNoTheyreComing [1, 255] 0x0
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEvent(0x8,LalithaRecruit, Conall, Lalitha)
-CharacterEvent(0x8,LalithaRecruit, Setanta, Lalitha)
-CharacterEvent(0x8,LalithaRecruit, Ferdiad, Lalitha)
-CharacterEvent(0x8,LalithaRecruit, Sadhbh, Lalitha)
-CharacterEvent(0x8,LalithaRecruit, Bres, Lalitha)
-CharacterEvent(0x9,BresRecruit, Conall, Bres)
+CharacterEventBothWays(0x8,LalithaRecruit, Cethern, Lalitha)
+CharacterEventBothWays(0x8,LalithaRecruit, Setanta, Lalitha)
+CharacterEventBothWays(0x8,LalithaRecruit, Ferdiad, Lalitha)
+CharacterEventBothWays(0x8,LalithaRecruit, Sadhbh, Lalitha)
+CharacterEventBothWays(0x8,LalithaRecruit, Bres, Lalitha)
+CharacterEventBothWays(0x9,BresRecruit, Cethern, Bres)
 END_MAIN
 
 LocationBasedEvents:
@@ -285,7 +285,7 @@ STAL 20
 MUSC 0x9
 CALL 0x591F40
 SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
-STAL 120
+STAL 20
 TUTORIALTEXTBOXSTART
 TEXTSHOW P1C2Warning
 TEXTEND
