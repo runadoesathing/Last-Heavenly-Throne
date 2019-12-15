@@ -8,6 +8,8 @@ Cethern's group moves quickly to[AN]
 find refuge along the treacherous[N]
 mountain path into Caer Vedwyd.[A][X]
 
+
+
 ## P1CFWMIntro2
 Caer Vedwyd, after its rebellion fourty[N]
 years ago, seceeded and joined under[N]
@@ -21,5 +23,616 @@ The sky knights pass over him, not[N]
 missing his prescence but signalling[N]
 forward an unexpected maneuver...[A][X]
 
+
+
 ## CaerVedwyd
 Caer Vedwyd[X]
+
+
+
+## P1CFWelcomeToCaerVedwyd
+[ConversationText]
+[Right][LoadJhudiel]
+[FarRight][LoadCamniel]
+[MidLeft][LoadEnemySoldierF]
+Ishpan has been killed by Corbenic.
+We forced a small group of their soldiers up the trail.
+Stems of Heichalot, Lord Rionall implores that he may leave the rest to you.
+
+[ClearFace][......][FarRight]
+Jhudiel, isn't this an interesting situation?
+Fleeing into enemy territory...
+They must have truly been cornered.
+
+[Right]
+They already are cornered.
+The trail is narrow and their options are few.
+Gedaliah?
+
+[MidLeft][LoadGedaliah]
+Yes, Shield Jhudiel?
+Is it finally time?
+
+[Right]
+I want you to head out with haste.
+Night has fallen, and we must use this to our advantage.
+Head out with haste and surround the Corbenic forces.
+Camniel and I will follow behind you.
+
+[MidLeft]
+Understood, Shield Jhudiel!
+I will round everyone up.
+
+[ClearFace][......][Right][ClearFace][MidLeft][LoadJhudiel]
+Camniel...
+I've been considering a few things.
+
+[FarRight][MoveMidRight][MidRight]
+I don't believe now is the time for philosophy, Jhudiel.
+
+[MidLeft]
+But Camniel!
+As Stems of Heichalot, we serve the essence of Heichalot itself.
+Yet this war...
+I fail to see how it benefits us.
+
+[MidRight]
+I refuse to consider that.
+The essence of Heichalot is our Heavenly Prince.
+If he wishes to wage war, I shall be on the frontlines.
+
+[MidLeft]
+And what happens if Heichalot wages war with Srughna?
+Or even Macha?
+Heichalot should not ever be all of Maghmeall!
+
+[MidRight]
+Bring those arguments up with the clergy.
+We need to ready ourselves for battle.
+Corbenic cannot be allowed to reach this camp!
+
+[MidLeft]
+... ...
+Of course.
+I apologize for losing focus, Camniel.
+
+[MidRight]
+Take your sword and steed, and charge forward.
+Fight for that essence of Heichalot you care so much about.[ClearFace][......]
+
+[MidLeft][CloseEyes]
+I will, Camniel.
+I will...[X]
+
+
+
+## P1CFGedeonQuote
+[ConversationText]
+[MidRight][LoadGedeon]
+I made my vow to my friends, no matter the situation...[X]
+
+
+
+## P1CFHanlinQuote
+[ConversationText]
+[MidRight][LoadHanlin]
+I promised to keep us safe...
+I'm not letting myself falter.[X]
+
+
+
+## P1CFLalithaQuote
+[ConversationText]
+[MidRight][LoadLalitha]
+The enemy may be many, but we have the power of many.
+We can do this...![X]
+
+
+
+## P1CFBresQuote
+[ConversationText]
+[MidRight][LoadBres]
+I've stayed with you this far.
+Not like I can run away.[X]
+
+
+
+## P1CFAengusQuote
+[ConversationText]
+[MidRight][LoadAengus]
+Ethniu!
+Stay near me![X]
+
+
+
+## P1CFEthniuQuote
+[ConversationText]
+[MidRight][LoadEthniu]
+Everyone, please remain vigilant.
+I do not want to see anyone die here.[X]
+
+
+
+## P1CFSetantaQuote
+[ConversationText]
+[MidRight][LoadSetanta]
+Fern?
+This is for you.[CloseEyes]
+I'm staying here for you...[X]
+
+
+
+## P1CFFerdiadQuote
+[ConversationText]
+[MidRight][LoadFerdiad]
+Mother...
+I hoped that I could find you.[X]
+
+
+## P1CFSadhbhQuote
+[ConversationText]
+[MidRight][LoadSadhbh]
+I fight for Caer Siddi.
+I cannot let the Crownflight down![X]
+
+
+
+## P1CFCethernMiachTalk
+[ConversationText]
+[MidLeft][LoadCethern]
+[MidRight][LoadMiach]
+Cethern...
+I'm going to be honest.
+I'm nervous...
+
+[MidLeft]
+Stay in the fortress if you're too scared, Miach.
+I couldn't imagine to see you hurt.
+
+[MidRight]
+No...
+I'm doing this for Airmed!
+We need to be strong!
+
+[MidLeft]
+Then ready yourself.
+They'll be here any second![X]
+
+
+
+## P1CFSadhbhHanlinTorch
+[ConversationText]
+[MidLeft][LoadHanlin]
+The stars are so bright...
+I haven't seen them like this since I was back home.
+
+[FarFarRight][LoadSadhbh][MoveMidRight]
+Excuse me.
+You must be Hanlin, yes?
+
+[MidLeft]
+That would be me.
+Do you need something?
+
+[MidRight]
+I've heard that you're an excellent healer.
+I was wondering if you had any use for this?
+
+[MidLeft]
+That is indeed a staff.
+But I don't know how good it'd be for healing.
+Where did you find it?
+
+[MidRight]
+While I was in Caer Ochren, I received it as a gift from an acolyte of Aingha.
+She said it may turn out useful, so I wanted to get your opinion.
+
+[MidLeft]
+... [ToggleSmile]...
+I think this will be incredibly useful.
+Thank you very much.[X]
+
+
+
+## P1CFCethernHanlinTorch
+[ConversationText]
+[MidRight][LoadCethern]
+[MidLeft][LoadHanlin]
+This fortress is pitch dark...
+We should hide well against the sky knights here.
+
+[MidRight]
+It's black with night, but we should be careful.
+Is there anything we could use for a small amount of light?
+
+[MidLeft]
+Hmm...[MoveMidLeft]
+If you could light it with fire, this might do.
+
+[MidRight]
+That could do.
+Thank you, Hanlin.[X]
+
+
+
+## P1CFCethernSadhbhTorch
+[ConversationText]
+[MidRight][LoadCethern]
+[MidLeft][LoadSadhbh]
+This fortress is off the beaten path.
+It may be a good play to lay low for now.
+
+[MidRight]
+It's black with night, but we should be careful.
+Is there anything we could use for a small amount of light?
+
+[MidLeft][MoveMidLeft]
+Try using this, Cethern.
+You'll need to light it first, but...
+
+[MidRight]
+That could do.
+Thank you, Lady Sadhbh.[X]
+
+
+
+## P1CFCethernMiachTorch
+[ConversationText]
+[MidRight][LoadCethern]
+[MidLeft][LoadMiach]
+It's so dark...
+But it doesn't look like anyone's here.
+
+[MidRight]
+We should still be careful.
+Is there anything we could use for light?
+
+[MidLeft][MoveMidLeft]
+Maybe this?
+It won't give much, but...
+
+[MidRight]
+That could do.
+Thanks, Miach.[X]
+
+
+
+## P1CFGedeonPrince
+[ConversationText]
+[MidRight][LoadGedeon]
+[MidLeft][LoadCethern]
+Gedeon, right?
+
+[MidRight]
+That's me.
+What's going on?
+
+[MidLeft]
+You're from Heichalot, aren't you?
+Why are you fighting with us?
+
+[MidRight]
+I've got more reason to fight with you than against you.
+It's not like my old job gave me much anyways.
+
+[MidLeft]
+That's a fair answer...
+If you are from Heichalot, though...
+I'd like to ask what's going on.
+
+[MidRight]
+What's going on?
+There's a war going on.
+Not much else to say about it.
+
+[MidLeft]
+Not like that.
+You're from Heichalot, so I wanna ask why--
+
+[MidRight]
+Why we'd declare war on you?
+Ask the Prince.
+
+[MidLeft]
+The Prince of Heichalot?
+I've heard him mentioned, and yet...
+I don't know anything about him.
+
+[MidRight]
+He's the leader of Heichalot.
+We venerate Heichalot's Wardbearer through him.
+
+[MidLeft]
+Do you know why he'd declare war?
+
+[MidRight]
+I'm just a mercenary.
+You'd be better asking a clergymember, but...[MoveMidRight]
+I've hung around with enough priests to know it's related to their religion.
+
+[MidLeft]
+Relating to the bearers?
+
+[MidRight]
+Yep.
+Maybe a vision told them of the right call to make.
+
+[MidLeft]
+A vision?[MoveMidLeft]
+But the Wardbearers are dead!
+I'm not that religious, but even I know that!
+
+[MidRight]
+Maybe it's different in Corbenic, but the Wardbearers have only disappeared.
+You're making the assumption that they're dead.
+
+[MidLeft]
+... ...
+Hold on.
+Do you hear that?
+
+[MidRight]
+I...[MoveMidRight]
+I think I do hear that.
+
+[MidLeft]
+Outside.
+Now.[X]
+
+
+
+## P1CFHanlinPrince
+[ConversationText]
+[MidLeft][LoadHanlin]
+[MidRight][LoadCethern]
+Hanlin, can I talk to you about something?
+
+[MidLeft]
+Idle chatter may not be the best idea right now.
+
+[MidRight]
+I promise it's not idle.
+I wanted to ask about Heichalot.
+They've declared war on us, yet I can't entirely say I know that much about them.
+I don't know why they'd want to invade us.
+
+[MidLeft]
+I don't know why either, but it's probably the Prince's doing.
+Either him or Heichalot's clergy.
+
+[MidRight]
+The Prince of Heichalot...
+I've heard him mentioned, and still he's a mystery to me.
+
+[MidLeft]
+Heichalot treats him as the highest order of their religion.
+They worship the Wardbearer through him.
+Perhaps this war is related to that?
+
+[MidRight]
+Perhaps it is.
+But aren't you from Macha?
+How do you know so much about Heichalot?
+
+[MidLeft]
+I'm a member of Macha's clergy.
+It's easier to hear things when we all venerate the Wardbearers.
+
+[MidRight]
+I see...
+I'm not the most pious, but I do still acknowledge them.
+
+[MidLeft]
+You would do better to give them more respect.
+They may be gone, but their presence can still be felt around us.
+
+[MidRight]
+Presence...
+Around us...[......][MoveMidRight]
+Hanlin, do you hear that?
+
+[MidLeft]
+... ...
+I believe I do hear that.
+It's coming from outside.
+
+[MidRight]
+Come with me!
+Now![X]
+
+
+
+## P1CFSadhbhPrince
+[ConversationText]
+[MidLeft][LoadSadhbh]
+[MidRight][LoadCethern]
+Lady Sadhbh?
+You're a Crownflier, so you travel often, right?
+
+[MidLeft]
+That would be correct.
+What about it?
+
+[MidRight]
+Have you ever been to Heichalot?
+I don't know much about them, so I don't know why they'd declare war...
+But it still doesn't seem right.
+Corbenic hasn't done much, has it?
+
+[MidLeft]
+There's nothing I know of that'd be just grounds.
+If I had to guess, you should put the blame on either the Prince or his clergy.
+
+[MidRight]
+Heichalot's prince...
+I've heard him mentioned, yet I know nothing about him.
+
+[MidLeft]
+The clergy adore him.
+He's mostly kept away from the rest of Maghmeall, though.
+
+[MidRight]
+Kept away?
+
+[MidLeft]
+He's the centre of their entire religion.
+It'd make sense to keep him safe from anything.
+
+[MidRight]
+I...[......][MoveMidRight]
+Hold on.
+Lady Sadhbh, do you hear that?
+
+[MidLeft]
+I do.[MoveMidLeft]
+Cethern, follow me.
+There could be trouble.[X]
+
+
+
+## P1CFCethernMiachThroughTheHills
+[ConversationText]
+[MidRight][LoadCethern]
+[MidLeft][LoadMiach]
+[MoveMidLeft]Brrr...
+It's starting to snow.
+
+[MidRight]
+It is...
+This'd never happen this early at home.
+Try to keep your head low, Miach.
+We don't want to be spotted by anybody.
+
+[MidLeft]
+Cethern...[MoveMidLeft]
+Why couldn't we run the other way?
+
+[MidRight]
+It was the heat of the moment.
+We both weren't thinking.
+If we head back, Lord Rionall will get us and probably kill us.
+It's best if we keep moving.
+
+[MidLeft][MoveMidLeft]
+Cethern!
+Look!
+Up there in the sky--!
+
+[MidRight][MoveRight]
+Miach...!
+They'll hear you!
+
+[MidLeft]
+They're flying past us...
+Where are they going?
+
+[Right]
+They might not be seeing us...[MoveRight]
+We still need to stay vigilant.
+There could be more coming to find us.
+
+[MidLeft]
+Hey, look ahead.
+Isn't that a fortress?
+We could hide in there!
+
+[Right]
+It's starting to get too late to continue...
+It looks as dark as anywhere else.
+Could be worth trying to hide in there.[X]
+
+
+
+## P1CFMiachPrince
+[ConversationText]
+[MidLeft][LoadMiach]
+[MidRight][LoadCethern]
+Miach?
+Are you doing okay?
+
+[MidLeft]
+I don't know...
+I thought I would be ready to fight.
+I thought that I could just pick up a sword and chase everyone down.
+But after all this...?
+I'm not sure anymore.
+
+[MidRight]
+I told you to stay back, Miach.
+Out here it isn't playfighting.
+People get killed for real.
+
+[MidLeft]
+I knew that, Cethern...!
+But I guess I didn't realize how serious it was.
+
+[MidRight]
+We can't go back now, Miach.
+All we can do is continue fighting.
+
+[MidLeft]
+Cethern...[MoveMidLeft][CloseEyes]
+Sniff...
+
+[MidRight]
+Miach?
+Are you crying?
+
+[MidLeft]
+I'm fine, I'm fine...
+A snowflake just went in my eye.
+
+[MidRight]
+... ...![MoveMidRight]
+Miach, I need you to get up and follow me.
+I don't think we're alone here.[ClearFace][......]
+
+[MidLeft][OpenEyes]
+Cethern?[MoveMidLeft]
+Cethern...![X]
+
+
+
+## P1CFLalithaNotices
+[ConversationText]
+[MidRight][LoadLalitha]
+[FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
+Lalitha!
+Have you seen anything?
+
+[MidRight]
+They're coming.
+I can hear their footsteps, even through the snow...
+There's gotta be at least a couple hundreds!
+
+[MidLeft]
+In the hundreds?![MoveMidLeft]
+Of course!
+Those sky knights weren't trying to catch us, they were trying to warn the enemy!
+
+[MidRight]
+It'll be hard to see where they're coming from.
+I can augment my vision with magic, but you might not be able to.
+
+[MidLeft]
+Augment your vision?
+You can tell us where the enemy is!
+But for now, we should fall inside![X]
+
+
+
+## P1CFCethernNotices
+[ConversationText]
+[FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
+I can hear their voices...
+There's so many of them!
+We need to fall back inside and form up...![X]
+
+
+
+## P1CFCethernEncourages
+[ConversationText]
+[MidLeft][LoadCethern]
+We're stuck in this valley...
+The only thing we can do is fight!
+Everybody, brace yourselves![X]

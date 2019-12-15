@@ -29,9 +29,6 @@
 	
 	MESSAGE Writing at currentOffset
 	//Animations & Graphics
-	#include "Animations/Master Animation Installer.event"
-	MESSAGE Used animations space ends at currentOffset
-	
 	#include "Graphics/Master Graphics Installer.event"
 	MESSAGE Used graphics space ends at currentOffset
 	

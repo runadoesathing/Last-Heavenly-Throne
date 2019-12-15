@@ -216,3 +216,12 @@ HillsNightTSA:
 
 HillsNightPalette:
 #incbin "HillsNightPalette.bin"
+
+ArmyCampWinterNightImage:
+#incbin "ArmyCampWinterNightImage.bin"
+
+ArmyCampWinterNightTSA:
+#incbin "ArmyCampWinterNightTSA.bin"
+
+ArmyCampWinterNightPalette:
+#incbin "ArmyCampWinterNightPalette.bin"

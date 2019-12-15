@@ -268,7 +268,7 @@ I believe him to be the best fighter for this job.
 
 [MidRight]
 But this is a suicide mission, C[0xFA] Raoi!
-Don't you understand you're sending them to their deaths?!
+Don't you understand you're sending them to die?!
 
 [MidLeft]
 Enough from you, Lady Sadhbh!
@@ -394,7 +394,8 @@ Miach!
 We need your assistance!
 
 [MidRight][OpenEyes]
-I'll be there in a second, hold on a moment![X]
+I'll be there in a second!
+Just hold on a moment![X]
 
 
 
@@ -468,7 +469,7 @@ If I hurry, I should be able to catch up![MoveFarFarRight][....][X]
 
 ## P1C4IshpanTalks
 [ConversationText]
-[Right][LoadEnemySoldier]
+[Right][LoadEnemySoldierF]
 [FarRight][LoadEnemySoldier]
 [MidLeft][LoadFace][0x33][0x1]
 Your ruler, Lord Rionall, has surrendered to the Heichalotian crown.
@@ -836,7 +837,7 @@ Careful riding through.
 
 [Right]
 Have either of you ever been to Heichalot?
-Well, probably not you Cethern.
+Well, probably not you, Cethern.
 
 [MidLeft]
 Definitely not.
@@ -1010,7 +1011,7 @@ What is there to gain from betrayal?!
 [MidLeft]
 Heichalot overpowers us on a level that is incomprehensible.
 To fight back against them is to kill us all.
-The people of Caer Ochren are mine to lead, and I will do anything to protect them!
+Caer Ochren's people are mine to lead, and I will do anything to save them!
 
 [Right]
 So you would surrender to them?!

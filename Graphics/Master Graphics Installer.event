@@ -1,3 +1,7 @@
+//Animations Install
+#include "Animations/Master Animation Installer.event"
+MESSAGE Used animations space ends at currentOffset
+
 //Map Sprites Install
 #include "Map Sprites/MapSprites.txt"
 
@@ -51,6 +55,30 @@ ORG $88640
 POIN NewStatScreenPal
 POP
 */
+
+PUSH
+ORG $AAC5AC
+#incext Png2Dmp "FireEmblem.png" --lz77
+ORG $AACEDC
+#incext Png2Dmp "SacredStones.png" --lz77
+POP
+
+ArrowPng:
+#incext Png2Dmp "Arrow.png" --lz77
+//ArrowPalette:
+//#incext Png2Dmp "Arrow.png" --palette-only
+
+//IconsPng:
+//#incext Png2Dmp "iconsboi.png" --lz77
+
+PUSH
+ORG $32E98
+POIN ArrowPng
+//ORG $32EA0
+//POIN ArrowPalette
+//ORG $156AC
+//POIN IconsPng
+POP
 
 PUSH
     ORG 0x5996F4

@@ -112,11 +112,11 @@ UNIT Soma SwordCav 0x1 Level(0, Ally, 0)    [22,8] 0x0 0x0 0x1 REDA20R7 [0x0] [0
 UNIT
 
 EnemyUnits:
-UNIT Ishpan Monk 0x0 Level(10, Ally, 1)              [1,8]   0 0 0 0            [YesodII]    NeverMoveAI
+UNIT Ishpan Monk 0x0 Level(10, Enemy, 1)              [1,8]   0 0 0 0            [YesodII]    NeverMoveAI
 UNIT 0x84 BowCav 0x0 Level(7, Enemy, 1)               [0,7]   DropItem 0 0 0     [SteelBow]   NeverMoveAI
 UNIT Ochren Myrmidon_F 0x0 Level(5, Enemy, 1)         [7,15]  DropItem 0 0 0     [SteelSword] NeverMoveAI
 UNIT 0x85 Mage 0x0 Level(5, Enemy, 1)                 [11,14] 0 0 0 0            [Wind]       NeverMoveAI 
-UNIT OchrenMag Shaman 0x0 Level(4, Enemy, 1)          [14,2]  0 0 0 0            [Flux]      NeverMoveAI
+UNIT 0x85 Shaman 0x0 Level(4, Enemy, 1)               [13,2]  0 0 0 0            [Flux]      NeverMoveAI
 UNIT Ochren AxeKnight 0x0 Level(5, Enemy, 1)          [7,3]   0 0 0 0            [SteelAxe]   NeverMoveAI
 UNIT 0x84 Fighter Ishpan Level(4, Enemy, 1)           [20,1]  0 0 0 0            [IronAxe]    AttackInRangeAI 
 UNIT Ochren Soldier Ishpan Level(5, Enemy, 1)         [18,12] 0 0 0 0            [IronLance]  AttackInRangeAI 
@@ -133,7 +133,7 @@ UNIT Ochren Archer Ishpan Level(5, Enemy, 1)          [8,2]   0 0 0 0           
 UNIT 0x84 Archer_F Ishpan Level(5, Enemy, 1)          [9,12]  0 0 0 0            [IronBow]    NeverMoveAI
 UNIT Ochren LanceCav Ishpan Level(6, Enemy, 1)        [6,5]   0 0 0 0            [IronLance]  NeverMoveAI 
 UNIT 0x84 Soldier Ishpan Level(6, Enemy, 1)           [17,1]  0 0 0 0            [IronLance]  NeverMoveAI 
-UNIT OchrenMag Mage_F Ishpan Level(5, Enemy, 1)       [12,1]  0 0 0 0            [Thunder]    NeverMoveAI
+UNIT OchrenMag Mage_F Ishpan Level(5, Enemy, 1)       [12,0]  0 0 0 0            [Thunder]    NeverMoveAI
 UNIT
 
 GedeonP:
@@ -147,7 +147,7 @@ UNIT 0x81 Pirate 0x0 Level(5, Enemy, 1)    [11,9] 0 0 1 REDA11R9    [IronAxe] [0
 UNIT
 
 Banditsu2:
-UNIT 0x81 Brigand 0x0 Level(5, Enemy, 1)    [12,0] 0 0 1 REDA12R0    [IronAxe] [0x0,0x4,0x4,0x0]
+UNIT 0x81 Brigand 0x0 Level(5, Enemy, 1)    [13,0] 0 0 1 REDA12R0    [IronAxe] [0x0,0x4,0x4,0x0]
 UNIT
 
 TheOchrens:
@@ -306,13 +306,13 @@ LOAD1 0x1 EnemyUnits
 ENUN
 LOAD2 0x1 UnitsP
 ENUN
-AliveCLoad(Setanta,SetantaP,0xA)
-AliveCLoad(Ferdiad,FerdiadP,0xB)
-AliveCLoad(Lalitha,LalithaP,0xC)
-AliveCLoad(Bres,BresP,0xD)
-AliveCLoad(Ethniu,EthniuP,0xE)
-AliveCLoad(Aengus,AengusP,0xF)
-AliveCLoad(Hanlin,HanlinP,0x10)
+AliveCLoad(Setanta,SetantaP,0xBBA)
+AliveCLoad(Ferdiad,FerdiadP,0xBBB)
+AliveCLoad(Lalitha,LalithaP,0xBBC)
+AliveCLoad(Bres,BresP,0xBBD)
+AliveCLoad(Ethniu,EthniuP,0xBBE)
+AliveCLoad(Aengus,AengusP,0xBBF)
+AliveCLoad(Hanlin,HanlinP,0xBB10)
 _0x2620 0x501
 MUSC 0x25
 FADU 16
@@ -370,13 +370,13 @@ CLEAN
 CLEA 0x0
 LOAD2 0x1 UnitsP
 ENUN
-AliveCLoad(Setanta,SetantaP,0xA)
-AliveCLoad(Ferdiad,FerdiadP,0xB)
-AliveCLoad(Lalitha,LalithaP,0xC)
-AliveCLoad(Bres,BresP,0xD)
-AliveCLoad(Ethniu,EthniuP,0xE)
-AliveCLoad(Aengus,AengusP,0xF)
-AliveCLoad(Hanlin,HanlinP,0x10)
+AliveCLoad(Setanta,SetantaP,0xCCA)
+AliveCLoad(Ferdiad,FerdiadP,0xCCB)
+AliveCLoad(Lalitha,LalithaP,0xCCC)
+AliveCLoad(Bres,BresP,0xCCD)
+AliveCLoad(Ethniu,EthniuP,0xCCE)
+AliveCLoad(Aengus,AengusP,0xCCF)
+AliveCLoad(Hanlin,HanlinP,0xCC10)
 LOAD1 0x1 MiachPP
 ENUN
 LABEL 0xA0AA
@@ -453,7 +453,7 @@ TEXTSTART
 TEXTSHOW P1C4AinghaCursesMe
 TEXTEND
 REMA
-MNCH 0x4
+MNC2 0x4
 FADI 6
 ENUF 0x84
 NoFade

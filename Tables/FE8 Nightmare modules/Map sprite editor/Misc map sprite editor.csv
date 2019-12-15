@@ -5,8 +5,8 @@ Ephraim Great Lord,0x81c4824,0x81c52b4
 Eirika Great Lord,0x81c5414,0x81c5e84
 Cavalier,Map_LanceCav_Move|0x8000000,0x81c692c
 Cavalier (F),Map_LanceCavF_Move|0x8000000,0x81c692c
-Paladin,0x81c6a84,0x81c7428
-Paladin (F),0x81c6a84,0x81c7428
+Paladin,Map_GoldKnight_Move|0x8000000,0x81c7428
+Paladin (F),Map_SilverKnight_Move|0x8000000,0x81c7428
 Armour Knight,Map_Lknight_Move|0x8000000,0x81c7e74
 Armour Knight (F),Map_Lknight_Move|0x8000000,0x81c7e74
 General,0x81c7fcc,0x81c8a80
@@ -61,7 +61,7 @@ Manakete,Map_SoldierF_Move|0x8000000,0x81edbc4
 Manakete (F),0x81e308c,0x81e39ec
 Journeyman (1),0x81e0f98,0x81e173c
 Pupil (1),0x81e189c,0x81e2088
-Fighter,0x81e3b44,0x81e4340
+Fighter,Map_Fighter_Move|0x8000000,0x81e4340
 Warrior,0x81e4498,0x81e4ea4
 Brigand,0x81e4ffc,0x81e582c
 Pirate,Map_Pirate_Move|0x8000000,0x81e62b4

@@ -1,10 +1,15 @@
 outline for part 1 chapter F
 
+jhudiel and camniel talking about following the trail out to caer ochren, jhudiel talks to gedaliah who agrees to lead the charge. jhudiel asks camniel if this war is just, to which camniel replies that she refuses to answer those kinds of questions. she is a stem of heichalot: she serves whatever the prince tells her to. jhudiel disagrees, asking what would happen if heichalot attempted to conquer all of maghmeall. camniel silences him and tells him to prepare out to caer ochren.
+
 -----
 WORLD MAP TIME
 -----
 
 cethern travelling through the snow at night with miach, before coming across an abandoned fort to rest in for the night
+
+If Hanlin is alive, she will get a torch staff from Sadhbh/Cethern.
+If Hanlin isn't alive, Cethern will find a torch/get a torch from Sadhbh.
 
 the party keeps the lights low to not alert any sky knights, cethern mentions how hopeless the mission seems but wants to keep hope for airmed and his grandfather
 - if gedeon is alive, cethern will talk to him about the prince of heichalot
@@ -18,53 +23,25 @@ the party will be alerted of the sounds of approaching soldiers
 - if not lalitha, cethern will remark on how loud
 
 cethern will bring everyone out of the fort and tell everyone to give their stand against heichalot
-====
-Gedeon:
-I made my vow to my friends, no matter the situation...
-
-Hanlin:
-I promised to keep us safe... I'm not letting myself falter.
-
-Lalitha:
-The enemy may be many, but we have the power of many. We can do this...!
-
-Bres:
-I've stayed with you this far. Not like I can run away.
-
-Ethniu:
-Everyone stay cautious. I do not want to see anyone die here...
-
-Aengus:
-Ethniu! Stay near me!
-
-Ferdiad:
-Mother... I hoped that I could find you.
-
-Setanta:
-Fern? This is for you. 
-
-Sadhbh:
-I fight for Caer Siddi. I will not let the Crownflight down!
-
-=
-Miach:
-Cethern... I'm going to be honest. I'm worried...
-
-Cethern:
-Stay in the fortress if you're too scared, Miach. I couldn't imagine to see you hurt.
-
-Miach:
-No... I'm doing this for Airmed! We need to be strong!
-
-Cethern:
-Then ready yourself. They'll be here any second!
-=
-
-====
-
-If Hanlin is alive, she will get a torch staff from Sadhbh/Cethern.
-If Hanlin isn't alive, Cethern will find a torch/get a torch from Sadhbh.
-
------
 
 ======================================================
+[X] jhudiel and camniel talking
+[X] cethern travelling through the hills
+[X] sadhbh gives hanlin the torch staff
+[X] cethern gives hanlin the torch staff
+[X] sadhbh gives cethern a torch
+[X] cethern finds a torch
+[X] cethern talks to gedeon about the prince
+[X] cethern talks to hanlin about the prince
+[X] cethern talks to sadhbh about the prince
+[X] cethern talks to miach about being alone
+[X] lalitha warns cethern
+[X] cethern notices the footsteps
+[X] cethern encourages everyone
+[X] early battle quotes
+----------------------
+- house 1 (
+- house 2
+- house 3
+- gedaliah quotes
+- cethern saying that more people are coming

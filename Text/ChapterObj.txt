@@ -1,6 +1,6 @@
 ## PlaceholderText
 [OpenMidLeft][LoadSetanta][OpenFarRight][LoadSetanta][OpenRight][LoadSetanta]
-Fuck you Ryan! You piece of shit![A][X]
+Placeholder Text![A][X]
 
 ## Ch0Long
 Defeat the bandit[N]
@@ -27,6 +27,10 @@ border fortress[X]
 ## Ch4Long
 Defend Miach for[N]
 11 turns[X]
+
+## Ch5Long
+Defeat Shuka, mage[N]
+of Anila[X]
 
 ## DefendObj
 Defend[X]

@@ -72,6 +72,7 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 GoldKnightPaletteList:
+PaletteAssociationEntry(Jhudiel_1, $1F)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -223,6 +224,7 @@ ALIGN 4
 
 MonkPaletteList:
 PaletteAssociationEntry(Ishpan, $F)
+PaletteAssociationEntry(Enoch, $1E)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

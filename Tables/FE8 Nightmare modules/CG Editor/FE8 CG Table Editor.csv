@@ -13,7 +13,7 @@ Castle_Hall 0x0A,CaravanImage|IsPointer,CaravanTSA|IsPointer,CaravanPalette|IsPo
 Castle_Hall_Night 0x0B,FortNightImage|IsPointer,FortNightTSA|IsPointer,FortNightPalette|IsPointer
 Castle_Hall_2 0x0C,ForestNightImage|IsPointer,ForestNightTSA|IsPointer,ForestNightPalette|IsPointer
 Castle_Hall_2_Past 0x0D,HillsNightImage|IsPointer,HillsNightTSA|IsPointer,HillsNightPalette|IsPointer
-Castle_Room 0x0E,0x88f61a8,0x88f9598,0x88f9a4c
+Castle_Room 0x0E,ArmyCampWinterNightImage|IsPointer,ArmyCampWinterNightTSA|IsPointer,ArmyCampWinterNightPalette|IsPointer
 Castle_Room_Past 0x0F,WarriorTentImage|IsPointer,WarriorTentTSA|IsPointer,WarriorTentPalette|IsPointer
 Castle_Hall_3 0x10,0x88f9c4c,0x88fb350,0x88fb804
 Castle_Hall_3_Night 0x11,0x88f9c4c,0x88fb350,0x88fb904

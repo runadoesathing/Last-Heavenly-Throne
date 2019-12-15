@@ -36,16 +36,16 @@ Wyvern Lord,0,10,21,0
 Wyvern Lord (F),0,10,21,0
 Wyvern Knight,1,10,24,1
 Wyvern Knight (F),1,10,24,1
-Mage,3,60,20,0
-Mage (F),3,60,20,0
+Mage,3,55,20,0
+Mage (F),3,55,20,0
 Sage,6,50,28,1
 Sage (F),5,50,30,1
 Mage Knight,5,45,24,2
 Mage Knight (F),4,45,25,2
 Bishop,5,40,25,2
 Bishop (F),5,40,25,1
-Shaman,4,55,20,0
-Shaman (F),5,50,20,0
+Shaman,4,50,20,0
+Shaman (F),5,45,20,0
 Druid,7,60,29,0
 Druid (F),8,60,29,0
 Summoner,6,55,27,0

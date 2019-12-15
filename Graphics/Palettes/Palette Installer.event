@@ -127,3 +127,6 @@ SinGu_WarCleric:
 Enoch_Diviner:
 	#incbin "./_palettes/Enoch_Diviner.lzpal"
 
+Jhudiel_GoldKnight:
+	#incbin "./_palettes/Jhudiel_GoldKnight.lzpal"
+

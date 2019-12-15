@@ -199,6 +199,18 @@ POP
   
   // Fix gaining wexp from weapons you don't have wexp in (for Shadowgift/Lumina)
   #include "Misc/FixWpnRnk.event"
+  
+  // Let's get a new background
+  #include "Title Background/titlebackgroundinstaller.event"
+  
+  //Scripted Battles
+  #include "Scripted Battle Numbers/ScriptedBattles.event"
+  
+  //FEBuilder Patches
+  #include "FEBuilderPatches/FEBuilder Patch Installer.event"
+  
+  //Less Annoying Fog
+  #include "Less Annoying Fog/Less Annoying Fog Installer.event"
 
   ALIGN 4
   #include "SkillSystem/Master Skill Installer.event"

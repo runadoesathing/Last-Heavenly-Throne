@@ -56,6 +56,9 @@ Trobairitz[X]
 # 0x16F
 2-F: The Caged Bird[X]
 
+# 0x198
+Part 2: Rise from the Rubble[X]
+
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]

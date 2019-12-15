@@ -13,9 +13,15 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TURN 0x0 CleartheSeal [1,0] 0x0
+//TURN 0x0 CleartheSeal [1,0] 0x0
 TURN 0x0 CanYouFeelIt [3,0] 0x0
 TURN 0x0 EarthboundBois [5,0] 0x0
+TURN 0x0 BabaBaba [6,0] 0x0
+TURN 0x0 Kernel [8,0] 0x0
+TURN 0x0 Kernel2 [9,0] 0x0
+TURN 0x0 Kernel3 [10,0] 0x0
+TURN 0x0 Kernel4 [11,0] 0x0
+TURN 0x0 EndingScene [12,0] 0x0
 END_MAIN
 
 CharacterBasedEvents:
@@ -41,44 +47,107 @@ Tutorial:
 END_MAIN
 
 UnitsP:
-UNIT Cormac EirikaLord 0x1 Level(1, Ally, 0)    [9,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
-UNIT Miach Villager 0x1 Level(1, Ally, 0)       [9,10] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA9R8 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+MiachP:
+UNIT Miach Villager 0x1 Level(1, Ally, 0)       [9,10] 0x0 0x0 0x1 REDA9R10 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 SetantaP:
-UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [8,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA8R9 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 FerdiadP:
-UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [10,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA10R9 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 LalithaP:
-UNIT Lalitha Mage_F 0x1 Level(1, Ally, 0)    [8,10] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Lalitha Mage_F 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA8R10 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 BresP:
-UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [10,10] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA10R10 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 HanlinP:
-UNIT Hanlin Trobairitz 0x1 Level(2, Ally, 0)    [9,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Hanlin Trobairitz 0x1 Level(2, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA9R9 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 AengusP:
-UNIT Aengus Knight 0x1 Level(1, Ally, 0)    [8,11] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Aengus Knight 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA8R11 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 EthniuP:
-UNIT Ethniu Shaman_F 0x1 Level(1, Ally, 0)    [10,11] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Ethniu Shaman_F 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA10R11 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 SadhbhP:
-UNIT Sadhbh Crownflier 0x1 Level(1, Ally, 0)    [9,12] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Sadhbh Crownflier 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA9R12 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 GedeonP:
-UNIT Gedeon Fighter 0x1 Level(1, Ally, 0)    [9,11] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Gedeon Fighter 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA9R11 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+JhudielP:
+UNIT Jhudiel_1 GoldKnight 0x1 Level(1, Enemy, 1)    [10,5] 0x0 0x0 0x0 0x0 [SteelSword] [0x0,0x0,0x0,0x0]
+UNIT
+
+CethernCeth:
+UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [10,7] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+SetantaMi:
+UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [9,7] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+FerdiadMi:
+UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [11,7] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+SadhbhMi:
+UNIT Sadhbh Crownflier 0x1 Level(1, Ally, 0)    [10,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+LalithaMi:
+UNIT Lalitha Mage_F 0x1 Level(1, Ally, 0)    [9,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+BresMi:
+UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [11,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+HanlinMi:
+UNIT Hanlin Trobairitz 0x1 Level(2, Ally, 0)    [10,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+GedeonMi:
+UNIT Gedeon Fighter 0x1 Level(1, Ally, 0)    [9,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+AengusMi:
+UNIT Aengus Knight 0x1 Level(1, Ally, 0)    [8,7] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+EthniuMi:
+UNIT Ethniu Shaman_F 0x1 Level(1, Ally, 0)    [12,7] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+MiachMi:
+UNIT Miach Villager 0x1 Level(1, Ally, 0)       [11,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+CamnielP:
+UNIT 0x80 WyvernLord_F 0x1 Level(1, Enemy, 1)    [7,0] 0x0 0x0 0x1 REDA8R5 [BraveAxe] [0x0,0x0,0x0,0x0]
+UNIT
+
+WyvernSquad:
+UNIT 0x81 SkyKnight 0x1 Level(1, Enemy, 0)    [1,0] 0x0 0x0 0x1 REDA7R4 [0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x82 SkyKnight 0x1 Level(1, Enemy, 0)    [3,0] 0x0 0x0 0x1 REDA8R3 [0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x83 SkyKnight 0x1 Level(1, Enemy, 0)    [5,0] 0x0 0x0 0x1 REDA9R4 [0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x84 SkyKnight 0x1 Level(1, Enemy, 0)    [9,0] 0x0 0x0 0x1 REDA6R3 [0x0] [0x0,0x0,0x0,0x0]
+UNIT 0x85 SkyKnight 0x1 Level(1, Enemy, 0)    [11,0] 0x0 0x0 0x1 REDA10R3 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 EnemyUnits:
@@ -102,7 +171,7 @@ UNIT Ochren LanceKnight 0x0 Level(8, Enemy, 1)      [11,17] 0 0 1 REDA11R17   [S
 UNIT 0x84 Myrmidon 0x0 Level(8, Enemy, 1)           [0,10]  0 0 1 REDA0R10    [SteelSword] [0,0,4,0]
 UNIT 0x84 LanceCav 0x0 Level(7, Enemy, 1)           [0,6]   0 0 1 REDA0R6     [IronLance] [0,0,4,0]
 UNIT 0x84 Fighter 0x0 Level(8, Enemy, 1)            [3,0]   0 0 1 REDA3R0     [SteelAxe] [0,0,4,0]
-UNIT 0x85 Trobairitz 0x0 Level(7, Enemy, 1)         [5,0]   0 0 1 REDA5R0     [Physic] [0xE,0x3,0x4,0x0]
+UNIT 0x85 Trobairitz 0x0 Level(7, Enemy, 1)         [5,0]   0 0 1 REDA5R0     [Physic,Elixir] [0xE,0,0,0x0]
 UNIT Ochren SkyKnight 0x0 Level(8, Enemy, 1)        [19,6]  0 0 1 REDA19R6    [IronLance] [0,0,4,0]
 UNIT
 
@@ -119,6 +188,34 @@ UNIT Ochren SkyKnight 0x0 Level(9, Enemy, 1)        [0,15]  0 0 1 REDA0R15    [S
 UNIT Ochren SkyKnight 0x0 Level(7, Enemy, 1)        [2,17]  0 0 1 REDA2R17    [IronLance] [0,0,4,0]
 UNIT
 
+TurnEightReinforcements:
+UNIT 0x84 Mercenary 0x0 Level(7, Enemy, 1)    [2,0] 0 0 1 REDA2R0    [IronBlade] [0,0,4,0]
+UNIT 0x84 LanceKnight 0x0 Level(8, Enemy, 1) [8,0] 0 0 1 REDA8R0    [SteelLance] [0,0,4,0]
+UNIT 0x84 Fighter 0x0 Level(9, Enemy, 1)    [0,4] 0 0 1 REDA0R4    [HandAxe] [0,0,4,0]
+UNIT 0x84 SkyKnight 0x0 Level(8, Enemy, 1) [17,0] 0 0 1 REDA17R1    [IronLance] [0,0,4,0]
+UNIT 0x84 SkyKnight 0x0 Level(9, Enemy, 1) [19,9] 0 0 1 REDA19R9    [IronLance] [0,0,4,0]
+UNIT OchrenMag Diabolist_F 0x0 Level(9, Enemy, 1) [11,17] 0 0 1 REDA11R17    [Fire] [0,0,4,0]
+UNIT OchrenMag Mystic 0x0 Level(8, Enemy, 1) [12,17] 0 0 1 REDA12R17    [Flux] [0,0,4,0]
+UNIT
+
+TurnNineReinforcements:
+UNIT 0x84 SkyKnight 0x0 Level(9, Enemy, 1) [19,5] 0 0 1 REDA19R5    [IronLance] [0,0,4,0]
+UNIT 0x84 Soldier 0x0 Level(8, Enemy, 1) [0,1] 0 0 1 REDA0R1    [IronLance] [0,0,4,0]
+UNIT Ochren SkyKnight 0x0 Level(7, Enemy, 1) [19,17] 0 0 1 REDA19R17    [IronLance] [0,0,4,0]
+UNIT
+
+TurnTenReinforcements:
+UNIT 0x85 Diviner 0x0 Level(8, Enemy, 1) [0,10] 0 0 1 REDA0R10    [MalkuthI] [0,0,4,0]
+UNIT Ochren SwordCav 0x0 Level(9, Enemy, 1) [11,17] 0 0 1 REDA11R17    [IronSword] [0,0,4,0]
+UNIT
+
+TurnElevenReinforcements:
+UNIT 0x84 LanceCav_F 0x0 Level(7, Enemy, 1) [4,0] 0 0 1 REDA4R0    [IronLance] [0,0,4,0]
+UNIT 0x84 AxeCav 0x0 Level(7, Enemy, 1) [0,6] 0 0 1 REDA0R6    [IronAxe] [0,0,4,0]
+UNIT 0x84 SkyKnight 0x0 Level(9, Enemy, 1) [19,12] 0 0 1 REDA19R12    [IronLance] [0,0,4,0]
+UNIT 0x84 SkyKnight 0x0 Level(8, Enemy, 1) [9,17] 0 0 1 REDA9R17    [IronLance] [0,0,4,0]
+UNIT 
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -128,6 +225,16 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC 0x2E
+SetBackground(ArmyCampWinterNight)
+BROWNBOXTEXT CaerVedwyd [8,8] // box in the top right that's pretty cool for small text
+TEXTSTART
+TEXTSHOW P1CFWelcomeToCaerVedwyd
+TEXTEND
+REMA
+FADI 4
+STAL 60
+CLEAN
 MUSC 0x5
 SetBackground(0x34)
 STAL 60
@@ -150,9 +257,9 @@ CLEAN
 EnterStop
 MUSC 0x4A
 SetBackground(HillsNight)
-BROWNBOXTEXT CaerVedwyd [8,8] // box in the top right that's pretty cool for small text
+BROWNBOXTEXT CaerOchren [8,8] // box in the top right that's pretty cool for small text
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFCethernMiachThroughTheHills
 TEXTEND
 REMA
 MUSCMID 0x7FFF
@@ -161,43 +268,725 @@ STAL 60
 CLEAN
 MUSC 0x4E
 SetBackground(FortNight)
-TEXTSTART
-TEXTSHOW PlaceholderText
-TEXTEND
-REMA
-FADI 4
-STAL 60
-CLEAN
-LOAD1 0x1 EnemyUnits
-ENUN
-LOAD2 0x1 UnitsP
-ENUN
-AliveCLoad(Setanta,SetantaP,0xA)
-AliveCLoad(Ferdiad,FerdiadP,0xB)
-AliveCLoad(Lalitha,LalithaP,0xC)
-AliveCLoad(Bres,BresP,0xD)
-AliveCLoad(Ethniu,EthniuP,0xE)
-AliveCLoad(Aengus,AengusP,0xF)
-AliveCLoad(Hanlin,HanlinP,0x10)
-AliveCLoad(Sadhbh,SadhbhP,0x11)
-AliveCLoad(Gedeon,GedeonP,0x12)
+BROWNBOXTEXT CaerVedwyd [8,8] // box in the top right that's pretty cool for small text
 CHECK_ALIVE Hanlin
 BEQ 0x0 0xC 0x0
-	CALL 0x591F40
-	SVAL 0x3 TorchStaff
-	GIVEITEMTO Hanlin
-	GOTO 0x1
+	CHECK_ALIVE Sadhbh
+	BEQ 0x50 0xC 0x0
+		TEXTSTART
+		TEXTSHOW P1CFSadhbhHanlinTorch
+		TEXTEND
+		REMA
+		CALL 0x591F40
+		SVAL 0x3 TorchStaff
+		GIVEITEMTO Hanlin
+		GOTO 0x1
+	LABEL 0x50
+	TEXTSTART
+	TEXTSHOW P1CFCethernHanlinTorch
+	TEXTEND
+	REMA
+	GOTO 0x53
 LABEL 0x0
+CHECK_ALIVE Sadhbh
+BEQ 0x52 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1CFCethernSadhbhTorch
+	TEXTEND
+	REMA
+	GOTO 0x53
+LABEL 0x52
+TEXTSTART
+TEXTSHOW P1CFCethernMiachTorch
+TEXTEND
+REMA
+LABEL 0x53
 CALL 0x591F40
 SVAL 0x3 TorchItem
 GIVEITEMTO Cethern
 LABEL 0x1
+CHECK_ALIVE Gedeon
+BEQ 0xFF0 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1CFGedeonPrince
+	TEXTEND
+	REMA
+	GOTO 0xFFE
+LABEL 0xFF0
+CHECK_ALIVE Hanlin
+BEQ 0xFF1 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1CFHanlinPrince
+	TEXTEND
+	REMA
+	GOTO 0xFFE
+LABEL 0xFF1
+CHECK_ALIVE Sadhbh
+BEQ 0xFF2 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1CFSadhbhPrince
+	TEXTEND
+	REMA
+	GOTO 0xFFE
+LABEL 0xFF2
+TEXTSTART
+TEXTSHOW P1CFMiachPrince
+TEXTEND
+REMA
+LABEL 0xFFE
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+CLEAN
+MUSC 0x25
+SetBackground(ForestNight)
+CHECK_ALIVE Lalitha
+BEQ 0xFF3 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1CFLalithaNotices
+	TEXTEND
+	REMA
+	GOTO 0xFFD
+LABEL 0xFF3
+TEXTSTART
+TEXTSHOW P1CFCethernNotices
+TEXTEND
+REMA
+LABEL 0xFFD
+FADI 8
+CLEAN
+LOAD1 0x1 EnemyUnits
+ENUN
+CAM1 [9,10]
+STAL 30
+FADU 16
+LOAD2 0x1 UnitsP
+ENUN
+CUMO Cethern
+STAL 60
+CURE
+MUSC 0x45
+TEXTSTART
+TEXTSHOW P1CFCethernEncourages
+TEXTEND
+REMA
+CHECK_ALIVE Gedeon
+BEQ 0x101 0xC 0x0
+	LOAD2 0x1 GedeonP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFGedeonQuote
+	TEXTEND
+	REMA
+LABEL 0x101
+CHECK_ALIVE Hanlin
+BEQ 0x102 0xC 0x0
+	LOAD2 0x1 HanlinP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFHanlinQuote
+	TEXTEND
+	REMA
+LABEL 0x102
+CHECK_ALIVE Lalitha
+BEQ 0x103 0xC 0x0
+	LOAD2 0x1 LalithaP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFLalithaQuote
+	TEXTEND
+	REMA
+LABEL 0x103
+CHECK_ALIVE Bres
+BEQ 0x104 0xC 0x0
+	LOAD2 0x1 BresP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFBresQuote
+	TEXTEND
+	REMA
+LABEL 0x104
+CHECK_ALIVE Ethniu
+BEQ 0x105 0xC 0x0
+	LOAD2 0x1 EthniuP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFEthniuQuote
+	TEXTEND
+	REMA
+LABEL 0x105
+CHECK_ALIVE Aengus
+BEQ 0x106 0xC 0x0
+	LOAD2 0x1 AengusP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFAengusQuote
+	TEXTEND
+	REMA
+LABEL 0x106
+CHECK_ALIVE Ferdiad
+BEQ 0x107 0xC 0x0
+	LOAD2 0x1 FerdiadP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFFerdiadQuote
+	TEXTEND
+	REMA
+LABEL 0x107
+CHECK_ALIVE Setanta
+BEQ 0x108 0xC 0x0
+	LOAD2 0x1 SetantaP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFSetantaQuote
+	TEXTEND
+	REMA
+LABEL 0x108
+CHECK_ALIVE Sadhbh
+BEQ 0x109 0xC 0x0
+	LOAD2 0x1 SadhbhP
+	ENUN
+	TEXTSTART
+	TEXTSHOW P1CFSadhbhQuote
+	TEXTEND
+	REMA
+LABEL 0x109
+LOAD2 0x1 MiachP
+ENUN
+MUSC 0x4E
+CUMO Miach
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1CFCethernMiachTalk
+TEXTEND
+REMA
+//VCWF 0
 NoFade
 ENDA
 
 EndingScene:
-MNCH 0x5
-FADI 2
+MUSC 0x26
+FADI 5
+ENUT 0x84
+CLEA 0x0
+CLEE 0x0
+CLEN 0x0
+SetBackground(ForestNight)
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+MUSCMID 0x7FFF
+REMA
+FADI 6
+STAL 30
+CLEAN
+MUSC 0x4E
+CAM1 [9,7]
+LOAD1 0x1 JhudielP
+ENUN
+LOAD2 0x1 CethernCeth
+ENUN
+VCWF 4
+FADU 10
+CUMO Cethern
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+MOVE 0xA Cethern [10,6]
+ENUN
+MUSCMID 0x7FFF
+StartBattle
+MissedAttack(0,0)
+MissedAttack(1,0)
+SetScriptedBattle(55,5,0,80,22,15)
+FIG1 Cethern Jhudiel_1 0x0
+MUSC 0x4E
+CUMO Jhudiel_1
+STAL 60
+CURE
+MUSC 0x4E
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+StartBattle
+NormalDamage(0,5)
+CriticalHit(1,66)
+SetScriptedBattle(55,5,0,80,22,15)
+FIG1 Cethern Jhudiel_1 0x0
+MUSC 0x29
+FADI 4
+CLEA 0x0
+SetBackground(ForestMorning)
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+FADI 6
+CLEA 0x0
+DISA_IF Cethern
+CLEAN
+CAM1 [9,6]
+AliveCLoad(Setanta,SetantaMi,0xBBA)
+AliveCLoad(Ferdiad,FerdiadMi,0xBBB)
+AliveCLoad(Lalitha,LalithaMi,0xBBC)
+AliveCLoad(Bres,BresMi,0xBBD)
+AliveCLoad(Ethniu,EthniuMi,0xBBE)
+AliveCLoad(Aengus,AengusMi,0xBBF)
+AliveCLoad(Hanlin,HanlinMi,0xBB10)
+AliveCLoad(Sadhbh,SadhbhMi,0xBB11)
+AliveCLoad(Gedeon,GedeonMi,0xBB12)
+LOAD2 0x1 MiachMi
+ENUN
+VCWF 0
+RemoveInventory(0x1)
+RemoveInventory(0x2)
+RemoveInventory(0x3)
+RemoveInventory(0x4)
+RemoveInventory(0x5)
+RemoveInventory(0x6)
+RemoveInventory(0x7)
+RemoveInventory(0x8)
+RemoveInventory(0x9)
+RemoveInventory(0xA)
+RemoveInventory(0xB)
+RemoveInventory(0xC)
+RemoveInventory(0xD)
+RemoveInventory(0xE)
+RemoveInventory(0xF)
+RemoveInventory(0x10)
+RemoveInventory(0x11)
+RemoveInventory(0x12)
+RemoveInventory(0x13)
+RemoveInventory(0x14)
+RemoveInventory(0x15)
+RemoveInventory(0x16)
+RemoveInventory(0x17)
+RemoveInventory(0x18)
+RemoveInventory(0x19)
+RemoveInventory(0x1A)
+RemoveInventory(0x1B)
+RemoveInventory(0x1C)
+RemoveInventory(0x1D)
+RemoveInventory(0x1E)
+RemoveInventory(0x1F)
+RemoveInventory(0x20)
+RemoveInventory(0x21)
+RemoveInventory(0x22)
+RemoveInventory(0x23)
+RemoveInventory(0x24)
+RemoveInventory(0x25)
+RemoveInventory(0x26)
+RemoveInventory(0x27)
+RemoveInventory(0x28)
+RemoveInventory(0x29)
+RemoveInventory(0x2A)
+RemoveInventory(0x2B)
+RemoveInventory(0x2C)
+RemoveInventory(0x2D)
+RemoveInventory(0x2E)
+RemoveInventory(0x2F)
+RemoveInventory(0x30)
+RemoveInventory(0x31)
+RemoveInventory(0x32)
+RemoveInventory(0x33)
+RemoveInventory(0x34)
+RemoveInventory(0x35)
+RemoveInventory(0x36)
+RemoveInventory(0x37)
+RemoveInventory(0x38)
+RemoveInventory(0x39)
+RemoveInventory(0x3A)
+RemoveInventory(0x3B)
+RemoveInventory(0x3C)
+RemoveInventory(0x3D)
+RemoveInventory(0x3E)
+RemoveInventory(0x3F)
+RemoveInventory(0x40)
+RemoveInventory(0x41)
+RemoveInventory(0x42)
+RemoveInventory(0x43)
+RemoveInventory(0x44)
+RemoveInventory(0x45)
+RemoveInventory(0x46)
+RemoveInventory(0x47)
+RemoveInventory(0x48)
+RemoveInventory(0x49)
+RemoveInventory(0x4A)
+RemoveInventory(0x4B)
+RemoveInventory(0x4C)
+RemoveInventory(0x4D)
+RemoveInventory(0x4E)
+RemoveInventory(0x4F)
+RemoveInventory(0x50)
+RemoveInventory(0x51)
+RemoveInventory(0x52)
+RemoveInventory(0x53)
+RemoveInventory(0x54)
+RemoveInventory(0x55)
+RemoveInventory(0x56)
+RemoveInventory(0x57)
+RemoveInventory(0x58)
+RemoveInventory(0x59)
+RemoveInventory(0x5A)
+RemoveInventory(0x5B)
+RemoveInventory(0x5C)
+RemoveInventory(0x5D)
+RemoveInventory(0x5E)
+RemoveInventory(0x5F)
+RemoveInventory(0x60)
+RemoveInventory(0x61)
+RemoveInventory(0x62)
+RemoveInventory(0x63)
+RemoveInventory(0x64)
+RemoveInventory(0x65)
+RemoveInventory(0x66)
+RemoveInventory(0x67)
+RemoveInventory(0x68)
+RemoveInventory(0x69)
+RemoveInventory(0x6A)
+RemoveInventory(0x6B)
+RemoveInventory(0x6C)
+RemoveInventory(0x6D)
+RemoveInventory(0x6E)
+RemoveInventory(0x6F)
+RemoveInventory(0x70)
+RemoveInventory(0x71)
+RemoveInventory(0x72)
+RemoveInventory(0x73)
+RemoveInventory(0x74)
+RemoveInventory(0x75)
+RemoveInventory(0x76)
+RemoveInventory(0x77)
+RemoveInventory(0x78)
+RemoveInventory(0x79)
+RemoveInventory(0x7A)
+RemoveInventory(0x7B)
+RemoveInventory(0x7C)
+RemoveInventory(0x7D)
+RemoveInventory(0x7E)
+RemoveInventory(0x7F)
+RemoveInventory(0x80)
+RemoveInventory(0x81)
+RemoveInventory(0x82)
+RemoveInventory(0x83)
+RemoveInventory(0x84)
+RemoveInventory(0x85)
+RemoveInventory(0x86)
+RemoveInventory(0x87)
+RemoveInventory(0x88)
+RemoveInventory(0x89)
+RemoveInventory(0x8A)
+RemoveInventory(0x8B)
+RemoveInventory(0x8C)
+RemoveInventory(0x8D)
+RemoveInventory(0x8E)
+RemoveInventory(0x8F)
+FADU 10
+MUSC 0x4E
+CUMO Jhudiel_1
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+MUSC 0x25
+LOAD2 0x1 CamnielP
+ENUN
+LOAD2 0x1 WyvernSquad
+ENUN
+CUMO 0x80
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND 
+REMA
+CHECK_ALIVE Sadhbh
+BEQ 0xC00 0xC 0x0
+	CUMO Jhudiel_1
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND 
+	REMA
+	GOTO 0xC0C
+LABEL 0xC00
+CHECK_ALIVE Setanta
+BEQ 0xC01 0xC 0x0
+	CUMO Jhudiel_1
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND 
+	REMA
+	GOTO 0xC0C
+LABEL 0xC01
+CHECK_ALIVE Ferdiad
+BEQ 0xC02 0xC 0x0
+	CUMO Jhudiel_1
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND 
+	REMA
+	GOTO 0xC0C
+LABEL 0xC02
+CHECK_ALIVE Ethniu
+BEQ 0xC03 0xC 0x0
+	CUMO Jhudiel_1
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND 
+	REMA
+	GOTO 0xC0C
+LABEL 0xC03
+CHECK_ALIVE Hanlin
+BEQ 0xC04 0xC 0x0
+	CUMO Jhudiel_1
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND 
+	REMA
+	GOTO 0xC0C
+LABEL 0xC04
+CUMO Jhudiel_1
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND 
+REMA
+LABEL 0xC0C
+CHECK_ALIVE Setanta
+BEQ 0xD00 0xC 0x0
+	MOVE 0xD Setanta [8,12]
+LABEL 0xD00
+CHECK_ALIVE Ferdiad
+BEQ 0xD01 0xC 0x0
+	MOVE 0xD Ferdiad [9,12]
+LABEL 0xD01
+CHECK_ALIVE Sadhbh
+BEQ 0xD02 0xC 0x0
+	MOVE 0xD Sadhbh [10,12]
+LABEL 0xD02
+CHECK_ALIVE Hanlin
+BEQ 0xD03 0xC 0x0
+	MOVE 0xD Hanlin [11,12]
+LABEL 0xD03
+CHECK_ALIVE Lalitha
+BEQ 0xD04 0xC 0x0
+	MOVE 0xD Lalitha [9,13]
+LABEL 0xD04
+CHECK_ALIVE Bres
+BEQ 0xD05 0xC 0x0
+	MOVE 0xD Bres [10,13]
+LABEL 0xD05
+CHECK_ALIVE Aengus
+BEQ 0xD06 0xC 0x0
+	MOVE 0xD Aengus [11,13]
+LABEL 0xD06
+CHECK_ALIVE Ethniu
+BEQ 0xD07 0xC 0x0
+	MOVE 0xD Ethniu [9,14]
+LABEL 0xD07
+CHECK_ALIVE Gedeon
+BEQ 0xD08 0xC 0x0
+	MOVE 0xD Gedeon [10,14]
+LABEL 0xD08
+MOVE 0xD Miach [11,14]
+ENUN
+CUMO 0x80
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+MOVE 0xD 0x80 [6,12]
+MOVE 0xD 0x81 [7,12]
+MOVE 0xD 0x82 [12,12]
+MOVE 0xD 0x83 [13,12]
+MOVE 0xD 0x84 [5,12]
+MOVE 0xD 0x85 [14,12]
+ENUN
+CUMO Jhudiel_1
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW PlaceholderText
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 3
+RemoveInventory(0x90)
+RemoveInventory(0x91)
+RemoveInventory(0x92)
+RemoveInventory(0x93)
+RemoveInventory(0x94)
+RemoveInventory(0x95)
+RemoveInventory(0x96)
+RemoveInventory(0x97)
+RemoveInventory(0x98)
+RemoveInventory(0x99)
+RemoveInventory(0x9A)
+RemoveInventory(0x9B)
+RemoveInventory(0x9C)
+RemoveInventory(0x9D)
+RemoveInventory(0x9E)
+RemoveInventory(0x9F)
+RemoveInventory(0xA0)
+RemoveInventory(0xA1)
+RemoveInventory(0xA2)
+RemoveInventory(0xA3)
+RemoveInventory(0xA4)
+RemoveInventory(0xA5)
+RemoveInventory(0xA6)
+RemoveInventory(0xA7)
+RemoveInventory(0xA8)
+RemoveInventory(0xA9)
+RemoveInventory(0xAA)
+RemoveInventory(0xAB)
+RemoveInventory(0xAC)
+RemoveInventory(0xAD)
+RemoveInventory(0xAE)
+RemoveInventory(0xAF)
+RemoveInventory(0xB0)
+RemoveInventory(0xB1)
+RemoveInventory(0xB2)
+RemoveInventory(0xB3)
+RemoveInventory(0xB4)
+RemoveInventory(0xB5)
+RemoveInventory(0xB6)
+RemoveInventory(0xB7)
+RemoveInventory(0xB8)
+RemoveInventory(0xB9)
+RemoveInventory(0xBA)
+RemoveInventory(0xBB)
+RemoveInventory(0xBC)
+RemoveInventory(0xBD)
+RemoveInventory(0xBE)
+RemoveInventory(0xBF)
+RemoveInventory(0xC0)
+RemoveInventory(0xC1)
+RemoveInventory(0xC2)
+RemoveInventory(0xC3)
+RemoveInventory(0xC4)
+RemoveInventory(0xC5)
+RemoveInventory(0xC6)
+RemoveInventory(0xC7)
+RemoveInventory(0xC8)
+RemoveInventory(0xC9)
+RemoveInventory(0xCA)
+RemoveInventory(0xCB)
+RemoveInventory(0xCC)
+RemoveInventory(0xCD)
+RemoveInventory(0xCE)
+RemoveInventory(0xCF)
+RemoveInventory(0xD0)
+RemoveInventory(0xD1)
+RemoveInventory(0xD2)
+RemoveInventory(0xD3)
+RemoveInventory(0xD4)
+RemoveInventory(0xD5)
+RemoveInventory(0xD6)
+RemoveInventory(0xD7)
+RemoveInventory(0xD8)
+RemoveInventory(0xD9)
+RemoveInventory(0xDA)
+RemoveInventory(0xDB)
+RemoveInventory(0xDC)
+RemoveInventory(0xDD)
+RemoveInventory(0xDE)
+RemoveInventory(0xDF)
+RemoveInventory(0xE0)
+RemoveInventory(0xE1)
+RemoveInventory(0xE2)
+RemoveInventory(0xE3)
+RemoveInventory(0xE4)
+RemoveInventory(0xE5)
+RemoveInventory(0xE6)
+RemoveInventory(0xE7)
+RemoveInventory(0xE8)
+RemoveInventory(0xE9)
+RemoveInventory(0xEA)
+RemoveInventory(0xEB)
+RemoveInventory(0xEC)
+RemoveInventory(0xED)
+RemoveInventory(0xEE)
+RemoveInventory(0xEF)
+RemoveInventory(0xF0)
+RemoveInventory(0xF1)
+RemoveInventory(0xF2)
+RemoveInventory(0xF3)
+RemoveInventory(0xF4)
+RemoveInventory(0xF5)
+RemoveInventory(0xF6)
+RemoveInventory(0xF7)
+RemoveInventory(0xF8)
+RemoveInventory(0xF9)
+RemoveInventory(0xFA)
+RemoveInventory(0xEB)
+RemoveInventory(0xFC)
+RemoveInventory(0xFD)
+RemoveInventory(0xFE)
+RemoveInventory(0xFF)
+CHECK_ALIVE Setanta
+BEQ 0xDA0 0xC 0x0
+	REMU Setanta
+	GOTO 0xDA1
+LABEL 0xDA0
+	DISA_IF Setanta
+LABEL 0xDA1
+CHECK_ALIVE Ferdiad
+BEQ 0xDA2 0xC 0x0
+	REMU Ferdiad
+LABEL 0xDA2
+CHECK_ALIVE Sadhbh
+BEQ 0xDA3 0xC 0x0
+	REMU Sadhbh
+LABEL 0xDA3
+CHECK_ALIVE Lalitha
+BEQ 0xDA4 0xC 0x0
+	REMU Lalitha
+LABEL 0xDA4
+CHECK_ALIVE Bres
+BEQ 0xDA5 0xC 0x0
+	REMU Bres
+LABEL 0xDA5
+CHECK_ALIVE Aengus
+BEQ 0xDA6 0xC 0x0
+	REMU Aengus
+LABEL 0xDA6
+CHECK_ALIVE Ethniu
+BNE 0xDA7 0xC 0x0
+	DISA_IF Ethniu
+LABEL 0xDA7
+CHECK_ALIVE Gedeon
+BEQ 0xDA8 0xC 0x0
+	REMU Gedeon
+LABEL 0xDA8
+CHECK_ALIVE Hanlin
+BEQ 0xDA9 0xC 0x0
+	REMU Hanlin
+LABEL 0xDA9
+REMU Miach
+MNC2 0x6
+//MNC2 0x38
+ENUF 0x84
 NoFade
 ENDA
 
@@ -205,6 +994,7 @@ CanYouFeelIt:
 LOAD1 0x1 TurnThreeReinforcements
 ENUN
 CAM1 Cethern
+STAL 20
 CUMO Cethern
 STAL 60
 CURE
@@ -225,6 +1015,7 @@ ENUN
 CHECK_ALIVE Gedeon
 BEQ 0x0 0xC 0x0
 	CAM1 Gedeon
+	STAL 20
 	CUMO Gedeon
 	STAL 60
 	CURE
@@ -233,6 +1024,84 @@ BEQ 0x0 0xC 0x0
 	TEXTEND
 	REMA
 LABEL 0x0
+NoFade
+ENDA
+
+BabaBaba:
+LOAD1 0x1 TurnSixReinforcements
+ENUN
+CHECK_ALIVE Sadhbh
+BEQ 0x0 0xC 0x0
+	CAM1 Sadhbh
+	STAL 20
+	CUMO Sadhbh
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND
+	REMA
+LABEL 0x0
+NoFade
+ENDA
+
+Kernel:
+LOAD1 0x1 TurnEightReinforcements
+ENUN
+CHECK_ALIVE Ferdiad
+BEQ 0x0 0xC 0x0
+	CAM1 Ferdiad
+	STAL 20
+	CUMO Ferdiad
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND
+	REMA
+LABEL 0x0
+NoFade
+ENDA
+
+Kernel2:
+LOAD1 0x1 TurnNineReinforcements
+ENUN
+CHECK_ALIVE Bres
+BEQ 0x0 0xC 0x0
+	CAM1 Bres
+	STAL 20
+	CUMO Bres
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND
+	REMA
+LABEL 0x0
+NoFade
+ENDA
+
+Kernel3:
+LOAD1 0x1 TurnTenReinforcements
+ENUN
+CHECK_ALIVE Hanlin
+BEQ 0x0 0xC 0x0
+	CAM1 Hanlin
+	STAL 20
+	CUMO Hanlin
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW PlaceholderText
+	TEXTEND
+	REMA
+LABEL 0x0
+NoFade
+ENDA
+
+Kernel4:
+LOAD1 0x1 TurnElevenReinforcements
+ENUN
 NoFade
 ENDA
 

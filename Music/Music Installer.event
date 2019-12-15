@@ -27,6 +27,10 @@ SongTable(0x11,redstain, 1)
 SongTable(0x19,flycagedbird, 0)
 #include "flycagedbird.event"
 
+// A Savage Approach
+SongTable(0x1A,birdfeeder,0)
+#include "birdfeeder.event"
+
 // With Us
 SongTable(0x30,WithUs, 0)
 #include "WithUs.event"

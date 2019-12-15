@@ -110,3 +110,15 @@ Map_WyvernLord_Stand:
 #incext Png2Dmp "WyvernLS.png" --lz77
 Map_WyvernLord_Move:
 #incext Png2Dmp "WyvernLM.png" --lz77
+Map_GoldKnight_Stand:
+#incext Png2Dmp "GoldKnightS.png" --lz77
+Map_GoldKnight_Move:
+#incext Png2Dmp "GoldKnightM.png" --lz77
+Map_SilverKnight_Stand:
+#incext Png2Dmp "SilverKnightS.png" --lz77
+Map_SilverKnight_Move:
+#incext Png2Dmp "SilverKnightM.png" --lz77
+Map_Fighter_Stand:
+#incext Png2Dmp "FighterS.png" --lz77
+Map_Fighter_Move:
+#incext Png2Dmp "FighterM.png" --lz77

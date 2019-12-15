@@ -61,8 +61,12 @@
 [LoadRionall] = [LoadFace][0xD][0x1]
 [LoadEthniu] = [LoadFace][0xE][0x1]
 [LoadGedeon] = [LoadFace][0xF][0x1]
+[LoadJhudiel] = [LoadFace][0x12][0x1]
+[LoadCamniel] = [LoadFace][0x15][0x1]
 [LoadIshpan] = [LoadFace][0x33][0x1]
+[LoadGedaliah] = [LoadFace][0x34][0x1]
 [LoadWydyrCommander] = [LoadFace][0x54][0x1]
+[LoadEnemySoldierF] = [LoadFace][0x69][0x1]
 [LoadEnemySoldier] = [LoadFace][0x6B][0x1]
 
 [ConversationText] = [0x90]

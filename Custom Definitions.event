@@ -76,6 +76,8 @@
 #define Dracolord 0x4
 #define LanceCav 0x5
 #define LanceCav_F 0x6
+#define GoldKnight 0x7
+#define SilverKnight 0x8
 #define LanceKnight 0x9
 #define LanceKnight_F 0xA
 #define Vagabond 0x10
@@ -145,6 +147,7 @@
 #define FortNight 0xB
 #define ForestNight 0xC
 #define HillsNight 0xD
+#define ArmyCampWinterNight 0xE
 #define WarriorTent 0xF
 #define BrownCastleInterior 0x12
 #define ArmyCamp 0x14
