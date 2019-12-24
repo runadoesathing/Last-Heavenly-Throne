@@ -12,12 +12,12 @@ Lance Knight,KnightSkillList|IsPointer
 Lance Knight (F),KnightSkillList|IsPointer
 General,GeneralSkillList|IsPointer
 General (F),GeneralSkillList|IsPointer
-Thief,ThiefSkillList|IsPointer
+Thief,0x0
 Manakete,0x0
 Mercenary,MercenarySkillList|IsPointer
 Vagabond,HarrierSkillList|IsPointer
 Hero,HeroSkillList|IsPointer
-Hero (F),ThiefSkillList|IsPointer
+Hero (F),0x0
 Myrmidon,MyrmidonSkillList|IsPointer
 Myrmidon (F),MyrmidonSkillList|IsPointer
 Swordmaster,SwordmasterSkillList|IsPointer

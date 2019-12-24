@@ -213,6 +213,7 @@
 	POIN Extra_Growth_Boosts|1
 
 	ALIGN 4
+	MESSAGE ExtraGrowthBoosts at currentOffset
 	Extra_Growth_Boosts:
 	#incbin "asm/Growth Getters/Extra_Growth_Boosts.dmp"
 	WORD Growth_Options

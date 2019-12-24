@@ -133,6 +133,15 @@ Please don't die on me, Miach!![X]
 
 
 
+## SrihwenDeathQ
+[BattleText]
+[OpenMidRight][LoadSrihwen]
+Her voice...
+I can hear it calling in the distance.[CloseEyes]
+I'm sorry I couldn't save you, Earthmother...[X]
+
+
+
 ## SomaDeathQ
 [BattleText]
 [OpenMidRight][LoadFace][0x10][0x1]

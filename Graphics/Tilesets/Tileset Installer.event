@@ -1,0 +1,25 @@
+VillageTiles:
+#incext compress "RevampedVillage.mapchip_config"
+ALIGN 4
+
+VillageObjects:
+#incbin "RevampedVillage.dmp"
+ALIGN 4
+
+CorbenicPalette:
+#incext Png2Dmp "CormenicFields.png" --palette-only
+ALIGN 4
+
+NightSnowFieldsPalette:
+#incext Png2Dmp "SnowFields.png" --palette-only
+ALIGN 4
+
+NicktVillagePalette:
+#incext Png2Dmp "NicktVillage.png" --palette-only
+ALIGN 4
+
+EventPointerTable(0xe, VillageObjects)
+EventPointerTable(0x10, VillageTiles)
+EventPointerTable(0xe0, CorbenicPalette)
+EventPointerTable(0xe1, NightSnowFieldsPalette)
+EventPointerTable(0xe2, NicktVillagePalette)

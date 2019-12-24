@@ -26,3 +26,9 @@ ALIGN 4
 {
 #include "Spells/Wind/Wind.event"
 }
+{
+#include "Spells/Brine/Brine.event"
+}
+{
+#include "Spells/Worm/Worm.event"
+}

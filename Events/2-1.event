@@ -1,0 +1,387 @@
+EventPointerTable(0x21, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN UnitsNaKa UnitsNaKa  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 CleartheSeal [1,0] 0x0
+TURN 0x0 MariciPredict [2,0] 0x0
+TURN 0x0 BAMITSMARICI [3,0] 0x0
+TURN 0x0 BanditPredict [5,0] 0x0
+TURN 0x0 BANDITONE [6,0] 0x0
+TURN 0xE OhNoOhBoy [1,255] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0xC, MariciTalk, Srihwen, Marici)
+END_MAIN
+
+LocationBasedEvents:
+LOCA 0xA GoldVillage [11,2] 0x10
+LOCA 0xA [11,1] 0x20
+Village(0x8,HealVillage,1,5)
+Village(0x9,WormVillage,2,1)
+Village(0xB,SlimLanceVillage,7,7)
+House(0x0,RegularHouse,7,1)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AFEV 0 EndingScene 0x2
+AREA 0xD MoreOnTheWay [11,6] [14,9]
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+UnitsNaKa:
+UNIT Srihwen Sibyl 0x0 Level(1, Ally, 0)    [3,9] 0x0 0x0 0x1 REDA3R8 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F Srihwen Level(1, Ally, 0)    [2,9] 0x0 0x0 0x1 REDA2R9 [0x0] [0,0,0,0]
+UNIT
+
+EthniuLoad:
+UNIT Ethniu Shaman_F Srihwen Level(0, Ally, 0)    [4,9] 0x0 0x0 0x1 REDA4R9 [0x0] [0,0,0,0]
+UNIT
+
+EthniuNew:
+UNIT Ethniu Shaman_F Srihwen Level(2, Ally, 0)    [4,9] 0x0 0x0 0x1 REDA4R9 [0x0] [0,0,0,0]
+UNIT
+
+EnemyUnits:
+UNIT Shuka Diabolist Shuka Level(5, Enemy, 1)    [3,6] 0 0 0 0 [Brine] NeverMoveAI
+UNIT
+
+EnemyTwo:
+UNIT Anila Myrmidon Shuka Level(1, Enemy, 1)    [0,2] 0 0 1 REDA3R6 [IronBlade] [0,0,4,0]
+UNIT Anila Mercenary Shuka Level(1, Enemy, 1)    [0,3] 0 0 1 REDA5R2 [IronBlade] [0,3,4,0]
+UNIT Anila Archer Shuka Level(1, Enemy, 1)    [14,9] 0 0 1 REDA10R6 [IronBow] [0,6,4,0]
+UNIT Anila Soldier Shuka Level(2, Enemy, 1)    [0,3] 0 0 1 REDA0R3 [IronLance] [0,6,4,0]
+UNIT Anila SwordKnight Shuka Level(1, Enemy, 1)    [0,2] 0 0 1 REDA7R4 [IronSword] [3,3,4,0x20]
+UNIT Anila Soldier Shuka Level(2, Enemy, 1)    [0,2] 0 0 1 REDA8R5 [Javelin] [0,3,4,0]
+UNIT Anila SwordCav Shuka Level(1, Enemy, 1)    [12,9] 0 0 1 REDA7R9 [IronSword] [0,3,4,0]
+UNIT Anila LanceKnight Shuka Level(1, Enemy, 1)    [13,9] DropItem 0 1 REDA12R5 [IronLance,Vulnerary] [3,3,4,0x20]
+UNIT Anila Mystic Shuka Level(1, Enemy, 1)    [14,9] 0 0 1 REDA14R4 [Flux] [0,6,4,0]
+UNIT Anila Soldier Shuka Level(1, Enemy, 1)    [12,9] 0 0 1 REDA10R9 [IronLance] [0,3,4,0]
+UNIT Anila Mercenary Shuka Level(1, Enemy, 1)    [13,9] 0 0 1 REDA10R3 [IronSword] [0,3,4,0]
+UNIT Anila Myrmidon Shuka Level(2, Enemy, 1)    [14,9] 0 0 1 REDA14R9 [SteelSword] [0,3,4,0]
+UNIT
+
+ReinforcementsTime:
+UNIT Anila SwordCav Shuka Level(1, Enemy, 1)    [0,2] 0 0 1 REDA0R2 [IronSword] [0,0,4,0]
+UNIT Anila AxeCav Shuka Level(1, Enemy, 1)    [0,3] 0 0 1 REDA0R3 [IronAxe] [0,0,4,0]
+UNIT
+
+BANDITNO:
+UNIT Anila Brigand Shuka Level(1, Enemy, 1)    [14,5] 0 0 1 REDA14R5 [IronAxe] [0,4,4,0]
+UNIT
+
+MariciTime:
+UNIT Marici BowCav Srihwen Level(1, Ally, 0)    [0,0] 0 0 1 REDA0R2 [IronBow, Vulnerary] [0,0,0,0]
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+MUSC 0x5
+SetBackground(0x34)
+STAL 60
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW P2C1WMIntro
+TEXTEND
+REMA
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW P2C1WMIntro2
+TEXTEND
+REMA
+FADI 3
+STAL 120
+CLEAN
+EnterStop
+ENUT TimeSkipFlag
+MUSC 0x24
+SetBackground(TownCG)
+BROWNBOXTEXT DharaName [8,8] // box in the top right that's pretty cool for small text
+TEXTSTART
+TEXTSHOW P2C1FirstContact
+TEXTEND
+MUSC 0x4C
+TEXTCONT
+TEXTEND
+MUSC 0x25
+TEXTCONT
+TEXTEND
+REMA
+FADI 6
+CLEAN
+LOAD1 0x1 UnitsNaKa
+ENUN
+CHECK_EVENTID Part1Completed
+BEQ 0x0 0xC 0x0
+	CHECK_ALIVE Ethniu
+	BEQ 0x1 0xC 0x0
+		LOAD2 0x1 EthniuLoad
+		ENUN
+		GOTO 0x2
+	LABEL 0x1
+	LOAD1 0x1 EthniuNew
+	ENUN
+	GOTO 0x2
+LABEL 0x0
+	LOAD1 0x1 EthniuNew
+	ENUN
+LABEL 0x2
+LOAD1 0x1 EnemyUnits
+ENUN
+SVAL 0x3 0xC350
+GIVETOSLOT3
+FADU 10
+NoFade
+ENDA
+
+EndingScene:
+MUSC 0x31
+FADI 4
+SetBackground(TownCG)
+Text(P2C1GoodJob)
+MUSCMID 0x7FFF
+FADI 4
+CLEAN
+STAL 60
+MUSC 0x52
+SetBackground(BigForestPath)
+TEXTSTART
+TEXTSHOW P2C1OnTheWay
+TEXTEND
+CHECK_ALIVE Marici
+BEQ 0x0 0xC 0x0
+	TEXTSHOW2 P2C1Marici
+	TEXTEND
+	GOTO 0x1
+LABEL 0x0
+TEXTSHOW2 P2C1NoMarici
+TEXTEND
+LABEL 0x1
+REMA
+MUSCMID 0x7FFF
+FADI 4
+CLEAN
+STAL 60
+MUSC 0x4E
+SetBackground(CastleHallway)
+BROWNBOXTEXT DharanMonastery [8,8] // box in the top right that's pretty cool for small text
+Text(P2C1Tara)
+MUSCMID 0x7FFF
+FADI 4
+CLEAN
+STAL 60
+MUSC 0x4A
+SetBackground(BedroomNight)
+Text(P2C1HwenCommune)
+MUSCMID 0x7FFF
+FADI 4
+MNC2 0x7
+NoFade
+ENDA
+
+CleartheSeal:
+MOVE 0xA Shuka [13,9]
+STAL 30
+LOAD1 0x1 EnemyTwo
+ENUN
+ASMC ClearAllItems|1
+CUMO Srihwen
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P2C1ProtectTheVillages
+TEXTEND
+REMA
+MUSC 0xA
+STAL 60
+CALL 0x591F40
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
+TUTORIALTEXTBOXSTART
+TEXTSHOW P2C1Warning
+TEXTEND
+REMA
+SilentlyGiveItem(Flux, Ethniu)
+SilentlyGiveItem(Vulnerary, Ethniu)
+SilentlyGiveItem(Padma, Srihwen)
+SilentlyGiveItem(Vulnerary, Srihwen)
+SilentlyGiveItem(0xA, Srihwen)
+SilentlyGiveItem(IronLance, Soma)
+ENUF 0x65
+ASMC ClearDebuffs|1
+NoFade
+ENDA
+
+HealVillage:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+SVAL 0x2 InsideMapHouse
+SVAL 0x3 P2C1HealVillage
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 Heal
+GIVEITEMTO 0xFFFF
+MUNO // increases music volume
+NoFade
+ENDA
+
+WormVillage:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+SVAL 0x2 InsideMapHouse
+SVAL 0x3 P2C1WormVillage
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 Worm
+GIVEITEMTO 0xFFFF
+MUNO // increases music volume
+NoFade
+ENDA
+
+GoldVillage:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+CHECK_ACTIVEID Srihwen
+BEQ 0x0 0xC 0x0
+	SVAL 0x2 InsideMapHouse
+	SVAL 0x3 P2C1GoldVillageYes
+	CALL 0x9EE310
+	REMA
+	CALL 0x591F40
+	SVAL 0x3 3000
+	GIVEITEMTOMAIN 0x0
+	TILECHANGE 0x5
+	GOTO 0x1
+LABEL 0x0
+SVAL 0x2 InsideMapHouse
+SVAL 0x3 P2C1GoldVillageNo
+CALL 0x9EE310
+REMA
+ENUF 0xA
+LABEL 0x1
+MUNO // increases music volume
+NoFade
+ENDA
+
+SlimLanceVillage:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+SVAL 0x2 InsideMapHouse
+SVAL 0x3 P2C1SlimLanceVillage
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 SlimLance
+GIVEITEMTO 0xFFFF
+MUNO // increases music volume
+NoFade
+ENDA
+
+RegularHouse:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideMapHouse // decides background 
+SVAL 0x3 P2C1HouseAnila // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
+NoFade
+ENDA
+
+BAMITSMARICI:
+LOAD1 0x1 MariciTime
+ENUN
+MUSC 0x30
+CUMO Marici
+STAL 60
+CURE
+Text(P2C1MariciText)
+NoFade
+ENDA
+
+BANDITONE:
+LOAD1 0x1 BANDITNO
+ENUN
+STAL 60
+NoFade
+ENDA
+
+MoreOnTheWay:
+SVAL 0x2 0x0
+CALL 0x9EE1B8
+CUMO Srihwen
+STAL 60
+CURE
+Text(P2C1CavalierPredict)
+NoFade
+ENDA
+
+OhNoOhBoy:
+CHECK_EVENTID 0xD
+BEQ 0x0 0x0 0xC
+	_0x2620 0x500 //camera better around borders of map
+    LOAD1 0x1 ReinforcementsTime
+	STAL 60
+    GOTO 0x1
+LABEL 0x0
+    ENUF 0xE
+LABEL 0x1
+NoFade
+ENDA
+
+MariciTalk:
+Text(P2C1MariciTalk)
+NoFade
+ENDA
+
+MariciPredict:
+CUMO Srihwen
+STAL 60
+CURE
+Text(P2C1MariciPredict)
+NoFade
+ENDA
+
+BanditPredict:
+CUMO Srihwen
+STAL 60
+CURE
+Text(P2C1BanditPredict)
+NoFade
+ENDA

@@ -1,0 +1,770 @@
+## P2C1HealVillage
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x60][0x1]
+Oh dear!
+You look so troubled!
+If you'd like, you could talk to me about what's on your mind.
+[MoveMidRight]Oh? You're busy?
+That's fine.
+And take this for the road.
+What?
+You look like someone who could use a staff like this.
+Be safe out there, alright?[X]
+
+
+
+## P2C1WormVillage
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x5E][0x1]
+I'm scared to head back out...
+There were a bunch of scary-lookin' guys outside of town.
+My uncle said if I was in danger, to use this book...
+But then my ma said never to use it!
+I tried readin' it, but none of it made any sense...
+There aren't even any pictures!
+I don't get how a dumb book like this'll keep me safe!
+Huh?[MoveMidRight]
+You try readin' it![X]
+
+
+
+## P2C1GoldVillageNo
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x5F][0x1]
+There's this girl with silver hair that stops by here.
+It's not often, but she's quite nice and polite.[ToggleSmile]
+Buys me straight out of the flour I make.[ToggleSmile]
+Some men came by earlier and asked where she was.
+I told them that I'd like to know too![ToggleSmile]
+If you see her ever, tell her I said hello![X]
+
+
+
+## P2C1GoldVillageYes
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x5F][0x1][ToggleSmile]
+Srihwen!
+It's excellent to see you.
+
+[MidLeft]
+Hello.
+I don't think I've been here in a while.[ToggleSmile]
+It's been harder to make the rounds recently.
+
+[MidRight][ToggleSmile]
+I don't assume you're here to pick up more flour?
+
+[MidLeft][ToggleSmile]
+I'm afraid I don't have the time.
+There's a ruckus going on outside.
+
+[MidRight]
+Say, some men came by earlier and asked for someone.
+A silver-haired girl that reminded me of you...
+Said they'd heard she was locked up in the monastery.
+Would that happen to be you?
+
+[MidLeft]
+That...[MoveMidLeft]
+That would be me.
+
+[MidRight][ToggleSmile]
+I didn't know you were up there![ToggleSmile]
+It makes sense, now that I look at you.
+Say, would you mind doing me a favour?
+You know Tara, the greatmother?[ToggleSmile]
+She's still kicking, isn't she?
+
+[MidLeft][ToggleSmile]
+Yes.
+What do you need me to do?
+
+[MidRight][ToggleSmile]
+Give this to her.
+Tell her it's from me and she'll understand.
+
+[MidLeft][ToggleSmile]
+Got it.[....][MoveMidLeft]
+I'll buy something from you next time, promise...![X]
+
+
+
+## P2C1SlimLanceVillage
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x5B][0x1]
+My daughter always wanted to be a Srughnan knight...
+So I tried my hardest to help her train.
+Gave her a spear, to give her a head start, ya know?
+Well, turns out she wanted to ride a wyvern!
+And they train wyvern riders with axes!
+That head start was for nothin'!
+She's headed out, but she left one of her spears here.
+If you want it, it's yours.[X]
+
+
+
+## P2C1ProtectTheVillages
+[ConversationText]
+[Left][LoadSrihwen][FarLeft][LoadEthniu][FarFarRight][LoadSoma][MoveMidRight]
+Srihwen!
+Who were those people?
+
+[Left]
+Soma...!
+They were from the Anilan Order...
+I think they wanted me.
+
+[FarLeft]
+If you're not gonna stay near us, Srihwen...
+You'll have to learn to fight for yourself.
+
+[Left]
+I brought that treasure from the monastery, just in case...
+
+[FarLeft]
+It's better than nothing, but if we weren't around...
+You've got the Earthmother and a healing staff.
+Not much to keep anybody away.
+
+[MidRight]
+Oh, this is going to be cool![MoveMidRight]
+You can finally show us the Earthmother's power!
+
+[Left]
+It won't be much help if we're fighting...
+But I'll try to focus on the ground.
+It'll help if anybody else comes towards us.
+
+[FarLeft]
+They're all over the town...
+How absolutely irritating.
+
+[MidRight][ToggleSmile]
+Good thing we brought our weapons with us!
+Stay in the back and we'll keep you safe, Srihwen!
+
+[Left][ToggleSmile]
+We need to prioritize the villagers' safety.
+Make sure they pillage nothing...![X]
+
+
+
+## P2C1Warning
+For this chapter, if [ToggleRed]Srihwen[ToggleRed],[N]
+[ToggleRed]Soma[ToggleRed], or [ToggleRed]Ethniu[ToggleRed] are killed,[N]
+a game over will be given.[......][N]
+Please be cautious.[A][X]
+
+
+
+## P2C1WMIntro
+The expanse of Bhuloka.[.......][N]
+Displaced from outside conflict and[N]
+politics,[......] the people of Bhuloka live[N]
+simple lives with no ruler.[AN]
+The closest thing to leaders are the[N]
+greatmothers and greatfathers of the[N]
+isolated Bhulokan Orders.[AN]
+Dedicating their lives to revering[N]
+the Wardbearers,[......] each Order follows a[N]
+unique dogma,[.....] faith,[.....] and culture.[AN]
+These Orders have existed for[N]
+centuries without falling,[......] despite[N]
+the numerous conflicts between[N]
+monks of different faiths.[A][X]
+
+
+
+## P2C1WMIntro2
+To the far west of Bhuloka,[......][N]
+on the border of Srughna is[N]
+the domain of Dhara,[......][N]
+covered in dense forests.[AN]
+Devoted to worship of the[N]
+Earthmother,[......] Hwen,[......] the[N]
+women of the Dharan Order[N]
+live in relative isolation.[AN]
+Leaving from their monastery,[......][N]
+a group of Dharan acolytes[N]
+make a stop to a nearby[N]
+village for produce.[AN]
+They ready themselves to[N]
+carry back their haul,[N]
+unaware of the grim news[N]
+they will also bring...[A][X]
+
+
+
+## ShukaBQ
+[BattleText]
+[MidLeft][LoadShuka]
+I was hoping to make this nice and peaceful.
+Hurts to mar those pretty faces of yours![X]
+
+
+
+## ShukaDQ
+[BattleText]
+[MidLeft][LoadShuka]
+Hnngh...!
+You're only delaying...
+The inevitable...[X]
+
+
+
+## ShukaSrihwenQ
+[BattleText]
+[MidLeft][LoadShuka]
+Is this a joke?
+You've not even got a weapon!
+What place are you in to resist?!
+
+[ClearFace][MidRight][LoadSrihwen]
+I don't want to hurt you...
+But I also can't go with you.
+
+[ClearFace][MidLeft][LoadShuka][ToggleSmile]
+Oh, I don't think you've got a choice.
+Those little friends of yours can't protect you now![X]
+
+
+
+## DharaName
+Dhara[X]
+
+
+
+## P2C1FirstContact
+[ConversationText]
+[MidLeft][LoadSoma][ToggleSmile]
+Hey![MoveMidLeft] Srihwen!
+Look at what they have!
+You could get yourself another headband!
+
+[FarFarRight][ToggleSmile][LoadSrihwen][MoveMidRight]
+Soma, we don't have much gold...
+We should focus on essentials first.
+
+[MidLeft][ToggleSmile]
+But you say that every time we're here!
+Don't you wanna enjoy yourself a little?
+
+[MidRight][ToggleSmile]
+We're not supposed to be here.
+What would the greatmother say if she saw us?
+
+[FarFarLeft][LoadEthniu][MoveFarLeft][MidLeft][MoveLeft][FarLeft]
+You two would be fine.
+It's me who would be on the line.
+
+[MidRight]
+Ethniu, I think we'd all be in trouble...
+
+[FarLeft]
+You're basically the greatmother's daughters, you two.
+If only she'd babysit you more.
+
+[Left][ToggleSmile]
+If you're going to be so cranky, why'd you come?
+Shouldn't you be shoving your face in some dingy tome?
+
+[FarLeft][ToggleSmile]
+Our greatmother's meeting together with the Antariksan Order.
+Things have been tense between them since forever.
+But it only seems like it's getting worse now.
+I'm trying to take my mind off of it.
+
+[Left][ToggleSmile]
+Here, you can do that by deciding what colour would look best on her.
+Ooh![MoveLeft] They've got a nice blue-coloured bow here!
+
+[MidRight][ToggleSmile]
+I'm going to look for some flour.
+Maybe some fruit as well?
+
+[FarLeft]
+Mind if I come along with you?
+I'd rather not--
+
+[Left][ToggleSmile]
+Ethniu! If you took that veil off, wouldn't this look amazing on you?!
+
+[FarLeft][ToggleSmile]
+Help.[MoveFarLeft] Me.
+
+[MidRight][ToggleSmile]
+I think you're already occupied.
+Don't worry, I know where to look.
+
+[Left][ClearFace][FarLeft][ClearFace][......][MidRight][MoveMidLeft][LoadOverworldFaces]
+[ToggleSmile]Let's see... It's a right down this road...[.......][MoveMidLeft]
+Earthmother. Someone is following me.
+It isn't Ethniu or Soma's steps either...
+
+[FarFarRight][LoadShuka][MoveRight]
+Hey, hold on a second!
+Lady with the silver locks!
+
+[MidLeft][ClearFace][LoadSrihwen]
+Do you need something?
+I'm a little busy, so...
+
+[Right][ToggleSmile]
+I only wanted to ask what a lovely girl like you is doing alone!
+You've got such pretty eyes, too...
+
+[MidLeft][ToggleSmile]
+I...[MoveMidLeft]
+Um...
+
+[Right]
+You know, I'm not actually from here.
+I'm from the Anilan Order.
+I know Dhara doesn't normally like us, but you seem different.
+[ToggleSmile]What do you say?
+Care to come back and spend a while with me?
+
+[MidLeft][ToggleSmile]
+More footsteps echoing through the ground...[.....][CloseEyes][MoveMidLeft]
+More people coming...![OpenEyes]
+
+[FarFarRight][LoadFace][0x6D][0x1][MoveFarRight][ToggleSmile][LoadOverworldFaces]
+To think we'd actually find the Caged Bird of Dhara here...
+What's she mumbling to herself about?
+
+[MidLeft]
+Caged bird?
+What does that--
+
+[Right][ToggleSmile][MoveRight][CloseEyes]
+I told you to hide...![MoveRight][OpenEyes]
+Come on, don't make me ask again.
+I think we'd get along quite nicely!
+
+[FarFarLeft][LoadEthniu][MoveLeft][MidLeft][MoveFarLeft][Left]
+Stay away, you terrible, Anilan hoodlums!
+If you haven't noticed, you're in Dharan territory.
+I'd crawl back before you return in pieces.
+
+[FarLeft]
+Ethniu...[MoveFarLeft]
+Thank the Earthmother you're here...!
+
+[Left]
+Next time, don't leave me with Soma.
+But now that I'm here, it's time for you to leave.
+
+[Right]
+I wanted to resolve this diplomatically...
+Have a good time with the girl we wanted, not have to knock some faces in...
+Guess I can't do that anymore.
+Everybody, surround them![X]
+
+
+
+## P2C1MariciPredict
+[ConversationText]
+[MidLeft][LoadSrihwen]
+Something's coming from up ahead.
+We need to be careful...![X]
+
+
+
+## P2C1BanditPredict
+[ConversationText]
+[MidLeft][LoadSrihwen]
+Down by the anima magician...[MoveMidLeft]
+Another person coming...![X]
+
+
+
+## P2C1CavalierPredict
+[ConversationText]
+[MidLeft][LoadSrihwen]
+From behind, there's more people coming.
+Watch out...![X]
+
+
+
+## P2C1MariciText
+[ConversationText]
+[MidLeft][LoadMarici]
+They're up ahead...?
+I thought they'd be in the monastery.
+And it seems like they're caught in a bit of trouble.
+Didn't think I'd have to fight this early!
+I can't have them fall on my watch![X]
+
+
+
+## P2C1MariciTalk
+[ConversationText]
+[MidRight][LoadSrihwen]
+[MidLeft][LoadMarici]
+White hair, robed outfit...
+You must be from the Dharan Order.
+
+[MidRight]
+Who are you...?[MoveMidRight]
+You're not working with the Order of Anila, are you?
+
+[MidLeft]
+What?
+Not at all.
+I was sent from House Avanti.
+In Srughna?
+Apparently Dhara wanted some help with something.
+And I was the one who got sent.
+
+[MidRight]
+Oh...!
+It's great to have help then...
+
+[MidLeft]
+Do you need any assistance?
+It looks like those men are bothering you.
+
+[MidRight]
+They tried to take me with them...
+Bring me to Anila.
+We need to keep them away from the villagers.
+
+[MidLeft]
+No problem at all.
+Let's get right to it![X]
+
+
+
+## P2C1HouseAnila
+[ConversationText]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadFace][0x5C][0x1]
+For as long as I can remember, Anila and Dhara have hated each other.
+I'm not exactly sure what it is...
+I do know something though.
+The Dharan monastery only allows women, and the Anilan one only allows men.
+It's probably something relating to that.
+But I'm not a monk.
+It's just a theory of mine.[X]
+
+
+
+## P2C1GoodJob
+[ConversationText]
+[MidRight][LoadSrihwen]
+[MidLeft][LoadFace][0x58][0x1]
+Thank you ever so much for keeping those Anilans at bay!
+
+[MidRight]
+It was no problem...
+Is the village alright?
+
+[MidLeft]
+We'll be fine.
+It'll take a bit, but everything is good!
+Hopefully the situation with Anila doesn't get any worse.
+I'm not sure what we'd do.
+
+[MidRight]
+Hopefully it won't.
+Good luck to you.
+
+[MidLeft][MoveFarLeft][Left][LoadFace][0x5B][0x1]
+It is you!
+The priestess with white hair!
+
+[MidRight]
+Huh...?
+I don't know what--
+
+[Left]
+She's from the monastery!
+To think she saved our village...!
+
+[MidRight]
+I[....]-I should be going now.
+I'm really sorry...
+
+[FarLeft][MidRight][ClearFace][......][FarLeft]
+Give our thanks to the greatmother![X]
+
+
+
+## P2C1OnTheWay
+[ConversationText]
+[FarRight][LoadEthniu]
+[MidLeft][LoadSrihwen]
+[Right][LoadSoma]
+You doing okay, Srihwen?
+You're even quieter than you usually are.
+
+[MidLeft]
+I've just been pondering.
+The people back there called me different titles.
+That white-haired priestess, the Dharan caged bird...
+Have I missed something while in the monastery?
+
+[Right]
+You've only gotten out when you're with us, right?
+It'd make sense if you didn't hear most of the rumours.
+
+[MidLeft]
+Rumours...?
+Am I that infamous?
+
+[FarRight]
+I'm afraid you are.
+It's why Tara locks you and Soma up.
+A woman with the Wardbearers' power is quite something.
+
+[MidLeft]
+The greatmother locks us up for that?
+
+[Right]
+It doesn't make sense.
+I'm a perfectly fine guard for you!
+
+[MidLeft]
+That, and I can only commune with Hwen...
+
+[Right][ToggleSmile][MoveRight]
+That's still really amazing![ToggleSmile]
+And I guess it's why you're so dangerous...
+
+[FarRight]
+Especially with both Anila and Antariksa spatting with us.
+You're a valuable asset, not to mention...
+You lack physical fortitude to resist.
+
+[Right]
+Don't just call her an asset like that!
+She's a real, human person too![ToggleSmile]
+And besides, I've got enough fortitude for the both of us![X]
+
+
+
+## P2C1Marici
+[ConversationText]
+[FarFarLeft][LoadMarici]
+Excuse me, you three?[MidLeft][MoveLeft][FarFarLeft][MoveFarLeft]
+I have something to ask of you.
+
+[Right]
+You were the one helping us fight!
+Why are you riding with us?
+
+[FarLeft]
+I'd like to join you back to your monastery.
+I need to speak with your greatmother.
+
+[FarRight]
+You did assist us...
+But can we bring a stranger like this inside?
+
+[Right]
+We've already left when we shouldn't have.
+Better to break two rules than one!
+
+[FarRight]
+That's a horrible expression.
+But it shouldn't be breaking a rule if it's her.
+
+[FarLeft]
+Thank you very much.
+I promise I won't cause trouble.
+
+[Left]
+We're almost there...
+Hopefully we can get in without Tara noticing...[X]
+
+
+
+## P2C1NoMarici
+[ConversationText]
+[MidLeft]
+We're almost there...
+Hopefully we can get in without Tara noticing...[X]
+
+
+
+## DharanMonastery
+Dharan Monastery[X]
+
+
+
+## P2C1Tara
+[ConversationText]
+[FarFarRight][LoadSrihwen][MoveRight][FarFarRight][LoadSoma][MoveFarRight][Right]
+The halls are always so calm here.
+I wonder where Tara is...?
+
+[FarRight]
+Shhh.
+We should return to our chambers quickly...!
+
+[FarFarLeft]
+Ahem.
+I do believe I'm owed an explanation.
+
+[MidLeft][LoadTara]
+Soma...
+Did you believe I wouldn't notice your abscence?
+Or Srihwen's?
+Just because I am busy with Antariksa doesn't mean I am oblivious.
+
+[FarRight]
+Greatmother Tara, I can explain!
+You see, I--
+
+[MidLeft]
+I warned you to stay on monastery grounds for a reason.
+It is unsafe outside for Srihwen.
+Especially with the hostilites in the east, we can't endanger her.
+
+[Right]
+Please forgive us, Greatmother Tara.
+We didn't know we would be attacked...
+
+[MidLeft]
+Attacked...?
+You were attacked?
+
+[Right]
+Greatmother Tara, Soma and--
+
+[MidLeft]
+Was it by the Anilan Order?
+The Antariksan Order?
+I knew this would happen.
+
+[FarRight][LoadEthniu]
+Greatmother Tara, please tell us what's going on.
+Why did you meet with Antariksa?
+
+[MidLeft]
+I suppose you three should be informed eventually...
+The Antariksan Order wishes to form an alliance.
+A political alliance between the eight Orders of Bhuloka.
+
+[FarRight]
+What's the point of that?
+Do we need to be united like Macha?
+
+[MidLeft]
+It relates to Srughna and Heichalot.
+There is fear between action from either of them.
+Antariksa wants us to be able to stand up as a force of our own.
+
+[Right]
+Wouldn't that mean aligning with Anila...?
+Why would they attack us then?
+
+[MidLeft]
+Both our Order and the Order of Chandra have opposed this idea.
+Meeting with Antariksa, our grove only fueled that sentiment.
+It seems the Anilan Order wanted to be proactive in action.
+
+[FarRight]
+So because we didn't wish to join, they're trying to subjugate us...
+Miserable. Why would we align with Anila after all they've done?
+
+[FarRight][LoadSoma]
+How's the Chandran Order doing?
+Have they been attacked either?
+
+[MidLeft]
+I have heard nothing from them.
+But either way, your actions were foolish.
+Return to your chambers and do not leave.
+
+[Right]
+U-[MoveRight]Understood...
+I'm sorry for leaving, Greatmother Tara.[X]
+
+
+
+## P2C1HwenCommune
+[ConversationText]
+[MidRight][LoadSrihwen]
+I should have never left...
+Everybody was in danger.
+I couldn't even help keep them away.
+I still can't fight, even after everything...
+
+[FarFarLeft]
+You seem distressed.
+Is something wrong, Srihwen?
+
+[MidRight][ToggleSmile]
+Earthmother...![ToggleSmile]
+Thank goodness you're here.
+I require your guidance more than ever.
+
+[MidLeft][LoadHwen]
+What is wrong, my child?
+You seemed to handle the day well.
+
+[MidRight]
+Even with your blessings...
+Your sight into the soil, your advice.
+My hands struggle to hold a weapon.
+What use am I?
+It doesn't help that conflict seems to draw near...
+
+[MidLeft]
+You assume that you must fight alone.
+
+[MidRight]
+I had isolated myself without realizing it.
+What if I am alone again?
+
+[MidLeft]
+Even by yourself, you are more powerful than you believe.
+Trust in your senses, your healing.
+
+[FarFarLeft]
+Srihwen!
+Are you in here?
+
+[MidLeft]
+I believe I should be going.
+Believe in yourself.
+
+[MidRight][MidLeft][ClearFace][MidRight][MoveMidRight]
+Earthmother, don't go...!
+Please...
+
+[FarFarLeft][LoadSoma][MoveMidLeft]
+Are you doing okay, Srihwen?
+
+[MidRight]
+I'm doing okay...
+I was just talking with--
+
+[MidLeft]
+The Earthmother, correct?[ToggleSmile]
+It's still incredible how you can talk with her!
+
+[MidRight][ToggleSmile]
+I guess it is...
+Settling in for the night?
+
+[MidLeft][ToggleSmile]
+Yep I am![MoveMidLeft][ToggleSmile]
+Hey, Srihwen?
+Don't worry about today, okay?
+It wasn't your fault we got involved in that fight.[ToggleSmile]
+I'll be by your side like I should, promise!
+
+[MidRight]
+Thanks, Soma.[MoveMidRight][CloseEyes][ToggleSmile]
+I'm exhausted...
+I think I might just...[ClearFace]
+
+[MidLeft][ToggleSmile][.......]
+Good night, Srihwen.[X]

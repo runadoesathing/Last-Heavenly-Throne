@@ -225,3 +225,66 @@ ArmyCampWinterNightTSA:
 
 ArmyCampWinterNightPalette:
 #incbin "ArmyCampWinterNightPalette.bin"
+
+InsideHouseNightImage:
+#incbin "InsideHouseNightImage.bin"
+
+InsideHouseNightTSA:
+#incbin "InsideHouseNightTSA.bin"
+
+InsideHouseNightPalette:
+#incbin "InsideHouseNightPalette.bin"
+
+AltarImage:
+#incbin "AltarImage.bin"
+
+AltarTSA:
+#incbin "AltarTSA.bin"
+
+AltarPalette:
+#incbin "AltarPalette.bin"
+
+TownImage:
+#incbin "TownImage.bin"
+
+TownTSA:
+#incbin "TownTSA.bin"
+
+TownPalette:
+#incbin "TownPalette.bin"
+
+OutsideCastleImage:
+#incbin "OutsideCastleImage.bin"
+
+OutsideCastleTSA:
+#incbin "OutsideCastleTSA.bin"
+
+OutsideCastlePalette:
+#incbin "OutsideCastlePalette.bin"
+
+CastleHallwayImage:
+#incbin "CastleHallwayImage.bin"
+
+CastleHallwayTSA:
+#incbin "CastleHallwayTSA.bin"
+
+CastleHallwayPalette:
+#incbin "CastleHallwayPalette.bin"
+
+BedroomNightImage:
+#incbin "BedroomNightImage.bin"
+
+BedroomNightTSA:
+#incbin "BedroomNightTSA.bin"
+
+BedroomNightPalette:
+#incbin "BedroomNightPalette.bin"
+
+MeetingRoomImage:
+#incbin "MeetingRoomImage.bin"
+
+MeetingRoomTSA:
+#incbin "MeetingRoomTSA.bin"
+
+MeetingRoomPalette:
+#incbin "MeetingRoomPalette.bin"

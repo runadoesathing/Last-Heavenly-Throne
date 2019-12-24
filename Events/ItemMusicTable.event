@@ -114,3 +114,6 @@
   ItemMusic(SlimAxe,Default_Music_Routine)
   ItemMusic(SlimBow,Default_Music_Routine)
   ItemMusic(Wind,Default_Music_Routine)
+  ItemMusic(RallyLuckManual,Default_Music_Routine)
+  ItemMusic(Brine,Default_Music_Routine)
+  ItemMusic(Worm,Default_Music_Routine)

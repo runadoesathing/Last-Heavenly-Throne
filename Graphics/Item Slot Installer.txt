@@ -7,7 +7,7 @@ ItemIconSlot(0x04,"Weapon Icons/Items/IronBlade.png")
 ItemIconSlot(0x05,"Weapon Icons/Items/SteelBlade.png")
 ItemIconSlot(0x06,"Weapon Icons/Items/SilverBlade.png")
 ItemIconSlot(0x07,"Weapon Icons/Items/ToxinSword.png")
-//0x08 - replaceable
+ItemIconSlot(0x08,"Weapon Icons/Items/Worm.png")
 //0x09 - replaceable
 ItemIconSlot(0x0A,"Weapon Icons/Items/BraveSword.png")
 //0x0B - replaceable
@@ -234,7 +234,7 @@ ItemIconSlot(0xB6,"Weapon Icons/Items/Dragonspear.png")
 //0xC8 - replaceable
 //0xC9 - replaceable
 ItemIconSlot(0xCA,"Weapon Icons/SkillBooks/RallyLuck.png")
-//0xCB - replaceable
+ItemIconSlot(0xCB,"Weapon Icons/Items/Brine.png")
 //0xCC - replaceable
 //0xCD - replaceable
 //0xCE - replaceable

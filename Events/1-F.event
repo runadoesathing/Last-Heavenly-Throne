@@ -13,7 +13,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-//TURN 0x0 CleartheSeal [1,0] 0x0
+TURN 0x0 CleartheSeal [1,0] 0x0
 TURN 0x0 CanYouFeelIt [3,0] 0x0
 TURN 0x0 EarthboundBois [5,0] 0x0
 TURN 0x0 BabaBaba [6,0] 0x0
@@ -28,6 +28,9 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+House(0x0,House1Girl,2,10)
+House(0x0,House2Girl,13,5)
+House(0x0,House3Girl,14,11)
 END_MAIN
 
 MiscBasedEvents:
@@ -474,10 +477,34 @@ CLEE 0x0
 CLEN 0x0
 SetBackground(ForestNight)
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFCethernJhudiel
 TEXTEND
-MUSCMID 0x7FFF
+CHECK_ALIVE Sadhbh
+BEQ 0x99 0xC 0x0
+	TEXTSHOW2 P1CFSadhbhInterrupt
+	TEXTEND
+	GOTO 0x9A
+LABEL 0x99
+TEXTSHOW2 P1CFCethernInterrupt
+TEXTEND
+LABEL 0x9A
+CHECK_ALIVE Ferdiad
+BEQ 0x9B 0xC 0x0
+	TEXTSHOW2 P1CFFerdiadInterrupt
+	TEXTEND
+LABEL 0x9B
+CHECK_ALIVE Setanta
+BEQ 0x9C 0xC 0x0
+	TEXTSHOW2 P1CFSetantaInterrupt
+	TEXTEND
+LABEL 0x9C
+CHECK_ALIVE Sadhbh
+BEQ 0x9D 0xC 0x0
+	TEXTSHOW2 P1CFSadhbh2
+	TEXTEND
+LABEL 0x9D
 REMA
+MUSCMID 0x7FFF
 FADI 6
 STAL 30
 CLEAN
@@ -489,28 +516,28 @@ LOAD2 0x1 CethernCeth
 ENUN
 VCWF 4
 FADU 10
-CUMO Cethern
+CUMO Jhudiel_1
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFOneHit
 TEXTEND
 REMA
 MOVE 0xA Cethern [10,6]
 ENUN
 MUSCMID 0x7FFF
+MUSS 0x0
 StartBattle
 MissedAttack(0,0)
 MissedAttack(1,0)
 SetScriptedBattle(55,5,0,80,22,15)
 FIG1 Cethern Jhudiel_1 0x0
-MUSC 0x4E
+MURE 0x2
 CUMO Jhudiel_1
 STAL 60
 CURE
-MUSC 0x4E
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFTwoHit
 TEXTEND
 REMA
 MUSCMID 0x7FFF
@@ -523,10 +550,47 @@ MUSC 0x29
 FADI 4
 CLEA 0x0
 SetBackground(ForestMorning)
+CHECK_ALIVE Setanta
+BEQ 0x50 0x0 0xC
+	CHECK_ALIVE Ferdiad
+	BEQ 0x51 0x0 0xC
+		TEXTSTART
+		TEXTSHOW P1CFSFCDeath
+		TEXTEND
+		SOUN 0xD6
+		TEXTCONT
+		TEXTEND
+		REMA
+		GOTO 0x55
+	LABEL 0x51
+	TEXTSTART
+	TEXTSHOW P1CFSCDeath
+	TEXTEND
+	SOUN 0xD6
+	TEXTCONT
+	TEXTEND
+	REMA
+	GOTO 0x55
+LABEL 0x50
+CHECK_ALIVE Ferdiad
+BEQ 0x52 0x0 0xC
+	TEXTSTART
+	TEXTSHOW P1CFFCDeath
+	TEXTEND
+	SOUN 0xD6
+	TEXTCONT
+	TEXTEND
+	REMA
+	GOTO 0x55
+LABEL 0x52
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFCDeath
+TEXTEND
+SOUN 0xD6
+TEXTCONT
 TEXTEND
 REMA
+LABEL 0x55
 FADI 6
 CLEA 0x0
 DISA_IF Cethern
@@ -544,156 +608,13 @@ AliveCLoad(Gedeon,GedeonMi,0xBB12)
 LOAD2 0x1 MiachMi
 ENUN
 VCWF 0
-RemoveInventory(0x1)
-RemoveInventory(0x2)
-RemoveInventory(0x3)
-RemoveInventory(0x4)
-RemoveInventory(0x5)
-RemoveInventory(0x6)
-RemoveInventory(0x7)
-RemoveInventory(0x8)
-RemoveInventory(0x9)
-RemoveInventory(0xA)
-RemoveInventory(0xB)
-RemoveInventory(0xC)
-RemoveInventory(0xD)
-RemoveInventory(0xE)
-RemoveInventory(0xF)
-RemoveInventory(0x10)
-RemoveInventory(0x11)
-RemoveInventory(0x12)
-RemoveInventory(0x13)
-RemoveInventory(0x14)
-RemoveInventory(0x15)
-RemoveInventory(0x16)
-RemoveInventory(0x17)
-RemoveInventory(0x18)
-RemoveInventory(0x19)
-RemoveInventory(0x1A)
-RemoveInventory(0x1B)
-RemoveInventory(0x1C)
-RemoveInventory(0x1D)
-RemoveInventory(0x1E)
-RemoveInventory(0x1F)
-RemoveInventory(0x20)
-RemoveInventory(0x21)
-RemoveInventory(0x22)
-RemoveInventory(0x23)
-RemoveInventory(0x24)
-RemoveInventory(0x25)
-RemoveInventory(0x26)
-RemoveInventory(0x27)
-RemoveInventory(0x28)
-RemoveInventory(0x29)
-RemoveInventory(0x2A)
-RemoveInventory(0x2B)
-RemoveInventory(0x2C)
-RemoveInventory(0x2D)
-RemoveInventory(0x2E)
-RemoveInventory(0x2F)
-RemoveInventory(0x30)
-RemoveInventory(0x31)
-RemoveInventory(0x32)
-RemoveInventory(0x33)
-RemoveInventory(0x34)
-RemoveInventory(0x35)
-RemoveInventory(0x36)
-RemoveInventory(0x37)
-RemoveInventory(0x38)
-RemoveInventory(0x39)
-RemoveInventory(0x3A)
-RemoveInventory(0x3B)
-RemoveInventory(0x3C)
-RemoveInventory(0x3D)
-RemoveInventory(0x3E)
-RemoveInventory(0x3F)
-RemoveInventory(0x40)
-RemoveInventory(0x41)
-RemoveInventory(0x42)
-RemoveInventory(0x43)
-RemoveInventory(0x44)
-RemoveInventory(0x45)
-RemoveInventory(0x46)
-RemoveInventory(0x47)
-RemoveInventory(0x48)
-RemoveInventory(0x49)
-RemoveInventory(0x4A)
-RemoveInventory(0x4B)
-RemoveInventory(0x4C)
-RemoveInventory(0x4D)
-RemoveInventory(0x4E)
-RemoveInventory(0x4F)
-RemoveInventory(0x50)
-RemoveInventory(0x51)
-RemoveInventory(0x52)
-RemoveInventory(0x53)
-RemoveInventory(0x54)
-RemoveInventory(0x55)
-RemoveInventory(0x56)
-RemoveInventory(0x57)
-RemoveInventory(0x58)
-RemoveInventory(0x59)
-RemoveInventory(0x5A)
-RemoveInventory(0x5B)
-RemoveInventory(0x5C)
-RemoveInventory(0x5D)
-RemoveInventory(0x5E)
-RemoveInventory(0x5F)
-RemoveInventory(0x60)
-RemoveInventory(0x61)
-RemoveInventory(0x62)
-RemoveInventory(0x63)
-RemoveInventory(0x64)
-RemoveInventory(0x65)
-RemoveInventory(0x66)
-RemoveInventory(0x67)
-RemoveInventory(0x68)
-RemoveInventory(0x69)
-RemoveInventory(0x6A)
-RemoveInventory(0x6B)
-RemoveInventory(0x6C)
-RemoveInventory(0x6D)
-RemoveInventory(0x6E)
-RemoveInventory(0x6F)
-RemoveInventory(0x70)
-RemoveInventory(0x71)
-RemoveInventory(0x72)
-RemoveInventory(0x73)
-RemoveInventory(0x74)
-RemoveInventory(0x75)
-RemoveInventory(0x76)
-RemoveInventory(0x77)
-RemoveInventory(0x78)
-RemoveInventory(0x79)
-RemoveInventory(0x7A)
-RemoveInventory(0x7B)
-RemoveInventory(0x7C)
-RemoveInventory(0x7D)
-RemoveInventory(0x7E)
-RemoveInventory(0x7F)
-RemoveInventory(0x80)
-RemoveInventory(0x81)
-RemoveInventory(0x82)
-RemoveInventory(0x83)
-RemoveInventory(0x84)
-RemoveInventory(0x85)
-RemoveInventory(0x86)
-RemoveInventory(0x87)
-RemoveInventory(0x88)
-RemoveInventory(0x89)
-RemoveInventory(0x8A)
-RemoveInventory(0x8B)
-RemoveInventory(0x8C)
-RemoveInventory(0x8D)
-RemoveInventory(0x8E)
-RemoveInventory(0x8F)
 FADU 10
 MUSC 0x4E
 CUMO Jhudiel_1
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFJhudielPromise
 TEXTEND
 REMA
 MUSC 0x25
@@ -705,72 +626,44 @@ CUMO 0x80
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFCamnielPromise
 TEXTEND 
 REMA
-CHECK_ALIVE Sadhbh
-BEQ 0xC00 0xC 0x0
-	CUMO Jhudiel_1
-	STAL 60
-	CURE
-	TEXTSTART
-	TEXTSHOW PlaceholderText
-	TEXTEND 
-	REMA
-	GOTO 0xC0C
-LABEL 0xC00
-CHECK_ALIVE Setanta
-BEQ 0xC01 0xC 0x0
-	CUMO Jhudiel_1
-	STAL 60
-	CURE
-	TEXTSTART
-	TEXTSHOW PlaceholderText
-	TEXTEND 
-	REMA
-	GOTO 0xC0C
-LABEL 0xC01
-CHECK_ALIVE Ferdiad
-BEQ 0xC02 0xC 0x0
-	CUMO Jhudiel_1
-	STAL 60
-	CURE
-	TEXTSTART
-	TEXTSHOW PlaceholderText
-	TEXTEND 
-	REMA
-	GOTO 0xC0C
-LABEL 0xC02
-CHECK_ALIVE Ethniu
-BEQ 0xC03 0xC 0x0
-	CUMO Jhudiel_1
-	STAL 60
-	CURE
-	TEXTSTART
-	TEXTSHOW PlaceholderText
-	TEXTEND 
-	REMA
-	GOTO 0xC0C
-LABEL 0xC03
-CHECK_ALIVE Hanlin
-BEQ 0xC04 0xC 0x0
-	CUMO Jhudiel_1
-	STAL 60
-	CURE
-	TEXTSTART
-	TEXTSHOW PlaceholderText
-	TEXTEND 
-	REMA
-	GOTO 0xC0C
-LABEL 0xC04
 CUMO Jhudiel_1
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFJhudielBad
+TEXTEND
+CHECK_ALIVE Sadhbh
+BEQ 0xC00 0xC 0x0
+	TEXTSHOW2 P1CFSadhbhRun
+	GOTO 0xC0C
+LABEL 0xC00
+CHECK_ALIVE Setanta
+BEQ 0xC01 0xC 0x0
+	TEXTSHOW2 P1CFSetantaRun
+	GOTO 0xC0C
+LABEL 0xC01
+CHECK_ALIVE Ferdiad
+BEQ 0xC02 0xC 0x0
+	TEXTSHOW2 P1CFFerdiadRun
+	GOTO 0xC0C
+LABEL 0xC02
+CHECK_ALIVE Ethniu
+BEQ 0xC03 0xC 0x0
+	TEXTSHOW2 P1CFEthniuRun
+	GOTO 0xC0C
+LABEL 0xC03
+CHECK_ALIVE Hanlin
+BEQ 0xC04 0xC 0x0
+	TEXTSHOW2 P1CFHanlinRun
+	GOTO 0xC0C
+LABEL 0xC04
+	TEXTSHOW2 P1CFMiachRun
+LABEL 0xC0C
 TEXTEND 
 REMA
-LABEL 0xC0C
 CHECK_ALIVE Setanta
 BEQ 0xD00 0xC 0x0
 	MOVE 0xD Setanta [8,12]
@@ -813,7 +706,7 @@ CUMO 0x80
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFCamnielAngery
 TEXTEND
 REMA
 MOVE 0xD 0x80 [6,12]
@@ -827,123 +720,13 @@ CUMO Jhudiel_1
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFJhudielRemorse
 TEXTEND
 REMA
+MOVE 0xA Jhudiel [7,0]
+ENUN
 MUSCMID 0x7FFF
 FADI 3
-RemoveInventory(0x90)
-RemoveInventory(0x91)
-RemoveInventory(0x92)
-RemoveInventory(0x93)
-RemoveInventory(0x94)
-RemoveInventory(0x95)
-RemoveInventory(0x96)
-RemoveInventory(0x97)
-RemoveInventory(0x98)
-RemoveInventory(0x99)
-RemoveInventory(0x9A)
-RemoveInventory(0x9B)
-RemoveInventory(0x9C)
-RemoveInventory(0x9D)
-RemoveInventory(0x9E)
-RemoveInventory(0x9F)
-RemoveInventory(0xA0)
-RemoveInventory(0xA1)
-RemoveInventory(0xA2)
-RemoveInventory(0xA3)
-RemoveInventory(0xA4)
-RemoveInventory(0xA5)
-RemoveInventory(0xA6)
-RemoveInventory(0xA7)
-RemoveInventory(0xA8)
-RemoveInventory(0xA9)
-RemoveInventory(0xAA)
-RemoveInventory(0xAB)
-RemoveInventory(0xAC)
-RemoveInventory(0xAD)
-RemoveInventory(0xAE)
-RemoveInventory(0xAF)
-RemoveInventory(0xB0)
-RemoveInventory(0xB1)
-RemoveInventory(0xB2)
-RemoveInventory(0xB3)
-RemoveInventory(0xB4)
-RemoveInventory(0xB5)
-RemoveInventory(0xB6)
-RemoveInventory(0xB7)
-RemoveInventory(0xB8)
-RemoveInventory(0xB9)
-RemoveInventory(0xBA)
-RemoveInventory(0xBB)
-RemoveInventory(0xBC)
-RemoveInventory(0xBD)
-RemoveInventory(0xBE)
-RemoveInventory(0xBF)
-RemoveInventory(0xC0)
-RemoveInventory(0xC1)
-RemoveInventory(0xC2)
-RemoveInventory(0xC3)
-RemoveInventory(0xC4)
-RemoveInventory(0xC5)
-RemoveInventory(0xC6)
-RemoveInventory(0xC7)
-RemoveInventory(0xC8)
-RemoveInventory(0xC9)
-RemoveInventory(0xCA)
-RemoveInventory(0xCB)
-RemoveInventory(0xCC)
-RemoveInventory(0xCD)
-RemoveInventory(0xCE)
-RemoveInventory(0xCF)
-RemoveInventory(0xD0)
-RemoveInventory(0xD1)
-RemoveInventory(0xD2)
-RemoveInventory(0xD3)
-RemoveInventory(0xD4)
-RemoveInventory(0xD5)
-RemoveInventory(0xD6)
-RemoveInventory(0xD7)
-RemoveInventory(0xD8)
-RemoveInventory(0xD9)
-RemoveInventory(0xDA)
-RemoveInventory(0xDB)
-RemoveInventory(0xDC)
-RemoveInventory(0xDD)
-RemoveInventory(0xDE)
-RemoveInventory(0xDF)
-RemoveInventory(0xE0)
-RemoveInventory(0xE1)
-RemoveInventory(0xE2)
-RemoveInventory(0xE3)
-RemoveInventory(0xE4)
-RemoveInventory(0xE5)
-RemoveInventory(0xE6)
-RemoveInventory(0xE7)
-RemoveInventory(0xE8)
-RemoveInventory(0xE9)
-RemoveInventory(0xEA)
-RemoveInventory(0xEB)
-RemoveInventory(0xEC)
-RemoveInventory(0xED)
-RemoveInventory(0xEE)
-RemoveInventory(0xEF)
-RemoveInventory(0xF0)
-RemoveInventory(0xF1)
-RemoveInventory(0xF2)
-RemoveInventory(0xF3)
-RemoveInventory(0xF4)
-RemoveInventory(0xF5)
-RemoveInventory(0xF6)
-RemoveInventory(0xF7)
-RemoveInventory(0xF8)
-RemoveInventory(0xF9)
-RemoveInventory(0xFA)
-RemoveInventory(0xEB)
-RemoveInventory(0xFC)
-RemoveInventory(0xFD)
-RemoveInventory(0xFE)
-RemoveInventory(0xFF)
 CHECK_ALIVE Setanta
 BEQ 0xDA0 0xC 0x0
 	REMU Setanta
@@ -999,7 +782,7 @@ CUMO Cethern
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW PlaceholderText
+TEXTSHOW P1CFCethernRein
 TEXTEND
 REMA
 NoFade
@@ -1020,7 +803,7 @@ BEQ 0x0 0xC 0x0
 	STAL 60
 	CURE
 	TEXTSTART
-	TEXTSHOW PlaceholderText
+	TEXTSHOW P1CFGedeonRein
 	TEXTEND
 	REMA
 LABEL 0x0
@@ -1038,7 +821,7 @@ BEQ 0x0 0xC 0x0
 	STAL 60
 	CURE
 	TEXTSTART
-	TEXTSHOW PlaceholderText
+	TEXTSHOW P1CFSadhbhRein
 	TEXTEND
 	REMA
 LABEL 0x0
@@ -1056,7 +839,7 @@ BEQ 0x0 0xC 0x0
 	STAL 60
 	CURE
 	TEXTSTART
-	TEXTSHOW PlaceholderText
+	TEXTSHOW P1CFFerdiadRein
 	TEXTEND
 	REMA
 LABEL 0x0
@@ -1074,7 +857,7 @@ BEQ 0x0 0xC 0x0
 	STAL 60
 	CURE
 	TEXTSTART
-	TEXTSHOW PlaceholderText
+	TEXTSHOW P1CFBresRein
 	TEXTEND
 	REMA
 LABEL 0x0
@@ -1092,7 +875,7 @@ BEQ 0x0 0xC 0x0
 	STAL 60
 	CURE
 	TEXTSTART
-	TEXTSHOW PlaceholderText
+	TEXTSHOW P1CFHanlinRein
 	TEXTEND
 	REMA
 LABEL 0x0
@@ -1102,6 +885,36 @@ ENDA
 Kernel4:
 LOAD1 0x1 TurnElevenReinforcements
 ENUN
+NoFade
+ENDA
+
+House1Girl:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideHouseNight // decides background 
+SVAL 0x3 P1CFHouseStem // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
+NoFade
+ENDA
+
+House2Girl:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideHouseNight // decides background 
+SVAL 0x3 P1CFHouseTrail // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
+NoFade
+ENDA
+
+House3Girl:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+SVAL 0x2 InsideHouseNight // decides background 
+SVAL 0x3 P1CFHouseClergy // decides text id
+CALL 0x9EE310 // runs the text
+MUNO // increases music volume
 NoFade
 ENDA
 

@@ -3,8 +3,8 @@
 #include eastdlib.event
 
 PUSH
-EventPointerTable(0x1F, Map)
-EventPointerTable(0x20, MapChanges)
+EventPointerTable(map_entry, Map)
+EventPointerTable(map_changes, MapChanges)
 POP
 
 Map:

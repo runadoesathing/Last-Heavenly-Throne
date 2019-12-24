@@ -163,6 +163,8 @@ POP
   #include "EventAddTraps/EventAddTraps.event"
   #include "EventSendToConvoy/EventSendToConvoy.event"
 
+  //Unit Action Rework (required for movement skills)
+  #include "UnitActionRework/UnitActionRework.event"
   //Change Sick Status to Freeze
   #include "Freeze/Freeze.event"
   #include "Freeze/EventFreeze.event"
@@ -200,6 +202,7 @@ POP
   // Fix gaining wexp from weapons you don't have wexp in (for Shadowgift/Lumina)
   #include "Misc/FixWpnRnk.event"
   
+  MESSAGE New Background at currentOffset
   // Let's get a new background
   #include "Title Background/titlebackgroundinstaller.event"
   
@@ -211,10 +214,38 @@ POP
   
   //Less Annoying Fog
   #include "Less Annoying Fog/Less Annoying Fog Installer.event"
-
+  
+  //Makes weapon ability 2 reaver bit just triangle reversal and weapon ability 3 bit 0x80 triple triangle effect
   ALIGN 4
-  #include "SkillSystem/Master Skill Installer.event"
+  #include "ReaverSplit/ReaverSplit.event"
+  
+  //Makes weapon crit of 255 negate crits
+  ALIGN 4
+  #include "CannotCrit/CannotCrit.event"
+  
+  //Venno's array-based weapon locks
+  ALIGN 4
+  #include "WeaponLockArray/AdvWeaponLocks.event"
+  
+  //Clear All Items (by Snek)
+  ALIGN 4
+  #include "ClearAllItems/ClearAllItems.lyn.event"
+  
+  //AI Extension (by Stan)
+  ALIGN 4
+  //#include "AiPerformExtension/AiPerformExt.event"
+  #include "AiPerformExtension/AiScrDefinitions.event"
+  
+  //Talk AI (by Stan)
+  ALIGN 4
+  #include "Talk AI/TalkAi.event"
 
+  MESSAGE Skill System installs at currentOffset
+  ALIGN 4
+  #include "SkillSystem/SkillSystemInstaller.event"
+  //#include "SkillSystem/Master Skill Installer.event"
+
+  ALIGN 4		 
   #include "DisplayWRankOnLevelUp/DisplayWRankOnLevelUp.event"
 
   ALIGN 4
@@ -228,7 +259,7 @@ POP
   #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
 
   //Calculation loops (used for conflicting hacks, formerly "Battle Calculations.event")
-  #include "SkillSystem/Internals/CalcLoops/Calculation Loops.event"
+  #include "SkillSystem/Internals/CalcLoops/CalcLoops.event"
   
   #include "UnitMenu.event"
   #include "Popups.event"

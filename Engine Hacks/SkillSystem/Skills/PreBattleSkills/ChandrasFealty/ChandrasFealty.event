@@ -1,0 +1,13 @@
+
+ALIGN 4
+ChandrasFealty:
+#incbin "ChandrasFealty.dmp"
+POIN SkillTester
+WORD ChandrasFealtyID
+POIN MutedSoulTester
+
+ALIGN 4
+MutedSoulTester:
+#incbin "MutedSoulTester.dmp"
+POIN SkillTester
+WORD MutedSoulID

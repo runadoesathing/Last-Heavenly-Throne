@@ -1,124 +1,124 @@
 Map_DruidF_Stand:
-#incext Png2Dmp "DruidFS.png" --lz77
+#incbin "DruidFS.dmp"
 Map_DruidF_Move:
-#incext Png2Dmp "DruidFM.png" --lz77
+#incbin "DruidFM.dmp"
 Map_Aknight_Stand:
-#incext Png2Dmp "Axe Stand.png" --lz77
+#incbin "Axe Stand.dmp"
 Map_Aknight_Move:
-#incext Png2Dmp "Axe Move.png" --lz77
+#incbin "Axe Move.dmp"
 Map_Sknight_Stand:
-#incext Png2Dmp "Sword Stand.png" --lz77
+#incbin "Sword Stand.dmp"
 Map_Sknight_Move:
-#incext Png2Dmp "Sword Move.png" --lz77
+#incbin "Sword Move.dmp"
 Map_Lknight_Stand:
-#incext Png2Dmp "Lance Stand New.png" --lz77
+#incbin "Lance Stand New.dmp"
 Map_Lknight_Move:
-#incext Png2Dmp "Lance Move.png" --lz77
+#incbin "Lance Move.dmp"
 Map_Soldier_Stand:
-#incext Png2Dmp "SoldierMS.png" --lz77
+#incbin "SoldierMS.dmp"
 Map_Soldier_Move:
-#incext Png2Dmp "SoldierMM.png" --lz77
+#incbin "SoldierMM.dmp"
 Map_SoldierF_Stand:
-#incext Png2Dmp "SoldierFS.png" --lz77
+#incbin "SoldierFS.dmp"
 Map_SoldierF_Move:
-#incext Png2Dmp "SoldierFM.png" --lz77
+#incbin "SoldierFM.dmp"
 Map_WyvernR_Stand:
-#incext Png2Dmp "WyvernUS.png" --lz77
+#incbin "WyvernUS.dmp"
 Map_WyvernR_Move:
-#incext Png2Dmp "WyvernUM.png" --lz77
+#incbin "WyvernUM.dmp"
 Map_AxeCav_Stand:
-#incext Png2Dmp "AxeCavS.png" --lz77
+#incbin "AxeCavS.dmp"
 Map_AxeCav_Move:
-#incext Png2Dmp "AxeCavM.png" --lz77
+#incbin "AxeCavM.dmp"
 Map_BowCav_Stand:
-#incext Png2Dmp "BCavS.png" --lz77
+#incbin "BCavS.dmp"
 Map_BowCav_Move:
-#incext Png2Dmp "BCavM.png" --lz77
+#incbin "BCavM.dmp"
 Map_SwordCav_Stand:
-#incext Png2Dmp "Scav.png" --lz77
+#incbin "Scav.dmp"
 Map_SwordCav_Move:
-#incext Png2Dmp "ScavM.png" --lz77
+#incbin "ScavM.dmp"
 Map_ShamanF_Stand:
-#incext Png2Dmp "ShamanFS.png" --lz77
+#incbin "ShamanFS.dmp"
 Map_ShamanF_Move:
-#incext Png2Dmp "ShamanFM.png" --lz77
+#incbin "ShamanFM.dmp"
 Map_Sibyl_Stand:
-#incext Png2Dmp "SibylS.png" --lz77
+#incbin "SibylS.dmp"
 Map_Sibyl_Move:
-#incext Png2Dmp "SibylM.png" --lz77
+#incbin "SibylM.dmp"
 Map_VillagerF_Stand:
-#incext Png2Dmp "VillagerFS.png" --lz77
+#incbin "VillagerFS.dmp"
 Map_VillagerF_Move:
-#incext Png2Dmp "VillagerFM.png" --lz77
+#incbin "VillagerFM.dmp"
 Map_VillagerM_Stand:
-#incext Png2Dmp "VillagerMS.png" --lz77
+#incbin "VillagerMS.dmp"
 Map_VillagerM_Move:
-#incext Png2Dmp "VillagerMM.png" --lz77
+#incbin "VillagerMM.dmp"
 Map_HalberdierF_Stand:
-#incext Png2Dmp "HalberdierFS.png" --lz77
+#incbin "HalberdierFS.dmp"
 Map_HalberdierF_Move:
-#incext Png2Dmp "HalberdierFM.png" --lz77
+#incbin "HalberdierFM.dmp"
 Map_HalberdierM_Stand:
-#incext Png2Dmp "HalberdierMS.png" --lz77
+#incbin "HalberdierMS.dmp"
 Map_HalberdierM_Move:
-#incext Png2Dmp "HalberdierMM.png" --lz77
+#incbin "HalberdierMM.dmp"
 Map_LanceCav_Stand:
-#incext Png2Dmp "LanceCavMS.png" --lz77
+#incbin "LanceCavMS.dmp"
 Map_LanceCav_Move:
-#incext Png2Dmp "LanceCavMM.png" --lz77
+#incbin "LanceCavMM.dmp"
 Map_LanceCavF_Stand:
-#incext Png2Dmp "LanceCavFS.png" --lz77
+#incbin "LanceCavFS.dmp"
 Map_LanceCavF_Move:
-#incext Png2Dmp "LanceCavFM.png" --lz77
+#incbin "LanceCavFM.dmp"
 Map_SwordCavF_Stand:
-#incext Png2Dmp "ScavF.png" --lz77
+#incbin "ScavF.dmp"
 Map_SwordCavF_Move:
-#incext Png2Dmp "ScavFM.png" --lz77
+#incbin "ScavFM.dmp"
 Map_SkyKnight_Stand:
-#incext Png2Dmp "SkyKnightS.png" --lz77
+#incbin "SkyKnightS.dmp"
 Map_SkyKnight_Move:
-#incext Png2Dmp "SkyKnightM.png" --lz77
+#incbin "SkyKnightM.dmp"
 Map_Crownflier_Stand:
-#incext Png2Dmp "CrownflierS.png" --lz77
+#incbin "CrownflierS.dmp"
 Map_Crownflier_Move:
-#incext Png2Dmp "CrownflierM.png" --lz77
+#incbin "CrownflierM.dmp"
 Map_Pirate_Stand:
-#incext Png2Dmp "PirateS.png" --lz77
+#incbin "PirateS.dmp"
 Map_Pirate_Move:
-#incext Png2Dmp "PirateM.png" --lz77
+#incbin "PirateM.dmp"
 Map_AssassinF_Stand:
-#incext Png2Dmp "AssassinFS.png" --lz77
+#incbin "AssassinFS.dmp"
 Map_AssassinF_Move:
-#incext Png2Dmp "AssassinFM.png" --lz77
+#incbin "AssassinFM.dmp"
 Map_AssassinM_Stand:
-#incext Png2Dmp "AssassinMS.png" --lz77
+#incbin "AssassinMS.dmp"
 Map_AssassinM_Move:
-#incext Png2Dmp "AssassinMM.png" --lz77
+#incbin "AssassinMM.dmp"
 Map_WarCleric_Stand:
-#incext Png2Dmp "WarClericS.png" --lz77
+#incbin "WarClericS.dmp"
 Map_WarCleric_Move:
-#incext Png2Dmp "WarClericM.png" --lz77
+#incbin "WarClericM.dmp"
 Map_WarMonk_Stand:
-#incext Png2Dmp "WarMonkS.png" --lz77
+#incbin "WarMonkS.dmp"
 Map_WarMonk_Move:
-#incext Png2Dmp "WarMonkM.png" --lz77
+#incbin "WarMonkM.dmp"
 Map_WyvernKnight_Stand:
-#incext Png2Dmp "WyvernKS.png" --lz77
+#incbin "WyvernKS.dmp"
 Map_WyvernKnight_Move:
-#incext Png2Dmp "WyvernKM.png" --lz77
+#incbin "WyvernKM.dmp"
 Map_WyvernLord_Stand:
-#incext Png2Dmp "WyvernLS.png" --lz77
+#incbin "WyvernLS.dmp"
 Map_WyvernLord_Move:
-#incext Png2Dmp "WyvernLM.png" --lz77
+#incbin "WyvernLM.dmp"
 Map_GoldKnight_Stand:
-#incext Png2Dmp "GoldKnightS.png" --lz77
+#incbin "GoldKnightS.dmp"
 Map_GoldKnight_Move:
-#incext Png2Dmp "GoldKnightM.png" --lz77
+#incbin "GoldKnightM.dmp"
 Map_SilverKnight_Stand:
-#incext Png2Dmp "SilverKnightS.png" --lz77
+#incbin "SilverKnightS.dmp"
 Map_SilverKnight_Move:
-#incext Png2Dmp "SilverKnightM.png" --lz77
+#incbin "SilverKnightM.dmp"
 Map_Fighter_Stand:
-#incext Png2Dmp "FighterS.png" --lz77
+#incbin "FighterS.dmp"
 Map_Fighter_Move:
-#incext Png2Dmp "FighterM.png" --lz77
+#incbin "FighterM.dmp"

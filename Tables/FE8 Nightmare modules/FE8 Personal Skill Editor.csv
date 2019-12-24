@@ -1,40 +1,40 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Cethern /done,ChivalryID
-Setanta /done,QuintainID
-Ferdiad /done,SwiftStanceID
-Hanlin /done,MachaArtsID
-Aingha,0x0
-Sabhdh /done,ChandelleID
-Lalitha /done,HaughtyID
-Aengus /done,SlowBurnID
-Bres /done,SealSklID
-Ethniu /done,QuickBurnID
-Gedeon,DriveResID
-"Soma | if next to srihwen, +20 hit",ChandrasFealtyID
-Varuna,0x0
-Sanjana | Philanderer,0x0
-Srihwen | Muted Soul,MutedSoulID
-Rudram,0x0
-Kyle,SpurStrID
-Amelia,ParagonID
-Artur,FocusID
-Gerik,BondID
-Tethys,DemoiselleID
-Marisa,FocusID
-Saleh,SpurMagID
-Ewan,CelerityID
-L'Arachel,IntimidateID
-Dozla,PivotID
--0,0x0
-Rennac,SpurSpdID
-Duessel,RepositionID
-Myrrh,DragonsBloodID
-Knoll,VoiceOfPeaceID
-Joshua,GambleID
-Syrene,TantivyID
-Tana,LilysPoiseID
-Lyon,LunaID
+Cethern (Eirika),ChivalryID
+Setanta (Seth),QuintainID
+Ferdiad (Gilliam),SwiftStanceID
+Hanlin (Franz),MachaArtsID
+Aingha/Airmed (Moulder),0x0
+Sadhbh (Vanessa),ChandelleID
+Lalitha (Ross),HaughtyID
+Aengus (Neimi),SlowBurnID
+Bres (Colm),ManastrikeID
+Ethniu (Garcia),QuickBurnID
+Gedeon (Innes),DriveResID
+Soma (Lute),ChandrasFealtyID
+Varuna (Natasha),0x0
+Sanjana (Cormag) / Philanderer,0x0
+Srihwen (Ephraim),MutedSoulID
+Rudram (Forde),ManasnakeID
+Nala (Kyle),0x0
+Sirin (Amelia),0x0
+Birnath (Artur),0x0
+Sin Gu (Gerik),0x0
+Len (Tethys),0x0
+Calingi (Marisa),0x0
+Rhibhu (Saleh),0x0
+Sengann (Ewan),0x0
+Bheki (L'Arachel),0x0
+Danand (Dozla),0x0
+Kyuhn,0x0
+Gusainji (Rennac),0x0
+Murugan (Duessel),0x0
+Flidais (Myrrh),0x0
+Zheng (Knoll),0x0
+Radhe (Joshua),0x0
+Enoch (Syrene),0x0
+Naamah (Tana),0x0
+Marici (Lyon),DauntID
 Orson,0x0
 Glen,0x0
 Selena,0x0
@@ -74,8 +74,8 @@ Bone (Ch 2),PatienceID
 Bazba (Ch 3),SealStrID
 Entombed (Ch 4),0x0
 Saar (Ch 5),SavageBlowID
-Novala (Ch 6),IgnisID
-Murray (Ch 7),LifeAndDeathID
+Novala (Ch 6),VantageID
+Murray (Ch 7),PointBlankID
 Tirado (Ch 8),SealDefID
 Binks (Ch 9A),BowfaireID
 Pablo (Ch 10A),DartingBlowID

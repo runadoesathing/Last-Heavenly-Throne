@@ -10,6 +10,9 @@ Generic_Cavalier:
 Generic_Knight:
 	#incbin "./_palettes/Generic_Knight.lzpal"
 
+Generic_WyvernRider:
+	#incbin "./_palettes/Generic_WyvernRider.lzpal"
+
 Generic_SkyKnight:
 	#incbin "./_palettes/Generic_SkyKnight.lzpal"
 
@@ -129,4 +132,16 @@ Enoch_Diviner:
 
 Jhudiel_GoldKnight:
 	#incbin "./_palettes/Jhudiel_GoldKnight.lzpal"
+
+Shuka_Diabolist:
+	#incbin "./_palettes/Shuka_Diabolist.lzpal"
+
+Marici_BowKnight:
+	#incbin "./_palettes/Marici_BowKnight.lzpal"
+
+Sanjana_LanceKnight:
+	#incbin "./_palettes/Sanjana_LanceKnight.lzpal"
+
+Varuna_WyvernRider:
+	#incbin "./_palettes/Varuna_WyvernRider.lzpal"
 

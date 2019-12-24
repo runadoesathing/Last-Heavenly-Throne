@@ -1,0 +1,300 @@
+
+ALIGN 4
+AengusAlpha_Mug:
+#incbin "AengusAlpha_mug.dmp"
+ALIGN 4
+AengusAlpha_Frames:
+#incbin "AengusAlpha_frames.dmp"
+ALIGN 4
+AengusAlpha_Palette:
+#incbin "AengusAlpha_palette.dmp"
+ALIGN 4
+AengusAlpha_Minimug:
+#incbin "AengusAlpha_minimug.dmp"
+
+ALIGN 4
+Aillen_Mug:
+#incbin "Aillen_mug.dmp"
+ALIGN 4
+Aillen_Frames:
+#incbin "Aillen_frames.dmp"
+ALIGN 4
+Aillen_Palette:
+#incbin "Aillen_palette.dmp"
+ALIGN 4
+Aillen_Minimug:
+#incbin "Aillen_minimug.dmp"
+
+ALIGN 4
+AirmedAlpha_Mug:
+#incbin "AirmedAlpha_mug.dmp"
+ALIGN 4
+AirmedAlpha_Frames:
+#incbin "AirmedAlpha_frames.dmp"
+ALIGN 4
+AirmedAlpha_Palette:
+#incbin "AirmedAlpha_palette.dmp"
+ALIGN 4
+AirmedAlpha_Minimug:
+#incbin "AirmedAlpha_minimug.dmp"
+
+ALIGN 4
+Anluan_Mug:
+#incbin "Anluan_mug.dmp"
+ALIGN 4
+Anluan_Frames:
+#incbin "Anluan_frames.dmp"
+ALIGN 4
+Anluan_Palette:
+#incbin "Anluan_palette.dmp"
+ALIGN 4
+Anluan_Minimug:
+#incbin "Anluan_minimug.dmp"
+
+ALIGN 4
+BresAlpha_Mug:
+#incbin "BresAlpha_mug.dmp"
+ALIGN 4
+BresAlpha_Frames:
+#incbin "BresAlpha_frames.dmp"
+ALIGN 4
+BresAlpha_Palette:
+#incbin "BresAlpha_palette.dmp"
+ALIGN 4
+BresAlpha_Minimug:
+#incbin "BresAlpha_minimug.dmp"
+
+ALIGN 4
+Camniel_Mug:
+#incbin "Camniel_mug.dmp"
+ALIGN 4
+Camniel_Frames:
+#incbin "Camniel_frames.dmp"
+ALIGN 4
+Camniel_Palette:
+#incbin "Camniel_palette.dmp"
+ALIGN 4
+Camniel_Minimug:
+#incbin "Camniel_minimug.dmp"
+
+ALIGN 4
+Cethern_Mug:
+#incbin "Cethern_mug.dmp"
+ALIGN 4
+Cethern_Frames:
+#incbin "Cethern_frames.dmp"
+ALIGN 4
+Cethern_Palette:
+#incbin "Cethern_palette.dmp"
+ALIGN 4
+Cethern_Minimug:
+#incbin "Cethern_minimug.dmp"
+
+ALIGN 4
+CuRaoi_Mug:
+#incbin "CuRaoi_mug.dmp"
+ALIGN 4
+CuRaoi_Frames:
+#incbin "CuRaoi_frames.dmp"
+ALIGN 4
+CuRaoi_Palette:
+#incbin "CuRaoi_palette.dmp"
+ALIGN 4
+CuRaoi_Minimug:
+#incbin "CuRaoi_minimug.dmp"
+
+ALIGN 4
+EthniuAlpha_Mug:
+#incbin "EthniuAlpha_mug.dmp"
+ALIGN 4
+EthniuAlpha_Frames:
+#incbin "EthniuAlpha_frames.dmp"
+ALIGN 4
+EthniuAlpha_Palette:
+#incbin "EthniuAlpha_palette.dmp"
+ALIGN 4
+EthniuAlpha_Minimug:
+#incbin "EthniuAlpha_minimug.dmp"
+
+ALIGN 4
+FemaleEnemySoldier_Mug:
+#incbin "FemaleEnemySoldier_mug.dmp"
+ALIGN 4
+FemaleEnemySoldier_Frames:
+#incbin "FemaleEnemySoldier_frames.dmp"
+ALIGN 4
+FemaleEnemySoldier_Palette:
+#incbin "FemaleEnemySoldier_palette.dmp"
+ALIGN 4
+FemaleEnemySoldier_Minimug:
+#incbin "FemaleEnemySoldier_minimug.dmp"
+
+ALIGN 4
+Ferdiad_Mug:
+#incbin "Ferdiad_mug.dmp"
+ALIGN 4
+Ferdiad_Frames:
+#incbin "Ferdiad_frames.dmp"
+ALIGN 4
+Ferdiad_Palette:
+#incbin "Ferdiad_palette.dmp"
+ALIGN 4
+Ferdiad_Minimug:
+#incbin "Ferdiad_minimug.dmp"
+
+ALIGN 4
+Gedaliah_Mug:
+#incbin "Gedaliah_mug.dmp"
+ALIGN 4
+Gedaliah_Frames:
+#incbin "Gedaliah_frames.dmp"
+ALIGN 4
+Gedaliah_Palette:
+#incbin "Gedaliah_palette.dmp"
+ALIGN 4
+Gedaliah_Minimug:
+#incbin "Gedaliah_minimug.dmp"
+
+ALIGN 4
+HanlinAlpha_Mug:
+#incbin "HanlinAlpha_mug.dmp"
+ALIGN 4
+HanlinAlpha_Frames:
+#incbin "HanlinAlpha_frames.dmp"
+ALIGN 4
+HanlinAlpha_Palette:
+#incbin "HanlinAlpha_palette.dmp"
+ALIGN 4
+HanlinAlpha_Minimug:
+#incbin "HanlinAlpha_minimug.dmp"
+
+ALIGN 4
+Ishpan_Mug:
+#incbin "Ishpan_mug.dmp"
+ALIGN 4
+Ishpan_Frames:
+#incbin "Ishpan_frames.dmp"
+ALIGN 4
+Ishpan_Palette:
+#incbin "Ishpan_palette.dmp"
+ALIGN 4
+Ishpan_Minimug:
+#incbin "Ishpan_minimug.dmp"
+
+ALIGN 4
+Jhudiel_Mug:
+#incbin "Jhudiel_mug.dmp"
+ALIGN 4
+Jhudiel_Frames:
+#incbin "Jhudiel_frames.dmp"
+ALIGN 4
+Jhudiel_Palette:
+#incbin "Jhudiel_palette.dmp"
+ALIGN 4
+Jhudiel_Minimug:
+#incbin "Jhudiel_minimug.dmp"
+
+ALIGN 4
+LalithaAlpha_Mug:
+#incbin "LalithaAlpha_mug.dmp"
+ALIGN 4
+LalithaAlpha_Frames:
+#incbin "LalithaAlpha_frames.dmp"
+ALIGN 4
+LalithaAlpha_Palette:
+#incbin "LalithaAlpha_palette.dmp"
+ALIGN 4
+LalithaAlpha_Minimug:
+#incbin "LalithaAlpha_minimug.dmp"
+
+ALIGN 4
+Lamech_Mug:
+#incbin "Lamech_mug.dmp"
+ALIGN 4
+Lamech_Frames:
+#incbin "Lamech_frames.dmp"
+ALIGN 4
+Lamech_Palette:
+#incbin "Lamech_palette.dmp"
+ALIGN 4
+Lamech_Minimug:
+#incbin "Lamech_minimug.dmp"
+
+ALIGN 4
+MiachAlpha_Mug:
+#incbin "MiachAlpha_mug.dmp"
+ALIGN 4
+MiachAlpha_Frames:
+#incbin "MiachAlpha_frames.dmp"
+ALIGN 4
+MiachAlpha_Palette:
+#incbin "MiachAlpha_palette.dmp"
+ALIGN 4
+MiachAlpha_Minimug:
+#incbin "MiachAlpha_minimug.dmp"
+
+ALIGN 4
+Rionall_Mug:
+#incbin "Rionall_mug.dmp"
+ALIGN 4
+Rionall_Frames:
+#incbin "Rionall_frames.dmp"
+ALIGN 4
+Rionall_Palette:
+#incbin "Rionall_palette.dmp"
+ALIGN 4
+Rionall_Minimug:
+#incbin "Rionall_minimug.dmp"
+
+ALIGN 4
+SadhbhAlpha_Mug:
+#incbin "SadhbhAlpha_mug.dmp"
+ALIGN 4
+SadhbhAlpha_Frames:
+#incbin "SadhbhAlpha_frames.dmp"
+ALIGN 4
+SadhbhAlpha_Palette:
+#incbin "SadhbhAlpha_palette.dmp"
+ALIGN 4
+SadhbhAlpha_Minimug:
+#incbin "SadhbhAlpha_minimug.dmp"
+
+ALIGN 4
+Setanta_Mug:
+#incbin "Setanta_mug.dmp"
+ALIGN 4
+Setanta_Frames:
+#incbin "Setanta_frames.dmp"
+ALIGN 4
+Setanta_Palette:
+#incbin "Setanta_palette.dmp"
+ALIGN 4
+Setanta_Minimug:
+#incbin "Setanta_minimug.dmp"
+
+ALIGN 4
+Shuka_Mug:
+#incbin "Shuka_mug.dmp"
+ALIGN 4
+Shuka_Frames:
+#incbin "Shuka_frames.dmp"
+ALIGN 4
+Shuka_Palette:
+#incbin "Shuka_palette.dmp"
+ALIGN 4
+Shuka_Minimug:
+#incbin "Shuka_minimug.dmp"
+
+ALIGN 4
+Srihwen_Mug:
+#incbin "Srihwen_mug.dmp"
+ALIGN 4
+Srihwen_Frames:
+#incbin "Srihwen_frames.dmp"
+ALIGN 4
+Srihwen_Palette:
+#incbin "Srihwen_palette.dmp"
+ALIGN 4
+Srihwen_Minimug:
+#incbin "Srihwen_minimug.dmp"
+

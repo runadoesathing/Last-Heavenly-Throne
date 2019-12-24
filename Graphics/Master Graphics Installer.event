@@ -30,17 +30,7 @@ ALIGN 4
 #include "Item Slot Installer.txt"
 
 ALIGN 16
-CorbenicPalette:
-#incext Png2Dmp "CormenicFields.png" --palette-only
-ALIGN 4
-
-NightSnowFieldsPalette:
-#incext Png2Dmp "SnowFields.png" --palette-only
-ALIGN 4
-
-NicktVillagePalette:
-#incext Png2Dmp "NicktVillage.png" --palette-only
-ALIGN 4
+#include "Tilesets/Tileset Installer.event"
 
 /*NewStatScreen:
 #incext Png2Dmp "StatScreen2.png" --lz77
@@ -58,15 +48,13 @@ POP
 
 PUSH
 ORG $AAC5AC
-#incext Png2Dmp "FireEmblem.png" --lz77
+#incbin "FireEmblem.dmp"
 ORG $AACEDC
-#incext Png2Dmp "SacredStones.png" --lz77
+#incbin "SacredStones.dmp"
 POP
 
 ArrowPng:
-#incext Png2Dmp "Arrow.png" --lz77
-//ArrowPalette:
-//#incext Png2Dmp "Arrow.png" --palette-only
+#incbin "Arrow.dmp"
 
 //IconsPng:
 //#incext Png2Dmp "iconsboi.png" --lz77
@@ -85,7 +73,3 @@ PUSH
     #incbin "weaponpalette.dmp"
     MESSAGE Item palette updated currentOffset
 POP
-
-EventPointerTable(0xe0, CorbenicPalette)
-EventPointerTable(0xe1, NightSnowFieldsPalette)
-EventPointerTable(0xe2, NicktVillagePalette)

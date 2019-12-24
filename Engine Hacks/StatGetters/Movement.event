@@ -4,8 +4,8 @@
 #include "_Common.event"
 
 pMovModifiers: // Movement
-	POIN prAddUnitBaseMov prAddUnitMovBonus prRallyMov prSkillCelerity prNullifyIfGuardAI ArmorMarchCheck 
-	#ifdef ENABLE_STAIRS
+	POIN prAddUnitBaseMov prAddUnitMovBonus prRallyMov prSkillCelerity prSkillPoise prNullifyIfGuardAI prArmorMarchCheck 
+	#ifdef STAIRS_ASM
 	POIN StairsMoveDebuff-1
 	#endif
 	POIN prNullifyIfFreeze
@@ -23,6 +23,10 @@ prAddUnitMovBonus:
 prSkillCelerity:
 	rIfUnitHasSkill(CelerityID)
 		rAddConst(2)
+		
+prSkillPoise:
+	rIfUnitHasSkill(PoiseID)
+		rAddConst(1)
 
 prNullifyIfGuardAI:
 	rIfUnitHasNotAllegience(UA_BLUE)

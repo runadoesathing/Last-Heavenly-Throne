@@ -133,11 +133,41 @@ Enoch[X]
 ## NaamahName
 Naamah[X]
 
+## ShukaName
+Shuka[X]
+
+## AnilaName
+Anila[X]
+
+## MariciName
+Marici[X]
+
+## ChakoraName
+Chakora[X]
+
+## BabhruName
+Babhru[X]
+
+## GogaName
+Goga[X]
+
+## KalkinName
+Kalkin[X]
+
+## ManasaName
+Manasa[X]
+
+## BhatnName
+Bhatn[X]
+
+## AntariksaName
+Antariksa[X]
+
 
 
 ## ConallDesc
-Young boy from Cluain Bolg. Wishes to[N]
-defend those he keeps dear.[X]
+Young boy from Cluain Bolg. Wishes[N]
+to defend those he keeps dear.[X]
 
 ## SetantaDesc
 Childhood friend of Cethern. Is[N]
@@ -241,6 +271,50 @@ Heichalot in the far north.[X]
 ## OchrenDesc
 Militia of Caer Ochren, Corbenic's[N]
 northwestern province.[X]
+
+## ShukaDesc
+Mage of the Anilan Order.[N]
+Prideful and goading.[X]
+
+## AnilaDesc
+Monks from the Anilan Order, who[N]
+worship the godly aspect Anila.[X]
+
+## MariciDesc
+Rookie mounted archer of Srughna.[N]
+Puts on a face of seriousness.[X]
+
+## ChakoraDesc
+Exiled member of the Chandran Order,[N]
+now returned under Antariksa's banner.[X]
+
+## BabhruDesc
+Armoured devout of Anila. Ordered to[N]
+keep watch near Prabhasa's domain.[X]
+
+## GogaDesc
+A member of the Anala people.[N]
+Defected to the Antariksan Order.[X]
+
+## KalkinDesc
+Brother of Antariksa's greatmother,[N]
+Manasa. A talented sorcerer.[X]
+
+## ManasaDesc
+Greatmother of the Antariksan Order.[N]
+Wishes to unite Bhuloka under her faith.[X]
+
+## BhatnDesc
+The Wardbearer of shadow and night,[N]
+revived by Manasa to legitimize her rule.[X]
+
+## NalaDesc
+Knight of House Abhira, a noble house[N]
+of Srughna. Keeps to himself.[X]
+
+## AntariksaDesc
+Monks of the Antariksan Order, dedicated[N]
+to an obscure Wardbearer of the skies.[X]
 
 
 
@@ -567,10 +641,10 @@ Debuffs enemy Str/Def by 6.[X]
 ## FluxDName
 Flux[X]
 
-## WormHName
+## WormName
 Worm[X]
 
-## WormHDesc
+## WormDesc
 Poisons enemy on hit.[X]
 
 ## ResireSName
@@ -648,3 +722,24 @@ R. Luck M.[X]
 
 ## RallyLuckManualUse
 Teaches Rally Luck.[X]
+
+## HwenScrollName
+Hwen Scr.[X]
+
+## HwenScrollDesc
+Hwen Scroll: +10% HP/Luck/Mag,[N]
++20% Skill, -10% Def/Res.[N]
+Earth affinity only.[X]
+
+## ScrollUse
+A scroll of the[N]
+Wardbearers that[N]
+boosts potential.[X]
+
+## TenlethScrollName
+Tenleth Scr.[X]
+
+## TenlethScrollDesc
+Tenleth Scroll: +30% Mag[N]
+/Def/Res, -20% HP/Str.[N]
+Heaven affinity only.[X]

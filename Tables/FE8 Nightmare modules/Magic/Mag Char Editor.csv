@@ -12,11 +12,11 @@ Bres,1,15
 Ethniu,4,55
 Gedeon,2,40
 Soma,0,20
-Varuna,0,0
-Sanjana,0,0
+Varuna,0,10
+Sanjana,2,25
 Srihwen,5,60
 Rudram,0,0
-Kyle,0,0
+Kyle,1,20
 Amelia,0,0
 Artur,0,0
 Gerik,0,0
@@ -34,7 +34,7 @@ Knoll,0,0
 Joshua,0,0
 Syrene,0,0
 Tana,0,0
-Lyon,13,50
+Lyon,1,15
 Orson,3,10
 Glen,2,0
 Selena,10,40
@@ -74,7 +74,7 @@ Bone (Ch 2),8,40
 Bazba (Ch 3),5,40
 Entombed (Ch 4),1,5
 Saar (Ch 5),1,5
-Novala (Ch 6),8,50
+Novala (Ch 6),7,50
 Murray (Ch 7),2,5
 Tirado (Ch 8),3,15
 Binks (Ch 9A),2,10
@@ -135,10 +135,10 @@ Heichalot,1,15
 magicians of heichalot,3,25
 OCHREN,1,15
 MAGICAL OCHREN,2,25
-Grado Soldier 9,0,0
-Grado Soldier 10 (Duessel's),0,0
-Grado Soldier 11 (Duessel's),0,0
-Grado Soldier 12 (Duessel's),0,0
+Anila,1,15
+Magic Anila,2,25
+Antariksa,1,15
+Magic Antariksa,2,25
 Grado Soldier 13,0,0
 Grado Remnant 1 (Main),0,0
 Cutthroat,0,0

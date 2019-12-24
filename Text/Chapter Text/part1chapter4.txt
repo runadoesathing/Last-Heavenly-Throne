@@ -1047,6 +1047,6 @@ She would curse my name with her every breath.[X]
 
 
 ## P1C4Warning
-Units with a diamond on them will cause[N]
+Units with a [ToggleRed]diamond[ToggleRed] on them will cause[N]
 a game over if they are killed.[......][N]
 Please be cautious.[A][X]

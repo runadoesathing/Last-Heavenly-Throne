@@ -27,6 +27,11 @@
 	setGenericPalette(0xCB,Generic_Knight)
 	setGenericPalette(0xCC,Generic_Knight)
 
+// Generic_WyvernRider
+	setGenericPalette(0x59,Generic_WyvernRider)
+	setGenericPalette(0xCD,Generic_WyvernRider)
+	setGenericPalette(0xCE,Generic_WyvernRider)
+
 // Generic_SkyKnight
 	setGenericPalette(0x66,Generic_SkyKnight)
 	setGenericPalette(0x67,Generic_SkyKnight)
@@ -187,3 +192,19 @@
 // Jhudiel_GoldKnight
 	setPalette(0x1F,Jhudiel_GoldKnight)
 	setCBSP(0x1F,0x0,0x0,0x0)
+
+// Shuka_Diabolist
+	setPalette(0x20,Shuka_Diabolist)
+	setCBSP(0x20,0x0,0x0,0x0)
+
+// Marici_BowKnight
+	setPalette(0x21,Marici_BowKnight)
+	setCBSP(0x21,0x0,0x0,0x0)
+
+// Sanjana_LanceKnight
+	setPalette(0x22,Sanjana_LanceKnight)
+	setCBSP(0x22,0x0,0x0,0x0)
+
+// Varuna_WyvernRider
+	setPalette(0x23,Varuna_WyvernRider)
+	setCBSP(0x23,0x0,0x0,0x0)

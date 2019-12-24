@@ -68,6 +68,7 @@ CavalierPaletteList:
 PaletteAssociationEntry(Setanta, $2)
 PaletteAssociationEntry(Aillen, $C)
 PaletteAssociationEntry(Len, $13)
+PaletteAssociationEntry(Sanjana, $22)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -135,6 +136,7 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WyvRiderPaletteList:
+PaletteAssociationEntry(Varuna, $23)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -149,6 +151,7 @@ ALIGN 4
 MagePaletteList:
 PaletteAssociationEntry(Lalitha, $6)
 PaletteAssociationEntry(Naamah, $1B)
+PaletteAssociationEntry(Shuka, $20)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -193,6 +196,7 @@ ALIGN 4
 
 BowCavalierPaletteList:
 PaletteAssociationEntry(Ferdiad, $3)
+PaletteAssociationEntry(Marici, $21)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

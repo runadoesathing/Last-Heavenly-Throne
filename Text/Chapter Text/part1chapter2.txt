@@ -877,6 +877,6 @@ We're still going to head for the camp.[X]
 
 
 ## P1C2Warning
-From this chapter on, only Cethern's[N]
-death will lead to a game over.[A][N]
+From this chapter on, only [ToggleRed]Cethern's[ToggleRed][N]
+death will lead to a game over.[......][N]
 Please be cautious.[A][X]

@@ -8,18 +8,22 @@
 
 	MESSAGE Writing at currentOffset
     //Text first for Text ID definitions
+	ALIGN 4
     #include "Text/Install Text Data.event"
     MESSAGE Used text space ends at currentOffset
 
     //CSV tables
+	ALIGN 4
     #include "Tables/Table Installer.event"
     MESSAGE Used table space ends at currentOffset
 
     //Engine Hacks
+	ALIGN 4
     #include "Engine Hacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
 	
 	//Maps
+	ALIGN 4
     #include "Maps/Master Map Installer.event"
 	MESSAGE Used maps space ends at currentOffset
 	
@@ -29,19 +33,23 @@
 	
 	MESSAGE Writing at currentOffset
 	//Animations & Graphics
+	ALIGN 4
 	#include "Graphics/Master Graphics Installer.event"
 	MESSAGE Used graphics space ends at currentOffset
 	
 	//Music
+	ALIGN 4
     #include "Music/Music Installer.event"
 	MESSAGE Used music space ends at currentOffset
 	
     //Events
+	ALIGN 4
     #include "Events/Master Event Installer.txt"
+	ALIGN 4
     #include "Events/World Map Events Installer.event"
 	MESSAGE Used events space ends at currentOffset
     
     MESSAGE Second free space ends at currentOffset
 #else
-    ERROR You are not assembling FE8 events!
+    ERROR You are not assembling FE8 events
 #endif

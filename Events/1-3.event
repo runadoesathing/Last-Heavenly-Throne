@@ -92,7 +92,7 @@ UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [7,17] 0x0 0x0 0x1 REDA7R16 [0x0] [0
 UNIT
 
 EnemyUnits:
-UNIT 0x84 Archer Bone Level(5, Enemy, 1)         [7,0] 0 0 0 0    [IronBow,Dracoshield] AttackInRangeAI
+UNIT 0x84 Archer Bone Level(5, Enemy, 1)         [7,0] 0 0 0 0    [IronBow,0x70] AttackInRangeAI
 UNIT 0x85 Monk Bone Level(3, Enemy, 1)           [13,2] 0 0 0 0   [MalkuthI] AttackInRangeAI
 UNIT 0x84 Fighter Bone Level(4, Enemy, 1)        [8,5] 0 0 0 0    [IronAxe] AttackInRangeAI
 UNIT 0x84 Archer_F Bone Level(3, Enemy, 1)       [10,7] 0 0 0 0   [IronBow] AttackInRangeAI
@@ -185,36 +185,25 @@ MUSC 0x52
 SetBackground(ArmyCamp)
 STAL 45
 BROWNBOXTEXT CaerWydyr [8,8] // box in the top right that's pretty cool for small text
+TEXTSTART
 CHECK_ALIVE Sadhbh
 BEQ 0x0 0xC 0x0
 	CHECK_ALIVE Setanta
 	BEQ 0x41 0xC 0x0
 		CHECK_ALIVE Ferdiad
 		BEQ 0x42 0xC 0x0
-			TEXTSTART
 			TEXTSHOW P1C3EveryoneAlive
-			TEXTEND
-			REMA	
 			GOTO 0x66
 		LABEL 0x42
-			TEXTSTART
 			TEXTSHOW P1C3SaAliveFeDead
-			TEXTEND
-			REMA	
 			GOTO 0x66
 	LABEL 0x41
 		CHECK_ALIVE Ferdiad
 		BEQ 0x43 0xC 0x0
-			TEXTSTART
 			TEXTSHOW P1C3SaAliveSeDead
-			TEXTEND
-			REMA	
 			GOTO 0x66		
 		LABEL 0x43
-			TEXTSTART
 			TEXTSHOW P1C3SaAliveRestDead
-			TEXTEND
-			REMA	
 			GOTO 0x66
 LABEL 0x0
 ENUT 0xA // sadhbh not alive
@@ -222,32 +211,22 @@ CHECK_ALIVE Setanta
 BEQ 0x1 0xC 0x0
 	CHECK_ALIVE Ferdiad
 	BEQ 0x44 0xC 0x0
-		TEXTSTART
 		TEXTSHOW P1C3SeAlive
-		TEXTEND
-		REMA	
 		GOTO 0x66		
 	LABEL 0x44
-		TEXTSTART
 		TEXTSHOW P1C3SeAliveFeDead
-		TEXTEND
-		REMA	
 		GOTO 0x66	
 LABEL 0x1
 CHECK_ALIVE Ferdiad
 BEQ 0x2 0xC 0x0
-	TEXTSTART
 	TEXTSHOW P1C3FeAlive
-	TEXTEND
-	REMA
 	GOTO 0x66
 LABEL 0x2
 ENUT CluainBolgGone // no one is alive
-TEXTSTART
 TEXTSHOW P1C3NoOneAlive
+LABEL 0x66
 TEXTEND
 REMA
-LABEL 0x66
 MUSCMID 0x7FFF
 FADI 4
 STAL 60
@@ -561,7 +540,7 @@ SVAL 0x3 P1C3GoddessIconText
 CALL 0x9EE310
 REMA
 CALL 0x591F40
-SVAL 0x3 GoddessIcon
+SVAL 0x3 PureWater
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA

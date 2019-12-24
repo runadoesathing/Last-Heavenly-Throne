@@ -3,10 +3,21 @@ ALIGN 4
 RemoveItem:
 #incbin "item_collect.dmp"
 
+// Remove Item from Unit (by 7743)
+RemoveItemByUnit:
+#incbin "item_collect_by_unit.dmp"
+
 // GiveItemSilently
 ALIGN 4
 SilentGiveItem:
 #incbin "SilentGiveItem.dmp"
 
+// Lose Gold (Kaito/7743)
+ALIGN 4
+LoseGold:
+#incbin "gold_collect.dmp"
+
 #define RemoveInventory(item) "BYTE 0x40 0x0D item 0x00; POIN RemoveItem+1"
 #define SilentlyGiveItem(item, unit) "BYTE 0x40 0x0D unit item; POIN SilentGiveItem+1"
+#define RemoveUnitItem(item, unit) "BYTE 0x40 0x0D unit item; POIN RemoveItemByUnit+1"
+#define GoldCollect(amount) "BYTE 0x40 0x0D; SHORT (amount<<16); POIN LoseGold+1"

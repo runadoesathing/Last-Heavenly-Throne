@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="1">
  <tileset firstgid="1" name="0E007210" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="0E007210.png" trans="ffffff" width="512" height="512"/>
  </tileset>
@@ -8,7 +8,7 @@
    <property name="Main" value=""/>
   </properties>
   <data>
-   <tile gid="522"/>
+   <tile gid="518"/>
    <tile gid="929"/>
    <tile gid="930"/>
    <tile gid="931"/>
@@ -45,8 +45,8 @@
    <tile gid="161"/>
    <tile gid="143"/>
    <tile gid="521"/>
-   <tile gid="555"/>
-   <tile gid="417"/>
+   <tile gid="523"/>
+   <tile gid="452"/>
    <tile gid="877"/>
    <tile gid="903"/>
    <tile gid="904"/>
@@ -67,7 +67,7 @@
    <tile gid="268"/>
    <tile gid="321"/>
    <tile gid="13"/>
-   <tile gid="417"/>
+   <tile gid="484"/>
    <tile gid="929"/>
    <tile gid="930"/>
    <tile gid="931"/>
@@ -75,8 +75,8 @@
    <tile gid="5"/>
    <tile gid="813"/>
    <tile gid="881"/>
-   <tile gid="390"/>
-   <tile gid="390"/>
+   <tile gid="398"/>
+   <tile gid="400"/>
    <tile gid="846"/>
    <tile gid="140"/>
    <tile gid="173"/>
@@ -89,8 +89,8 @@
    <tile gid="5"/>
    <tile gid="79"/>
    <tile gid="876"/>
-   <tile gid="417"/>
-   <tile gid="272"/>
+   <tile gid="168"/>
+   <tile gid="229"/>
    <tile gid="988"/>
    <tile gid="168"/>
    <tile gid="170"/>
@@ -108,10 +108,10 @@
    <tile gid="930"/>
    <tile gid="931"/>
    <tile gid="170"/>
-   <tile gid="545"/>
+   <tile gid="417"/>
    <tile gid="813"/>
-   <tile gid="390"/>
-   <tile gid="390"/>
+   <tile gid="398"/>
+   <tile gid="400"/>
    <tile gid="878"/>
    <tile gid="490"/>
    <tile gid="144"/>
@@ -123,12 +123,12 @@
    <tile gid="962"/>
    <tile gid="963"/>
    <tile gid="162"/>
-   <tile gid="577"/>
+   <tile gid="481"/>
    <tile gid="877"/>
    <tile gid="490"/>
    <tile gid="166"/>
-   <tile gid="420"/>
-   <tile gid="483"/>
+   <tile gid="513"/>
+   <tile gid="419"/>
    <tile gid="6"/>
    <tile gid="231"/>
    <tile gid="238"/>
@@ -143,13 +143,13 @@
    <tile gid="290"/>
    <tile gid="289"/>
    <tile gid="5"/>
-   <tile gid="545"/>
-   <tile gid="578"/>
+   <tile gid="450"/>
+   <tile gid="419"/>
    <tile gid="299"/>
    <tile gid="300"/>
    <tile gid="162"/>
    <tile gid="908"/>
-   <tile gid="580"/>
+   <tile gid="419"/>
    <tile gid="75"/>
    <tile gid="69"/>
    <tile gid="79"/>
@@ -160,7 +160,7 @@
    <tile gid="111"/>
   </data>
  </layer>
- <layer id="10" name="Map Change 0" width="15" height="10">
+ <layer id="2" name="Map Change 0" width="15" height="10">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0"/>
@@ -321,7 +321,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="11" name="Map Change 1" width="15" height="10">
+ <layer id="3" name="Map Change 1" width="15" height="10">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="1"/>
@@ -482,7 +482,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="12" name="Map Change 2" width="15" height="10">
+ <layer id="4" name="Map Change 2" width="15" height="10">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="2"/>
@@ -643,7 +643,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="13" name="Map Change 3" width="15" height="10">
+ <layer id="5" name="Map Change 3" width="15" height="10">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="3"/>
@@ -804,7 +804,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="14" name="Map Change 4" width="15" height="10">
+ <layer id="6" name="Map Change 4" width="15" height="10">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="4"/>
@@ -965,7 +965,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="15" name="Map Change 5" width="15" height="10">
+ <layer id="7" name="Map Change 5" width="15" height="10">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>
@@ -1126,7 +1126,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="16" name="Map Change 6" width="15" height="10">
+ <layer id="8" name="Map Change 6" width="15" height="10">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="6"/>
@@ -1287,7 +1287,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="17" name="Map Change 7" width="15" height="10">
+ <layer id="9" name="Map Change 7" width="15" height="10">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="7"/>

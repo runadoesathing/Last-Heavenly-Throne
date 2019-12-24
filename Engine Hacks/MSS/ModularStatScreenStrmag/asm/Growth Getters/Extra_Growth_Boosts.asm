@@ -2,6 +2,7 @@
 .org 0x0
 
 .equ Item_Table, Growth_Options+4
+.equ ActiveChar, 0x3004E50
 @r0=battle struct or char data ptr, r1 = growth so far (from char data), r2=index in stat booster pointer of growth
 
 push	{r4-r7,r14}
@@ -53,9 +54,12 @@ ldr		r1,Item_Table
 add		r0,r1
 mov		r1,#0x22
 ldrb	r1,[r0,r1]
-mov		r2,#0x1			@bit signifying it's a scroll
-tst		r1,r2
-beq		NextItem
+ldr     r2,[r4]
+ldrb    r2,[r2,#0x9]
+cmp     r1,r2
+bne     NextItem
+@mov		r2,#0x1			@bit signifying it's a scroll
+@tst		r1,r2
 ldr		r0,[r0,#0xC]	@stat bonuses pointer
 cmp		r0,#0x0
 beq		NextItem
@@ -84,5 +88,7 @@ bx		r2
 .align
 Check_Event_ID:
 .long 0x08083DA8
+Get_Char_Data:
+.long 0x08019430
 Growth_Options:
 @

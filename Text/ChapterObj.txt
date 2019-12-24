@@ -1,6 +1,7 @@
 ## PlaceholderText
-[OpenMidLeft][LoadSetanta][OpenFarRight][LoadSetanta][OpenRight][LoadSetanta]
-Placeholder Text![A][X]
+[ConversationText]
+[OpenMidLeft][LoadSetanta][OpenFarRight][LoadFerdiad][OpenRight][LoadCethern]
+cethern dead lol, placeholder text![X]
 
 ## Ch0Long
 Defeat the bandit[N]
@@ -32,6 +33,10 @@ Defend Miach for[N]
 Defeat Shuka, mage[N]
 of Anila[X]
 
+## Ch6Long
+Defend the grove[N]
+for 9 turns[X]
+
 ## DefendObj
 Defend[X]
 
@@ -40,3 +45,4 @@ Defend[X]
 #include "Chapter Text/part1chapter3.txt"
 #include "Chapter Text/part1chapter4.txt"
 #include "Chapter Text/part1chapterF.txt"
+#include "Chapter Text/part2chapter1.txt"

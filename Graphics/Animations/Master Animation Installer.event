@@ -138,10 +138,10 @@
 #include "Pirate/Disarmed/Disarmed Installer.event"
 }
 {
-#include "Sibyl/7. Staff/Staff Installer.event"
+#include "Sibyl/Staff Installer.event"
 }
 {
-#include "Sibyl/8. Unarmed/Unarmed Installer.event"
+#include "Sibyl/Unarmed Installer.event"
 }
 {
 #include "Sky Knight/Lance/Lance Installer.event"

@@ -1,0 +1,21 @@
+MESSAGE Internals installed at currentOffset
+#include "Internals/SkillSystem.event"
+
+MESSAGE List installed at currentOffset
+#include "skill_lists.event" //who learns what skills when
+
+MESSAGE Descriptions installed at currentOffset
+#include "skill_descriptions.event"
+
+MESSAGE Icons installed at currentOffset
+#include "skill_icons.event"
+
+MESSAGE Animations installed at currentOffset
+#include "skill_animations.event"
+
+MESSAGE Skills installed at currentOffset
+#include "Skills/MasterSkillInstaller.event"
+
+MESSAGE Remove Skill Menu installed at currentOffset
+#include "RemoveSkillMenu/RemoveSkillMenu.event"
+

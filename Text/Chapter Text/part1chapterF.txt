@@ -30,6 +30,22 @@ Caer Vedwyd[X]
 
 
 
+## GedaliahBQ
+[BattleText]
+[MidLeft][LoadGedaliah]
+Your pitiful resistance will end here, in Caer Vedwyd.
+We shall claim victory from you, and raise flags on your land![X]
+
+
+
+## GedaliahDQ
+[BattleText]
+[MidLeft][LoadGedaliah]
+Jhudiel... My heavenly prince...[CloseEyes]
+I've failed as your subject.[X]
+
+
+
 ## P1CFWelcomeToCaerVedwyd
 [ConversationText]
 [Right][LoadJhudiel]
@@ -72,13 +88,13 @@ I don't believe now is the time for philosophy, Jhudiel.
 
 [MidLeft]
 But Camniel!
-As Stems of Heichalot, we serve the essence of Heichalot itself.
+As stems of Heichalot, we serve the essence of Heichalot itself.
 Yet this war...
 I fail to see how it benefits us.
 
 [MidRight]
 I refuse to consider that.
-The essence of Heichalot is our Heavenly Prince.
+The essence of Heichalot is our heavenly prince.
 If he wishes to wage war, I shall be on the frontlines.
 
 [MidLeft]
@@ -636,3 +652,700 @@ We need to fall back inside and form up...![X]
 We're stuck in this valley...
 The only thing we can do is fight!
 Everybody, brace yourselves![X]
+
+
+
+## P1CFCethernRein
+[ConversationText]
+[MidRight][LoadCethern]
+There's more approaching...[MoveMidRight]
+Stay vigilant![X]
+
+
+
+## P1CFGedeonRein
+[ConversationText]
+[MidRight][LoadGedeon]
+They're still coming...
+Reinforcements from all sides![X]
+
+
+
+## P1CFSadhbhRein
+[ConversationText]
+[MidLeft][LoadSadhbh]
+They're sending loads of pegasi...
+Careful near the mountains![X]
+
+
+
+## P1CFFerdiadRein
+[ConversationText]
+[MidRight][LoadFerdiad]
+There's so many...
+Can we even do this...?[MoveMidRight]
+We can do this, right?![X]
+
+
+
+## P1CFBresRein
+[ConversationText]
+[MidLeft][LoadBres][CloseEyes]
+We can't hold them off forever.
+No matter how hard we try, more will come...[X]
+
+
+
+## P1CFHanlinRein
+[ConversationText]
+[MidRight][LoadHanlin]
+It's foolish to stay here.
+Yet we cannot flee.[CloseEyes]
+Are we truly so doomed...?[X]
+
+
+
+## CethernDeathQ
+[BattleText]
+[MidRight][LoadCethern]
+Hrrk...! I...[N]
+I did it...[ClearFace]
+[MidLeft][LoadJhudiel]
+To think you would actually land a mark on me...[ToggleSmile]
+You're more apt than I first thought.
+Well done, Cethern.[X]
+
+
+
+## P1CFSFCDeath
+[ConversationText]
+[Right][LoadFace][0x17][0x1]
+[Left][LoadMiach]
+[FarLeft][LoadFerdiad]
+[FarRight][LoadSetanta]
+Cethern!
+What were you thinking?!
+You're...!
+
+[Right]
+You're right.[ToggleSmile]
+I don't think I'm gonna make it.[MoveRight][ToggleSmile]
+Agh, this hurts...
+
+[FarLeft]
+Maybe we can still help you!
+If we can get you something, anything--!
+
+[Right]
+Don't try it...
+If anybody heals me up, it'd be breaking that oath.
+Jhudiel wouldn't have any reason to keep you all alive.
+
+[FarRight]
+We're not going to let you die for some stupid duel rules!
+The three of us...
+We're a trio, Cethern!
+
+[Left][MoveLeft]
+Sniff...
+Cethern, please don't die...
+What's supposed to happen without you?
+What am I going to tell Airmed...?
+
+[Right]
+Miach, S[0xE9]tanta, Ferdiad, Airmed...
+You all need to keep fighting.
+No matter how long it takes, no matter how hard it is...
+Even if they take every blade of grass in Maghmeall, you need to fight back...!
+
+[Left]
+I...
+I don't want to lose you...
+Not like our parents...
+
+[FarLeft]
+Miach, I think we need to respect his wishes.
+He's saved all of us.
+I-It's for the best.
+
+[FarRight]
+Imprisonment isn't much of a better option than death![MoveFarRight][CloseEyes]
+Ugh, Cethern...
+I really wish you didn't do this.[OpenEyes]
+But you'd be the type to die like this.
+A knight's death is what you got, huh?
+
+[FarLeft]
+S[0xE9]tanta![MoveFarLeft]
+We don't have any other choice.
+I just want to say that...
+I've always adored you, Cethern.
+I'm sad to see you go...
+I don't want it to end like this...
+
+[Left]
+Cethern, I love you...
+Sniff...
+I'll take care of Airmed, promise...
+
+[Right]
+Miach...[......][MoveRight]
+The sun's rising...
+That's why it feels so... warm...[ClearFace]
+
+[Left][LoadOverworldFaces][.......][CloseEyes]
+Cethern...[X]
+
+
+
+## P1CFSCDeath
+[ConversationText]
+[Right][LoadFace][0x17][0x1]
+[MidLeft][LoadMiach]
+[FarRight][LoadSetanta]
+Cethern!
+What were you thinking?!
+You're...!
+
+[Right]
+You're right.[ToggleSmile]
+I don't think I'm gonna make it.[MoveRight][ToggleSmile]
+Agh, this hurts...
+
+[MidLeft]
+Cethern...!
+Can't we heal you...?
+I have--
+
+[Right]
+Don't try it...
+If anybody heals me up, it'd be breaking that oath.
+Jhudiel wouldn't have any reason to keep you all alive.
+
+[FarRight]
+We're not going to let you die for some stupid duel rules!
+We're a duo, Cethern!
+I can't let you die...
+
+[MidLeft][MoveMidLeft]
+Sniff...
+Please don't die...
+What's supposed to happen without you?
+What am I going to tell Airmed...?
+
+[Right]
+Miach, S[0xE9]tanta, Airmed...
+You all need to keep fighting.
+No matter how long it takes, no matter how hard it is...
+Even if they take every blade of grass in Maghmeall, you need to fight back...!
+
+[MidLeft]
+I...
+I don't want to lose you...
+Not like our parents...
+
+[FarRight]
+Ugh, Cethern...
+I really wish you didn't do this.[OpenEyes]
+But you'd be the type to die like this.
+A knight's death is what you got, huh?
+
+[MidLeft]
+Cethern, I love you...
+Sniff...
+I'll take care of Airmed, promise...
+
+[Right]
+Miach...[......][MoveRight]
+The sun's rising...
+That's why it feels so... warm...[ClearFace]
+
+[MidLeft][LoadOverworldFaces][.......][CloseEyes]
+Cethern...[X]
+
+
+
+## P1CFFCDeath
+[ConversationText]
+[Right][LoadFace][0x17][0x1]
+[MidLeft][LoadMiach]
+[FarRight][LoadFerdiad]
+Cethern!
+You're hurt!
+Really hurt...
+
+[Right]
+You're right.[ToggleSmile]
+I don't think I'm gonna make it.[MoveRight][ToggleSmile]
+Agh, this hurts...
+
+[FarRight]
+Maybe we can still help you!
+If we can get you something, anything--!
+
+[Right]
+Don't try it...
+If anybody heals me up, it'd be breaking that oath.
+Jhudiel wouldn't have any reason to keep you all alive.
+
+[MidLeft][MoveMidLeft]
+Sniff...
+Cethern, please don't die...
+What's supposed to happen without you?
+What am I going to tell Airmed...?
+
+[Right]
+Miach, Ferdiad, Airmed...
+You all need to keep fighting.
+No matter how long it takes, no matter how hard it is...
+Even if they take every blade of grass in Maghmeall, you need to fight back...!
+
+[MidLeft]
+I...
+I don't want to lose you...
+Not like our parents...
+
+[FarRight]
+Miach, I think we need to respect his wishes.
+He's saved all of us.
+I-It's for the best.[MoveFarRight]
+I just want to say that I've always adored you, Cethern.
+I'm sad to see you go...
+I don't want it to end like this...
+
+[MidLeft]
+Cethern, I love you...
+Sniff...
+I'll take care of Airmed, promise...
+
+[Right]
+Miach...[......][MoveRight]
+The sun's rising...
+That's why it feels so... warm...[ClearFace]
+
+[MidLeft][LoadOverworldFaces][.......][CloseEyes]
+Cethern...[X]
+
+
+
+## P1CFCDeath
+[ConversationText]
+[MidLeft][LoadMiach]
+[MidRight][LoadFace][0x17][0x1]
+Damn... Miach...[ToggleSmile]
+I don't think I'm gonna make it.[MoveMidRight][ToggleSmile]
+Agh, this hurts...
+
+[MidLeft]
+Cethern...!
+Can't we heal you...?
+I have--
+
+[MidRight]
+Don't try it...
+If anybody heals me up, it'd be breaking that oath.
+Jhudiel wouldn't have any reason to keep you all alive.
+
+[MidLeft][MoveMidLeft]
+Sniff...
+Cethern, please don't die...
+What's supposed to happen without you?
+What am I going to tell Airmed...?
+
+[MidRight]
+Miach, you and Airmed...
+You all need to keep fighting.
+No matter how long it takes, no matter how hard it is...
+Even if they take every blade of grass in Maghmeall, you need to fight back...!
+
+[MidLeft]
+I...
+I don't want to lose you...
+Not like our parents...
+
+[MidRight]
+It's okay, Miach.
+You're a fighter.
+You and Airmed can pull through anything...
+
+[MidLeft]
+Cethern, I love you...
+Sniff...
+I'll take care of Airmed, promise...
+
+[MidRight]
+Miach...[......][MoveRight]
+The sun's rising...
+That's why it feels so...[......] warm...[ClearFace]
+
+[MidLeft][LoadOverworldFaces][.......][CloseEyes]
+Cethern...[X]
+
+
+
+## P1CFCethernJhudiel
+[ConversationText]
+[MidRight][LoadCethern]
+They're everywhere...
+We can't hold them off forever.
+But we're also stuck!
+What are we supposed to do?!
+
+[FarFarLeft]
+Forces of Corbenic.
+I cannot allow this to continue on any longer.
+
+[MidRight][MoveRight]
+Show yourself!
+
+[MidLeft][LoadJhudiel]
+I cannot let you struggle against us any longer.
+Surrender before us, and I can promise an honourable death.[X]
+
+
+
+## P1CFSadhbhInterrupt
+[ConversationText]
+[FarRight][LoadSadhbh]
+The Shield Jhudiel...!
+Cethern, be careful!
+That's a stem of Heichalot!
+
+[Right]
+A stem of Heichalot?
+
+[MidLeft]
+The ten stems of Heichalot are tasked with serving the essence of Heichalot.
+Fighting against Heichalot means I must fight you.
+I apologize.
+I can promise to make your deaths quick and merciful.
+
+[Right]
+Please, Shield Jhudiel...!
+I'm the leader of this group.
+I surrender.
+Please do not harm anybody else.
+There are children among us.
+
+[FarRight]
+Cethern...!
+
+[MidLeft]
+But...[......][MoveMidLeft]
+You're so young.
+Your name is Cethern?
+
+[Right]
+Yes, it is.
+Please, I beg of you, spare everybody else.
+
+[MidLeft]
+We were given orders by our prince to destroy all opposition.
+No matter how much I hate that order...
+I cannot deny it.
+
+[Right]
+Then...
+Duel me, Jhudiel.
+I will oppose you.
+Nobody else.
+Take all of them prisoner if you wish.
+I ask that you please only leave them alive.
+
+[MidLeft]
+I see what you intend to do...
+Very well.
+You are a brave young man.[X]
+
+
+
+## P1CFCethernInterrupt
+[ConversationText]
+[Right]
+Are you the commander of the Heichalotian forces?
+
+[MidLeft]
+I am The Shield Stem Jhudiel of Heichalot.
+These soldiers fight under myself.
+
+[Right]
+A stem of Heichalot?
+
+[MidLeft]
+The ten stems of Heichalot are tasked with serving the essence of Heichalot.
+Fighting against Heichalot means I must fight you.
+I apologize.
+I can promise to make your deaths quick and merciful.
+
+[Right]
+Please, Shield Jhudiel...!
+I'm the leader of this group.
+I surrender.
+Please do not harm anybody else.
+There are children among us.
+
+[MidLeft]
+I...[......][MoveMidLeft]
+You're so young.
+What is your name?
+
+[Right]
+My name is Cethern.
+Please, I beg of you, spare everybody else.
+
+[MidLeft]
+We were given orders by our prince to destroy all opposition.
+No matter how much I hate that order...
+I cannot deny it.
+
+[Right]
+Then...
+Duel me, Jhudiel.
+I will oppose you.
+Nobody else.
+Take all of them prisoner if you wish.
+I ask that you please only leave them alive.
+
+[MidLeft]
+I see what you intend to do...
+Very well.
+You are a brave young man.[X]
+
+
+
+## P1CFFerdiadInterrupt
+[ConversationText]
+[FarRight][ClearFace][LoadFerdiad]
+Cethern, what are you doing?!
+You're not going to...!
+
+[Right]
+I am.
+This is best for everybody.
+Stay back from us![X]
+
+
+
+## P1CFSetantaInterrupt
+[ConversationText]
+[FarRight][ClearFace][LoadSetanta]
+This is insane!
+You're taking him on by yourself!
+
+[Right]
+This is the only option, S[0xE9]tanta!
+It's just between the two of us![X]
+
+
+
+## P1CFSadhbh2
+[ConversationText]
+[MidLeft][ClearFace][Right][ClearFace][FarRight][ClearFace][.......]
+[Right][LoadMiach]
+Cethern?[MoveRight]
+Cethern!
+
+[FarRight][LoadSadhbh]
+Stay away, Miach!
+I can't let you both get hurt!
+
+[Right][LoadMiach]
+Cethern![MoveRight]
+Let go of me, Sadhbh![X]
+
+
+
+## P1CFOneHit
+[ConversationText]
+[MidRight][LoadCethern]
+[MidLeft][LoadJhudiel]
+You understand exactly what you're doing, right Cethern?
+Who you're facing, and the consequences of it?
+
+[MidRight]
+I understand exactly what I'm doing.
+This is for my friends, my family...
+I can't let them get hurt!
+
+[MidLeft]
+Then we'll both be trying our hardest.[MoveMidLeft]
+Hit me if you can![X]
+
+
+
+## P1CFTwoHit
+[ConversationText]
+[MidRight][LoadCethern]
+[MidLeft][LoadJhudiel]
+You're competent, I'll give you that.
+But you're facing a stem of Heichalot.
+As much as I feel empathy towards your group...
+I cannot neglect my duty.
+
+[MidRight]
+I know that, Jhudiel.
+That's exactly what I'm counting on![X]
+
+
+
+## P1CFJhudielPromise
+[ConversationText]
+[MidLeft][LoadJhudiel]
+The opposition has been dealt with.
+The rest can be taken back to camp.
+
+[FarFarLeft]
+Jhudiel, what is this?[X]
+
+
+
+## P1CFCamnielPromise
+[ConversationText]
+[MidLeft][LoadCamniel]
+[MidRight][LoadJhudiel]
+Camniel, you missed me striking down Corbenic's opposition here.
+I was about to take these soldiers' surrender.
+
+[MidLeft]
+What are you talking about, Jhudiel?
+We were not supposed to add burden to ourselves.
+Prisoners are exactly what we were told not to take.
+
+[MidRight]
+They cannot fight back against us, Camniel!
+Their leader is dead, their morale weakened...
+Do you ask of me to kill them?
+
+[MidLeft]
+Of course I do not.
+That would be what the prince asked of us.
+Do you not remember his words?
+
+[MidRight]
+His words were not given to me by him.
+It was by his clergy.
+
+[MidLeft]
+And you distrust the clergy of Heichalot?
+Are you a traitor, Jhudiel?
+
+[MidRight]
+I...
+I am not a traitor.
+I am Jhudiel, Shield Stem of Heichalot.
+
+[MidLeft]
+Then do what you were told to do.[X]
+
+
+
+## P1CFJhudielBad
+[ConversationText]
+[MidLeft][LoadJhudiel]
+I am sorry to your group, but I cannot stand against my prince.
+This will be quick, I promise that.[X]
+
+
+
+## P1CFSadhbhRun
+[ConversationText]
+[MidRight][LoadSadhbh]
+Everybody!
+Fall back immediately![X]
+
+
+
+## P1CFSetantaRun
+[ConversationText]
+[MidRight][LoadSetanta]
+Damn!
+We all need to run, now![X]
+
+
+
+## P1CFFerdiadRun
+[ConversationText]
+[MidRight][LoadFerdiad]
+Everybody, into the forest![X]
+
+
+
+## P1CFEthniuRun
+[ConversationText]
+[MidRight][LoadEthniu]
+Retreat!
+They won't get any of us![X]
+
+
+
+## P1CFHanlinRun
+[ConversationText]
+[MidRight][LoadHanlin]
+Move back into the forest!
+Now![X]
+
+
+
+## P1CFMiachRun
+[ConversationText]
+[MidRight][LoadMiach]
+Everybody, run...![X]
+
+
+
+## P1CFCamnielAngery
+[ConversationText]
+[MidRight][LoadJhudiel]
+[MidLeft][LoadCamniel]
+Look what you've done, Jhudiel.
+I'll be bringing this up with the prince![MoveMidLeft]
+Everybody, round them up!
+Dead or alive![X]
+
+
+
+## P1CFJhudielRemorse
+[ConversationText]
+[MidRight][LoadJhudiel]
+None of this is right...
+This war isn't right.
+This slaughter isn't right.
+It'd be foolish to bring this up with the prince...[CloseEyes]
+My prince...
+I'm sorry to doubt you so.[X]
+
+
+
+## P1CFHouseStem
+[ConversationText]
+[MidRight][LoadFace][0xFF][0xFF]
+[MidLeft][LoadFace][0x63][0x1]
+Have you seen any of the Stems?
+They're so cool!
+Riding around, with their armour and weapons, taking out evil for the prince...
+I've heard that they've gotten a new Stem!
+She apparently rides a pegasus!
+I want to ride a pegasus like that when I'm older![X]
+
+
+
+## P1CFHouseClergy
+[ConversationText]
+[MidRight][LoadFace][0xFF][0xFF]
+[MidLeft][LoadFace][0x5F][0x1]
+There's been a fair commotion in the clergy over Corbenic.
+And apparently the prince has been hiding from the public.
+I'm not sure what's going on, but it doesn't bode well for us.
+If he won't show his face, whose to say he's even still well?[X]
+
+
+
+## P1CFHouseTrail
+[ConversationText]
+[MidRight][LoadFace][0xFF][0xFF]
+[MidLeft][LoadFace][0x59][0x1]
+Hello.
+We don't often get visitors here.
+Not many people have the bravery to trek through here.
+Especially during the winter!
+You're a courageous soul, you know that?[X]

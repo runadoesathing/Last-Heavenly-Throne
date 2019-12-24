@@ -1,4 +1,17 @@
 // hp | str | skl | spd | def | res | luk | mov | con | mag | 0x0 | 0x0
 
+#define StatBoosts(hp, str, skl, spd, def, res, luk, mov, con, mag) "BYTE hp str skl spd def res luk mov con mag 0x0 0x0"
+#define GrowthBoosts(hp, str, skl, spd, def, res, luk, mag) "BYTE 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 hp str skl spd def res luk mag"
+#define negateDec(byte) "256-byte"
+
+ALIGN 4
 Luck_Booster_Item_Ptr:
-BYTE 0x00 0x00 0x00 0x00 0x00 0x00 0x04 0x00 0x00 0x00 0x00 0x00
+StatBoosts(0, 0, 0, 0, 0, 0, 4, 0, 0, 0)
+
+ALIGN 4
+HwenScrollBonuses:
+GrowthBoosts(0xA, 0, 0x14, 0, negateByte(0xA), negateByte(0xA), 0xA, 0xA)
+
+ALIGN 4
+TenlethScrollBonuses:
+GrowthBoosts(negateByte(0x14), negateByte(0x14), 0, 0, 0x1E, 0x1E, 0, 0x1E)

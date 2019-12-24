@@ -38,24 +38,19 @@ ALIGN 4
 
 GoldKnightSkillList:
 BYTE 255 SwapID
-BYTE 1 SolID
+BYTE 1 PoiseID
 BYTE 00 00
 ALIGN 4
 
 SilverKnightSkillList:
 BYTE 255 SureShotID
-BYTE 1 LunaID
-BYTE 00 00
-ALIGN 4
-
-ThiefSkillList:
-BYTE 10 DespoilID
+BYTE 1 NihilID
 BYTE 00 00
 ALIGN 4
 
 AssassinSkillList:
 BYTE 255 VantageID
-BYTE 1 LethalityID
+BYTE 1 AssassinateID
 BYTE 00 00
 ALIGN 4
 
@@ -83,7 +78,7 @@ BYTE 00 00
 ALIGN 4
 
 MageSkillList:
-BYTE 10 RallyResID
+BYTE 10 DespoilID
 BYTE 00 00
 ALIGN 4
 
@@ -94,6 +89,7 @@ ALIGN 4
 
 GeneralSkillList:
 BYTE 255 DisciplineID
+BYTE 1 PaviseID
 BYTE 00 00
 ALIGN 4
 
@@ -115,7 +111,7 @@ ALIGN 4
 
 SwordmasterSkillList:
 BYTE 255 VantageID
-BYTE 1 AstraID
+BYTE 1 DartingBlowID
 BYTE 1 CritUpID
 BYTE 00 00
 ALIGN 4
@@ -150,7 +146,7 @@ ALIGN 4
 
 WarriorSkillList:
 BYTE 255 FieryBloodID
-BYTE 1 OpportunistID
+BYTE 1 FrenzyID
 BYTE 00 00
 ALIGN 4
 
@@ -173,13 +169,13 @@ ALIGN 4
 
 HeroSkillList:
 BYTE 255 ArmsthriftID
-BYTE 1 RallyStrID
+BYTE 1 BlueFlameID
 BYTE 00 00
 ALIGN 4
 
 RangerSkillList:
 BYTE 255 ArmsthriftID
-BYTE 1 RallySklID
+BYTE 1 NatureRushID
 BYTE 00 00
 ALIGN 4
 
@@ -202,7 +198,7 @@ ALIGN 4
 
 GreatKnightSkillList:
 BYTE 255 DisciplineID
-BYTE 1 RallyDefID
+BYTE 1 IndoorMarchID
 BYTE 00 00
 ALIGN 4
 
@@ -212,25 +208,25 @@ BYTE 00 00
 ALIGN 4
 
 TrobairitzSkillList:
-BYTE 10 RallyMagID
+BYTE 10 VoiceOfPeaceID
 BYTE 00 00
 ALIGN 4
 
 ValkyrieSkillList:
-BYTE 255 RallyMagID
-BYTE 1 VoiceOfPeaceID
+BYTE 255 VoiceOfPeaceID
+BYTE 1 SealResID
 BYTE 00 00
 ALIGN 4
 
 SageSkillList:
-BYTE 255 RallyResID
-BYTE 1 AdeptID
+BYTE 255 DespoilID
+BYTE 1 FlareID
 BYTE 00 00
 ALIGN 4
 
 MageKnightSkillList:
-BYTE 255 RallyResID
-BYTE 1 SealResID
+BYTE 255 DespoilID
+BYTE 1 SealMagID
 BYTE 00 00
 ALIGN 4
 
@@ -260,17 +256,27 @@ ALIGN 4
 
 TemplarSkillList:
 BYTE 255 WardingStanceID
-BYTE 1 VoiceOfPeaceID
+BYTE 1 SealResID
 BYTE 00 00
 ALIGN 4
 
 ArbalestSkillList:
 BYTE 255 WardingBlowID
-BYTE 1 RallySpdID
+BYTE 1 OpportunistID
 BYTE 00 00
 ALIGN 4
 
 VillagerSkillList:
 BYTE 10 UnderdogID
+BYTE 00 00
+ALIGN 4
+
+AnilaSkillList:
+BYTE 1 SecondWindID
+BYTE 00 00
+ALIGN 4
+
+AntariksaSkillList:
+BYTE 1 RetrogradeID
 BYTE 00 00
 ALIGN 4

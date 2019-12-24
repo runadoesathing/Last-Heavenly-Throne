@@ -60,15 +60,28 @@
 #define Radhe 0x20
 #define Enoch 0x21
 #define Naamah 0x22
+#define Marici 0x23
 #define Miach 0x2E
 #define Aillen 0x46
 #define Lamech 0x47
 #define Ishpan 0x48
+#define Jhudiel 0x49
 #define Jhudiel_1 0x49
 #define Gedaliah 0x4A
+#define Shuka 0x4B
+#define Chakora 0x4C
+#define Babhru 0x4D
+#define Goga 0x4E
+#define Kalkin 0x53
+#define Manasa 0x54
+#define Bhatn 0x55
 #define Anluan 0x68
 #define Ochren 0x86
 #define OchrenMag 0x87
+#define Anila 0x88
+#define AnilaMag 0x89
+#define Antariksa 0x8A
+#define AntariksaMag 0x8B
 
 #define Sibyl 0x1
 #define Hobelar 0x2
@@ -121,6 +134,8 @@
 #define SlimBow 0xBD
 #define Wind 0xBE
 #define RallyLuckManual 0xC0
+#define Brine 0xC1
+#define Worm 0xC2
 
 #define FireAff 0x1
 #define ThunderAff 0x2
@@ -132,6 +147,8 @@
 #define HeavenAff 0xB
 
 #define WindAnim 0x48
+#define BrineAnim 0x49
+#define WormAnim 0x4A
 
 #define InsideHouse 0x0
 #define InsideMapHouse 0x1
@@ -149,8 +166,16 @@
 #define HillsNight 0xD
 #define ArmyCampWinterNight 0xE
 #define WarriorTent 0xF
+#define InsideHouseNight 0x10
+#define AltarCG 0x11
 #define BrownCastleInterior 0x12
+#define TownCG 0x13
 #define ArmyCamp 0x14
+#define CastleHallway 0x15
+#define OutsideCastle 0x16
+#define BedroomNight 0x17
+#define MeetingRoom 0x18
+#define BigForestPath 0x1B
 #define Lakeside 0x21
 #define SparseForest 0x22
 #define FortInterior 0x26
@@ -166,6 +191,8 @@
 #define AengusExceeded 0x76
 #define GedeonExceeded 0x77
 #define CluainBolgGone 0x78
+#define Part1Completed 0x79
+#define TimeSkipFlag 0x7A
 
 // Attribute for defining items with passive stat bonuses
 #define PASSIVE_ITEM_BOOSTS_ATTR 0x00800000
