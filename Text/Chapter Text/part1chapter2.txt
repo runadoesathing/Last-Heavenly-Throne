@@ -1,6 +1,6 @@
 ## AillenBQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x31][0x1]
+[OpenMidLeft][LoadAillen]
 You came to rescue the girl?
 [ToggleSmile]I'll take you and her down![X]
 
@@ -8,7 +8,7 @@ You came to rescue the girl?
 
 ## AillenDQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x31][0x1]
+[OpenMidLeft][LoadAillen]
 Blast... How can [CloseEyes]they be this strong?![X]
 
 
@@ -19,7 +19,7 @@ Blast... How can [CloseEyes]they be this strong?![X]
 Remember me, savage beast?[ToggleSmile]
 See how I've blasted all your scummy friends to bits?[ClearFace][ToggleSmile]
 
-[OpenMidLeft][LoadFace][0x31][0x1]
+[OpenMidLeft][LoadAillen]
 You've come straight to me, however.
 I'll cut you down where you stand, arrogant lass!
 [X]
@@ -210,7 +210,7 @@ Please, come closer...
 ...!
 Grandfather, what is it?
 
-[MoveRight][OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenMidLeft][LoadFace][0x59][0x1][ToggleSmile][MoveMidLeft]
+[MoveRight][OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenMidLeft][LoadOldMan][ToggleSmile][MoveMidLeft]
 Cethern, you make me proud.
 Please take care out there...
 [OpenRight]
@@ -404,7 +404,7 @@ Everyone, hold for a moment.[X]
 
 ## P1C2HarrassingATeenGirl
 [ConversationText]
-[OpenRight][LoadLalitha][OpenFarRight][LoadFace][0x4D][0x1][OpenMidLeft][LoadFace][0x31][0x1]
+[OpenRight][LoadLalitha][OpenFarRight][LoadSellsword][OpenMidLeft][LoadAillen]
 What do we have here?[....][ToggleSmile]
 Usually the intruders we kill aren't waifs like you.
 Maybe you're old enough to beg for your life properly?
@@ -432,8 +432,8 @@ I'll blast your head off your body![X]
 ## P1C2BroYouJustKilledMyBestFriend
 [ConversationText]
 [OpenRight][LoadLalitha]
-[OpenFarRight][LoadFace][0x4C][0x01]
-[OpenMidLeft][LoadFace][0x31][0x1][ToggleSmile]
+[OpenFarRight][LoadBandit]
+[OpenMidLeft][LoadAillen][ToggleSmile]
 That's a pretty trick you have there!
 Shame it just means we're gonna break you more before we ship you away!
 
@@ -454,7 +454,7 @@ You'll sure line our pockets...[X]
 
 ## P1C2Sad
 [ConversationText]
-[OpenMidLeft][LoadFace][0x31][0x1]
+[OpenMidLeft][LoadAillen]
 Hmm...? I'm sensing the presence of someone else...[MoveMidLeft]
 Everyone come out! The waif may have friends![X]
 
@@ -562,7 +562,7 @@ But[CloseEyes] I may need my tome back first...[X]
 
 ## P1C2HelpMeCethern
 [ConversationText]
-[OpenFarRight][LoadFace][0x4D][0x1][OpenMidLeft][LoadMiach]
+[OpenFarRight][LoadSellsword][OpenMidLeft][LoadMiach]
 Cethern...!
 Cethern, where are you?!
 Please help me Cethern!

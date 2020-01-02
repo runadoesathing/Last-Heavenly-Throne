@@ -1,7 +1,7 @@
 ## P2C1HealVillage
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x60][0x1]
+[MidRight][LoadGingerWoman]
 Oh dear!
 You look so troubled!
 If you'd like, you could talk to me about what's on your mind.
@@ -17,7 +17,7 @@ Be safe out there, alright?[X]
 ## P2C1WormVillage
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x5E][0x1]
+[MidRight][LoadLittleBoy]
 I'm scared to head back out...
 There were a bunch of scary-lookin' guys outside of town.
 My uncle said if I was in danger, to use this book...
@@ -33,7 +33,7 @@ You try readin' it![X]
 ## P2C1GoldVillageNo
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x5F][0x1]
+[MidRight][LoadOldWoman]
 There's this girl with silver hair that stops by here.
 It's not often, but she's quite nice and polite.[ToggleSmile]
 Buys me straight out of the flour I make.[ToggleSmile]
@@ -45,8 +45,8 @@ If you see her ever, tell her I said hello![X]
 
 ## P2C1GoldVillageYes
 [ConversationText]
-[MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x5F][0x1][ToggleSmile]
+[MidLeft][LoadSrihwen]
+[MidRight][LoadOldWoman][ToggleSmile]
 Srihwen!
 It's excellent to see you.
 
@@ -96,7 +96,7 @@ I'll buy something from you next time, promise...![X]
 ## P2C1SlimLanceVillage
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x5B][0x1]
+[MidRight][LoadBlondeMan]
 My daughter always wanted to be a Srughnan knight...
 So I tried my hardest to help her train.
 Gave her a spear, to give her a head start, ya know?
@@ -333,7 +333,7 @@ Care to come back and spend a while with me?
 More footsteps echoing through the ground...[.....][CloseEyes][MoveMidLeft]
 More people coming...![OpenEyes]
 
-[FarFarRight][LoadFace][0x6D][0x1][MoveFarRight][ToggleSmile][LoadOverworldFaces]
+[FarFarRight][LoadYellowHood][MoveFarRight][ToggleSmile][LoadOverworldFaces]
 To think we'd actually find the Caged Bird of Dhara here...
 What's she mumbling to herself about?
 
@@ -443,7 +443,7 @@ Let's get right to it![X]
 ## P2C1HouseAnila
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x5C][0x1]
+[MidRight][LoadBlandMan]
 For as long as I can remember, Anila and Dhara have hated each other.
 I'm not exactly sure what it is...
 I do know something though.
@@ -457,7 +457,7 @@ It's just a theory of mine.[X]
 ## P2C1GoodJob
 [ConversationText]
 [MidRight][LoadSrihwen]
-[MidLeft][LoadFace][0x58][0x1]
+[MidLeft][LoadMustacheMan]
 Thank you ever so much for keeping those Anilans at bay!
 
 [MidRight]
@@ -474,7 +474,7 @@ I'm not sure what we'd do.
 Hopefully it won't.
 Good luck to you.
 
-[MidLeft][MoveFarLeft][Left][LoadFace][0x5B][0x1]
+[MidLeft][MoveFarLeft][Left][LoadBlondeMan]
 It is you!
 The priestess with white hair!
 
@@ -671,11 +671,11 @@ It seems the Anilan Order wanted to be proactive in action.
 
 [FarRight]
 So because we didn't wish to join, they're trying to subjugate us...
-Miserable. Why would we align with Anila after all they've done?
+Miserable. Why would we align with Anila after all they've done?[ClearFace]
 
-[FarRight][LoadSoma]
+[LoadSoma]
 How's the Chandran Order doing?
-Have they been attacked either?
+Have they been attacked as well?
 
 [MidLeft]
 I have heard nothing from them.

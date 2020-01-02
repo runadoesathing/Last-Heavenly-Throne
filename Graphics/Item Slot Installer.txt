@@ -8,9 +8,9 @@ ItemIconSlot(0x05,"Weapon Icons/Items/SteelBlade.png")
 ItemIconSlot(0x06,"Weapon Icons/Items/SilverBlade.png")
 ItemIconSlot(0x07,"Weapon Icons/Items/ToxinSword.png")
 ItemIconSlot(0x08,"Weapon Icons/Items/Worm.png")
-//0x09 - replaceable
+ItemIconSlot(0x09,"Weapon Icons/Items/IronGreatlance.png")
 ItemIconSlot(0x0A,"Weapon Icons/Items/BraveSword.png")
-//0x0B - replaceable
+ItemIconSlot(0x0B,"Weapon Icons/Items/IronPoleax.png")
 ItemIconSlot(0x0C,"Weapon Icons/Items/KillingEdge.png")
 ItemIconSlot(0x0D,"Weapon Icons/Items/Armorslayer.png")
 ItemIconSlot(0x0E,"Weapon Icons/Items/Wyrmslayer.png")

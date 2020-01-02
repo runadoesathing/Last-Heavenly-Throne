@@ -57,7 +57,7 @@ ldrb r0, [ r6, #0x05 ]
 mov r1, #0x10 @ 10000b
 tst r0, r1
 beq NoRallyMag
-	add r5, r5, #0x04
+	add r5, r5, #0x03
 NoRallyMag:
 ldrb r0, [ r6, #0x03 ]
 mov r1, #0x80

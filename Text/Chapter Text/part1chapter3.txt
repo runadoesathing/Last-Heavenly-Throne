@@ -1,13 +1,13 @@
 ## LamechBQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x32][0x1]
+[OpenMidLeft][LoadLamech]
 Surrender, or fall before the might of Heichalot's forces![X]
 
 
 
 ## LamechDQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x32][0x1]
+[OpenMidLeft][LoadLamech]
 I cannot fall here...[.....]
 [CloseEyes]The village should've been...![X]
 
@@ -432,7 +432,7 @@ Ethniu,[....] please wait![X]
 
 ## P1C3ReinforcementTime
 [ConversationText]
-[OpenMidRight][LoadFace][0x32][0x1]
+[OpenMidRight][LoadLamech]
 They're bringing more forces in...
 Send out our reserves!
 We can shock them out of this village and take it![X]
@@ -503,7 +503,7 @@ Just don't get impaled.[X]
 
 ## P1C3LamechRein
 [ConversationText]
-[OpenMidLeft][LoadFace][0x32][0x1]
+[OpenMidLeft][LoadLamech]
 [OpenMidRight][LoadEnemySoldier]
 Lamech! Our forces are being obliterated!
 What are we to do now?![A]
@@ -528,7 +528,7 @@ We will not return home without victory![X]
 ## P1C3JavelinText
 [ConversationText]
 [OpenMidLeft][LoadFace][0xFF][0xFF]
-[OpenMidRight][LoadFace][0x5A][0x1]
+[OpenMidRight][LoadBrunetteMan]
 Don't tell me...
 Have the Heichalotians broken through?![MoveMidRight]
 My body might be strong, but I've got no place fighting alongside youse.
@@ -540,7 +540,7 @@ I know it's good for huntin' at least.[X]
 ## P1C3SteelAxeText
 [ConversationText]
 [OpenMidLeft][LoadFace][0xFF][0xFF]
-[OpenMidRight][LoadFace][0x5D][0x1]
+[OpenMidRight][LoadYouth]
 My pa's still out choppin' wood now, but he left his good axe at home.[MoveMidRight]
 To be perfectly honest with ya, I'm too scared to fight.
 But I don't think he'd be too mad if I gave ya it to shoo them off.[X]
@@ -550,7 +550,7 @@ But I don't think he'd be too mad if I gave ya it to shoo them off.[X]
 ## P1C3GoddessIconText
 [ConversationText]
 [OpenMidLeft][LoadFace][0xFF][0xFF]
-[OpenMidRight][LoadFace][0x5F][0x1]
+[OpenMidRight][LoadOldWoman]
 To think of how brutal the fighting must be...
 I pray for your safety.
 Know that Aingha and her divinity watch over your souls as you fight.
@@ -1026,7 +1026,7 @@ Most who do not like me change their mind when I tend to their wounds.
 [ConversationText]
 [OpenLeft][LoadCethern]
 [OpenFarLeft][LoadHanlin]
-[OpenMidRight][LoadFace][0x5C][0x1]
+[OpenMidRight][LoadBlandMan]
 Youse group looks quite stocked up.
 What business do you have here?
 
@@ -1070,7 +1070,7 @@ Rest may be good for us right now, but Heichalot could strike at any time.[X]
 
 ## P1C3OhNoMyMan
 [ConversationText]
-[OpenMidRight][LoadFace][0x32][0x1]
+[OpenMidRight][LoadLamech]
 Picodobra...
 Our first victory shall be here.[X]
 
@@ -1154,8 +1154,8 @@ Let's head out front![X]
 
 ## P1C3HouseHouseNope
 [ConversationText]
-[Right][LoadFace][0x61][0x1]
-[FarRight][LoadFace][0x5C][0x1]
+[Right][LoadPigtails]
+[FarRight][LoadBlandMan]
 We should be able to keep out anyone who's come in.
 Stay inside here 'til it's safe to go outside.
 
@@ -1222,8 +1222,8 @@ Let's do rounds and check on the villagers![X]
 
 ## P1C3TheHeichalotiansAreGone
 [ConversationText]
-[Left][LoadFace][0x5C][0x1]
-[FarLeft][LoadFace][0x60][0x1]
+[Left][LoadBlandMan]
+[FarLeft][LoadGingerWoman]
 Thank Aingha!
 The raiders are gone!
 
@@ -1434,7 +1434,7 @@ What a stubborn woman...[X]
 What an exhausting fight.
 I hope Miach is doing fine...
 
-[OpenFarFarLeft][LoadFace][0x5E][0x1]
+[OpenFarFarLeft][LoadLittleBoy]
 Mister! Mister!
 [MoveMidLeft][MidLeft][ToggleSmile]
 You're the one who was fightin' all of those evil folk!
@@ -1552,7 +1552,7 @@ This is the right decision for Caer Ochren...[X]
 
 ## P1C3Bandoleo
 [ConversationText]
-[OpenMidLeft][LoadFace][0x4D][0x1]
+[OpenMidLeft][LoadSellsword]
 The town's already being raided...
 We should blend right in![X]
 
@@ -1560,7 +1560,7 @@ We should blend right in![X]
 
 ## P1C3LamechSignal
 [ConversationText]
-[OpenMidLeft][LoadFace][0x32][0x1]
+[OpenMidLeft][LoadLamech]
 Everybody!
 Charge forward![X]
 
@@ -1568,5 +1568,5 @@ Charge forward![X]
 
 ## P1C3SoldierSignal
 [ConversationText]
-[OpenMidRight][LoadFace][LoadEnemySoldier]
+[OpenMidRight][LoadEnemySoldier]
 Anyone who's still alive, take them down![X]

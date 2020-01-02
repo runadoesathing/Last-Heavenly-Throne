@@ -1,6 +1,6 @@
 ## BanditBQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x30][0x1]What's this? A group of[N]
+[OpenMidLeft][LoadAnluan]What's this? A group of[N]
 children have come to play?[A][N]
 I'll break those toys you call[N]
 weapons under my boot![A][X]
@@ -8,7 +8,7 @@ weapons under my boot![A][X]
 
 
 ## BanditDQ
-[OpenMidLeft][LoadFace][0x30][0x1]
+[OpenMidLeft][LoadAnluan]
 Impossible...! I...[CloseEyes][N]
 cannot be bested...[A][X]
 
@@ -99,7 +99,7 @@ I didn't see anyone. What's going on?[A][X]
 
 ## P1C1AnluanHere
 [ConversationText]
-[OpenLeft][LoadFace][0x5A][0x1][OpenMidRight][LoadFace][0x30][0x1]
+[LoadBrunetteMan][LoadAnluan]
 To think a town like this would be such easy pickings...
 I guess the crown really is busy with everything else!
 Give us all you got or we'll burn this place down![A]
@@ -113,7 +113,7 @@ Just don't hurt any of us.
 Of course you will!
 Start collecting it now![ClearFace][......]
 
-[OpenFarFarLeft][LoadFace][0x61][0x1][MoveFarLeft][OpenFarLeft]
+[LoadPigtails][MoveFarLeft][OpenFarLeft]
 I tried finding Cethern and S[0xE9]tanta, but their horses are gone!
 
 [OpenLeft]
@@ -160,7 +160,7 @@ Now come on, let's get moving![X]
 
 ## P1C1House1Text
 [ConversationText]
-[OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadFace][0x60][0x1]
+[OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadGingerWoman]
 Eh? You're telling me there's bandits out there?!
 We haven't gotten those in forever! Thanks for the warning.[MoveMidLeft]
 Say, you must be from Cluain Bolg!
@@ -170,7 +170,7 @@ Stop by some time again and I'll make you stew as thanks![X]
 
 ## P1C1House2Text
 [ConversationText]
-[OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadFace][0x58][0x1]
+[OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadMustacheMan]
 Brigands?
 Why am I not surprised?
 We're so far away from the capital that it'd be shocking to get any actual protection or care from them.
@@ -256,7 +256,7 @@ Get back here![X]
 
 ## P1C1WeDidIt
 [ConversationText]
-[OpenMidLeft][LoadFace][0x5A][0x1]
+[OpenMidLeft][LoadBrunetteMan]
 [OpenFarFarRight][LoadCethern][MoveRight]
 [OpenFarFarRight][LoadSetanta][MoveFarRight]
 [OpenMidLeft][ToggleSmile]
@@ -655,7 +655,7 @@ before an explosion of warfare...[A][X]
 
 ## ReinforcementWarningWarningWarning
 [ConversationText]
-[OpenMidLeft][LoadFace][0x30][0x1]
+[OpenMidLeft][LoadAnluan]
 What the?[MoveMidLeft]
 Who's coming on the distance?![MoveMidLeft]
 You fools! Get out of hiding!

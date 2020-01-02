@@ -20,7 +20,6 @@ POP
 #include "EXPSkills/EXPSkills.event"
 #include "HPRestorationSkills/HPRestorationSkills.event"
 #include "MovementSkills/MovementSkills.event"
-#include "MugLoadingSkills/MugLoadingSkills.event"
 #include "UnitMenuSkills/UnitMenuSkills.event"
 #include "PostActionSkills/PostActionSkills.event"
 #include "PostBattleSkills/PostBattleSkills.event"

@@ -153,6 +153,12 @@ POIN AuraSkillCheck
 WORD MutedSoulID
 
 ALIGN 4
+Encourage:
+#incbin "Encourage/Encourage.dmp"
+POIN AuraSkillCheck
+WORD EncourageID
+
+ALIGN 4
 KeepUp:
 #incbin "KeepUp/KeepUp.dmp"
 POIN AuraSkillCheck

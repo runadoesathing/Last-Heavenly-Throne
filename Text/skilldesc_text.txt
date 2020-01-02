@@ -45,8 +45,8 @@ Canto: Can move again[N]
 after certain actions.[X]
 
 ## SD_Cunning
-Cunning: Can steal items, pick[N]
-locks, and see in darkness.[X]
+[nrC][nru][nrn][nrn][nri][nrn][nrg]: [nrC][nra][nrn] [nrs][nrt][nre][nra][nrl] [nri][nrt][nre][nrm][nrs], [nrp][nri][nrc][nrk] [nrl][nro][nrc][nrk][nrs], [nra][nrn][nrd] [nrs][nre][nre][N]
+[nri][nrn] [nrd][nra][nrr][nrk][nrn][nre][nrs][nrs]. [nrD][nri][nra][nrb][nro][nrl][nri][nrs][nrt][nrs] [nra][nrn][nrd] [nrT][nrr][nri][nrc][nrk][nrs][nrt][nre][nrr][nrs] [nro][nrn][nrl][nry].[X]
 
 ## SD_Lethality
 Lethality: Instantly kill opponent.[N]
@@ -294,7 +294,7 @@ Rally Speed: +3 Speed to[N]
 allies within 2 tiles.[X]
 
 ## SD_RallyLuk
-Rally Luck: +3 Luck to[N]
+Rally Luck: +6 Luck to[N]
 allies within 2 tiles.[X]
 
 ## SD_RallyDef
@@ -348,8 +348,8 @@ Intimidate: -10 Avoid to[N]
 all enemies within 2 tiles.[X]
 
 ## SD_Opportunist
-Opportunist: +4 damage[N]
-if the foe cannot counter.[X]
+Opportunist: +4 damage if[N]
+the enemy cannot counter.[X]
 
 ## SD_Trample
 Trample: +5 damage to[N]
@@ -484,11 +484,11 @@ Critical Force: Base critical is[N]
 Skl * 1.5.[X]
 
 ## SD_Chivalry
-Chivalry: When foe is at full HP,[N]
-damage and Def/Res +2.[X]
+Chivalry: When enemy is at full HP,[N]
+damage and Def/Res +3.[X]
 
 ## SD_Pragmatic
-Pragmatic: When foe is not at full HP,[N]
+Pragmatic: When enemy is not at full HP,[N]
 damage +3 and Def/Res +1.[X]
 
 ## SD_Armsthrift
@@ -633,48 +633,48 @@ Avoid +10 to adjacent allies.[X]
 
 ## SD_Bracing_Stance
 Bracing Stance: +3 Def/Res when[N]
-foe initiates battle.[X]
+enemy initiates battle.[X]
 
 ## SD_Darting_Stance
 Darting Stance: +4 speed[N]
-when foe initiates battle.[X]
+when enemy initiates battle.[X]
 
 ## SD_Fierce_Stance
 Fierce Stance: +4 damage[N]
-when foe initiates battle.[X]
+when enemy initiates battle.[X]
 
 ## SD_Kestrel_Stance
 Kestrel Stance: +3 damage and[N]
-speed when foe initiates battle.[X]
+speed when enemy initiates battle.[X]
 
 ## SD_Mirror_Stance
 Mirror Stance: +3 damage and[N]
-resistance when foe initiates battle.[X]
+resistance when enemy initiates battle.[X]
 
 ## SD_Ready_Stance
 Ready Stance: +3 speed[N]
-and defense when foe[N]
+and defense when enemy[N]
 initiates battle.[X]
 
 ## SD_Steady_Stance
 Steady Stance: +4 defense[N]
-when foe initiates battle.[X]
+when enemy initiates battle.[X]
 
 ## SD_Sturdy_Stance
 Sturdy Stance: +3 damage and[N]
-defense when foe initiates battle.[X]
+defense when enemy initiates battle.[X]
 
 ## SD_Swift_Stance
 Swift Stance: +3 speed and resistance[N]
-when foe initiates battle.[X]
+when enemy initiates battle.[X]
 
 ## SD_Warding_Stance
 Warding Stance: +4 resistance[N]
-when foe initiates battle.[X]
+when enemy initiates battle.[X]
 
 ## SD_Spectrum_Stance
 Spectrum Stance: +2 Atk/Spd/Def/Res[N]
-when foe initiates battle.[X]
+when enemy initiates battle.[X]
 
 ## SD_Steal
 Steal: Unit can steal items.[X]
@@ -1238,9 +1238,8 @@ Muted Soul: Adjacent allies receive[N]
 -3 damage, but deal -3 damage.[X]
 
 ## SD_ChandrasFealty
-Chandra's Fealty: If adjacent to[N]
-Srihwen, ignore Muted Soul's damage[N]
-penalty and gain +25 Hit.[X]
+[nrC][nrh][nra][nrn][nrd][nrr][nra]'[nrs] [nrF][nre][nra][nrl][nrt][nry]: [nrI][nrf] [nra][nrd][nrj][nra][nrc][nre][nrn][nrt] [nrt][nro] [nrS][nrr][nri][nrh][nrw][nre][nrn], i[nrg][nrn][nro][nrr][nre][N]
+M[nru][nrt][nre][nrd] [nrS][nro][nru][nrl]'[nrs] [nrd][nra][nrm][nra][nrg][nre] [nrp][nre][nrn][nra][nrl][nrt][nry] [nra][nrn][nrd] [nrg][nra][nri][nrn] +25 [nrH][nri][nrt].[X]
 
 ## SD_GreatShield
 Great Shield: Negate all damage.[N]
@@ -1270,3 +1269,12 @@ enemy has a tome equipped.[X]
 ## SD_Retrograde
 Retrograde: Restore 30% of max[N]
 HP on odd-numbered turns.[X]
+
+## SD_Encourage
+Encourage: +10 Hit to allies[N]
+above 50% HP within two spaces.[X]
+
+## SD_CleanFight
+Clean Fight: +3 damage and[N]
++10 Avoid when initiating[N]
+combat if enemy can counter.[X]

@@ -145,3 +145,6 @@ Sanjana_LanceKnight:
 Varuna_WyvernRider:
 	#incbin "./_palettes/Varuna_WyvernRider.lzpal"
 
+Antariksa_Diviner:
+	#incbin "./_palettes/Antariksa_Diviner.lzpal"
+

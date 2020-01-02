@@ -1,0 +1,219 @@
+#######################################################
+#60 prim_mg1 
+#
+#When importing to FEditorAdv delete # and after each line.
+#######################################################
+/// - Mode 1               #Melee Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- Staff1.png
+2 p- Staff2.png
+2 p- Staff3.png
+C42
+2 p- Staff4.png
+3 p- Staff5.png
+4 p- Staff6.png
+5 p- Staff7.png
+5 p- Staff8.png
+12 p- Staff9.png
+C34
+2 p- Staff10.png
+C1B
+1 p- Staff11.png
+C05                               #Call spell associated with equipped weapon
+1 p- Staff11.png
+C01                               #NOP
+2 p- Staff10.png
+C1B
+7 p- Staff9.png
+C24
+2 p- Staff8.png
+2 p- Staff7.png
+2 p- Staff6.png
+2 p- Staff5.png
+2 p- Staff4.png
+2 p- Staff3.png
+2 p- Staff2.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+4 p- Staff1.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 3               #Melee Critical Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- Staff1.png
+2 p- Staff2.png
+2 p- Staff3.png
+C42
+2 p- Staff4.png
+3 p- Staff5.png
+4 p- Staff6.png
+5 p- Staff7.png
+5 p- Staff8.png
+12 p- Staff9.png
+C34
+2 p- Staff10.png
+C1B
+1 p- Staff11.png
+C05                               #Call spell associated with equipped weapon
+1 p- Staff11.png
+C01                               #NOP
+2 p- Staff10.png
+C1B
+7 p- Staff9.png
+C24
+2 p- Staff8.png
+2 p- Staff7.png
+2 p- Staff6.png
+2 p- Staff5.png
+2 p- Staff4.png
+2 p- Staff3.png
+2 p- Staff2.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+4 p- Staff1.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 5               #Ranged Animation 
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- Staff1.png
+2 p- Staff2.png
+2 p- Staff3.png
+C42
+2 p- Staff4.png
+3 p- Staff5.png
+4 p- Staff6.png
+5 p- Staff7.png
+5 p- Staff8.png
+12 p- Staff9.png
+C34
+2 p- Staff10.png
+C1B
+1 p- Staff11.png
+C05                               #Call spell associated with equipped weapon
+1 p- Staff11.png
+C01                               #NOP
+2 p- Staff10.png
+C1B
+7 p- Staff9.png
+C24
+2 p- Staff8.png
+2 p- Staff7.png
+2 p- Staff6.png
+2 p- Staff5.png
+2 p- Staff4.png
+2 p- Staff3.png
+2 p- Staff2.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+4 p- Staff1.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 6               #Ranged Critical Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- Staff1.png
+2 p- Staff2.png
+2 p- Staff3.png
+C42
+2 p- Staff4.png
+3 p- Staff5.png
+4 p- Staff6.png
+5 p- Staff7.png
+5 p- Staff8.png
+12 p- Staff9.png
+C34
+2 p- Staff10.png
+C1B
+1 p- Staff11.png
+C05                               #Call spell associated with equipped weapon
+1 p- Staff11.png
+C01                               #NOP
+2 p- Staff10.png
+C1B
+7 p- Staff9.png
+C24
+2 p- Staff8.png
+2 p- Staff7.png
+2 p- Staff6.png
+2 p- Staff5.png
+2 p- Staff4.png
+2 p- Staff3.png
+2 p- Staff2.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+4 p- Staff1.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 7               #Dodge Melee Attack
+C02                               #Start of dodge
+1 p- Staff1.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+1 p- Staff12.png
+1 p- Staff13.png
+1 p- Staff14.png
+C01                               #NOP
+2 p- Staff13.png
+2 p- Staff12.png
+1 p- Staff1.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 8               #Dodge Ranged Attack
+C02                               #Start of dodge
+1 p- Staff1.png
+C0E                               #Start of dodging frames (should go after standing frame and before dodging animation)
+1 p- Staff12.png
+1 p- Staff13.png
+1 p- Staff14.png
+C01                               #NOP
+2 p- Staff13.png
+2 p- Staff12.png
+1 p- Staff1.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - Mode 9               #Equiped with Melee Weapon
+1 p- Staff1.png
+C01                               #NOP
+~~~
+/// - Mode 10               #standing motions?
+1 p- Staff1.png
+C01                               #NOP
+~~~
+/// - Mode 11               #Equiped with Ranged weapon
+1 p- Staff1.png
+C01                               #NOP
+~~~
+/// - Mode 12               #Attack Missed Animation
+C03                               #Start attack animation; should be followed by 0x07
+C07                               #Start attack animation; should be preceeded by 0x03
+1 p- Staff1.png
+2 p- Staff2.png
+2 p- Staff3.png
+C42
+2 p- Staff4.png
+3 p- Staff5.png
+4 p- Staff6.png
+5 p- Staff7.png
+5 p- Staff8.png
+12 p- Staff9.png
+C34
+2 p- Staff10.png
+C1B
+1 p- Staff11.png
+C05                               #Call spell associated with equipped weapon
+1 p- Staff11.png
+C01                               #NOP
+2 p- Staff10.png
+C1B
+7 p- Staff9.png
+C24
+2 p- Staff8.png
+2 p- Staff7.png
+2 p- Staff6.png
+2 p- Staff5.png
+2 p- Staff4.png
+2 p- Staff3.png
+2 p- Staff2.png
+C06                               #Begin opponent's turn after hit.next code 0D.
+4 p- Staff1.png
+C0D                               #End of dodge animation. preceeded by 0x06
+~~~
+/// - End of animation

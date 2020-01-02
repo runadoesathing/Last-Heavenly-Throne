@@ -14,7 +14,6 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TURN 0x0 CleartheSeal [1,0] 0x0
-TURN 0x0 MariciPredict [2,0] 0x0
 TURN 0x0 BAMITSMARICI [3,0] 0x0
 TURN 0x0 BanditPredict [5,0] 0x0
 TURN 0x0 BANDITONE [6,0] 0x0
@@ -146,17 +145,21 @@ ENUN
 CHECK_EVENTID Part1Completed
 BEQ 0x0 0xC 0x0
 	CHECK_ALIVE Ethniu
-	BEQ 0x1 0xC 0x0
+	BEQ 0x0 0xC 0x0
 		LOAD2 0x1 EthniuLoad
 		ENUN
-		GOTO 0x2
-	LABEL 0x1
-	LOAD1 0x1 EthniuNew
-	ENUN
-	GOTO 0x2
+		CheckDarkRank(Ethniu)
+		SVAL 1 31
+		BGE 0x2 0xC 0x1
+			GOTO 0x1
 LABEL 0x0
-	LOAD1 0x1 EthniuNew
-	ENUN
+LOAD1 0x1 EthniuNew
+ENUN
+LABEL 0x1
+SVAL 1 Ethniu
+SVAL 2 7
+SVAL 3 31
+ASMC ChangeWeaponRankASMC|1
 LABEL 0x2
 LOAD1 0x1 EnemyUnits
 ENUN
@@ -236,7 +239,6 @@ SilentlyGiveItem(Flux, Ethniu)
 SilentlyGiveItem(Vulnerary, Ethniu)
 SilentlyGiveItem(Padma, Srihwen)
 SilentlyGiveItem(Vulnerary, Srihwen)
-SilentlyGiveItem(0xA, Srihwen)
 SilentlyGiveItem(IronLance, Soma)
 ENUF 0x65
 ASMC ClearDebuffs|1
@@ -345,10 +347,6 @@ ENDA
 MoreOnTheWay:
 SVAL 0x2 0x0
 CALL 0x9EE1B8
-CUMO Srihwen
-STAL 60
-CURE
-Text(P2C1CavalierPredict)
 NoFade
 ENDA
 
@@ -367,14 +365,6 @@ ENDA
 
 MariciTalk:
 Text(P2C1MariciTalk)
-NoFade
-ENDA
-
-MariciPredict:
-CUMO Srihwen
-STAL 60
-CURE
-Text(P2C1MariciPredict)
 NoFade
 ENDA
 

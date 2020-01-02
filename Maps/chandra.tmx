@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="18" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="18" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
  <tileset firstgid="1" name="3C003D3E" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="3C003D3E.png" trans="ffffff" width="512" height="512"/>
  </tileset>
@@ -51,7 +51,7 @@
    <tile gid="459"/>
    <tile gid="724"/>
    <tile gid="754"/>
-   <tile gid="456"/>
+   <tile gid="451"/>
    <tile gid="753"/>
    <tile gid="720"/>
    <tile gid="753"/>
@@ -69,7 +69,7 @@
    <tile gid="459"/>
    <tile gid="98"/>
    <tile gid="721"/>
-   <tile gid="488"/>
+   <tile gid="483"/>
    <tile gid="721"/>
    <tile gid="752"/>
    <tile gid="756"/>
@@ -190,7 +190,7 @@
    <tile gid="229"/>
   </data>
  </layer>
- <layer id="2" name="Map Change 0" width="18" height="10">
+ <layer id="2" name="Map Change 0" width="18" height="10" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0"/>
@@ -381,7 +381,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="Map Change 1" width="18" height="10">
+ <layer id="3" name="Map Change 1" width="18" height="10" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -572,7 +572,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="Map Change 2" width="18" height="10">
+ <layer id="4" name="Map Change 2" width="18" height="10" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="2"/>

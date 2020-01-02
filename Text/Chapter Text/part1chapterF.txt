@@ -719,7 +719,7 @@ Well done, Cethern.[X]
 
 ## P1CFSFCDeath
 [ConversationText]
-[Right][LoadFace][0x17][0x1]
+[Right][LoadCethernClosed]
 [Left][LoadMiach]
 [FarLeft][LoadFerdiad]
 [FarRight][LoadSetanta]
@@ -800,7 +800,7 @@ Cethern...[X]
 
 ## P1CFSCDeath
 [ConversationText]
-[Right][LoadFace][0x17][0x1]
+[Right][LoadCethernClosed]
 [MidLeft][LoadMiach]
 [FarRight][LoadSetanta]
 Cethern!
@@ -867,7 +867,7 @@ Cethern...[X]
 
 ## P1CFFCDeath
 [ConversationText]
-[Right][LoadFace][0x17][0x1]
+[Right][LoadCethernClosed]
 [MidLeft][LoadMiach]
 [FarRight][LoadFerdiad]
 Cethern!
@@ -931,7 +931,7 @@ Cethern...[X]
 ## P1CFCDeath
 [ConversationText]
 [MidLeft][LoadMiach]
-[MidRight][LoadFace][0x17][0x1]
+[MidRight][LoadCethernClosed]
 Damn... Miach...[ToggleSmile]
 I don't think I'm gonna make it.[MoveMidRight][ToggleSmile]
 Agh, this hurts...
@@ -1319,11 +1319,11 @@ I'm sorry to doubt you so.[X]
 ## P1CFHouseStem
 [ConversationText]
 [MidRight][LoadFace][0xFF][0xFF]
-[MidLeft][LoadFace][0x63][0x1]
+[MidLeft][LoadLittleGirl]
 Have you seen any of the Stems?
 They're so cool!
 Riding around, with their armour and weapons, taking out evil for the prince...
-I've heard that they've gotten a new Stem!
+I've heard that they've even gotten a new Stem!
 She apparently rides a pegasus!
 I want to ride a pegasus like that when I'm older![X]
 
@@ -1332,9 +1332,9 @@ I want to ride a pegasus like that when I'm older![X]
 ## P1CFHouseClergy
 [ConversationText]
 [MidRight][LoadFace][0xFF][0xFF]
-[MidLeft][LoadFace][0x5F][0x1]
+[MidLeft][LoadOldWoman]
 There's been a fair commotion in the clergy over Corbenic.
-And apparently the prince has been hiding from the public.
+And the prince has been hiding from the public too!
 I'm not sure what's going on, but it doesn't bode well for us.
 If he won't show his face, whose to say he's even still well?[X]
 
@@ -1343,7 +1343,7 @@ If he won't show his face, whose to say he's even still well?[X]
 ## P1CFHouseTrail
 [ConversationText]
 [MidRight][LoadFace][0xFF][0xFF]
-[MidLeft][LoadFace][0x59][0x1]
+[MidLeft][LoadOldMan]
 Hello.
 We don't often get visitors here.
 Not many people have the bravery to trek through here.

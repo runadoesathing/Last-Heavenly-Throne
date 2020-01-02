@@ -178,7 +178,7 @@ NoFade
 ENDA
 
 P2C2AI:
-AiMoveTowardsPoint(9,0)
+AiMoveTowardsPoint(8,0)
 
 InjectAi2(0x8, P2C2AI) // Use whatever macro you use to inject AIs
 

@@ -1,6 +1,6 @@
 ## IshpanBQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x33][0x1]
+[OpenMidLeft][LoadIshpan]
 Caer Ochren has fallen beneath our heel.
 Why won't you be good and follow their example?[X]
 
@@ -8,7 +8,7 @@ Why won't you be good and follow their example?[X]
 
 ## Miach1BQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x33][0x1]
+[OpenMidLeft][LoadIshpan]
 Run along, knave.
 I do not wish to fight children.[ClearFace]
 
@@ -17,7 +17,7 @@ Well, I wish to fight you!
 How dare you invade us!
 What have we done to you?![ClearFace]
 
-[OpenMidLeft][LoadFace][0x33][0x1]
+[OpenMidLeft][LoadIshpan]
 I'm afraid I don't entirely know myself.
 But I have a duty to the prince of Heichalot.
 If you truly wish to fight, then I must honour your wishes![X]
@@ -26,7 +26,7 @@ If you truly wish to fight, then I must honour your wishes![X]
 
 ## GedeonBQ
 [BattleText]
-[OpenMidLeft][LoadFace][0xF][0x1]
+[OpenMidLeft][LoadGedeon]
 It's nothing personal.
 This is just my job.[X]
 
@@ -34,7 +34,7 @@ This is just my job.[X]
 
 ## Gedeon1BQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x33][0x1]
+[OpenMidLeft][LoadIshpan]
 So the mercenary returns with a new employer.
 Better offer?[ClearFace]
 
@@ -42,7 +42,7 @@ Better offer?[ClearFace]
 That's how it works.
 You understand, don't you?[ClearFace]
 
-[OpenMidLeft][LoadFace][0x33][0x1]
+[OpenMidLeft][LoadIshpan]
 Hmph.[ToggleSmile]
 Indeed I do.
 [ToggleSmile]Now face me, traitorous sellsword![X]
@@ -51,7 +51,7 @@ Indeed I do.
 
 ## IshpanDeathQ
 [BattleText]
-[OpenMidLeft][LoadFace][0x33][0x1]
+[OpenMidLeft][LoadIshpan]
 My death matters not.
 The rest of your nation shall soon respect the might of Heichalot, just as Caer Ochren already has...[X]
 
@@ -59,7 +59,7 @@ The rest of your nation shall soon respect the might of Heichalot, just as Caer 
 
 ## GedeonEnemyDeathQ
 [BattleText]
-[OpenMidLeft][LoadFace][0xF][0x1]
+[OpenMidLeft][LoadGedeon]
 I can hear the bells toll once again...[X]
 
 
@@ -190,7 +190,7 @@ We should quickly prepare ourselves before we break through![X]
 
 ## P1C4IshpanNotices
 [ConversationText]
-[MidLeft][LoadFace][0x33][0x1]
+[MidLeft][LoadIshpan]
 Corbenic forces coming from the trees...
 Everyone! Take your positions!
 We fight for Caer Ochren and Caer Vedwyd![X]
@@ -325,7 +325,7 @@ We shall take back Caer Vedwyd, and force Heichalot away for good![X]
 This is the healer's tent...
 I wonder where Miach is?
 
-[MidRight][LoadFace][0x60][0x1]
+[MidRight][LoadGingerWoman]
 Good morn' to you, young mister.
 Are you lookin' for someone?
 
@@ -471,7 +471,7 @@ If I hurry, I should be able to catch up![MoveFarFarRight][....][X]
 [ConversationText]
 [Right][LoadEnemySoldierF]
 [FarRight][LoadEnemySoldier]
-[MidLeft][LoadFace][0x33][0x1]
+[MidLeft][LoadIshpan]
 Your ruler, Lord Rionall, has surrendered to the Heichalotian crown.
 You serve both him and our prince now.
 
@@ -683,7 +683,7 @@ We'll keep up here until they come through![X]
 ## P1C4MendVillage
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x61][0x1]
+[MidRight][LoadBlackHairGirl]
 To think Heichalot would get here so soon...
 You better be careful fighting them off.
 Here, this may not be much, but it'll help if any of you get bloodied.
@@ -694,7 +694,7 @@ Best be safe. You can't heal a corpse.[X]
 ## P1C4ThunderVillage
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x5B][0x1]
+[MidRight][LoadBlondeMan]
 I've never understood magic, you know that?
 How the heck a book like this goes from words to summoning lightning...
 Maybe you'd have a better for it than I.
@@ -785,7 +785,7 @@ I think I will.[X]
 ## P1C4AinghaHouse
 [ConversationText]
 [MidRight][LoadFace][0xFF][0xFF]
-[MidLeft][LoadFace][0x60][0x1]
+[MidLeft][LoadGingerWoman]
 Conflict here so soon...
 I pray Aingha keeps us safe.[MoveMidLeft]
 Who is Aingha?
@@ -801,7 +801,7 @@ I only hope her protection is enough against Heichalot.[X]
 ## P1C4RionallHouse
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x5A][0x1]
+[MidRight][LoadBrunetteMan]
 I never would've imagined Lord Rionall to side with Heichalot.
 He's always been a saviour of Caer Ochren.
 When Caer Siddi ignored us, he would step in.
@@ -813,7 +813,7 @@ It hurts to see this unfold...[X]
 ## P1C4LightMagicHouse
 [ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadFace][0x59][0x1]
+[MidRight][LoadOldMan]
 Light magic, holy magic, or whatever you call it...
 It's the absolute power of the Wardbearers.
 To come into contact with their essence weakens the body.

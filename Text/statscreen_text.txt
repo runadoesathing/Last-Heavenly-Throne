@@ -9,8 +9,8 @@ Character with whom this unit[N]
 may talk on the battlefield.[X]
 
 ## SS_SkillsRText
-Special abilities that can do[N]
-many different things.[X]
+Special abilities. New skills can be[N]
+learned at Level 10 and upon promotion.[X]
 
 ## SS_SkillsDefaultRText
 No skill description found.[X]

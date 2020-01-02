@@ -17,7 +17,44 @@ ALIGN 4
 LoseGold:
 #incbin "gold_collect.dmp"
 
+PUSH
+ORG $192B8
+jumpToHack(ChangePortraitStatus)
+
+ORG $19308
+jumpToHack(ChangePortraitMiniMug)
+
+ORG $73DBC
+jumpToHack(ChangePortraitPormotion)
+
+ORG $7F260
+jumpToHack(ChangePortraitMapAnimLevelUpProc_InitLevelUpBox)
+POP
+
+ALIGN 4
+ChangePortraitStatus:
+#incbin "ChangePortraitStatus.dmp"
+POIN ChangePortrait_Table
+
+ALIGN 4
+ChangePortraitMiniMug:
+#incbin "ChangePortraitMiniMug.dmp"
+POIN ChangePortrait_Table
+
+ALIGN 4
+ChangePortraitMapAnimLevelUpProc_InitLevelUpBox:
+#incbin "ChangePortraitMapAnimLevelUpProc_InitLevelUpBox.dmp"
+POIN ChangePortrait_Table
+
+ALIGN 4
+ChangePortraitPormotion:
+#incbin "ChangePortraitPormotion.dmp"
+
+ChangePortrait_Table:
+#include "ChangePortrait_Table.event"
+
 #define RemoveInventory(item) "BYTE 0x40 0x0D item 0x00; POIN RemoveItem+1"
 #define SilentlyGiveItem(item, unit) "BYTE 0x40 0x0D unit item; POIN SilentGiveItem+1"
 #define RemoveUnitItem(item, unit) "BYTE 0x40 0x0D unit item; POIN RemoveItemByUnit+1"
 #define GoldCollect(amount) "BYTE 0x40 0x0D; SHORT (amount<<16); POIN LoseGold+1"
+#define ChangePortraitEntry(portrait,unit,class,map,mode,eid) "SHORT portrait; BYTE unit class map mode; SHORT eid; "

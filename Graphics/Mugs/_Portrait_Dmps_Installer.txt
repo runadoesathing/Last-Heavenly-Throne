@@ -156,6 +156,19 @@ Gedaliah_Minimug:
 #incbin "Gedaliah_minimug.dmp"
 
 ALIGN 4
+Gedeon_Mug:
+#incbin "Gedeon_mug.dmp"
+ALIGN 4
+Gedeon_Frames:
+#incbin "Gedeon_frames.dmp"
+ALIGN 4
+Gedeon_Palette:
+#incbin "Gedeon_palette.dmp"
+ALIGN 4
+Gedeon_Minimug:
+#incbin "Gedeon_minimug.dmp"
+
+ALIGN 4
 HanlinAlpha_Mug:
 #incbin "HanlinAlpha_mug.dmp"
 ALIGN 4
@@ -219,6 +232,19 @@ Lamech_Palette:
 ALIGN 4
 Lamech_Minimug:
 #incbin "Lamech_minimug.dmp"
+
+ALIGN 4
+Marici_Mug:
+#incbin "Marici_mug.dmp"
+ALIGN 4
+Marici_Frames:
+#incbin "Marici_frames.dmp"
+ALIGN 4
+Marici_Palette:
+#incbin "Marici_palette.dmp"
+ALIGN 4
+Marici_Minimug:
+#incbin "Marici_minimug.dmp"
 
 ALIGN 4
 MiachAlpha_Mug:
@@ -286,6 +312,19 @@ Shuka_Minimug:
 #incbin "Shuka_minimug.dmp"
 
 ALIGN 4
+Soma_Mug:
+#incbin "Soma_mug.dmp"
+ALIGN 4
+Soma_Frames:
+#incbin "Soma_frames.dmp"
+ALIGN 4
+Soma_Palette:
+#incbin "Soma_palette.dmp"
+ALIGN 4
+Soma_Minimug:
+#incbin "Soma_minimug.dmp"
+
+ALIGN 4
 Srihwen_Mug:
 #incbin "Srihwen_mug.dmp"
 ALIGN 4
@@ -297,4 +336,17 @@ Srihwen_Palette:
 ALIGN 4
 Srihwen_Minimug:
 #incbin "Srihwen_minimug.dmp"
+
+ALIGN 4
+SrihwenPurple_Mug:
+#incbin "SrihwenPurple_mug.dmp"
+ALIGN 4
+SrihwenPurple_Frames:
+#incbin "SrihwenPurple_frames.dmp"
+ALIGN 4
+SrihwenPurple_Palette:
+#incbin "SrihwenPurple_palette.dmp"
+ALIGN 4
+SrihwenPurple_Minimug:
+#incbin "SrihwenPurple_minimug.dmp"
 

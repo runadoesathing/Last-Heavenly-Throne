@@ -124,6 +124,7 @@ ALIGN 4
 
 ArcherPaletteList:
 PaletteAssociationEntry(Calingi, $1A)
+PaletteAssociationEntry(Chakora, $25)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -229,6 +230,7 @@ ALIGN 4
 MonkPaletteList:
 PaletteAssociationEntry(Ishpan, $F)
 PaletteAssociationEntry(Enoch, $1E)
+PaletteAssociationEntry(AntariksaMag, $24)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

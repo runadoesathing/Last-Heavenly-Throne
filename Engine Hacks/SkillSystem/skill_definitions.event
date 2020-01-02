@@ -2,7 +2,7 @@
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
-// Used up to: 115
+// Used up to: 117
 
 //AI Skills
 
@@ -52,6 +52,10 @@
 #define DriveSpdID 255
 #define DriveDefID 255
 #define DriveResID 1
+
+//Encourage: +10 Hit to allies above 50% HP within two spaces.
+//by Runa
+#define EncourageID 116
 
 //Focus: +10 Critical if there are no allies within 3 tiles.
 //Author Unknown (Initial Commit)
@@ -353,6 +357,10 @@
 //Charge: Gain +1 damage for every two squares moved.
 //By Datagne
 #define ChargeID 33
+
+//Clean Fight: +3 attack and Def/Res if enemy can counter.
+//by Runa/Tequila
+#define CleanFightID 117
 
 //Critical Force: Base critical is Skl * 1.5.
 //Author Unknown (Initial Commit)

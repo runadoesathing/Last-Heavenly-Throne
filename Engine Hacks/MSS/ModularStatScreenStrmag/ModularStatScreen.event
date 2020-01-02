@@ -19,11 +19,12 @@
  
   PUSH
     ORG 0x205b24 //24 for stat screen
-      POIN MSS_page1|1 MSS_page2|1 MSS_page3|1
+      //POIN MSS_page1|1 MSS_page2|1 MSS_page3|1
+      POIN MSS_page1|1 MSS_page2|1 MSS_page3|1 MSS_page4|1
 
     ORG $88690
-    BYTE 3 //make 3 pages
-
+    BYTE 4 //make 4 pages
+	
 	ORG 0x889F8
 	SHORT 0x0EB8
 	
@@ -62,6 +63,10 @@
 
     ORG $889d0
       SHORT $e010 //Temporary r-text fix to prevent freezing
+
+	ORG $889f2  
+      SHORT $BD30
+      BL(RText_Page4_ladder) //this has to be in bl range somewhere
 
     // Make all the arrows line up with the stats and stuff
 
@@ -122,6 +127,19 @@
   ORG $17E98
   callHack_r3(New_Unit_Exp)
   SHORT 0xE005  
+  
+  ORG $88690
+  jumpToHack(PageNumberCheck) // Except actually name it something different.
+  
+  //ORG $86E44
+  //jumpToHack(MSS_leftstatscreen)
+
+  ORG $087184
+	
+  RText_Page4_ladder:
+  // page 4 helptext hook
+  #incbin "asm/rtext_page4.dmp"
+  POIN RText_Page4											
 
   POP
   
@@ -148,6 +166,13 @@
   ALIGN 4
   MSS_page3:
     #incbin "asm/mss_page3_newranks.dmp"
+	
+  ALIGN 4
+  MESSAGE page 4 at currentOffset
+  MSS_page4:
+    #incbin "asm/mss_page4_runa2.dmp"
+	MESSAGE page 4 ends at currentOffset
+	POIN PersonalDataTable
 
   ALIGN 4
   NewPageNameGraphic:
@@ -156,6 +181,8 @@
   ALIGN 4
   NewPageNameLayout:
     POIN $a008bc $a008d0 $a008de $a008bc
+
+  ALIGN 4
   NewPageNameTiles:
     SHORT 0 $40 $e $80
 
@@ -270,6 +297,11 @@
 	#incbin "asm/New_Unit_Exp.dmp"
 	POIN Class_Level_Cap_Table
 	
+	ALIGN 4
+    //MSS_leftstatscreen:
+    //#incbin "asm/mss_leftstatscreen.dmp"
+    //POIN HP_Name_Color
+	
   ALIGN 4
   Growth_Color_Table:
     #include "Display Growths Options/Growth Colors Table.txt"
@@ -277,7 +309,25 @@
   ALIGN 4
   New_Palettes:
     #include "Display Growths Options/New Palette.txt"
+	
+  ALIGN 4
+  PageNumberCheck:
+    #include "asm/mss_threepageconditional.lyn.event"
+	POIN PersonalDataTable
 
+  ALIGN 4
+  TxtData0x0D4A:
+    String("Likes:")
+    BYTE 0
+
+  setText(0x0D4A,TxtData0x0D4A)
+   
+  ALIGN 4
+  TxtData0x0D4B:
+    String("Dislikes:")
+    BYTE 0
+
+  setText(0x0D4B,TxtData0x0D4B)
   /*
 
   stat screen R menu is at 8a00b38
@@ -317,9 +367,9 @@
 PUSH // R menu
 ORG 0xa00b38
 ST_Name:
-  RMenu(0,ST_Class,0,ST_Luck,0x18,0x50,0x0,NameDescGetter)
+  RMenu(0,ST_Affin,ST_Affin,ST_Spd,0x18,0x50,0x0,NameDescGetter)
 ST_Class:
-  RMenu(ST_Name,ST_Level,0,ST_Def,0x6,0x68,0x6E8,ClassDescGetter)
+  RMenu(ST_Affin,ST_Level,0,ST_Def,0x6,0x68,0x6E8,ClassDescGetter)
 ST_Level:
   RMenu(ST_Class,ST_HP,0,ST_Exp,0x6,0x78,0x542)
 ST_Exp:
@@ -334,9 +384,9 @@ ST_Mag:
 ST_Skl:
   RMenu(ST_Mag,ST_Spd,ST_Name,ST_Trv,0x66,0x38,0x548)
 ST_Spd:
-  RMenu(ST_Skl,ST_Luck,ST_Name,ST_Affin,0x66,0x48,0x549)
+  RMenu(ST_Skl,ST_Luck,ST_Name,ST_Cond,0x66,0x48,0x549)
 ST_Luck:
-  RMenu(ST_Spd,ST_Def,ST_Name,ST_Talk,0x66,0x58,0x54a)
+  RMenu(ST_Spd,ST_Def,ST_Affin,ST_Talk,0x66,0x58,0x54a)
 ST_Def:
   RMenu(ST_Luck,ST_Res,ST_Class,ST_Skills,0x66,0x68,0x54b)
 ST_Res:
@@ -348,18 +398,18 @@ POP
 //the rest of these are here because space
 ALIGN 4
 
+ST_Affin:
+  RMenu(ST_Name,ST_Class,0,ST_Luck,0x6,0x58,AffinDesc)
 ST_Con:
   RMenu(PersonalDataRText,ST_Aid,ST_Str,0,0xA6,0x18,0x54e)
 ST_Aid:
   RMenu(ST_Con,ST_Trv,ST_Mag,0,0xa6,0x28,0x54F)
 ST_Trv:
-  RMenu(ST_Aid,ST_Affin,ST_Skl,0,0xa6,0x38,0x550)
-ST_Affin:
-  RMenu(ST_Trv,ST_Talk,ST_Spd,0,0xa6,0x48,0x551)
-//ST_Cond:
-  //RMenu(ST_Affin,ST_Talk,ST_Spd,0,0xA6,0x48,0x552,ConditionGetter)
+  RMenu(ST_Aid,ST_Cond,ST_Skl,0,0xa6,0x38,0x550)
+ST_Cond:
+  RMenu(ST_Trv,ST_Talk,ST_Spd,0,0xA6,0x48,0x552,ConditionGetter)
 ST_Talk:
-  RMenu(ST_Affin,ST_Skills,ST_Luck,0,0xA6,0x58,SS_TalkRText)
+  RMenu(ST_Cond,ST_Skills,ST_Luck,0,0xA6,0x58,SS_TalkRText)
 ST_Skills:
   RMenu(ST_Talk,ST_Skill1,ST_Def,0,0xb6,0x68,SS_SkillsRText)
 ST_Skill1:
@@ -381,13 +431,39 @@ ST_Skill6:
   PersonalDataRText:
   RMenu(0,ST_Str,0,0,0x76,0x4,PersonalDataDesc2)
 #endif
+  
+ALIGN 4
+RText_Page4:
+
+ST_Name4:
+  RMenu(0,ST_Affin4,ST_Affin4,ST_Dislikes,0x18,0x50,0x0,NameDescGetter)
+ST_Affin4:
+  RMenu(ST_Name4,ST_Class4,0,ST_Age,0x6,0x58,AffinDesc)
+ST_Class4:
+  RMenu(ST_Affin4,ST_Level4,0,ST_Age,0x6,0x68,0x6E8,ClassDescGetter)
+ST_Level4:
+  RMenu(ST_Class4,ST_HP4,0,ST_Exp4,0x6,0x78,0x542)
+ST_Exp4:
+  RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Age,0x26,0x78,0x543)
+ST_HP4:
+  RMenu(ST_Level4,0,0,ST_Age,0x6,0x88,0x544)
+ST_Likes:
+  RMenu(0,ST_Dislikes,ST_Name4,ST_Height,0x66,0x18,LikesDesc)
+ST_Dislikes:
+  RMenu(ST_Likes,ST_Age,ST_Name4,ST_Height,0x66,0x38,DislikesDesc)
+ST_Age:
+  RMenu(ST_Dislikes,0,ST_Affin4,ST_Height,0x66,0x58,AgeDesc)
+ST_Height:
+  RMenu(ST_Dislikes,0,ST_Age,0,0xa6,0x58,HeightDesc)
 
 PUSH // R menu
 ORG 0xA00EB8
 ST_Name3:
-  RMenu(0,ST_Class3,0,0,0x18,0x50,0x0,NameDescGetter)
+  RMenu(0,ST_Affin3,ST_Affin3,0,0x18,0x50,0x0,NameDescGetter)
+ST_Affin3:
+  RMenu(ST_Name3,ST_Class3,0,ST_Name3,0x6,0x58,AffinDesc)
 ST_Class3:
-  RMenu(ST_Name3,ST_Level3,0,0,0x6,0x68,0x6E8,ClassDescGetter)
+  RMenu(ST_Affin3,ST_Level3,0,0,0x6,0x68,0x6E8,ClassDescGetter)
 ST_Level3:
   RMenu(ST_Class3,ST_HP3,0,ST_Exp3,0x6,0x78,0x542)
 ST_Exp3:

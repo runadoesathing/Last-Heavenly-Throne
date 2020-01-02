@@ -282,10 +282,10 @@ worship the godly aspect Anila.[X]
 
 ## MariciDesc
 Rookie mounted archer of Srughna.[N]
-Puts on a face of seriousness.[X]
+Hard-working and diligent.[X]
 
 ## ChakoraDesc
-Exiled member of the Chandran Order,[N]
+Exiled member of the Anusuya Grove,[N]
 now returned under Antariksa's banner.[X]
 
 ## BabhruDesc
@@ -364,10 +364,10 @@ in combat. Equip: Swords.[X]
 Axe Keeper[X]
 
 ## Lknight_Name
-Lnc. Keeper[X]
+[NRL][NRa][NRn][NRc][NRe] [NRK][NRe][NRe][NRp][NRe][NRr][X]
 
 ## Sknight_Name
-Swd. Keeper[X]
+[NRS][NRw][NRo][NRr][NRd] [NRK][NRe][NRe][NRp][NRe][NRr][X]
 
 ## Aknight_Desc
 Heavily armored knights with poor[N]
@@ -386,10 +386,10 @@ High-flying knights vulnerable only to[N]
 bows and magic. Equip: Axes.[X]
 
 ## Lcav_Name
-Lnc. Knight[X]
+[NRL][NRa][NRn][NRc][NRe] [NRK][NRn][NRi][NRg][NRh][NRt][X]
 
 ## Scav_Name
-Swd. Knight[X]
+[NRS][NRw][NRo][NRr][NRd] [NRK][NRn][NRi][NRg][NRh][NRt][X]
 
 ## Acav_Name
 Axe Knight[X]
@@ -466,14 +466,14 @@ Combat experts with unrivaled[N]
 spearwork. Equip: Lances.[X]
 
 ## GoldKnight_Name
-Goldknight[X]
+Gold Knight[X]
 
 ## GoldKnight_Desc
 Mounted knights with superior[N]
 abilities. Equip: Swords, axes.[X]
 
 ## SilverKnight_Name
-Silverknight[X]
+[NRS][NRi][NRl][NRv][NRe][NRr] [NRK][NRn][NRi][NRg][NRh][NRt][X]
 
 ## SilverKnight_Desc
 Mounted knights with superior[N]
@@ -718,13 +718,13 @@ Increases skill by 2 points.[N]
 Vanishes after use.[X]
 
 ## RallyLuckManualName
-R. Luck M.[X]
+[NRR][NRa][NRl][NRl][NRy] [NRL][NRu][NRc][NRk] M.[X]
 
 ## RallyLuckManualUse
 Teaches Rally Luck.[X]
 
 ## HwenScrollName
-Hwen Scr.[X]
+Hwen Scroll[X]
 
 ## HwenScrollDesc
 Hwen Scroll: +10% HP/Luck/Mag,[N]
@@ -737,9 +737,27 @@ Wardbearers that[N]
 boosts potential.[X]
 
 ## TenlethScrollName
-Tenleth Scr.[X]
+[NRT][NRe][NRn][NRl][NRe][NRt][NRh] [NRS][NRc][NRr][NRo][NRl][NRl][X]
 
 ## TenlethScrollDesc
-Tenleth Scroll: +30% Mag[N]
-/Def/Res, -20% HP/Str.[N]
+Tenleth Scroll: +30% Mag/[N]
+Def/Res, -20% HP/Str.[N]
 Heaven affinity only.[X]
+
+## IronPikeName
+I[NRr][NRo][NRn] [NRG][NRr][NRe][NRa]tl[NRa][NRn][NRc][NRe][X]
+
+## SteelPikeName
+[NRS]tl. [NRG][NRr][NRe][NRa]tl[NRa][NRn][NRc][NRe][X]
+
+## SilverPikeName
+[NRS]l[NRv]. [NRG][NRr][NRe][NRa]tl[NRa][NRn][NRc][NRe][X]
+
+## IronPoleaxName
+Iron Poleax[X]
+
+## SteelPoleaxName
+[NRS][NRt][NRe][NRe][NRl] [NRP][NRo][NRl][NRe][NRa][NRx][X]
+
+## SilverPoleaxName
+[NRS][NRi][NRl][NRv][NRe][NRr] [NRP][NRo][NRl][NRe][NRa][NRx][X]

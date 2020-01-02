@@ -1,4 +1,5 @@
 ALIGN 4
+MESSAGE Blow Skills at currentOffset
 BlowCheck:
 #incbin "BlowCheck.dmp"
 POIN SkillTester
@@ -6,4 +7,4 @@ POIN BlowIDList
 
 ALIGN 4
 BlowIDList:
-BYTE DuelistsBlowID DeathBlowID DartingBlowID WardingBlowID CertainBlowID ArmoredBlowID QuickDrawID ChivalryID PragmaticID HeroesDeathBlowID
+BYTE DuelistsBlowID DeathBlowID DartingBlowID WardingBlowID CertainBlowID ArmoredBlowID QuickDrawID ChivalryID PragmaticID HeroesDeathBlowID CleanFightID

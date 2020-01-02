@@ -51,10 +51,10 @@ BYTE 0x05
 // no reason to change these unless another hack conflicts
 // and make sure you update ParseDefinitions.txt to match
 Text_Conversation:
-BYTE 0x90
+BYTE 0xBD
 
 Text_Battle:
-BYTE 0x91
+BYTE 0xBE
 
 // the location to store the string in RAM for processing
 // might need to be changed if another hack uses this RAM at the same time

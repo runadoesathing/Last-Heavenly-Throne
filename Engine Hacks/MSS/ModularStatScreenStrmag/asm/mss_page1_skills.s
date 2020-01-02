@@ -117,16 +117,18 @@ draw_aid_icon_at 26, 5
 
 draw_trv_text_at 21, 7
 
-draw_textID_at 21, 9, textID=0x4f1 @affin
+@draw_textID_at 21, 9, textID=0x4f1 @affin
 
-draw_affinity_icon_at 24, 9
+@draw_affinity_icon_at 24, 9
+
+draw_status_text_at 21, 11
 
 
 .set ss_talkloc, (SS_TalkText - . - 6)
   ldr r0, =ss_talkloc
   add r0, pc
   ldr r0, [r0]
-draw_talk_text_at 21, 11
+draw_talk_text_at 21, 9
 
 .set ss_skillloc, (SS_SkillsText - . - 6)
   ldr r0, =ss_skillloc

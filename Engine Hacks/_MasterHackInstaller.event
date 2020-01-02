@@ -85,11 +85,12 @@ POP
   #include "DragonVeins/DragonVeins.event"
 
   //Modular Stat Screen
-  #ifndef USE_STRMAG_SPLIT
-	#include "MSS/ModularStatScreen.event"
-  #else
+  //#ifndef USE_STRMAG_SPLIT
+  //#include "MSS/ModularStatScreen.event"
+  //#else
+  //  MESSAGE Stat Screen at currentOffset
     #include "MSS/ModularStatScreenStrmag/ModularStatScreen.event"
-  #endif // USE_STRMAG_SPLIT
+  //#endif // USE_STRMAG_SPLIT
 
   // Save/Suspend Expansion
   #ifdef USE_SAVE_EXPANSION
@@ -129,7 +130,7 @@ POP
   // If uncommented, PortraitSelectionASM will be implemented.
   // Go to "PortraitSelectionASM/PortraitSelectionASM.event" to configure your modular portrait options.
   // This patch normally conflitcs with Identity Problems and Random Mugs, but installing here remedies this.
-  // #include "PortraitSelectASM/PortraitSelectionASM.event"
+  #include "PortraitSelectASM/PortraitSelectionASM.event"
 	
   // If uncommented, StairsASM will be implemented.
   // This patch adds an entry to the Unit Menu, so installing here is necessary.
@@ -239,8 +240,28 @@ POP
   //Talk AI (by Stan)
   ALIGN 4
   #include "Talk AI/TalkAi.event"
+  
+  //Change Weapon Rank by Sme
+  ALIGN 4
+  ChangeWeaponRankASMC:
+  #include "ChangeWeaponRanks/ChangeWeaponRankASMC.lyn.event"
+  
+  //Narrow Fonts by Scraiza
+  ALIGN 4
+  #include "NarrowFont/Narrowfont installer.event"
+  
+  //ASMC Suite by Sme
+  ALIGN 4
+  #include "ASMC Suite/ASMC Check Installer.event"
+  
+  //Footsteps by Teq
+  ALIGN 4
+  #include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.txt"
+  
+  //Portrait Height Fix by Wan
+  ALIGN 4
+  #include "PortraitHeightFix/Portrait Shift Table.txt"
 
-  MESSAGE Skill System installs at currentOffset
   ALIGN 4
   #include "SkillSystem/SkillSystemInstaller.event"
   //#include "SkillSystem/Master Skill Installer.event"

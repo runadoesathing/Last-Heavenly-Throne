@@ -1,0 +1,521 @@
+## CethernLike1ID
+family gatherings[X]
+
+## CethernLike2ID
+a warm fireplace[X]
+
+## CethernDislike1ID
+being ignored[X]
+
+## CethernDislike2ID
+singing[X]
+
+## SetantaLike1ID
+open fields[X]
+
+## SetantaLike2ID
+a good joke[X]
+
+## SetantaDislike1ID
+shrill voices[X]
+
+## SetantaDislike2ID
+authority[X]
+
+## FerdiadLike1ID
+birds[X]
+
+## FerdiadLike2ID
+sincerity[X]
+
+## FerdiadDislike1ID
+snowstorms[X]
+
+## FerdiadDislike2ID
+mushrooms[X]
+
+## HanlinLike1ID
+silence in nature[X]
+
+## HanlinLike2ID
+the colour red[X]
+
+## HanlinDislike1ID
+meat[X]
+
+## HanlinDislike2ID
+swimming[X]
+
+## BresLike1ID
+abandoned ruins[X]
+
+## BresLike2ID
+strong winds[X]
+
+## BresDislike1ID
+savage behaviour[X]
+
+## BresDislike2ID
+wolves[X]
+
+## AengusLike1ID
+taking it easy[X]
+
+## AengusLike2ID
+his sister Ethniu[X]
+
+## AengusDislike1ID
+sleeping in[X]
+
+## AengusDislike2ID
+the ocean[X]
+
+## EthniuLike1ID
+being right[X]
+
+## EthniuLike2ID
+her brother Aengus[X]
+
+## EthniuDislike1ID
+laziness[X]
+
+## EthniuDislike2ID
+being alone[X]
+
+## SadhbhLike1ID
+waking up early[X]
+
+## SadhbhLike2ID
+her fellow riders[X]
+
+## SadhbhDislike1ID
+the sound of thunder[X]
+
+## SadhbhDislike2ID
+failing herself[X]
+
+## LalithaLike1ID
+golden trinkets[X]
+
+## LalithaLike2ID
+spicy food[X]
+
+## LalithaDislike1ID
+cemeteries[X]
+
+## LalithaDislike2ID
+enclosed spaces[X]
+
+## GedeonLike1ID
+good company[X]
+
+## GedeonLike2ID
+a quiet prayer[X]
+
+## GedeonDislike1ID
+spiders[X]
+
+## GedeonDislike2ID
+drunkards[X]
+
+## SomaLike1ID
+cute clothing[X]
+
+## SomaLike2ID
+Srihwen[X]
+
+## SomaDislike1ID
+enclosed spaces[X]
+
+## SomaDislike2ID
+thick books[X]
+
+## MariciLike1ID
+getting a job done[X]
+
+## MariciLike2ID
+orchids[X]
+
+## MariciDislike1ID
+compliments[X]
+
+## MariciDislike2ID
+booze[X]
+
+## SrihwenLike1ID
+baking sweets[X]
+
+## SrihwenLike2ID
+clear night skies[X]
+
+## SrihwenDislike1ID
+loud footsteps[X]
+
+## SrihwenDislike2ID
+conflict[X]
+
+## MiachLike1ID
+sprawling forests[X]
+
+## MiachLike2ID
+adventure[X]
+
+## MiachDislike1ID
+vegetables[X]
+
+## MiachDislike2ID
+wintertime[X]
+
+## CethernAgeID
+20[X]
+
+## SetantaAgeID
+21[X]
+
+## FerdiadAgeID
+19[X]
+
+## SadhbhAgeID
+38[X]
+
+## MiachAgeID
+14[X]
+
+## LalithaAgeID
+15[X]
+
+## BresAgeID
+22[X]
+
+## HanlinAgeID
+25[X]
+
+## AengusAgeID
+24[X]
+
+## EthniuAgeID
+18[X]
+
+## GedeonAgeID
+22[X]
+
+## SomaAgeID
+18[X]
+
+## SrihwenAgeID
+???[X]
+
+## MariciAgeID
+20[X]
+
+## SetantaAgePTSID
+29[X]
+
+## FerdiadAgePTSID
+27[X]
+
+## SadhbhAgePTSID
+46[X]
+
+## LalithaAgePTSID
+23[X]
+
+## BresAgePTSID
+30[X]
+
+## HanlinAgePTSID
+33[X]
+
+## AengusAgePTSID
+32[X]
+
+## EthniuAgePTSID
+26[X]
+
+## GedeonAgePTSID
+30[X]
+
+## CethernHeightID
+175cm[X]
+
+## SetantaHeightID
+171cm[X]
+
+## FerdiadHeightID
+164cm[X]
+
+## SadhbhHeightID
+169cm[X]
+
+## MiachHeightID
+155cm[X]
+
+## LalithaHeightID
+149cm[X]
+
+## BresHeightID
+180cm[X]
+
+## HanlinHeightID
+155cm[X]
+
+## AengusHeightID
+184cm[X]
+
+## EthniuHeightID
+158cm[X]
+
+## GedeonHeightID
+178cm[X]
+
+## SomaHeightID
+165cm[X]
+
+## SrihwenHeightID
+170cm[X]
+
+## MariciHeightID
+162cm[X]
+
+## SetantaHeightPTSID
+177cm[X]
+
+## FerdiadHeightPTSID
+164cm[X]
+
+## SadhbhHeightPTSID
+169cm[X]
+
+## LalithaHeightPTSID
+152cm[X]
+
+## BresHeightPTSID
+180cm[X]
+
+## HanlinHeightPTSID
+155cm[X]
+
+## AengusHeightPTSID
+184cm[X]
+
+## EthniuHeightPTSID
+158cm[X]
+
+## GedeonHeightPTSID
+178cm[X]
+
+## NalaLike1ID
+being left alone[X]
+
+## NalaLike2ID
+tidying up[X]
+
+## NalaDislike1ID
+black tea[X]
+
+## NalaDislike2ID
+dancing[X]
+
+## NalaAgeID
+29[X]
+
+## NalaHeightID
+188cm[X]
+
+## VarunaLike1ID
+open skies[X]
+
+## VarunaLike2ID
+defeating evil[X]
+
+## VarunaDislike1ID
+bullies[X]
+
+## VarunaDislike2ID
+cooking[X]
+
+## VarunaAgeID
+22[X]
+
+## VarunaHeightID
+174cm[X]
+
+## SanjanaLike1ID
+valiant princes[X]
+
+## SanjanaLike2ID
+elegant clothing[X]
+
+## SanjanaDislike1ID
+bitter food[X]
+
+## SanjanaDislike2ID
+rain[X]
+
+## SanjanaAgeID
+23[X]
+
+## SanjanaHeightID
+168cm[X]
+
+## ShukaLike1ID
+cute girls[X]
+
+## ShukaLike2ID
+sweet fruit[X]
+
+## ShukaDislike1ID
+not getting his way[X]
+
+## ShukaDislike2ID
+cold weather[X]
+
+## ShukaAgeID
+23[X]
+
+## ShukaHeightID
+185cm[X]
+
+## ChakoraLike1ID
+sunrises[X]
+
+## ChakoraLike2ID
+the smell of leather[X]
+
+## ChakoraDislike1ID
+The Anusuya Grove[X]
+
+## ChakoraDislike2ID
+fish[X]
+
+## AnluanLike1ID
+loose clothing[X]
+
+## AnluanLike2ID
+the smell of smoke[X]
+
+## AnluanDislike1ID
+children[X]
+
+## AnluanDislike2ID
+wintertime[X]
+
+## AillenLike1ID
+affluence[X]
+
+## AillenLike2ID
+frogs[X]
+
+## AillenDislike1ID
+magic[X]
+
+## AillenDislike2ID
+motherly figures[X]
+
+## LamechLike1ID
+pious people[X]
+
+## LamechLike2ID
+self-improvement[X]
+
+## LamechDislike1ID
+prejudice[X]
+
+## LamechDislike2ID
+betrayal[X]
+
+## IshpanLike1ID
+schemes[X]
+
+## IshpanLike2ID
+quiet evenings[X]
+
+## IshpanDislike1ID
+Corbenic[X]
+
+## IshpanDislike2ID
+Macha[X]
+
+## GedaliahLike1ID
+The Shield Jhudiel[X]
+
+## GedaliahLike2ID
+birds[X]
+
+## GedaliahDislike1ID
+cheese[X]
+
+## GedaliahDislike2ID
+energetic souls[X]
+
+## JhudielLike1ID
+The Heavenly Prince[X]
+
+## JhudielLike2ID
+marble buildings[X]
+
+## JhudielDislike1ID
+hot summer days[X]
+
+## JhudielDislike2ID
+breaking promises[X]
+
+## AnluanAgeID
+33[X]
+
+## AnluanHeightID
+179cm[X]
+
+## AillenAgeID
+41[X]
+
+## AillenHeightID
+173cm[X]
+
+## LamechAgeID
+42[X]
+
+## LamechHeightID
+169cm[X]
+
+## IshpanAgeID
+47[X]
+
+## IshpanHeightID
+184cm[X]
+
+## GedaliahAgeID
+26[X]
+
+## GedaliahHeightID
+180cm[X]
+
+## JhudielAgeID
+46[X]
+
+## JhudielHeightID
+192cm[X]
+
+## JhudielAgePTSID
+54[X]
+
+## JhudielHeightPTSID
+190cm[X]
+
+## ChakoraAgeID
+25[X]
+
+## ChakoraHeightID
+157cm[X]
+
+## CamnielLike1ID
+The Heavenly Prince[X]
+
+## CamnielLike2ID
+foggy lakes[X]
+
+## CamnielDislike1ID
+bright red hair[X]
+
+## CamnielDislike2ID
+temples[X]
