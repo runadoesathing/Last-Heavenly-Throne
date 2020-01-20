@@ -111,13 +111,28 @@
 #include "Halberdier F (Black Mage)/8. Unarmed/Unarmed Installer.event"
 }
 {
-#include "Knight (Lieutenant) (Male and Female)/Axe/Axe Installer.event"
+#include "SalvKnight/AxeKnightInstaller.event"
 }
 {
-#include "Knight (Lieutenant) (Male and Female)/Handaxe/Handaxe Installer.event"
+#include "SalvKnight/BowKnightInstaller.event"
 }
 {
-#include "Knight (Lieutenant) (Male and Female)/Sword/Sword Installer.event"
+#include "SalvKnight/HandAxeKnightInstaller.event"
+}
+{
+#include "SalvKnight/LanceKnightInstaller.event"
+}
+{
+#include "SalvKnight/SwordKnightInstaller.event"
+}
+{
+#include "SalvKnight/UnarmedKnightInstaller.event"
+}
+{
+#include "SalvMercenary/merm_sw1 Installer.event"
+}
+{
+#include "SalvMercenary/merm_ua1 Installer.event"
 }
 {
 #include "Mage F/Magic Installer.event"
@@ -163,6 +178,9 @@
 }
 {
 #include "TerasparkMonk/Magic Installer.event"
+}
+{
+#include "TerasparkMonk/FMagic Installer.event"
 }
 {
 #include "Trobairitz PikminMaiser/Staff/Staff Installer.event"
@@ -255,6 +273,7 @@ SwordAnim(0xcb)
 SpearAnim(0x40)
 AxeAnim(0xca)
 HandAxeAnim(0xcc)
+BowAnim(0xea)
 UnarmedAnim(0x41)
 WORD 0x0    // Seperator
 
@@ -339,4 +358,11 @@ AxeAnim(0x3B)
 HandAxeAnim(0xE9)
 SwordAnim(0x3A)
 UnarmedAnim(0x3C)
+WORD 0x0    // Seperator
+
+FemaleDivinerAnim:
+AnimaAnim(0xEB)
+LightAnim(0xEB)
+DarkAnim(0xEB)
+UnarmedAnim(0xEB)
 WORD 0x0    // Seperator

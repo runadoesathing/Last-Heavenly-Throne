@@ -27,6 +27,11 @@ ALIGN 4
 
 {
   ALIGN 4
+  #include "1-5.event"
+}
+
+{
+  ALIGN 4
   #include "1-F.event"
 }
 
@@ -40,12 +45,25 @@ ALIGN 4
   #include "2-2.event"
 }
 
+{
+  ALIGN 4
+  #include "2-3.event"
+}
+
 //changes supply and seize to srihwen
 PUSH
 ORG 0x23F88
 	BYTE 0x0F
 ORG 0x37B86
 	BYTE 0x0F
+POP
+
+// prep screen shop
+PUSH
+ORG 0xA188E4
+  PrepScreenShop:
+  SHLI IronSword IronBlade IronLance IronGreatlance IronAxe IronPoleax IronBow IronWarbow Fire Thunder Flux Worm MalkuthI YesodII Heal Mend Vulnerary
+  ALIGN 4
 POP
 
 //fixes remu bug (7743)
@@ -146,6 +164,20 @@ ORG $324D6
 BYTE 0x0
 ORG $324DA
 BYTE 0x0
+POP
+
+// allows swapping of forced characters
+PUSH
+  ORG 0x33750
+    BYTE 0x00 0x20 0x00 0x00
+  ORG 0x9543E
+    BYTE 0x00 0x20 0x00 0x00
+POP
+
+// changes support table to this
+PUSH
+  ORG 0x803D90
+    POIN NewSupportTable
 POP
 
 // changes staff exp

@@ -1,0 +1,76 @@
+## P2C2Warning
+If an enemy unit ends their turn past the[N]
+stairs into the monastery, a game over[N]
+will be given.[......] As well, from this chapter[N]
+foward, only [ToggleRed]Srihwen[ToggleRed]'s death will give[N]
+a game over.[......] Please be cautious.[A][X]
+
+
+
+## ChakoraDQ
+[BattleText]
+[MidLeft][LoadChakora]
+Damn the Anusuya Grove...
+Damn the Antariksan Order...[X]
+
+
+
+## ChakoraBQ
+[BattleText]
+[MidLeft][LoadChakora]
+Ever since my banishment...
+I've sought revenge.
+The Anusuya Grove will burn to the ground![X]
+
+
+
+## ChakoraSomaQ
+[BattleText]
+[MidRight][LoadSoma]
+Chakora?
+What are you doing with the enemy?![ClearFace]
+
+[MidLeft][LoadChakora]
+Soma...
+So you came back.
+It's too late to convince me.[ClearFace]
+
+[MidRight][LoadSoma]
+What happened to you?!
+Why are you fighting against your own people?![ClearFace]
+
+[MidLeft][LoadChakora]
+My people?!
+The Anusuya Grove, who left me to rot?!
+Even though I did nothing wrong![ClearFace]
+
+[MidRight][LoadSoma]
+I don't know what happened.
+But we've both changed.
+It's unfortunate we have to fight...[X]
+
+
+
+## ChakoraSrihwenQ
+[BattleText]
+[MidLeft][LoadChakora]
+The white-haired oracle of Hwen...
+I never expected to see your face on this battlefield.[ClearFace]
+
+[MidRight][LoadSrihwen]
+Why do the orders fight?
+What have we done?[ClearFace]
+
+[MidLeft][LoadChakora]
+What have you done?!
+My people exiled me, all for the crime of nothing!
+I left to enlighten myself, only to return and lose everything to this horrid monastery![ClearFace]
+
+[MidRight][LoadSrihwen]
+But why do you come back to conquer them...?
+Will unity with Antariksa and Anila bring you joy?[ClearFace]
+
+[MidLeft][LoadChakora]
+Quiet!
+You come here with a sheltered mind.
+Your death would be an ultimate revenge on Chandra![X]

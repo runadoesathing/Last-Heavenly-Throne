@@ -15,13 +15,13 @@ Trobairitz[X]
 1-1: Calling to Battle[X]
 
 # 0x161
-1-2: New Companions[X]
+1-3: New Companions[X]
 
 # 0x162
-1-3: First Taste of War[X]
+1-4: First Taste of War[X]
 
 # 0x163
-1-4: Caer Ochren[X]
+1-5: Caer Ochren[X]
 
 # 0x164
 1-F: Snow Stained Red[X]
@@ -33,7 +33,7 @@ Trobairitz[X]
 2-2: Chandra Grove[X]
 
 # 0x168
-2-3: The Northern Wind[X]
+2-3: The Northern Gale[X]
 
 # 0x169
 2-4: Crimson Locks[X]
@@ -58,6 +58,12 @@ Trobairitz[X]
 
 # 0x198
 Part 2: Rise from the Rubble[X]
+
+# 0x19A
+1-2: Winds of Change[X]
+
+# 0x1D5
+Hills[X]
 
 # 0x4EE
 [NRL][nru][nrc][nrk][X]

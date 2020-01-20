@@ -1,0 +1,47 @@
+## NakstraniBQ
+[BattleText]
+[MidLeft][LoadNakstrani]
+I apologize, but I see no way around it.
+We must fight![X]
+
+
+
+## BabhruBQ
+[BattleText]
+[MidLeft][LoadBabhru]
+For the unity of Anila and Antariksa...
+I must halt your passage![X]
+
+
+
+## BabhruSrihwenQ
+[BattleText]
+[MidLeft][LoadBabhru]
+You're that false prophet of Hwen...
+The one responsible for our Shuka's death![ClearFace]
+
+[MidRight][LoadSrihwen]
+What do you want with me?
+Am I truly so important...?[ClearFace]
+
+[MidLeft][LoadBabhru]
+Your order holds you on an altar of lies.
+Hwen and Bhatn would seek your death![ClearFace]
+
+[MidRight][LoadSrihwen]
+That's not true...!
+How could you say--[ClearFace]
+
+[MidLeft][LoadBabhru]
+And who told you that?
+Your hag of a greatmother?
+Those delusions in your head?
+I'll silence your lies, I promise you that![X]
+
+
+
+## BabhruDQ
+[BattleText]
+[MidLeft][LoadBabhru]
+This... Is my blood...!
+How could this...[X]

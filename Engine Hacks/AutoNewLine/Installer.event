@@ -16,7 +16,7 @@ BYTE 192
 
 // Maximum width of [BattleText]. Setting this too high will glitch your text boxes out.
 MaxBattleWidth:
-BYTE 135
+BYTE 131
 
 // This option resizes textboxes on the fly to create a much more natural flow of dialog
 // It's a bit difficult to explain, so give it a try and see if you like how it looks

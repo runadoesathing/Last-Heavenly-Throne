@@ -3,17 +3,21 @@ Map_DruidF_Stand:
 Map_DruidF_Move:
 #incbin "DruidFM.dmp"
 Map_Aknight_Stand:
-#incbin "Axe Stand.dmp"
+#incbin "AxeKnightS.dmp"
 Map_Aknight_Move:
-#incbin "Axe Move.dmp"
+#incbin "AxeKnightM.dmp"
 Map_Sknight_Stand:
-#incbin "Sword Stand.dmp"
+#incbin "SwordKnightS.dmp"
 Map_Sknight_Move:
-#incbin "Sword Move.dmp"
+#incbin "SwordKnightM.dmp"
 Map_Lknight_Stand:
-#incbin "Lance Stand New.dmp"
+#incbin "LanceKnightS.dmp"
 Map_Lknight_Move:
-#incbin "Lance Move.dmp"
+#incbin "LanceKnightM.dmp"
+Map_Bknight_Stand:
+#incbin "BowKnightS.dmp"
+Map_Bknight_Move:
+#incbin "BowKnightM.dmp"
 Map_Soldier_Stand:
 #incbin "SoldierMS.dmp"
 Map_Soldier_Move:
@@ -122,3 +126,11 @@ Map_Fighter_Stand:
 #incbin "FighterS.dmp"
 Map_Fighter_Move:
 #incbin "FighterM.dmp"
+Map_Vagabond_Stand:
+#incbin "VagabondS.dmp"
+Map_Vagabond_Move:
+#incbin "VagabondM.dmp"
+Map_MonkF_Stand:
+#incbin "MonkFS.dmp"
+Map_MonkF_Move:
+#incbin "MonkFM.dmp"

@@ -2,7 +2,7 @@
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
-// Used up to: 117
+// Used up to: 120
 
 //AI Skills
 
@@ -43,7 +43,7 @@
 
 //Demoiselle: Male allies within 2 tiles receive -2 damage.
 //Author Unknown (Initial Commit)
-#define DemoiselleID 255
+#define DemoiselleID 118
 
 //Drive Skills: Allies within 2 spaces receive +4 to their respective stat.
 //By Sme
@@ -155,9 +155,9 @@
 //By Tequila
 #define SlayerID 255
 
-//Skybreaker: Deal effective damage to flying units.
+//Heaven's Authority: Deal effective damage to flying units.
 //By Sme
-#define SkybreakerID 255
+#define SkybreakerID 121
 
 //Resourceful: Double effectiveness multiplier.
 //By Sme
@@ -744,7 +744,7 @@
 
 //Glacies: Add unit's Resistance to damage dealt. (Skill % activation)
 //By Sme
-#define GlaciesID 255
+#define GlaciesID 119
 
 //Great Shield: Negate all damage. (Defense % activation)
 //By Sme
@@ -805,7 +805,7 @@
 
 //Resolve: When HP < 50%, gain 1.5x Str, Skl, & Spd.
 //By Sme
-#define ResolveID 255
+#define ResolveID 120
 
 //Fortress Defense: +5 Def, -3 Str/Mag
 //By Leonarth

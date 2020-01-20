@@ -1,0 +1,183 @@
+EventPointerTable(0x27, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN UnitsP UnitsP  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 NakstraniAppear [1,0] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0xC, NakstraniRecruit, Srihwen, Nakstrani)
+END_MAIN
+
+LocationBasedEvents:
+Village(0x8,MendVillage,4,3)
+Village(0x9,HammerVillage,12,4)
+Village(0xA,SnakespearVillage,9,13)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AREA 0xB AttackEm [0,0] [19,6]
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+UnitsP:
+UNIT Srihwen Sibyl 0x0 Level(0, Ally, 0)     [2,10] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,9]  0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [3,11] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,13] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [0,14] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [0,10] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,11] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [2,12] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [0,12] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT
+
+Birin:
+UNIT Sirin SkyKnight 0x0 Level(3, Ally, 0)      [1,9]  0 0 0 0 [IronLance, HeavySpear] [0,0,0,0]
+UNIT Birnath AxeKnight 0x0 Level(3, Ally, 0)    [3,11] 0 0 0 0 [IronAxe, IronPoleax] [0,0,0,0]
+UNIT
+
+EnemiesP:
+UNIT Babhru AxeKnight 0x0 Level(10, Enemy, 1)   [19,10] 0 0 0 0        [HandAxe, Vulnerary] [0x3,0x3,0x4,0x20]
+UNIT AnilaMag Mystic 0x0 Level(5, Enemy, 1)     [14,7]  0 0 0 0        [Worm]               [0x3,0x3,0x4,0x20]
+UNIT Anila Soldier 0x0 Level(4, Enemy, 1)       [4,9]   0 0 0 0        [IronLance]          [0,0,4,0]
+UNIT AnilaMag Diabolist 0x0 Level(3, Enemy, 1)  [7,13]  DropItem 0 0 0 [Thunder, Vulnerary] [0,0,4,0]
+UNIT Anila SwordCav 0x0 Level(3, Enemy, 1)      [6,8]   0 0 0 0        [IronSword]          [0,6,4,0]
+UNIT Anila Mercenary 0x0 Level(3, Enemy, 1)     [3,6]   0 0 0 0        [IronSword]          [0,3,4,0]
+UNIT Anila LanceKnight 0x0 Level(3, Enemy, 1)   [6,2]   0 0 0 0        [IronGreatlance]     [0,3,4,0]
+UNIT Anila BowKnight 0x0 Level(3, Enemy, 1)     [8,3]   0 0 0 0        [IronWarbow]         [3,3,4,0x20]
+UNIT Anila AxeCav 0x0 Level(4, Enemy, 1)        [10,3]  0 0 0 0        [IronAxe]            [0,3,4,0]
+UNIT Anila LanceCav 0x0 Level(3, Enemy, 1)      [10,4]  0 0 0 0        [HeavySpear]         [0,3,4,0]
+UNIT Anila Mercenary 0x0 Level(3, Enemy, 1)     [11,7]  0 0 0 0        [IronSword]          [0,3,4,0]
+UNIT Anila Soldier 0x0 Level(4, Enemy, 1)       [15,4]  0 0 0 0        [IronLance]          [0,3,4,0]
+UNIT Anila SwordCav 0x0 Level(4, Enemy, 1)      [19,5]  0 0 0 0        [IronBlade]          [0,3,4,0]
+UNIT Anila Fighter 0x0 Level(3, Enemy, 1)       [15,10] 0 0 0 0        [IronAxe]            [0,3,4,0]
+UNIT Anila LanceCav 0x0 Level(4, Enemy, 1)      [18,12] 0 0 0 0        [IronLance]          [0,6,4,0]
+UNIT Anila Archer 0x0 Level(5, Enemy, 1)        [15,14] 0 0 0 0        [IronBow]            [0,3,4,0]
+UNIT
+
+NakstraniP:
+UNIT Nakstrani Diviner_F 0x0 Level(1, Enemy, 0) [4,3]   0 0 1 REDA4R4  [MalkuthI]           [0,3,4,0]
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD2 0x1 UnitsP
+ENUN
+LOAD1 0x1 Birin
+ENUN
+LOAD1 0x1 EnemiesP
+ENUN
+NoFade
+GotoPrepScreen
+ENDA
+
+EndingScene:
+NoFade
+ENDA
+
+SnakespearVillage:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+SVAL 0x2 VillageCG
+SVAL 0x3 P2C1SlimLanceVillage
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 Snakespear
+GIVEITEMTO 0xFFFF
+MUNO // increases music volume
+NoFade
+ENDA
+
+MendVillage:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+SVAL 0x2 VillageCG
+SVAL 0x3 P2C1SlimLanceVillage
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 Mend
+GIVEITEMTO 0xFFFF
+MUNO // increases music volume
+NoFade
+ENDA
+
+HammerVillage:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+SVAL 0x2 VillageCG
+SVAL 0x3 P2C1SlimLanceVillage
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 Hammer
+GIVEITEMTO 0xFFFF
+MUNO // increases music volume
+NoFade
+ENDA
+
+AttackEm:
+SVAL 0x2 0x0
+CALL 0x9EE1B8
+SVAL 0x1 0x00040600
+CHAI [10,3]
+SVAL 0x1 0x00040600
+CHAI [10,4]
+NoFade
+ENDA
+
+NakstraniAppear:
+CAM1 [4,3]
+ENUN
+LOAD1 0x1 NakstraniP
+ENUN
+CUMO [4,4]
+STAL 60
+CURE
+Text(PlaceholderText)
+MOVE 0xA Nakstrani [0,4]
+ENUN
+NoFade
+ENDA
+
+NakstraniRecruit:
+MUSC 0x30
+Text(PlaceholderText)
+CUSA Nakstrani
+NoFade
+ENDA

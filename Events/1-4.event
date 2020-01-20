@@ -1,4 +1,4 @@
-EventPointerTable(0x14, PointerList)
+EventPointerTable(0xD, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -14,41 +14,33 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TURN 0x0 CleartheSeal [1,0] 0x0
-TURN 0x0 OutOfTheWoods [2,0] 0x0
-TURN 0x0 SummonTheBadGuys [4,0] 0x0
-TURN 0x0 SummonTheBadGuys2 [5,0] 0x0
-TURN 0x0 GedeonTime [3,0] 0x0
-TURN 0x11 SummonTheOchrenHorses [1, 255] 0x0
+TURN 0x1A OhNoIGotADisease [3,0] 0x0
+TURN 0x1B OhNoOhNoOhNo [4,0] 0x0
+TURN 0x0 Bandito [5,0] 0x0
+TURN 0x0 OhGoshOhHeck [10,0] 0x0
+TURN 0x0 OhNOOOOOOOOOOOOO [11,0] 0x0
+TURN 0x1E OhNoTheyreComing2 [1, 255] 0x0
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0xF,GedeonRecruitE,Ethniu,Gedeon)
-CharacterEventBothWays(0xF,GedeonRecruitA,Aengus,Gedeon)
+CharacterEventBothWays(0x9, EthniuLalithaEvent, Ethniu, Lalitha)
+CharacterEventBothWays(0xA, AengusCethernEvent, Cethern, Aengus)
 END_MAIN
 
 LocationBasedEvents:
-Village(0xD,MendVillage,10,2)
-Village(0xE,ThunderVillage,4,13)
-House(0x0,AinghaHouse,3,4)
-House(0x0,RionallHouse,14,0)
-House(0x0,LightMagicHouse,10,11)
+Vendor(ShopBruh,13,8)
+Armory(ArmoryBruh,1,9)
+Village(0xb,JavelinVillage,4,13)
+Village(0xc,SteelAxeVillage,5,5)
+Village(0xe,GoddessIconVillage,12,5)
+/*LOCA 0xD RallyLuckVillage [12,5] 0x10
+LOCA 0xD [12,4] 0x20*/
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AFEV 0 EndingScene 0x2
-/*
-AREA 0x8 OutOfTheWoods [0,0] [12,15]
-AREA 0x8 OutOfTheWoods [13,15] [13,15]
-AREA 0x8 OutOfTheWoods [13,0] [18,9]
-AREA 0x8 OutOfTheWoods [13,10] [16,11]
-AREA 0x8 OutOfTheWoods [13,12] [14,12]
-AREA 0x8 OutOfTheWoods [17,10] [17,10]
-AREA 0x8 OutOfTheWoods [19,0] [19,3]
-AREA 0x8 OutOfTheWoods [19,6] [19,8]
-AREA 0x8 OutOfTheWoods [20,0] [20,0]
-*/
-AREA 0x10 SummonTheOchrenHorsesArea [0,0] [8,15]
+AFEV 0 EndingScene 0x6
+AREA 0x1d BruhHereComesReinNexTTURN2 [0,0] [14,8]
 END_MAIN
 
 Dunno1:
@@ -64,112 +56,103 @@ Tutorial:
 END_MAIN
 
 UnitsP:
-UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [20,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
-UNIT
-
-SetantaP:
-UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [21,7] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
-UNIT
-
-FerdiadP:
-UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [21,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
-UNIT
-
-LalithaP:
-UNIT Lalitha Mage_F 0x1 Level(1, Ally, 0)    [22,9] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
-UNIT
-
-BresP:
-UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [22,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [10,15] 0x0 0x0 0x1 REDA8R16 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 HanlinP:
-UNIT Hanlin Trobairitz 0x1 Level(2, Ally, 0)    [21,6] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Hanlin Trobairitz 0x1 Level(2, Ally, 0)    [10,15] 0x0 0x0 0x1 REDA8R17 [Heal] [0x0,0x0,0x0,0x0]
 UNIT
 
-AengusP:
-UNIT Aengus Knight 0x1 Level(1, Ally, 0)    [22,7] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+SetantaP:
+UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [10,15] 0x0 0x0 0x1 REDA9R17 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
-EthniuP:
-UNIT Ethniu Shaman_F 0x1 Level(1, Ally, 0)    [22,6] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+FerdiadP:
+UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [10,15] 0x0 0x0 0x1 REDA9R16 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
-SadhbhP:
-UNIT Sadhbh Crownflier 0x1 Level(1, Ally, 0)    [22,9] 0x0 0x0 0x1 REDA21R9 [0x0] [0x0,0x0,0x0,0x0]
+LalithaP:
+UNIT Lalitha Mage_F 0x1 Level(1, Ally, 0)    [10,15] 0x0 0x0 0x1 REDA7R17 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
-MiachP:
-UNIT Miach Villager 0x1 Level(1, Ally, 0)    [21,9] 0x0 0x0 0x1 REDA20R7 [IronSword, Vulnerary, Vulnerary] [0x0,0x0,0x0,0x0]
+BresP:
+UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [10,15] 0x0 0x0 0x1 REDA7R16 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
-MiachPP:
-UNIT Miach Villager 0x1 Level(1, Ally, 0)    [20,7] 0x0 0x0 0x0 0x0 [IronSword, Vulnerary, Vulnerary] [0x0,0x0,0x0,0x0]
+HanlinFirst:
+UNIT Hanlin Trobairitz 0x1 Level(2, Ally, 0)    [8,17] 0x0 0x0 0x1 REDA8R17 [Heal] [0x0,0x0,0x0,0x0]
 UNIT
 
-MiachSoma:
-UNIT Soma SwordCav 0x1 Level(0, Ally, 0)    [22,8] 0x0 0x0 0x1 REDA20R7 [0x0] [0x0,0x0,0x0,0x0]
+EveryoneElse:
+UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [8,17] 0x0 0x0 0x1 REDA8R16 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [9,17] 0x0 0x0 0x1 REDA9R17 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [9,17] 0x0 0x0 0x1 REDA9R16 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Lalitha Mage_F 0x1 Level(1, Ally, 0)    [7,17] 0x0 0x0 0x1 REDA7R17 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+BresElse:
+UNIT Bres Myrmidon 0x1 Level(1, Ally, 0)    [7,17] 0x0 0x0 0x1 REDA7R16 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
 EnemyUnits:
-UNIT Ishpan Monk 0x0 Level(10, Enemy, 1)              [1,8]   0 0 0 0            [YesodII]    NeverMoveAI
-UNIT 0x84 BowCav 0x0 Level(7, Enemy, 1)               [0,7]   DropItem 0 0 0     [SteelBow]   NeverMoveAI
-UNIT Ochren Myrmidon_F 0x0 Level(5, Enemy, 1)         [7,15]  DropItem 0 0 0     [SteelSword] NeverMoveAI
-UNIT 0x85 Mage 0x0 Level(5, Enemy, 1)                 [11,14] 0 0 0 0            [Wind]       NeverMoveAI 
-UNIT 0x85 Shaman 0x0 Level(4, Enemy, 1)               [13,2]  0 0 0 0            [Flux]      NeverMoveAI
-UNIT Ochren AxeKnight 0x0 Level(5, Enemy, 1)          [7,3]   0 0 0 0            [SteelAxe]   NeverMoveAI
-UNIT 0x84 Fighter Ishpan Level(4, Enemy, 1)           [20,1]  0 0 0 0            [IronAxe]    AttackInRangeAI 
-UNIT Ochren Soldier Ishpan Level(5, Enemy, 1)         [18,12] 0 0 0 0            [IronLance]  AttackInRangeAI 
-UNIT 0x84 Monk Ishpan Level(4, Enemy, 1)              [15,13] 0 0 0 0            [MalkuthI,Vulnerary]   AttackInRangeAI 
-UNIT 0x84 SkyKnight Ishpan Level(5, Enemy, 1)         [7,9]   0 0 0 0            [SlimLance]  NeverMoveAI 
-UNIT Ochren SwordKnight Ishpan Level(5, Enemy, 1)     [14,9]  0 0 0 0            [IronBlade]  NeverMoveAI 
-UNIT 0x84 AxeCav Ishpan Level(7, Enemy, 1)            [0,9]   0 0 0 0            [SteelAxe]   NeverMoveAI
-UNIT 0x85 Monk Ishpan Level(5, Enemy, 1)              [6,12]  0 0 0 0            [MalkuthI]   NeverMoveAI 
-UNIT 0x85 Monk Ishpan Level(6, Enemy, 1)              [10,4]  0 0 0 0            [MalkuthI]   NeverMoveAI 
-UNIT 0x84 Myrmidon Ishpan Level(5, Enemy, 1)          [3,6]   0 0 0 0            [IronSword]  NeverMoveAI 
-UNIT Ochren LanceKnight Ishpan Level(6, Enemy, 1)     [1,12]  0 0 0 0            [Javelin]    NeverMoveAI 
-UNIT Ochren SwordCav Ishpan Level(6, Enemy, 1)        [2,14]  0 0 0 0            [SteelSword] NeverMoveAI
-UNIT Ochren Archer Ishpan Level(5, Enemy, 1)          [8,2]   0 0 0 0            [IronBow]    NeverMoveAI
-UNIT 0x84 Archer_F Ishpan Level(5, Enemy, 1)          [9,12]  0 0 0 0            [IronBow]    NeverMoveAI
-UNIT Ochren LanceCav Ishpan Level(6, Enemy, 1)        [6,5]   0 0 0 0            [IronLance]  NeverMoveAI 
-UNIT 0x84 Soldier Ishpan Level(6, Enemy, 1)           [17,1]  0 0 0 0            [IronLance]  NeverMoveAI 
-UNIT OchrenMag Mage_F Ishpan Level(5, Enemy, 1)       [12,0]  0 0 0 0            [Thunder]    NeverMoveAI
+UNIT 0x84 Archer Bone Level(5, Enemy, 1)         [7,0] 0 0 0 0    [IronBow,0x70] AttackInRangeAI
+UNIT 0x85 Monk Bone Level(3, Enemy, 1)           [13,2] 0 0 0 0   [MalkuthI] AttackInRangeAI
+UNIT 0x84 Fighter Bone Level(4, Enemy, 1)        [8,5] 0 0 0 0    [IronAxe] AttackInRangeAI
+UNIT 0x84 Archer_F Bone Level(3, Enemy, 1)       [10,7] 0 0 0 0   [IronBow] AttackInRangeAI
+UNIT 0x84 Myrmidon Bone Level(3, Enemy, 1)       [14,10] 0 0 0 0  [IronSword] AttackInRangeAI
+UNIT 0x84 Soldier Bone Level(3, Enemy, 1)        [3,9] 0 0 0 0    [IronLance] AttackInRangeAI
+UNIT 0x85 Monk Bone Level(3, Enemy, 1)           [3,14] 0 0 0 0   [MalkuthI] AttackInRangeAI
+UNIT 0x85 Monk Bone Level(3, Enemy, 1)           [2,6] 0 0 0 0    [MalkuthI] AttackInRangeAI
+UNIT 0x85 Mage Bone Level(4, Enemy, 1)           [13,6] 0 0 0 0   [Wind] AttackInRangeAI
+UNIT 0x84 SwordKnight Bone Level(4, Enemy, 1)    [5,7] 0 0 0 0    [IronSword] AttackInRangeAI
+UNIT 0x84 LanceCav_F Bone Level(2, Enemy, 1)     [7,11] 0 0 0 0   [IronLance] AttackInRangeAI
+UNIT 0x84 Fighter Bone Level(3, Enemy, 1)        [11,12] 0 0 0 0  [IronAxe] AttackInRangeAI
+UNIT 0x84 LanceKnight Bone Level(5, Enemy, 1)    [3,4] 0 0 0 0    [SteelLance] NeverMoveAI
 UNIT
 
-GedeonP:
-UNIT Gedeon Fighter 0x0 Level(4, Enemy, 0)    [3,0] 0 0 1 REDA3R1    [IronAxe] [0x0,0x6,0x4,0x0]
-UNIT 0x84 LanceKnight 0x0 Level(4, Enemy, 1)    [3,0] 0 0 1 REDA3R0    [HeavySpear] [0x0,0x6,0x4,0x0]
-UNIT 0x85 Mage 0x0 Level(4, Enemy, 1)    [3,0] 0 0 1 REDA4R0    [Fire,Elixir] [0x0,0x6,0x4,0x0]
+LamechLamech:
+UNIT Bone Mercenary 0x0 Level(5, Enemy, 1)       [8,0] 0 0 1 REDA8R1    [LightBrand] NeverMoveAI
 UNIT
 
-Banditsu:
-UNIT 0x81 Pirate 0x0 Level(5, Enemy, 1)    [11,9] 0 0 1 REDA11R9    [IronAxe] [0x0,0x4,0x4,0x0]
+BrigandsAhoy:
+UNIT 0x80 Brigand 0x0 Level(3, Enemy, 1)    [14,0] 0 0 1 REDA14R0 [IronAxe] [0x0,0x4,0x4,0x0]
+UNIT 0x80 Brigand 0x0 Level(3, Enemy, 1)    [0,3] 0 0 1 REDA0R3 [IronAxe] [0x0,0x4,0x4,0x0]
 UNIT
 
-Banditsu2:
-UNIT 0x81 Brigand 0x0 Level(5, Enemy, 1)    [13,0] 0 0 1 REDA12R0    [IronAxe] [0x0,0x4,0x4,0x0]
+MoreDudes2:
+UNIT 0x84 LanceCav Bone Level(3, Enemy, 1)    [7,0] 0x0 0x0 0x1 REDA4R3 [Javelin] [0,0,0x4,0] 
+UNIT 0x84 AxeCav Bone Level(3, Enemy, 1)    [8,0] 0x0 0x0 0x1 REDA9R3 [IronAxe] [0,0,0x4,0] 
 UNIT
 
-TheOchrens:
-UNIT 0x84 SwordCav 0x0 Level(6, Enemy, 1)      [0,6]    0 0 1 REDA0R6     [SteelSword] [0x0,0x0,0x4,0x0]
-UNIT 0x84 BowCav Ishpan Level(6, Enemy, 1)     [0,10]   0 0 1 REDA0R10    [SteelBow]   [0x0,0x0,0x4,0x0]
+AengusBruh:
+UNIT Aengus 0x9 0x1 Level(2, Ally, 0)    [0,11] 0x0 0x0 0x1 REDA2R11 [SteelLance] [0,0,0,0]
+UNIT Ethniu Shaman_F 0x1 Level(2, Ally, 0)    [0,10] 0x0 0x0 0x1 REDA1R10 [Flux,Vulnerary] [0,0,0,0]
 UNIT
 
-CethernMiachMen:
-UNIT Cethern Hobelar 0x0 Level(0, Ally, 0)    [3,7]    0 0 1 REDA3R7    [0] [0,0,0,0]
-UNIT Miach Villager 0x0 Level(0, Ally, 0)    [3,8]    0 0 1 REDA3R8    [0] [0,0,0,0]
+MoreDudes:
+UNIT 0x84 SwordCav_F Bone Level(3, Enemy, 1)    [7,0] 0x0 0x0 0x1 REDA5R3 [IronSword] [0,0,0x4,0]
+UNIT 0x84 LanceCav_F Bone Level(3, Enemy, 1)    [8,0] 0x0 0x0 0x1 REDA10R3 [SlimLance] [0,0,0x4,0] 
 UNIT
 
-TheBoisFromOchren:
-UNIT OchrenMag General 0x0 Level(5, Enemy, 1)    [0,8]    0 0 1 REDA1R8    [Spear] [0,0,0,0]
-UNIT Ochren SwordCav 0x0 Level(15, Enemy, 1)    [0,7]    0 0 1 REDA1R7    [SteelBlade] [0,0,0,0]
-UNIT Ochren LanceCav 0x0 Level(15, Enemy, 1)    [0,6]    0 0 1 REDA0R6    [ShortSpear] [0,0,0,0]
-UNIT Ochren AxeCav 0x0 Level(15, Enemy, 1)    [0,9]    0 0 1 REDA1R9   [KillerAxe] [0,0,0,0]
-UNIT Ochren LanceCav 0x0 Level(15, Enemy, 1)    [0,10]    0 0 1 REDA0R10    [BraveLance] [0,0,0,0]
-UNIT 0x80 SkyKnight 0x0 Level(15, Enemy, 1)    [0,3]    0 0 1 REDA7R5   [SlimLance] [0,0,0,0]
-UNIT 0x81 SkyKnight 0x0 Level(15, Enemy, 1)    [0,4]    0 0 1 REDA6R6    [Javelin] [0,0,0,0]
-UNIT 0x82 SkyKnight 0x0 Level(15, Enemy, 1)    [0,12]    0 0 1 REDA6R10   [SlimLance] [0,0,0,0]
-UNIT 0x83 SkyKnight 0x0 Level(15, Enemy, 1)    [0,13]    0 0 1 REDA7R11    [Javelin] [0,0,0,0]
+ReinforcementsHoy:
+UNIT 0x84 Myrmidon Bone Level(3, Enemy, 1)    [7,17] 0x0 0x0 0x1 REDA7R17 [IronSword] [0,0,0x4,0]
+UNIT 0x84 Fighter Bone Level(3, Enemy, 1)    [9,17] 0x0 0x0 0x1 REDA9R17 [IronAxe] [0,0,0x4,0]
+UNIT
+
+LetsGetAngry:
+UNIT 0x84 BowCav Bone Level(3, Enemy, 1)    [14,3] 0x0 0x0 0x1 REDA14R3 [IronBow] [0,0,4,0]
+UNIT
+
+Children:
+UNIT Ochren Child 0x0 Level(1, NPC, 0)    [4,11] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Ochren 0x72 0x0 Level(1, NPC, 0)    [5,10] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Ochren Child 0x0 Level(1, NPC, 0)    [9,12] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Ochren Child_F 0x0 Level(1, NPC, 0)    [11,12] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Ochren 0x71 0x0 Level(1, NPC, 0)    [5,14] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT
+
+ManPicodobra:
+UNIT Ochren 0x71 0x0 Level(1, NPC, 0)    [12,17] 0x0 0x0 0x1 REDA11R17 [0x0] [0,0,0,0]
 UNIT
 
 Traps1:
@@ -181,79 +164,19 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-MUSC 0x48
-SetBackground(ArmyCamp)
-BROWNBOXTEXT AFewDaysLater [8,8] // box in the top right that's pretty cool for small text
-TEXTSTART
-CHECK_ALIVE Sadhbh
-BEQ 0x0 0x0 0xC
-	TEXTSHOW P1C4SadhbhCamp
-	GOTO 0x2
-LABEL 0x0
-CHECK_ALIVE Ethniu
-BEQ 0x1 0x0 0xC
-	TEXTSHOW P1C4EthniuCamp
-	GOTO 0x2
-LABEL 0x1
-TEXTSHOW P1C4CethernOnlyCamp
-LABEL 0x2
-TEXTEND
-REMA
-FADI 4
-STAL 60
-MUSC 0x2E
-SetBackground(WarriorTent)
-TEXTSTART
-CHECK_ALIVE Sadhbh
-BEQ 0x10 0x0 0xC
-	TEXTSHOW P1C4CuRaoiSadhbh
-	GOTO 0x11
-LABEL 0x10
-TEXTSHOW P1C4CuRaoiNoSadhbh
-LABEL 0x11
-TEXTEND
-REMA
-FADI 4
-STAL 60
-MUSC 0x48
-SetBackground(HealerTent)
-TEXTSTART
-TEXTSHOW P1C4MiachTalk
-TEXTEND
-MUSC 0x27
-TEXTCONT
-TEXTEND
-REMA
-FADI 4
-STAL 60
-MUSC 0x48
-SetBackground(CaravanCG)
-TEXTSTART
-CHECK_ALIVE Sadhbh
-BEQ 0x30 0x0 0xC
-	TEXTSHOW P1C4MiachEscapeWithSadhbh
-	GOTO 0x31
-LABEL 0x30
-TEXTSHOW P1C4MiachEscape
-LABEL 0x31
-TEXTEND
-REMA
-FADI 4
-STAL 60
-EnterStop
 MUSC 0x5
 SetBackground(0x34)
 STAL 60
 SVAL 0xB 0xFFFFFFFF
 STAL 60
 TUTORIALTEXTBOXSTART
-TEXTSHOW P1C4WMIntro
+TEXTSHOW P1C3WMIntro
 TEXTEND
 REMA
 SVAL 0xB 0xFFFFFFFF
 STAL 60
 TUTORIALTEXTBOXSTART
-TEXTSHOW P1C4WMIntro2
+TEXTSHOW P1C3WMIntro2
 TEXTEND
 REMA
 MUSCMID 0x7FFF
@@ -261,353 +184,469 @@ FADI 3
 STAL 120
 CLEAN
 EnterStop
-MUSC 0x4C
-SetBackground(ForestOutskirts)
+MUSC 0x52
+SetBackground(ArmyCamp)
+STAL 45
+BROWNBOXTEXT CaerWydyr [8,8] // box in the top right that's pretty cool for small text
 TEXTSTART
-TEXTSHOW P1C4IshpanTalks
-TEXTEND
-REMA
-FADI 4
-STAL 60
-MUSC 0x24
-SetBackground(ForestCG)
-CHECK_ALIVE Setanta
-BEQ 0x50 0x0 0xC
-	CHECK_ALIVE Ferdiad
-	BEQ 0x51 0x0 0xC
-		TEXTSTART
-		TEXTSHOW P1C4SetFerForest
-		TEXTEND
-		REMA
-		GOTO 0x55
-	LABEL 0x51
-	TEXTSTART
-	TEXTSHOW P1C4SetForest
-	TEXTEND
-	REMA
-	GOTO 0x55
-LABEL 0x50
-CHECK_ALIVE Ferdiad
-BEQ 0x52 0x0 0xC
-	TEXTSTART
-	TEXTSHOW P1C4FerForest
-	TEXTEND
-	REMA
-	GOTO 0x55
-LABEL 0x52
-TEXTSTART
-TEXTSHOW P1C4CethernForest
-TEXTEND
-REMA
-LABEL 0x55
-FADI 4
-CLEAN
-LOAD1 0x1 EnemyUnits
-ENUN
-LOAD2 0x1 UnitsP
-ENUN
-AliveCLoad(Setanta,SetantaP,0xBBA)
-AliveCLoad(Ferdiad,FerdiadP,0xBBB)
-AliveCLoad(Lalitha,LalithaP,0xBBC)
-AliveCLoad(Bres,BresP,0xBBD)
-AliveCLoad(Ethniu,EthniuP,0xBBE)
-AliveCLoad(Aengus,AengusP,0xBBF)
-AliveCLoad(Hanlin,HanlinP,0xBB10)
-_0x2620 0x501
-MUSC 0x25
-FADU 16
-STAL 30
-BROWNBOXTEXT CaerOchren [8,8] // box in the top right that's pretty cool for small text
-_0x2620 0x515
-CUMO [20,8]
-STAL 60
-CURE
-TEXTSTART
-TEXTSHOW P1C4CethernRealizesTheTruth
-TEXTEND
-REMA
 CHECK_ALIVE Sadhbh
-BEQ 0xA0A0 0xC 0x0
-	LOAD2 0x1 SadhbhP
-	ENUN
-	STAL 30
-	LOAD1 0x1 MiachP
-	ENUN
-	REVEAL Sadhbh
-	SVAL 0x1 0x1
-	SET_STATE Sadhbh
-	CUMO [20,7]
-	STAL 60
-	CURE
-	SetBackground(ForestCG)
+BEQ 0x0 0xC 0x0
+	CHECK_ALIVE Setanta
+	BEQ 0x41 0xC 0x0
+		CHECK_ALIVE Ferdiad
+		BEQ 0x42 0xC 0x0
+			TEXTSHOW P1C3EveryoneAlive
+			GOTO 0x66
+		LABEL 0x42
+			TEXTSHOW P1C3SaAliveFeDead
+			GOTO 0x66
+	LABEL 0x41
+		CHECK_ALIVE Ferdiad
+		BEQ 0x43 0xC 0x0
+			TEXTSHOW P1C3SaAliveSeDead
+			GOTO 0x66		
+		LABEL 0x43
+			TEXTSHOW P1C3SaAliveRestDead
+			GOTO 0x66
+LABEL 0x0
+ENUT 0xA // sadhbh not alive
+CHECK_ALIVE Setanta
+BEQ 0x1 0xC 0x0
+	CHECK_ALIVE Ferdiad
+	BEQ 0x44 0xC 0x0
+		TEXTSHOW P1C3SeAlive
+		GOTO 0x66		
+	LABEL 0x44
+		TEXTSHOW P1C3SeAliveFeDead
+		GOTO 0x66	
+LABEL 0x1
+CHECK_ALIVE Ferdiad
+BEQ 0x2 0xC 0x0
+	TEXTSHOW P1C3FeAlive
+	GOTO 0x66
+LABEL 0x2
+ENUT CluainBolgGone // no one is alive
+TEXTSHOW P1C3NoOneAlive
+LABEL 0x66
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+CLEAN
+MUSC 0x2E
+SetBackground(WarriorTent)
+CHECK_EVENTID CluainBolgGone // is everyone dead?
+BEQ 0x99 0x0 0xC // if the flag is off, skip
 	TEXTSTART
-	TEXTSHOW P1C4SadhbhAndMiachJoin
+	TEXTSHOW P1C3CommanderTimeAllDead
+	TEXTEND
+	MUSC 0x30
+	TEXTCONT
+	TEXTEND
+	REMA	
+	GOTO 0xBB
+LABEL 0x99
+CHECK_EVENTID 0xA // is sadhbh dead?
+BEQ 0xAA 0x0 0xC // if the flag is off, skip
+	TEXTSTART
+	TEXTSHOW P1C3CommanderTimeSaDead
+	TEXTEND
+	REMA	
+	ENUT 0x13
+	GOTO 0xBB
+LABEL 0xAA
+TEXTSTART
+TEXTSHOW P1C3CommanderTime
+TEXTEND
+REMA
+ENUT 0x13
+LABEL 0xBB
+CALL 0x591F40
+SVAL 0x3 3000
+GIVEITEMTOMAIN 0x0
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+CLEAN
+CHECK_EVENTID 0x13 // let's talk to miach and recruit hanlin outside if we haven't
+BEQ 0x4B 0xC 0x0
+	MUSC 0x52
+	SetBackground(ArmyCamp)
+	TEXTSTART
+	TEXTSHOW P1C3HanlinOutsideBoiBoiBoiBoi
 	TEXTEND
 	MUSC 0x30
 	TEXTCONT
 	TEXTEND
 	REMA
-	FADI 16
-	CLEAN
-	GOTO 0xA0AA
-LABEL 0xA0A0
-LOAD2 0x1 MiachSoma
-ENUN
-CUMO [20,7]
-STAL 60
-CURE
-SetBackground(ForestCG)
-MUSC 0x30
-TEXTSTART
-TEXTSHOW P1C4MiachJoin
-TEXTEND
-SOUN 0x2D7
-TEXTCONT
-TEXTEND
-REMA
-FADI 16
-CLEAN
-CLEA 0x0
-LOAD2 0x1 UnitsP
-ENUN
-AliveCLoad(Setanta,SetantaP,0xCCA)
-AliveCLoad(Ferdiad,FerdiadP,0xCCB)
-AliveCLoad(Lalitha,LalithaP,0xCCC)
-AliveCLoad(Bres,BresP,0xCCD)
-AliveCLoad(Ethniu,EthniuP,0xCCE)
-AliveCLoad(Aengus,AengusP,0xCCF)
-AliveCLoad(Hanlin,HanlinP,0xCC10)
-LOAD1 0x1 MiachPP
-ENUN
-LABEL 0xA0AA
-FADU 16
-CHECK_ALIVE Hanlin
-BEQ 0xB0B0 0x0 0xC
-	MUSC 0x9
-	CUMO Hanlin
+	MUSCMID 0x7FFF
+	FADI 4
 	STAL 60
-	CURE
-	TEXTSTART
-	TEXTSHOW P1C4HanlinExplains
-	TEXTEND
-	REMA
-	GOTO 0xB0BB
-LABEL 0xB0B0
-MUSC 0x9
-CUMO Cethern
+	CLEAN
+LABEL 0x4B
+_0x2620 0x1107 //camera better around borders of map
+CHECK_ALIVE Sadhbh
+BEQ 0x55 0xC 0x0
+	REMU Sadhbh
+LABEL 0x55
+STAL 60
+EnterStop
+LOAD1 0x1 Children
+MUSC 0x27
+FADU 6
+BROWNBOXTEXT Picodobra [8,8] // box in the top right that's pretty cool for small text
+LOAD1 0x1 HanlinFirst
+ENUN
+LOAD2 0x1 EveryoneElse
+ENUN
+CHECK_EXISTS Bres
+BEQ 0xAB0 0xC 0x0
+	LOAD2 0x1 BresElse
+	ENUN
+LABEL 0xAB0
+CUMO [8,16]
+STAL 60
+CURE
+CHECK_ALIVE Ferdiad
+TEXTSTART
+BEQ 0xABCE 0xC 0x0
+	TEXTSHOW P1C3HanlinHereInPicodobraWithFerdiad
+	GOTO 0xABCF
+LABEL 0xABCE
+TEXTSHOW P1C3HanlinHereInPicodobra
+LABEL 0xABCF
+TEXTEND
+REMA
+LOAD1 0x1 ManPicodobra
+ENUN
+CUMO [11,17]
+STAL 60
+CURE 
+TEXTSTART
+TEXTSHOW P1C3VillagerBoi
+TEXTEND
+REMA
+_0x2620 0x7
+STAL 45
+LOAD1 0x1 LamechLamech
+ENUN
+MUSCMID 0x7FFF
+CUMO [8,1]
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW P1C4CethernExplains
+TEXTSHOW P1C3OhNoMyMan
 TEXTEND
 REMA
-LABEL 0xB0BB
-SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
-STAL 20
-TUTORIALTEXTBOXSTART
-TEXTSHOW P1C4Warning
+FADI 4
+STAL 60
+SetBackground(InsideHouse)
+MUSC 0x48
+CHECK_EXISTS Bres
+TEXTSTART
+BEQ 0xADCE 0xC 0x0
+	TEXTSHOW P1C3HouseHouseBres
+	GOTO 0xADCF
+LABEL 0xADCE
+TEXTSHOW P1C3HouseHouseHanlin
+LABEL 0xADCF
 TEXTEND
 REMA
+MUSC 0x25
+TEXTSTART
+TEXTSHOW P1C3HouseHouseNope
+TEXTEND
+REMA
+FADI 4
+CLEA 0x0
+CLEN 0x0
+CLEAN
+_0x2620 0x1107
+LOAD1 0x1 EnemyUnits
+ENUN
+FADU 10
+LOAD1 0x1 UnitsP
+ENUN
+LOAD1 0x1 HanlinP
+ENUN
+AliveCLoad(Setanta,SetantaP,0xA)
+AliveCLoad(Ferdiad,FerdiadP,0xB)
+AliveCLoad(Lalitha,LalithaP,0xC)
+AliveCLoad(Bres,BresP,0xD)
+CUMO [8,16]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C3SoMany
+TEXTEND
+REMA
+ENUF 0xA
 NoFade
 ENDA
 
 EndingScene:
-MUSC 0x26
-FADI 6
-_0x2620 0x503
-ENUT 0x84
-CLEA 0x0
-CLEE 0x0
-CLEN 0x0
-LOAD2 0x1 CethernMiachMen
-FADU 10
+MUSC 0x48
+CAM1 Cethern
+STAL 10
 CUMO Cethern
 STAL 60
 CURE
 TEXTSTART
-TEXTSHOW P1C4RionallBetray
+TEXTSHOW P1C3LetsGoLesbians
 TEXTEND
 REMA
-LOAD2 0x1 TheBoisFromOchren
-ENUN
-CUMO [1,8]
+FADI 5
 STAL 60
-CURE
+MUSC 0x31
+SetBackground(VillageCG)
 TEXTSTART
-TEXTSHOW P1C4RionallExplains
+TEXTSHOW P1C3TheHeichalotiansAreGone
 TEXTEND
 REMA
-MOVE 0xA Cethern [3,0]
-MOVE 0xA Miach [4,0]
-ENUN
-TEXTSTART
-TEXTSHOW P1C4SkyKnightsAway
-TEXTEND
-REMA
-MOVE 0xA 0x80 [1,0]
-MOVE 0xA 0x81 [4,0]
-MOVE 0xA 0x82 [6,0]
-MOVE 0xA 0x83 [8,0]
-ENUN
-TEXTSTART
-TEXTSHOW P1C4AinghaCursesMe
-TEXTEND
-REMA
-MNC2 0x4
-FADI 6
-ENUF 0x84
-NoFade
-ENDA
-
-OutOfTheWoods:
-//SVAL 0x2 0x0
-//CALL 0x9EE1B8
-_0x2620 0x800 //camera better around borders of map
-CUMO Ishpan
+FADI 4
 STAL 60
-CURE
-Text(P1C4IshpanNotices)
-SVAL 0x1 0x00040600 // sets ai to [0x0,0x6,0x4,0x0] (chase when approached)
-CHAI 0x84 // changes the ai of 0x84
-SVAL 0x1 0x00040600 // sets ai to [0x0,0x6,0x4,0x0] (chase when approached)
-CHAI 0x85 // changes the ai of 0x85
-SVAL 0x1 0x00040300 // sets ai to [0x0,0x3,0x4,0x0] (attack in range)
-CHAI Ochren // changes the ai of Ochren
-SVAL 0x1 0x00040300 // sets ai to [0x0,0x3,0x4,0x0] (attack in range)
-CHAI OchrenMag // changes the ai of OchrenMag
-SVAL 0x1 0x20040303 // sets ai to [0x3,0x3,0x4,0x20] (never move)
-CHAI [1,12] // changes the ai of this coordinate
-SVAL 0x1 0x20040303 // sets ai to [0x3,0x3,0x4,0x20] (never move)
-CHAI [7,3] // changes the ai of this coordinate
-SVAL 0x1 0x00040300 // sets ai to [0x0,0x3,0x4,0x0] (attack in range)
-CHAI [7,9] // changes the ai of this coordinate
-SVAL 0x1 0x00040300 // sets ai to [0x0,0x3,0x4,0x0] (attack in range)
-CHAI [0,7] // changes the ai of this coordinate
-SVAL 0x1 0x00040300 // sets ai to [0x0,0x3,0x4,0x0] (attack in range)
-CHAI [0,9] // changes the ai of this coordinate
-NoFade
-ENDA
-
-GedeonTime:
-_0x2620 0x3 //camera better around borders of map
-LOAD1 0x1 GedeonP
-ENUN
-CUMO [3,1]
-STAL 60
-CURE
+MUSC 0x36
+SetBackground(TavernCG)
+BROWNBOXTEXT LaterThatDay [8,8] // box in the top right that's pretty cool for small text
 TEXTSTART
-TEXTSHOW P1C4GedeonAppears
-TEXTEND
-REMA
-NoFade
-ENDA
-
-GedeonRecruitA:
-MUSC 0x30
-TEXTSTART
-TEXTSHOW P1C4GedeonAengus
-TEXTEND
-REMA
-CUSA Gedeon
-ENUT 0xC
-NoFade
-ENDA
-
-GedeonRecruitE:
-MUSC 0x30
-TEXTSTART
-TEXTSHOW P1C4GedeonEthniu
-TEXTEND
-REMA
-CUSA Gedeon
-ENUT 0xC
-NoFade
-ENDA
-
-MendVillage:
-TEXTSTART
-SVAL 0x2 VillageCG
-SVAL 0x3 P1C4MendVillage
-CALL 0x9EE310
-REMA
-CALL 0x591F40
-SVAL 0x3 Mend
-GIVEITEMTO 0xFFFF
-NoFade
-ENDA
-
-ThunderVillage:
-TEXTSTART
-SVAL 0x2 VillageCG
-SVAL 0x3 P1C4ThunderVillage
-CALL 0x9EE310
-REMA
-CALL 0x591F40
-SVAL 0x3 Thunder
-GIVEITEMTO 0xFFFF
-NoFade
-ENDA
-
-AinghaHouse:
-STORETOSOMETHING 0x0 // lowers music volume
-MUSI // lowers music volume
-SVAL 0x2 InsideMapHouse // decides background 
-SVAL 0x3 P1C4AinghaHouse // decides text id
-CALL 0x9EE310 // runs the text
-MUNO // increases music volume
-NoFade
-ENDA
-
-LightMagicHouse:
-STORETOSOMETHING 0x0 // lowers music volume
-MUSI // lowers music volume
-SVAL 0x2 InsideMapHouse // decides background 
-SVAL 0x3 P1C4LightMagicHouse // decides text id
-CALL 0x9EE310 // runs the text
-MUNO // increases music volume
-NoFade
-ENDA
-
-RionallHouse:
-STORETOSOMETHING 0x0 // lowers music volume
-MUSI // lowers music volume
-SVAL 0x2 InsideMapHouse // decides background 
-SVAL 0x3 P1C4RionallHouse // decides text id
-CALL 0x9EE310 // runs the text
-MUNO // increases music volume
-NoFade
-ENDA
-
-SummonTheBadGuys:
-_0x2620 0x90B
-LOAD1 0x1 Banditsu
-STAL 60
-NoFade
-ENDA
-
-SummonTheBadGuys2:
-_0x2620 0xC
-LOAD1 0x1 Banditsu2
-STAL 60
-NoFade
-ENDA
-
-SummonTheOchrenHorses:
-CHECK_EVENTID 0x10
+CHECK_ALIVE Aengus
 BEQ 0x0 0x0 0xC
-	_0x2620 0x800
-	LOAD1 0x1 TheOchrens
+	CHECK_ALIVE Ethniu
+	BEQ 0x1 0x0 0xC
+		TEXTSHOW P1C3AengusEthniuCethernInTheVilla
+		GOTO 0x3
+	TEXTSHOW P1C3AengusCethernInTheVilla
+	GOTO 0x3
+LABEL 0x0
+CHECK_ALIVE Ethniu
+BEQ 0x2 0x0 0xC
+	TEXTSHOW P1C3EthniuCethernInTheVilla
+	GOTO 0x3
+LABEL 0x2
+TEXTSHOW P1C3CethernInTheVilla
+LABEL 0x3
+TEXTEND
+REMA
+FADI 4
+//put the sadhbh rionall event here
+STAL 60
+CHECK_ALIVE Sadhbh
+BEQ 0x40 0x0 0xC
+	MUSC 0x4A
+	SetBackground(ThroneRoomNight)
+	BROWNBOXTEXT CaerOchren [8,8] // box in the top right that's pretty cool for small text
+	TEXTSTART
+	TEXTSHOW P1C3SadhbhRionall
+	TEXTEND
+	MUSC 0x2E
+	TEXTCONT
+	TEXTEND
+	REMA
+	FADI 4
+	STAL 60
+LABEL 0x40
+MNC2 0x3
+NoFade
+ENDA
+
+OhNoIGotADisease:
+_0x2620 0xA00 //camera better around borders of map
+LOAD1 0x1 AengusBruh
+ENUN
+STAL 20
+CUMO [1,10]
+STAL 60
+CURE
+MUSC 0x30
+TEXTSTART
+TEXTSHOW P1C3AengusAndEthniu
+TEXTEND
+REMA
+_0x2620 0x7 //camera better around borders of map
+CUMO [8,1]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C3ReinforcementTime
+TEXTEND
+REMA
+LOAD1 0x1 MoreDudes
+ENUN
+STAL 60
+NoFade
+ENDA
+
+OhNoOhNoOhNo:
+_0x2620 0x7 //camera better around borders of map
+LOAD1 0x1 MoreDudes2
+ENUN
+NoFade
+ENDA
+
+Bandito:
+_0x2620 0x7 //camera better around borders of map
+LOAD1 0x1 BrigandsAhoy
+ENUN
+CUMO [0,3]
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C3Bandoleo
+TEXTEND
+REMA
+NoFade
+ENDA
+
+OhNoTheyreComing2:
+CHECK_EVENTID 0x1D
+BEQ 0x0 0x0 0xC
+	_0x2620 0x1107 //camera better around borders of map
+    LOAD1 0x1 ReinforcementsHoy
 	STAL 60
     GOTO 0x1
 LABEL 0x0
-    ENUF 0x11
+    ENUF 0x1E
 LABEL 0x1
 NoFade
 ENDA
 
-SummonTheOchrenHorsesArea:
+BruhHereComesReinNexTTURN2:
 SVAL 0x2 0x0
 CALL 0x9EE1B8
+NoFade
+ENDA
+
+JavelinVillage:
+TEXTSTART
+SVAL 0x2 InsideMapHouse
+SVAL 0x3 P1C3JavelinText
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 Javelin
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+SteelAxeVillage:
+TEXTSTART
+SVAL 0x2 InsideMapHouse
+SVAL 0x3 P1C3SteelAxeText
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 IronPoleax
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+GoddessIconVillage:
+TEXTSTART
+SVAL 0x2 InsideMapHouse
+SVAL 0x3 P1C3GoddessIconText
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 PureWater
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+OhNOOOOOOOOOOOOO:
+SVAL 0x1 0x00040000
+CHAI Bone
+SVAL 0x1 0x00040000
+CHAI 0x84
+SVAL 0x1 0x00040000
+CHAI 0x85
+TEXTSTART
+CHECK_ALIVE Lamech
+BEQ 0x0 0xC 0x0
+	CUMO Lamech
+	STAL 60
+	CURE
+	TEXTSHOW P1C3LamechSignal
+	GOTO 0x1
+LABEL 0x0
+TEXTSHOW P1C3SoldierSignal
+LABEL 0x1
+TEXTEND
+REMA
+NoFade
+ENDA
+
+OhGoshOhHeck:
+LOAD2 0x1 LetsGetAngry
+ENUN
+_0x2620 0x30E //camera better around borders of map
+CUMO [14,3]
+STAL 60
+CURE
+CHECK_ALIVE Lamech
+BEQ 0xBA 0xC 0x0
+	TEXTSTART
+	TEXTSHOW P1C3LamechRein
+	TEXTEND
+	REMA
+	GOTO 0xBC
+LABEL 0xBA
+TEXTSTART
+TEXTSHOW P1C3NoLamechRein
+TEXTEND
+REMA
+LABEL 0xBC
+NoFade
+ENDA
+  
+/*RallyLuckVillage:
+SetBackground(0x0)
+TEXTSTART
+TEXTSHOW RallyLukVillageText
+TEXTEND
+SVAL r7 True
+BEQ 0 rC r7
+  TEXTSHOW RallyLukNo
+  TEXTEND
+  REMA
+  ENUF 0xD
+  FADI 16
+  CLEAN
+  FADU 16
+  GOTO 1
+LABEL 0
+  TEXTSHOW RallyLukYes
+  TEXTEND
+  REMA
+  FADI 16
+  CLEAN
+  FADU 16
+  CALL 0x591F40
+  LearnSkillActive(RallyLukID,0x8)
+  TILECHANGE 0x4
+LABEL 1
+NoFade
+ENDA*/
+
+AengusCethernEvent:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+TEXTSHOW P1C3AengusCethern
+TEXTEND
+REMA
+MUNO // increases music volume
+NoFade
+ENDA
+
+EthniuLalithaEvent:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+TEXTSHOW P1C3EthniuLalitha
+TEXTEND
+REMA
+MUNO // increases music volume
 NoFade
 ENDA
 
@@ -615,3 +654,11 @@ CleartheSeal:
 ASMC ClearDebuffs|1
 NoFade
 ENDA
+	
+ShopBruh:
+SHLI Fire Flux Heal Vulnerary 
+ALIGN 4
+
+ArmoryBruh:
+SHLI IronSword IronLance IronAxe IronBow
+ALIGN 4

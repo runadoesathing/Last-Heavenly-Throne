@@ -4,162 +4,266 @@
 
 ALIGN 4
 
-SetantaSupport:
-SupportCompatibility(Ferdiad,Sadhbh,Aingha,Nala,Len,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 5 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+NewSupportTable:
 
-FerdiadSupport:
-SupportCompatibility(Setanta,Lalitha,Srihwen,Aingha,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  SetantaSupport:
+  SupportCompatibility(Ferdiad,Aingha,Sadhbh,Len,Dagmema,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 5 //number of partners
+  BYTE 0x0 0x0 //separator
 
-HanlinSupport:
-SupportCompatibility(0,Rudram,Birnath,SinGu,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 3 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  FerdiadSupport:
+  SupportCompatibility(Setanta,Lalitha,Srihwen,Aingha,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 4 //number of partners
+  BYTE 0x0 0x0 //separator
 
-AinghaSupport:
-SupportCompatibility(Srihwen,Varuna,Setanta,Ferdiad,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  HanlinSupport:
+  SupportCompatibility(SinGu,Bres,Enoch,Zheng,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 4 //number of partners
+  BYTE 0x0 0x0 //separator
 
-SadhbhSupport:
-SupportCompatibility(Bres,Setanta,Aengus,Sirin,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  AinghaSupport:
+  SupportCompatibility(Setanta,Ferdiad,Srihwen,Calingi,Aengus,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 5 //number of partners
+  BYTE 0x0 0x0 //separator
 
-LalithaSupport:
-SupportCompatibility(0,Ferdiad,Sanjana,Ethniu,Bres,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  BresSupport:
+  SupportCompatibility(Lalitha,Rudram,Hanlin,Soma,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 4 //number of partners
+  BYTE 0x0 0x0 //separator
 
-BresSupport:
-SupportCompatibility(Sadhbh,Gedeon,Rudram,SinGu,Lalitha,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 5 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  AengusSupport:
+  SupportCompatibility(Ethniu,Gedeon,Aingha,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
 
-AengusSupport:
-SupportCompatibility(Gedeon,Soma,Sadhbh,Ethniu,Len,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 5 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  SadhbhSupport:
+  SupportCompatibility(Sirin,Flidais,Setanta,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
 
-EthniuSupport:
-SupportCompatibility(Soma,Srihwen,Lalitha,Aengus,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  LalithaSupport:
+  SupportCompatibility(Ferdiad,Bres,Ethniu,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
 
-GedeonSupport:
-SupportCompatibility(Aengus,Bres,Sanjana,Nala,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  EthniuSupport:
+  SupportCompatibility(Srihwen,Soma,Aengus,Gedeon,Lalitha,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 5 //number of partners
+  BYTE 0x0 0x0 //separator
 
-SomaSupport:
-SupportCompatibility(Ethniu,Aengus,Varuna,Srihwen,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  SomaSupport:
+  SupportCompatibility(Ethniu,Srihwen,Bres,Dagmema,Danand,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 5 //number of partners
+  BYTE 0x0 0x0 //separator
 
-VarunaSupport:
-SupportCompatibility(Sanjana,Aingha,Soma,Nala,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  GedeonSupport:
+  SupportCompatibility(Aengus,Ethniu,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
 
-SanjanaSupport:
-SupportCompatibility(Varuna,Lalitha,Gedeon,Nala,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  VarunaSupport:
+  SupportCompatibility(Sanjana,Nala,Marici,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
 
-SrihwenSupport:
-SupportCompatibility(Aingha,Ethniu,Ferdiad,Soma,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  SanjanaSupport:
+  SupportCompatibility(Varuna,Nala,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
 
-RudramSupport:
-SupportCompatibility(Bres,Hanlin,Sirin,0x0,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 3 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  RudramSupport:
+  SupportCompatibility(Bres,0,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 1 //number of partners
+  BYTE 0x0 0x0 //separator
 
-NalaSupport:
-SupportCompatibility(Varuna,Sanjana,Gedeon,Setanta,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  NalaSupport:
+  SupportCompatibility(Varuna,Sanjana,Marici,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
 
-SirinSupport:
-SupportCompatibility(Birnath,Len,Rudram,Sadhbh,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 4 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  SirinSupport:
+  SupportCompatibility(Birnath,Sadhbh,Flidais,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
 
-BirnathSupport:
-SupportCompatibility(Sirin,Hanlin,0x0,0x0,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 2 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  BirnathSupport:
+  SupportCompatibility(Sirin,SinGu,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
 
-SinGuSupport:
-SupportCompatibility(Hanlin,Bres,0x0,0x0,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 2 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  SinGuSupport:
+  SupportCompatibility(Hanlin,Sengann,Birnath,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
 
-LenSupport:
-SupportCompatibility(Setanta,Sirin,Aengus,0x0,0x0,0x0,0x0)
-SupportInitialValues(0,0,0,0,0,0,0)
-SupportPerChapter(0,0,0,0,0,0,0)
-BYTE 3 //number of partners
-BYTE 0x0 0x0 //separator
-ALIGN 4
+  LenSupport:
+  SupportCompatibility(Setanta,0,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 1 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  CalingiSupport:
+  SupportCompatibility(Aingha,Rhibhu,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
+  
+  RhibhuSupport:
+  SupportCompatibility(Calingi,Sengann,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  SengannSupport:
+  SupportCompatibility(Rhibhu,Danand,SinGu,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  BhekiSupport:
+  SupportCompatibility(Enoch,Radhe,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  DanandSupport:
+  SupportCompatibility(Sengann,Kyuhn,Soma,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  KyuhnSupport:
+  SupportCompatibility(Danand,Zheng,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  GusainjiSupport:
+  SupportCompatibility(Murugan,0,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 1 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  MuruganSupport:
+  SupportCompatibility(Gusainji,0,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 1 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  FlidaisSupport:
+  SupportCompatibility(Sirin,Sadhbh,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  ZhengSupport:
+  SupportCompatibility(Hanlin,Kyuhn,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 2 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  RadheSupport:
+  SupportCompatibility(Bheki,0,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 1 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  EnochSupport:
+  SupportCompatibility(Bheki,Hanlin,Naamah,Srihwen,Nakstrani,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 4 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  NaamahSupport:
+  SupportCompatibility(Enoch,0,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 1 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  MariciSupport:
+  SupportCompatibility(Soma,Varuna,Nala,Dagmema,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 4 //number of partners
+  BYTE 0x0 0x0 //separator
+
+  DagmemaSupport:
+  SupportCompatibility(Marici,Setanta,Soma,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 3 //number of partners
+  BYTE 0x0 0x0 //separator
+  
+  NakstraniSupport:
+  SupportCompatibility(Enoch,0,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 1 //number of partners
+  BYTE 0x0 0x0 //separator
+  
+  CethernSupport:
+  SupportCompatibility(0,0,0,0,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 0 //number of partners
+  BYTE 0x0 0x0 //separator
+  
+  SrihwenSupport:
+  SupportCompatibility(Ethniu,Soma,Aingha,Enoch,0,0,0)
+  SupportInitialValues(0,0,0,0,0,0,0)
+  SupportPerChapter(0,0,0,0,0,0,0)
+  BYTE 4 //number of partners
+  BYTE 0x0 0x0 //separator
+
+BYTE 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 
+ALIGN 16

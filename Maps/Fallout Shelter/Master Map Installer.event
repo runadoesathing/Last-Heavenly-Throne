@@ -4,9 +4,6 @@
 #include "caerochren.event"
 }
 {
-#include "chandra.event"
-}
-{
 #include "climacteric.event"
 }
 {
@@ -14,4 +11,7 @@
 }
 {
 #include "newcompanions.event"
+}
+{
+#include "northernwind.event"
 }

@@ -26,6 +26,7 @@
 	setGenericPalette(0xCA,Generic_Knight)
 	setGenericPalette(0xCB,Generic_Knight)
 	setGenericPalette(0xCC,Generic_Knight)
+	setGenericPalette(0xEA,Generic_Knight)
 
 // Generic_WyvernRider
 	setGenericPalette(0x59,Generic_WyvernRider)
@@ -46,6 +47,10 @@
 
 // Generic_MageF
 	setGenericPalette(0x6C,Generic_MageF)
+
+// Generic_Diviner
+	setGenericPalette(0x7D,Generic_Diviner)
+	setGenericPalette(0xEB,Generic_Diviner)
 
 // Generic_Trobairitz
 	setGenericPalette(0x85,Generic_Trobairitz)
@@ -105,8 +110,8 @@
 	setPalette(0x9,Aengus_LanceKeeper)
 	setCBSP(0x9,0x0,0x0,0x0)
 
-// Gedeon_Fighter
-	setPalette(0xA,Gedeon_Fighter)
+// Gedeon_Woodsman
+	setPalette(0xA,Gedeon_Woodsman)
 	setCBSP(0xA,0x0,0x0,0x0)
 
 // Anluan_Fighter
@@ -212,3 +217,47 @@
 // Antariksa_Diviner
 	setPalette(0x24,Antariksa_Diviner)
 	setCBSP(0x24,0x0,0x0,0x0)
+
+// Chakora_Archer
+	setPalette(0x25,Chakora_Archer)
+	setCBSP(0x25,0x0,0x0,0x0)
+
+// Nairatmya_BowKeeper
+	setPalette(0x26,Nairatmya_BowKeeper)
+	setCBSP(0x26,0x0,0x0,0x0)
+
+// Sarmaree_Soldier
+	setPalette(0x27,Sarmaree_Soldier)
+	setCBSP(0x27,0x0,0x0,0x0)
+
+// Birnath_AxeKeeper
+	setPalette(0x28,Birnath_AxeKeeper)
+	setCBSP(0x28,0x0,0x0,0x0)
+
+// Babhru_AxeKeeper
+	setPalette(0x29,Babhru_AxeKeeper)
+	setCBSP(0x29,0x0,0x0,0x0)
+
+// Naamah_Sage
+	setPalette(0x2A,Naamah_Sage)
+	setCBSP(0x2A,0x0,0x0,0x0)
+
+// Naamah_MageKnight
+	setPalette(0x2B,Naamah_MageKnight)
+	setCBSP(0x2B,0x0,0x0,0x0)
+
+// Rudram_Woodsman
+	setPalette(0x2C,Rudram_Woodsman)
+	setCBSP(0x2C,0x0,0x0,0x0)
+
+// Rhibhu_Diabolist
+	setPalette(0x2D,Rhibhu_Diabolist)
+	setCBSP(0x2D,0x0,0x0,0x0)
+
+// Manasa_Swordmaster
+	setPalette(0x2E,Manasa_Swordmaster)
+	setCBSP(0x2E,0x0,0x0,0x0)
+
+// Nakstrani_Diviner
+	setPalette(0x2F,Nakstrani_Diviner)
+	setCBSP(0x2F,0x0,0x0,0x0)

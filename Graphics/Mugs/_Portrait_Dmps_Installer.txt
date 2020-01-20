@@ -52,6 +52,19 @@ Anluan_Minimug:
 #incbin "Anluan_minimug.dmp"
 
 ALIGN 4
+Babhru_Mug:
+#incbin "Babhru_mug.dmp"
+ALIGN 4
+Babhru_Frames:
+#incbin "Babhru_frames.dmp"
+ALIGN 4
+Babhru_Palette:
+#incbin "Babhru_palette.dmp"
+ALIGN 4
+Babhru_Minimug:
+#incbin "Babhru_minimug.dmp"
+
+ALIGN 4
 BresAlpha_Mug:
 #incbin "BresAlpha_mug.dmp"
 ALIGN 4
@@ -169,6 +182,19 @@ Gedeon_Minimug:
 #incbin "Gedeon_minimug.dmp"
 
 ALIGN 4
+Goga_Mug:
+#incbin "Goga_mug.dmp"
+ALIGN 4
+Goga_Frames:
+#incbin "Goga_frames.dmp"
+ALIGN 4
+Goga_Palette:
+#incbin "Goga_palette.dmp"
+ALIGN 4
+Goga_Minimug:
+#incbin "Goga_minimug.dmp"
+
+ALIGN 4
 HanlinAlpha_Mug:
 #incbin "HanlinAlpha_mug.dmp"
 ALIGN 4
@@ -258,6 +284,32 @@ MiachAlpha_Palette:
 ALIGN 4
 MiachAlpha_Minimug:
 #incbin "MiachAlpha_minimug.dmp"
+
+ALIGN 4
+Nairatmya_Mug:
+#incbin "Nairatmya_mug.dmp"
+ALIGN 4
+Nairatmya_Frames:
+#incbin "Nairatmya_frames.dmp"
+ALIGN 4
+Nairatmya_Palette:
+#incbin "Nairatmya_palette.dmp"
+ALIGN 4
+Nairatmya_Minimug:
+#incbin "Nairatmya_minimug.dmp"
+
+ALIGN 4
+Nakstrani_Mug:
+#incbin "Nakstrani_mug.dmp"
+ALIGN 4
+Nakstrani_Frames:
+#incbin "Nakstrani_frames.dmp"
+ALIGN 4
+Nakstrani_Palette:
+#incbin "Nakstrani_palette.dmp"
+ALIGN 4
+Nakstrani_Minimug:
+#incbin "Nakstrani_minimug.dmp"
 
 ALIGN 4
 Rionall_Mug:

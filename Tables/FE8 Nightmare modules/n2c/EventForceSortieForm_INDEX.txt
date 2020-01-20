@@ -1,0 +1,10 @@
+9
+0x01 Cethern (ANY)
+0x01 Cethern (ANY)
+0x0F Srihwen (ANY)
+0x13 Birnath (Ch6 1-F: Snow Stained Red)
+0x0D Varuna (Ch1 2-1: Roots from the Earth)
+0x22 Naamah (Ch9 2-5: Boundary of Life)
+0x17 Rhibhu (Ch12 2-6: Stoked Revolt)
+0x0F Srihwen (Ch21 Sacred Stone)
+0x01 Cethern (Ch35 Sacred Stone)

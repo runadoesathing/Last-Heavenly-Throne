@@ -61,7 +61,12 @@
 #define Enoch 0x21
 #define Naamah 0x22
 #define Marici 0x23
+#define Naitramya 0x24
+#define Nairatmya 0x24
+#define Dagmema 0x24
+#define Nakstrani 0x25
 #define Miach 0x2E
+#define Sarmaree 0x45
 #define Aillen 0x46
 #define Lamech 0x47
 #define Ishpan 0x48
@@ -82,6 +87,8 @@
 #define AnilaMag 0x89
 #define Antariksa 0x8A
 #define AntariksaMag 0x8B
+#define Malava 0x8C
+#define MalavaMag 0x8D
 
 #define Sibyl 0x1
 #define Hobelar 0x2
@@ -121,6 +128,8 @@
 #define DarkKnight_F 0x57
 #define Halberdier 0x58
 #define Halberdier_F 0x59
+#define BowKnight 0x5A
+#define Diviner_F 0x5B
 #define Child 0x6D
 #define Child_F 0x6E
 #define Villager 0x6F
@@ -128,17 +137,28 @@
 #define Farmer 0x71
 #define Farmer_F 0x72
 
-#define IronPike 0x35
-#define IronGreatlance 0x35
-#define SteelPike 0x36
-#define SteelGreatlance 0x36
-#define SilverPike 0x37
-#define SilverGreatlance 0x37
+#define Snakesword 0x8
+#define Snakespear 0x18
+#define Snakeaxe 0x22
+#define SnakeAxe 0x22
+#define Snakebow 0x30
+#define SnakeBow 0x30
+#define IronPike 0x84
+#define IronGreatlance 0x84
+#define SteelPike 0x85
+#define SteelGreatlance 0x85
+#define SilverPike 0x86
+#define SilverGreatlance 0x86
 #define MalkuthI 0x3F
 #define YesodII 0x40
 #define IronPoleax 0x64
 #define SteelPoleax 0x65
 #define SilverPoleax 0x66
+#define IronWarbow 0x81
+#define SteelWarbow 0x82
+#define SilverWarbow 0x83
+#define ShineGuard 0x7B
+#define Clonkeine 0x8A
 #define Padma 0xB8
 #define SlimAxe 0xBC
 #define SlimBow 0xBD
@@ -146,6 +166,7 @@
 #define RallyLuckManual 0xC0
 #define Brine 0xC1
 #define Worm 0xC2
+#define IronShield 0xC3
 
 #define FireAff 0x1
 #define ThunderAff 0x2
@@ -234,6 +255,13 @@
 #define SanjanaPort 0x1d
 #define VarunaPort 0x1e
 #define NalaPort 0x1f
+#define NairatmyaPort 0x20
+#define ChakoraPort 0x21
+#define SirinPort 0x22
+#define BirnathPort 0x23
+#define NakstraniPort 0x24
+#define BabhruPort 0x25
+#define GogaPort 0x26
 #define HwenPort 0x41
 #define MariciPort 0x46
 #define BanditPort 0x4c
@@ -252,6 +280,9 @@
 #define BlackHairPort 0x62
 #define LittleGirlPort 0x63
 #define EnemySoldierPort 0x6b
+
+#define IsAccessory 0x40
+#define Accessory_DepleteUsesOnDefense 0x80
 
 // Attribute for defining items with passive stat bonuses
 #define PASSIVE_ITEM_BOOSTS_ATTR 0x00800000

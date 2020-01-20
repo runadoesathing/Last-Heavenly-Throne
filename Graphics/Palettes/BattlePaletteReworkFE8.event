@@ -84,6 +84,9 @@ ALIGN 4
 ArmorPaletteList:
 PaletteAssociationEntry(Aengus, $9)
 PaletteAssociationEntry(Nala, $16)
+PaletteAssociationEntry(Nairatmya, $26)
+PaletteAssociationEntry(Birnath, $28)
+PaletteAssociationEntry(Babhru, $29)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -115,6 +118,7 @@ ALIGN 4
 
 SwordmasterPaletteList:
 PaletteAssociationEntry(Bres, $19)
+PaletteAssociationEntry(Manasa, $2E)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -153,16 +157,19 @@ MagePaletteList:
 PaletteAssociationEntry(Lalitha, $6)
 PaletteAssociationEntry(Naamah, $1B)
 PaletteAssociationEntry(Shuka, $20)
+PaletteAssociationEntry(Rhibhu, $2D)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 SagePaletteList:
 PaletteAssociationEntry(Lalitha, $14)
+PaletteAssociationEntry(Naamah, $2A)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 MageKnightPaletteList:
 PaletteAssociationEntry(Lalitha, $15)
+PaletteAssociationEntry(Naamah, $2B)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -208,6 +215,7 @@ ALIGN 4
 AxeFighterPaletteList:
 PaletteAssociationEntry(Gedeon, $A)
 PaletteAssociationEntry(Anluan, $B)
+PaletteAssociationEntry(Rudram, $2C)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -231,6 +239,7 @@ MonkPaletteList:
 PaletteAssociationEntry(Ishpan, $F)
 PaletteAssociationEntry(Enoch, $1E)
 PaletteAssociationEntry(AntariksaMag, $24)
+PaletteAssociationEntry(Nakstrani, $2F)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
@@ -277,6 +286,7 @@ ALIGN 4
 
 SoldierPaletteList:
 PaletteAssociationEntry(Soma, $11)
+PaletteAssociationEntry(Sarmaree, $27)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

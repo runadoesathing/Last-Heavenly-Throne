@@ -15,9 +15,14 @@ POP
 #define HardClassLock 3
 #define EndLockArray 0
 
-TestArray:
-BYTE HardClassLock
-BYTE EirikaLord
-BYTE Rogue
+ClonkeineArray:
+BYTE SoftCharLock
+BYTE Cethern
+BYTE Aingha
+BYTE Miach
 BYTE EndLockArray
 
+PadmaArray:
+BYTE SoftCharLock
+BYTE Srihwen
+BYTE EndLockArray

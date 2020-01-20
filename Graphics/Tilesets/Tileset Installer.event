@@ -18,8 +18,13 @@ NicktVillagePalette:
 #incext Png2Dmp "NicktVillage.png" --palette-only
 ALIGN 4
 
+AnalaVillagePalette:
+#incext Png2Dmp "AnalaVillage.png" --palette-only
+ALIGN 4
+
 EventPointerTable(0xe, VillageObjects)
 EventPointerTable(0x10, VillageTiles)
 EventPointerTable(0xe0, CorbenicPalette)
 EventPointerTable(0xe1, NightSnowFieldsPalette)
 EventPointerTable(0xe2, NicktVillagePalette)
+EventPointerTable(0xe3, AnalaVillagePalette)

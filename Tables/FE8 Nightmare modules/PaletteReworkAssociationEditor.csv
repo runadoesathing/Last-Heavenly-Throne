@@ -89,8 +89,8 @@ Dark Knight,DarkKnightPaletteList|IsPointer
 Dark Knight (F),DarkKnightPaletteList|IsPointer
 Halberdier,HalberdierPaletteList|IsPointer
 Halberdier (F),HalberdierPaletteList|IsPointer
-Cyclops,CyclopsPaletteList|IsPointer
-Mauthe Doog,DogPaletteList|IsPointer
+Cyclops,ArmorPaletteList|IsPointer
+Mauthe Doog,MonkPaletteList|IsPointer
 Gwyllgi,BigDogPaletteList|IsPointer
 Tarvos,TarvosPaletteList|IsPointer
 Maelduin,MaelduinPaletteList|IsPointer

@@ -782,19 +782,16 @@ I think I will.[X]
 
 
 
-## P1C4AinghaHouse
+## P1C4DiabolistHouse
 [ConversationText]
-[MidRight][LoadFace][0xFF][0xFF]
-[MidLeft][LoadGingerWoman]
-Conflict here so soon...
-I pray Aingha keeps us safe.[MoveMidLeft]
-Who is Aingha?
-Well, she's the Wardbearer of Corbenic!
-Our lush soil, our rich game, our livelihood...
-It all depends on her.
-She nurtures us, she protects us...
-You could consider her the greatest of all grandmothers.
-I only hope her protection is enough against Heichalot.[X]
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadBlondeMan]
+You've got to watch your belongings near magicians.
+Once I was in Caer Siddi, walking down the street...
+Next thing I know, this girl in a cape runs by me!
+I didn't even notice it, but she'd stolen all my coin!
+Good luck trying to get it back!
+I still have the burns from trying![X]
 
 
 

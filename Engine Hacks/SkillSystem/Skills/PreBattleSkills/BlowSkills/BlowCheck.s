@@ -179,23 +179,21 @@ strh    r3,[r0]     @Store attacker attack.
 b       SkillReturn	@Attacker's attack. Redundancy? Nah.
 
 CleanFightSkill:
-ldr     r3, =0x203a56c @defender
-ldr		r0,[r3,#0x4]
-cmp		r0,#0
-beq		Trampoline
-mov		r0,#0x52
-ldrb	r0,[r5,r0]		@can unit counter
-cmp		r0,#1
-bne 	Trampoline
+ldr r3, =0x203a56c @defender
+ldrb r0, [r3, #0x12] @max hp
+ldrb r1, [r3, #0x13] @curr hp
+cmp r0, r1
+bne Trampoline @skip if not max hp
+ldr r3, =0x203A4EC 
+ldrb r0, [r3, #0x12] @max hp
+ldrb r1, [r3, #0x13] @curr hp
+cmp r0, r1
+bne Trampoline @skip if not max hp
 ldr     r0,=0x203A4EC       @Move attacker data into r0.
 add     r0,#0x5A    @Move to the attacker's attack.
 ldrh    r3,[r0]     @Load the attacker's attack into r3.
-add     r3,#0x3    @Add 6 to the attacker's attack.
+add     r3,#0x6    @Add 6 to the attacker's attack.
 strh    r3,[r0]     @Store attacker attack.
-add		r0,#0x8
-ldrh	r3,[r0]
-add		r3,#10
-strh	r3,[r0]
 
 Trampoline:
 b       SkillReturn

@@ -665,7 +665,7 @@ Sturdy Stance: +3 damage and[N]
 defense when enemy initiates battle.[X]
 
 ## SD_Swift_Stance
-Swift Stance: +3 speed and resistance[N]
+Forestall: +3 speed and resistance[N]
 when enemy initiates battle.[X]
 
 ## SD_Warding_Stance
@@ -1094,8 +1094,8 @@ Push Resistance: When HP is[N]
 full, gain +5 resistance.[X]
 
 ## SD_Skybreaker
-Skybreaker: Deal effective[N]
-damage to flying units.[X]
+Heaven's Authority: Unit deals[N]
+effective damage to flying units.[X]
 
 ## SD_Resourceful
 Resourceful: Double bonus[N]
@@ -1234,7 +1234,7 @@ Macha Arts: Take -4 damage/gain +20[N]
 Avo when enemy has a sword equipped.[X]
 
 ## SD_MutedSoul
-Muted Soul: Adjacent allies receive[N]
+Muted Soul: Adjacent units receive[N]
 -3 damage, but deal -3 damage.[X]
 
 ## SD_ChandrasFealty
@@ -1275,6 +1275,5 @@ Encourage: +10 Hit to allies[N]
 above 50% HP within two spaces.[X]
 
 ## SD_CleanFight
-Clean Fight: +3 damage and[N]
-+10 Avoid when initiating[N]
-combat if enemy can counter.[X]
+[nrC][nrl][nre][nra][nrn] [nrF][nri][nrg][nrh][nrt]: [nrW][nrh][nre][nrn] [nri][nrn][nri][nrt][nri][nra][nrt][nri][nrn][nrg] [nrc][nro][nrm][nrb][nra][nrt], [nri][nrf][N]
+[nrb][nro][nrt][nrh] [nru][nrn][nri][nrt][nrs] [nra][nrr][nre] [nra][nrt] [nrf][nru][nrl][nrl] [nrH][nrP], [nrd][nre][nra][nrl] +6 [nrd][nra][nrm][nra][nrg][nre].[X]

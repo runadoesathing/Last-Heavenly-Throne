@@ -21,3 +21,9 @@
 {
 #include "chandra.event"
 }
+{
+#include "windsofchange.event"
+}
+{
+#include "northernwind.event"
+}

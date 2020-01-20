@@ -44,6 +44,7 @@ str	r4,[sp]
 str	r5,[sp,#4]
 mov	r2,#0
 mov	r3,r6
+add r3,#3
 blh	0x800443C	@DrawTextInline
 
 @affin icon
@@ -51,7 +52,7 @@ ldr	r0,[r7,#0xC]	@load unit's pointer
 blh 0x80286BC @ AffinityGetter
 mov r1,#2
 lsl r1,#8
-orr r1,r0
+orr r1,r0      
 mov r2,#0xA0       
 lsl r2,r2,#0x7     
 ldr r0, =(0x2022CA8+(0x20*2*11)+(2*0))

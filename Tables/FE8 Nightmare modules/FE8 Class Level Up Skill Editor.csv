@@ -89,8 +89,8 @@ Dark Knight,DarkKnightSkillList|IsPointer
 Dark Knight (F),DarkKnightSkillList|IsPointer
 Halberdier,HalberdierSkillList|IsPointer
 Halberdier (F),HalberdierSkillList|IsPointer
-Cyclops,0x0
-Mauthe Doog,0x0
+Bow Keeper,KnightSkillList|IsPointer
+Diviner (F),MonkSkillList|IsPointer
 Gwyllgi,0x0
 Tarvos,0x0
 Maelduin,0x0

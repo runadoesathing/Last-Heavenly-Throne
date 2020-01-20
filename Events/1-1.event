@@ -216,14 +216,6 @@ TEXTEND
 REMA
 MUSCMID 0x7FFF // fades out the music
 FADI 3
-SetBackground(0x1)
-MUSC 0x2A
-TEXTSTART
-TEXTSHOW P1C1MiachAirmedCethern
-TEXTEND
-REMA
-MUSCMID 0x7FFF // fades out the music
-FADI 4
 EnterStop
 CLEAN // removes the background
 CLEA 0x0 // removes all player units
@@ -268,7 +260,7 @@ TEXTCONT // forloadoverworldfaces
 TEXTEND
 REMA
 FADI 4
-MNC2 0x1
+MNC2 0x3D
 CLEAN
 NoFade
 ENDA

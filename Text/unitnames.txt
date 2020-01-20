@@ -163,6 +163,18 @@ Bhatn[X]
 ## AntariksaName
 Antariksa[X]
 
+## NairatmyaName
+Dagmema[X]
+
+## SarmareeName
+Sarmaree[X]
+
+## MalavaName
+Malava[X]
+
+## NakstraniName
+[_N][_a][_k][_s][_t][_r][_a][_n][_i][X]
+
 
 
 ## ConallDesc
@@ -204,10 +216,6 @@ He has a drive to prove himself.[X]
 ## SanjanaDesc
 Rookie horsewoman of Srughna.[N]
 She has a knack for flirting.[X]
-
-## RudramDesc
-Former Prabhasan who ran from his[N]
-grove. Wants to explore the world.[X]
 
 ## IshpanDesc
 Heichalotian defending the hills[N]
@@ -316,6 +324,34 @@ of Srughna. Keeps to himself.[X]
 Monks of the Antariksan Order, dedicated[N]
 to an obscure Wardbearer of the skies.[X]
 
+## NairatmyaDesc
+Soldier of House Malava, located in[N]
+central Srughna. Timid and mousey.[X]
+
+## SarmareeDesc
+Soldier of House Malava, in[N]
+central Srughna. Vain and cocky.[X]
+
+## MalavaDesc
+Militia of the noble house Malava,[N]
+one of several in Srughna.[X]
+
+## SirinDesc
+A pegasus knight whose only loyalty[N]
+is with her best friend, Birnath.[X]
+
+## BirnathDesc
+Armoured soldier of House Pancala,[N]
+in Srughna. Loud and boisterous.[X]
+
+## NakstraniDesc
+Acolyte of the Antariksan Order.[N]
+Doubtful and somewhat gloomy.[X]
+
+## RudramDesc
+An aimless drifter of Bhuloka.[N]
+Seems to be hiding his attachments.[X]
+
 
 
 ## Hobelar_Name
@@ -369,17 +405,24 @@ Axe Keeper[X]
 ## Sknight_Name
 [NRS][NRw][NRo][NRr][NRd] [NRK][NRe][NRe][NRp][NRe][NRr][X]
 
+## Bknight_Name
+Bow Keeper[X]
+
 ## Aknight_Desc
-Heavily armored knights with poor[N]
-agility. Equip: Axes.[X]
+Heavily armored knights with[N]
+poor agility. Equip: Axes.[X]
 
 ## Lknight_Desc
-Heavily armored knights with poor[N]
-agility. Equip: Lances.[X]
+Heavily armored knights with[N]
+poor agility. Equip: Lances.[X]
 
 ## Sknight_Desc
-Heavily armored knights with poor[N]
-agility. Equip: Swords.[X]
+Heavily armored knights with[N]
+poor agility. Equip: Swords.[X]
+
+## Bknight_Desc
+Heavily armored knights with[N]
+poor agility. Equip: Bows.[X]
 
 ## Wrider_Desc
 High-flying knights vulnerable only to[N]
@@ -761,3 +804,57 @@ Iron Poleax[X]
 
 ## SilverPoleaxName
 [NRS][NRi][NRl][NRv][NRe][NRr] [NRP][NRo][NRl][NRe][NRa][NRx][X]
+
+## IronWarbowName
+Iron Warbow[X]
+
+## SteelWarbowName
+[_S][_t][_e][_e][_l] [_W][_a][_r][_b][_o][_w][X]
+
+## SilverWarbowName
+[_S][_i][_l][_v][_e][_r] [_W][_a][_r][_b][_o][_w][X]
+
+## NormalShieldNameText
+Iron Shield[X]
+
+## NormalShieldDescText
+Grants +2 defence[N]
+at the cost of -2 speed.[X]
+
+## NormalShieldUseDesc
+Defence +2[N]
+Speed -2[X]
+
+## MachaScrollName
+Macha Scroll[X]
+
+## MachaScrollDesc
+Macha Scroll: +10% Spd, +20%[N]
+HP/Str/Skl, -50% Luck.[N]
+Fire affinity only.[X]
+
+## BhatnScrollName
+Bhatn Scroll[X]
+
+## BhatnScrollDesc
+Bhatn Scroll: +10% Str/Mag, +15%[N]
+Skl, +30% Spd/Luck, -40% HP.[N]
+Dark affinity only.[X]
+
+## ShineGuardName
+Shine Guard[X]
+
+## ShineGuardDesc
+A magical sigil that makes a tile[N]
+impassable for three turns.[X]
+
+## ShineGuardUseDesc
+Makes a tile[N]
+impassable for[N]
+three turns.[X]
+
+## ClonkeineName
+Clonkeine[X]
+
+## ClonkeineDesc
++15 Avo when initiating combat.[X]

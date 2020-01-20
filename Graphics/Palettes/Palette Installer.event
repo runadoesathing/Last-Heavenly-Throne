@@ -25,6 +25,9 @@ Generic_MageM:
 Generic_MageF:
 	#incbin "./_palettes/Generic_MageF.lzpal"
 
+Generic_Diviner:
+	#incbin "./_palettes/Generic_Diviner.lzpal"
+
 Generic_Trobairitz:
 	#incbin "./_palettes/Generic_Trobairitz.lzpal"
 
@@ -67,8 +70,8 @@ Ethniu_Mystic:
 Aengus_LanceKeeper:
 	#incbin "./_palettes/Aengus_LanceKeeper.lzpal"
 
-Gedeon_Fighter:
-	#incbin "./_palettes/Gedeon_Fighter.lzpal"
+Gedeon_Woodsman:
+	#incbin "./_palettes/Gedeon_Woodsman.lzpal"
 
 Anluan_Fighter:
 	#incbin "./_palettes/Anluan_Fighter.lzpal"
@@ -147,4 +150,37 @@ Varuna_WyvernRider:
 
 Antariksa_Diviner:
 	#incbin "./_palettes/Antariksa_Diviner.lzpal"
+
+Chakora_Archer:
+	#incbin "./_palettes/Chakora_Archer.lzpal"
+
+Nairatmya_BowKeeper:
+	#incbin "./_palettes/Nairatmya_BowKeeper.lzpal"
+
+Sarmaree_Soldier:
+	#incbin "./_palettes/Sarmaree_Soldier.lzpal"
+
+Birnath_AxeKeeper:
+	#incbin "./_palettes/Birnath_AxeKeeper.lzpal"
+
+Babhru_AxeKeeper:
+	#incbin "./_palettes/Babhru_AxeKeeper.lzpal"
+
+Naamah_Sage:
+	#incbin "./_palettes/Naamah_Sage.lzpal"
+
+Naamah_MageKnight:
+	#incbin "./_palettes/Naamah_MageKnight.lzpal"
+
+Rudram_Woodsman:
+	#incbin "./_palettes/Rudram_Woodsman.lzpal"
+
+Rhibhu_Diabolist:
+	#incbin "./_palettes/Rhibhu_Diabolist.lzpal"
+
+Manasa_Swordmaster:
+	#incbin "./_palettes/Manasa_Swordmaster.lzpal"
+
+Nakstrani_Diviner:
+	#incbin "./_palettes/Nakstrani_Diviner.lzpal"
 

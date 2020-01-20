@@ -152,20 +152,130 @@ I'm sorry Srihwen, but I must tuck my tail and retreat![X]
 
 ## NalaDeathQ
 [BattleText]
+[MidRight][LoadNala]
 Abhria would be proud...
-You cannot...[CloseEyes] take that...[X]
+You cannot[CloseEyes] take that...[X]
 
 
 
 ## SanjanaDeathQ
 [BattleText]
-Varuna...[.....][CloseEyes]
-I couldn't keep our promise...[X]
+[MidRight][LoadSanjana]
+It was silly to think a prince would save me...[X]
 
 
 
 ## VarunaDeathQ
 [BattleText]
+[MidRight][LoadVaruna]
 No!
-I'm a knight of Srughna!
+I'm a soldier of Srughna!
 I thought I had become better than this...[X]
+
+
+
+## MariciDeathQ
+[BattleText]
+[MidRight][LoadMarici]
+I've been hurt...
+But I can keep going...[......] [CloseEyes]Keep going...[X]
+
+
+
+## EthniuPTSDeathQ
+[BattleText]
+[MidRight][LoadEthniu]
+I'm pathetic.
+A pathetic woman deserves a pathetic end...[X]
+
+
+
+## EthniuPrologueDeathQ
+[BattleText]
+[MidRight][LoadEthniu]
+Soma...
+Keep Srihwen away from those brigands...[ClearFace]
+
+[MidRight][LoadSrihwen]
+Ethniu...!
+I should have never left the monastery...[X]
+
+
+
+## SomaPrologueDeathQ
+[BattleText]
+[MidRight][LoadSoma]
+Srihwen...!
+This ends my service to you...[ClearFace]
+
+[MidRight][LoadSrihwen]
+Don't say stuff like that, Soma...[.....]
+Soma?[.....] Soma...![X]
+
+
+
+## SrihwenPrologueDeathQ
+[BattleText]
+[MidRight][LoadSrihwen]
+Earthmother...
+I wasn't strong enough to aid you...[ClearFace]
+
+[MidRight][LoadEthniu]
+Srihwen![.....][CloseEyes]
+How could we have been so stupid?![X]
+
+
+
+## SirinDeathQ
+[BattleText]
+[MidRight][LoadSirin]
+Birnath, I'm sorry.
+I was never able to...[X]
+
+
+
+## BirnathDeathQ
+[BattleText]
+[MidRight][LoadBirnath]
+I... have no regrets!
+I am still a champion![X]
+
+
+
+## NakstraniDeathQ
+[BattleText]
+[MidRight][LoadNakstrani]
+But I had finally found...
+Something to live for...[X]
+
+
+
+## NakstraniEnemyDeathQ
+[BattleText]
+[MidLeft][LoadNakstrani]
+My heavenly greatmother...
+Is this truly worth it...?[X]
+
+
+
+## NakstraniDeathQ
+[BattleText]
+[MidRight][LoadNakstrani]
+But I had finally found...
+Something to live for...[X]
+
+
+
+## DagmemaDeathQ
+[BattleText]
+[MidRight][LoadDagmema]
+I want to go back home...
+I'm scared of what comes next...[X]
+
+
+
+## DagmemaPTSDeathQ
+[BattleText]
+[MidRight][LoadDagmema]
+I was never meant for war...
+Guess what comes next is...[X]

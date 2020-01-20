@@ -25,3 +25,22 @@ stats and skills.[X]
 
 ## DonateURL
 donorbox.org/donate-to-circles[X]
+
+## SS_RatingName
+Rating[X]
+
+## SS_RatingRText
+Sum of this unit's stats.[X]
+
+## SS_ItemsText
+ ->[X]
+ 
+## SS_DdgText
+Ddg[X]
+ 
+## SS_AvoText
+Avo[X]
+
+## DodgeRText
+Ability to prevent enemy critical blows.[N]
+Affects enemy's crit %.[X]

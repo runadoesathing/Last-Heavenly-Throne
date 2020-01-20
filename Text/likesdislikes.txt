@@ -383,7 +383,7 @@ sunrises[X]
 the smell of leather[X]
 
 ## ChakoraDislike1ID
-The Anusuya Grove[X]
+The Chandran Order[X]
 
 ## ChakoraDislike2ID
 fish[X]
@@ -519,3 +519,135 @@ bright red hair[X]
 
 ## CamnielDislike2ID
 temples[X]
+
+## NairatmyaLike1ID
+huge trees[X]
+
+## NairatmyaLike2ID
+sourdough bread[X]
+
+## NairatmyaDislike1ID
+blood[X]
+
+## NairatmyaDislike2ID
+hide and seek[X]
+
+## NairatmyaAgeID
+17[X]
+
+## NairatmyaHeightID
+160cm[X]
+
+## NairatmyaAgePTSID
+25[X]
+
+## NairatmyaHeightPTSID
+168cm[X]
+
+## SarmareeLike1ID
+his hair[X]
+
+## SarmareeLike2ID
+taking care of cattle[X]
+
+## SarmareeDislike1ID
+mud[X]
+
+## SarmareeDislike2ID
+weaklings[X]
+
+## SarmareeAgeID
+24[X]
+
+## SarmareeHeightID
+174cm[X]
+
+## SirinLike1ID
+Birnath[X]
+
+## SirinLike2ID
+loud rivers[X]
+
+## SirinDislike1ID
+other men[X]
+
+## SirinDislike2ID
+respecting elders[X]
+
+## SirinAgeID
+27[X]
+
+## SirinHeightID
+166cm[X]
+
+## BirnathLike1ID
+horseradish[X]
+
+## BirnathLike2ID
+animal husbandry[X]
+
+## BirnathDislike1ID
+napping[X]
+
+## BirnathDislike2ID
+magic[X]
+
+## BirnathAgeID
+26[X]
+
+## BirnathHeightID
+195cm[X]
+
+## NakstraniLike1ID
+children[X]
+
+## NakstraniLike2ID
+the colour green[X]
+
+## NakstraniDislike1ID
+sunny afternoons[X]
+
+## NakstraniDislike2ID
+making decisions[X]
+
+## NakstraniAgeID
+16[X]
+
+## NakstraniHeightID
+152cm[X]
+
+## BabhruLike1ID
+tallow candles[X]
+
+## BabhruLike2ID
+fur[X]
+
+## BabhruDislike1ID
+older women[X]
+
+## BabhruDislike2ID
+archery[X]
+
+## BabhruAgeID
+25[X]
+
+## BabhruHeightID
+190cm[X]
+
+## GogaLike1ID
+enclosed spaces[X]
+
+## GogaLike2ID
+bamboo[X]
+
+## GogaDislike1ID
+the Wardbearer Bhatn[X]
+
+## GogaDislike2ID
+the full moon[X]
+
+## GogaAgeID
+29[X]
+
+## GogaHeightID
+172cm[X]

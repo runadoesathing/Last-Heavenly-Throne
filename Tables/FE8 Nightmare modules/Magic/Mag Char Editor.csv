@@ -1,42 +1,42 @@
 INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
-Cormac,1,30
-Setanta,0,15
-Ferdiad,2,25
-Hanlin,3,50
-Aingha,0,20
-Sadhbh,5,25
-Lalitha,6,60
-Aengus,0,5
-Bres,1,15
-Ethniu,4,55
-Gedeon,2,40
-Soma,0,20
-Varuna,0,10
-Sanjana,2,25
-Srihwen,5,60
-Rudram,0,0
-Kyle,1,20
-Amelia,0,0
-Artur,0,0
-Gerik,0,0
-Tethys,0,0
-Marisa,0,0
-Saleh,0,0
-Ewan,0,0
-L'Arachel,0,0
-Dozla,0,0
-+AC0-0,0,0
-Rennac,0,0
-Duessel,0,0
-Myrrh,0,0
-Knoll,0,0
-Joshua,0,0
-Syrene,0,0
-Tana,0,0
-Lyon,1,15
-Orson,3,10
-Glen,2,0
+Cethern (Eirika),1,30
+Setanta (Seth),0,15
+Ferdiad (Gilliam),2,25
+Hanlin (Franz),3,50
+Aingha/Airmed (Moulder),0,20
+Sadhbh (Vanessa),5,25
+Lalitha (Ross),6,60
+Aengus (Neimi),0,5
+Bres (Colm),1,15
+Ethniu (Garcia),4,55
+Gedeon (Innes),2,40
+Soma (Lute),0,20
+Varuna (Natasha),0,10
+Sanjana (Cormag),2,25
+Srihwen (Ephraim),5,60
+Rudram (Forde),0,0
+Nala (Kyle),1,20
+Sirin (Amelia),3,20
+Birnath (Artur),2,15
+Sin Gu (Gerik),0,0
+Len (Tethys),0,0
+Calingi (Marisa),0,0
+Rhibhu (Saleh),0,0
+Sengann (Ewan),0,0
+Bheki (L'Arachel),0,0
+Danand (Dozla),0,0
+Kyuhn,0,0
+Gusainji (Rennac),0,0
+Murugan (Duessel),0,0
+Flidais (Myrrh),0,0
+Zheng (Knoll),0,0
+Radhe (Joshua),0,0
+Enoch (Syrene),0,0
+Naamah (Tana),0,0
+Marici (Lyon),1,15
+Nairatmya (Orson),1,10
+Nakstrani,4,50
 Selena,10,40
 Valter,2,10
 Riev,10,45
@@ -139,9 +139,9 @@ Anila,1,15
 Magic Anila,2,25
 Antariksa,1,15
 Magic Antariksa,2,25
-Grado Soldier 13,0,0
-Grado Remnant 1 (Main),0,0
-Cutthroat,0,0
+Malava,1,15
+Magic Malava,1,25
+Cutthroat,0,25
 Grado Remnant 2 (Cutscene and C16 only?),0,0
 Grado Remnant 3 (C16 only?),0,0
 Grado Remnant 4 (C16 only?),0,0

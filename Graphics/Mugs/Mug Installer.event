@@ -32,3 +32,7 @@ setMugSlot(CuRaoiPort, CuRaoi_Mug, CuRaoi_Minimug, CuRaoi_Palette, CuRaoi_Frames
 setMugSlot(FemaleEnemySoldierPort, FemaleEnemySoldier_Mug, FemaleEnemySoldier_Minimug, FemaleEnemySoldier_Palette, FemaleEnemySoldier_Frames, 4, 6, 4, 4)
 setMugSlot(MariciPort, Marici_Mug, Marici_Minimug, Marici_Palette, Marici_Frames, 3, 6, 3, 4)
 setMugSlot(SomaPort, Soma_Mug, Soma_Minimug, Soma_Palette, Soma_Frames, 4, 5, 4, 3)
+setMugSlot(NairatmyaPort, Nairatmya_Mug, Nairatmya_Minimug, Nairatmya_Palette, Nairatmya_Frames, 3, 6, 3, 4)
+setMugSlot(NakstraniPort, Nakstrani_Mug, Nakstrani_Minimug, Nakstrani_Palette, Nakstrani_Frames, 3, 6, 3, 4)
+setMugSlot(BabhruPort, Babhru_Mug, Babhru_Minimug, Babhru_Palette, Babhru_Frames, 3, 5, 3, 3)
+setMugSlot(GogaPort, Goga_Mug, Goga_Minimug, Goga_Palette, Goga_Frames, 3, 5, 3, 3)

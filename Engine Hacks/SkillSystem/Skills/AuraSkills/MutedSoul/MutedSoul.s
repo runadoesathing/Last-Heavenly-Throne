@@ -12,12 +12,25 @@ ldr r0, AuraSkillCheck
 mov lr, r0
 mov r0, r4 @attacker
 ldr r1, MutedSoulID
-mov r2, #0 @can_trade
+mov r2, #1 @same_team
+mov r3, #1 @range
+.short 0xf800
+cmp r0, #0
+beq EnemyCheck
+b StatBoosts
+
+EnemyCheck:
+ldr r0, AuraSkillCheck
+mov lr, r0
+mov r0, r4 @attacker
+ldr r1, MutedSoulID
+mov r2, #3 @enemy
 mov r3, #1 @range
 .short 0xf800
 cmp r0, #0
 beq Done
 
+StatBoosts:
 mov r0, r4
 add     r0,#0x5A    @Move to the attacker's dmg.
 ldrh    r3,[r0]     @Load the attacker's dmg into r3.
