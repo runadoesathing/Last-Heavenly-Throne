@@ -85,7 +85,7 @@ NegatedSkills: //comment or uncomment skills to your liking, this should come wi
 BYTE VantageID VantagePlusID DesperationID WrathID//if hp < 50%
 BYTE SwordbreakerID LancebreakerID AxebreakerID BowbreakerID TomebreakerID//breaker
 BYTE SwordfaireID LancefaireID AxefaireID BowfaireID TomefaireID//faire
-BYTE DuelistsBlowID DeathBlowID DartingBlowID WardingBlowID CertainBlowID ArmoredBlowID//blow
+BYTE DuelistsBlowID DeathBlowID DartingBlowID WardingBlowID CertainBlowID ArmoredBlowID BrackishBlowID//blow
 BYTE ElbowRoomID NaturalCoverID//terrain dependant
 BYTE QuickDrawID//when initiating attack
 BYTE StrongRiposteID PatienceID PursuitID//when under attack

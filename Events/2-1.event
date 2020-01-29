@@ -105,6 +105,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+ENUF 0x84
 MUSC 0x5
 SetBackground(0x34)
 STAL 60

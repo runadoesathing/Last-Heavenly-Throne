@@ -173,6 +173,7 @@
     #incbin "asm/mss_page4_runa2.dmp"
 	MESSAGE page 4 ends at currentOffset
 	POIN PersonalDataTable
+  POIN AffinityDataTable
 
   ALIGN 4
   NewPageNameGraphic:
@@ -354,9 +355,9 @@
 PUSH // R menu
 ORG 0xa00b38
 ST_Name:
-  RMenu(0,ST_Affin,ST_Affin,ST_Spd,0x18,0x50,0x0,NameDescGetter)
+  RMenu(0,ST_Class,0,ST_Spd,0x18,0x50,0x0,NameDescGetter)
 ST_Class:
-  RMenu(ST_Affin,ST_Level,0,ST_Def,0x6,0x68,0x6E8,ClassDescGetter)
+  RMenu(ST_Name,ST_Level,0,ST_Def,0x6,0x68,0x6E8,ClassDescGetter)
 ST_Level:
   RMenu(ST_Class,ST_HP,0,ST_Exp,0x6,0x78,0x542)
 ST_Exp:
@@ -373,7 +374,7 @@ ST_Skl:
 ST_Spd:
   RMenu(ST_Skl,ST_Luck,ST_Name,ST_Cond,0x66,0x48,0x549)
 ST_Luck:
-  RMenu(ST_Spd,ST_Def,ST_Affin,ST_Talk,0x66,0x58,0x54a)
+  RMenu(ST_Spd,ST_Def,ST_Name,ST_Talk,0x66,0x58,0x54a)
 ST_Def:
   RMenu(ST_Luck,ST_Res,ST_Class,ST_Skills,0x66,0x68,0x54b)
 ST_Res:
@@ -385,8 +386,6 @@ POP
 //the rest of these are here because space
 ALIGN 4
 
-ST_Affin:
-  RMenu(ST_Name,ST_Class,0,ST_Luck,0x6,0x58,AffinDesc)
 ST_Con:
   RMenu(PersonalDataRText,ST_Aid,ST_Str,0,0xA6,0x18,0x54e)
 ST_Aid:
@@ -423,34 +422,32 @@ ALIGN 4
 RText_Page4:
 
 ST_Name4:
-  RMenu(0,ST_Affin4,ST_Affin4,ST_Dislikes,0x18,0x50,0x0,NameDescGetter)
-ST_Affin4:
-  RMenu(ST_Name4,ST_Class4,0,ST_Age,0x6,0x58,AffinDesc)
+  RMenu(0,ST_Class4,0,ST_Dislikes,0x18,0x50,0x0,NameDescGetter)
 ST_Class4:
-  RMenu(ST_Affin4,ST_Level4,0,ST_Age,0x6,0x68,0x6E8,ClassDescGetter)
+  RMenu(ST_Name4,ST_Level4,0,ST_Age,0x6,0x68,0x6E8,ClassDescGetter)
 ST_Level4:
   RMenu(ST_Class4,ST_HP4,0,ST_Exp4,0x6,0x78,0x542)
 ST_Exp4:
-  RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Age,0x26,0x78,0x543)
+  RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Affin,0x26,0x78,0x543)
 ST_HP4:
-  RMenu(ST_Level4,0,0,ST_Age,0x6,0x88,0x544)
+  RMenu(ST_Level4,0,0,ST_Affin,0x6,0x88,0x544)
 ST_Likes:
   RMenu(0,ST_Dislikes,ST_Name4,ST_Height,0x66,0x18,LikesDesc)
 ST_Dislikes:
   RMenu(ST_Likes,ST_Age,ST_Name4,ST_Height,0x66,0x38,DislikesDesc)
 ST_Age:
-  RMenu(ST_Dislikes,0,ST_Affin4,ST_Height,0x66,0x58,AgeDesc)
+  RMenu(ST_Dislikes,ST_Affin,ST_Class4,ST_Height,0x66,0x58,AgeDesc)
 ST_Height:
-  RMenu(ST_Dislikes,0,ST_Age,0,0xa6,0x58,HeightDesc)
+  RMenu(ST_Dislikes,ST_Affin,ST_Age,0,0xa6,0x58,HeightDesc)
+ST_Affin:
+  RMenu(ST_Age,0,ST_Exp4,0,0x76,0x78,AffinDesc)
 
 PUSH // R menu
 ORG 0xA00EB8
 ST_Name3:
-  RMenu(0,ST_Affin3,ST_Affin3,0,0x18,0x50,0x0,NameDescGetter)
-ST_Affin3:
-  RMenu(ST_Name3,ST_Class3,0,ST_Name3,0x6,0x58,AffinDesc)
+  RMenu(0,ST_Class3,0,0,0x18,0x50,0x0,NameDescGetter)
 ST_Class3:
-  RMenu(ST_Affin3,ST_Level3,0,0,0x6,0x68,0x6E8,ClassDescGetter)
+  RMenu(ST_Name3,ST_Level3,0,0,0x6,0x68,0x6E8,ClassDescGetter)
 ST_Level3:
   RMenu(ST_Class3,ST_HP3,0,ST_Exp3,0x6,0x78,0x542)
 ST_Exp3:

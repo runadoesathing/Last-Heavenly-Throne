@@ -175,6 +175,18 @@ Malava[X]
 ## NakstraniName
 [_N][_a][_k][_s][_t][_r][_a][_n][_i][X]
 
+## AlakkhiName
+Alakkhi[X]
+
+## TumbaruName
+Tumbaru[X]
+
+## BhadraName
+Bhadra[X]
+
+## VasavaName
+Vasava[X]
+
 
 
 ## ConallDesc
@@ -215,7 +227,7 @@ He has a drive to prove himself.[X]
 
 ## SanjanaDesc
 Rookie horsewoman of Srughna.[N]
-She has a knack for flirting.[X]
+She has a knack for fantasizing.[X]
 
 ## IshpanDesc
 Heichalotian defending the hills[N]
@@ -290,7 +302,7 @@ worship the godly aspect Anila.[X]
 
 ## MariciDesc
 Rookie mounted archer of Srughna.[N]
-Hard-working and diligent.[X]
+She's somewhat plain, but diligent.[X]
 
 ## ChakoraDesc
 Exiled member of the Anusuya Grove,[N]
@@ -298,7 +310,7 @@ now returned under Antariksa's banner.[X]
 
 ## BabhruDesc
 Armoured devout of Anila. Ordered to[N]
-keep watch near Prabhasa's domain.[X]
+keep watch near the border to Dhara.[X]
 
 ## GogaDesc
 A member of the Anala people.[N]
@@ -351,6 +363,42 @@ Doubtful and somewhat gloomy.[X]
 ## RudramDesc
 An aimless drifter of Bhuloka.[N]
 Seems to be hiding his attachments.[X]
+
+## AlakkhiDesc
+Priestess of the Antariksan Order.[N]
+She's stationed on the Sarasvati River.[X]
+
+## TumbaruDesc
+An Antariksan swordsman, guarding[N]
+the old Pratyushan temple.[X]
+
+## BhadraDesc
+Defector of the Prabhasan Order,[N]
+aligned with Antariksa's goals.[X]
+
+## VasavaDesc
+Member of the Order of Sagar.[N]
+His axemanship is peerless.[X]
+
+## BhekiDesc
+Village girl in the domain of[N]
+Pratyusha. Curious of the outside.[X]
+
+## DanandDesc
+Travelling healer, and devout of[N]
+Aingha. She's patient and kind.[X]
+
+## KyuhnDesc
+Archer from the united Macha.[N]
+He's simple yet hardy.[X]
+
+## GusainjiDesc
+Occultist obsessed with dark[N]
+magic. Aloof and disdainful.[X]
+
+## MuruganDesc
+A fighter on hard times. Wishes to[N]
+eventually see his family again.[X]
 
 
 
@@ -616,7 +664,7 @@ Effective against fliers.[X]
 Brine[X]
 
 ## BrineDesc
-+3 Def/Res when foe attacks.[X]
++4 Def/Res when initiating combat.[X]
 
 ## ElwindName
 Elwind[X]

@@ -65,6 +65,19 @@ Babhru_Minimug:
 #incbin "Babhru_minimug.dmp"
 
 ALIGN 4
+Bres_Mug:
+#incbin "Bres_mug.dmp"
+ALIGN 4
+Bres_Frames:
+#incbin "Bres_frames.dmp"
+ALIGN 4
+Bres_Palette:
+#incbin "Bres_palette.dmp"
+ALIGN 4
+Bres_Minimug:
+#incbin "Bres_minimug.dmp"
+
+ALIGN 4
 BresAlpha_Mug:
 #incbin "BresAlpha_mug.dmp"
 ALIGN 4
@@ -115,6 +128,32 @@ CuRaoi_Palette:
 ALIGN 4
 CuRaoi_Minimug:
 #incbin "CuRaoi_minimug.dmp"
+
+ALIGN 4
+Dhara_Mug:
+#incbin "Dhara_mug.dmp"
+ALIGN 4
+Dhara_Frames:
+#incbin "Dhara_frames.dmp"
+ALIGN 4
+Dhara_Palette:
+#incbin "Dhara_palette.dmp"
+ALIGN 4
+Dhara_Minimug:
+#incbin "Dhara_minimug.dmp"
+
+ALIGN 4
+Dhara2_Mug:
+#incbin "Dhara2_mug.dmp"
+ALIGN 4
+Dhara2_Frames:
+#incbin "Dhara2_frames.dmp"
+ALIGN 4
+Dhara2_Palette:
+#incbin "Dhara2_palette.dmp"
+ALIGN 4
+Dhara2_Minimug:
+#incbin "Dhara2_minimug.dmp"
 
 ALIGN 4
 EthniuAlpha_Mug:
@@ -234,17 +273,17 @@ Jhudiel_Minimug:
 #incbin "Jhudiel_minimug.dmp"
 
 ALIGN 4
-LalithaAlpha_Mug:
-#incbin "LalithaAlpha_mug.dmp"
+Lalitha_Mug:
+#incbin "Lalitha_mug.dmp"
 ALIGN 4
-LalithaAlpha_Frames:
-#incbin "LalithaAlpha_frames.dmp"
+Lalitha_Frames:
+#incbin "Lalitha_frames.dmp"
 ALIGN 4
-LalithaAlpha_Palette:
-#incbin "LalithaAlpha_palette.dmp"
+Lalitha_Palette:
+#incbin "Lalitha_palette.dmp"
 ALIGN 4
-LalithaAlpha_Minimug:
-#incbin "LalithaAlpha_minimug.dmp"
+Lalitha_Minimug:
+#incbin "Lalitha_minimug.dmp"
 
 ALIGN 4
 Lamech_Mug:
@@ -336,6 +375,19 @@ SadhbhAlpha_Palette:
 ALIGN 4
 SadhbhAlpha_Minimug:
 #incbin "SadhbhAlpha_minimug.dmp"
+
+ALIGN 4
+Sanjana_Mug:
+#incbin "Sanjana_mug.dmp"
+ALIGN 4
+Sanjana_Frames:
+#incbin "Sanjana_frames.dmp"
+ALIGN 4
+Sanjana_Palette:
+#incbin "Sanjana_palette.dmp"
+ALIGN 4
+Sanjana_Minimug:
+#incbin "Sanjana_minimug.dmp"
 
 ALIGN 4
 Setanta_Mug:

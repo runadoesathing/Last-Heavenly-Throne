@@ -209,9 +209,83 @@ LABEL 0x1
 NoFade
 ENDA
 
+ALIGN 4
+EthniuDeathQuoteEvent:
+CHECK_EVENTID TimeSkipFlag
+BNE 0x0 0xC 0x0
+  Text(EthniuDeathQ)
+  GOTO 0x1
+LABEL 0x0
+Text(EthniuPTSDeathQ)
+LABEL 0x1
+NoFade
+ENDA
+
+PUSH
+  ORG $3B7C0
+    POIN StealPriorityTable
+POP
+
+#define ItemStealEntry(itemid) "BYTE itemid 0x00"
+
+ALIGN 4
+StealPriorityTable:
+ItemStealEntry(MemberCard)
+ItemStealEntry(SilverCard)
+ItemStealEntry(HoplonGuard)
+ItemStealEntry(FiliShield)
+ItemStealEntry(Lockpick)
+ItemStealEntry(MetisTome)
+ItemStealEntry(MasterSeal)
+ItemStealEntry(WhiteGem)
+ItemStealEntry(AngelicRobe)
+ItemStealEntry(Speedwings)
+ItemStealEntry(EnergyRing)
+ItemStealEntry(SpiritDust)
+ItemStealEntry(BodyRing)
+ItemStealEntry(Dragonshield)
+ItemStealEntry(Talisman)
+ItemStealEntry(SecretBook)
+ItemStealEntry(GoddessIcon)
+ItemStealEntry(Swiftsole)
+ItemStealEntry(JunaFruit)
+ItemStealEntry(BlueGem)
+ItemStealEntry(RedGem)
+ItemStealEntry(Elixir)
+ItemStealEntry(ChestKey)
+ItemStealEntry(DoorKey)
+ItemStealEntry(PureWater)
+ItemStealEntry(Torch)
+ItemStealEntry(Vulnerary)
+ItemStealEntry(Antitoxin)
+ItemStealEntry(Mine)
+ItemStealEntry(ShineGuard)
+BYTE 0xFF 0xFF
+
+ALIGN 16
 P2C2AI:
 AiMoveTowardsPoint(8,0)
+BYTE 0x03 0x00 0xFF 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
 
-InjectAi2(0x8, P2C2AI) // Use whatever macro you use to inject AIs
+ALIGN 4
+NakstraniList:
+BYTE Srihwen 0x0 0x0 0x0
+
+ALIGN 16
+P2C3NakstraniAI1:
+AiAttackIgnoring(NakstraniList)
+BYTE 0x03 0x00 0xFF 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+
+ALIGN 16
+P2C3NakstraniAI2:
+AiMoveTowardsEnemyIgnoring(NakstraniList)
+BYTE 0x03 0x00 0xFF 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+
+ALIGN 4
+InjectAi1(0x7, P2C3NakstraniAI1)
+
+InjectAi2(0x1, P2C3NakstraniAI2)
+InjectAi2(0x8, P2C2AI)
+WORD 0x0 0x0 0x0 0x0
 
 ALIGN 4

@@ -538,7 +538,7 @@ Odd Rhythm: +10 Hit and Avoid[N]
 on odd numbered turns.[X]
 
 ## SD_EvenRhythm
-Even Rhythm: +10 Hit and Avoid[N]
+Retrograde: +10 Hit and Avoid[N]
 on even numbered turns.[X]
 
 ## SD_QuickBurn
@@ -1221,7 +1221,7 @@ Quintain: +15 Hit against[N]
 unmounted units.[X]
 
 ## SD_Underdog
-Underdog: +10 Hit/Avo when unit level[N]
+Underdog: +15 Hit/Avo when unit level[N]
 is less than enemy's. (Promoted[N]
 units count as Level + 20).[X]
 
@@ -1277,3 +1277,7 @@ above 50% HP within two spaces.[X]
 ## SD_CleanFight
 [nrC][nrl][nre][nra][nrn] [nrF][nri][nrg][nrh][nrt]: [nrW][nrh][nre][nrn] [nri][nrn][nri][nrt][nri][nra][nrt][nri][nrn][nrg] [nrc][nro][nrm][nrb][nra][nrt], [nri][nrf][N]
 [nrb][nro][nrt][nrh] [nru][nrn][nri][nrt][nrs] [nra][nrr][nre] [nra][nrt] [nrf][nru][nrl][nrl] [nrH][nrP], [nrd][nre][nra][nrl] +6 [nrd][nra][nrm][nra][nrg][nre].[X]
+
+## SD_Abettor
+Confidant: If adjacent to Birnath, gain[N]
++4 attack, Def/Res, and attack speed.[X]

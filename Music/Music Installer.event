@@ -31,9 +31,21 @@ SongTable(0x19,flycagedbird, 0)
 SongTable(0x1A,birdfeeder,0)
 #include "birdfeeder.event"
 
+// Dawn of the Five Suns
+SongTable(0x1C,themanysuns,0)
+#include "themanysuns.event"
+
+// Dove Waltz
+SongTable(0x22,waltz,0)
+#include "waltz.event"
+
 // With Us
-SongTable(0x30,WithUs, 0)
-#include "WithUs.event"
+//SongTable(0x30,WithUs, 0)
+//#include "WithUs.event"
+
+// Faded Green
+SongTable(0x34,fadedgreen,0)
+#include "fadedgreen.event"
 
 // Quiet Palace Courtyard
 SongTable(0x43,harpy, 0)
@@ -42,3 +54,4 @@ SongTable(0x43,harpy, 0)
 // Knight's Oath
 SongTable(0x58,KnightsOath, 0)
 #include "KnightsOath.event"
+

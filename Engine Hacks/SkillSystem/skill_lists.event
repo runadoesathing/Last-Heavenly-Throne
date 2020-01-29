@@ -277,6 +277,6 @@ BYTE 00 00
 ALIGN 4
 
 AntariksaSkillList:
-BYTE 1 RetrogradeID
+BYTE 1 EvenRhythmID
 BYTE 00 00
 ALIGN 4

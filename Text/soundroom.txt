@@ -1,0 +1,26 @@
+## CourtyardSR
+Quiet Palace Courtyard[X]
+
+## CorbenicPrideSR
+Corbenic Pride[X]
+
+## RitualSongSR
+Ritual Song of Dhara[X]
+
+## HollowSR
+Hollow Battle's Call[X]
+
+## FlyMyBirdSR
+Fly, My Bird[X]
+
+## SavageSR
+A Savage Approach[X]
+
+## KnightsOathSR
+Knight's Oath[X]
+
+## WithUsSR
+With Us[X]
+
+## FadedGreenSR
+Faded Green[X]

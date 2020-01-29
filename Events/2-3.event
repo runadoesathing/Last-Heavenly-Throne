@@ -17,7 +17,7 @@ TURN 0x0 NakstraniAppear [1,0] 0x0
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0xC, NakstraniRecruit, Srihwen, Nakstrani)
+CharacterEventBothWays(0xD, NakstraniRecruit, Srihwen, Nakstrani)
 END_MAIN
 
 LocationBasedEvents:
@@ -80,7 +80,7 @@ UNIT Anila Archer 0x0 Level(5, Enemy, 1)        [15,14] 0 0 0 0        [IronBow]
 UNIT
 
 NakstraniP:
-UNIT Nakstrani Diviner_F 0x0 Level(1, Enemy, 0) [4,3]   0 0 1 REDA4R4  [MalkuthI]           [0,3,4,0]
+UNIT Nakstrani Diviner_F 0x0 Level(1, Enemy, 0) [4,3]   0 0 1 REDA4R4  [MalkuthI]           [3,3,4,0x20]
 UNIT
 
 Traps1:
@@ -99,6 +99,7 @@ ENUN
 LOAD1 0x1 EnemiesP
 ENUN
 NoFade
+ASMC ClearDebuffs|1
 GotoPrepScreen
 ENDA
 
@@ -177,7 +178,7 @@ ENDA
 
 NakstraniRecruit:
 MUSC 0x30
-Text(PlaceholderText)
+Text(P2C3NakstraniSrihwenTalk)
 CUSA Nakstrani
 NoFade
 ENDA

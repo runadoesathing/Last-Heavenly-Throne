@@ -28,7 +28,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   AinghaSupport:
-  SupportCompatibility(Setanta,Ferdiad,Srihwen,Calingi,Aengus,0,0)
+  SupportCompatibility(Setanta,Ferdiad,Srihwen,Calingi,Danand,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 5 //number of partners
@@ -42,7 +42,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   AengusSupport:
-  SupportCompatibility(Ethniu,Gedeon,Aingha,0,0,0,0)
+  SupportCompatibility(Ethniu,Gedeon,Sengann,Flidais,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 3 //number of partners
@@ -56,7 +56,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   LalithaSupport:
-  SupportCompatibility(Ferdiad,Bres,Ethniu,0,0,0,0)
+  SupportCompatibility(Ferdiad,Bres,Ethniu,Naamah,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 3 //number of partners
@@ -70,7 +70,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   SomaSupport:
-  SupportCompatibility(Ethniu,Srihwen,Bres,Dagmema,Danand,0,0)
+  SupportCompatibility(Ethniu,Srihwen,Bres,Dagmema,Nala,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 5 //number of partners
@@ -91,24 +91,24 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   SanjanaSupport:
-  SupportCompatibility(Varuna,Nala,0,0,0,0,0)
+  SupportCompatibility(Varuna,Nala,Marici,0,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 2 //number of partners
   BYTE 0x0 0x0 //separator
 
   RudramSupport:
-  SupportCompatibility(Bres,0,0,0,0,0,0)
+  SupportCompatibility(Bres,Radhe,0,0,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 1 //number of partners
   BYTE 0x0 0x0 //separator
 
   NalaSupport:
-  SupportCompatibility(Varuna,Sanjana,Marici,0,0,0,0)
+  SupportCompatibility(Varuna,Sanjana,Marici,Soma,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 3 //number of partners
+  BYTE 4 //number of partners
   BYTE 0x0 0x0 //separator
 
   SirinSupport:
@@ -154,10 +154,10 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   SengannSupport:
-  SupportCompatibility(Rhibhu,Danand,SinGu,0,0,0,0)
+  SupportCompatibility(Rhibhu,Danand,SinGu,Aengus,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 3 //number of partners
+  BYTE 4 //number of partners
   BYTE 0x0 0x0 //separator
 
   BhekiSupport:
@@ -168,10 +168,10 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   DanandSupport:
-  SupportCompatibility(Sengann,Kyuhn,Soma,0,0,0,0)
+  SupportCompatibility(Sengann,Kyuhn,Aingha,Naamah,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 3 //number of partners
+  BYTE 4 //number of partners
   BYTE 0x0 0x0 //separator
 
   KyuhnSupport:
@@ -196,7 +196,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   FlidaisSupport:
-  SupportCompatibility(Sirin,Sadhbh,0,0,0,0,0)
+  SupportCompatibility(Sirin,Sadhbh,Aengus,0,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 2 //number of partners
@@ -210,7 +210,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   RadheSupport:
-  SupportCompatibility(Bheki,0,0,0,0,0,0)
+  SupportCompatibility(Bheki,Rudram,0,0,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 1 //number of partners
@@ -224,14 +224,14 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   NaamahSupport:
-  SupportCompatibility(Enoch,0,0,0,0,0,0)
+  SupportCompatibility(Enoch,Danand,Lalitha,0,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 1 //number of partners
+  BYTE 2 //number of partners
   BYTE 0x0 0x0 //separator
 
   MariciSupport:
-  SupportCompatibility(Soma,Varuna,Nala,Dagmema,0,0,0)
+  SupportCompatibility(Soma,Varuna,Nala,Dagmema,Sanjana,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 4 //number of partners

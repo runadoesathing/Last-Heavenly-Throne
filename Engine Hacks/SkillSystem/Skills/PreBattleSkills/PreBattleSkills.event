@@ -384,3 +384,5 @@ Manapair:
 POIN SkillTester
 WORD ManastrikeID
 WORD ManasnakeID
+
+#include "Abettor/Abettor.event"

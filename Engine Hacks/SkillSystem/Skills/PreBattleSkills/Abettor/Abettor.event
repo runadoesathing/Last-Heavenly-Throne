@@ -1,0 +1,13 @@
+
+ALIGN 4
+Abettor:
+#incbin "Abettor.dmp"
+POIN SkillTester
+WORD AbettorID
+POIN RallyDefTester
+
+ALIGN 4
+RallyDefTester:
+#incbin "RallyDefTester.dmp"
+POIN SkillTester
+WORD RallyDefID

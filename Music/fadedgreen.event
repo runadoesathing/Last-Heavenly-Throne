@@ -1,0 +1,2192 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	fadedgreen_grp  voicegroup001
+	#define	fadedgreen_pri  0
+	#define	fadedgreen_rev  0
+	#define	fadedgreen_mvl  127
+	#define	fadedgreen_key  0
+	#define	fadedgreen_tbs  1
+	#define	fadedgreen_exg  0
+	#define	fadedgreen_cmp  1
+
+	// .rodata
+	//	fadedgreen
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.5) ****************//
+
+fadedgreen_1:
+	BYTE	KEYSH   fadedgreen_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   229*fadedgreen_tbs/2
+	BYTE		VOICE   1
+	BYTE		VOL     54*fadedgreen_mvl/mxv
+	BYTE		PAN     c_v-8
+	BYTE		BEND    c_v+0
+	BYTE		N05     Ds3   v100
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+fadedgreen_1_002:
+	BYTE		N05     Fs3   v100
+	BYTE		N05     Cs4 
+	BYTE		N05     Fs4 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE		N05     Cs4 
+	BYTE		N05     Fs4 
+	BYTE	W24
+	BYTE		        Gs3 
+	BYTE		N05     Ds4 
+	BYTE		N05     Gs4 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE		N05     Cs4 
+	BYTE		N05     Fs4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE		N05     Gs3 
+	BYTE		N05     Cs4 
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+fadedgreen_1_004:
+	BYTE		N05     As2   v100
+	BYTE		N05     Fs3 
+	BYTE		N05     As3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE		N05     Fs3 
+	BYTE		N05     As3 
+	BYTE	W24
+	BYTE		        Bn2 
+	BYTE		N05     Fn3 
+	BYTE		N05     Bn3 
+	BYTE	W24
+	BYTE		        As2 
+	BYTE		N05     Ds3 
+	BYTE		N05     As3 
+	BYTE	W12
+	BYTE		        Gs2 
+	BYTE		N05     Cs3 
+	BYTE		N05     Gs3 
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+fadedgreen_1_006:
+	BYTE		N05     Ds3   v100
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE		        Cs3 
+	BYTE		N05     As3 
+	BYTE		N05     Cs4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+fadedgreen_1_007:
+	BYTE		N05     Ds3   v100
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE		N05     Bn3 
+	BYTE		N05     Fs4 
+	BYTE	W24
+	BYTE		        Fn3 
+	BYTE		N05     Cs4 
+	BYTE		N05     Fn4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE		N05     Cs4 
+	BYTE		N05     Fs4 
+	BYTE	W24
+	BYTE	PEND
+// 008   ----------------------------------------
+fadedgreen_1_008:
+	BYTE		N05     Ds3   v100
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_002
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_004
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_008
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_002
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_004
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_006
+// 023   ----------------------------------------
+fadedgreen_1_023:
+	BYTE		N05     Ds3   v100
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE		N05     As3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE		        Ds3 
+	BYTE		N05     Gs3 
+	BYTE		N05     Ds4 
+	BYTE	W24
+	BYTE		        Fs3 
+	BYTE		N05     Cs4 
+	BYTE		N05     Fs4 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE		N05     Ds4 
+	BYTE		N05     Fn4 
+	BYTE	W24
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_008
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_002
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_004
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_023
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+fadedgreen_1_B1:
+// 034   ----------------------------------------
+	BYTE		N32     Ds3   v100
+	BYTE		N32     As3 
+	BYTE		N32     Ds4 
+	BYTE	W36
+	BYTE		        Fs3 
+	BYTE		N32     Cs4 
+	BYTE		N32     Fs4 
+	BYTE	W36
+	BYTE		TIE     Cs3 
+	BYTE		TIE     Gs3 
+	BYTE		TIE     Cs4 
+	BYTE	W24
+// 035   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Cs3 
+	BYTE		        Gs3 
+	BYTE		        Cs4 
+	BYTE	W01
+// 036   ----------------------------------------
+	BYTE		TIE     As2 
+	BYTE		TIE     Fs3 
+	BYTE		TIE     As3 
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     As2 
+	BYTE		        Fs3 
+	BYTE		        As3 
+	BYTE	W01
+// 038   ----------------------------------------
+	BYTE		N32     Gs2 
+	BYTE		N32     Ds3 
+	BYTE		N32     Gs3 
+	BYTE	W36
+	BYTE		        As2 
+	BYTE		N32     Fn3 
+	BYTE		N32     As3 
+	BYTE	W36
+	BYTE		TIE     Cs3 
+	BYTE		TIE     Fs3 
+	BYTE		TIE     Cs4 
+	BYTE	W24
+// 039   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Cs3 
+	BYTE		        Fs3 
+	BYTE		        Cs4 
+	BYTE	W01
+// 040   ----------------------------------------
+	BYTE		N92     Ds3 
+	BYTE		N92     As3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE		N32     Fs3 
+	BYTE		N32     Cs4 
+	BYTE		N32     Fs4 
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE		N32     Cn4 
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		N11     Ds3 
+	BYTE		N11     As3 
+	BYTE		N11     Ds4 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE		N11     Gs3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+// 042   ----------------------------------------
+	BYTE		        Fs2 
+	BYTE		N11     Ds3 
+	BYTE		N11     As3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE		N11     Fs3 
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		N68     As2 
+	BYTE		N68     Fn3 
+	BYTE		N68     As3 
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE		N92     Ds3 
+	BYTE		N92     Gs3 
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE		        Fn3 
+	BYTE		N92     As3 
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE		N44     Ds3 
+	BYTE		N44     Fs3 
+	BYTE		N44     Bn3 
+	BYTE	W48
+	BYTE		        Cs3 
+	BYTE		N44     Fn3 
+	BYTE		N44     As3 
+	BYTE	W48
+// 046   ----------------------------------------
+	BYTE		N32     Cs3 
+	BYTE		N32     Fn3 
+	BYTE		N32     Gs3 
+	BYTE	W36
+	BYTE		        As2 
+	BYTE		N32     Fs3 
+	BYTE		N32     As3 
+	BYTE	W36
+	BYTE		TIE     As2 
+	BYTE		TIE     Cs3 
+	BYTE		TIE     Fn3 
+	BYTE		TIE     Cs4 
+	BYTE	W24
+// 047   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     As2 
+	BYTE		        Cs3 
+	BYTE		        Fn3 
+	BYTE		        Cs4 
+	BYTE	W01
+// 048   ----------------------------------------
+	BYTE		TIE     Fs2 
+	BYTE		TIE     As2 
+	BYTE		TIE     Ds3 
+	BYTE		TIE     As3 
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs2 
+	BYTE		        As2 
+	BYTE		        Ds3 
+	BYTE		        As3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_008
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_002
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_004
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_006
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_007
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_008
+// 059   ----------------------------------------
+	BYTE	W96
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_002
+// 061   ----------------------------------------
+	BYTE	W96
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_004
+// 063   ----------------------------------------
+	BYTE	W96
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_006
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_023
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_008
+// 067   ----------------------------------------
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_002
+// 069   ----------------------------------------
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_004
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_006
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_007
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_008
+// 075   ----------------------------------------
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_002
+// 077   ----------------------------------------
+	BYTE	W96
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_004
+// 079   ----------------------------------------
+	BYTE	W96
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_006
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_1_023
+// 082   ----------------------------------------
+	BYTE	W96
+// 083   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	fadedgreen_1_B1
+fadedgreen_1_B2:
+// 084   ----------------------------------------
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0                      
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.6) ****************//
+
+fadedgreen_2:
+	BYTE	KEYSH   fadedgreen_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		VOL     67*fadedgreen_mvl/mxv
+	BYTE		PAN     c_v+6
+	BYTE		BEND    c_v+0
+	BYTE		N05     Ds2   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 001   ----------------------------------------
+fadedgreen_2_001:
+	BYTE		N05     Ds2   v100
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+fadedgreen_2_002:
+	BYTE		N05     As1   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+fadedgreen_2_003:
+	BYTE		N05     As1   v100
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 004   ----------------------------------------
+fadedgreen_2_004:
+	BYTE		N05     Gs1   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+fadedgreen_2_005:
+	BYTE		N05     Gs1   v100
+	BYTE	W24
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+fadedgreen_2_006:
+	BYTE		N05     Ds2   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+fadedgreen_2_007:
+	BYTE		N05     Ds2   v100
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_007
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 033   ----------------------------------------
+fadedgreen_2_033:
+	BYTE		N05     As1   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE	PEND
+fadedgreen_2_B1:
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 035   ----------------------------------------
+	BYTE		N05     Ds2   v100
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W24
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_002
+// 037   ----------------------------------------
+	BYTE		N05     As1   v100
+	BYTE	W36
+	BYTE		        Bn1 
+	BYTE	W36
+	BYTE		        As1 
+	BYTE	W24
+// 038   ----------------------------------------
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 039   ----------------------------------------
+	BYTE		        Gs1 
+	BYTE	W36
+	BYTE		        Cs2 
+	BYTE	W36
+	BYTE		        Fn2 
+	BYTE	W24
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 041   ----------------------------------------
+	BYTE		N05     Fs2   v100
+	BYTE	W36
+	BYTE		        Fn2 
+	BYTE	W36
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+// 042   ----------------------------------------
+	BYTE		        As1 
+	BYTE	W36
+	BYTE		        Cs2 
+	BYTE	W36
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 043   ----------------------------------------
+	BYTE		        Cs2 
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 044   ----------------------------------------
+	BYTE		        Bn1 
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 045   ----------------------------------------
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 046   ----------------------------------------
+	BYTE		        Gs1 
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W36
+	BYTE		        As1 
+	BYTE	W24
+// 047   ----------------------------------------
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 049   ----------------------------------------
+	BYTE		N05     Ds2   v100
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_001
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_002
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_003
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_004
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_005
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_007
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_001
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_002
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_003
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_004
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_005
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_007
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_001
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_002
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_003
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_004
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_005
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_007
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_001
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_002
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_003
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_004
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_005
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_007
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_006
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_2_033
+	BYTE	GoTo
+	 POIN2	fadedgreen_2_B1
+fadedgreen_2_B2:
+// 084   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		PAN     c_v+0                           
+	BYTE		        c_v+0                              
+	BYTE		        c_v+0                            
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+//**************** Track 3 (Midi-Chn.7) ****************//
+
+fadedgreen_3:
+	BYTE	KEYSH   fadedgreen_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   46
+	BYTE		PAN     c_v-7          
+	BYTE		VOL     62*fadedgreen_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE		N05     Ds3   v100
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W36
+	BYTE		N05   
+	BYTE	W24
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+fadedgreen_3_019:
+	BYTE		N05     Fs3   v100
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE		        As2 
+	BYTE	W36
+	BYTE		        Cs3 
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE	W24
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W48
+	BYTE		N03     As3 
+	BYTE	W08
+	BYTE		        Gs3 
+	BYTE	W08
+	BYTE		        Fs3 
+	BYTE	W08
+	BYTE		        Ds3 
+	BYTE	W08
+	BYTE		        Cs3 
+	BYTE	W08
+	BYTE		        As2 
+	BYTE	W08
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE		N05     Ds3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Fn3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W24
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W24
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE		N32     Fn4 
+	BYTE	W36
+	BYTE		        Ds4 
+	BYTE	W36
+	BYTE		N23     Cs4 
+	BYTE	W24
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE		N05     Ds3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W24
+// 032   ----------------------------------------
+fadedgreen_3_032:
+	BYTE		N05     Ds3   v100
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Cs3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Ds3 
+	BYTE	W12
+	BYTE		        As2 
+	BYTE	W12
+	BYTE	PEND
+// 033   ----------------------------------------
+fadedgreen_3_033:
+	BYTE		N05     Ds4   v100
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		N03     As4 
+	BYTE	W08
+	BYTE		        Gs4 
+	BYTE	W08
+	BYTE		        Fs4 
+	BYTE	W08
+	BYTE		        Ds4 
+	BYTE	W08
+	BYTE		        Cs4 
+	BYTE	W08
+	BYTE		        As3 
+	BYTE	W08
+	BYTE	PEND
+fadedgreen_3_B1:
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE		N05     Ds3   v100
+	BYTE	W36
+	BYTE		        Fs3 
+	BYTE	W36
+	BYTE		        As3 
+	BYTE	W24
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE		        Gs3 
+	BYTE	W36
+	BYTE		        Fn3 
+	BYTE	W36
+	BYTE		        Gs3 
+	BYTE	W24
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_3_019
+// 056   ----------------------------------------
+	BYTE	W96
+// 057   ----------------------------------------
+	BYTE		N05     Ds3   v100
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+// 058   ----------------------------------------
+	BYTE	W96
+// 059   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+// 060   ----------------------------------------
+	BYTE	W96
+// 061   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Fs4 
+	BYTE	W18
+	BYTE		        Fn4 
+	BYTE	W18
+	BYTE		        Ds4 
+	BYTE	W12
+// 062   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W24
+// 063   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W36
+	BYTE		        Cs4 
+	BYTE	W36
+	BYTE		        As3 
+	BYTE	W24
+// 064   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Gs3 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Gs4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        Fn4 
+	BYTE	W12
+// 065   ----------------------------------------
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        As3 
+	BYTE	W12
+	BYTE		        Cs4 
+	BYTE	W12
+	BYTE		        Ds4 
+	BYTE	W12
+	BYTE		        Fs4 
+	BYTE	W12
+	BYTE		        As4 
+	BYTE	W12
+	BYTE		        Ds5 
+	BYTE	W12
+// 066   ----------------------------------------
+	BYTE		N92     Ds4 
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	W96
+// 069   ----------------------------------------
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	W96
+// 073   ----------------------------------------
+	BYTE	W96
+// 074   ----------------------------------------
+	BYTE	W96
+// 075   ----------------------------------------
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	W96
+// 077   ----------------------------------------
+	BYTE	W96
+// 078   ----------------------------------------
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W96
+// 080   ----------------------------------------
+	BYTE	W96
+// 081   ----------------------------------------
+	BYTE	W96
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_3_032
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_3_033
+	BYTE	GoTo
+	 POIN2	fadedgreen_3_B1
+fadedgreen_3_B2:
+// 084   ----------------------------------------
+	BYTE		VOICE   46
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.8) ****************//
+
+fadedgreen_4:
+	BYTE	KEYSH   fadedgreen_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   14
+	BYTE		VOL     61*fadedgreen_mvl/mxv
+	BYTE		PAN     c_v+8
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE		TIE     Ds3   v100
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 018   ----------------------------------------
+	BYTE		TIE     Fs3 
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 020   ----------------------------------------
+	BYTE		TIE     Cs3 
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE		TIE     Ds3 
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 026   ----------------------------------------
+	BYTE		TIE     Fs3 
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 028   ----------------------------------------
+	BYTE		TIE     Cs3 
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 030   ----------------------------------------
+	BYTE		TIE     Ds3 
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+// 032   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT   
+	BYTE	W01
+fadedgreen_4_B1:
+// 034   ----------------------------------------
+fadedgreen_4_034:
+	BYTE		TIE     Ds3   v100
+	BYTE		TIE     Ds4 
+	BYTE	W96
+	BYTE	PEND
+// 035   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 036   ----------------------------------------
+	BYTE		TIE     As2 
+	BYTE		TIE     As3 
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     As2 
+	BYTE		        As3 
+	BYTE	W01
+// 038   ----------------------------------------
+fadedgreen_4_038:
+	BYTE		TIE     Cs3   v100
+	BYTE		TIE     Cs4 
+	BYTE	W96
+	BYTE	PEND
+// 039   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W01
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 041   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 042   ----------------------------------------
+	BYTE	W24
+	BYTE		TIE     As2   v100
+	BYTE		TIE     As3 
+	BYTE	W72
+// 043   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     As2 
+	BYTE		        As3 
+	BYTE	W01
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 045   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 046   ----------------------------------------
+	BYTE		N92     Cs3   v100
+	BYTE		N92     Cs4 
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE		        As2 
+	BYTE		N92     As3 
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 049   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 051   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 052   ----------------------------------------
+fadedgreen_4_052:
+	BYTE		TIE     Fs3   v100
+	BYTE		TIE     Fs4 
+	BYTE	W96
+	BYTE	PEND
+// 053   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs3 
+	BYTE		        Fs4 
+	BYTE	W01
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_038
+// 055   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W01
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 057   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 059   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_052
+// 061   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs3 
+	BYTE		        Fs4 
+	BYTE	W01
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_038
+// 063   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W01
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 065   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 067   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_052
+// 069   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs3 
+	BYTE		        Fs4 
+	BYTE	W01
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_038
+// 071   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W01
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 073   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 075   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_052
+// 077   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Fs3 
+	BYTE		        Fs4 
+	BYTE	W01
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_038
+// 079   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Cs3 
+	BYTE		        Cs4 
+	BYTE	W01
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 081   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_4_034
+// 083   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		EOT     Ds3 
+	BYTE		        Ds4 
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	fadedgreen_4_B1
+fadedgreen_4_B2:
+// 084   ----------------------------------------
+	BYTE		VOICE   14
+	BYTE		PAN     c_v+0            
+	BYTE		        c_v+0                             
+	BYTE		        c_v+0                                    
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.10) ****************//
+
+fadedgreen_5:
+	BYTE	KEYSH   fadedgreen_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   124
+	BYTE		VOL     68*fadedgreen_mvl/mxv
+	BYTE		PAN     c_v-10
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W84
+	BYTE		N05     Dn1   v100
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 032   ----------------------------------------
+	BYTE		N44     Cn1 
+	BYTE	W24
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE	W24
+	BYTE		N05     Dn1 
+	BYTE	W24
+// 033   ----------------------------------------
+	BYTE		N44     Cn1 
+	BYTE	W24
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+fadedgreen_5_B1:
+// 034   ----------------------------------------
+fadedgreen_5_034:
+	BYTE		N44     Cn1   v100
+	BYTE	W48
+	BYTE		N44   
+	BYTE	W48
+	BYTE	PEND
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 042   ----------------------------------------
+	BYTE		N23     Cn1   v100
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N44   
+	BYTE	W48
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_034
+// 049   ----------------------------------------
+	BYTE		N44     Cn1   v100
+	BYTE	W48
+	BYTE		N44   
+	BYTE	W24
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 050   ----------------------------------------
+fadedgreen_5_050:
+	BYTE		N44     Cn1   v100
+	BYTE	W12
+	BYTE		N05     As1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE	PEND
+// 051   ----------------------------------------
+fadedgreen_5_051:
+	BYTE		N44     Cn1   v100
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE	PEND
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 053   ----------------------------------------
+fadedgreen_5_053:
+	BYTE		N44     Cn1   v100
+	BYTE		N05     Ds1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE		N05     Ds1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE	PEND
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_051
+// 056   ----------------------------------------
+fadedgreen_5_056:
+	BYTE		N44     Cn1   v100
+	BYTE	W12
+	BYTE		N05     As1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE	PEND
+// 057   ----------------------------------------
+fadedgreen_5_057:
+	BYTE		N44     Cn1   v100
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE	PEND
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_051
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_053
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_051
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_056
+// 065   ----------------------------------------
+fadedgreen_5_065:
+	BYTE		N44     Cn1   v100
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N44     Cn1 
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE	PEND
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_051
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_053
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_051
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_056
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_057
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_051
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_053
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_050
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_051
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_056
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	fadedgreen_5_065
+// 082   ----------------------------------------
+	BYTE		N44     Cn1   v100
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+// 083   ----------------------------------------
+	BYTE		N44     Cn1 
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		N44     Cn1 
+	BYTE		N05     Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE		N05     Fs1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	fadedgreen_5_B1
+fadedgreen_5_B2:
+// 084   ----------------------------------------
+	BYTE		PAN     c_v+0                                     
+	BYTE		        c_v+0                                   
+	BYTE		        c_v+0                                    
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+fadedgreen:
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	fadedgreen_pri	// Priority
+	BYTE	fadedgreen_rev	// Reverb.
+
+	POIN2	fadedgreen_grp
+
+	POIN2	fadedgreen_1
+	POIN2	fadedgreen_2
+	POIN2	fadedgreen_3
+	POIN2	fadedgreen_4
+	POIN2	fadedgreen_5
+
+	

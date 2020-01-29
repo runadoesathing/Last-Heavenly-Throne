@@ -65,10 +65,10 @@ taking it easy[X]
 his sister Ethniu[X]
 
 ## AengusDislike1ID
-sleeping in[X]
+the ocean[X]
 
 ## AengusDislike2ID
-the ocean[X]
+waking up late[X]
 
 ## EthniuLike1ID
 being right[X]
@@ -651,3 +651,129 @@ the full moon[X]
 
 ## GogaHeightID
 172cm[X]
+
+## AlakkhiLike1ID
+esoteric tomes[X]
+
+## AlakkhiLike2ID
+peace and quiet[X]
+
+## AlakkhiDislike1ID
+rivers[X]
+
+## AlakkhiDislike2ID
+[X]
+
+## AlakkhiAgeID
+32[X]
+
+## AlakkhiHeightID
+164cm[X]
+
+## TumbaruLike1ID
+the sound of crickets[X]
+
+## TumbaruLike2ID
+well-lit corridors[X]
+
+## TumbaruDislike1ID
+carrots[X]
+
+## TumbaruDislike2ID
+ghosts[X]
+
+## TumbaruAgeID
+34[X]
+
+## TumbaruHeightID
+175cm[X]
+
+## BhadraLike1ID
+dark clothing[X]
+
+## BhadraLike2ID
+sharp blades[X]
+
+## BhadraDislike1ID
+sweet food[X]
+
+## BhadraDislike2ID
+kindness[X]
+
+## BhadraAgeID
+29[X]
+
+## BhadraHeightID
+169cm[X]
+
+## VasavaLike1ID
+woodcarving[X]
+
+## VasavaLike2ID
+smell of salt water[X]
+
+## VasavaDislike1ID
+the woods[X]
+
+## VasavaDislike2ID
+rye bread[X]
+
+## VasavaAgeID
+26[X]
+
+## VasavaHeightID
+180cm[X]
+
+## KalkinLike1ID
+outsmarting people[X]
+
+## KalkinLike2ID
+wisteria[X]
+
+## KalkinDislike1ID
+being outsmarted[X]
+
+## KalkinDislike2ID
+the Dharan Order[X]
+
+## KalkinAgeID
+41[X]
+
+## KalkinHeightID
+165cm[X]
+
+## ManasaLike1ID
+cooperation[X]
+
+## ManasaLike2ID
+incense[X]
+
+## ManasaDislike1ID
+impertinence[X]
+
+## ManasaDislike2ID
+Srughna[X]
+
+## ManasaAgeID
+44[X]
+
+## ManasaHeightID
+170cm[X]
+
+## BhatnLike1ID
+her children[X]
+
+## BhatnLike2ID
+Wardbearer Hwen[X]
+
+## BhatnDislike1ID
+being manipulated[X]
+
+## BhatnDislike2ID
+starry skies[X]
+
+## BhatnAgeID
+???[X]
+
+## BhatnHeightID
+160cm[X]

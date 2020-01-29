@@ -88,6 +88,9 @@ Height:[X]
 # 0xd4f
 Age:[X]
 
+# 0xd50
+Affinity:[X]
+
 #include "ChapterObj.txt"
 
 #include "death quotes.txt"
@@ -153,3 +156,29 @@ Divine affinity. Determines compatibility[N]
 with other units and certain treasures.[X]
 
 #include "skilldesc_text.txt"
+
+#include "soundroom.txt"
+
+## FireAffID
+Fire[X]
+
+## ThunderAffID
+Thunder[X]
+
+## WindAffID
+Wind[X]
+
+## WaterAffID
+Water[X]
+
+## DarkAffID
+Dark[X]
+
+## LightAffID
+Light[X]
+
+## EarthAffID
+Earth[X]
+
+## HeavenAffID
+Heaven[X]

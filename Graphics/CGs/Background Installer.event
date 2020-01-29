@@ -1,4 +1,3 @@
-#define ConversationBGTable $95DD1C
 #define SetConvoBackground(Index, ImagePointer, TSAPointer, PalettePointer) "PUSH; ORG ConvoBackgroundTable + (Index * 0xC); POIN ImagePointer TSAPointer PalettePointer; POP"
 
 SparseForestImage:
@@ -288,3 +287,39 @@ MeetingRoomTSA:
 
 MeetingRoomPalette:
 #incbin "MeetingRoomPalette.bin"
+
+WetlandsImage:
+#incbin "WetlandsImage.bin"
+
+WetlandsTSA:
+#incbin "WetlandsTSA.bin"
+
+WetlandsPalette:
+#incbin "WetlandsPalette.bin"
+
+MountainNightImage:
+#incbin "MountainNightImage.bin"
+
+MountainNightTSA:
+#incbin "MountainNightTSA.bin"
+
+MountainNightPalette:
+#incbin "MountainNightPalette.bin"
+
+OutsideGateImage:
+#incbin "OutsideGateImage.bin"
+
+OutsideGateTSA:
+#incbin "OutsideGateTSA.bin"
+
+OutsideGatePalette:
+#incbin "OutsideGatePalette.bin"
+
+WoodsImage:
+#incbin "WoodsImage.bin"
+
+WoodsTSA:
+#incbin "WoodsTSA.bin"
+
+WoodsPalette:
+#incbin "WoodsPalette.bin"

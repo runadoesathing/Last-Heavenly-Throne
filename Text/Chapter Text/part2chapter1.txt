@@ -330,12 +330,11 @@ I know Dhara doesn't normally like us, but you seem different.
 Care to come back and spend a while with me?
 
 [MidLeft][ToggleSmile]
-More footsteps echoing through the ground...[.....][CloseEyes][MoveMidLeft]
-More people coming...![OpenEyes]
+I'd rather, um,[MoveMidLeft] not...
 
 [FarFarRight][LoadYellowHood][MoveFarRight][ToggleSmile][LoadOverworldFaces]
 To think we'd actually find the Caged Bird of Dhara here...
-What's she mumbling to herself about?
+I thought we'd have to sneak into the monastery!
 
 [MidLeft]
 Caged bird?
@@ -357,21 +356,13 @@ Thank the Earthmother you're here...!
 
 [Left]
 Next time, don't leave me with Soma.
-But now that I'm here, it's time for you to leave.
+But now that I'm here, it's time for you two to leave.
 
 [Right]
 I wanted to resolve this diplomatically...
 Have a good time with the girl we wanted, not have to knock some faces in...
 Guess I can't do that anymore.
 Everybody, surround them![X]
-
-
-
-## P2C1MariciPredict
-[ConversationText]
-[MidLeft][LoadSrihwen]
-Something's coming from up ahead.
-We need to be careful...![X]
 
 
 
@@ -407,7 +398,7 @@ I can't have them fall on my watch![X]
 [MidRight][LoadSrihwen]
 [MidLeft][LoadMarici]
 White hair, robed outfit...
-You must be from the Dharan Order.
+Ya must be from the Dharan Order.
 
 [MidRight]
 Who are you...?[MoveMidRight]
@@ -418,7 +409,7 @@ What?
 Not at all.
 I was sent from House Avanti.
 In Srughna?
-Apparently Dhara wanted some help with something.
+Apparently Dhara needed some help with something.
 And I was the one who got sent.
 
 [MidRight]
@@ -426,7 +417,7 @@ Oh...!
 It's great to have help then...
 
 [MidLeft]
-Do you need any assistance?
+Do ya need any assistance?
 It looks like those men are bothering you.
 
 [MidRight]
@@ -551,7 +542,7 @@ And besides, I've got enough fortitude for the both of us![X]
 ## P2C1Marici
 [ConversationText]
 [FarFarLeft][LoadMarici]
-Excuse me, you three?[MidLeft][MoveLeft][FarFarLeft][MoveFarLeft]
+Excuse me, ya three?[MidLeft][MoveLeft][FarFarLeft][MoveFarLeft]
 I have something to ask of you.
 
 [Right]
@@ -575,8 +566,8 @@ That's a horrible expression.
 But it shouldn't be breaking a rule if it's her.
 
 [FarLeft]
-Thank you very much.
-I promise I won't cause trouble.
+Thank ya very much!
+I promise I won't cause no trouble.
 
 [Left]
 We're almost there...
@@ -631,18 +622,19 @@ Please forgive us, Greatmother Tara.
 We didn't know we would be attacked...
 
 [MidLeft]
-Attacked...?
+Attacked...?[.....]
 You were attacked?
 
 [Right]
-Greatmother Tara, Soma and--
+Greatmother Tara, Soma and Ethniu kept me safe...!
 
 [MidLeft]
 Was it by the Anilan Order?
 The Antariksan Order?
-I knew this would happen.
+I knew this would happen...
+I knew we couldn't trust them!
 
-[FarRight][LoadEthniu]
+[FarRight][ClearFace][LoadEthniu]
 Greatmother Tara, please tell us what's going on.
 Why did you meet with Antariksa?
 
@@ -683,8 +675,9 @@ But either way, your actions were foolish.
 Return to your chambers and do not leave.
 
 [Right]
-U-[MoveRight]Understood...
-I'm sorry for leaving, Greatmother Tara.[X]
+U-[MoveRight]Understood.
+I'm sorry, greatmother.
+This will never happen again...[X]
 
 
 
@@ -767,4 +760,5 @@ I'm exhausted...
 I think I might just...[ClearFace]
 
 [MidLeft][ToggleSmile][.......]
+Hehe...
 Good night, Srihwen.[X]

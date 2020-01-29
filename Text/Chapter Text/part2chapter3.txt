@@ -1,15 +1,15 @@
 ## NakstraniBQ
 [BattleText]
 [MidLeft][LoadNakstrani]
-I apologize, but I see no way around it.
-We must fight![X]
+I apologize, but I see no way around it...
+We must fight.[X]
 
 
 
 ## BabhruBQ
 [BattleText]
 [MidLeft][LoadBabhru]
-For the unity of Anila and Antariksa...
+For the unity of both Anila and Antariksa...
 I must halt your passage![X]
 
 
@@ -29,11 +29,11 @@ Your order holds you on an altar of lies.
 Hwen and Bhatn would seek your death![ClearFace]
 
 [MidRight][LoadSrihwen]
-That's not true...!
-How could you say--[ClearFace]
+How could you say that?
+That's not true...![ClearFace]
 
 [MidLeft][LoadBabhru]
-And who told you that?
+And who tells you that truth?
 Your hag of a greatmother?
 Those delusions in your head?
 I'll silence your lies, I promise you that![X]
@@ -45,3 +45,55 @@ I'll silence your lies, I promise you that![X]
 [MidLeft][LoadBabhru]
 This... Is my blood...!
 How could this...[X]
+
+
+
+## P2C3NakstraniSrihwenTalk
+[ConversationText]
+[MidRight][LoadSrihwen]
+[MidLeft][LoadNakstrani]
+You...![MoveMidLeft]
+You're that white-haired oracle.[.....]
+So you really are here!
+Yet, you don't even have a weapon...[MoveMidLeft]
+Why would you come towards me?
+I'm the enemy...[.....]
+You know that, right?
+
+[MidRight]
+You're hesitant, aren't you...?
+I can feel your feet sulk on the ground.
+
+[MidLeft]
+You can feel it in my footsteps?
+No magic tome can do that...
+You're lying, aren't you?
+Trying to fool me into your cause?
+
+[MidRight]
+The Earthmother brings me many blessings...
+Your movements tell me that you're reluctant to fight against us.
+You don't have to believe in my powers.
+But will you believe me when I say I don't wish to fight you either?
+
+[MidLeft]
+I...[MoveMidLeft]
+What is it, then?
+Do you wish to capture me?
+Hold me ransom against my greatmother?
+
+[MidRight]
+Join us, please.[.....]
+Our group is worried over the balance of Bhuloka...
+Fight with us, and we can find a better solution than war.
+
+[MidLeft]
+That sounds silly.[.....]
+I'm not sure if there's a way to stop this fighting.
+But, as much as I believe that there's no solution...[.....]
+I want to find one.
+What is your name, oracle?
+
+[MidRight]
+My name is Srihwen.[MoveMidRight]
+Quickly, before the Anilan Order notices us...![X]

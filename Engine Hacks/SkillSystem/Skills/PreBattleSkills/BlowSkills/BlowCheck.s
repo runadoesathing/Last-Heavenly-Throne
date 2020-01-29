@@ -42,10 +42,12 @@ cmp     r4, #0x07
 beq     ChivalrySkill
 cmp     r4, #0x08
 beq     PragmaticSkill
-cmp		r4, #0x09
-beq		HeroesDeathSkill
+cmp	  	r4, #0x09
+beq	  	HeroesDeathSkill
 cmp     r4, #0x0A
 beq     CleanFightSkill
+cmp     r4, #0x0B
+beq     BrackishBlowSkill
 b SkillReturn
 EndProgram:		@I had to move this to stop out of range errors. - Darrman
 pop {r4-r7}
@@ -197,6 +199,17 @@ strh    r3,[r0]     @Store attacker attack.
 
 Trampoline:
 b       SkillReturn
+
+
+BrackishBlowSkill:
+ldr r0, =0x203a4ec
+add r0, #0x5c @attacker defense
+ldrh r3, [r0]
+add r3, #4
+strh r3, [r0]
+b SkillReturn
+
+
 
 .align
 .ltorg

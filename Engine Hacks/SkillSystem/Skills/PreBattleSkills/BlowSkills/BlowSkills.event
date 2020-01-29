@@ -7,4 +7,4 @@ POIN BlowIDList
 
 ALIGN 4
 BlowIDList:
-BYTE DuelistsBlowID DeathBlowID DartingBlowID WardingBlowID CertainBlowID ArmoredBlowID QuickDrawID ChivalryID PragmaticID HeroesDeathBlowID CleanFightID
+BYTE DuelistsBlowID DeathBlowID DartingBlowID WardingBlowID CertainBlowID ArmoredBlowID QuickDrawID ChivalryID PragmaticID HeroesDeathBlowID CleanFightID BrackishBlowID

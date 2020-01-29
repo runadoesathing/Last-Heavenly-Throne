@@ -435,9 +435,9 @@ I'll blast your head off your body![X]
 [OpenFarRight][LoadBandit]
 [OpenMidLeft][LoadAillen][ToggleSmile]
 That's a pretty trick you have there!
-Shame it just means we're gonna break you more before we ship you away!
+Shame it just means we're gonna beat you more before we ship you away!
 
-[OpenRight][MoveRight][ToggleSmile]
+[OpenRight][ToggleSmile][MoveRight]
 Hey![....][MoveRight] 
 Let go of me![MoveRight]
 I might spare your lives!

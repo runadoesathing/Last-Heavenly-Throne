@@ -144,7 +144,7 @@ I'm sorry I couldn't save you, Earthmother...[X]
 
 ## SomaDeathQ
 [BattleText]
-[OpenMidRight][LoadFace][0x10][0x1]
+[OpenMidRight][LoadSoma]
 My loyalty to you exceeds my purpose on the battlefield...
 I'm sorry Srihwen, but I must tuck my tail and retreat![X]
 
@@ -258,14 +258,6 @@ Is this truly worth it...?[X]
 
 
 
-## NakstraniDeathQ
-[BattleText]
-[MidRight][LoadNakstrani]
-But I had finally found...
-Something to live for...[X]
-
-
-
 ## DagmemaDeathQ
 [BattleText]
 [MidRight][LoadDagmema]
@@ -279,3 +271,20 @@ I'm scared of what comes next...[X]
 [MidRight][LoadDagmema]
 I was never meant for war...
 Guess what comes next is...[X]
+
+
+
+## RudramDeathQ
+[BattleText]
+[MidRight][LoadRudram]
+My brother...
+I left the order, but I don't want to leave you...
+
+
+
+## LalithaPTSDeathQ
+[BattleText]
+[OpenMidRight][LoadLalitha]
+Why must the shadow of death cover me now...?
+My Penumbra...
+Forgive me...[X]

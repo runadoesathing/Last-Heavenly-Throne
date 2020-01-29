@@ -74,3 +74,1571 @@ Will unity with Antariksa and Anila bring you joy?[ClearFace]
 Quiet!
 You come here with a sheltered mind.
 Your death would be an ultimate revenge on Chandra![X]
+
+
+
+## P2C2MeetingRoomStuff
+[ConversationText]
+[Right][LoadDhara2]
+[FarRight][LoadDhara]
+[MidLeft][LoadTara]
+That's the situation as it is.
+It appears a diplomatic solution may be lost on us.
+
+[Right]
+The Anilan and Antariksan Orders are joining forces...
+What is going on?
+Why is this happening?
+
+[FarRight]
+This is a good thing though, isn't it?
+We can finally stave off those Anilan brigands!
+
+[Right][ClearFace][LoadEthniu]
+It's not a good thing.
+Antariksa wants all of the orders to align.
+It could be any of the further orders fighting us too.
+What happens if we're conspired against at all angles?
+
+[MidLeft]
+For now, it is only two orders in this alliance.
+I've gathered everyone here to discuss our options.
+
+[FarRight][ClearFace][LoadSoma]
+The Chandran Order would never conspire against us!
+You should know that, Ethniu!
+
+[MidLeft]
+Soma, I told you and Srihwen to stay in your chambers!
+
+[FarRight]
+I know you did, but I couldn't help but overhear you...
+This involves my home!
+I can't just sit idly!
+
+[Right]
+To be fair to Soma, you're talking about her grove being in danger.
+
+[MidLeft]
+Yes, Soma.
+Your grove has been on the receiving end of aggression.
+But your duty is to remain with Srihwen!
+
+[Right][ClearFace][FarRight][MoveRight][FarRight][LoadSrihwen]
+I'm sorry, greatmother...!
+I told her to stay with me...
+
+[Right]
+Please, Greatmother Tara!
+I need to see if my grove is safe!
+
+[MidLeft]
+I understand your concern.
+I would also be worried if I learned my home was threatened.
+
+[Right]
+Then why can't you--!
+
+[MidLeft]
+You have sworn an oath to protect Srihwen.
+With the attack yesterday, we need to keep her safe at all costs.
+Her divine gifts only make her more of a target.
+
+[Right]
+Then let her come with me!
+Not only would I be keeping her safe...
+[ToggleSmile]But those gifts are incredible in a battle!
+She can sense the enemy's footsteps before we can even see them![X]
+
+
+
+## P2C2MariciMR
+[ConversationText]
+[FarLeft][LoadMarici][MidLeft][MoveLeft][FarLeft]
+I don't mean to barge in, greatmother.
+But Srihwen was quite useful yesteday.
+
+[Left]
+Who are you exactly?[.....]
+And how did you get in here?
+
+[FarLeft]
+My name's Marici.
+I'm from Srughna.
+I was told to come here to help guard ya.
+
+[Left]
+It's excellent to have more help,[.....] but who exactly sent you here?
+
+[FarLeft]
+I don't know, but they looked like a monk of some kind.
+Apparently they were trying to get help from Houses Pancala and Vraja too.
+
+[Left]
+That is a wise idea...
+Perhaps we should seek help from Srughna.
+
+[Right][ClearFace][LoadEthniu]
+It's not as if Antariksa or Anila can do that with us around the border.
+They probably don't want Srughna's help anyways...
+
+[Left]
+I am losing track of the current topic, though.
+What matters is that neither Srihwen nor Soma are leaving!
+
+[FarRight][MoveRight]
+Greatmother Tara...[.....][MoveRight]
+I've been given the blessings of the Earthmother.
+I don't want to fight, but to sit locked away in this monastery...?
+It doesn't feel right.
+I want to use my powers to help our grove.
+And to do that,[MoveRight] I have no choice but to leave my nest.[LoadOverworldFaces]
+
+[Left][MoveLeft]
+I can't let you, Srihwen!
+What would the Earthmother think if her oracle lost her life?
+
+[Right]
+There's this feeling in my heart...
+The Earthmother hasn't told me so, but I believe she would want me to fight.
+To use my sight into the earth, my healing staves...
+I want to keep the Dharan Order safe.
+Please, greatmother.
+Let me leave the monastery.
+
+[Left]
+You've left the grounds before...[.....]
+I suppose if I kept you here, you'd only escape again.
+I can only hope you three can keep her safe as well as I can.
+
+[FarRight][ClearFace][LoadSoma][ToggleSmile]
+I give my word, greatmother!
+Srihwen will stay as safe as she was before!
+
+[Left][ToggleSmile]
+If you are going to leave, though...
+I have a favour to ask.
+Soma has been ardent in wishing to check up on the Chandran Order.
+I would ask of you to assist them from Antariksan aggresion.
+
+[FarLeft]
+I'll go with them and help too.
+Better for me to go than stay.
+
+[Right][ToggleSmile]
+I'll do my best, greatmother.[.....]
+Thank you for your understanding.[X]
+
+
+
+## P2C2NoMariciMR
+[ConversationText]
+[MidLeft]
+Neither of you are leaving.
+Asking me so many times will not change my answer!
+
+[FarRight][MoveRight]
+Greatmother Tara...[.....][MoveRight]
+I've been given the blessings of the Earthmother.
+I don't want to fight, but to sit locked away in this monastery...?
+It doesn't feel right.
+I want to use my powers to help our grove.
+And to do that,[.....][MoveRight] I have no choice but to leave my nest.[LoadOverworldFaces]
+
+[MidLeft]
+I can't let you, Srihwen!
+What would the Earthmother think if her oracle lost her life?
+
+[Right]
+There's this feeling in my heart...
+The Earthmother hasn't told me so, but I believe she would want me to fight.
+To use my sight into the earth, my healing staves...
+I want to keep the Dharan Order safe.
+Please, greatmother.
+Let me leave the monastery.
+
+[MidLeft]
+You've left the grounds before...[.....]
+I suppose if I kept you here, you'd only escape again.
+I can only hope you two can keep her safe as well as I can.
+
+[FarRight][LoadSoma][ToggleSmile]
+I give my word, greatmother!
+Srihwen will stay as safe as she was before!
+
+[MidLeft][ToggleSmile]
+If you are going to leave, though...
+I have a favour to ask.
+Soma has been ardent in wishing to check up on the Chandran Order.
+I would ask of you to assist them from Antariksan aggresion.
+
+[FarRight][ClearFace][LoadEthniu]
+I'll keep an eye on them for you, greatmother.
+They won't get hurt on my watch.
+
+[Right][ToggleSmile]
+I'll do my best, greatmother.[.....]
+Thank you for your understanding.[X]
+
+
+
+## P2C2WMIntro
+Srihwen leaves the Dharan monastery[N]
+with a few acolytes and the blessing[N]
+of her greatmother.[AN]
+She heads south along Bhuloka's[N]
+western border to the Chandran[N]
+Order,[.....] in the hopes of aiding[AN]
+against any possible aggression[N]
+from either Anila or Antariksa.[A][X]
+
+
+
+## P2C2WMIntro2
+The Chandran Order,[.....] located in the[N]
+southwest corner of Bhuloka,[.....] has[N]
+a split worship between both the[N]
+Earthmother and the Wardbearer[AN]
+Bhatn,[.....] known as the Penumbra.[......][N]
+The Dharan and Chandran Orders[N]
+have always had a strong rapport,[.....][N]
+due to their similar beliefs.[AN]
+As Srihwen approaches the domain[N]
+of the Chandran Order,[.....] a battle[N]
+is already underway near the gate[N]
+to its monastery...[A][X]
+
+
+
+## AnusuyaGrove
+Anusuya Grove[X]
+
+
+
+## ChandraText
+Chandra[X]
+
+
+
+## P2C2OutsideGate
+[ConversationText]
+[MidLeft][LoadSanjana]
+[MidRight][LoadNala]
+Sanjana, have you seen Varuna anywhere?
+I have a bad feeling about those threats.
+
+[MidLeft]
+He's scouting above the canopy for anybody.
+We don't wanna be caught by surprise.
+
+[MidRight]
+At least the other grove is closer to Srughna.
+This one, though?
+Antariksa could come through at any time.
+
+[MidLeft]
+That was a smart idea, Nala, coming here.[ToggleSmile]
+You're a great strategist, you know that?
+
+[MidRight][ToggleSmile]
+Enough with the praise.
+Just because Varuna is keeping watch doesn't mean we can mess around.
+
+[MidLeft]
+Fine, fine...[MoveMidLeft]
+Hey, up there!
+He's coming back right now!
+
+[Right][LoadVaruna][MidRight][MoveFarRight][Right]
+It's not good!
+They're going to surround this gate any minute!
+
+[FarRight]
+What did you see, Varuna?
+How bad is it?
+
+[Right]
+There's quite a few of them.
+They almost got my wyvern with an arrow!
+We need to meet them before they get close!
+
+[FarRight]
+Not a good idea.
+If they get closer to the gate, we'll have them out in the open.
+Then they won't have anywhere to hide but where they came from.
+
+[MidLeft]
+Another smart idea, Nala...!
+All we have to do is protect the grove, right?
+I'm sure with both of your incredible strength, we can hold the line!
+
+[Right]
+But we can get the jump on them!
+They won't have time to prepare if we rush them with our mettle!
+
+[FarRight]
+You both need to calm down.[MoveFarRight]
+We can't get ahead of ourselves.
+
+[MidLeft]
+We can't calm down now!
+They're coming from around the corner![X]
+
+
+
+## P2C2ChakoraChakora
+[ConversationText]
+[MidLeft][LoadEnemySoldier]
+[MidRight][LoadChakora]
+Finally...
+Back again at these horrid walls.
+
+[MidLeft]
+Back again?
+You have some history with this place?
+
+[MidRight]
+Terrible history.
+Just know I'm glad to exact my vengeance today.
+Today, the Anusuya Grove shall fall, and with that, so shall the Chandran Order.
+
+[MidLeft]
+Yeah, yeah, just don't turn your coat.
+Remember that we stand here because of Antariksa's greatmother.
+
+[MidRight]
+Indeed I shall.
+Everyone!
+Breach the gate!
+Give them no mercy![X]
+
+
+
+## P2C2SrihwenHere
+[ConversationText]
+[MidLeft][LoadSrihwen]
+[FarRight][LoadEthniu]
+[Right][LoadSoma]
+This isn't good!
+The Antariksan Order is already here!
+
+[FarRight]
+But look who's at the gate.
+Those can't be monks...
+
+[Right]
+They're not from the Order of Chandra.
+They must be Srughnan soldiers!
+
+[MidLeft]
+Whoever they might be, it looks like they're on our side.
+We have to get to them and help...![X]
+
+
+
+## P2C2NoticeThem
+[ConversationText]
+[MidLeft][LoadNala]
+[FarRight][LoadVaruna]
+[Right][LoadSanjana]
+Hey! From the other corner!
+There's more people coming!
+
+[FarRight]
+More enemies?!
+I'll cover that side with my axe!
+
+[MidLeft]
+Hold it, Varuna!
+One of them...
+One of them looks like a Srughnan soldier!
+
+[Right]
+You mean they're one of us?!
+[ToggleSmile]How noble! 
+Our prince in a time of need!
+
+[MidLeft][ToggleSmile]
+Sanjana, they're actually not--
+
+[FarRight]
+No time to talk around!
+Let's cut the enemy down![X]
+
+
+
+## P2C2NoMariciThem
+[ConversationText]
+[MidLeft][LoadNala]
+[FarRight][LoadVaruna]
+[Right][LoadSanjana]
+Hey! From the other corner!
+There's more people coming!
+
+[FarRight]
+More enemies?!
+I'll cover that side with my axe!
+
+[MidLeft]
+Hold it, Varuna!
+They don't look like Antariksans!
+I think they're coming to our aid!
+
+[Right]
+We're being saved?!
+[ToggleSmile]How noble!
+Knights in a time of need!
+
+[MidLeft][ToggleSmile]
+Sanjana, they're actually not--
+
+[FarRight]
+No time to talk around!
+Let's cut the enemy down![X]
+
+
+
+## P2C2ForestTalk
+[ConversationText]
+[MidLeft][LoadSrihwen]
+[FarRight][LoadEthniu]
+[Right][LoadSoma][ToggleSmile]
+Aaah, I'm so excited!
+I haven't been home in forever!
+
+[FarRight][ToggleSmile]
+We're not going here just to relax, Soma.
+It won't be a peaceful family reunion.
+
+[Right][ToggleSmile]
+I know that!
+But keeping my people safe is perfectly fine by me.
+And it helps that I can guard Srihwen at the same time!
+
+[MidLeft][ToggleSmile]
+I'm sorry if I'm not the biggest help.
+I don't want to be some burden on keeping your grove safe.
+I just thought that Greatmother Tara would let you come if I did too.
+
+[Right]
+Don't worry about it!
+You're a healer, Srihwen!
+And a good one at that!
+
+[FarRight]
+Is the Chandran Order any different from Dhara?
+I can't say I've ever been here.
+
+[Right]
+Well, for one, we have two groves instead of one.
+I'm from the Anusuya Grove, and we worship Hwen more than Bhatn.
+
+[FarRight]
+That's where we're headed, isn't it?
+
+[Right]
+Yep it is!
+Oh, and if you head further east...
+You get this amazing clear view of the Sarasvati River!
+
+[FarRight]
+The Sarasvati River?
+So you're right next to the Antariksan Order.
+If they were to attack, you'd be the first in line...
+That's not good.
+
+[MidLeft]
+And Anila's already attacked us before...
+It wouldn't be unlikely if Antariksa did something.
+
+[Right]
+Don't talk about it like that!
+You'll only make it more likely...
+
+[FarRight]
+Hey, in the distance...
+Is that what I think it is?
+
+[Right][ToggleSmile]
+Ooh! The monastery!
+It looks better than I remember!
+
+[MidLeft][ToggleSmile][Right][ToggleSmile][ClearFace][......][MidLeft][ToggleSmile]
+Soma...!
+Wait up for us...!
+
+[FarRight][MidLeft][ClearFace][.......][MidLeft][LoadMarici]
+Quite a team, aren't they?
+Stuck together like honey.
+
+[FarRight][MoveMidRight]
+It's a long story.
+I can tell you it another time.
+Come on, let's make sure they don't get into any more trouble.[X]
+
+
+
+## P2C2ForestTalkNoMarici
+[ConversationText]
+[MidLeft][LoadSrihwen]
+[FarRight][LoadEthniu]
+[Right][LoadSoma][ToggleSmile]
+Aaah, I'm so excited!
+I haven't been home in forever!
+
+[FarRight][ToggleSmile]
+We're not going here just to relax, Soma.
+It won't be a peaceful family reunion.
+
+[Right][ToggleSmile]
+I know that!
+But keeping my people safe is perfectly fine by me.
+And it helps that I can guard Srihwen at the same time!
+
+[MidLeft][ToggleSmile]
+I'm sorry if I'm not the biggest help.
+I don't want to be some burden on keeping your grove safe.
+I just thought that Greatmother Tara would let you come if I did too.
+
+[Right]
+Don't worry about it!
+You're a healer, Srihwen!
+And a good one at that!
+
+[FarRight]
+Is the Chandran Order any different from Dhara?
+I can't say I've ever been here.
+
+[Right]
+Well, for one, we have two groves instead of one.
+I'm from the Anusuya Grove, and we worship Hwen more than Bhatn.
+
+[FarRight]
+That's where we're headed, isn't it?
+
+[Right]
+Yep it is!
+Oh, and if you head further east...
+You get this amazing clear view of the Sarasvati River!
+
+[FarRight]
+The Sarasvati River?
+So you're right next to the Antariksan Order.
+If they were to attack, you'd be the first in line...
+That's not good.
+
+[MidLeft]
+And Anila's already attacked us before...
+It wouldn't be unlikely if Antariksa did something.
+
+[Right]
+Don't talk about it like that!
+You'll only make it more likely...
+
+[FarRight]
+Hey, in the distance...
+Is that what I think it is?
+
+[Right][ToggleSmile]
+Ooh! The monastery!
+It looks better than I remember!
+
+[MidLeft][ToggleSmile][Right][ToggleSmile][ClearFace][......][MidLeft][ToggleSmile]
+Soma...!
+Wait up for us...!
+
+[FarRight][MidLeft][ClearFace][.......][FarRight][CloseEyes]
+Ugh, do I always have to be responsible for them...?
+[OpenEyes]Come on Ethniu, you're used to this.[X]
+
+
+
+## P2C2ReinWarning
+[ConversationText]
+[MidRight][LoadSrihwen]
+I can feel their movements...
+They're starting to come from the other side...![X]
+
+
+
+## P2C2ChakoraMad
+[ConversationText]
+[MidLeft][LoadChakora]
+How are they keeping us away so easily?!
+That's it!
+This is personal now![X]
+
+
+
+## P2C2ChakoraKalkin
+[ConversationText]
+[MidLeft][LoadChakora]
+They can't keep us away forever...!
+I'll get in that monastery if it's the last thing I do!
+
+[FarFarRight][LoadKalkin]
+Chakora.
+The enemy is still standing.
+What is the meaning of this?
+
+[MidLeft][MoveLeft]
+Who is that...?[.....]
+Wait, Kalkin?![.....]
+I[....]-I can explain!
+
+[FarFarRight][MoveMidRight]
+I don't believe an explanation is necessary.
+You were tasked with eliminating the Chandran Order's resistance.
+Yet this grass is littered with Antariksa's blood.
+
+[Left]
+It's not like that, I swear!
+Just give me some more time!
+I can get inside and take down the--
+
+[MidRight]
+And kill more of our monks with your folly?
+The wisest thing you can do now is gather what remains and flee.
+You have failed our greatmother.
+
+[Left]
+I...[A][MoveMidLeft]
+
+[MidLeft]
+No![.....] I refuse to leave![.....]
+I won't stop until this wretched order lies at my feet!
+
+[MidRight]
+You are a fool.
+It appears we cannot trust your abilities anymore.
+Goodbye, Chakora.
+
+[MidRight][LoadOverworldFaces][MidLeft][MoveMidLeft]
+I...[......]
+Is this...?[.....][MoveMidLeft]
+Damn you, Kalkin...
+
+[MidRight][MidLeft][ClearFace][LoadOverworldFaces][.......][MidRight]
+Everyone!
+Fall back!
+The Chandran Order will kneel before us another day![X]
+
+
+
+## P2C2SoldierKalkin
+[ConversationText]
+[MidLeft][LoadEnemySoldierF]
+I can't believe it...
+Chakora is gone...!
+
+[FarFarRight][LoadKalkin]
+Chakora may be dead, but you are still alive.
+
+[MidLeft]
+Kalkin!
+Thank goodness you're here!
+What are our orders?
+
+[FarFarRight][MoveMidRight]
+We're losing too many of our people.
+Our best option is to retreat and fight another day.
+
+[MidLeft]
+Understood![.....][MoveMidLeft]
+Kalkin, would our greatmother abhor us?
+
+[MidRight]
+The greatmother is merciful and generous.
+We may prove ourselves to her another day.
+
+[MidLeft]
+Oh, thank the bearers!
+Alright...
+Everyone, let's fall back![X]
+
+
+
+## P2C2SomaWin
+[ConversationText]
+[MidLeft][LoadSoma][MidRight][LoadSrihwen]
+They're...[......][MoveMidRight]
+They're retreating...!
+
+[MidLeft][ToggleSmile]
+We did it!
+Srihwen, we held them off!
+
+[FarRight][ToggleSmile][LoadEthniu][MidRight][MoveRight][FarRight]
+Well done, you two.
+To be perfectly honest, I was worried in the same way the greatmother was.
+I thought you'd both get hurt trying to help.
+[ToggleSmile]But it seems like I was wrong.
+And for once, I'm glad I was.
+
+[MidLeft]
+So now that the enemy's gone...
+I can introduce you both to my family!
+
+[Right][ToggleSmile]
+I'm not sure I should.
+The enemy may have fled, but they might come back at any time...
+I think I should keep watch on the ground.
+
+[FarRight]
+Oh no, you're not getting out of this...!
+You don't get to leave me alone with Soma anymore!
+
+[MidLeft][ToggleSmile]
+Come on!
+The Order can keep watch for us.
+We won't get to do this again for a long time![X]
+
+
+
+## P2C2LostEthniu
+[ConversationText]
+[MidLeft][LoadSoma][MidRight][LoadSrihwen]
+They're...[......][MoveMidRight]
+They're retreating...!
+
+[MidLeft][ToggleSmile]
+We did it!
+Srihwen, we held them off!
+
+[MidRight][ToggleSmile]
+Where's Ethniu?
+Why can't I feel her movements...?
+
+[MidLeft]
+She's...
+Oh no...
+Srihwen, don't look...!
+
+[MidRight]
+I...[MoveMidRight]
+Oh, Earthmother...
+What have we done...?
+How could this happen?[CloseEyes]
+What will the greatmother think when she hears of this...![OpenEyes]
+
+[MidLeft]
+Please calm down, Srihwen!
+Ethniu... She wouldn't want us to cry.
+
+[MidRight]
+We should get back to the greatmother.
+She should know what happened...
+
+[MidLeft]
+But...![.....]
+Yeah, we probably should...
+Just let me say hello to my order and we'll leave.[X]
+
+
+
+## P2C2NSV
+[ConversationText]
+[MidLeft][LoadSrihwen]
+These walls...
+The designs in them are gorgeous.
+Are these of the Earthmother?
+And that must be the Penumbra...
+
+[MidRight][LoadNala]
+You must be admiring the drawings.
+I must admit, I do not know much of the bearers.[ToggleSmile]
+But their craftmanship is impeccable.
+
+[MidLeft][ToggleSmile]
+You...
+You were the one helping us earlier.
+I never got your name.
+
+[MidRight]
+I am Nala of House Abhira.
+The other two that were with me are Sanjana and Varuna.
+They're both soldiers of House Vraja.
+
+[MidLeft]
+These houses are Srughnan, correct?
+I can't say I know much of them.
+
+[FarRight][LoadVaruna][MidRight][MoveRight][FarRight]
+You don't know how Vraja?!
+It's right on the other side of the border from here!
+It's an incredible place like you wouldn't believe!
+
+[FarRight][LoadSanjana]
+It's alright.
+Nothing special.[ToggleSmile]
+To be perfectly honest, we're the best things to come out of it!
+
+[Right][ToggleSmile]
+And what would your lord think of you saying that?
+Excuse their behaviour.
+Both of them may be rare birds, but they are reliable.
+
+[FarRight]
+Rare birds?
+That's a compliment, right?
+
+[Right]
+Anyhow, your group is from the Order of Dhara, yes?
+We were told by the Order of Chandra that you were in danger.
+Besides that, we haven't been told much else of the situation.
+
+[MidLeft]
+There's been attacks on our orders from further east.
+It's happened before, but never at this intensity...
+Apparently they wish to conquer us.
+
+[FarRight][LoadVaruna]
+Conquer you?!
+That's horrible!
+We need to fight back against them!
+
+[Right]
+As na[0xEF]ve as that sounds, that may be our best option.
+If we may, priestess of Dhara...
+
+[MidLeft]
+Oh, my name...
+My name is Srihwen.
+
+[Right]
+Srihwen, if you would allow us, we would like to join your fight.
+
+[FarRight][LoadSanjana]
+We're joining them?[ToggleSmile]
+I guess it's better than hanging around here.
+
+[FarRight][LoadVaruna]
+It sounds like a true test of my strength!
+I'm in!
+
+[MidLeft][ToggleSmile]
+Thank you, knights of Srughna.
+We're heading out to Dhara before sundown.
+
+[Right][MidLeft][ClearFace][......][FarRight]
+Did you hear that?[ToggleSmile]
+She called us all knights![X]
+
+
+
+## P2C2SV
+[ConversationText]
+[MidLeft][LoadSrihwen]
+These walls...
+The designs in them are gorgeous.
+Are these of the Earthmother?
+And that must be the Penumbra...
+
+[FarFarRight][LoadVaruna]
+Hey!
+There she is!
+
+[MidLeft]
+Huh...?
+Who's there?
+
+[FarFarRight][MoveRight]
+You're that healer woman!
+Taking a walk around?
+
+[FarRight][LoadSanjana]
+At least she finds this place enjoyable.
+We're the only interesting people here, you know that?
+
+[MidLeft]
+You're the wyvern rider that helped us...
+Yet I never caught your name.
+
+[Right]
+We're Varuna and Sanjana of House Vraja!
+There was Nala with us as well, but...
+
+[FarRight]
+I don't know why you make such a big deal of Vraja.
+It's just a place.
+We're the only good things to come from it.
+
+[Right]
+Sanjana!
+
+[FarRight]
+It's true.
+Anyways, you're from the Order of Dhara, right?
+We got told about the orders being in danger.
+Anything else happen?
+
+[MidLeft]
+There's been attacks on our orders from further east.
+It's happened before, but never at this intensity...
+Apparently they wish to conquer us.
+
+[Right]
+Conquer you?!
+That's horrible!
+We need to fight back against them!
+
+[FarRight]
+If it means getting out of here, I'd be happy to join.
+There's nobody fun around here!
+
+[Right]
+And it sounds like a true test of my strength.
+I'm in!
+
+[MidLeft]
+Oh...
+Thank you both, knights of Srughna.
+We're heading out to Dhara before sundown.
+
+[Right][MidLeft][ClearFace][......][Right]
+Did you hear that?[ToggleSmile]
+She called us knights![X]
+
+
+
+## P2C2NS
+[ConversationText]
+[MidLeft][LoadSrihwen]
+These walls...
+The designs in them are gorgeous.
+Are these of the Earthmother?
+And that must be the Penumbra...
+
+[MidRight][LoadNala]
+You must be admiring the drawings.
+I must admit, I do not know much of the bearers.[ToggleSmile]
+But their craftmanship is impeccable.
+
+[MidLeft][ToggleSmile]
+You...
+You were the one helping us earlier.
+I never got your name.
+
+[MidRight]
+I am Nala of House Abhira.
+The other two that were with me were Sanjana and Varuna.
+They're both soldiers of House Vraja.
+
+[MidLeft]
+These houses are Srughnan, correct?
+I can't say I know much of them.
+
+[FarRight][LoadSanjana][MidRight][MoveRight][FarRight]
+Vraja's alright, but nothing special.
+I'm probably the best thing to come out of it.
+
+[Right][ToggleSmile]
+And what would your lord think of you saying that?
+Excuse her.
+She may be a rare bird, but she is reliable.
+
+[FarRight]
+Rare bird?
+That's a compliment, right?
+
+[Right]
+Anyhow, your group is from the Order of Dhara, yes?
+We were told by the Order of Chandra that you were in danger.
+Besides that, we haven't been told much else of the situation.
+
+[MidLeft]
+There's been attacks on our orders from further east.
+It's happened before, but never at this intensity...
+Apparently they wish to conquer us.
+
+[Right]
+Conquer you?
+That's not good at all, both for you or Srughna...
+If we may, priestess of Dhara...
+
+[MidLeft]
+Oh, my name...
+My name is Srihwen.
+
+[Right]
+Srihwen, if you would allow us, we would like to join your fight.
+
+[FarRight]
+We're joining them?[ToggleSmile]
+I guess it's better than hanging around here.
+
+[MidLeft][ToggleSmile]
+Thank you both, knights of Srughna.
+We're heading out to Dhara before sundown.
+
+[Right][MidLeft][ClearFace][......][FarRight]
+Knights?
+But Nala's the only knight...[X]
+
+
+
+## P2C2NV
+[ConversationText]
+[MidLeft][LoadSrihwen]
+These walls...
+The designs in them are gorgeous.
+Are these of the Earthmother?
+And that must be the Penumbra...
+
+[MidRight][LoadNala]
+You must be admiring the drawings.
+I must admit, I do not know much of the bearers.[ToggleSmile]
+But their craftmanship is impeccable.
+
+[MidLeft][ToggleSmile]
+You...
+You were the one helping us earlier.
+I never got your name.
+
+[MidRight]
+I am Nala of House Abhira.
+The other two that were with me are Sanjana and Varuna.
+They're both soldiers of House Vraja.
+
+[MidLeft]
+These houses are Srughnan, correct?
+I can't say I know much of them.
+
+[FarRight][LoadVaruna][MidRight][MoveRight][FarRight]
+You don't know how Vraja?!
+It's right on the other side of the border from here!
+It's an incredible place like you wouldn't believe!
+
+[Right]
+Excuse his behaviour.
+He may be a rare bird, but he's reliable.
+Anyhow, your group is from the Order of Dhara, yes?
+We were told by the Order of Chandra that you were in danger.
+Besides that, we haven't been told much else of the situation.
+
+[MidLeft]
+There's been attacks on our orders from further east.
+It's happened before, but never at this intensity...
+Apparently they wish to conquer us.
+
+[FarRight]
+Conquer you?!
+That's horrible!
+We need to fight back against them!
+
+[Right]
+As na[0xEF]ve as that sounds, that may be our best option.
+If we may, priestess of Dhara...
+
+[MidLeft]
+Oh, my name...
+My name is Srihwen.
+
+[Right]
+Srihwen, if you would allow us, we would like to join your fight.
+
+[FarRight]
+It sounds like a true test of my strength!
+I'm in!
+
+[MidLeft][ToggleSmile]
+Oh...
+Thank you both, knights of Srughna.
+We're heading out to Dhara before sundown.
+
+[Right][MidLeft][ClearFace][......][FarRight]
+Did you hear that?[ToggleSmile]
+She called us both knights![X]
+
+
+
+## P2C2SO
+[ConversationText]
+[MidLeft][LoadSrihwen]
+These walls...
+The designs in them are gorgeous.
+Are these of the Earthmother?
+And that must be the Penumbra...
+
+[FarFarRight][LoadSanjana]
+At least you find this place enjoyable.
+We're the only interesting people here, you know that?
+
+[MidLeft]
+Huh...?
+Who's there?
+
+[FarFarRight][MoveMidRight]
+My name's Sanjana.
+Taking a look at the depictions?
+
+[MidLeft]
+You were the one helping us earlier...
+Where are the other two?
+
+[MidRight]
+They're...[.....][MoveMidRight]
+You know what?
+Never mind them.
+You're from the Order of Dhara, right?
+We got told about the orders being in danger.
+Anything else happen?
+
+[MidLeft]
+There's been attacks on our orders from further east.
+It's happened before, but never at this intensity...
+Apparently they wish to conquer us.
+
+[MidRight]
+Conquer you...
+So you need help right?
+If it means getting out of here, I'd be happy to join.
+There's nobody fun around here.
+
+[MidLeft]
+Oh...
+Thank you for your generous offer, knight of Srughna.
+We're heading out to Dhara before sundown.
+
+[Right][MidLeft][ClearFace][......][MidRight]
+Knight?[.....]
+That's a funny thing to think.[X]
+
+
+
+## P2C2NO
+[ConversationText]
+[MidLeft][LoadSrihwen]
+These walls...
+The designs in them are gorgeous.
+Are these of the Earthmother?
+And that must be the Penumbra...
+
+[MidRight][LoadNala]
+You must be admiring the drawings.
+I must admit, I do not know much of the bearers.[ToggleSmile]
+But their craftmanship is impeccable.
+
+[MidLeft][ToggleSmile]
+You...
+You were the one helping us earlier.
+I never got your name.
+
+[MidRight]
+I am Nala of House Abhira.
+The other two that were with me are Sanjana and Varuna.
+They were both soldiers of House Vraja...
+
+[MidLeft]
+These houses are Srughnan, correct?
+I can't say I know much of them.
+
+[MidRight]
+Well, they share a few similarities with these orders.
+But speaking of the orders...
+Your group is from the Order of Dhara, yes?
+We were told by the Order of Chandra that you were in danger.
+Besides that, we haven't been told much else of the situation.
+
+[MidLeft]
+There's been attacks on our orders from further east.
+It's happened before, but never at this intensity...
+Apparently they wish to conquer us.
+
+[MidRight]
+Conquer you?
+That's not good at all, both for you or Srughna...
+If I may, priestess of Dhara...
+
+[MidLeft]
+Oh, my name...
+My name is Srihwen.
+
+[MidRight]
+Srihwen, if you would allow me, I would like to join your fight.
+
+[MidLeft]
+Oh...
+Thank you for your generous offer, knight of Srughna.
+We're heading out to Dhara before sundown.[X]
+
+
+
+## P2C2VO
+[ConversationText]
+[MidLeft][LoadSrihwen]
+These walls...
+The designs in them are gorgeous.
+Are these of the Earthmother?
+And that must be the Penumbra...
+
+[FarFarRight][LoadVaruna]
+Hey!
+There you are!
+
+[MidLeft]
+Huh...?
+Who's there?
+
+[FarFarRight][MoveMidRight]
+You're that healer woman!
+Taking a walk around?
+
+[MidLeft]
+You're the wyvern rider that helped us...
+Yet I never caught your name.
+
+[MidRight]
+I'm Varuna of House Vraja!
+There were two others with me, but...
+A[....]-Anyways!
+I heard that your order was having trouble!
+Not much else, but I did hear that!
+
+[MidLeft]
+There's been attacks on our orders from further east.
+It's happened before, but never at this intensity...
+Apparently they wish to conquer us.
+
+[MidRight]
+Conquer you?!
+That's horrible!
+We need to fight back against them!
+Hey, why don't I join you?
+It'd be good to test my strength...
+And it'd help you as well!
+
+[MidLeft]
+Oh...
+Thank you for your generous offer, knight of Srughna.
+We're heading out to Dhara before sundown.
+
+[MidRight]
+Knight?[ToggleSmile]
+She called me a knight![X]
+
+
+
+## P2C2StartTheSoma
+[ConversationText]
+[Left][LoadSrihwen]
+[FarLeft][LoadSoma]
+Why couldn't we stay the night there...
+It's not that often I get to go home.[X]
+
+
+
+## P2C2EthniuInterject
+[ConversationText]
+[FarLeft][ClearFace][LoadEthniu]
+We're in the middle of a conflict.
+It's best that we do everything quickly.[X]
+
+
+
+## P2C2SrihwenInterject
+[ConversationText]
+[Left]
+The Chandran Order's already been attacked...
+I don't want our monastery to have the same happen.[X]
+
+
+
+## P2C2VarunaInterject
+[ConversationText]
+[FarRight][LoadVaruna]
+If we need to go fast, I could always just fly ahead![X]
+
+
+
+## P2C2NalaInterject
+[ConversationText]
+[Right][LoadNala]
+That's unwise, Varuna.
+We need to stay together.
+The night makes travel unsafe.[X]
+
+
+
+## P2C2SomaInterject
+[ConversationText]
+[FarLeft]
+There's no need to fly anyways.
+We're already here![X]
+
+
+
+## P2C2SomaInterject2
+[ConversationText]
+[FarLeft][ClearFace][LoadSoma]
+There's no need to fly anyways.
+We're already here![X]
+
+
+
+## P2C2SomaInterjectNV
+[ConversationText]
+[FarLeft]
+Well, here we are!
+I guess this is where we part ways.[X]
+
+
+
+## P2C2SomaInterjectNV2
+[ConversationText]
+[FarLeft][ClearFace][LoadSoma]
+Well, here we are!
+I guess this is where we part ways.[X]
+
+
+
+## P2C2SanjanaInterjectQ
+[ConversationText]
+[FarRight][ClearFace][LoadSanjana]
+Uhh...
+This doesn't look like a monastery.
+It's just a run-down shack.[X]
+
+
+
+## P2C2VarunaInterjectQ
+[ConversationText]
+[FarRight]
+Wait a minute...
+You said we were going to a monastery![X]
+
+
+
+## P2C2NalaInterjectQ
+[ConversationText]
+[Right]
+Pardon my tongue, but...
+This seems a tad small to be a monastery.[X]
+
+
+
+## P2C2EthniuInterjectMen
+[ConversationText]
+[FarLeft][ClearFace][LoadEthniu]
+It's monastery rules.
+Men aren't allowed on the grounds, so they have to stay here instead.[X]
+
+
+
+## P2C2SomaInterjectMen
+[ConversationText]
+[FarLeft]
+We aren't allowed to bring men inside the monastery.
+So whenever they come, they just sleep here![X]
+
+
+
+## P2C2VarunaInterjectMen
+[ConversationText]
+[FarRight]
+That's not fair!
+How come?![X]
+
+
+
+## P2C2VarunaInterjectMen2
+[ConversationText]
+[FarRight][ClearFace][LoadVaruna]
+That's not fair!
+How come?![X]
+
+
+
+## P2C2NalaInterjectMen
+[ConversationText]
+[Right]
+Varuna, calm down.
+It's just for the night, isn't it?[X]
+
+
+
+## P2C2NalaInterjectMenNV
+[ConversationText]
+[Right]
+That's unfortunate.
+I won't argue with your way of life, though.
+It's just for the night, isn't it?[X]
+
+
+
+## P2C2SrihwenInterjectMen
+[ConversationText]
+[Left]
+It's a very long story as to why...
+But yes.
+You wouldn't be here for long.[X]
+
+
+
+## P2C2SanjanaInterjectMen
+[ConversationText]
+[FarRight]
+If you ladies don't mind, I'm gonna stay here as well.
+No offense to your faith or anything.[X]
+
+
+
+## P2C2SanjanaInterjectMen2
+[ConversationText]
+[FarRight][ClearFace][LoadSanjana]
+If you ladies don't mind, I'm gonna stay here as well.
+No offense to your faith or anything.[X]
+
+
+
+## P2C2EthniuInterjectWhy
+[ConversationText]
+[FarLeft]
+Why would you do that?
+It's miserable out here.
+Srihwen could tell--
+
+[Left]
+Ethniu...!
+Let's let them stay here for the night.
+We'll bring our greatmother here tomorrow morning.
+From there, she can tell us what our strategy is.[X]
+
+
+
+## P2C2SrihwenInterjectWhy
+[ConversationText]
+[Left]
+If you truly wish...
+We'll bring our greatmother here tomorrow morning.
+From there, she can tell us what our strategy is.[X]
+
+
+
+## P2C2SrihwenInterjectMen2
+[ConversationText]
+[Left]
+It's a very long story as to why...
+But yes.
+You'll only be here for the night.
+We'll bring our greatmother here tomorrow morning.
+From there, she can tell us what our strategy is.[X]
+
+
+
+## P2C2SomaGoodNight
+[ConversationText]
+[FarLeft][ToggleSmile]
+Good night!
+Have a nice sleep![X]
+
+
+
+## P2C2SomaGoodNight2
+[ConversationText]
+[FarLeft][ClearFace][LoadSoma][ToggleSmile]
+Good night!
+Have a nice sleep![X]
+
+
+
+## P2C2TalkNS
+[ConversationText]
+[MidLeft][LoadNala]
+[MidRight][LoadSoma]
+You there!
+You're helping the Chandran Order, aren't you?
+
+[MidLeft]
+Indeed I am.
+Do you need something, milady?
+
+[MidRight]
+My lady?
+Oh, that's me, isn't it?
+I'm not very used to being called a lady.
+
+[MidLeft]
+Is that so?
+
+[MidRight]
+I don't even call my liege by lady.
+Well, it's not even like I call her my liege either.
+She's my friend, after all!
+
+[MidLeft]
+I think you misunderstand the duty of a knight.
+
+[MidRight]
+Knight?
+Well, I guess if I really thought about it, maybe I'd count as one...
+Anyways![MoveMidRight]
+You're helping us!
+Come on, we need to hold the gate!
+
+[MidLeft][MidRight][ClearFace][......][MidLeft]
+What a rare bird she is...[X]
+
+
+
+## P2C2TalkSM
+[ConversationText]
+[MidRight][LoadMarici]
+[MidLeft][LoadSanjana]
+Excuse me!
+You there!
+Have you seen the Srughnan knight anywhere?
+
+[MidRight]
+Srughnan knight...
+Isn't he right over there?
+
+[MidLeft]
+No, no no no.
+That's Nala.
+He's great, but...
+I was told that there was another courageous banneret somewhere?
+
+[MidRight]
+Haven't seen him.
+If I do, I'll tell you.
+
+[MidLeft][MidRight][ClearFace][......][MidLeft]
+Wait a minute![MoveMidLeft]
+Where is he?!
+You can't hide him from me![X]
+
+
+
+## P2C2TalkVN
+[ConversationText]
+[MidLeft][LoadNala]
+Varuna!
+Hold for a moment!
+
+[FarFarRight][LoadVaruna][MoveMidRight]
+Nala![.....]
+We can't stand still for a second.
+They're everywhere!
+
+[MidLeft]
+They are, but you need to be more careful.
+You said you already dodged an arrow.
+Another could easily wipe you out.
+
+[MidRight][ToggleSmile]
+I'll be fine.
+I can see them high up from the air!
+
+[MidLeft][ToggleSmile]
+Varuna.
+That doesn't give you an excuse to be reckless.
+
+[MidRight]
+Hey![MoveMidRight]
+I can see more in the distance!
+Come on, Nala!
+
+[MidLeft][MidRight][ClearFace][......][MidLeft]
+Varuna...[CloseEyes]
+There's such a thing as being too eager.[X]

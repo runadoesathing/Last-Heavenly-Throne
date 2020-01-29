@@ -2,7 +2,7 @@
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
-// Used up to: 120
+// Used up to: 123
 
 //AI Skills
 
@@ -209,7 +209,7 @@
 
 //Retrograde: Restore 30% of max HP on odd-numbered turns.
 //By Runa
-#define RetrogradeID 106
+#define RetrogradeID 255
 
 //Forager: something something
 #define ForagerID 255
@@ -335,6 +335,8 @@
 #define WardingBlowID 23
 #define CertainBlowID 24
 #define ArmoredBlowID 25
+//By Runa
+#define BrackishBlowID 122
 //By Darrman
 #define HeroesDeathBlowID 255
 
@@ -358,8 +360,8 @@
 //By Datagne
 #define ChargeID 33
 
-//Clean Fight: +3 attack and Def/Res if enemy can counter.
-//by Runa/Tequila
+//Clean Fight
+//by Runa
 #define CleanFightID 117
 
 //Critical Force: Base critical is Skl * 1.5.
@@ -412,7 +414,7 @@
 //Even/Odd Rhythm: +10 Hit and Avoid on even or odd numbered turns.
 //Author Unknown (Initial Commit)
 #define OddRhythmID 255
-#define EvenRhythmID 255
+#define EvenRhythmID 106
 
 //Faire Skills: +4 damage when equipping a weapon of the specified type.
 //Author Unknown (Initial Commit)
@@ -611,6 +613,10 @@
 //Thotslayer: +15 crit against units with Nice Thighs or Personality.
 //By Sme
 #define ThotslayerID 255
+
+//Abettor
+//By Runa/Sme
+#define AbettorID 123
 
 
 //Proc Skills
@@ -852,6 +858,7 @@
 #define RallyDefID 78
 #define RallyResID 79
 #define RallyMovID 80
+#define RallyMoveID RallyMovID 
 #define RallySpectrumID 81
 
 //Capture: Capture an enemy after defeating it with reduced stats.

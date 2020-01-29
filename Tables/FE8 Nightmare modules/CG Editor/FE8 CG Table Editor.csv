@@ -24,11 +24,11 @@ Castle_Outside 0x15,CastleHallwayImage|IsPointer,CastleHallwayTSA|IsPointer,Cast
 Castle_Outside_Past 0x16,OutsideCastleImage|IsPointer,OutsideCastleTSA|IsPointer,OutsideCastlePalette|IsPointer
 Prison_Cell 0x17,BedroomNightImage|IsPointer,BedroomNightTSA|IsPointer,BedroomNightPalette|IsPointer
 Plain 0x18,MeetingRoomImage|IsPointer,MeetingRoomTSA|IsPointer,MeetingRoomPalette|IsPointer
-Plain_Evening 0x19,0x8907ee0,0x8909c64,0x890a218
-Plain_Fog 0x1A,0x8907ee0,0x8909c64,0x890a318
+Plain_Evening 0x19,WetlandsImage|IsPointer,WetlandsTSA|IsPointer,WetlandsPalette|IsPointer
+Plain_Fog 0x1A,MountainNightImage|IsPointer,MountainNightTSA|IsPointer,MountainNightPalette|IsPointer
 Plain_2 0x1B,ForestPathImage|IsPointer,ForestPathTSA|IsPointer,ForestPathPalette|IsPointer
-Plain_3 0x1C,0x890cd88,0x890e7e8,0x890ec9c
-Woodland 0x1D,0x890ed9c,0x8912060,0x8912514
+Plain_3 0x1C,OutsideGateImage|IsPointer,OutsideGateTSA|IsPointer,OutsideGatePalette|IsPointer
+Woodland 0x1D,WoodsImage|IsPointer,WoodsTSA|IsPointer,WoodsPalette|IsPointer
 Woodland_Fog 0x1E,0x890ed9c,0x8912060,0x8912614
 Woodland_Evening 0x1F,0x890ed9c,0x8912060,0x8912714
 Woodland_Night 0x20,0x890ed9c,0x8912060,0x8912814

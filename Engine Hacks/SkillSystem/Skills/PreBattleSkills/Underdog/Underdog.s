@@ -53,16 +53,16 @@ cmp r0, r1
 bge End @branch if lvl is more or equal
 
 Calculation:
-@add 10 hit
+@add 15 hit
 mov r1, #0x60
 ldrh r0, [r4, r1] @hit
-add r0, #10
+add r0, #15
 strh r0, [r4,r1]
 
-@add 10 avoid
+@add 15 avoid
 mov r1, #0x62
 ldrh r0, [r4, r1] @avoid
-add r0, #10
+add r0, #15
 strh r0, [r4,r1]
 
 End:

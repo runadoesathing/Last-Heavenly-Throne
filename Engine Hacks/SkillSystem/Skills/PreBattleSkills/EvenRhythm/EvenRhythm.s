@@ -25,12 +25,7 @@ beq	End
 @add 10 to hit and avoid
 mov	r0, #0x60
 ldrh	r1, [r4,r0]	@load hit
-add	r1, #0x0A	@add 20 to hit
-strh	r1, [r4,r0]     @store
-
-mov	r0, #0x62
-ldrh	r1, [r4,r0]	@load avoid
-add	r1, #0x0A	@add 20 to avoid
+add	r1, #0x0F @add 20 to hit
 strh	r1, [r4,r0]     @store
 
 End:

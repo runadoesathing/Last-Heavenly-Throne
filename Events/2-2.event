@@ -26,6 +26,9 @@ TURN 0x0 EndingScene [10,0] 0x0
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0xA, TalkEventSM, Sanjana, Marici)
+CharacterEventBothWays(0xB, TalkEventVN, Varuna, Nala)
+CharacterEventBothWays(0xC, TalkEventNS, Nala, Soma)
 END_MAIN
 
 LocationBasedEvents:
@@ -73,62 +76,62 @@ UNIT Marici BowCav 0x0 Level(0, Ally, 0)    [17,4] 0 0 1 REDA15R4 [0x0] [0,0,0,0
 UNIT
 
 SrughnaGang:
-UNIT Nala SwordKnight 0x0 Level(5, NPC, 0)      [10,5] 0 0 0 0 [IronSword,SteelSword,Vulnerary] [0,0,0,0]
+UNIT Nala SwordKnight 0x0 Level(5, NPC, 0)      [11,5] 0 0 0 0 [IronSword,SteelSword,Vulnerary] [0,0,0,0]
 UNIT Sanjana LanceCav_F 0x0 Level(2, NPC, 0)    [13,7] 0 0 0 0 [IronLance,Vulnerary] [0,0,0,0]
 UNIT Varuna WyvernRider 0x0 Level(2, NPC, 0)    [14,8] 0 0 0 0 [IronAxe,Vulnerary] [0,0,0,0]
 UNIT
 
 EnemyGang:
 UNIT Chakora Archer_F 0x0 Level(7, Enemy, 1)            [1,3]  DropItem 0 0 0 [SteelBow, Talisman]    [3,3,4,0x20]
-UNIT AntariksaMag Diviner 0x0 Level(1, Enemy, 1)        [5,6]  0 0 0 0        [MalkuthI]              [0,0x8,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [5,6]  0 0 0 0        [MalkuthI]              [0,0x8,4,0]
 UNIT Antariksa Woodsman 0x0 Level(2, Enemy, 1)          [3,8]  DropItem 0 0 0 [IronAxe, DoorKey]      [0,0x8,4,0]
-UNIT Antariksa Mercenary 0x0 Level(1, Enemy, 1)         [0,3]  0 0 0 0        [IronSword]             [0,0x8,4,0]
-UNIT Antariksa Soldier 0x0 Level(2, Enemy, 1)           [10,8] 0 0 0 0        [IronLance]             [0,0x8,4,0]
-UNIT AntariksaMag Diabolist_F 0x0 Level(1, Enemy, 1)    [3,5]  DropItem 0 0 0 [Fire,Vulnerary]        [0,0x8,4,0]
+UNIT Antariksa Mercenary 0x0 Level(2, Enemy, 1)         [0,3]  0 0 0 0        [IronSword]             [0,0x8,4,0]
+UNIT Antariksa Soldier 0x0 Level(1, Enemy, 1)           [10,8] 0 0 0 0        [IronLance]             [0,0x8,4,0]
+UNIT AntariksaMag Diabolist_F 0x0 Level(2, Enemy, 1)    [3,5]  DropItem 0 0 0 [Fire,Vulnerary]        [0,0x8,4,0]
 UNIT
 
 TurnTwoReinforcements:
-UNIT Antariksa Soldier 0x0 Level(1, Enemy, 1)           [0,0] 0 0 1 REDA0R0        [IronLance]            [0,0x8,4,0]
+UNIT Antariksa Soldier 0x0 Level(2, Enemy, 1)           [0,0] 0 0 1 REDA0R0        [IronLance]            [0,0x8,4,0]
 UNIT Antariksa BowKnight 0x0 Level(2, Enemy, 1)         [2,0] 0 0 1 REDA2R1        [IronBow]             [0,0x8,4,0]
 UNIT
 
 TurnThreeReinforcements:
-UNIT Antariksa Woodsman 0x0 Level(2, Enemy, 1)          [1,0] DropItem 0 1 REDA1R1 [IronAxe, ChestKey]    [0,0x8,4,0]
+UNIT Antariksa Woodsman 0x0 Level(3, Enemy, 1)          [1,0] DropItem 0 1 REDA1R1 [IronAxe, ChestKey]    [0,0x8,4,0]
 UNIT
 
 TurnFourReinforcements:
-UNIT Antariksa Myrmidon_F 0x0 Level(2, Enemy, 1)        [0,0] 0 0 1 REDA0R1    [IronSword]   [0,0x8,4,0]
+UNIT Antariksa Myrmidon_F 0x0 Level(1, Enemy, 1)        [0,0] 0 0 1 REDA0R1    [IronSword]   [0,0x8,4,0]
 UNIT
 
 TurnFourReinforcements2:
-UNIT AntariksaMag Diviner 0x0 Level(1, Enemy, 1)        [17,8] DropItem 0 1 REDA17R8  [YesodII, ChestKey]     [0,0x8,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [17,8] DropItem 0 1 REDA17R8  [YesodII, ChestKey]     [0,0x8,4,0]
 UNIT
 
 TurnFiveReinforcements:
 UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [0,0] 0 0 1 REDA2R0    [MalkuthI]    [0,0x8,4,0]
-UNIT Antariksa LanceCav_F 0x0 Level(2, Enemy, 1)        [0,0] 0 0 1 REDA0R2    [IronLance]     [0,0x8,4,0]
+UNIT Antariksa LanceCav_F 0x0 Level(3, Enemy, 1)        [0,0] 0 0 1 REDA0R2    [IronLance]     [0,0x8,4,0]
 UNIT
 
 TurnFiveReinforcements2:
-UNIT Antariksa SwordCav 0x0 Level(1, Enemy, 1)       [17,8] 0 0 1 REDA17R8  [IronSword]     [0,0x8,4,0]
+UNIT Antariksa SwordCav 0x0 Level(3, Enemy, 1)       [17,8] 0 0 1 REDA17R8  [IronSword]     [0,0x8,4,0]
 UNIT
 
 TurnSixReinforcements:
-UNIT Antariksa SkyKnight 0x0 Level(1, Enemy, 1)    [0,1] 0 0 1 REDA1R1 [IronAxe]    [0,0x8,4,0]
+UNIT Antariksa SkyKnight 0x0 Level(2, Enemy, 1)    [0,1] 0 0 1 REDA1R1 [IronLance]    [0,0x8,4,0]
 UNIT
 
 TurnSevenReinforcements:
-UNIT AntariksaMag Diviner 0x0 Level(1, Enemy, 1)    [0,0] 0 0 1 REDA1R1 [YesodII]    [0,0x8,4,0]
-UNIT Antariksa Myrmidon 0x0 Level(1, Enemy, 1)    [0,5] 0 0 1 REDA1R5 [IronSword]    [0,0x8,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)    [0,0] 0 0 1 REDA1R1 [YesodII]    [0,0x8,4,0]
+UNIT Antariksa Myrmidon 0x0 Level(2, Enemy, 1)    [0,5] 0 0 1 REDA1R5 [IronSword]    [0,0x8,4,0]
 UNIT
 
 TurnSevenReinforcements2:
-UNIT AntariksaMag Diabolist 0x0 Level(1, Enemy, 1)    [17,8] DropItem 0 1 REDA17R8 [Wind, Vulnerary]   [0,0x8,4,0]
+UNIT AntariksaMag Diabolist 0x0 Level(2, Enemy, 1)    [17,8] DropItem 0 1 REDA17R8 [Wind, Vulnerary]   [0,0x8,4,0]
 UNIT
 
 TurnNineReinforcements:
-UNIT Antariksa AxeCav 0x0 Level(2, Enemy, 1)         [17,4] 0 0 1 REDA17R4 [IronAxe] [0,0x8,4,0]
-UNIT Antariksa LanceKnight 0x0 Level(1, Enemy, 1)    [9,9] 0 0 1 REDA9R9 [IronLance] [0,0x8,4,0]
+UNIT Antariksa AxeCav 0x0 Level(3, Enemy, 1)         [17,4] 0 0 1 REDA17R4 [IronAxe] [0,0x8,4,0]
+UNIT Antariksa LanceKnight 0x0 Level(2, Enemy, 1)    [9,9] 0 0 1 REDA9R9 [IronLance] [0,0x8,4,0]
 UNIT
 
 DidWeLose:
@@ -151,12 +154,94 @@ NoFade
 ENDA
 
 BeginningScene:
-LOAD2 0x1 UnitsP
-ENUN
+MUSC 0x4E
+SetBackground(MeetingRoom)
+TEXTSTART
+TEXTSHOW P2C2MeetingRoomStuff
+TEXTEND
+CHECK_ALIVE Marici
+BEQ 0x0 0xC 0x0
+  TEXTSHOW2 P2C2MariciMR
+  TEXTEND
+  MUSC 0x28
+  TEXTCONT
+  TEXTEND
+  REMA
+  GOTO 0x1
+LABEL 0x0
+TEXTSHOW2 P2C2NoMariciMR
+TEXTEND
+MUSC 0x28
+TEXTCONT
+TEXTEND
+REMA
+LABEL 0x1
+MUSCMID 0x7FFF // it fades out the music you dip
+FADI 4
+STAL 120
+EnterStop
+MUSC 0x5
+SetBackground(0x34)
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW P2C2WMIntro
+TEXTEND
+REMA
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW P2C2WMIntro2
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 3
+STAL 60
+CLEAN
+EnterStop
+CAM1 [1,3]
+MUSC 0x24
+SetBackground(SparseForest)
+BROWNBOXTEXT ChandraText [8,8]
+CHECK_ALIVE Marici
+BEQ 0x10 0xC 0x0
+  Text(P2C2ForestTalk)
+  GOTO 0x11
+LABEL 0x10
+Text(P2C2ForestTalkNoMarici)
+LABEL 0x11
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+MUSC 0x25
+SetBackground(OutsideCastle)
+BROWNBOXTEXT AnusuyaGrove [8,8] // box in the top right that's pretty cool for small text
+Text(P2C2OutsideGate)
+FADI 5
 LOAD1 0x1 SrughnaGang
 ENUN
 LOAD1 0x1 EnemyGang
 ENUN
+CLEAN
+STAL 60
+FADU 7
+STAL 30
+CUMO Chakora
+STAL 60
+CURE
+Text(P2C2ChakoraChakora)
+CAM1 [17,5]
+ENUN
+STAL 30
+LOAD2 0x1 UnitsP
+ENUN
+STAL 20
+CUMO Srihwen
+STAL 60
+CURE
+Text(P2C2SrihwenHere)
+FADI 6
+STAL 15
 GotoPrepScreen
 NoFade
 ENDA
@@ -180,7 +265,7 @@ CAM1 Srihwen
 CUMO Srihwen
 STAL 60
 CURE
-Text(PlaceholderText)
+Text(P2C2ReinWarning)
 NoFade
 ENDA
 
@@ -251,7 +336,7 @@ BEQ 0x0 0xC 0x0
   CUMO Chakora
   STAL 60
   CURE
-  Text(PlaceholderText)
+  Text(P2C2ChakoraMad)
   SVAL 0x1 0x00040000 // sets ai to [0x0,0x0,0x4,0x0] (pursue without heed)
   CHAI Chakora // changes the ai of 0x80
 LABEL 0x0
@@ -259,6 +344,19 @@ NoFade
 ENDA
 
 Warning:
+MUSC 0x25
+CAM1 [17,5]
+ENUN
+CUMO Sanjana
+STAL 60
+CURE
+CHECK_ALIVE Marici
+BEQ 0x0 0xC 0x0
+  Text(P2C2NoticeThem)
+  GOTO 0x1
+LABEL 0x0
+Text(P2C2NoMariciThem)
+LABEL 0x1
 MUSC 0xA
 STAL 60
 CALL 0x591F40
@@ -274,6 +372,244 @@ NoFade
 ENDA
 
 EndingScene:
+ENUF 0x84
+MUSC 0x25
+FADI 4
+SetBackground(OutsideCastle)
+CHECK_EVENTID 0x2
+BNE 0x0 0xC 0x0
+  TEXTSTART
+  TEXTSHOW P2C2ChakoraKalkin
+  TEXTEND
+  SOUN 0x122
+  FAWI 10
+  FAWU 10
+  FAWI 10
+  FAWU 10
+  SOUN 0x123
+  STAL 30
+  TEXTCONT
+  TEXTEND
+  SOUN 0xD6
+  TEXTCONT
+  GOTO 0x1
+LABEL 0x0
+TEXTSTART
+TEXTSHOW P2C2SoldierKalkin
+LABEL 0x1
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+CHECK_ALIVE Ethniu
+BEQ 0x2 0xC 0x0
+  MUSC 0x31
+  SetBackground(OutsideGate)
+  Text(P2C2SomaWin)
+  GOTO 0x3
+LABEL 0x2
+MUSC 0x32
+SetBackground(OutsideGate)
+Text(P2C2LostEthniu)
+LABEL 0x3
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+CHECK_ALIVE Nala
+BEQ 0x10 0xC 0x0
+  MUSC 0x4C
+  SetBackground(BrownCastleInterior)
+  CHECK_ALIVE Sanjana
+  BEQ 0x11 0xC 0x0
+    CHECK_ALIVE Varuna
+    BEQ 0x12 0xC 0x0
+      Text(P2C2NSV)
+      GOTO 0x20
+    LABEL 0x12
+    Text(P2C2NS)
+    GOTO 0x20
+  LABEL 0x11
+  CHECK_ALIVE Varuna
+  BEQ 0x13 0xC 0x0
+    Text(P2C2NV)
+    GOTO 0x20
+  LABEL 0x13
+  Text(P2C2NO)
+  GOTO 0x20
+CHECK_ALIVE Varuna
+BEQ 0x14 0xC 0x0
+  MUSC 0x4C
+  SetBackground(BrownCastleInterior)
+  CHECK_ALIVE Sanjana
+  BEQ 0x15 0xC 0x0
+    Text(P2C2SV)
+    GOTO 0x20
+  LABEL 0x15
+  Text(P2C2VO)
+  GOTO 0x20
+CHECK_ALIVE Sanjana
+BEQ 0x16 0xC 0x0
+  MUSC 0x4C
+  SetBackground(BrownCastleInterior)
+  Text(P2C2SO)
+  MUSCMID 0x7FFF
+  FADI 4
+  STAL 60
+  GOTO 0xFEFE
+LABEL 0x16
+GOTO 0xFEFE
+LABEL 0x20
+MUSCMID 0x7FFF
+FADI 4
+EnterStop
+STAL 60
+MUSC 0x4A
+SetBackground(MountainNight)
+STAL 30
+BROWNBOXTEXT DharaName [8,8]
+TEXTSTART
+TEXTSHOW P2C2StartTheSoma
+TEXTEND
+CHECK_ALIVE Ethniu
+BEQ 0x30 0xC 0x0
+  TEXTSHOW2 P2C2EthniuInterject
+  GOTO 0x31
+LABEL 0x30
+TEXTSHOW2 P2C2SrihwenInterject
+LABEL 0x31
+TEXTEND
+CHECK_ALIVE Varuna
+BEQ 0x32 0xC 0x0
+  TEXTSHOW2 P2C2VarunaInterject
+  TEXTEND
+LABEL 0x32
+CHECK_ALIVE Nala
+BEQ 0x33 0xC 0x0
+  TEXTSHOW2 P2C2NalaInterject
+  TEXTEND
+LABEL 0x33
+CHECK_ALIVE Varuna
+BEQ 0x34 0xC 0x0
+  CHECK_ALIVE Ethniu
+  BEQ 0x35 0xC 0x0
+    TEXTSHOW2 P2C2SomaInterject2
+    GOTO 0x37
+  LABEL 0x35
+  TEXTSHOW2 P2C2SomaInterject
+  GOTO 0x37
+LABEL 0x34
+CHECK_ALIVE Ethniu
+BEQ 0x36 0xC 0x0
+  TEXTSHOW2 P2C2SomaInterjectNV2
+  GOTO 0x37
+LABEL 0x36
+TEXTSHOW2 P2C2SomaInterjectNV
+LABEL 0x37
+TEXTEND
+CHECK_ALIVE Sanjana
+BEQ 0x40 0xC 0x0
+  TEXTSHOW2 P2C2SanjanaInterjectQ
+  GOTO 0x43
+LABEL 0x40
+CHECK_ALIVE Varuna
+BEQ 0x41 0xC 0x0
+  TEXTSHOW2 P2C2VarunaInterjectQ
+  GOTO 0x43
+LABEL 0x41
+TEXTSHOW2 P2C2NalaInterjectQ
+LABEL 0x43
+TEXTEND
+CHECK_ALIVE Ethniu
+BEQ 0x50 0xC 0x0
+  TEXTSHOW2 P2C2EthniuInterjectMen
+  GOTO 0x51
+LABEL 0x50
+TEXTSHOW2 P2C2SomaInterjectMen
+LABEL 0x51
+TEXTEND
+CHECK_ALIVE Varuna
+BEQ 0x52 0xC 0x0
+  CHECK_ALIVE Sanjana
+  BEQ 0x53 0xC 0x0
+    TEXTSHOW2 P2C2VarunaInterjectMen2
+    TEXTEND
+    GOTO 0x52
+  LABEL 0x53
+  TEXTSHOW2 P2C2VarunaInterjectMen2
+  TEXTEND
+  GOTO 0x52
+LABEL 0x52
+CHECK_ALIVE Nala
+BEQ 0x54 0xC 0x0
+  CHECK_ALIVE Varuna
+  BEQ 0x55 0xC 0x0
+    TEXTSHOW2 P2C2NalaInterjectMen
+    TEXTEND
+    GOTO 0x54
+  LABEL 0x55
+  TEXTSHOW2 P2C2NalaInterjectMenNV
+  TEXTEND
+LABEL 0x54
+CHECK_ALIVE Sanjana
+BEQ 0x60 0xC 0x0
+  TEXTSHOW2 P2C2SrihwenInterjectMen
+  TEXTEND
+  CHECK_ALIVE Varuna
+  BEQ 0x61 0xC 0x0
+    TEXTSHOW2 P2C2SanjanaInterjectMen2
+    GOTO 0x62
+  LABEL 0x61
+  TEXTSHOW2 P2C2SanjanaInterjectMen
+  LABEL 0x62
+  TEXTEND
+  CHECK_ALIVE Ethniu
+  BEQ 0x63 0xC 0x0
+    TEXTSHOW2 P2C2EthniuInterjectWhy
+    GOTO 0x70
+  LABEL 0x63
+  TEXTSHOW2 P2C2SrihwenInterjectWhy
+  GOTO 0x70
+LABEL 0x60
+TEXTSHOW2 P2C2SrihwenInterjectMen2
+LABEL 0x70
+CHECK_ALIVE Ethniu
+BEQ 0x71 0xC 0x0
+  TEXTSHOW2 P2C2SomaGoodNight2
+  GOTO 0x72
+LABEL 0x71
+TEXTSHOW2 P2C2SomaGoodNight
+LABEL 0x72
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
+LABEL 0xFEFE
 MNC2 0x8
+NoFade
+ENDA
+
+TalkEventNS:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+Text(P2C2TalkNS)
+MUNO // increases music volume
+NoFade
+ENDA
+
+TalkEventSM:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+Text(P2C2TalkSM)
+MUNO // increases music volume
+NoFade
+ENDA
+
+TalkEventVN:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+Text(P2C2TalkVN)
+MUNO // increases music volume
 NoFade
 ENDA
