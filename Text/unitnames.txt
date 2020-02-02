@@ -187,6 +187,17 @@ Bhadra[X]
 ## VasavaName
 Vasava[X]
 
+## CuRaoiName
+C[0xFA] Raoi[X]
+
+## RionallName
+Rionall[X]
+
+## KesinName
+Kesin[X]
+
+
+
 
 
 ## ConallDesc
@@ -313,7 +324,7 @@ Armoured devout of Anila. Ordered to[N]
 keep watch near the border to Dhara.[X]
 
 ## GogaDesc
-A member of the Anala people.[N]
+A member of the Pavaka people.[N]
 Defected to the Antariksan Order.[X]
 
 ## KalkinDesc
@@ -906,3 +917,27 @@ Clonkeine[X]
 
 ## ClonkeineDesc
 +15 Avo when initiating combat.[X]
+
+## AmharakkuScrollName
+Am Scroll[X]
+
+## AmharakkuScrollDesc
+test[X]
+
+## NinasolnaScrollName
+Nina Scroll[X]
+
+## NinasolnaScrollDesc
+test[X]
+
+## AinghaScrollName
+Aingha Scroll[X]
+
+## AinghaScrollDesc
+test[X]
+
+## SamesScrollName
+Sames Scroll[X]
+
+## SamesScrollDesc
+test[X]

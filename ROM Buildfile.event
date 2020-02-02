@@ -1,6 +1,8 @@
 #ifdef _FE8_
     #include "EAstdlib.event"
     #include "Custom Definitions.event"
+    
+    PROTECT 0xA188F8 0xA18930
 
     ORG FreeSpace
 

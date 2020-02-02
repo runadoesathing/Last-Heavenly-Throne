@@ -76,8 +76,8 @@ Entombed (Ch 4),0x0
 Saar (Ch 5),SavageBlowID
 Novala (Ch 6),VantageID
 Murray (Ch 7),PointBlankID
-Tirado (Ch 8),WaryFighterID
-Binks (Ch 9A),BowfaireID
+Tirado (Ch 8),NullifyID
+Binks (Ch 9A),QuickDrawID
 Pablo (Ch 10A),DartingBlowID
 Maelduin (Ch 12A),0x0
 Aias (Ch 13A),SavageBlowID
@@ -141,7 +141,7 @@ Grado Soldier 11 (Duessel's),0x0
 Grado Soldier 12 (Duessel's),0x0
 Grado Soldier 13,0x0
 Grado Remnant 1 (Main),0x0
-Cutthroat,0x0
+Cutthroat,WaryFighterID
 Grado Remnant 2 (Cutscene and C16 only?),0x0
 Grado Remnant 3 (C16 only?),0x0
 Grado Remnant 4 (C16 only?),0x0

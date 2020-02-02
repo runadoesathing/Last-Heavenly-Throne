@@ -2,7 +2,7 @@
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
-// Used up to: 123
+// Used up to: 124
 
 //AI Skills
 
@@ -212,7 +212,7 @@
 #define RetrogradeID 255
 
 //Forager: something something
-#define ForagerID 255
+#define ForagerID 124
 
 //Imbue: Recover HP equal to Magic at the start of each turn.
 //By Sme

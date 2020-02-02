@@ -14,6 +14,9 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TURN 0x0 NakstraniAppear [1,0] 0x0
+TURN 0x0 BanditoYi [4,0] 0x0
+TURN 0x0 BanditoEr [5,0] 0x0
+TURN 0xF Speakers [1,255] 0x0
 END_MAIN
 
 CharacterBasedEvents:
@@ -28,7 +31,11 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AREA 0xB AttackEm [0,0] [19,6]
+AREA 0xB AttackEm [0,0] [19,7]
+AREA 0xE Moskau [8,0] [19,7]
+AREA 0xE Moskau [12,8] [19,14]
+AREA 0x10 BrainChallenge [12,7] [19,14]
+AFEV 0 EndingScene 0x2
 END_MAIN
 
 Dunno1:
@@ -61,17 +68,17 @@ UNIT Birnath AxeKnight 0x0 Level(3, Ally, 0)    [3,11] 0 0 0 0 [IronAxe, IronPol
 UNIT
 
 EnemiesP:
-UNIT Babhru AxeKnight 0x0 Level(10, Enemy, 1)   [19,10] 0 0 0 0        [HandAxe, Vulnerary] [0x3,0x3,0x4,0x20]
+UNIT Babhru AxeKnight 0x0 Level(10, Enemy, 1)   [19,10] 0 0 0 0        [HandAxe, Vulnerary] [0,3,4,0]
 UNIT AnilaMag Mystic 0x0 Level(5, Enemy, 1)     [14,7]  0 0 0 0        [Worm]               [0x3,0x3,0x4,0x20]
 UNIT Anila Soldier 0x0 Level(4, Enemy, 1)       [4,9]   0 0 0 0        [IronLance]          [0,0,4,0]
-UNIT AnilaMag Diabolist 0x0 Level(3, Enemy, 1)  [7,13]  DropItem 0 0 0 [Thunder, Vulnerary] [0,0,4,0]
+UNIT AnilaMag Diabolist 0x0 Level(3, Enemy, 1)  [7,13]  DropItem 0 0 0 [Fire, Vulnerary]    [0,0,4,0]
 UNIT Anila SwordCav 0x0 Level(3, Enemy, 1)      [6,8]   0 0 0 0        [IronSword]          [0,6,4,0]
 UNIT Anila Mercenary 0x0 Level(3, Enemy, 1)     [3,6]   0 0 0 0        [IronSword]          [0,3,4,0]
-UNIT Anila LanceKnight 0x0 Level(3, Enemy, 1)   [6,2]   0 0 0 0        [IronGreatlance]     [0,3,4,0]
+UNIT Anila Myrmidon 0x0 Level(3, Enemy, 1)      [9,2]   0 0 0 0        [IronSword]          [0,3,4,0]
 UNIT Anila BowKnight 0x0 Level(3, Enemy, 1)     [8,3]   0 0 0 0        [IronWarbow]         [3,3,4,0x20]
 UNIT Anila AxeCav 0x0 Level(4, Enemy, 1)        [10,3]  0 0 0 0        [IronAxe]            [0,3,4,0]
 UNIT Anila LanceCav 0x0 Level(3, Enemy, 1)      [10,4]  0 0 0 0        [HeavySpear]         [0,3,4,0]
-UNIT Anila Mercenary 0x0 Level(3, Enemy, 1)     [11,7]  0 0 0 0        [IronSword]          [0,3,4,0]
+UNIT Anila Mercenary 0x0 Level(3, Enemy, 1)     [11,7]  0 0 0 0        [SteelSword]         [0,3,4,0]
 UNIT Anila Soldier 0x0 Level(4, Enemy, 1)       [15,4]  0 0 0 0        [IronLance]          [0,3,4,0]
 UNIT Anila SwordCav 0x0 Level(4, Enemy, 1)      [19,5]  0 0 0 0        [IronBlade]          [0,3,4,0]
 UNIT Anila Fighter 0x0 Level(3, Enemy, 1)       [15,10] 0 0 0 0        [IronAxe]            [0,3,4,0]
@@ -82,6 +89,23 @@ UNIT
 NakstraniP:
 UNIT Nakstrani Diviner_F 0x0 Level(1, Enemy, 0) [4,3]   0 0 1 REDA4R4  [MalkuthI]           [3,3,4,0x20]
 UNIT
+
+ReinDa:
+UNIT Anila SwordCav 0x0 Level(5, Enemy, 1)    [0,5] 0 0 1 REDA1R5    [IronBlade]            [0,0,4,0]
+UNIT Anila LanceCav 0x0 Level(5, Enemy, 1)    [0,6] 0 0 1 REDA2R6    [IronGreatlance]       [0,0,4,0]
+UNIT
+
+ReinDa2:
+UNIT AntariksaMag Diviner_F 0x0 Level(5, Enemy, 1)      [19,9]  0 0 1 REDA18R9  [MalkuthI]           [0,6,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(5, Enemy, 1)        [19,11] 0 0 1 REDA18R11 [YesodII]            [0,6,4,0]
+UNIT
+
+Brigando:
+UNIT 0x80 Brigand 0x0 Level(3, Enemy, 1)    [11,14] 0 0 1 REDA11R14 [IronAxe] [0,4,4,0]
+UNIT
+
+Brigando2:
+UNIT 0x80 Brigand 0x0 Level(5, Enemy, 1)    [19,4] 0 0 1 REDA18R4 [IronPoleax] [0,4,4,0]
 
 Traps1:
 ENDTRAP
@@ -104,6 +128,8 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+FADI 3
+MNC2 0x9
 NoFade
 ENDA
 
@@ -162,7 +188,22 @@ CHAI [10,4]
 NoFade
 ENDA
 
+Moskau:
+SVAL 0x2 0x0
+CALL 0x9EE1B8
+SVAL 0x1 0x00040600
+CHAI [11,7]
+SVAL 0x1 0x00040600
+CHAI [15,4]
+SVAL 0x1 0x00040600
+CHAI [19,5]
+SVAL 0x1 0x00040600
+CHAI [9,2]
+NoFade
+ENDA
+
 NakstraniAppear:
+MUSC 0x2E
 CAM1 [4,3]
 ENUN
 LOAD1 0x1 NakstraniP
@@ -170,7 +211,7 @@ ENUN
 CUMO [4,4]
 STAL 60
 CURE
-Text(PlaceholderText)
+Text(P2C3NakstraniDoubt)
 MOVE 0xA Nakstrani [0,4]
 ENUN
 NoFade
@@ -180,5 +221,63 @@ NakstraniRecruit:
 MUSC 0x30
 Text(P2C3NakstraniSrihwenTalk)
 CUSA Nakstrani
+NoFade
+ENDA
+
+Speakers:
+CHECK_EVENTID 0xE
+BEQ 0x0 0x0 0xC
+	CAM1 [0,5]
+  ENUN
+    LOAD1 0x1 ReinDa
+    ENUN
+	STAL 60
+	CAM1 [19,10]
+  ENUN
+    LOAD1 0x1 ReinDa2
+    ENUN
+  CUMO Babhru
+  STAL 60
+  CURE
+  Text(PlaceholderText)
+    GOTO 0x1
+LABEL 0x0
+    ENUF 0xF
+LABEL 0x1
+NoFade
+ENDA
+
+BanditoYi:
+CAM1 [11,14]
+ENUN
+LOAD1 0x1 Brigando
+ENUN
+CUMO [11,14]
+STAL 60
+CURE
+Text(PlaceholderText)
+NoFade
+ENDA
+
+BanditoEr:
+CAM1 [19,4]
+ENUN
+LOAD1 0x1 Brigando2
+ENUN
+STAL 60
+NoFade
+ENDA
+
+BrainChallenge:
+SVAL 0x2 0x0
+CALL 0x9EE1B8
+SVAL 0x1 0x00040600
+CHAI [15,10]
+SVAL 0x1 0x00040600
+CHAI [15,14]
+SVAL 0x1 0x00040600
+CHAI [18,12]
+SVAL 0x1 0x00040600
+CHAI [19,10]
 NoFade
 ENDA

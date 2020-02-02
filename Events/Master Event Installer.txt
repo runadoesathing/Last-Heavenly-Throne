@@ -49,6 +49,10 @@ ALIGN 4
   ALIGN 4
   #include "2-3.event"
 }
+{
+  ALIGN 4
+  #include "2-4.event"
+}
 
 //changes supply and seize to srihwen
 PUSH
@@ -60,12 +64,16 @@ POP
 
 // prep screen shop
 PUSH
-ORG 0xA188E4
-  PrepScreenShop:
-  SHLI IronSword IronBlade IronLance IronGreatlance IronAxe IronPoleax IronBow IronWarbow Fire Thunder Flux Worm MalkuthI YesodII Heal Mend Vulnerary
-  ALIGN 4
+  ORG 0x99E64
+    POIN PrepScreenShop
 POP
 
+ALIGN 4
+PrepScreenShop:
+SHLI IronSword IronBlade IronLance IronGreatlance IronAxe IronPoleax IronBow IronWarbow Fire Thunder Flux Worm MalkuthI YesodII Heal Mend Vulnerary
+WORD 0x0
+ALIGN 4
+  
 //fixes remu bug (7743)
 PUSH
 ORG 0x102D4
@@ -220,6 +228,31 @@ Text(EthniuPTSDeathQ)
 LABEL 0x1
 NoFade
 ENDA
+
+ALIGN 4
+Nakstrani23Death:
+CHECK_EVENTID 0xD
+BEQ 0x0 0xC 0x0
+  Text(NakstraniDeathQ)
+  GOTO 0x1
+LABEL 0x0
+Text(NakstraniEnemyDeathQ)
+LABEL 0x1
+NoFade
+ENDA
+
+ALIGN 4
+LalithaDeathQuoteEvent:
+CHECK_EVENTID TimeSkipFlag
+BNE 0x0 0xC 0x0
+  Text(LalithaDeathQ)
+  GOTO 0x1
+LABEL 0x0
+Text(LalithaPTSDeathQ)
+LABEL 0x1
+NoFade
+ENDA
+
 
 PUSH
   ORG $3B7C0

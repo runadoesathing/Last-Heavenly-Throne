@@ -278,7 +278,7 @@ Guess what comes next is...[X]
 [BattleText]
 [MidRight][LoadRudram]
 My brother...
-I left the order, but I don't want to leave you...
+Leaving you was my biggest regret...[X]
 
 
 
@@ -286,5 +286,5 @@ I left the order, but I don't want to leave you...
 [BattleText]
 [OpenMidRight][LoadLalitha]
 Why must the shadow of death cover me now...?
-My Penumbra...
+My Penumbra...[CloseEyes]
 Forgive me...[X]

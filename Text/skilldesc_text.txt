@@ -538,7 +538,7 @@ Odd Rhythm: +10 Hit and Avoid[N]
 on odd numbered turns.[X]
 
 ## SD_EvenRhythm
-Retrograde: +10 Hit and Avoid[N]
+Retrograde: +15 Hit[N]
 on even numbered turns.[X]
 
 ## SD_QuickBurn

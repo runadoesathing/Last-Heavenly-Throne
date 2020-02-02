@@ -29,20 +29,20 @@ Trobairitz[X]
 # 0x166
 2-1: Roots from the Earth[X]
 
-# 0x167
+# 0x167 
 2-2: Chandra Grove[X]
 
 # 0x168
 2-3: The Northern Gale[X]
 
 # 0x169
-2-4: Crimson Locks[X]
+2-4: Locks of Crimson[X]
 
 # 0x16A
-2-5: Boundary of Life[X]
+2-5: Battle on the Sarasvati[X]
 
 # 0x16B
-2-5x: Young Girl's Hope[X]
+2-5x: The Forgotten[X]
 
 # 0x16C
 2-6: Stoked Revolt[X]
@@ -68,14 +68,6 @@ Hills[X]
 # 0x4EE
 [NRL][nru][nrc][nrk][X]
 
-#0x3A LearnedSkillText
-#first text ID in the free block
-Learned  [X]
-
-#include "statscreen_text.txt"
-
-#include "unitmenu_text.txt"
-
 # 0xd4c
 Likes:[X]
 
@@ -90,6 +82,13 @@ Age:[X]
 
 # 0xd50
 Affinity:[X]
+
+## LearnedSkillText
+Learned  [X]
+
+#include "statscreen_text.txt"
+
+#include "unitmenu_text.txt"
 
 #include "ChapterObj.txt"
 

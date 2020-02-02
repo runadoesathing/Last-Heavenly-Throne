@@ -323,3 +323,84 @@ WoodsTSA:
 
 WoodsPalette:
 #incbin "WoodsPalette.bin"
+
+BedroomDayImage:
+#incbin "BedroomDayImage.bin"
+
+BedroomDayTSA:
+#incbin "BedroomDayTSA.bin"
+
+BedroomDayPalette:
+#incbin "BedroomDayPalette.bin"
+
+CampsiteImage:
+#incbin "CampsiteImage.bin"
+
+CampsiteTSA:
+#incbin "CampsiteTSA.bin"
+
+CampsitePalette:
+#incbin "CampsitePalette.bin"
+
+CastleRuinsImage:
+#incbin "CastleRuinsImage.bin"
+
+CastleRuinsTSA:
+#incbin "CastleRuinsTSA.bin"
+
+CastleRuinsPalette:
+#incbin "CastleRuinsPalette.bin"
+
+DiningRoomImage:
+#incbin "DiningRoomImage.bin"
+
+DiningRoomTSA:
+#incbin "DiningRoomTSA.bin"
+
+DiningRoomPalette:
+#incbin "DiningRoomPalette.bin"
+
+ForestOpeningImage:
+#incbin "ForestOpeningImage.bin"
+
+ForestOpeningTSA:
+#incbin "ForestOpeningTSA.bin"
+
+ForestOpeningPalette:
+#incbin "ForestOpeningPalette.bin"
+
+OfficeImage:
+#incbin "OfficeImage.bin"
+
+OfficeTSA:
+#incbin "OfficeTSA.bin"
+
+OfficePalette:
+#incbin "OfficePalette.bin"
+
+RuinsImage:
+#incbin "RuinsImage.bin"
+
+RuinsTSA:
+#incbin "RuinsTSA.bin"
+
+RuinsPalette:
+#incbin "RuinsPalette.bin"
+
+TallForestImage:
+#incbin "TallForestImage.bin"
+
+TallForestTSA:
+#incbin "TallForestTSA.bin"
+
+TallForestPalette:
+#incbin "TallForestPalette.bin"
+
+ThroneRoomImage:
+#incbin "ThroneRoomImage.bin"
+
+ThroneRoomTSA:
+#incbin "ThroneRoomTSA.bin"
+
+ThroneRoomPalette:
+#incbin "ThroneRoomPalette.bin"

@@ -80,6 +80,9 @@
 #define Kalkin 0x53
 #define Manasa 0x54
 #define Bhatn 0x55
+#define Kesin 0x56
+#define CuRaoi 0x57
+#define Rionall 0x58
 #define Anluan 0x68
 #define Ochren 0x86
 #define OchrenMag 0x87
@@ -89,6 +92,7 @@
 #define AntariksaMag 0x8B
 #define Malava 0x8C
 #define MalavaMag 0x8D
+#define AntariksaGuard 0x8E
 
 #define Sibyl 0x1
 #define Hobelar 0x2
@@ -100,6 +104,8 @@
 #define SilverKnight 0x8
 #define LanceKnight 0x9
 #define LanceKnight_F 0xA
+#define LanceKeeper 0x9
+#define LanceKeeper_F 0xA
 #define Vagabond 0x10
 #define Thief_F 0x12
 #define Diabolist 0x25
@@ -122,7 +128,9 @@
 #define Crownflier 0x49
 #define Trobairitz 0x4B
 #define AxeKnight 0x52
+#define AxeKeeper 0x52
 #define SwordKnight 0x54
+#define SwordKeeper 0x54
 #define Templar 0x55
 #define DarkKnight 0x56
 #define DarkKnight_F 0x57
@@ -143,12 +151,6 @@
 #define SnakeAxe 0x22
 #define Snakebow 0x30
 #define SnakeBow 0x30
-#define IronPike 0x84
-#define IronGreatlance 0x84
-#define SteelPike 0x85
-#define SteelGreatlance 0x85
-#define SilverPike 0x86
-#define SilverGreatlance 0x86
 #define MalkuthI 0x3F
 #define YesodII 0x40
 #define Swiftsole 0x62
@@ -161,6 +163,12 @@
 #define IronWarbow 0x81
 #define SteelWarbow 0x82
 #define SilverWarbow 0x83
+#define IronPike 0x84
+#define IronGreatlance 0x84
+#define SteelPike 0x85
+#define SteelGreatlance 0x85
+#define SilverPike 0x86
+#define SilverGreatlance 0x86
 #define MetisTome 0x89
 #define Clonkeine 0x8A
 #define Padma 0xB8
@@ -215,9 +223,18 @@
 #define BigForestPath 0x1B
 #define OutsideGate 0x1C
 #define WoodsCG 0x1D
+#define BedroomDay 0x1E
+#define Campsite 0x1F
+#define CastleRuins 0x20
 #define Lakeside 0x21
 #define SparseForest 0x22
+#define DiningRoom 0x23
+#define ForestOpening 0x24
+#define Office 0x25
 #define FortInterior 0x26
+#define RuinsCG 0x27
+#define TallForest 0x28
+#define ThroneRoom 0x29
 #define ForestMorning 0x2B
 #define ThroneRoomNight 0x2D
 #define BlackCG 0x35

@@ -286,6 +286,19 @@ Lalitha_Minimug:
 #incbin "Lalitha_minimug.dmp"
 
 ALIGN 4
+LalithaPTS_Mug:
+#incbin "LalithaPTS_mug.dmp"
+ALIGN 4
+LalithaPTS_Frames:
+#incbin "LalithaPTS_frames.dmp"
+ALIGN 4
+LalithaPTS_Palette:
+#incbin "LalithaPTS_palette.dmp"
+ALIGN 4
+LalithaPTS_Minimug:
+#incbin "LalithaPTS_minimug.dmp"
+
+ALIGN 4
 Lamech_Mug:
 #incbin "Lamech_mug.dmp"
 ALIGN 4

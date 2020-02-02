@@ -490,6 +490,12 @@ breaking promises[X]
 ## GedaliahHeightID
 180cm[X]
 
+## GedaliahAgePTSID
+34[X]
+
+## GedaliahHeightPTSID
+180cm[X]
+
 ## JhudielAgeID
 46[X]
 
@@ -777,3 +783,183 @@ starry skies[X]
 
 ## BhatnHeightID
 160cm[X]
+
+## RudramLike1ID
+booming drums[X]
+
+## RudramLike2ID
+foreigners[X]
+
+## RudramDislike1ID
+stagnation[X]
+
+## RudramDislike2ID
+boats[X]
+
+## RudramAgeID
+26[X]
+
+## RudramHeightID
+176cm[X]
+
+## DanandLike1ID
+Wardbearer Aingha[X]
+
+## DanandLike2ID
+patchouli plants[X]
+
+## DanandDislike1ID
+imprisonment[X]
+
+## DanandDislike2ID
+wealth[X]
+
+## DanandAgeID
+36[X]
+
+## DanandHeightID
+158cm[X]
+
+## KyuhnLike1ID
+patchwork clothing[X]
+
+## KyuhnLike2ID
+fletching arrows[X]
+
+## KyuhnDislike1ID
+minced vegetables[X]
+
+## KyuhnDislike2ID
+change[X]
+
+## KyuhnAgeID
+23[X]
+
+## KyuhnHeightID
+170cm[X]
+
+## BhekiLike1ID
+songbirds[X]
+
+## BhekiLike2ID
+warm campfires[X]
+
+## BhekiDislike1ID
+The Sagarian Order[X]
+
+## BhekiDislike2ID
+braiding hair[X]
+
+## BhekiAgeID
+15[X]
+
+## BhekiHeightID
+155cm[X]
+
+## GusainjiLike1ID
+obscure trivia[X]
+
+## GusainjiLike2ID
+fasting[X]
+
+## GusainjiDislike1ID
+illiteracy[X]
+
+## GusainjiDislike2ID
+the colour red[X]
+
+## GusainjiAgeID
+25[X]
+
+## GusainjiHeightID
+175cm[X]
+
+## MuruganLike1ID
+his family[X]
+
+## MuruganLike2ID
+moments of prayer[X]
+
+## MuruganDislike1ID
+conformity[X]
+
+## MuruganDislike2ID
+fog[X]
+
+## MuruganAgeID
+27[X]
+
+## MuruganHeightID
+191cm[X]
+
+## RionallLike1ID
+religious ceremonies[X]
+
+## RionallLike2ID
+autumn[X]
+
+## RionallDislike1ID
+the clergy of Heichalot[X]
+
+## RionallDislike2ID
+horseback riding[X]
+
+## RionallAgeID
+62[X]
+
+## RionallHeightID
+182cm[X]
+
+## CuRaoiLike1ID
+strategy games[X]
+
+## CuRaoiLike2ID
+the Crownflight[X]
+
+## CuRaoiDislike1ID
+Srughna[X]
+
+## CuRaoiDislike2ID
+crying children[X]
+
+## CuRaoiAgeID
+44[X]
+
+## CuRaoiHeightID
+159cm[X]
+
+## KesinLike1ID
+wealth[X]
+
+## KesinLike2ID
+long hair[X]
+
+## KesinDislike1ID
+disobedience[X]
+
+## KesinDislike2ID
+being watched[X]
+
+## KesinAgeID
+53[X]
+
+## KesinHeightID
+165cm[X]
+
+## AinghaLike1ID
+vengeance[X]
+
+## AinghaLike2ID
+wyverns[X]
+
+## AinghaDislike1ID
+the feeling of suspense[X]
+
+## AinghaDislike2ID
+Heichalot[X]
+
+## AinghaAgeID
+25[X]
+
+## AinghaHeightID
+166cm[X]

@@ -9,6 +9,7 @@
 	ALIGN 4
 	PortraitSelectionTable:
 	PortraitSelectionEntry(EthniuPortPTS,EthniuPort,TimeSkipList,0xABAB)
+	PortraitSelectionEntry(LalithaPTSPort,LalithaPort,TimeSkipList,0xACAC)
 	SHORT 0x0 0x0 0x0 0x0 0x0 0x0
 	TimeSkipList:
 	BYTE TimeSkipFlag True 0x0 0x0

@@ -32,7 +32,7 @@ BYTE 00 00
 ALIGN 4
 
 BowCavSkillList:
-BYTE 10 SureShotID
+BYTE 10 ForagerID
 BYTE 00 00
 ALIGN 4
 
@@ -278,5 +278,10 @@ ALIGN 4
 
 AntariksaSkillList:
 BYTE 1 EvenRhythmID
+BYTE 00 00
+ALIGN 4
+
+AntariksaGuardSkillList:
+BYTE 1 CertainBlowID
 BYTE 00 00
 ALIGN 4

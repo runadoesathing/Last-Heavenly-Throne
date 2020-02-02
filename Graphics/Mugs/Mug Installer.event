@@ -150,7 +150,7 @@ setMugSlot(HwenPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Fram
 
 setMugSlot(FerdiadPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
 setMugSlot(HanlinPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
-setMugSlot(LalithaPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(LalithaPTSPort, LalithaPTS_Mug, LalithaPTS_Minimug, LalithaPTS_Palette, LalithaPTS_Frames, 2, 6, 3, 4) // placeholder
 setMugSlot(SadhbhPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
 setMugSlot(MariciPort, Marici_Mug, Marici_Minimug, Marici_Palette, Marici_Frames, 3, 6, 3, 4)
 setMugSlot(BresPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder

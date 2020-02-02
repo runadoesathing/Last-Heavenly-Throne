@@ -141,7 +141,7 @@ Grado Soldier 11 (Duessel's),AntariksaSkillList|IsPointer
 Grado Soldier 12 (Duessel's),AntariksaSkillList|IsPointer
 Grado Soldier 13,0
 Grado Remnant 1 (Main),0
-Cutthroat,0
+Cutthroat,AntariksaGuardSkillList|IsPointer
 Grado Remnant 2 (Cutscene and C16 only?),0
 Grado Remnant 3 (C16 only?),0
 Grado Remnant 4 (C16 only?),0

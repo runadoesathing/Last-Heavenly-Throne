@@ -48,6 +48,12 @@ of Anila's outskirts[X]
 ## DefendObj
 Defend[X]
 
+## Ch8Long
+Seize the throne[X]
+
+## SeizeThroneObj
+Seize throne[X]
+
 #include "Chapter Text/part1chapter1.txt"
 #include "Chapter Text/part1chapter1x.txt"
 #include "Chapter Text/part1chapter2.txt"
