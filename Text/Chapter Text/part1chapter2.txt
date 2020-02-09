@@ -554,7 +554,7 @@ Follow me![X]
 You foolish bandit! You'll...[MoveMidLeft][ToggleSmile]
 Oh, you're not that awful man!
 Thank you very much for saving me!
-My name is Lalitha Pancala, strongest magician in all of Maghmeall!
+My name is Talitha Pancala, strongest magician in all of Maghmeall!
 I pledge myself to your cause until all of those terrible bandits are gone![.....][ToggleSmile]
 But[CloseEyes] I may need my tome back first...[X]
 
@@ -781,7 +781,7 @@ It's better than staying in some moldy fort!
 You're the girl from earlier... Did you need something?
 
 [Left][ToggleSmile]
-I am Lalitha Pancala, strongest magician in all of Maghmeall!
+I am Talitha Pancala, strongest magician in all of Maghmeall!
 Taking me with you would be a wise decision, mister.
 My magical abilities are completely unparalleled!
 
@@ -793,7 +793,7 @@ Hmph![MoveLeft]
 I could've defeated them had I tried with more than-
 
 [MidRight]
-Lalitha. If you truly wish to come, I will not stop you.
+Talitha. If you truly wish to come, I will not stop you.
 Just know we are headed to a battleground.
 
 [Left]
@@ -805,7 +805,7 @@ Very well then.
 We'll leave in a few. Be ready.[ClearFace][......]
 
 [FarLeft][ToggleSmile]
-Tried with more than what, Lalitha?
+Tried with more than what, Talitha?
 You didn't finish your sentence.
 
 [Left][ToggleSmile]
@@ -837,7 +837,7 @@ I saw you using magic earlier...
 Are you truly a magician?
 
 [MidLeft]
-Of course I am! You're talking to Lalitha Pancala, strongest mage in all of Maghmeall!
+Of course I am! You're talking to Talitha Pancala, strongest mage in all of Maghmeall!
 I can blast anyone I wish down with my arcane might!
 
 [MidRight]

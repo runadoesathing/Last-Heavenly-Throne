@@ -17,7 +17,7 @@ Aingha[X]
 Sadhbh[X]
 
 ## LalithaName
-Lalitha[X]
+Talitha[X]
 
 ## AengusName
 Aengus[X]
@@ -285,8 +285,8 @@ Mercenary from the border of[N]
 Heichalot and Corbenic.[X]
 
 ## AillenDesc
-Brigand of Caer Golud. Seeks revenge[N]
-on Lalitha for killing his men.[X]
+Brigand of the Golud province.[N]
+Vengeful and greedy.[X]
 
 ## LamechDesc
 Squadron leader charged with the[N]
@@ -410,6 +410,18 @@ magic. Aloof and disdainful.[X]
 ## MuruganDesc
 A fighter on hard times. Wishes to[N]
 eventually see his family again.[X]
+
+## EthniuPTSDesc
+Acolyte of the Dharan Order, and[N]
+companion of Srihwen. Quite obstinate.[X]
+
+## LalithaPTSDesc
+Greatmother apparent of the Pavakan[N]
+people. She's upbeat and self-assured.[X]
+
+## TestDescFFFF
+This is a test. Play Last[N]
+Heavenly Throne please.[X]
 
 
 

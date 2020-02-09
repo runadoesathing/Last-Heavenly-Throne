@@ -14,7 +14,7 @@
 [.5] = [.....]
 [.6] = [......]
 [.7] = [.......]
-[Beat] = [ToggleMouthMove]...[.4][ToggleMouthMove]
+[Beat] = [ToggleMouthMove].[....].[....].[.....][ToggleMouthMove]
 [Event] = [LoadOverworldFaces]
 
 [FarFarLeft] = [OpenFarFarLeft]
@@ -56,6 +56,7 @@
 [LoadHanlin] = [LoadFace][0x6][0x1]
 [LoadSadhbh] = [LoadFace][0x7][0x1]
 [LoadLalitha] = [LoadFace][0xAC][0xAC]
+[LoadTalitha] = [LoadFace][0xAC][0xAC]
 [LoadAengus] = [LoadFace][0x9][0x1]
 [LoadMiach] = [LoadFace][0xA][0x1]
 [LoadBres] = [LoadFace][0xB][0x1]

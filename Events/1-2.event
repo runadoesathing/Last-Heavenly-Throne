@@ -29,7 +29,7 @@ Village(0x9,SteelAxeVillage,7,2)
 Village(0xA,SlimBowVillage,2,3)
 Village(0xB,PureWaterVillage,7,11)
 Village(0xC,ShineGuardVillage,13,9)
-House(0x0,AinghaHouse,10,12)
+House(0x0,AinghaHouse,9,12)
 END_MAIN
 
 MiscBasedEvents:

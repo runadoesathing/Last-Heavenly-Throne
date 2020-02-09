@@ -62,3 +62,74 @@ It all depends on her.
 She nurtures us, she protects us...
 You could consider her the greatest of all grandmothers.
 I only hope her protection is enough against Heichalot.[X]
+
+## P1C1MiachAirmedCethern
+[ConversationText]
+[OpenMidLeft][LoadMiach][OpenMidRight][LoadAirmed]
+Miach! You're gonna spill the water everywhere! 
+It took so long to heat!
+
+[OpenMidLeft]
+You try holding it! It's hotter and heavier than you think!
+
+[OpenMidRight]
+I can't believe the nurse let you do this with me!
+
+[OpenMidLeft]
+I can't believe the nurse thought you were the best person to take care of him! 
+If you're gonna nag at me, do the whole thing yourself!
+
+[OpenFarFarRight][LoadCethern]
+Miach? Airmed?
+Are you both in there?
+
+[OpenMidLeft]
+It's Cethern![MoveMidLeft][MoveFarLeft]
+
+[OpenMidRight]
+Why are you putting the pot down?! 
+Our grandpa needs it!
+
+[MoveLeft][ClearFace][OpenLeft][LoadAirmed]
+[OpenFarFarRight][MoveFarRight][OpenFarRight][ToggleSmile]
+Am I bothering something?
+I see you're both quite busy.
+
+[OpenFarLeft]
+Cethern! Did you beat those bandits into a pulp?!
+
+[OpenFarRight]
+I guess you could say that.
+You both taking care of our old man?
+
+[OpenLeft][ToggleSmile]
+I'm trying to take care of him.
+But Miach keeps messing everything up!
+
+[OpenFarLeft]
+Sorry, who did the nurse say could help?
+You're not even helping, only bossing me around![MoveFarLeft][ToggleSmile]
+Can I come kill some brigands instead with you next time, Cethern?
+
+[OpenFarRight]
+I'll think about it. 
+I think you've got a lot of training yourself before you could help.
+
+[OpenLeft][ToggleSmile]
+That's not fair! 
+Am I not allowed?
+I've actually been working myself tired unlike some brothers!
+I'm barely even younger than you!
+
+[OpenFarRight][MoveFarRight]
+...[ToggleSmile]Maybe I should leave you two alone.
+You're better taking care of him without me distracting you.
+I'll be out helping with some of the clean-up.
+
+[ClearFace][ToggleSmile][OpenFarLeft][......]
+Airmed!
+You scared him away!
+
+[OpenLeft]
+What are you talking about?!
+It was obviously your begging![X]

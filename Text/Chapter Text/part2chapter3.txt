@@ -49,24 +49,21 @@ I send curses upon you from the bearers...[X]
 
 
 ## P2C3NakstraniSrihwenTalk
-[ConversationText]
 [MidRight][LoadSrihwen]
 [MidLeft][LoadNakstrani]
-You...![MoveMidLeft]
-You're that white-haired oracle![.....]
-So you really are here...
-Yet, you don't even have a weapon...[MoveMidLeft]
-Why would you come towards me?
-I'm your enemy.[.....]
-You know that, right?
+You...![......][MoveMidLeft] You're that white-haired oracle![......][N]
+So you really are here...[AN]
+Yet,[.....] you don't even have a weapon...[......][N]
+Why would you come towards me?[AN]
+I'm your enemy.[......] You know that, right?[A]
 
 [MidRight]
-You're hesitant, aren't you...?
-I can feel your feet sulk on the ground.
+You're hesitant,[......] aren't you...?[......][N]
+I can feel your feet sulk on the ground.[A]
 
 [MidLeft]
-You can feel it in my footsteps?
-No magic tome can do that...
+You can feel it in my footsteps?[......][N]
+No magic tome can do that...[AN]
 You're lying, aren't you?
 Trying to fool me into your cause?
 
@@ -119,3 +116,45 @@ Nobody'll come up from there, so I should be a little safer.
 I wonder if that pale harpy they're so obsessed with is here?
 Not like that would change much, though...
 It seems I'm doomed no matter what.[X]
+
+
+
+## P2C3JavelinVillage
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadBlackHairGirl]
+When it comes to sporting,[.....] I've always[N]
+preferred a discus to a javelin.[AN]
+I find them easier to throw,[.....] but if[N]
+I somehow got involved in a fight...[AN]
+A javelin would probably be a better[N]
+weapon to protect myself than a disc.[AN]
+But,[.....] I don't see myself going to war[N]
+for any reason any time soon.[AN]
+You got any use for a javelin like[N]
+this?[......] If so,[.....] it's yours.[A][X]
+
+
+
+## P2C3HandAxeVillage
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadBlandMan]
+Have you ever wondered why a hand[N]
+axe always flies back to its owner?[AN]
+[MoveMidRight]Don't expect me to tell you why![......][N]
+I'm just as curious as you are![AN]
+It's gotta be magic, I'm telling you.[......][N]
+Some sort of hocus pocus stuff.[AN]
+Here,[.....] you could take one and find[N]
+out the answer for me.[AN]
+Just make sure you come back![A][X]
+
+
+
+## P2C3MendVillage
+[MidLeft][LoadFace][0xFF][0xFF]
+[MidRight][LoadEnemySoldier]
+Gah![MoveMidRight][......] Don't look at me like that![......][N]
+I'm too young to die![AN]
+I can't even fight![AN]
+Here,[.....] take what I have...[......][N]
+Just please let me live![A][X]

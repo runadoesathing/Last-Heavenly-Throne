@@ -1,0 +1,12 @@
+08088BD8 4804     ldr     r0,=#0x2003BFC
+08088BDA 68C0     ldr     r0,[r0,#0xC]
+08088BDC 4B00     ldr     r3,=#0x8BAE019
+08088BDE 4718     bx      r3
+08088BE0 E019     b       #0x8088C16
+08088BE2 08BA     lsr     r2,r7,#0x2
+08088BE4 1C08     mov     r0,r1
+08088BE6 304C     add     r0,#0x4C
+08088BE8 8002     strh    r2,[r0]
+08088BEA E004     b       #0x8088BF6
+08088BEC 3BFC     sub     r3,#0xFC
+

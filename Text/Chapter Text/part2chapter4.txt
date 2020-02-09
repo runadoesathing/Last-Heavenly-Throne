@@ -1,0 +1,95 @@
+## P2C2ELTalk
+[ConversationText]
+[MidRight][LoadLalitha]
+[MidLeft][LoadEthniu]
+Well, aren't you a sight for sore eyes...
+It'd make sense that you're here.
+
+[MidRight]
+You...!
+You're from Corbenic!
+Ethniu, that other magician, right?
+
+[MidLeft]
+It's been a long time, hasn't it?
+We didn't get to talk much, but...
+
+[MidRight]
+I don't think there's much time to talk now either!
+You're not with the Antariksan Order, are you?
+
+[MidLeft]
+Dhara.
+We're on your side, don't worry.
+
+[MidRight]
+Oh, thank our Penumbra...!
+We should get moving then![ToggleSmile]
+Let's blast them back to their own monastery!
+
+[ToggleSmile][MidLeft][MidRight][ClearFace][......][MidLeft][ToggleSmile]
+It seems time didn't wipe away her enthusiasm, that girl...[X]
+
+
+
+## P2C2RLTalk
+[ConversationText]
+[MidLeft][LoadRudram]
+[MidRight][LoadLalitha]
+Rudram!
+You found help!
+
+[MidLeft]
+Indeed I did!
+They're from the Dharan Order.
+Apparently Antariksa's been giving them trouble too.
+
+[MidRight][ToggleSmile]
+So they'll wanna help us!
+Perfect!
+
+[MidLeft][ToggleSmile]
+We should fall in with them.
+Best to stay with the group so you don't get hurt.
+
+[MidRight]
+I don't need to worry about getting hurt![ToggleSmile]
+I might not be bulky, but I'll sure incinerate them into dust!
+
+[ToggleSmile][MidLeft][MidRight][ClearFace][......][MidLeft]
+She needs to be more careful, that Talitha.
+Both our orders would be devastated if either of us got hurt.
+Well, then again, [CloseEyes]my order probably thinks I'm dead...[X]
+
+
+
+## P2C2SLTalk
+[ConversationText]
+[MidRight][LoadLalitha]
+[MidLeft][LoadSrihwen]
+Please, hold your fire...!
+We're here to help you.
+
+[MidRight]
+You...!
+You're that daughter of Hwen, aren't you?!
+
+[MidLeft]
+I...
+I guess you could put it that way.
+
+[MidRight][ToggleSmile]
+Thank goodness!
+The Penumbra watches over us once again!
+You know, your face looks real familiar...
+
+[MidLeft][ToggleSmile]
+I[....]-I don't think we've met before...
+
+[MidRight][ToggleSmile]
+Eh, it's probably the pure heart of Hwen shining through.
+Come on, we need to get moving!
+Let's blast them back to their own monastery!
+
+[MidLeft][ToggleSmile][MidRight][ToggleSmile][ClearFace][......][MidLeft][ToggleSmile]
+She knows I only have a healing staff, right...?[X]

@@ -195,6 +195,21 @@ BL(0x17624) //gets item crit
 SHORT 0x1C02 0xE002 //mov r2,r0; b 2C678
 POP
 
+PUSH
+  ORG $30366
+    BYTE 0xC0
+  ORG $3066D
+    BYTE 0x18
+  ORG $59D95F
+    BYTE 0x18
+  ORG $59D967
+    BYTE 0x18
+  ORG 0x309B2
+    BYTE 0xA8
+  ORG 0x3053C
+    BYTE 0x18
+POP
+
 ALIGN 4
 Load2AlwaysTable:
 BYTE 0x1 Soma

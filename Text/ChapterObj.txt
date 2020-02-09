@@ -63,3 +63,4 @@ Seize throne[X]
 #include "Chapter Text/part2chapter1.txt"
 #include "Chapter Text/part2chapter2.txt"
 #include "Chapter Text/part2chapter3.txt"
+#include "Chapter Text/part2chapter4.txt"

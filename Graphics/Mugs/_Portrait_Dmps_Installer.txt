@@ -26,6 +26,19 @@ Aillen_Minimug:
 #incbin "Aillen_minimug.dmp"
 
 ALIGN 4
+Aingha_Mug:
+#incbin "Aingha_mug.dmp"
+ALIGN 4
+Aingha_Frames:
+#incbin "Aingha_frames.dmp"
+ALIGN 4
+Aingha_Palette:
+#incbin "Aingha_palette.dmp"
+ALIGN 4
+Aingha_Minimug:
+#incbin "Aingha_minimug.dmp"
+
+ALIGN 4
 AirmedAlpha_Mug:
 #incbin "AirmedAlpha_mug.dmp"
 ALIGN 4
@@ -115,6 +128,19 @@ Cethern_Palette:
 ALIGN 4
 Cethern_Minimug:
 #incbin "Cethern_minimug.dmp"
+
+ALIGN 4
+Chakora_Mug:
+#incbin "Chakora_mug.dmp"
+ALIGN 4
+Chakora_Frames:
+#incbin "Chakora_frames.dmp"
+ALIGN 4
+Chakora_Palette:
+#incbin "Chakora_palette.dmp"
+ALIGN 4
+Chakora_Minimug:
+#incbin "Chakora_minimug.dmp"
 
 ALIGN 4
 CuRaoi_Mug:

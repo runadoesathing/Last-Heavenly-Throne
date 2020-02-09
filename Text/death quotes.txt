@@ -284,7 +284,14 @@ Leaving you was my biggest regret...[X]
 
 ## LalithaPTSDeathQ
 [BattleText]
-[OpenMidRight][LoadLalitha]
-Why must the shadow of death cover me now...?
-My Penumbra...[CloseEyes]
-Forgive me...[X]
+[MidRight][LoadLalitha]
+It's not over yet...!
+I am...[CloseEyes] my people's bulwark...[X]
+
+
+
+## BresPTSDeathQ
+[BattleText]
+[OpenMidRight][LoadBres]
+It's okay.
+I came to terms with this a long time ago...[X]

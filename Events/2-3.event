@@ -116,6 +116,12 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC 0x4C
+SetBackground(BedroomDay)
+Text(PlaceholderText)
+MUSCMID 0x7FFF
+FADI 4
+STAL 60
 LOAD2 0x1 UnitsP
 ENUN
 LOAD1 0x1 Birin
@@ -138,11 +144,11 @@ STORETOSOMETHING 0x0 // lowers music volume
 MUSI // lowers music volume
 TEXTSTART
 SVAL 0x2 VillageCG
-SVAL 0x3 P2C1SlimLanceVillage
+SVAL 0x3 P2C3JavelinVillage
 CALL 0x9EE310
 REMA
 CALL 0x591F40
-SVAL 0x3 Snakespear
+SVAL 0x3 Javelin
 GIVEITEMTO 0xFFFF
 MUNO // increases music volume
 NoFade
@@ -153,7 +159,7 @@ STORETOSOMETHING 0x0 // lowers music volume
 MUSI // lowers music volume
 TEXTSTART
 SVAL 0x2 VillageCG
-SVAL 0x3 P2C1SlimLanceVillage
+SVAL 0x3 P2C3MendVillage
 CALL 0x9EE310
 REMA
 CALL 0x591F40
@@ -168,11 +174,11 @@ STORETOSOMETHING 0x0 // lowers music volume
 MUSI // lowers music volume
 TEXTSTART
 SVAL 0x2 VillageCG
-SVAL 0x3 P2C1SlimLanceVillage
+SVAL 0x3 P2C3HandAxeVillage
 CALL 0x9EE310
 REMA
 CALL 0x591F40
-SVAL 0x3 Hammer
+SVAL 0x3 HandAxe
 GIVEITEMTO 0xFFFF
 MUNO // increases music volume
 NoFade

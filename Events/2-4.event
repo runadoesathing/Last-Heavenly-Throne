@@ -13,6 +13,8 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TURN 0x0 BandoleoBandoleo [4,0] 0x0
+TURN 0x0 OHNOATHIEF       [6,0] 0x0
 END_MAIN
 
 CharacterBasedEvents:
@@ -22,9 +24,10 @@ CharacterEventBothWays(0x8, LalithaTalkRL, Rudram, Lalitha)
 END_MAIN
 
 LocationBasedEvents:
-Chest(RedGem,3,1)
+Chest(Thunder,3,1)
 Chest(BodyRing,5,1)
-Chest(Thunder,7,1)
+Chest(IronWarbow,7,1)
+Door(7,3)
 House(0x0,PavakaHouse,3,8)
 Village(0x9,PavakaVillage,10,10)
 END_MAIN
@@ -45,6 +48,12 @@ END_MAIN
 Tutorial:
 END_MAIN
 
+EscapePointPointerTable(0x9, P2C4EP)
+
+P2C4EP:
+EscapePoint(3, 2, NoMove)
+TerminateEscapePoints
+
 UnitsP:
 UNIT Srihwen Sibyl 0x0 Level(0, Ally, 0)     [3,12] 0 0 0 0 [0x0] [0,0,0,0] 
 UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,12] 0 0 0 0 [0x0] [0,0,0,0]
@@ -60,37 +69,42 @@ UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [3,16] 0 0 0 0 [0x0] [0,0,0,0]
 UNIT
 
 RudramP:
-UNIT Rudram Woodsman 0x0 Level(3, Ally, 0)   [2,10] 0 0 0 0 [SteelAxe,Lockpick] [0,0,0,0]
+UNIT Rudram Woodsman 0x0 Level(3, Ally, 0)   [2,10] 0 0 0 0 [IronAxe,SteelAxe,Vulnerary] [0,0,0,0]
 UNIT
 
 LalithaLoad:
-UNIT Lalitha Diabolist_F 0x0 Level(0, NPC, 0)    [7,8] 0 0 0 0 [0x0] [0,3,4,0]
+UNIT Lalitha Diabolist_F 0x0 Level(0, NPC, 0)    [7,8] 0 0 0 0 [0x0] [0,3,3,0]
 UNIT
 
 NewLalitha:
-UNIT Lalitha Diabolist_F 0x0 Level(4, NPC, 1)    [7,8] 0 0 0 0 [0x0] [0,3,4,0]
+UNIT Lalitha Diabolist_F 0x0 Level(4, NPC, 1)    [7,8] 0 0 0 0 [0x0] [0,3,3,0]
 UNIT
 
 EnemiesP:
-UNIT Goga Diabolist 0x0 Level(10, Enemy, 0)              [15,1]  0 0 0 0        [Elfire]            [3,3,4,0x20]
-UNIT Antariksa Soldier 0x0 Level(4, Enemy, 1)            [3,6]   0 0 0 0        [SlimLance]         [0,6,4,0]
-UNIT AntariksaMag Diviner_F 0x0 Level(4, Enemy, 1)       [9,13]  0 0 0 0        [MalkuthI]          [0,6,4,0]
-UNIT Antariksa Fighter 0x0 Level(3, Enemy, 1)            [4,10]  DropItem 0 0 0 [HandAxe]           [0,6,4,0]
-UNIT Antariksa Myrmidon 0x0 Level(4, Enemy, 1)           [0,4]   0 0 0 0        [Armorslayer]       [0,0,4,0]
-UNIT Antariksa BowCav 0x0 Level(5, Enemy, 1)             [9,17]  0 0 0 0        [IronBow]           [0,6,4,0]
-UNIT AntariksaMag Diviner 0x0 Level(4, Enemy, 1)         [11,14] 0 0 0 0        [MalkuthI]          [0,3,4,0]
-UNIT Antariksa Mercenary 0x0 Level(3, Enemy, 1)          [1,8]   DropItem 0 0 0 [SteelSword]        [0,6,4,0]
-UNIT Bandit Brigand 0x0 Level(6, Enemy, 1)               [17,15] 0 0 0 0        [SnakeAxe,Elixir]   [0,4,4,0]
-UNIT AntariksaGuard SwordKnight 0x0 Level(7, Enemy, 1)   [15,7]  0 0 0 0        [LightBrand,RedGem] [3,3,4,0x20]
-UNIT AnilaMag Mystic 0x0 Level(5, Enemy, 1)              [13,6]  DropItem 0 0 0 [Flux]              [0,3,4,0]
-UNIT Anila Fighter 0x0 Level(5, Enemy, 1)                [17,6]  0 0 0 0        [SteelAxe]          [0,6,4,0]
-UNIT Antariksa LanceKnight 0x0 Level(4, Enemy, 1)        [14,16] 0 0 0 0        [IronGreatlance]    [0,3,4,0]
-UNIT Antariksa LanceCav_F 0x0 Level(5, Enemy, 1)         [15,11] 0 0 0 0        [IronLance]         [0,3,4,0]
+UNIT Goga Diabolist 0x0 Level(10, Enemy, 0)              [15,1]  0 0 0 0               [Elfire]                 [3,3,4,0x20]
+UNIT Antariksa Soldier 0x0 Level(4, Enemy, 1)            [3,6]   0 0 0 0               [SlimLance]              [0,6,4,0]
+UNIT AntariksaMag Diviner_F 0x0 Level(4, Enemy, 1)       [9,13]  0 0 0 0               [MalkuthI]               [0,6,4,0]
+UNIT Antariksa Fighter 0x0 Level(3, Enemy, 1)            [4,10]  DropItem 0 0 0        [HandAxe, DoorKey]       [0,6,4,0]
+UNIT Antariksa Myrmidon 0x0 Level(4, Enemy, 1)           [0,4]   DropItem 0 0 0        [Armorslayer, ChestKey]  [0,0,4,0]
+UNIT Antariksa BowCav 0x0 Level(5, Enemy, 1)             [9,17]  0 0 0 0               [IronBow]                [0,0x12,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(4, Enemy, 1)         [11,14] 0 0 0 0               [MalkuthI]               [0,3,4,0]
+UNIT Antariksa Mercenary 0x0 Level(3, Enemy, 1)          [1,8]   DropItem 0 0 0        [SteelSword]             [0,6,4,0]
+UNIT 0x80 Brigand 0x0 Level(6, Enemy, 1)                 [17,15] 0 0 0 0               [SnakeAxe,Elixir]        [0,4,4,0]
+UNIT AntariksaGuard SwordKnight 0x0 Level(7, Enemy, 1)   [15,7]  DropItem 0 0 0        [LightBrand,RedGem]      [3,3,4,0x20]
+UNIT AnilaMag Mystic 0x0 Level(5, Enemy, 1)              [13,6]  DropItem 0 0 0        [Flux]                   [0,3,4,0]
+UNIT Anila Fighter 0x0 Level(5, Enemy, 1)                [17,6]  0 0 0 0               [SteelAxe]               [0,6,4,0]
+UNIT Antariksa LanceKnight 0x0 Level(4, Enemy, 1)        [14,16] 0 0 0 0               [IronGreatlance]         [0,3,4,0]
+UNIT Antariksa LanceCav_F 0x0 Level(5, Enemy, 1)         [15,11] 0 0 0 0               [IronLance]              [0,3,4,0]
 UNIT
 
 Turn3P:
-UNIT Antariksa WyvernRider 0x0 Level(5, Enemy, 1)        [0,0]   0 0 1 REDA1R0  [HandAxe]           [0,0,4,0]
-UNIT Antariksa WyvernRider 0x0 Level(5, Enemy, 1)        [0,0]   0 0 1 REDA0R2  [IronAxe]           [0,0,4,0]
+UNIT Antariksa WyvernRider 0x0 Level(5, Enemy, 1)        [0,0]   0 0 1 REDA1R0         [HandAxe]                [0,0,4,0]
+UNIT Antariksa WyvernRider 0x0 Level(5, Enemy, 1)        [0,0]   0 0 1 REDA0R2         [IronAxe]                [0,0,4,0]
+UNIT
+
+Turn6P:
+UNIT Anila Diabolist 0x0 Level(4, Enemy, 1)              [3,2]   DropItem 0 1 REDA3R2  [Fire, Lockpick, Elixir] [6,5,1,0]
+UNIT
 
 Traps1:
 ENDTRAP
@@ -118,7 +132,7 @@ BEQ 0x0 0xC 0x0
       LOAD2 0x1 LalithaLoad
       ENUN
       SilentlyGiveItem(Fire, Lalitha)
-      SilentlyGiveItem(PureWater, Lalitha)
+      SilentlyGiveItem(Lockpick, Lalitha)
       SilentlyGiveItem(Vulnerary, Lalitha)
       CheckAnimaRank(Lalitha)
       SVAL 1 31
@@ -128,7 +142,7 @@ LABEL 0x0
 LOAD1 0x1 NewLalitha
 ENUN
 SilentlyGiveItem(Fire, Lalitha)
-SilentlyGiveItem(PureWater, Lalitha)
+SilentlyGiveItem(Lockpick, Lalitha)
 SilentlyGiveItem(Vulnerary, Lalitha)
 LABEL 0x1
 SVAL 1 Lalitha
@@ -142,21 +156,21 @@ ENDA
 
 LalithaTalkEL:
 MUSC 0x30
-Text(PlaceholderText)
+Text(P2C2ELTalk)
 CUSA Lalitha
 NoFade
 ENDA
 
 LalithaTalkSL:
 MUSC 0x30
-Text(PlaceholderText)
+Text(P2C2SLTalk)
 CUSA Lalitha
 NoFade
 ENDA
 
 LalithaTalkRL:
 MUSC 0x30
-Text(PlaceholderText)
+Text(P2C2RLTalk)
 CUSA Lalitha
 NoFade
 ENDA
@@ -183,6 +197,24 @@ CALL 0x591F40
 SVAL 0x3 GoddessIcon
 GIVEITEMTO 0xFFFF
 MUNO // increases music volume
+NoFade
+ENDA
+
+BandoleoBandoleo:
+CAM1 [0,0]
+ENUN
+LOAD1 0x1 Turn3P
+ENUN
+STAL 60
+NoFade
+ENDA
+
+OHNOATHIEF:
+CAM1 [3,2]
+ENUN
+LOAD1 0x1 Turn6P
+ENUN
+STAL 60
 NoFade
 ENDA
 

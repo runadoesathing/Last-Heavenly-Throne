@@ -1,0 +1,27 @@
+///////////////////////////////////////////
+
+// FE8 Conditional Name Desc by Runa
+// this is unpolished but maybe someone else can fix it up :O
+
+// Change this to determine the EID that will control the description. This should be a global EID, but I'm not here to tell you what to do.
+#define ControlEventID 0x7A
+
+///////////////////////////////////////////
+
+#ifndef _FE8_
+ERROR "You're not assembling to an FE8 ROM!"
+#endif
+
+#include EAStdlib.event
+#include "Extensions/Hack Installation.txt"
+
+PUSH
+  ORG $88BD4
+    jumpToHack(ConditionalNameDesc)
+POP
+
+ALIGN 4
+ConditionalNameDesc:
+#include "conditional_ name_desc.lyn.event"
+POIN TimeSkipDescTable
+WORD ControlEventID

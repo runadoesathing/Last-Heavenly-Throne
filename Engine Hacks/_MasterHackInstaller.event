@@ -261,6 +261,13 @@ POP
   //Portrait Height Fix by Wan
   ALIGN 4
   #include "PortraitHeightFix/Portrait Shift Table.txt"
+  
+  //Conditional Name Desc by yours truly ;)
+  ALIGN 4
+  #include "ConditionalNameDesc/ConditionalInstaller.event"
+  
+  ALIGN 4
+  #include "DSFEAvoid/DSFEAvoid.event"
 
   ALIGN 4
   #include "SkillSystem/SkillSystemInstaller.event"

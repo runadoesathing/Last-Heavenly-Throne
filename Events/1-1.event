@@ -73,13 +73,13 @@ UNIT 0x68 Fighter 0x68 Level(3, Enemy, 1)    [2,3] 0 0 0 0 [HandAxe] NeverMoveAI
 UNIT
 
 EnemyElse:
-UNIT 0x80 Brigand 0x68 Level(1, Enemy, 1)        [0,8] 0 0 1 REDA6R1 [IronAxe] [0x0,0x0,0x4,0x0]
-UNIT 0x80 AxeCav 0x68 Level(1, Enemy, 1)         [0,9] 0 0 1 REDA1R7 [IronAxe] AttackInRangeAI
-UNIT 0x81 Soldier 0x68 Level(1, Enemy, 1)        [0,8] 0 0 1 REDA12R3 [IronLance] AttackInRangeAI
-UNIT 0x80 LanceKnight 0x68 Level(1, Enemy, 1)    [0,9] DropItem 0 1 REDA8R6 [IronLance] NeverMoveAI
-UNIT 0x80 Brigand 0x68 Level(1, Enemy, 1)        [0,9] 0 0 1 REDA4R8 [IronAxe] AttackInRangeAI
-UNIT 0x80 Fighter 0x68 Level(1, Enemy, 1)        [0,9] 0 0 1 REDA11R7 [IronAxe] AttackInRangeAI
-UNIT 0x80 Archer 0x68 Level(1, Enemy, 1)         [0,8] 0 0 1 REDA5R4 [IronBow] AttackInRangeAI
+UNIT 0x80 Brigand 0x68 Level(1, Enemy, 1)        [7,0] 0 0 1 REDA6R1 [IronAxe] [0x0,0x0,0x4,0x0]
+UNIT 0x80 AxeCav 0x68 Level(1, Enemy, 1)         [0,8] 0 0 1 REDA1R7 [IronAxe] AttackInRangeAI
+UNIT 0x81 Soldier 0x68 Level(1, Enemy, 1)        [12,0] 0 0 1 REDA12R3 [IronLance] AttackInRangeAI
+UNIT 0x80 LanceKnight 0x68 Level(1, Enemy, 1)    [6,9] DropItem 0 1 REDA8R6 [IronLance] NeverMoveAI
+UNIT 0x80 Brigand 0x68 Level(1, Enemy, 1)        [2,9] 0 0 1 REDA4R8 [IronAxe] AttackInRangeAI
+UNIT 0x80 Fighter 0x68 Level(1, Enemy, 1)        [14,3] 0 0 1 REDA11R7 [IronAxe] AttackInRangeAI
+UNIT 0x80 Archer 0x68 Level(1, Enemy, 1)         [0,4] 0 0 1 REDA5R4 [IronBow] AttackInRangeAI
 UNIT
 
 ReinforcementsBroH:
@@ -113,7 +113,7 @@ ALIGN 4
 BeginningScene:
 SetBackground(0x35)
 SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
-STAL 120
+STAL 60
 TUTORIALTEXTBOXSTART
 TEXTSHOW ShallYouSkip
 TEXTEND
@@ -163,15 +163,14 @@ FADI 16
 CLEAN
 LOAD1 0x1 EnemyUnits
 FADU 16
-STAL 60
+STAL 30
 BROWNBOXTEXT CaerRigor [8,8] // box in the top right that's pretty cool for small text
-STAL 60
 LOAD1 0x1 UnitsP
+ENUN
 CUMO [14,8] // loads a cursor
 STAL 60
 CURE // removes the cursor
 Text(P1C1BanditNotice)
-STAL 30
 CUMO [2,3] // loads a cursor
 STAL 90
 CURE // removes the cursor
@@ -216,6 +215,7 @@ TEXTEND
 REMA
 MUSCMID 0x7FFF // fades out the music
 FADI 3
+STAL 60
 EnterStop
 CLEAN // removes the background
 CLEA 0x0 // removes all player units
@@ -224,7 +224,7 @@ CLEN 0x0 // removes all npc units
 FADU 4
 STAL 15
 BROWNBOXTEXT LaterThatDay [8,8] // box in the top right that's pretty cool for small text
-STAL 60
+STAL 15
 LOAD2 0x1 CutscenePeople
 ENUN
 STAL 10

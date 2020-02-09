@@ -613,7 +613,7 @@ Cethern...![X]
 [ConversationText]
 [MidRight][LoadLalitha]
 [FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
-Lalitha!
+Talitha!
 Have you seen anything?
 
 [MidRight]
