@@ -78,16 +78,16 @@ UNIT
 
 EnemyUnits:
 UNIT 0x80 Archer Breguet Level(2, Enemy, 1)            [0,4] 0 0 1 REDA8R4          [IronBow] AttackInRangeAI
-UNIT 0x81 Cavalier Breguet Level(2, Enemy, 1)          [0,4] 0 0 1 REDA11R3        [IronLance] AttackInRangeAI
-UNIT 0x82 AxeKnight Breguet Level(4, Enemy, 1)         [0,4] DropItem 0 1 REDA12R5 [HandAxe,ChestKey] NeverMoveAI
+UNIT 0x81 Cavalier Breguet Level(2, Enemy, 1)          [0,4] 0 0 1 REDA11R3         [IronLance] AttackInRangeAI
+UNIT 0x81 AxeKnight Breguet Level(4, Enemy, 1)         [0,4] DropItem 0 1 REDA12R5  [HandAxe,ChestKey] NeverMoveAI
 UNIT 0x80 Brigand Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA2R6          [IronAxe] AttackInRangeAI
-UNIT 0x80 SwordKnight Breguet Level(1, Enemy, 1)       [0,5] 0 0 1 REDA2R9         [IronSword] AttackInRangeAI
+UNIT 0x80 SwordKnight Breguet Level(1, Enemy, 1)       [0,5] 0 0 1 REDA2R9          [IronSword] AttackInRangeAI
 UNIT 0x80 AxeCav Breguet Level(2, Enemy, 1)            [0,5] 0 0 1 REDA5R3          [IronAxe] AttackInRangeAI
-UNIT 0x81 Archer Breguet Level(2, Enemy, 1)            [0,4] 0 0 1 REDA14R5        [IronBow] AttackInRangeAI
-UNIT 0x80 Fighter Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA15R2        [IronAxe] AttackInRangeAI
-UNIT 0x81 Mage Breguet Level(2, Enemy, 1)              [0,4] 0 0 1 REDA13R2        [Fire] AttackInRangeAI
+UNIT 0x81 Archer Breguet Level(2, Enemy, 1)            [0,4] 0 0 1 REDA14R5         [IronBow] AttackInRangeAI
+UNIT 0x80 Fighter Breguet Level(2, Enemy, 1)           [0,5] 0 0 1 REDA15R2         [IronAxe] AttackInRangeAI
+UNIT 0x81 Mage Breguet Level(2, Enemy, 1)              [0,4] 0 0 1 REDA13R2         [Fire] AttackInRangeAI
 UNIT 0x83 Monk Breguet Level(2, Enemy, 1)              [0,5] 0 0 1 REDA9R7          [Lightning] AttackInRangeAI
-UNIT 0x81 Soldier Breguet Level(2, Enemy, 1)           [0,4] 0 0 1 REDA12R8        [IronLance] AttackInRangeAI
+UNIT 0x81 Soldier Breguet Level(2, Enemy, 1)           [0,4] 0 0 1 REDA12R8         [IronLance] AttackInRangeAI
 UNIT
 
 ReinforcementsHo:

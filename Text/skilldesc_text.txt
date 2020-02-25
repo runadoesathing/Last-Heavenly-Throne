@@ -123,7 +123,7 @@ Darting Blow: +4 attack speed[N]
 when initiating battle.[X]
 
 ## SD_WardingBlow
-Warding Blow: +4 Res[N]
+Warding Blow: +4 resistance[N]
 when initiating battle.[X]
 
 ## SD_CertainBlow
@@ -131,7 +131,7 @@ Certain Blow: +25 Hit[N]
 when initiating battle.[X]
 
 ## SD_ArmoredBlow
-Armored Blow: +4 Def[N]
+Armoured Blow: +4 defense[N]
 when initiating battle.[X]
 
 ## SD_Vantage
@@ -352,7 +352,7 @@ Opportunist: +4 damage if[N]
 the enemy cannot counter.[X]
 
 ## SD_Trample
-Trample: +5 damage to[N]
+Trample: +3 damage to[N]
 unmounted units.[X]
 
 ## SD_Camaraderie
@@ -1230,7 +1230,7 @@ Chandelle: Gain +2 Avoid[N]
 per space moved.[X]
 
 ## SD_MachaArts
-Macha Arts: Take -4 damage/gain +20[N]
+Macha Arts: Take -4 damage/gain +40[N]
 Avo when enemy has a sword equipped.[X]
 
 ## SD_MutedSoul
@@ -1281,3 +1281,7 @@ above 50% HP within two spaces.[X]
 ## SD_Abettor
 Confidant: If adjacent to Birnath, gain[N]
 +4 attack, Def/Res, and attack speed.[X]
+
+## SD_DiamondDef
+Diamond Defense: +Res/4 attack when[N]
+user's Res is higher than enemy's Res.[X]

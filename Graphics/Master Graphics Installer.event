@@ -5,6 +5,9 @@ MESSAGE Used animations space ends at currentOffset
 //Map Sprites Install
 #include "Map Sprites/MapSprites.txt"
 
+//Class Cards
+#include "Class Cards/Class Card Installer.event"
+
 ALIGN 4
 //Palettes Install
 #include "Palettes/Palette Setup.event"

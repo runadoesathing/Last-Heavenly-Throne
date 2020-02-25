@@ -9,7 +9,8 @@ POP
 
 #define setMugSlot(mugSlot, mugLocation, minimugLocation, paletteLocation, framesLocation, mouthX, mouthY, eyeX, eyeY, eyeControl) "POIN mugLocation; POIN minimugLocation; POIN paletteLocation; POIN framesLocation; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD eyeControl"
 #define setMugSlot(mugSlot, mugLocation, minimugLocation, paletteLocation, framesLocation, mouthX, mouthY, eyeX, eyeY) "POIN mugLocation; POIN minimugLocation; POIN paletteLocation; POIN framesLocation; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD 0x01"
-#define setCardEntry(cardEntry, cardPaletteLocation, cardLocation) "POIN 0 0 cardPaletteLocation 0 cardLocation; BYTE 0 0 0 0; WORD 0x1"
+#define setCardEntry(cardEntry, cardLocation, cardPaletteLocation) "POIN 0 0 cardPaletteLocation 0 cardLocation; BYTE 0 0 0 0; WORD 0x1"
+#define setCardEntryOld(cardEntry, cardPaletteLocation, cardLocation) "POIN 0 0 cardPaletteLocation 0 cardLocation; BYTE 0 0 0 0; WORD 0x1"
 
 ALIGN 16
 NewPortraitTable:
@@ -22,11 +23,11 @@ setMugSlot(FerdiadPort, Ferdiad_Mug, Ferdiad_Minimug, Ferdiad_Palette, Ferdiad_F
 setMugSlot(HanlinPort, HanlinAlpha_Mug, HanlinAlpha_Minimug, HanlinAlpha_Palette, HanlinAlpha_Frames, 2, 6, 3, 4)
 setMugSlot(SadhbhPort, SadhbhAlpha_Mug, SadhbhAlpha_Minimug, SadhbhAlpha_Palette, SadhbhAlpha_Frames, 2, 5, 3, 3)
 setMugSlot(LalithaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
-setMugSlot(AengusPort, AengusAlpha_Mug, AengusAlpha_Minimug, AengusAlpha_Palette, AengusAlpha_Frames, 2, 5, 3, 3)
+setMugSlot(AengusPort, Aengus_Mug, Aengus_Minimug, Aengus_Palette, Aengus_Frames, 3, 4, 3, 2)
 setMugSlot(MiachPort, MiachAlpha_Mug, MiachAlpha_Minimug, MiachAlpha_Palette, MiachAlpha_Frames, 3, 7, 3, 5)
 setMugSlot(BresPort, BresAlpha_Mug, BresAlpha_Minimug, BresAlpha_Palette, BresAlpha_Frames, 2, 5, 3, 3)
 setMugSlot(RionallPort, Rionall_Mug, Rionall_Minimug, Rionall_Palette, Rionall_Frames, 3, 5, 3, 3)
-setMugSlot(EthniuPort, EthniuAlpha_Mug, EthniuAlpha_Minimug, EthniuAlpha_Palette, EthniuAlpha_Frames, 2, 6, 3, 4)
+setMugSlot(EthniuPort, Ethniu_Mug, Ethniu_Minimug, Ethniu_Palette, Ethniu_Frames, 2, 5, 3, 3)
 setMugSlot(GedeonPort, Gedeon_Mug, Gedeon_Minimug, Gedeon_Palette, Gedeon_Frames, 2, 5, 2, 3)
 setMugSlot(JhudielPort, Jhudiel_Mug, Jhudiel_Minimug, Jhudiel_Palette, Jhudiel_Frames, 3, 5, 3, 3)
 setMugSlot(SrihwenPort, Srihwen_Mug, Srihwen_Minimug, Srihwen_Palette, Srihwen_Frames, 4, 5, 4, 3)
@@ -42,7 +43,7 @@ setMugSlot(CuRaoiPort, CuRaoi_Mug, CuRaoi_Minimug, CuRaoi_Palette, CuRaoi_Frames
 setMugSlot(FemaleEnemySoldierPort, FemaleEnemySoldier_Mug, FemaleEnemySoldier_Minimug, FemaleEnemySoldier_Palette, FemaleEnemySoldier_Frames, 4, 6, 4, 4)
 
 // PLACEHOLDER
-setMugSlot(EthniuPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+setMugSlot(EthniuPTSPort, Ethniu_Mug, Ethniu_Minimug, Ethniu_Palette, Ethniu_Frames, 2, 5, 3, 3)
 
 setMugSlot(SomaPort, Soma_Mug, Soma_Minimug, Soma_Palette, Soma_Frames, 4, 5, 4, 3)
 setMugSlot(SanjanaPort, Sanjana_Mug, Sanjana_Minimug, Sanjana_Palette, Sanjana_Frames, 4, 6, 4, 4)
@@ -87,8 +88,7 @@ setMugSlot(ManasaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Fr
 // PLACEHOLDER
 setMugSlot(BhatnPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
 
-// PLACEHOLDER
-setMugSlot(SarmareePort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+setMugSlot(SarmareePort, Sarmaree_Mug, Sarmaree_Minimug, Sarmaree_Palette, Sarmaree_Frames, 3, 5, 3, 3)
 
 // PLACEHOLDER
 setMugSlot(BhekiPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
@@ -164,9 +164,9 @@ setMugSlot(RionallPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalith
 setMugSlot(GedaliahPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
 setMugSlot(DharaPort, Dhara_Mug, Dhara_Minimug, Dhara_Palette, Dhara_Frames, 2, 6, 3, 4)
 setMugSlot(Dhara2Port, Dhara2_Mug, Dhara2_Minimug, Dhara2_Palette, Dhara2_Frames, 2, 6, 3, 4)
-setMugSlot(0x54, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(AnkerPort, Anker_Mug, Anker_Minimug, Anker_Palette, Anker_Frames, 2, 5, 3, 3) // placeholder
 setMugSlot(TaraPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
-setMugSlot(0x56, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(AlvarinPort, Alvarin_Mug, Alvarin_Minimug, Alvarin_Palette, Alvarin_Frames, 2, 5, 3, 3) // placeholder
 setMugSlot(0x57, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
 setMugSlot(MustacheVillagerPort, 0x8843330, 0x8843298, 0x8842C78, 0x8842C98, 2, 6, 3, 4)
 setMugSlot(OldManPort, 0x8841C74, 0x8841BDC, 0x88415BC, 0x88415DC, 2, 7, 3, 5)
@@ -207,144 +207,151 @@ setMugSlot(0x70, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 
 setMugSlot(0x71, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
 
 // Myrmidon
-setCardEntry(0x72, 0x8828ED8, 0x8828EF8)
+setCardEntryOld(MyrmidonCard, 0x8828ED8, 0x8828EF8)
 
 // Swordmaster
-setCardEntry(0x73, 0x8828960, 0x8828980)
+setCardEntryOld(SwordmasterCard, 0x8828960, 0x8828980)
 
 // Woodsman
-setCardEntry(0x74, 0x88281F8, 0x8828218)
+setCardEntryOld(WoodsmanCard, 0x88281F8, 0x8828218)
 
 // Warrior
-setCardEntry(0x75, 0x88279F8, 0x8827A18)
+setCardEntryOld(WarriorCard, 0x88279F8, 0x8827A18)
 
 // Lance Keeper
-setCardEntry(0x76, 0x8827284, 0x88272A4)
+setCardEntry(LanceKeeperCard, LanceKeeperPortrait, LanceKeeperPortraitPalette)
 
 // General
-setCardEntry(0x77, 0x8826A48, 0x8826A68)
+setCardEntryOld(GeneralCard, 0x8826A48, 0x8826A68)
 
 // Archer
-setCardEntry(0x78, 0x8826460, 0x8826480)
+setCardEntry(ArcherCard, ArcherMPortrait, ArcherMPortraitPalette)
 
 // Sniper
-setCardEntry(0x79, 0x8825E24, 0x8825E44)
+setCardEntry(SniperMCard, SniperMPortrait, SniperMPortraitPalette)
 
 // Diviner
-setCardEntry(0x7A, 0x8825818, 0x8825838)
+setCardEntry(MonkCard, MonkMPortrait, MonkMPortraitPalette)
 
 // Bishop
-setCardEntry(0x7B, 0x882516C, 0x882518C)
+setCardEntryOld(BishopCard, 0x882516C, 0x882518C)
 
 // Diabolist
-setCardEntry(0x7C, 0x8824A8C, 0x8824AAC)
+setCardEntry(DiabolistCard, DiabolistMPortrait, DiabolistMPortraitPalette)
 
 // Sage
-setCardEntry(0x7D, 0x88243D8, 0x88243F8)
+setCardEntryOld(SageCard, 0x88243D8, 0x88243F8)
 
 // Mystic
-setCardEntry(0x7E, 0x8823D44, 0x8823D64)
+setCardEntryOld(MysticCard, 0x8823D44, 0x8823D64)
 
 // Druid
-setCardEntry(0x7F, 0x88235B0, 0x88235D0)
+setCardEntryOld(DruidCard, 0x88235B0, 0x88235D0)
 
 // Lance Knight
-setCardEntry(0x80, 0x8822CF0, 0x8822D10)
+setCardEntry(LanceKnightCard, LanceKnightPortrait, LanceKnightPortraitPalette)
 
 // Gold Knight
-setCardEntry(0x81, 0x88223E8, 0x8822408)
+setCardEntry(GoldKnightCard, GoldKnightPortrait, GoldKnightPortraitPalette)
 
 // Trobairitz
-setCardEntry(0x82, 0x8821C84, 0x8821CA4)
+setCardEntry(TrobairitzCard, TrobairitzPortrait, TrobairitzPortraitPalette)
 
 // Valkyrie
-setCardEntry(0x83, 0x88214B4, 0x88214D4)
+setCardEntry(ValkyrieCard, ValkyriePortrait, ValkyriePortraitPalette)
 
 // Bow Knight
-setCardEntry(0x84, 0x8820D3C, 0x8820D5C)
+setCardEntry(BowKnightCard, BowKnightPortrait, BowKnightPortraitPalette)
 
 // Ranger (Unused)
-setCardEntry(0x85, 0, 0)
+setCardEntry(ArcherFCard, ArcherFPortrait, ArcherFPortraitPalette)
 
 // Sky Knight
-setCardEntry(0x86, 0x881FC9C, 0x881FCBC)
+setCardEntryOld(SkyKnightCard, 0x881FC9C, 0x881FCBC)
 
 // Crownflier
-setCardEntry(0x87, 0x881F370, 0x881F390)
+setCardEntryOld(CrownflierCard, 0x881F370, 0x881F390)
 
 // Wyvern Rider
-setCardEntry(0x88, 0x881EB4C, 0x881EB6C)
+setCardEntry(WyvernRiderCard, WyvernRiderPortrait, WyvernRiderPortraitPalette)
 
 // Wyvern Lord
-setCardEntry(0x89, 0x881E2D8, 0x881E2F8)
+setCardEntry(WyvernLordCard, WyvernLordPortrait, WyvernLordPortraitPalette)
 
 // Soldier
-setCardEntry(0x8A, 0x881DCA4, 0x881DCC4)
+setCardEntry(SoldierCard, SoldierMPortrait, SoldierMPortraitPalette)
 
 // Brigand
-setCardEntry(0x8B, 0x881D550, 0x881D570)
+setCardEntryOld(BrigandCard, 0x881D550, 0x881D570)
 
 // Pirate
-setCardEntry(0x8C, 0x881CD08, 0x881CD28)
+setCardEntry(PirateCard, PiratePortrait, PiratePortraitPalette)
 
 // Berserker
-setCardEntry(0x8D, 0x881C4FC, 0x881C51C)
+setCardEntryOld(BerserkerCard, 0x881C4FC, 0x881C51C)
 
 // Thief (Unused)
-setCardEntry(0x8E, 0, 0)
+setCardEntry(AssassinCard, AssassinPortrait, AssassinPortraitPalette)
 
 // Manakete (Unused)
-setCardEntry(0x8F, 0, 0)
+setCardEntry(AxeKeeperCard, AxeKeeperPortrait, AxeKeeperPortraitPalette)
 
 // Mercenary
-setCardEntry(0x90, 0x881B01C, 0x881B03C)
+setCardEntryOld(MercenaryCard, 0x881B01C, 0x881B03C)
 
 // Hero
-setCardEntry(0x91, 0x881A9EC, 0x881AA0C)
+setCardEntry(HeroCard, HeroPortrait, HeroPortraitPalette)
 
 // Fleet (Unused)
-setCardEntry(0x92, 0, 0)
+setCardEntry(AxeKnightCard, AxeKnightPortrait, AxeKnightPortraitPalette)
 
 // Wyvern Knight
-setCardEntry(0x93, 0x88199F8, 0x8819A18)
+setCardEntryOld(WyvernKnightCard, 0x88199F8, 0x8819A18)
 
 // Trickster
-setCardEntry(0x94, 0x8819424, 0x8819444)
+setCardEntry(TricksterCard, TricksterMPortrait, TricksterMPortraitPalette)
 
 // Mage Knight
-setCardEntry(0x95, 0x8818BDC, 0x8818BFC)
+setCardEntryOld(MageKnightCard, 0x8818BDC, 0x8818BFC)
 
 // Great Knight
-setCardEntry(0x96, 0x88183B0, 0x88183D0)
+setCardEntryOld(GreatKnightCard, 0x88183B0, 0x88183D0)
 
 // Ranger
-setCardEntry(0x97, 0x8817BF4, 0x8817C14)
+setCardEntryOld(RangerCard, 0x8817BF4, 0x8817C14)
 
 // Phantom
-setCardEntry(0x98, 0x8817438, 0x8817458)
+setCardEntryOld(PhantomCard, 0x8817438, 0x8817458)
 
 // Unused (0x99 - 0xAA)
-setCardEntry(0x99, 0, 0)
-setCardEntry(0x9A, 0, 0)
-setCardEntry(0x9B, 0, 0)
-setCardEntry(0x9C, 0, 0)
-setCardEntry(0x9D, 0, 0)
-setCardEntry(0x9E, 0, 0)
-setCardEntry(0x9F, 0, 0)
-setCardEntry(0xA0, 0, 0)
-setCardEntry(0xA1, 0, 0)
-setCardEntry(0xA2, 0, 0)
-setCardEntry(0xA3, 0, 0)
-setCardEntry(0xA4, 0, 0)
-setCardEntry(0xA5, 0, 0)
-setCardEntry(0xA6, 0, 0)
-setCardEntry(0xA7, 0, 0)
-setCardEntry(0xA8, 0, 0)
-setCardEntry(0xA9, 0, 0)
-setCardEntry(0xAA, 0, 0)
+setCardEntry(BishopFCard, BishopFPortrait, BishopFPortraitPalette)
+setCardEntry(BowKeeperCard, BowKeeperPortrait, BowKeeperPortraitPalette)
+setCardEntry(DarkKnightCard, DarkKnightPortrait, DarkKnightPortraitPalette)
+setCardEntry(DiabolistFCard, DiabolistFPortrait, DiabolistFPortraitPalette)
+setCardEntry(DruidFCard, DruidFPortrait, DruidFPortraitPalette)
+setCardEntry(HalberdierCard, HalberdierPortrait, HalberdierPortraitPalette)
+setCardEntry(LanceKnightFCard, LanceKnightFPortrait, LanceKnightFPortraitPalette)
+setCardEntry(MageKnightFCard, MageKnightFPortrait, MageKnightFPortraitPalette)
+setCardEntry(MonkFCard, MonkFPortrait, MonkFPortraitPalette)
+setCardEntry(MyrmidonFCard, MyrmidonFPortrait, MyrmidonFPortraitPalette)
+setCardEntry(PaleRiderCard, PaleRiderPortrait, PaleRiderPortraitPalette)
+setCardEntry(RangerFCard, RangerFPortrait, RangerFPortraitPalette)
+setCardEntry(SageFCard, SageFPortrait, SageFPortraitPalette)
+setCardEntry(SniperFCard, SniperFPortrait, SniperFPortraitPalette)
+setCardEntry(SwordKeeperCard, SwordKeeperPortrait, SwordKeeperPortraitPalette)
+setCardEntry(SwordKnightCard, SwordKnightPortrait, SwordKnightPortraitPalette)
+setCardEntry(SwordKnightFCard, SwordKnightFPortrait, SwordKnightFPortraitPalette)
+setCardEntry(TemplarCard, TemplarPortrait, TemplarPortraitPalette)
 
 // SUPPLY
 setMugSlot(0xAB, 0x880DBE8, 0x880DA18, 0x880D3F8, 0x880D418, 2, 5, 3, 3)
+
+setCardEntry(TricksterFCard, TricksterFPortrait, TricksterFPortraitPalette)
+setCardEntry(WarClericCard, WarClericPortrait, WarClericPortraitPalette)
+setCardEntry(WarMonkCard, WarMonkPortrait, WarMonkPortraitPalette)
+setCardEntry(SwordmasterFCard, SwordmasterFPortrait, SwordmasterFPortraitPalette)
+setCardEntry(ShamanFCard, ShamanFPortrait, ShamanFPortraitPalette)
+setCardEntry(SilverKnightCard, SilverKnightPortrait, SilverKnightPortraitPalette)
 
 ALIGN 16
 WORD 0 0 0 0 0 0 0 0

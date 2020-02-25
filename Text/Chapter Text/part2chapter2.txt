@@ -188,7 +188,7 @@ What matters is that neither Srihwen nor Soma are leaving!
 
 [FarRight][MoveRight]
 Greatmother Tara...[.....][MoveRight]
-I've been given the blessings of the Earthmother.
+I've been given the blessings of the Springmother.
 I don't want to fight, but to sit locked away in this monastery...?
 It doesn't feel right.
 I want to use my powers to help our grove.
@@ -196,11 +196,11 @@ And to do that,[MoveRight] I have no choice but to leave my nest.[LoadOverworldF
 
 [Left][MoveLeft]
 I can't let you, Srihwen!
-What would the Earthmother think if her oracle lost her life?
+What would the Springmother think if her oracle lost her life?
 
 [Right]
 There's this feeling in my heart...
-The Earthmother hasn't told me so, but I believe she would want me to fight.
+The Springmother hasn't told me so, but I believe she would want me to fight.
 To use my sight into the earth, my healing staves...
 I want to keep the Dharan Order safe.
 Please, greatmother.
@@ -239,7 +239,7 @@ Asking me so many times will not change my answer!
 
 [FarRight][MoveRight]
 Greatmother Tara...[.....][MoveRight]
-I've been given the blessings of the Earthmother.
+I've been given the blessings of the Springmother.
 I don't want to fight, but to sit locked away in this monastery...?
 It doesn't feel right.
 I want to use my powers to help our grove.
@@ -247,11 +247,11 @@ And to do that,[.....][MoveRight] I have no choice but to leave my nest.[LoadOve
 
 [MidLeft]
 I can't let you, Srihwen!
-What would the Earthmother think if her oracle lost her life?
+What would the Springmother think if her oracle lost her life?
 
 [Right]
 There's this feeling in my heart...
-The Earthmother hasn't told me so, but I believe she would want me to fight.
+The Springmother hasn't told me so, but I believe she would want me to fight.
 To use my sight into the earth, my healing staves...
 I want to keep the Dharan Order safe.
 Please, greatmother.
@@ -298,7 +298,7 @@ from either Anila or Antariksa.[A][X]
 The Chandran Order,[.....] located in the[N]
 southwest corner of Bhuloka,[.....] has[N]
 a split worship between both the[N]
-Earthmother and the Wardbearer[AN]
+Springmother and the Wardbearer[AN]
 Bhatn,[.....] known as the Penumbra.[......][N]
 The Dharan and Chandran Orders[N]
 have always had a strong rapport,[.....][N]
@@ -337,7 +337,7 @@ This one, though?
 Antariksa could come through at any time.
 
 [MidLeft]
-That was a smart idea, Nala, coming here.[ToggleSmile]
+That was a smart idea, Nandi, coming here.[ToggleSmile]
 You're a great strategist, you know that?
 
 [MidRight][ToggleSmile]
@@ -368,7 +368,7 @@ If they get closer to the gate, we'll have them out in the open.
 Then they won't have anywhere to hide but where they came from.
 
 [MidLeft]
-Another smart idea, Nala...!
+Another smart idea, Nandi...!
 All we have to do is protect the grove, right?
 I'm sure with both of your incredible strength, we can hold the line!
 
@@ -816,7 +816,7 @@ Srihwen, don't look...!
 
 [MidRight]
 I...[MoveMidRight]
-Oh, Earthmother...
+Oh, Springmother...
 What have we done...?
 How could this happen?[CloseEyes]
 What will the greatmother think when she hears of this...![OpenEyes]
@@ -841,7 +841,7 @@ Just let me say hello to my order and we'll leave.[X]
 [MidLeft][LoadSrihwen]
 These walls...
 The designs in them are gorgeous.
-Are these of the Earthmother?
+Are these of the Springmother?
 And that must be the Penumbra...
 
 [MidRight][LoadNala]
@@ -855,7 +855,7 @@ You were the one helping us earlier.
 I never got your name.
 
 [MidRight]
-I am Nala of House Abhira.
+I am Nandi of House Abhira.
 The other two that were with me are Sanjana and Varuna.
 They're both soldiers of House Vraja.
 
@@ -931,7 +931,7 @@ She called us all knights![X]
 [MidLeft][LoadSrihwen]
 These walls...
 The designs in them are gorgeous.
-Are these of the Earthmother?
+Are these of the Springmother?
 And that must be the Penumbra...
 
 [FarFarRight][LoadVaruna]
@@ -956,7 +956,7 @@ Yet I never caught your name.
 
 [Right]
 We're Varuna and Sanjana of House Vraja!
-There was Nala with us as well, but...
+There was Nandi with us as well, but...
 
 [FarRight]
 I don't know why you make such a big deal of Vraja.
@@ -1006,7 +1006,7 @@ She called us knights![X]
 [MidLeft][LoadSrihwen]
 These walls...
 The designs in them are gorgeous.
-Are these of the Earthmother?
+Are these of the Springmother?
 And that must be the Penumbra...
 
 [MidRight][LoadNala]
@@ -1020,7 +1020,7 @@ You were the one helping us earlier.
 I never got your name.
 
 [MidRight]
-I am Nala of House Abhira.
+I am Nandi of House Abhira.
 The other two that were with me were Sanjana and Varuna.
 They're both soldiers of House Vraja.
 
@@ -1073,7 +1073,7 @@ We're heading out to Dhara before sundown.
 
 [Right][MidLeft][ClearFace][......][FarRight]
 Knights?
-But Nala's the only knight...[X]
+But Nandi's the only knight...[X]
 
 
 
@@ -1082,7 +1082,7 @@ But Nala's the only knight...[X]
 [MidLeft][LoadSrihwen]
 These walls...
 The designs in them are gorgeous.
-Are these of the Earthmother?
+Are these of the Springmother?
 And that must be the Penumbra...
 
 [MidRight][LoadNala]
@@ -1096,7 +1096,7 @@ You were the one helping us earlier.
 I never got your name.
 
 [MidRight]
-I am Nala of House Abhira.
+I am Nandi of House Abhira.
 The other two that were with me are Sanjana and Varuna.
 They're both soldiers of House Vraja.
 
@@ -1157,7 +1157,7 @@ She called us both knights![X]
 [MidLeft][LoadSrihwen]
 These walls...
 The designs in them are gorgeous.
-Are these of the Earthmother?
+Are these of the Springmother?
 And that must be the Penumbra...
 
 [FarFarRight][LoadSanjana]
@@ -1211,7 +1211,7 @@ That's a funny thing to think.[X]
 [MidLeft][LoadSrihwen]
 These walls...
 The designs in them are gorgeous.
-Are these of the Earthmother?
+Are these of the Springmother?
 And that must be the Penumbra...
 
 [MidRight][LoadNala]
@@ -1225,7 +1225,7 @@ You were the one helping us earlier.
 I never got your name.
 
 [MidRight]
-I am Nala of House Abhira.
+I am Nandi of House Abhira.
 The other two that were with me are Sanjana and Varuna.
 They were both soldiers of House Vraja...
 
@@ -1269,7 +1269,7 @@ We're heading out to Dhara before sundown.[X]
 [MidLeft][LoadSrihwen]
 These walls...
 The designs in them are gorgeous.
-Are these of the Earthmother?
+Are these of the Springmother?
 And that must be the Penumbra...
 
 [FarFarRight][LoadVaruna]
@@ -1595,7 +1595,7 @@ Isn't he right over there?
 
 [MidLeft]
 No, no no no.
-That's Nala.
+That's Nandi.
 He's great, but...
 I was told that there was another courageous banneret somewhere?
 
@@ -1617,7 +1617,7 @@ Varuna!
 Hold for a moment!
 
 [FarFarRight][LoadVaruna][MoveMidRight]
-Nala![.....]
+Nandi![.....]
 We can't stand still for a second.
 They're everywhere!
 
@@ -1637,7 +1637,7 @@ That doesn't give you an excuse to be reckless.
 [MidRight]
 Hey![MoveMidRight]
 I can see more in the distance!
-Come on, Nala!
+Come on, Nandi!
 
 [MidLeft][MidRight][ClearFace][......][MidLeft]
 Varuna...[CloseEyes]

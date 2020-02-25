@@ -23,17 +23,17 @@ they rout an abandoned fortress of[N]
 bandits harrassing a young girl.[AN]
 With an additional notch on[N]
 their belts,[.....] the group continues[N]
-from Caer Golud to Caer Wydyr.[A][X]
+from Golud to Pedryvan.[A][X]
 
 
 
 ## P1C3WMIntro2
-Caer Wydyr covers the majority[N]
+Pedryvan covers the majority[N]
 of Corbenic's border with the[N]
 Principality of Heichalot.[AN]
-Originally a neighbour to Caer[N]
-Vedwyd before its rebellion,[.....] Caer[AN]
-Wydyr normally shares friendship[N]
+Originally a neighbour to Uffren[N]
+before its rebellion,[.....] Pedryvan[AN]
+normally shares friendship[N]
 with both Macha and Heichalot.[AN]
 The chills of coming winter and[N]
 war chip away at this peace,[AN]
@@ -43,12 +43,17 @@ dread over the Corbenic camp...[A][X]
 
 
 ## CaerWydyr
-Caer Wydyr[X]
+Pedryvan, Corbenic[X]
 
 
 
 ## Picodobra
-Picodobra[X]
+Manapia, Pedryvan[X]
+
+
+
+## Manapia
+Manapia, Pedryvan[X]
 
 
 
@@ -572,7 +577,7 @@ Indeed. I do not believe I have had the pleasure of meeting you.
 
 [OpenMidLeft]
 Perhaps not.
-I am C[0xFA] Raoi, the strategist of Caer Wydyr's nobles.
+I am C[0xFA] Raoi, the strategist of Pedryvan's nobles.
 I assume you intend on fighting on these lines, the both of you?
 
 [OpenFarRight]
@@ -585,7 +590,7 @@ Especially when one of them is a Crownflier...
 
 [OpenRight][ToggleSmile]
 ...Have you heard any news of A[0xED]fe?
-I was told she flew here from Caer Rigor.
+I was told she flew here from Rigor.
 
 [OpenMidLeft]
 Yes, she did.
@@ -617,7 +622,7 @@ We've suffered somewhat heavy injuries protecting the border.
 Tell your brother to head to the tent on the north of the camp.
 The few healers that we have could use all the support they could get.[ToggleSmile]
 As for you two...
-I'd like the boy to head to Picodobra.
+I'd like the boy to head to Manapia.
 There's been a lack of forces to divert to other parts of the border.
 You should do fine fortifying the village against attack.
 
@@ -628,7 +633,7 @@ But you didn't mention my name, C[0xFA] Raoi.
 What about myself?
 
 [OpenMidLeft]
-I'll need you to head further east to Caer Ochren, Lady Sadhbh.
+I'll need you to head further east to Ochren, Lady Sadhbh.
 Lord Rionall has failed to offer as much support as he should.
 I assume that with your duress we may achieve better results.
 
@@ -699,7 +704,7 @@ I would have no intentions of ever harming a Crownflier.
 I can't say I completely believe your story,[CloseEyes] but there's no harm believing it.[OpenEyes]
 If you attempt anything, you'll be whelmed down before you realize it.
 My name is C[0xFA] Raoi.
-I'm the strategist for Caer Wydyr's nobility.
+I'm the strategist for Pedryvan's nobility.
 You must be wishing to lay down your life to fight Heichalot, yes?
 
 [OpenMidRight]
@@ -712,14 +717,14 @@ Hmmm.[.....] I can think of some tasks that either of you could fulfill.[MoveMid
 Tell your brother to head to the tent on the north of camp.
 Most of our healers are still in Srughna, and support is greatly needed.
 As for you.[.....]
-Would you happen to know where Picodobra is located?
+Would you happen to know where Manapia is located?
 
 [MidRight]
 I'm afraid not.
-We come from Caer Rigor.
+We come from the province of Rigor.
 
 [MidLeft]
-Picodobra is a border village due eastward from this camp.
+Manapia is a border village due eastward from this camp.
 We've had a lack of forces to send there.[ToggleSmile]
 Until now.
 I'd like you and whoever is with you to help fortify the town.[ToggleSmile]
@@ -782,7 +787,7 @@ I would have no intentions of ever harming a Crownflier.
 I can't say I completely believe your story,[CloseEyes] but there's no harm believing it.[OpenEyes]
 If you attempt anything, you'll be whelmed down before you realize it.
 My name is C[0xFA] Raoi.
-I'm the strategist for Caer Wydyr's nobility.
+I'm the strategist for Pedryvan's nobility.
 You must be wishing to lay down your life to fight Heichalot, yes?
 
 [OpenMidRight]
@@ -841,14 +846,14 @@ We're lucky to have her here, but we're still lacking support.[MoveFarLeft]
 I'd like you to take the younger boy and train him as a medic.
 Even some basic understanding would go a long way to helping the injured.
 As for Cethern...
-Would you happen to know where Picodobra is located?
+Would you happen to know where Manapia is located?
 
 [Right]
 I'm afraid not.
-We come from Caer Rigor.
+We come from the province of Rigor.
 
 [FarLeft]
-Picodobra is a border village due eastward from this camp.
+Manapia is a border village due eastward from this camp.
 We've had a lack of forces to send there.[ToggleSmile]
 Until now.
 I'd like you and whoever is with you to help fortify the town.[ToggleSmile]
@@ -865,7 +870,7 @@ Hanlin, what are you--?
 
 [Left]
 My skills are in riding, not staying put in some army camp.
-I wish to accompany Cethern to Picodobra.
+I wish to accompany Cethern to Manapia.
 
 [FarLeft]
 Absolutely not!
@@ -953,7 +958,7 @@ Cethern!![X]
 [OpenMidLeft][LoadCethern]
 [OpenRight][LoadHanlin]
 [OpenFarRight][LoadFerdiad]
-Picodobra...
+Manapia...
 It feels similar to Cluain Bolg.
 Doesn't feel like we're far from home.
 
@@ -966,7 +971,7 @@ Most of the fighting has been kept east of here.
 These people are spared strife.
 
 [OpenFarRight]
-Are you from Caer Wydyr, Hanlin?
+Are you from Pedryvan, Hanlin?
 Your dress and hair are interesting.
 
 [OpenRight]
@@ -990,7 +995,7 @@ Most who do not like me change their mind when I tend to their wounds.
 [ConversationText]
 [OpenRight][LoadHanlin]
 [OpenMidLeft][LoadCethern]
-Picodobra...
+Manapia...
 It's smaller than home.
 We're so close to the border, yet everyone is so calm.
 
@@ -1031,7 +1036,7 @@ Youse group looks quite stocked up.
 What business do you have here?
 
 [OpenLeft]
-We've been sent here from Caer Wydyr to help fortify Picodobra against Heichalot.
+We've been sent here from Pedryvan to help fortify Manapia against Heichalot.
 
 [OpenMidRight]
 Shows what a sad time it is...
@@ -1071,7 +1076,7 @@ Rest may be good for us right now, but Heichalot could strike at any time.[X]
 ## P1C3OhNoMyMan
 [ConversationText]
 [OpenMidRight][LoadLamech]
-Picodobra...
+Manapia...
 Our first victory shall be here.[X]
 
 
@@ -1081,7 +1086,7 @@ Our first victory shall be here.[X]
 [OpenMidRight][LoadBres]
 [OpenMidLeft][LoadCethern]
 It feels wrong sitting like this.
-Yet Picodobra doesn't want to fortify...
+Yet Manapia doesn't want to fortify...
 
 [MidRight][ToggleSmile]
 Maybe they're confident enough in their own abilities.
@@ -1120,7 +1125,7 @@ Let's head out front![X]
 [OpenMidRight][LoadHanlin]
 [OpenMidLeft][LoadCethern]
 It feels wrong sitting like this.
-Yet Picodobra doesn't want to fortify...
+Yet Manapia doesn't want to fortify...
 
 [MidRight]
 I've said that.
@@ -1169,12 +1174,12 @@ Youse group should stay inside.
 Better to keep youse safe to head back in one piece.
 
 [MidLeft]
-We came here to help protect Picodobra, not sit around like helpless children!
+We came here to help protect Manapia, not sit around like helpless children!
 I'm sorry sir, but I'll need to head past you.
 
 [FarRight]
 I will not!
-This is Picodobra's business.
+This is Manapia's business.
 We're competent enough!
 
 [MidLeft][CloseEyes]
@@ -1233,7 +1238,7 @@ Could that group o' soldiers truly have saved us?
 
 [FarFarRight][LoadCethern][MoveMidRight][FarLeft]
 You must be the leader of that force from the encampment, right?
-You saved Picodobra.
+You saved Manapia.
 You saved us from those invaders!
 
 [MidRight][ToggleSmile]
@@ -1287,14 +1292,14 @@ If I didn't cover for you, this town would be ash.[.....]
 Maybe I should leave to help against Heichalot and see how you do alone.
 
 [MidRight]
-I wouldn't be against more help, but it seems like Picodobra could use all the protection it can get.
+I wouldn't be against more help, but it seems like Manapia could use all the protection it can get.
 
 [Left]
 Ethniu, you can't leave me alone!
 If you're gonna leave, I'm comin' with ya!
 
 [FarLeft]
-You shouldn't worry about Picodobra.
+You shouldn't worry about Manapia.
 By the time it can be protected, we can have way more than two people watching over everyone.
 Give us the few days and we'll be well ready for anything else.
 
@@ -1473,7 +1478,7 @@ Miach...[A][X]
 
 
 ## CaerOchren
-Caer Ochren[X]
+Ochren, Corbenic[X]
 
 
 
@@ -1494,17 +1499,17 @@ Indeed it is, indeed it is...
 What is required of me now?
 
 [MidRight]
-It is business from the Caer Wydyr border camp.
+It is business from the Pedryvan border camp.
 Questions from the tacticians about the amount of support you have given.
 
 [MidLeft]
 Lady Sadhbh, I have given as much support as I can.
 Our already small militia is protecting this side of the border from Heichalotian assault.
 We have given what food we can to your encampment.
-What else does Caer Wydyr ask of us?
+What else does Pedryvan ask of us?
 
 [MidRight]
-The path into Caer Ochren is small and rarely used.
+The path into Ochren is small and rarely used.
 Are you certain that no more of your forces can be given?
 
 [MidLeft]
@@ -1514,10 +1519,10 @@ Perhaps you may find resolution when the soldiers in Srughna return.
 [MidRight]
 Mayhaps we will.
 The encampment shall be informed of your current perils.
-Please continue with your aid, Lord of Caer Ochren.[ClearFace][.......]
+Please continue with your aid, Lord of Ochren.[ClearFace][.......]
 
 [FarFarRight]
-Has she left back for Caer Wydyr?
+Has she left back for Pedryvan?
 
 [MidLeft]
 Indeed she has.
@@ -1533,20 +1538,20 @@ So long as my people are kept unharmed, my lands are yours.
 I understand that any struggle would be futile.
 
 [MidRight]
-Caer Ochren will be left alone.
-Your land will join Caer Vedwyd in its union under the prince.
+Ochren will be left alone.
+Your land will join Uffren in its union under the prince.
 
 [MidLeft]
 That is fine.
 I thank you for your merciful grace in allowing my surrender.
 
 [MidRight]
-I shall return to Caer Vedwyd to tell my men the news.
+I shall return to Uffren to tell my men the news.
 If any more forces from Corbenic bother you, they will deal with us at your borders.[ClearFace][......]
 
 [MidLeft]
 I am making the correct call.
-This is the right decision for Caer Ochren...[X]
+This is the right decision for my people...[X]
 
 
 

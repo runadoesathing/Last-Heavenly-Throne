@@ -1,0 +1,20 @@
+#include "Extensions\Hack Installation.txt"
+
+PUSH
+  ORG $28338 //hook
+  jumpToHack(SupportLimit)
+
+  ORG $28476 //support point gain fix
+  SHORT 0
+
+  ORG $28508 //support point gain fix
+  SHORT 0
+
+  ORG $876b4 //visual limit
+  BYTE 0
+POP
+
+MESSAGE Put support limit here at currentOffset
+ALIGN 4
+SupportLimit:
+#incbin "onlyoneAsupport_fe8.dmp"

@@ -1,7 +1,7 @@
 ## IshpanBQ
 [BattleText]
 [OpenMidLeft][LoadIshpan]
-Caer Ochren has fallen beneath our heel.
+Ochren has fallen beneath our heel.
 Why won't you be good and follow their example?[X]
 
 
@@ -53,7 +53,7 @@ Indeed I do.
 [BattleText]
 [OpenMidLeft][LoadIshpan]
 My death matters not.
-The rest of your nation shall soon respect the might of Heichalot, just as Caer Ochren already has...[X]
+The rest of your nation shall soon respect the might of Heichalot, just as Ochren already has...[X]
 
 
 
@@ -65,30 +65,29 @@ I can hear the bells toll once again...[X]
 
 
 ## P1C4WMIntro
-Picodobra is defended from the[N]
+Manapia is defended from the[N]
 Heichalotian raiders.[AN]
 After a few days of repair and[N]
 fortification,[.....] Cethern heads[AN]
 west back towards the[N]
-Caer Wydyr border encampment.[AN]
+Pedryvan border encampment.[AN]
 There he is entrusted with a[N]
 breach through the border[AN]
-from the province of Caer[N]
-Ochren.[A][X]
+from the province of Ochren.[A][X]
 
 
 
 ## P1C4WMIntro2
-Caer Ochren is a calm and quiet[N]
+Ochren is a calm and quiet[N]
 land on the eastern part of[N]
 Corbenic's dominion.[AN]
 Ruled by Lord Rionall, and covered[N]
 in untamed forests on one side[N]
 and steep peaks on the other,[AN]
-the people of Caer Ochren live[N]
+the people of Ochren live[N]
 unbothered by affairs of either[N]
 Corbenic's crown or Heichalot.[AN]
-C[0xFA] Raoi of Caer Wydyr uses this[N]
+C[0xFA] Raoi of Pedryvan uses this[N]
 knowledge to plan a surprise[N]
 charge on the entire border.[AN]
 Unbeknownst to Cethern,[.....] the[N]
@@ -122,11 +121,11 @@ I am glad to see you are well.
 
 [MidLeft]
 Lady Sadhbh!
-You made it back from Caer Ochren already?
+You made it back from Ochren already?
 
 [MidRight]
 I thankfully have.[ToggleSmile]
-How fared Picodobra?
+How fared Manapia?
 
 [MidLeft]
 We were unfortunately assaulted by Heichalot.
@@ -149,7 +148,7 @@ Our first order of business is to inform the commander.
 [MidLeft][LoadEthniu]
 So this is a war encampment.
 It's filthy and horrific.
-Even worse than after the fight at Picodobra.
+Even worse than after the fight at Manapia.
 
 [MidRight][ClearFace][LoadCethern]
 It's not a very nice place, but it's protecting us from Heichalot.
@@ -193,7 +192,7 @@ We should quickly prepare ourselves before we break through![X]
 [MidLeft][LoadIshpan]
 Corbenic forces coming from the trees...
 Everyone! Take your positions!
-We fight for Caer Ochren and Caer Vedwyd![X]
+You fight for Ochren and Heichalot![X]
 
 
 
@@ -219,11 +218,11 @@ Both of you have returned.
 I hope only to hear of success.
 
 [Right]
-Picodobra was attacked by Heichalot, but they are fortified now.
+Manapia was attacked by Heichalot, but they are fortified now.
 We were lucky to arrive before the raid.
 
 [FarRight]
-Lord Rionall of Caer Ochren is unable to provide further support.
+Lord Rionall of Ochren is unable to provide further support.
 He states that he must protect his own land from Heichalot.[MoveFarRight]
 If I may speak out of turn, Sir C[0xFA] Raoi...
 I am suspicious of Lord Rionall's actions.
@@ -239,8 +238,8 @@ What next for us?
 [MidLeft]
 I believe that the boy has proven himself a competent soldier.
 The time has come for us to make a move of our own.
-I would like Cethern to head into Caer Ochren.
-From there, he will organize an assault into Caer Vedwyd.
+I would like Cethern to head into Ochren.
+From there, he will organize an assault into Uffren.
 
 [FarRight]
 !!![.....][N]
@@ -249,7 +248,7 @@ Sir C[0xFA] Raoi...
 [MidLeft]
 You do not need to worry, Lady Sadhbh.
 You are dismissed, Cethern.
-Prepare to travel out to Caer Ochren.
+Prepare to travel out to Ochren.
 Meet with Lord Rionall and plan with him.
 
 [Right]
@@ -260,7 +259,7 @@ I'll do Corbenic proud.[ClearFace][......]
 Sir C[0xFA] Raoi!
 I apologize to speak out of turn once more...
 But this is a dangerous mission!
-You're planning on retaking Caer Vedwyd?!
+You're planning on retaking Uffren?!
 
 [MidLeft]
 The boy has combat prowess, and the heart of Sir MacCumail.
@@ -273,7 +272,7 @@ Don't you understand you're sending them to die?!
 [MidLeft]
 Enough from you, Lady Sadhbh!
 I am the commander here.
-You are subordinate while inside Caer Wydyr.[......]
+You are subordinate while in my camp.[......]
 Now, for your own mission...
 
 [MidRight][CloseEyes]
@@ -289,7 +288,7 @@ Cethern.
 I hope only to hear of your success.
 
 [MidRight]
-Picodobra was attacked by Heichalot, but they are fortified now.
+Manapia was attacked by Heichalot, but they are fortified now.
 We were lucky to arrive before the raid.
 
 [MidLeft]
@@ -304,8 +303,8 @@ What next for us?
 [MidLeft]
 Eager, are we?
 The time has come for us to make a move of our own.
-I would like you to head into Caer Ochren.
-From there, organize an assault into Caer Vedwyd.
+I would like you to head into Ochren.
+From there, organize an assault into Uffren.
 Meet with Lord Rionall and plan with him.
 He should be willing to give his support.
 
@@ -315,7 +314,7 @@ I'll do Corbenic proud![ClearFace][......]
 
 [MidLeft][ToggleSmile]
 Everything is according to plan...
-We shall take back Caer Vedwyd, and force Heichalot away for good![X]
+We shall take back Uffren, and force Heichalot away for good![X]
 
 
 
@@ -483,7 +482,7 @@ But what happens if Corbenic comes?
 Any entrance will be treated as invasion.
 I understand they may have been your brothers before...
 But you are Heichalotian now.
-You fight for Caer Vedwyd, not Caer Siddi.
+You fight for Uffren, not Caer Siddi.
 I hope that realization arrives sooner.[ClearFace][......]
 
 [FarRight]
@@ -502,9 +501,9 @@ Thinking of deserting?[ToggleSmile]
 You're lucky I'm not telling anybody.
 
 [Right][ToggleSmile]
-I've got two brothers in Caer Golud...!
-I couldn't imagine fighting either.
-And I serve Caer Ochren, not Heichalot!
+I've got two brothers in Golud...!
+I couldn't imagine fighting either of them.
+And I serve Ochren, not Heichalot!
 
 [FarRight]
 But you also serve Lord Rionall.
@@ -562,7 +561,7 @@ Miach!
 [FarRight]
 If neither of you wish to flee, I cannot stop you.
 But I would never be able to sleep at night if I left you alone.[MoveFarRight]
-I'll be accompanying you into Caer Vedwyd.
+I'll be accompanying you into Uffren.
 I swore on Aingha you'd be safe.
 
 [MidLeft]
@@ -656,7 +655,7 @@ So is he, and so is everybody back home...[X]
 [MidRight][LoadGedeon]
 [Left][LoadEnemySoldier]
 [FarLeft][LoadEnemySoldier]
-Finally, Caer Ochren...
+We're finally here at Ochren...
 Why couldn't we be assigned against the other side?
 That trail is torturous!
 
@@ -666,7 +665,7 @@ We're here now, and we'll earn our coin.
 
 [Left]
 Are you sure you're fine with this, Gedeon?
-Don't you have a few friends in Caer Wydyr?
+Don't you have a few friends this side of the border?
 
 [MidRight]
 ... ...
@@ -707,7 +706,7 @@ An old man like me ain't gonna have much luck figuring it out.[X]
 [MidRight][LoadAengus]
 [MidLeft][LoadGedeon]
 Aengus?!
-What are you doing in Caer Ochren?!
+What are you doing here?!
 
 [MidRight][ToggleSmile]
 Gedeon!
@@ -800,7 +799,7 @@ I still have the burns from trying![X]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBrunetteMan]
 I never would've imagined Lord Rionall to side with Heichalot.
-He's always been a saviour of Caer Ochren.
+He's always been a saviour of Ochren.
 When Caer Siddi ignored us, he would step in.
 Unlike the capital, he truly treats us as his own.
 It hurts to see this unfold...[X]
@@ -984,9 +983,9 @@ Can't say I've ever been there.[X]
 [ConversationText]
 [MidRight][LoadMiach]
 [MidLeft][LoadCethern]
-Caer Ochren has turned on us...
+Ochren has turned on us...
 We have to tell somebody.
-Otherwise, everyone in Caer Wydyr will--!
+Otherwise, everyone in Pedryvan will--!
 
 [MidRight]
 Cethern!
@@ -1008,7 +1007,7 @@ What is there to gain from betrayal?!
 [MidLeft]
 Heichalot overpowers us on a level that is incomprehensible.
 To fight back against them is to kill us all.
-Caer Ochren's people are mine to lead, and I will do anything to save them!
+Ochren's people are mine to lead, and I will do anything to save them!
 
 [Right]
 So you would surrender to them?!

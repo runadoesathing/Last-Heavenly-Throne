@@ -566,9 +566,9 @@
 //By Sme
 #define TowerShieldPlusID 255
 
-//Trample: +5 damage to unmounted units.
+//Trample: +3 damage to unmounted units.
 //By Tequila
-#define TrampleID 255
+#define TrampleID 125
 
 //Underdog: +10 Hit/Avo when unit level is less than enemy's. (Promoted units count as Level + 20).
 //By Runa
@@ -618,6 +618,9 @@
 //By Runa/Sme
 #define AbettorID 123
 
+// Diamond Defense: If unit's Res > enemey's Res, gain +Res/4 attack.
+//By Runa/Datagne
+#define DiamondDefID 119
 
 //Proc Skills
 
@@ -750,7 +753,7 @@
 
 //Glacies: Add unit's Resistance to damage dealt. (Skill % activation)
 //By Sme
-#define GlaciesID 119
+#define GlaciesID 255
 
 //Great Shield: Negate all damage. (Defense % activation)
 //By Sme

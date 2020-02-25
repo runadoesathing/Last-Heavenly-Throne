@@ -5,7 +5,7 @@
 FE8 Affinity Info Editor by Runa
 0x0
 12
-4
+6
 FE8 Characters.txt
 NULL
 
@@ -23,6 +23,12 @@ NULL
 
 Affinity Text ID
 2
+2
+NEHU
+NULL
+
+Affinity R-Text ID
+4
 2
 NEHU
 NULL

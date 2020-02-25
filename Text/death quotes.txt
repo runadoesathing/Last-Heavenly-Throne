@@ -23,8 +23,8 @@ wasn't...[CloseEyes] good enough...[A]
 
 [ClearFace]
 [OpenMidRight][LoadFerdiad][ToggleSmile]
-S[0xE9]tanta![.....] [CloseEyes]N[.....]-No,[.....][N]
-this can't be happening...![A][X]
+S[0xE9]tanta...?[.....] N[.....]-No,[.....] this can't be[N]
+happening...![.6] [CloseEyes]S[0xE9]tanta![A][X]
 
 
 
@@ -39,6 +39,40 @@ I'm sorry, [CloseEyes]Mother...
 Fern!
 No, she wasn't supposed to die!
 [CloseEyes]It should've been me...![X]
+
+
+
+## P1C2CethernDeathQuote
+[MidRight][LoadCethern]
+I'm sorry.[.6] I overestimated[N]
+how much...[.6] [CloseEyes]We could handle...[A][ClearFace]
+
+[MidRight][LoadSetanta]
+Cethern,[.5] you idiot![.6][N]
+I said that we were a trio...![A][X]
+
+
+
+## P1C2SetantaDeathQuote
+[MidRight][LoadSetanta]
+I...[.5] I knew this would happen.[.6][N]
+[CloseEyes]Fern, please don't...[A][ClearFace]
+
+[ClearFace]
+[OpenMidRight][LoadFerdiad]
+S[0xE9]tanta...?[.....] N[.....]-No,[.....] this can't be[N]
+happening...![.6] [CloseEyes]S[0xE9]tanta![A][X]
+
+
+
+## P1C2FerdiadDeathQuote
+[OpenMidRight][LoadFerdiad]
+Aah...![.5] I was careless...[.6][N]
+I'm sorry, [CloseEyes]Mother...[A][ClearFace]
+
+[OpenMidRight][LoadSetanta]
+Fern![.6] Damn it,[.5] Cethern![.6][N]
+How could you let her die?![A][X]
 
 
 
@@ -261,8 +295,8 @@ Is this truly worth it...?[X]
 ## DagmemaDeathQ
 [BattleText]
 [MidRight][LoadDagmema]
-I want to go back home...
-I'm scared of what comes next...[X]
+I wasn't cut out for this...[N]
+I want... [CloseEyes]to go home...[X]
 
 
 

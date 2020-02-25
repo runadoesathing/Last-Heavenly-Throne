@@ -128,12 +128,12 @@ I brought that treasure from the monastery, just in case...
 
 [FarLeft]
 It's better than nothing, but if we weren't around...
-You've got the Earthmother and a healing staff.
+You've got the Springmother and a healing staff.
 Not much to keep anybody away.
 
 [MidRight]
 Oh, this is going to be cool![MoveMidRight]
-You can finally show us the Earthmother's power!
+You can finally show us the Springmother's power!
 
 [Left]
 It won't be much help if we're fighting...
@@ -186,7 +186,7 @@ on the border of Srughna is[N]
 the domain of Dhara,[......][N]
 covered in dense forests.[AN]
 Devoted to worship of the[N]
-Earthmother,[......] Hwen,[......] the[N]
+Springmother,[......] Hwen,[......] the[N]
 women of the Dharan Order[N]
 live in relative isolation.[AN]
 Leaving from their monastery,[......][N]
@@ -303,7 +303,7 @@ Don't worry, I know where to look.
 
 [Left][ClearFace][FarLeft][ClearFace][......][MidRight][MoveMidLeft][LoadOverworldFaces]
 [ToggleSmile]Let's see... It's a right down this road...[.......][MoveMidLeft]
-Earthmother. Someone is following me.
+Springmother. Someone is following me.
 It isn't Ethniu or Soma's steps either...
 
 [FarFarRight][LoadShuka][MoveRight]
@@ -352,7 +352,7 @@ I'd crawl back before you return in pieces.
 
 [FarLeft]
 Ethniu...[MoveFarLeft]
-Thank the Earthmother you're here...!
+Thank the Springmother you're here...!
 
 [Left]
 Next time, don't leave me with Soma.
@@ -689,47 +689,47 @@ Everybody was in danger.
 I couldn't even help keep them away.
 I still can't fight, even after everything...
 
-[FarFarLeft]
+[FarFarLeft][ToggleInvert]
 You seem distressed.
 Is something wrong, Srihwen?
 
-[MidRight][ToggleSmile]
-Earthmother...![ToggleSmile]
+[MidRight][ToggleSmile][ToggleInvert]
+Springmother...![ToggleSmile]
 Thank goodness you're here.
 I require your guidance more than ever.
 
-[MidLeft][LoadHwen]
+[MidLeft][LoadHwen][ToggleInvert]
 What is wrong, my child?
 You seemed to handle the day well.
 
-[MidRight]
+[MidRight][ToggleInvert]
 Even with your blessings...
 Your sight into the soil, your advice.
 My hands struggle to hold a weapon.
 What use am I?
 It doesn't help that conflict seems to draw near...
 
-[MidLeft]
+[MidLeft][ToggleInvert]
 You assume that you must fight alone.
 
-[MidRight]
+[MidRight][ToggleInvert]
 I had isolated myself without realizing it.
 What if I am alone again?
 
-[MidLeft]
+[MidLeft][ToggleInvert]
 Even by yourself, you are more powerful than you believe.
 Trust in your senses, your healing.
 
-[FarFarLeft]
+[FarFarLeft][ToggleInvert]
 Srihwen!
 Are you in here?
 
-[MidLeft]
+[MidLeft][ToggleInvert]
 I believe I should be going.
 Believe in yourself.
 
-[MidRight][MidLeft][ClearFace][MidRight][MoveMidRight]
-Earthmother, don't go...!
+[MidRight][MidLeft][ClearFace][MidRight][MoveMidRight][ToggleInvert]
+Springmother, don't go...!
 Please...
 
 [FarFarLeft][LoadSoma][MoveMidLeft]
@@ -740,7 +740,7 @@ I'm doing okay...
 I was just talking with--
 
 [MidLeft]
-The Earthmother, correct?[ToggleSmile]
+The Springmother, correct?[ToggleSmile]
 It's still incredible how you can talk with her!
 
 [MidRight][ToggleSmile]

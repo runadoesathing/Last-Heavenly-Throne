@@ -8,20 +8,44 @@ Luck_Booster_Item_Ptr:
 StatBoosts(0, 0, 0, 0, 0, 0, 4, 0, 0, 0)
 
 ALIGN 4
+// +50% growths, -20% growths
 HwenScrollBonuses:
 GrowthBoosts(0xA, 0, 0x14, 0, negateByte(0xA), negateByte(0xA), 0xA, 0xA)
 
 ALIGN 4
+// +90% growths, -40% growths
 TenlethScrollBonuses:
 GrowthBoosts(negateByte(0x14), negateByte(0x14), 0, 0, 0x1E, 0x1E, 0, 0x1E)
 
 ALIGN 4
+// +70% growths, -50% growths
 MachaScrollBonuses:
 GrowthBoosts(0x14, 0x14, 0x14, 0xA, 0, 0, negateByte(0x32), 0)
 
 ALIGN 4
+// +75% growths, -40% growths
 BhatnScrollBonuses:
 GrowthBoosts(negateByte(0x28), 0xA, 0xF, 0x1E, 0x0, 0x0, 0x1E, 0xA)
+
+ALIGN 4
+// +100% growths, -45% growths
+AinghaScrollBonuses:
+GrowthBoosts(0, negateByte(0xF), 0x1E, 0x1E, negateByte(0xF), negateByte(0xF), 0x28, 0)
+
+ALIGN 4
+// +60% growths, -20% growths
+SamesScrollBonuses:
+GrowthBoosts(0xF, negateByte(0xA), 0xF, 0xF, negateByte(0xA), 0xF, 0x0, 0x0)
+
+ALIGN 4
+// +70% growths, -30% growths
+AmharakkuScrollBonuses:
+GrowthBoosts(0xF, 0xF, negateByte(0xF), negateByte(0xF), 0x28, 0x0, 0x0, 0x0)
+
+ALIGN 4
+// +90% growths, -40% growths
+NinasolnaScrollBonuses:
+GrowthBoosts(negateByte(0x14), negateByte(0x14), 0x14, 0x0, 0x0, 0x32, 0x0, 0x14)
 
 ALIGN 4
 ShieldStatBoosts:

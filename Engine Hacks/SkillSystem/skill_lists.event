@@ -73,7 +73,7 @@ BYTE 00 00
 ALIGN 4
 
 WyvernRiderSkillList:
-BYTE 10 ChargeID
+BYTE 10 TrampleID
 BYTE 00 00
 ALIGN 4
 
@@ -231,13 +231,13 @@ BYTE 00 00
 ALIGN 4
 
 WyvernLordSkillList:
-BYTE 255 ChargeID
+BYTE 255 TrampleID
 BYTE 1 SaviorID
 BYTE 00 00
 ALIGN 4
 
 WyvernKnightSkillList:
-BYTE 255 ChargeID
+BYTE 255 TrampleID
 BYTE 1 DuelistsBlowID
 BYTE 00 00
 ALIGN 4
@@ -283,5 +283,10 @@ ALIGN 4
 
 AntariksaGuardSkillList:
 BYTE 1 CertainBlowID
+BYTE 00 00
+ALIGN 4
+
+AteamSkillList:
+BYTE 1 NullifyID
 BYTE 00 00
 ALIGN 4

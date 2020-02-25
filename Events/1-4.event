@@ -7,7 +7,7 @@ POIN LocationBasedEvents
 POIN MiscBasedEvents
 POIN Dunno1 Dunno2 Dunno3 Tutorial
 POIN Traps1 Traps2
-POIN UnitsP UnitsP  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN PrepScreenP PrepScreenP  //This unit group determines the number and position of deployment slots when there is a prep screen
 POIN $0 $0 $0
 POIN $0 $0 $0
 POIN BeginningScene EndingScene
@@ -54,6 +54,16 @@ END_MAIN
 
 Tutorial:
 END_MAIN
+
+PrepScreenP:
+UNIT Cethern EirikaLord 0x1 Level(0, Ally, 0)    [8,16] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)    [8,17] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)    [9,17] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)    [9,16] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)    [7,17] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)    [7,16] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)    [6,17] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT
 
 UnitsP:
 UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [10,15] 0x0 0x0 0x1 REDA8R16 [0x0] [0x0,0x0,0x0,0x0]
@@ -152,7 +162,7 @@ UNIT Ochren 0x71 0x0 Level(1, NPC, 0)    [5,14] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
 UNIT
 
 ManPicodobra:
-UNIT Ochren 0x71 0x0 Level(1, NPC, 0)    [12,17] 0x0 0x0 0x1 REDA11R17 [0x0] [0,0,0,0]
+UNIT OchrenMag 0x71 0x0 Level(1, NPC, 0)    [12,17] 0x0 0x0 0x1 REDA11R17 [0x0] [0,0,0,0]
 UNIT
 
 Traps1:
@@ -382,6 +392,7 @@ TEXTSHOW P1C3SoMany
 TEXTEND
 REMA
 ENUF 0xA
+GotoPrepScreen
 NoFade
 ENDA
 

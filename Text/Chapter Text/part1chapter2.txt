@@ -27,7 +27,7 @@ I'll cut you down where you stand, arrogant lass!
 
 
 ## CaerGolud
-Caer Golud[X]
+Golud, Corbenic[X]
 
 
 
@@ -43,14 +43,14 @@ the three agree to join the[AN]
 Kingdom's defense against the[N]
 Principality invaders.[AN]
 Receiving their rushed send-off,[AN]
-they leave swiftly towards Caer[N]
-Wydyr,[.....] at the Kingdom's north border.[A][X]
+they leave swiftly towards Pedryvan[N]
+at the Kingdom's north border.[A][X]
 
 
 
 ## P1C2WMIntro2
-To reach Caer Wydyr,[.....] they must cut[N]
-through another province,[.....] Caer Golud:[......][N]
+To reach Pedryvan,[.....] they must cut[N]
+through another province,[.....] Golud:[......][N]
 a province that borders the sea[N]
 to the lands of southern Macha.[AN]
 Along the way to their destination,[.....][N]
@@ -114,7 +114,7 @@ These extra few days should help with preparing for winter, Lady Sadhbh.
 
 [OpenLeft]
 It is nothing but my duty.
-I'll set up my pegasus and be off to Caer Wydyr in the hour.
+I'll set up my pegasus and be off to Pedryvan in the hour.
 I wish your village the best.[ClearFace][.......]
 
 [OpenRight][MoveRight]
@@ -127,7 +127,7 @@ I must leave with haste.
 
 [OpenRight]
 I...[......][MoveRight][LoadOverworldFaces]
-I would like to accompany you to Caer Wydyr!
+I would like to accompany you to Pedryvan!
 
 [OpenFarLeft]
 Cethern, what in the bearers are you--![A]
@@ -143,7 +143,7 @@ Those aren't just bandits up there!
 And what about Airmed or Miach?[OpenEyes]
 
 [OpenFarLeft]
-You'll die in Caer Wydyr!
+You'll die in Pedryvan!
 How would that make t--
 
 [OpenRight]
@@ -241,7 +241,7 @@ It's a slow ride, isn't it?
 I would usually go faster than this.
 
 [OpenFarFarRight][LoadFerdiad][MoveFarRight][OpenFarRight]
-None of us have ridden outside of Caer Rigor before, Lady Sadhbh.
+None of us have ridden far from Cluain Bolg before, Lady Sadhbh.
 The ground here is softer and wet.
 Please excuse our inexperience.
 
@@ -250,12 +250,12 @@ What's happened since Heichalot declared war?
 I assume not much yet.
 
 [OpenMidLeft]
-We've heard of attacks organized from Caer Vedwyd, but nothing more.
+We've heard of attacks organized from Uffren, but nothing more.
 Trying to gather information is tricky, early as it is now.
 But it's salt in the wounds, planning invasion from our land.
 
 [OpenFarRight]
-Caer Vedwyd...
+Uffren...
 That's where your grandfather fought, yes?
 
 [OpenRight]
@@ -267,7 +267,7 @@ He'd probably try to even his own score despite his age.
 I don't think he'd care if he died trying that.
 
 [OpenMidLeft][ToggleSmile]
-It's definitely a plan of some Caer Siddi nobles to plan a retaking of Caer Vedwyd.
+It's definitely a plan of some Caer Siddi nobles to plan a retaking of Uffren.
 But for now, we're on the defensive.
 
 [OpenFarRight]
@@ -349,7 +349,7 @@ It's amazingly dangerous up here.
 [OpenLeft]
 Cethern...[.....][CloseEyes] 
 I think it would be more dangerous if we didn't take Miach.[OpenEyes]
-We're already a few hours away from Caer Rigor.
+We're already a few hours away from Rigor.
 It'd be tough to get back.
 
 [OpenMidRight]
@@ -367,7 +367,7 @@ I'll make sure to--!
 [OpenFarLeft][ToggleSmile]
 But you're not getting involved in any fighting.
 You're not trained enough to fight, and you most likely didn't bring a weapon.
-Once we get to Caer Wydyr, you'll have to find a way to help out.
+Once we get to Pedryvan, you'll have to find a way to help out.
 
 [OpenMidRight]
 Aww, but...![.....][MoveMidRight][ToggleSmile] 
@@ -395,7 +395,7 @@ Let's go![X]
 ## P1C2SadhbhWorry
 [ConversationText]
 [OpenFarFarRight][LoadSadhbh][MoveLeft][OpenLeft]
-We'll have to pass by this fortress to continue forwards to Caer Wydyr.
+We'll have to pass by this fortress to continue forwards to Pedryvan.
 [OpenLeft][MoveMidLeft][OpenMidLeft]
 Hmm? There's people up ahead.
 Everyone, hold for a moment.[X]
@@ -512,7 +512,7 @@ Buffoons...[X]
 [OpenFarFarLeft][LoadBres][MoveMidLeft][OpenMidLeft][ToggleSmile]
 Phew... He almost saw me.
 I'll have to check out this side of the fortress as well.
-As long as I can find some information, this trip to Caer Golud will be perfect![MoveMidLeft][CloseEyes]
+As long as I can find some information, this trip to Golud will be perfect![MoveMidLeft][CloseEyes]
 I'm sorry, you petty bandits...[OpenEyes]
 This is for the sake of my people.[X]
 
@@ -534,7 +534,7 @@ It seems our goals align.
 We both seem well-versed in swordplay, so why don't we work together?
 
 [OpenMidRight][ToggleSmile]
-We're heading to Caer Wydyr as soon as we can afterwards.
+We're heading to Pedryvan as soon as we can afterwards.
 Fighting a war against Heichalot.
 Unless you want to become involved in that trouble, perhaps not.
 
@@ -639,7 +639,7 @@ I haven't seen her anywhere.
 Maybe she's still inside the fortress?
 
 [MidLeft]
-Dammit Cethern, I've checked everywhere inside and she's nowhere!
+Damn it Cethern, I've checked everywhere inside and she's nowhere!
 
 [FarRight]
 She has to be somewhere.
@@ -866,7 +866,7 @@ I'm sorry, Miach.[.....][OpenEyes]
 We're the only two that made it...
 
 [MidRight]
-Are we still going to Caer Wydyr?
+Are we still going to Pedryvan?
 Even without everybody...?
 
 [MidLeft][CloseEyes]

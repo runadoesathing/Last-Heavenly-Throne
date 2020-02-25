@@ -1,0 +1,263 @@
+ALIGN 4
+ArcherFPortrait:
+#incbin "ArcherF.dmp"
+ArcherFPortraitPalette:
+#incbin "ArcherFPalette.dmp"
+
+ALIGN 4
+ArcherMPortrait:
+#incbin "ArcherM.dmp"
+ArcherMPortraitPalette:
+#incbin "ArcherMPalette.dmp"
+
+ALIGN 4
+AssassinPortrait:
+#incbin "Assassin.dmp"
+AssassinPortraitPalette:
+#incbin "AssassinPalette.dmp"
+
+ALIGN 4
+AxeKeeperPortrait:
+#incbin "AxeKeeper.dmp"
+AxeKeeperPortraitPalette:
+#incbin "AxeKeeperPalette.dmp"
+
+ALIGN 4
+AxeKnightPortrait:
+#incbin "AxeKnight.dmp"
+AxeKnightPortraitPalette:
+#incbin "AxeKnightPalette.dmp"
+
+ALIGN 4
+BishopFPortrait:
+#incbin "BishopF.dmp"
+BishopFPortraitPalette:
+#incbin "BishopFPalette.dmp"
+
+ALIGN 4
+BowKeeperPortrait:
+#incbin "BowKeeper.dmp"
+BowKeeperPortraitPalette:
+#incbin "BowKeeperPalette.dmp"
+
+ALIGN 4
+BowKnightPortrait:
+#incbin "BowKnight.dmp"
+BowKnightPortraitPalette:
+#incbin "BowKnightPalette.dmp"
+
+ALIGN 4
+DarkKnightPortrait:
+#incbin "DarkKnight.dmp"
+DarkKnightPortraitPalette:
+#incbin "DarkKnightPalette.dmp"
+
+ALIGN 4
+DiabolistFPortrait:
+#incbin "DiabolistF.dmp"
+DiabolistFPortraitPalette:
+#incbin "DiabolistFPalette.dmp"
+
+ALIGN 4
+DiabolistMPortrait:
+#incbin "DiabolistM.dmp"
+DiabolistMPortraitPalette:
+#incbin "DiabolistMPalette.dmp"
+
+ALIGN 4
+DruidFPortrait:
+#incbin "DruidF.dmp"
+DruidFPortraitPalette:
+#incbin "DruidFPalette.dmp"
+
+ALIGN 4
+GoldKnightPortrait:
+#incbin "GoldKnight.dmp"
+GoldKnightPortraitPalette:
+#incbin "GoldKnightPalette.dmp"
+
+ALIGN 4
+HalberdierPortrait:
+#incbin "Halberdier.dmp"
+HalberdierPortraitPalette:
+#incbin "HalberdierPalette.dmp"
+
+ALIGN 4
+HeroPortrait:
+#incbin "Hero.dmp"
+HeroPortraitPalette:
+#incbin "HeroPalette.dmp"
+
+ALIGN 4
+LanceKeeperPortrait:
+#incbin "LanceKeeper.dmp"
+LanceKeeperPortraitPalette:
+#incbin "LanceKeeperPalette.dmp"
+
+ALIGN 4
+LanceKnightPortrait:
+#incbin "LanceKnight.dmp"
+LanceKnightPortraitPalette:
+#incbin "LanceKnightPalette.dmp"
+
+ALIGN 4
+LanceKnightFPortrait:
+#incbin "LanceKnightF.dmp"
+LanceKnightFPortraitPalette:
+#incbin "LanceKnightFPalette.dmp"
+
+ALIGN 4
+MageKnightFPortrait:
+#incbin "MageKnightF.dmp"
+MageKnightFPortraitPalette:
+#incbin "MageKnightFPalette.dmp"
+
+ALIGN 4
+MonkFPortrait:
+#incbin "MonkF.dmp"
+MonkFPortraitPalette:
+#incbin "MonkFPalette.dmp"
+
+ALIGN 4
+MonkMPortrait:
+#incbin "MonkM.dmp"
+MonkMPortraitPalette:
+#incbin "MonkMPalette.dmp"
+
+ALIGN 4
+MyrmidonFPortrait:
+#incbin "MyrmidonF.dmp"
+MyrmidonFPortraitPalette:
+#incbin "MyrmidonFPalette.dmp"
+
+ALIGN 4
+PaleRiderPortrait:
+#incbin "PaleRider.dmp"
+PaleRiderPortraitPalette:
+#incbin "PaleRiderPalette.dmp"
+
+ALIGN 4
+PiratePortrait:
+#incbin "Pirate.dmp"
+PiratePortraitPalette:
+#incbin "PiratePalette.dmp"
+
+ALIGN 4
+RangerFPortrait:
+#incbin "RangerF.dmp"
+RangerFPortraitPalette:
+#incbin "RangerFPalette.dmp"
+
+ALIGN 4
+SageFPortrait:
+#incbin "SageF.dmp"
+SageFPortraitPalette:
+#incbin "SageFPalette.dmp"
+
+ALIGN 4
+ShamanFPortrait:
+#incbin "ShamanF.dmp"
+ShamanFPortraitPalette:
+#incbin "ShamanFPalette.dmp"
+
+ALIGN 4
+SilverKnightPortrait:
+#incbin "SilverKnight.dmp"
+SilverKnightPortraitPalette:
+#incbin "SilverKnightPalette.dmp"
+
+ALIGN 4
+SniperFPortrait:
+#incbin "SniperF.dmp"
+SniperFPortraitPalette:
+#incbin "SniperFPalette.dmp"
+
+ALIGN 4
+SniperMPortrait:
+#incbin "SniperM.dmp"
+SniperMPortraitPalette:
+#incbin "SniperMPalette.dmp"
+
+ALIGN 4
+SoldierMPortrait:
+#incbin "SoldierM.dmp"
+SoldierMPortraitPalette:
+#incbin "SoldierMPalette.dmp"
+
+ALIGN 4
+SwordKeeperPortrait:
+#incbin "SwordKeeper.dmp"
+SwordKeeperPortraitPalette:
+#incbin "SwordKeeperPalette.dmp"
+
+ALIGN 4
+SwordKnightPortrait:
+#incbin "SwordKnight.dmp"
+SwordKnightPortraitPalette:
+#incbin "SwordKnightPalette.dmp"
+
+ALIGN 4
+SwordKnightFPortrait:
+#incbin "SwordKnightF.dmp"
+SwordKnightFPortraitPalette:
+#incbin "SwordKnightFPalette.dmp"
+
+ALIGN 4
+SwordmasterFPortrait:
+#incbin "SwordmasterF.dmp"
+SwordmasterFPortraitPalette:
+#incbin "SwordmasterFPalette.dmp"
+
+ALIGN 4
+TemplarPortrait:
+#incbin "Templar.dmp"
+TemplarPortraitPalette:
+#incbin "TemplarPalette.dmp"
+
+ALIGN 4
+TricksterFPortrait:
+#incbin "TricksterF.dmp"
+TricksterFPortraitPalette:
+#incbin "TricksterFPalette.dmp"
+
+ALIGN 4
+TricksterMPortrait:
+#incbin "TricksterM.dmp"
+TricksterMPortraitPalette:
+#incbin "TricksterMPalette.dmp"
+
+ALIGN 4
+TrobairitzPortrait:
+#incbin "Trobairitz.dmp"
+TrobairitzPortraitPalette:
+#incbin "TrobairitzPalette.dmp"
+
+ALIGN 4
+ValkyriePortrait:
+#incbin "Valkyrie.dmp"
+ValkyriePortraitPalette:
+#incbin "ValkyriePalette.dmp"
+
+ALIGN 4
+WarClericPortrait:
+#incbin "WarCleric.dmp"
+WarClericPortraitPalette:
+#incbin "WarClericPalette.dmp"
+
+ALIGN 4
+WarMonkPortrait:
+#incbin "WarMonk.dmp"
+WarMonkPortraitPalette:
+#incbin "WarMonkPalette.dmp"
+
+ALIGN 4
+WyvernLordPortrait:
+#incbin "WyvernLord.dmp"
+WyvernLordPortraitPalette:
+#incbin "WyvernLordPalette.dmp"
+
+ALIGN 4
+WyvernRiderPortrait:
+#incbin "WyvernRider.dmp"
+WyvernRiderPortraitPalette:
+#incbin "WyvernRiderPalette.dmp"

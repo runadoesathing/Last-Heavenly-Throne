@@ -1,135 +1,554 @@
+## P1C2AnkerBattleQuote
+[MidLeft][LoadAnker]
+Oh, darling Alvarin![.6] We have[N]
+children playing as heroes![AN]
+Let us paint a flower of their[N]
+blood on this town![A][X]
+
+## P1C2AlvarinBattleQuote
+[MidLeft][LoadAlvarin]
+Oh, my sweet cherry Anker![.6][N]
+Don't you worry a bit![AN]
+I shall make a necklace of[N]
+their bones just for you![A][X]
+
+## P1C2AnkerDeathQuote
+[MidLeft][LoadAnker]
+Oh, my darling Alvarin...![.6][N]
+I cannot leave you now![AN]
+I shall fly south to meet[N]
+you again![A][X]
+
+## P1C2AlvarinDeathQuote
+[MidLeft][LoadAlvarin]
+Oh, my sweet cherry Anker...[AN]
+That necklace must wait[N]
+for another time![AN]
+I shall fly south to meet[N]
+you again![A][X]
+
+
+
 ## P1C1xSteelAxeVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBlackHairGirl]
-Wham![MoveMidRight] Bam![MoveMidRight][ToggleSmile]
-Have you ever seen an axe as good as this?
-Look how pristine its curvature is!
-How it flows as you swing it down!
-Ha![MoveMidRight][LoadOverworldFaces][ToggleSmile]
-Oh my...
-That's quite...[......] a large dent.
-Maybe you should take this off my hands.
-Don't need to get yelled at![X]
+Wham![MoveMidRight] Bam![MoveMidRight][ToggleSmile] Have you ever seen an[N]
+axe as good as this one right here?[AN]
+Look how pristine its curvature is![.6][N]
+How it flows as you swing it down![AN]
+Ha![LoadOverworldFaces][MoveMidRight][......][ToggleSmile] Oh my...[.6][N]
+That's quite...[......] a large dent.[AN]
+Maybe you should take this from me.[N]
+Don't need to get yelled at![A][X]
+
+
 
 ## P1C1xSlimBowVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadPigtails]
-I thought bows were supposed to be huge.
-Make your arms hurt, need a lot of strength.
-Then my dad got me this from the capital.
-It's like a toy!
-But it's not.
-You could shoot someone's eye out still.
-Well, I'm not a kid.
-I'd rather use a bigger bow.
-You have a younger someone to give it to?[X]
+I thought bows were[N]
+supposed to be huge.[AN]
+Make your arms hurt,[.6][N]
+need some strength.[AN]
+Then my dad got this[N]
+from the capital.[AN]
+It's like a toy![.5][N]
+But it's not.[AN]
+You could shoot[N]
+someone's eye out.[AN]
+Well, I'm not a kid.[AN]
+I'd rather use a [N]
+bigger bow myself.[AN]
+You have a kid you[N]
+can give it to?[A][X]
+
+
 
 ## P1C1xPureWaterVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadLittleGirl]
-Hey!
-Look at this bottle!
-I thought it'd taste good, but it tastes really weird...
-I don't know why you'd wanna drink it!
-But hey, maybe you could splash someone with it![X]
+Hey![.6] Look at this bottle![.6][N]
+I thought it'd taste good...[AN]
+But it tastes really weird![.5][N]
+Don't know why you'd drink it.[AN]
+Hey,[.5] maybe you could splash[N]
+someone with it![A][X]
+
+
 
 ## P1C1xShineGuardVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadBrunetteMan]
-Have you ever locked your children in their rooms with magic?
-I haven't.
-That's sadistic.
-But I've thought about it.
-This thing right here, it's really good at blocking doorways.
-I've considered using it, but I'm hard-pressed to find a good use for it.
-Do you want it?
-Just promise you won't lock your kids in.[X]
+[MidRight][LoadBlondeMan]
+Have you ever locked your kids[N]
+in their rooms with magic?[AN]
+I haven't.[.6] That's sadistic.[.5][N]
+But I've thought about it.[AN]
+This thing right here,[.5] it's[N]
+really good at blockades.[AN]
+I've considered using it,[.5] but I'm[N]
+hard-pressed for the motivation.[AN]
+Do you want it?[.6] Just promise you[N]
+won't lock your kids in.[A][X]
+
+
+
+## TheNextDay
+The next day...[X]
+
 
 ## P1C1xAinghaHouse
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadGingerWoman]
-Conflict here so soon...
-I pray Aingha keeps us safe.[MoveMidLeft]
-Who is Aingha?
-Well, she's the Wardbearer of Corbenic!
-Our lush soil, our rich game, our livelihood...
-It all depends on her.
-She nurtures us, she protects us...
-You could consider her the greatest of all grandmothers.
-I only hope her protection is enough against Heichalot.[X]
+Conflict here so soon...[.6] I[N]
+pray Aingha keeps us safe.[AN][MoveMidRight]
+Who is Aingha? Well, she's[N]
+the Wardbearer of Corbenic![AN]
+Our lush soil, our rich game,[N]
+our livelihood depends on her.[AN]
+She nurtures and protects us,[.5][N]
+like Corbenic's grandmother.[AN]
+Well,[.5] you could consider her the[N]
+grandest of all grandmothers![AN]
+I only hope her protection[N]
+is enough for our safety.[A][X]
+
+
 
 ## P1C1MiachAirmedCethern
-[ConversationText]
-[OpenMidLeft][LoadMiach][OpenMidRight][LoadAirmed]
-Miach! You're gonna spill the water everywhere! 
-It took so long to heat!
+[OpenMidLeft][LoadMiach]
+[OpenMidRight][LoadAirmed]
+Miach![......] You're gonna spill[N]
+the water everywhere![AN]
+It took so long to heat![A]
 
 [OpenMidLeft]
-You try holding it! It's hotter and heavier than you think!
+You try holding it![.6] It's hotter[N]
+and heavier than you think![A]
 
 [OpenMidRight]
-I can't believe the nurse let you do this with me!
+I can't believe the nurse[N]
+let you do this with me![A]
 
 [OpenMidLeft]
-I can't believe the nurse thought you were the best person to take care of him! 
-If you're gonna nag at me, do the whole thing yourself!
+I can't believe the nurse thought you[N]
+were the best person to take care of him![AN]
+If you're gonna nag at me,[.5] do the whole[N]
+thing yourself![A]
 
 [OpenFarFarRight][LoadCethern]
-Miach? Airmed?
-Are you both in there?
+Miach?[.6] Airmed?[.6][N]
+Are you both in there?[A]
 
 [OpenMidLeft]
-It's Cethern![MoveMidLeft][MoveFarLeft]
+It's Cethern![A][MoveMidLeft][MoveFarLeft]
 
 [OpenMidRight]
-Why are you putting the pot down?! 
-Our grandpa needs it!
+Why are you putting the pot down?![N]
+Our grandpa needs it![A][CloseSpeechSlow]
 
 [MoveLeft][ClearFace][OpenLeft][LoadAirmed]
-[OpenFarFarRight][MoveFarRight][OpenFarRight][ToggleSmile]
-Am I bothering something?
-I see you're both quite busy.
+[OpenFarFarRight][MoveFarRight]
+[OpenFarRight][ToggleSmile]
+Am I interrupting something?[.6][N]
+I see you're both quite busy.[A]
 
 [OpenFarLeft]
-Cethern! Did you beat those bandits into a pulp?!
+Cethern![.6] Did you beat those[N]
+bandits to a pulp?![A]
 
 [OpenFarRight]
-I guess you could say that.
-You both taking care of our old man?
+I guess you could say that.[AN]
+Are you taking good care of[N]
+grandfather?[A]
 
 [OpenLeft][ToggleSmile]
-I'm trying to take care of him.
-But Miach keeps messing everything up!
+I'm trying to take care of him.[.6][N]
+But Miach keeps messing everything up![A]
 
 [OpenFarLeft]
-Sorry, who did the nurse say could help?
-You're not even helping, only bossing me around![MoveFarLeft][ToggleSmile]
-Can I come kill some brigands instead with you next time, Cethern?
+You're not even helping,[.5] Airmed![AN]
+All you're doing is standing still[N]
+and bossing me around![AN][MoveFarLeft][ToggleSmile]
+Can I kill some brigands with you[N]
+next time,[.5] Cethern?[A]
 
 [OpenFarRight]
-I'll think about it. 
-I think you've got a lot of training yourself before you could help.
+I'll think about it.[.6] I think you've got a lot[N]
+of training yourself before you could help.[A]
 
 [OpenLeft][ToggleSmile]
-That's not fair! 
-Am I not allowed?
-I've actually been working myself tired unlike some brothers!
-I'm barely even younger than you!
+That's not fair! Am I not allowed?![AN]
+I've been training myself tired,[.5][N]
+unlike a certain younger brother![AN]
+And I'm barely your little sister[N]
+anymore,[.5] Cethern![A]
 
 [OpenFarRight][MoveFarRight]
-...[ToggleSmile]Maybe I should leave you two alone.
-You're better taking care of him without me distracting you.
-I'll be out helping with some of the clean-up.
+[Beat][ToggleSmile] Maybe I should leave you two alone.[AN]
+You're better off taking care of[N]
+grandfather without my distractions.[AN][MoveFarRight]
+There's a woman that should be here[N]
+soon to talk to grandfather.[AN]
+Make sure you let her inside.[.6] I'll be[N]
+outside helping with the cleanup.[A]
 
 [ClearFace][ToggleSmile][OpenFarLeft][......]
-Airmed!
-You scared him away!
+Airmed![.6] You scared him away![A]
 
 [OpenLeft]
-What are you talking about?!
-It was obviously your begging![X]
+What are you talking about?![.6] It was[N]
+obviously your obnoxious begging![A][X]
+
+
+
+## P1C1xWMIntro
+Cethern,[....] S[0xE9]tanta,[....] and Ferdiad stave[N]
+off the brigands near their village.[AN]
+After their act of heroism,[.....] they[N]
+are informed by a Crownflier,[.....] Lady[AN]
+Sadhbh of Caer Siddi,[.....] that Heichalot[N]
+has declared war on their kingdom.[AN]
+The thought ruminates in the[N]
+youths' minds,[.5] especially Cethern.[AN]
+The next morning,[.5] Cethern and his[N]
+friends are tasked with securing[AN]
+food from a further village for[N]
+the upcoming winter season.[A][X]
+
+
+
+## P1C1xWMIntro2
+The region of Rigor covers the southern[N]
+part of Corbenic,[.5] bordering with Srughna[N]
+to the south and Caer Siddi,[.5] Corbenic's[N]
+capital and largest castle,[.5] to the north.[AN]
+Soldiers from Caer Siddi were sent to[N]
+aid with recovery from heavy flooding[N]
+in the Srughnan noble houses' lands.[AN]
+However,[.5] with the edict of isolation[N]
+from Srughna's margrave,[.5] many of those[N]
+soldiers have become stuck around the[N]
+border,[.5] away from their homes and families.[AN]
+The pressure put on Srughna,[.5] from[N]
+Corbenic and their own flooding,[.5][N]
+threatens to pierce the border from[N]
+Srughna to the villages of Rigor...[A][X]
+
+
+
+## CluainBolg
+Cluain Bolg, Rigor[X]
+
+
+
+## P1C1xCethernDagmema
+[MidLeft][LoadCethern]
+[MidRight][LoadDagmema][MoveMidRight]
+Stay back![.6] I[.....]-I'm not[N]
+afraid to shoot![A]
+
+[MidLeft]
+Calm down![.6] We came here to help[N]
+this village,[.5] not plunder it![A]
+
+[MidRight]
+Oh,[.5] thank the bearers...![.6] I'm sorry![.6][N]
+I thought I was all alone...[A]
+
+[MidLeft]
+Do you know what's going on here?[.6][N]
+Are these bandits attacking?[A]
+
+[MidRight]
+No,[.5] they're...[.6][MoveMidRight] Well,[.5] they're from Srughna.[.6][N]
+I was with them before all this...[AN]
+A lot of them are Malavan soldiers.[.5][N]
+I tried to fend them off,[.5] but then it...[AN]
+I[MoveMidRight]-It all fell apart...![.6] I'm sorry![A]
+
+[MidLeft]
+Please,[.....] don't apologize.[.6][N]
+We're here to help you.[AN]
+Now come on.[.6] Let's keep this[N]
+village safe,[.5] okay?[A][ClearFace]
+
+[MidRight]
+You can do this,[.5] Dagmema...[AN]
+Just try to ignore...[.6] The chance[N]
+that you[.4] might[.4] die,[.5][CloseEyes] okay?[A][X]
+
+
+
+## P1C1xSetantaDagmema
+[MidLeft][LoadSetanta]
+[MidRight][LoadDagmema][MoveMidRight]
+Stay back![.6] I[.....]-I'm not[N]
+afraid to shoot![A]
+
+[MidLeft]
+Whoa,[.5] now hold on a second there![.6] I don't[N]
+think you want to shoot me.[.6] Bad idea.[A]
+
+[MidRight]
+Tell me who you are![.6][N]
+Right now![.6] Or I'll...![A]
+
+[MidLeft]
+You know,[.5] you're quivering in your armour.[.6][N]
+Not exactly the most intimidating knight.[AN]
+And considering we're here to help you out?[N]
+I think you'll want to put that bow down.[A]
+
+[MidRight]
+I...![.7][MoveMidRight] Fine.[.6] There you go...[.6][N]
+Now tell me who you are![A]
+
+[MidLeft]
+The name's S[0xE9]tanta.[.6] You know,[.5] you remind[N]
+me of a certain friend of mine...[AN]
+But I don't think now's the time to[N]
+talk about our attachments.[AN]
+It looks like you've got a bit of a[N]
+hot fire on your backside,[.5] haven't--[A]
+
+[MidRight]
+That's enough...![.6][MoveMidRight][N]
+Please,[.5] just help already![AN]
+T[.....]-They're looting the entire[N]
+village as we speak![A]
+
+[MidLeft]
+Fine,[.5] fine.[.6] As long as you promise not[N]
+to aim that bow at me again.[AN][ToggleSmile]
+I've already got one gal who[N]
+wouldn't mind shooting me down...[A][X]
+
+
+
+## P1C1xFerdiadDagmema
+[MidLeft][LoadFerdiad]
+[MidRight][LoadDagmema][MoveMidRight]
+Stay back![.6] I[.....]-I'm not[N]
+afraid to shoot![A]
+
+[MidLeft]
+Don't shoot![.5] We're from Cluain Bolg![.6][N]
+We're here to help you, alright?[AN]
+Those bandits are harrasing you,[.5][N]
+aren't they?[A]
+
+[MidRight]
+I...[.5] They're not bandits.[.6][N]
+They're Srughnan soldiers![AN]
+
+[MidLeft]
+Srughnan soldiers...[.6][N]
+I should tell Cethern about this.[AN]
+But for now,[.5] we're your friends,[.4] okay?[AN]
+Stay with us and we'll make it through[N]
+this in one piece.[.6] Understood?[A]
+
+[MidRight]
+U[.....]-Understood,[.5] miss.[.6][N]
+Um,[.5] my name is Dagmema...[A]
+
+[MidLeft]
+Dagmema...[.5] That's a nice name.[.6][N]
+I'm Ferdiad.[.5] No need to call me miss.[A][X]
+
+
+
+## P1C1xCluainCluain
+[MidLeft][LoadSadhbh]
+[FarFarRight][LoadCethern][MoveMidRight]
+Ah,[.5] Lady Sadhbh.[.6] Have you come[N]
+to speak with my grandfather?[A]
+
+[MidLeft]
+Indeed I have.[.6] Is he well enough[N]
+to have a chat with me?[A]
+
+[MidRight]
+He should be.[.6][ToggleSmile] My siblings are taking care[N]
+of him right now, so don't mind them.[A]
+
+[MidLeft]
+Thank you very[N]
+much,[.5] Cethern.[A][ClearFace][......]
+
+[FarFarLeft][ToggleSmile][LoadFerdiad][MoveMidLeft]
+Ugh,[.5] did I miss her?![.6] I tried to make[N]
+a mad dash when I saw her,[.5] but...[A]
+
+[MidRight]
+Good morning to you too,[.5] Ferdiad.[.6][N]
+She'll be done talking eventually.[A]
+
+[FarFarLeft]
+Excuse me,[.5] you two?[A]
+
+[MidLeft][ClearFace][MidRight][MoveRight][FarRight][LoadFerdiad][MidLeft][LoadBrunetteMan]
+You wouldn't happen to be busy,[.5][N]
+would you?[.6] I have a favour to ask.[AN]
+I can only hope that you're not[N]
+tired out from yesterday's incident.[A]
+
+[Right]
+Alderman![.6] I think that may depend[N]
+on the favour being asked.[AN]
+What would you have us do?[A]
+
+[MidLeft]
+It's a bit of a favour,[.5] I must say.[.6] But[N]
+I'm sure you have an idea of it already.[AN]
+You can feel the chills of winter begin[N]
+to set in already,[.5] can you not?[A]
+
+[FarRight]
+You're right...[.6] It's getting close[N]
+to wintertime,[.5] isn't it?[A]
+
+[MidLeft]
+Since the news of the war came to light,[.5][N]
+I'm worried over our food for the season.[AN]
+Usually we depend on further villages for[N]
+a portion of our crop,[.5] but with the war...[A]
+
+[FarRight][ClearFace][LoadSetanta]
+You'd like us to make a trip[N]
+down south,[.5] wouldn't you?[A]
+
+[Right]
+S[0xE9]tanta![.6] You're up![A]
+
+[FarRight][ToggleSmile]
+I can't have you and Fern leaving town[N]
+without me,[.5] your trusty companion![A]
+
+[Right][ToggleSmile]
+S[0xE9]tanta,[.5] the trusty companion...[.6][ToggleSmile] Not what[N]
+comes to mind when I think of you.[A]
+
+[FarRight][ToggleSmile]
+Oh,[.5] how much you[N]
+wound me,[.5] Cethern![A]
+
+[MidLeft]
+That's a yes from the three of you,[.5] isn't it?[.6][N]
+In my eyes,[.5] you've proven yourself already.[AN]
+Of course,[.5] the fighting's in the opposite[N]
+direction of where you'd be headed,[.5] but...[A]
+
+[Right]
+It'll give Lady Sadhbh time[N]
+to talk with my grandfather...[AN]
+I'm sure we can head out once[N]
+we've gotten our horses ready.[A]
+
+[MidLeft]
+Oh,[.5] thank Aingha![.6] How invaluable[N]
+you three are to us![AN]
+Very well.[.5] I'll make sure Lady Sadhbh[N]
+doesn't leave until you return.[A]
+
+[FarRight][ClearFace][LoadFerdiad]
+Thank you very much,[.5] Alderman![.6][N]
+We'll gather our supplies right now.[A][ClearFace][MidLeft][ClearFace][......]
+
+[Right]
+Invaluable to the village...[.6][N]
+Is that really so?[A][X]
+
+
+
+## P1C1xCluCluCluClu
+[MidLeft][LoadFemaleEnemySoldier]
+[MidRight][LoadEnemySoldier]
+So this is Corbenic...[.6] Isn't this[N]
+a little ungrateful to them?[A]
+
+[MidLeft]
+What,[.5] you grew some morals?[.6] If you want[N]
+to go back home, go right ahead.[AN]
+You can even choose whether you[N]
+drown or starve.[.6] Sound like fun?[A]
+
+[FarFarRight][LoadSarmaree][MoveFarRight]
+[MidRight][MoveRight]
+[FarRight]
+It's too late to go back.[.6] Even if[N]
+we could go home,[.5] what then?[AN]
+There's nothing for us back home.[.5][N]
+War's already on our doorstep.[AN]
+Corbenic will attack us to get[N]
+their soldiers back at any minute.[AN]
+We may as well get a head start[N]
+and grab hope for Srughna![A]
+
+[Right]
+I guess you're right...[.5] I can't just[N]
+sit around and watch everyone suffer.[AN]
+And I don't wanna call myself a[N]
+bandit,[.5] but what else are we to do?![A]
+
+[FarFarLeft][LoadDagmema]
+H[....]-Hold it right there![A]
+
+[MidLeft][ClearFace][FarFarLeft][MoveMidLeft]
+What do you think you're doing...![AN]
+You cross the border,[.5] a[.4]-and now you're[N]
+planning on raiding this town?![A]
+
+[Right]
+It's our only option,[.5] Dagmema![.6][N]
+We don't have a choice![A]
+
+[FarRight]
+Our home is flooded,[.5] and the threat of[N]
+war looms over our head,[.5] Dagmema.[AN]
+You feel the same,[.5] don't you?[.5][N]
+Why else would you come with us?[A]
+
+[MidLeft]
+What would our lord think of you if[N]
+he heard you talk like this,[.5] Sarmaree?![AN]
+You're not a soldier,[.5] y[.4]-you're a bandit![.6][N]
+Just wait until I tell him about this![A]
+
+[FarRight]
+Oh,[.5] I don't think you will.[.6][N]
+If you're not with us,[.5] then...[AN]
+Well,[.5] you're only going to get in[N]
+our way,[.5] isn't that right?[A][CloseSpeechSlow]
+
+[FarLeft][LoadFemaleEnemySoldier]
+[MidLeft][MoveLeft][.....][MoveLeft]
+Y[.4]-You won't get[N]
+away with this![A][X]
+
+
+
+## P1C1xClClClClClCl
+[Right][LoadCethern]
+[FarRight][LoadFerdiad]
+[MidLeft][LoadSetanta]
+Oh great,[.5] just our luck![.6][N]
+More brigands![A]
+
+[FarRight]
+This isn't good![.6] It looks like they're[N]
+targetting that woman in the armour![A]
+
+[Right]
+We need to chase them out of town![.6][N]
+Maybe if we can take their leader out...[A]
+
+[MidLeft]
+You guys really are hopeless...[.6][N]
+There's still only three of us![AN]
+We can only have so much luck[N]
+before we get struck down![A]
+
+[FarRight]
+If we can convince that knight,[.5] maybe it'll[N]
+be four,[.5] S[0xE9]tanta![.6] But we need to move![A][X]

@@ -3,6 +3,7 @@
     #include "Custom Definitions.event"
     
     PROTECT 0xA188F8 0xA18930
+    PROTECT 0x0 0x800
 
     ORG FreeSpace
 

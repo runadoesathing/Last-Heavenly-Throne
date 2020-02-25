@@ -80,7 +80,7 @@ Heichalot[X]
 Ochren[X]
 
 ## NalaName
-Nala[X]
+Nandi[X]
 
 ## SirinName
 Sirin[X]
@@ -169,7 +169,7 @@ Dagmema[X]
 ## SarmareeName
 Sarmaree[X]
 
-## MalavaName
+## RemnantName
 Malava[X]
 
 ## NakstraniName
@@ -195,6 +195,12 @@ Rionall[X]
 
 ## KesinName
 Kesin[X]
+
+## AnkerName
+Anker[X]
+
+## AlvarinName
+Alvarin[X]
 
 
 
@@ -242,7 +248,7 @@ She has a knack for fantasizing.[X]
 
 ## IshpanDesc
 Heichalotian defending the hills[N]
-across Caer Ochren's borders.[X]
+across Ochren's border.[X]
 
 ## GedaliahDesc
 Commander under The Shield, a Stem[N]
@@ -262,14 +268,14 @@ age, he wishes to fight Heichalot.[X]
 
 ## AnluanDesc
 A petty bandit leader who pillages[N]
-around the province of Caer Rigor.[X]
+around the province of Rigor.[X]
 
 ## LalithaDesc
 Wandering magician from the south.[N]
 She's arrogant and cheeky at times.[X]
 
 ## AengusDesc
-Royal knight from Caer Wydyr.[N]
+Royal knight from Manapia.[N]
 He tires easily, but is caring.[X]
 
 ## BresDesc
@@ -300,7 +306,7 @@ Soldiers of the Principality of[N]
 Heichalot in the far north.[X]
 
 ## OchrenDesc
-Militia of Caer Ochren, Corbenic's[N]
+Militia of Ochren, Corbenic's[N]
 northwestern province.[X]
 
 ## ShukaDesc
@@ -348,24 +354,24 @@ Monks of the Antariksan Order, dedicated[N]
 to an obscure Wardbearer of the skies.[X]
 
 ## NairatmyaDesc
-Soldier of House Malava, located in[N]
-central Srughna. Timid and mousey.[X]
+Soldier of House Malava. She's and[N]
+mousey, but wishes to do good.[X]
 
 ## SarmareeDesc
 Soldier of House Malava, in[N]
 central Srughna. Vain and cocky.[X]
 
-## MalavaDesc
-Militia of the noble house Malava,[N]
-one of several in Srughna.[X]
+## RemnantDesc
+Marauders made up of Malavan soldiers,[N]
+forced into banditry by flooding.[X]
 
 ## SirinDesc
 A pegasus knight whose only loyalty[N]
 is with her best friend, Birnath.[X]
 
 ## BirnathDesc
-Armoured soldier of House Pancala,[N]
-in Srughna. Loud and boisterous.[X]
+Armoured soldier of House Pancala.[N]
+He's loud and boisterous.[X]
 
 ## NakstraniDesc
 Acolyte of the Antariksan Order.[N]
@@ -418,6 +424,14 @@ companion of Srihwen. Quite obstinate.[X]
 ## LalithaPTSDesc
 Greatmother apparent of the Pavakan[N]
 people. She's upbeat and self-assured.[X]
+
+## AnkerDesc
+Brigand from Srughna, infamous for[N]
+his brutality. Alvarin's companion.[X]
+
+## AlvarinDesc
+Brigand from Srughna, infamous for his[N]
+merciless pillaging. Anker's companion.[X]
 
 ## TestDescFFFF
 This is a test. Play Last[N]
@@ -934,22 +948,30 @@ Clonkeine[X]
 Am Scroll[X]
 
 ## AmharakkuScrollDesc
-test[X]
+Amharakku Scroll: +15% HP/[N]
+Str, +40% Def, -15% Skl/Spd.[N]
+Thunder affinity only.[X]
 
 ## NinasolnaScrollName
 Nina Scroll[X]
 
 ## NinasolnaScrollDesc
-test[X]
+Ninasolna Scroll: +20% Skl/[N]
+Mag, +50% Res, -20% HP/Str.[N]
+Light affinity only.[X]
 
 ## AinghaScrollName
 Aingha Scroll[X]
 
 ## AinghaScrollDesc
-test[X]
+Aingha Scroll: +30% Skl/Spd,[N]
++40% Luck, -15% Str/Def/Res.[N]
+Wind affinity only.[X]
 
 ## SamesScrollName
 Sames Scroll[X]
 
 ## SamesScrollDesc
-test[X]
+Sames Scroll: +15% HP/Skl/[N]
+Spd/Res, -10% Str/Def.[N]
+Water affinity only.[X]

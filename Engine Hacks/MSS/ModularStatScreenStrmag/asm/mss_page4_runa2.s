@@ -212,7 +212,7 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x9]	         @load character affinity
 adr    r0,AffinityInfoTable  @load affinity data
 ldr    r0,[r0]
-mov    r2,#4
+mov    r2,#6
 mul    r1,r2
 ldrb   r0,[r0,r1]
 ldr r4, =(tile_origin+(0x20*2*15)+(2*20))
@@ -233,7 +233,7 @@ ldr    r1,[r0]               @load character pointer
 ldrb   r1,[r1,#0x9]	         @load character affinity
 adr    r0,AffinityInfoTable  @load affinity data
 ldr    r0,[r0]
-mov    r2,#4
+mov    r2,#6
 mul    r1,r2
 add    r1,#2
 ldrh   r0,[r0,r1]

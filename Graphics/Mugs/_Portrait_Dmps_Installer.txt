@@ -1,5 +1,18 @@
 
 ALIGN 4
+Aengus_Mug:
+#incbin "Aengus_mug.dmp"
+ALIGN 4
+Aengus_Frames:
+#incbin "Aengus_frames.dmp"
+ALIGN 4
+Aengus_Palette:
+#incbin "Aengus_palette.dmp"
+ALIGN 4
+Aengus_Minimug:
+#incbin "Aengus_minimug.dmp"
+
+ALIGN 4
 AengusAlpha_Mug:
 #incbin "AengusAlpha_mug.dmp"
 ALIGN 4
@@ -50,6 +63,32 @@ AirmedAlpha_Palette:
 ALIGN 4
 AirmedAlpha_Minimug:
 #incbin "AirmedAlpha_minimug.dmp"
+
+ALIGN 4
+Alvarin_Mug:
+#incbin "Alvarin_mug.dmp"
+ALIGN 4
+Alvarin_Frames:
+#incbin "Alvarin_frames.dmp"
+ALIGN 4
+Alvarin_Palette:
+#incbin "Alvarin_palette.dmp"
+ALIGN 4
+Alvarin_Minimug:
+#incbin "Alvarin_minimug.dmp"
+
+ALIGN 4
+Anker_Mug:
+#incbin "Anker_mug.dmp"
+ALIGN 4
+Anker_Frames:
+#incbin "Anker_frames.dmp"
+ALIGN 4
+Anker_Palette:
+#incbin "Anker_palette.dmp"
+ALIGN 4
+Anker_Minimug:
+#incbin "Anker_minimug.dmp"
 
 ALIGN 4
 Anluan_Mug:
@@ -180,6 +219,19 @@ Dhara2_Palette:
 ALIGN 4
 Dhara2_Minimug:
 #incbin "Dhara2_minimug.dmp"
+
+ALIGN 4
+Ethniu_Mug:
+#incbin "Ethniu_mug.dmp"
+ALIGN 4
+Ethniu_Frames:
+#incbin "Ethniu_frames.dmp"
+ALIGN 4
+Ethniu_Palette:
+#incbin "Ethniu_palette.dmp"
+ALIGN 4
+Ethniu_Minimug:
+#incbin "Ethniu_minimug.dmp"
 
 ALIGN 4
 EthniuAlpha_Mug:
@@ -427,6 +479,19 @@ Sanjana_Palette:
 ALIGN 4
 Sanjana_Minimug:
 #incbin "Sanjana_minimug.dmp"
+
+ALIGN 4
+Sarmaree_Mug:
+#incbin "Sarmaree_mug.dmp"
+ALIGN 4
+Sarmaree_Frames:
+#incbin "Sarmaree_frames.dmp"
+ALIGN 4
+Sarmaree_Palette:
+#incbin "Sarmaree_palette.dmp"
+ALIGN 4
+Sarmaree_Minimug:
+#incbin "Sarmaree_minimug.dmp"
 
 ALIGN 4
 Setanta_Mug:

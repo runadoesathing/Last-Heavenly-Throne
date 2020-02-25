@@ -95,7 +95,7 @@ BYTE SolidarityID MaleficAuraID VoiceOfPeaceID IntimidateID AnathemaID//auras th
 BYTE LifetakerID GaleforceID DespoilID//after defeating enemy
 BYTE SavageBlowID//after combat, prevents activating but not effects if it was already activated
 BYTE SealStrID SealSklID SealSpdID SealLukID SealDefID SealResID//seal
-BYTE CritUpID WaryFighterID FrenzyID MiracleID LifeAndDeathID TantivyID FocusID FieryBloodID WindDiscipleID HawkeyeID LightWeightID KillingMachineID CriticalForceID ChivalryID PragmaticID OpportunistID TrampleID HaughtyID QuintainID ChandelleID UnderdogID ChandrasFealtyID MachaArtsID SecondWindID ManastrikeID ManasnakeID CleanFightID //other combat skills
+BYTE CritUpID WaryFighterID FrenzyID MiracleID LifeAndDeathID TantivyID FocusID FieryBloodID WindDiscipleID HawkeyeID LightWeightID KillingMachineID CriticalForceID ChivalryID PragmaticID OpportunistID TrampleID HaughtyID QuintainID ChandelleID UnderdogID ChandrasFealtyID MachaArtsID SecondWindID ManastrikeID ManasnakeID CleanFightID DiamondDefID //other combat skills
 BYTE MoonbowID//charge up skills, I don't really know how they work so I don't know if this prevents them from getting charge or lossing it or not, it does prevent moonbow from triggering
 BYTE DownWithArchID
 BYTE LuckySevenID OddRhythmID EvenRhythmID QuickBurnID SlowBurnID//turn based boosts

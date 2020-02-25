@@ -1,42 +1,42 @@
 INLINE CharLevelUpSkillTable,Skill List Address
 None,0
-Eirika,0
-Seth,0
-Gilliam,0
-Franz,0
-Moulder,0
-Vanessa,0
-Ross,0
-Neimi,0
-Colm,0
-Garcia,0
-Innes,0
-Lute,0
-Natasha,0
-Cormag,0
-Ephraim,0
-Forde,0
-Kyle,0
-Amelia,0
-Artur,0
-Gerik,0
-Tethys,0
-Marisa,0
-Saleh,0
-Ewan,0
-L'Arachel,0
-Dozla,0
--0,0
-Rennac,0
-Duessel,0
-Myrrh,0
-Knoll,0
-Joshua,0
-Syrene,0
-Tana,0
-Lyon,0
-Orson,0
-Glen,0
+Cethern (Eirika),0
+Setanta (Seth),0
+Ferdiad (Gilliam),0
+Hanlin (Franz),0
+Aingha/Airmed (Moulder),0
+Sadhbh (Vanessa),0
+Lalitha (Ross),0
+Aengus (Neimi),0
+Bres (Colm),0
+Ethniu (Garcia),0
+Gedeon (Innes),0
+Soma (Lute),0
+Varuna (Natasha),0
+Sanjana (Cormag),0
+Srihwen (Ephraim),0
+Rudram (Forde),0
+Nala (Kyle),0
+Sirin (Amelia),0
+Birnath (Artur),0
+Sin Gu (Gerik),0
+Len (Tethys),0
+Calingi (Marisa),0
+Rhibhu (Saleh),0
+Sengann (Ewan),0
+Bheki (L'Arachel),0
+Danand (Dozla),0
+Kyuhn,0
+Gusainji (Rennac),0
+Murugan (Duessel),0
+Flidais (Myrrh),0
+Zheng (Knoll),0
+Radhe (Joshua),0
+Enoch (Syrene),0
+Naamah (Tana),0
+Marici (Lyon),0
+Dagmema (Orson),0
+Nakstrani (Glen),0
 Selena,0
 Valter,0
 Riev,0
@@ -44,11 +44,11 @@ Caellach,0
 Fado,0
 Ismaire,0
 Hayden,0
+FakeEirika,0
+Miach,0
 -0,0
 -0,0
--0,0
--0,0
--0,0
+5,0
 -0,0
 -0,0
 -0,0
@@ -68,28 +68,28 @@ Morva (Ch 20),0
 Orson (Ch 5x),0
 Valter (Ch 15),0
 Selena (Ch 10B & 13B),0
-Valter (Prologue),0
-Breguet (Ch 1),0
-Bone (Ch 2),0
-Bazba (Ch 3),0
-Entombed (Ch 4),0
-Saar (Ch 5),0
-Novala (Ch 6),AnilaSkillList|IsPointer
-Murray (Ch 7),0
-Tirado (Ch 8),AnilaSkillList|IsPointer
-Binks (Ch 9A),0
-Pablo (Ch 10A),0
-Maelduin (Ch 12A),0
-Aias (Ch 13A),0
-Carlyle (Ch 14A),0
-Caellach (Ch 15),0
-Pablo (Ch 13A),0
--0,0
-Gorgon (Ch 18),0
-Riev (Ch 19 & 20),0
--0,0
--0,0
-Gheb (Ch 9B),0
+Sarmaree (1-2),0
+Aillen (1-3),0
+Lamech (1-4),0
+Ishpan (1-5),0
+Jhudiel (1-F),0
+Gedaliah (1-F),0
+Shuka (2-1),AnilaSkillList|IsPointer
+Chakora (2-2),0
+Babhru (2-3),AnilaSkillList|IsPointer
+Goga (2-4),0
+Alakkhi (2-5),0
+Tumbaru (2-5x),0
+Bhadra (2-6),0
+Vasava (2-7),0
+Kalkin (2-8),0
+Manasa (2-F),0
+Bhatn (2-F),0
+Kesin,0
+Cu Raoi,0
+Rionall,0
+Anker,AteamSkillList|IsPointer
+Alvarin,AteamSkillList|IsPointer
 Beran (Ch 10B),0
 Cyclops (Ch 12B),0
 Wight (Ch 11A),0
@@ -103,7 +103,7 @@ Hunter (Ch 16),0
 -0,0
 Brigand,0
 -0,0
-O'Neill (Prologue),0
+Anluan (1-1),0
 Glen (Cutscene),0
 Zonta (Ch 5x),0
 Vigarde (Ch 14B),0
@@ -127,21 +127,21 @@ Orson (Ch 16),0
 -0,0
 -0,0
 Grado Soldier (Special),0
-Grado Soldier 1 (Normal),0
-Grado Soldier 2,0
-Grado Soldier 3,0
-Grado Soldier 4,0
-Grado Soldier 5,0
-Grado Soldier 6,0
-Grado Soldier 7,0
-Grado Soldier 8,0
-Grado Soldier 9,AnilaSkillList|IsPointer
-Grado Soldier 10 (Duessel's),AnilaSkillList|IsPointer
-Grado Soldier 11 (Duessel's),AntariksaSkillList|IsPointer
-Grado Soldier 12 (Duessel's),AntariksaSkillList|IsPointer
-Grado Soldier 13,0
-Grado Remnant 1 (Main),0
-Cutthroat,AntariksaGuardSkillList|IsPointer
+Enemies +1 but Speed,0
+Enemies with +1 Speed and the +1,0
+STRONG KNIGHT,0
+Enemies but they're magic,0
+The Heichalotian Boys +1,0
+The Magical Heichalotian Boys +1,0
+CAER OCHREN,0
+MAGICAL CAER OCHREN,0
+Anila,AnilaSkillList|IsPointer
+Anila Magic,AnilaSkillList|IsPointer
+Antariksa,AntariksaSkillList|IsPointer
+Antariksa Magic,AntariksaSkillList|IsPointer
+Remnant,0
+Remnant Magic,0
+Antariksa Guard,AntariksaGuardSkillList|IsPointer
 Grado Remnant 2 (Cutscene and C16 only?),0
 Grado Remnant 3 (C16 only?),0
 Grado Remnant 4 (C16 only?),0

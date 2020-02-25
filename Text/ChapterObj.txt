@@ -1,7 +1,7 @@
 ## PlaceholderText
 [ConversationText]
-[OpenMidLeft][LoadSetanta][OpenFarRight][LoadFerdiad][OpenRight][LoadCethern]
-cethern dead lol, placeholder text![X]
+[OpenMidLeft][LoadGedeon][OpenMidRight][LoadFerdiad]
+blondie boys say placeholder text heyo![A][X]
 
 ## Ch0Long
 Defeat the bandit[N]

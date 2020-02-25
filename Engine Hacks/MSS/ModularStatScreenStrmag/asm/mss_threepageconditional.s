@@ -19,7 +19,7 @@ mov  r0,#16
 mul  r1,r0
 adr  r0,PersonalInfoTable  @load first like
 ldr  r0,[r0]
-ldrb r0,[r0,r1]
+ldrh r0,[r0,r1]
 mov  r1, #0x04 @ 4 pages if there are supports to show.
 cmp  r0, #0x00
 bne NoSupportsStatScreen
@@ -29,7 +29,8 @@ bne NoSupportsStatScreen
     cmp r0, #0x03
     bne NoSupportsStatScreen
         mov r0, #0x00
-        strb r0, [ r5 ] @ Move to page 1 instead of 4.
+        strb r0, [r5] @ Move to page 1 instead of 4.
+        str  r0, [r5, #0x14]
 NoSupportsStatScreen:
 strb r1, [ r5, #0x01 ]
 blh Text_InitFont, r1

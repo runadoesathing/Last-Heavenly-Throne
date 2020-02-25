@@ -7,7 +7,7 @@ POIN LocationBasedEvents
 POIN MiscBasedEvents
 POIN Dunno1 Dunno2 Dunno3 Tutorial
 POIN Traps1 Traps2
-POIN UnitsP UnitsP  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN PrepScreenP PrepScreenP  //This unit group determines the number and position of deployment slots when there is a prep screen
 POIN $0 $0 $0
 POIN $0 $0 $0
 POIN BeginningScene EndingScene
@@ -48,6 +48,21 @@ END_MAIN
 
 Tutorial:
 END_MAIN
+
+PrepScreenP:
+UNIT Cethern EirikaLord 0x1 Level(0, Ally, 0)     [9,8] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Miach Villager 0x1 Level(0, Ally, 0)         [9,10] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [8,9] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [10,9] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [8,10] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [10,10] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [9,9] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [8,11] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [10,11] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [9,12] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [9,11] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT Setanta AxeCav 0x1 Level(0, Ally, 0)         [11,10] 0x0 0x0 0x0 0x0 [0x0] [0,0,0,0]
+UNIT
 
 UnitsP:
 UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA9R8 [0x0] [0x0,0x0,0x0,0x0]
@@ -465,6 +480,7 @@ TEXTSHOW P1CFCethernMiachTalk
 TEXTEND
 REMA
 //VCWF 0
+GotoPrepScreen
 NoFade
 ENDA
 

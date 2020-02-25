@@ -263,7 +263,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
   
   SrihwenSupport:
-  SupportCompatibility(Ethniu,Soma,Aingha,Enoch,0,0,0)
+  SupportCompatibility(Ethniu,Soma,Aingha,Enoch,Ferdiad,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 4 //number of partners

@@ -19,7 +19,7 @@
 srihwen_1:
 	BYTE	KEYSH   srihwen_key+0
 // 000   ----------------------------------------
-	BYTE	TEMPO   80*srihwen_tbs/2
+	BYTE	TEMPO   90*srihwen_tbs/2
 	BYTE		VOICE   0
 	BYTE		PAN     c_v-4
 	BYTE		VOL     45*srihwen_mvl/mxv
@@ -30,7 +30,7 @@ srihwen_1:
 // 002   ----------------------------------------
 	BYTE	W96
 // 003   ----------------------------------------
-	BYTE	W96
+  BYTE  W96
 srihwen_1_B1:
 // 004   ----------------------------------------
 	BYTE	TEMPO   120*srihwen_tbs/2

@@ -24,7 +24,7 @@ add r0, #4
 strh r0, [r4,r1]
 mov r1, #0x62
 ldrh r0, [r4, r1]
-add r0, #20
+add r0, #40
 strh r0, [r4,r1]
 
 NoSkill:

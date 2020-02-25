@@ -184,3 +184,9 @@ Manasa_Swordmaster:
 Nakstrani_Diviner:
 	#incbin "./_palettes/Nakstrani_Diviner.lzpal"
 
+Anker_WyvernLord:
+	#incbin "./_palettes/Anker_WyvernLord.lzpal"
+
+Alvarin_WyvernLord:
+	#incbin "./_palettes/Alvarin_WyvernLord.lzpal"
+

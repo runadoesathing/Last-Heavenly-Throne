@@ -146,6 +146,8 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 WyvLordPaletteList:
+PaletteAssociationEntry(Anker, $30)
+PaletteAssociationEntry(Alvarin, $31)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

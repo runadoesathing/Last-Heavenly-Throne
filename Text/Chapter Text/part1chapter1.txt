@@ -153,7 +153,7 @@ are brigands![A]
 [OpenRight]
 They must have seen us[N]
 leave town and barged in.[AN]
-Dammit![.6][MoveRight][CloseEyes] We should've[N]
+Damn it![.6][MoveRight][CloseEyes] We should've[N]
 seen this coming![A][OpenEyes]
 
 [OpenMidLeft]
@@ -387,12 +387,12 @@ Running off after your ma,[.5] I assume...[.6][N][OpenEyes]
 Where is she, anyways?[A]
 
 [OpenRight]
-I think she's up in Caer Wydyr right now.[AN]
+I think she's up in Pedryvan right now.[AN]
 There's been some tensions with Heichalot,[N]
 but she couldn't tell me much else.[A]
 
 [OpenFarRight]
-Caer Wydyr?[.6] That's up to[N]
+Pedryvan?[.6] That's up to[N]
 the north,[.5] isn't it?[A]
 
 [OpenMidLeft]
@@ -460,7 +460,7 @@ You must be A[0xED]fe's daughter.[.6][N][ToggleSmile]
 Tell me,[.5] where may I find her?[A]
 
 [OpenFarLeft]
-She left for Caer Wydyr yesterday...[.6][N]
+She left for Pedryvan yesterday...[.6][N]
 I'm very sorry,[.5] Lady Sadhbh.[A]
 
 [OpenMidRight][CloseEyes]
@@ -501,10 +501,10 @@ Your village should stay very alert.[A]
 If you want to see my grandfather,[.....] you could[N]
 stay the night and speak in the morning.[AN]
 Of course, I don't think he's fought since[N]
-the rebellion all the way in Caer Vedwyd...[A]
+the rebellion all the way in Uffren...[A]
 
 [OpenMidRight]
-Caer Vedwyd?[AN][MoveMidRight][CloseEyes]
+Uffren?[AN][MoveMidRight][CloseEyes]
 But that was more than[N]
 forty years ago![AN][.....][OpenEyes]
 I have no reason to[N]
@@ -632,7 +632,7 @@ and somewhat shady nobility.[AN]
 To the opposite end lies the[N]
 Kingdom of Srughna,[.....] isolated[AN]
 from its northern neighbours[N]
-by edict of its new king.[AN]
+by edict of its new margrave.[AN]
 Its east is covered by the[N]
 forest of Bhuloka,[....] a dense[AN]
 yet truly isolated collection[N]
@@ -687,7 +687,7 @@ Later that day...[X]
 
 
 ## CaerRigor
-Caer Rigor[X]
+Rigor, Corbenic[X]
 
 
 

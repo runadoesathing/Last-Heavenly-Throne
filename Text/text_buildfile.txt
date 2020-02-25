@@ -21,7 +21,7 @@ Trobairitz[X]
 1-4: First Taste of War[X]
 
 # 0x163
-1-5: Caer Ochren[X]
+1-5: Ochren[X]
 
 # 0x164
 1-F: Snow Stained Red[X]
@@ -30,7 +30,7 @@ Trobairitz[X]
 2-1: Roots from the Earth[X]
 
 # 0x167 
-2-2: Chandra Grove[X]
+2-2: Chandran Heart[X]
 
 # 0x168
 2-3: The Northern Gale[X]
@@ -67,6 +67,9 @@ Hills[X]
 
 # 0x4EE
 [NRL][nru][nrc][nrk][X]
+
+# 0x533
+[_P][_r][_f][X]
 
 # 0xd4c
 Likes:[X]
@@ -181,3 +184,83 @@ Earth[X]
 
 ## HeavenAffID
 Heaven[X]
+
+## FireAffRIDX
+An affinity with the Wardbearer Macha.[N]
+Relationships with this unit boost damage,[N]
+Hit rate, Critical rate, and Critical Avoid.[X]
+
+## ThunderAffRIDX
+An affinity with the Wardbearer Amharakku.[N]
+Relationships with this unit boost defenses,[N]
+Avoid rate, Critical rate, and Critical Avoid.[X]
+
+## WindAffRIDX
+An affinity with the Harvest Maiden, Aingha.[N]
+Relationships with this unit boost damage,[N]
+Hit rate, Avoid rate, and Critical rate.[X]
+
+## WaterAffRIDX
+An affinity with the Wardbearer Sames.[N]
+Relationships with this unit boost defenses,[N]
+Hit rate, Avoid rate, and Critical Avoid.[X]
+
+## DarkAffRIDX
+An affinity with the Penumbra, Bhatn.[N]
+Relationships with this unit boost damage,[N]
+Avoid rate, Critical rate, and Critical Avoid.[X]
+
+## LightAffRIDX
+An affinity with the Wardbearer Ninasolna.[N]
+Relationships with this unit boost damage,[N]
+Hit rate, Avoid rate, and Critical Avoid.[X]
+
+## EarthAffRIDX
+An affinity with the Springmother, Hwen.[N]
+Relationships with this unit boost defenses,[N]
+Hit rate, Critical rate, and Critical Avoid.[X]
+
+## HeavenAffRIDX
+An affinity with the Empyrean, Tenleth.[N]
+Relationships with this unit boost defenses,[N]
+Hit rate, Avoid rate, and Critical rate.[X]
+
+## FireAffRID
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_W][_a][_r][_d][_b][_e][_a][_r][_e][_r] [_M][_a][_c][_h][_a].[N]
+[_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_a][_m][_a][_g][_e],[N]
+[_H][_i][_t] [_r][_a][_t][_e], [_C][_r][_i][_t][_i][_c][_a][_l] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_A][_v][_o][_i][_d].[X]
+
+## ThunderAffRID
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_W][_a][_r][_d][_b][_e][_a][_r][_e][_r] [_A][_m][_h][_a][_r][_a][_k][_k][_u].[N]
+[_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_e][_f][_e][_n][_s][_e][_s],[N]
+[_A][_v][_o][_i][_d] [_r][_a][_t][_e], [_C][_r][_i][_t][_i][_c][_a][_l] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_A][_v][_o][_i][_d].[X]
+
+## WindAffRID
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_H][_u][_n][_t] [_M][_a][_i][_d][_e][_n], [_A][_i][_n][_g][_h][_a].[N]
+[_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_a][_m][_a][_g][_e],[N]
+[_H][_i][_t] [_r][_a][_t][_e], [_A][_v][_o][_i][_d] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_r][_a][_t][_e].[X]
+
+## WaterAffRID
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_W][_a][_r][_d][_b][_e][_a][_r][_e][_r] [_S][_a][_m][_e][_s].[N]
+[_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_e][_f][_e][_n][_s][_e][_s],[N]
+[_H][_i][_t] [_r][_a][_t][_e], [_A][_v][_o][_i][_d] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_A][_v][_o][_i][_d].[X]
+
+## DarkAffRID
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_P][_e][_n][_u][_m][_b][_r][_a], [_B][_h][_a][_t][_n].[N]
+[_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_a][_m][_a][_g][_e],[N]
+[_A][_v][_o][_i][_d] [_r][_a][_t][_e], [_C][_r][_i][_t][_i][_c][_a][_l] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_A][_v][_o][_i][_d].[X]
+
+## LightAffRID
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_W][_a][_r][_d][_b][_e][_a][_r][_e][_r] [_N][_i][_n][_a][_s][_o][_l][_n][_a].[N]
+[_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_a][_m][_a][_g][_e],[N]
+[_H][_i][_t] [_r][_a][_t][_e], [_A][_v][_o][_i][_d] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_A][_v][_o][_i][_d].[X]
+
+## EarthAffRID
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_S][_p][_r][_i][_n][_g][_m][_o][_t][_h][_e][_r], [_H][_w][_e][_n].[N]
+[_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_e][_f][_e][_n][_s][_e][_s],[N]
+[_H][_i][_t] [_r][_a][_t][_e], [_C][_r][_i][_t][_i][_c][_a][_l] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_A][_v][_o][_i][_d].[X]
+
+## HeavenAffRID
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_E][_m][_p][_y][_r][_e][_a][_n], [_T][_e][_n][_l][_e][_t][_h].[N]
+[_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_e][_f][_e][_n][_s][_e][_s],[N]
+[_H][_i][_t] [_r][_a][_t][_e], [_A][_v][_o][_i][_d] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_r][_a][_t][_e].[X]

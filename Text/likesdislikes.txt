@@ -263,7 +263,7 @@ wintertime[X]
 184cm[X]
 
 ## EthniuHeightID
-158cm[X]
+164cm[X]
 
 ## GedeonHeightID
 178cm[X]
@@ -299,7 +299,7 @@ wintertime[X]
 184cm[X]
 
 ## EthniuHeightPTSID
-158cm[X]
+164cm[X]
 
 ## GedeonHeightPTSID
 178cm[X]

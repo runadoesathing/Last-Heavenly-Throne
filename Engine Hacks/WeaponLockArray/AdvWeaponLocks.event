@@ -16,13 +16,13 @@ POP
 #define EndLockArray 0
 
 ClonkeineArray:
-BYTE SoftCharLock
+BYTE HardCharLock
 BYTE Cethern
 BYTE Aingha
 BYTE Miach
 BYTE EndLockArray
 
 PadmaArray:
-BYTE SoftCharLock
+BYTE HardCharLock
 BYTE Srihwen
 BYTE EndLockArray
