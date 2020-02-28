@@ -13,19 +13,6 @@ Aengus_Minimug:
 #incbin "Aengus_minimug.dmp"
 
 ALIGN 4
-AengusAlpha_Mug:
-#incbin "AengusAlpha_mug.dmp"
-ALIGN 4
-AengusAlpha_Frames:
-#incbin "AengusAlpha_frames.dmp"
-ALIGN 4
-AengusAlpha_Palette:
-#incbin "AengusAlpha_palette.dmp"
-ALIGN 4
-AengusAlpha_Minimug:
-#incbin "AengusAlpha_minimug.dmp"
-
-ALIGN 4
 Aillen_Mug:
 #incbin "Aillen_mug.dmp"
 ALIGN 4
@@ -232,19 +219,6 @@ Ethniu_Palette:
 ALIGN 4
 Ethniu_Minimug:
 #incbin "Ethniu_minimug.dmp"
-
-ALIGN 4
-EthniuAlpha_Mug:
-#incbin "EthniuAlpha_mug.dmp"
-ALIGN 4
-EthniuAlpha_Frames:
-#incbin "EthniuAlpha_frames.dmp"
-ALIGN 4
-EthniuAlpha_Palette:
-#incbin "EthniuAlpha_palette.dmp"
-ALIGN 4
-EthniuAlpha_Minimug:
-#incbin "EthniuAlpha_minimug.dmp"
 
 ALIGN 4
 FemaleEnemySoldier_Mug:

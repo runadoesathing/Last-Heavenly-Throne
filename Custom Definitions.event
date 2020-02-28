@@ -241,8 +241,11 @@
 #define RuinsCG 0x27
 #define TallForest 0x28
 #define ThroneRoom 0x29
+#define VillageGate2 0x2A
 #define ForestMorning 0x2B
+#define VillageNight 0x2C
 #define ThroneRoomNight 0x2D
+#define InsideHouseClosed 0x2E
 #define BlackCG 0x35
 
 #define SetantaExceeded 0x71

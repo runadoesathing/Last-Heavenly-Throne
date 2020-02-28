@@ -1,0 +1,24 @@
+#define BossMusicEntry(character, music) "WORD character music"
+#define EndBossMusicTable "WORD 0xFFFFFFFF 0xFFFFFFFF"
+
+PUSH
+  ORG $72908
+    POIN BossMusicTable
+POP
+
+MESSAGE Boss BGM table at currentOffset
+ALIGN 4
+BossMusicTable:
+  BossMusicEntry(Anluan, 0x1B)
+  BossMusicEntry(Sarmaree, 0x1B)
+  BossMusicEntry(Anker, 0x1B)
+  BossMusicEntry(Alvarin, 0x1B)
+  BossMusicEntry(Lamech, 0x1B)
+  BossMusicEntry(Ishpan, 0x1B)
+  BossMusicEntry(Gedaliah, 0x1B)
+  BossMusicEntry(Jhudiel_1, 0x1C)
+  BossMusicEntry(Shuka, 0x1B)
+  BossMusicEntry(Chakora, 0x1B)
+  BossMusicEntry(Babhru, 0x1B)
+  BossMusicEntry(Goga, 0x1B)
+  EndBossMusicTable

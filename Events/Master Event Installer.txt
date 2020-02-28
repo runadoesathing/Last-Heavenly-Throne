@@ -310,6 +310,8 @@ ItemStealEntry(Mine)
 ItemStealEntry(ShineGuard)
 BYTE 0xFF 0xFF
 
+#include "Boss Music Table.event"
+
 ALIGN 16
 P2C2AI:
 AiMoveTowardsPoint(8,0)

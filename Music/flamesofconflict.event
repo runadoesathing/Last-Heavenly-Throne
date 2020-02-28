@@ -1,0 +1,1090 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	flamesofconflict_grp  voicegroup001
+	#define	flamesofconflict_pri  0
+	#define	flamesofconflict_rev  0
+	#define	flamesofconflict_mvl  127
+	#define	flamesofconflict_key  0
+	#define	flamesofconflict_tbs  1
+	#define	flamesofconflict_exg  0
+	#define	flamesofconflict_cmp  1
+
+	// .rodata
+	//	flamesofconflict
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.5) ****************//
+
+flamesofconflict_1:
+	BYTE	KEYSH   flamesofconflict_key+0
+flamesofconflict_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   109*flamesofconflict_tbs/2
+	BYTE		VOICE   36
+	BYTE		VOL     63*flamesofconflict_mvl/mxv
+	BYTE		PAN     c_v-22
+	BYTE		BEND    c_v+0
+	BYTE		N02     An1   v100
+	BYTE		N02     Ds2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Cs2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Cn2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Ds2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Cs2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Cn2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Ds2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Cs2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Cn2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Ds2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Cs2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Cn2 
+	BYTE	W06
+// 001   ----------------------------------------
+flamesofconflict_1_001:
+	BYTE		N02     An1   v100
+	BYTE		N02     Ds2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Cs2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Cn2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Ds2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Cs2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Cn2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Ds2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Cs2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Cn2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Ds2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE		N02     Cs2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE		N02     Cn2 
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_1_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_1_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_1_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_1_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_1_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_1_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_1_001
+// 009   ----------------------------------------
+flamesofconflict_1_009:
+	BYTE		N02     Ds2   v100
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_1_009
+	BYTE	GoTo
+	 POIN2	flamesofconflict_1_B1
+flamesofconflict_1_B2:
+// 011   ----------------------------------------
+	BYTE		VOICE   36
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.6) ****************//
+
+flamesofconflict_2:
+	BYTE	KEYSH   flamesofconflict_key+0
+flamesofconflict_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE		VOL     63*flamesofconflict_mvl/mxv
+	BYTE		PAN     c_v+23
+	BYTE		BEND    c_v+0
+	BYTE		N05     An2   v100
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Cn3 
+	BYTE	W06
+// 001   ----------------------------------------
+flamesofconflict_2_001:
+	BYTE		N05     An2   v100
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_2_001
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_2_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_2_001
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_2_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_2_001
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_2_001
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_2_001
+// 009   ----------------------------------------
+flamesofconflict_2_009:
+	BYTE		N05     Ds3   v100
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE		N05     Ds3 
+	BYTE	W06
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_2_009
+	BYTE	GoTo
+	 POIN2	flamesofconflict_2_B1
+flamesofconflict_2_B2:
+// 011   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.7) ****************//
+
+flamesofconflict_3:
+	BYTE	KEYSH   flamesofconflict_key+0
+flamesofconflict_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   50
+	BYTE		VOL     53*flamesofconflict_mvl/mxv
+	BYTE		PAN     c_v-38
+	BYTE		BEND    c_v+0
+	BYTE		N05     An3   v100
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 005   ----------------------------------------
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE	W06
+	BYTE		N11     Cs4 
+	BYTE	W12
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W12
+	BYTE		N02     Fs3 
+	BYTE	W03
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+// 006   ----------------------------------------
+	BYTE		N02     Fn3 
+	BYTE	W03
+	BYTE		        Fs3 
+	BYTE	W03
+	BYTE		        Fn3 
+	BYTE	W03
+	BYTE		        Ds3 
+	BYTE	W03
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        Fn3 
+	BYTE	W06
+	BYTE		N92     Cn3 
+	BYTE	W48
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	flamesofconflict_3_B1
+flamesofconflict_3_B2:
+// 011   ----------------------------------------
+	BYTE		VOICE   50
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.8) ****************//
+
+flamesofconflict_4:
+	BYTE	KEYSH   flamesofconflict_key+0
+flamesofconflict_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   50
+	BYTE		VOL     50*flamesofconflict_mvl/mxv
+	BYTE		PAN     c_v+39
+	BYTE		BEND    c_v+0
+	BYTE	W72
+// 001   ----------------------------------------
+flamesofconflict_4_001:
+	BYTE		N05     An3   v100
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Ds3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	flamesofconflict_4_001
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Ds3   v100
+	BYTE	W06
+	BYTE		N11     Cs3 
+	BYTE	W12
+	BYTE		N05     Cn3 
+	BYTE	W06
+	BYTE		        As2 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE	W12
+	BYTE		N02     Fs2 
+	BYTE	W03
+	BYTE		        An2 
+	BYTE	W03
+	BYTE		N05     Fs2 
+	BYTE	W06
+	BYTE		        Fn2 
+	BYTE	W06
+	BYTE		        Ds2 
+	BYTE	W06
+// 006   ----------------------------------------
+	BYTE		N02     Fn2 
+	BYTE	W03
+	BYTE		        Fs2 
+	BYTE	W03
+	BYTE		        Fn2 
+	BYTE	W03
+	BYTE		        Ds2 
+	BYTE	W03
+	BYTE		N05     Cs2 
+	BYTE	W06
+	BYTE		        Fn2 
+	BYTE	W06
+	BYTE		N92     Cn2 
+	BYTE	W48
+// 007   ----------------------------------------
+	BYTE	W72
+// 008   ----------------------------------------
+	BYTE	W72
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	flamesofconflict_4_B1
+flamesofconflict_4_B2:
+// 011   ----------------------------------------
+	BYTE		VOICE   50
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.9) ****************//
+
+flamesofconflict_5:
+	BYTE	KEYSH   flamesofconflict_key+0
+flamesofconflict_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		VOL     56*flamesofconflict_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W72
+// 001   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     An3   v100
+	BYTE		N05     Ds4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		N44     An3 
+	BYTE		N44     Cn4 
+	BYTE	W48
+// 002   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Ds4 
+	BYTE		N05     An4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE		N05     An4 
+	BYTE	W12
+	BYTE		N44     Cn4 
+	BYTE		N44     Fs4 
+	BYTE	W48
+// 003   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     An3 
+	BYTE		N05     Ds4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE		N05     Ds4 
+	BYTE	W12
+	BYTE		N17     An3 
+	BYTE		N17     Cn4 
+	BYTE	W24
+	BYTE		N05     Ds4 
+	BYTE		N05     An4 
+	BYTE	W06
+	BYTE		        Ds4 
+	BYTE		N05     An4 
+	BYTE	W12
+	BYTE		N76     En4 
+	BYTE		N76     As4 
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE		N05     Cn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Cn5 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE	W72
+// 010   ----------------------------------------
+	BYTE	W72
+	BYTE	GoTo
+	 POIN2	flamesofconflict_5_B1
+flamesofconflict_5_B2:
+// 011   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.11) ****************//
+
+flamesofconflict_6:
+	BYTE	KEYSH   flamesofconflict_key+0
+flamesofconflict_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     64*flamesofconflict_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N05     Dn1   v100
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+// 001   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 002   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+// 003   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE		N01   
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W08
+	BYTE		N01   
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W08
+	BYTE		N01   
+	BYTE	W01
+	BYTE		N04   
+	BYTE	W05
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 005   ----------------------------------------
+	BYTE		N05   
+	BYTE		N11     Cs2 
+	BYTE		N11     Ds2 
+	BYTE	W06
+	BYTE		N05     Dn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+// 006   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds1 
+	BYTE	W12
+	BYTE		N05     Dn1 
+	BYTE	W06
+	BYTE		N11     Ds1 
+	BYTE	W12
+	BYTE		N05     Dn1 
+	BYTE	W06
+	BYTE		N11     Ds1 
+	BYTE	W12
+	BYTE		N05     Dn1 
+	BYTE	W06
+// 008   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		N05     Ds1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N08   
+	BYTE	W09
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE	GoTo
+	 POIN2	flamesofconflict_6_B1
+flamesofconflict_6_B2:
+// 011   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.12) ****************//
+
+flamesofconflict_7:
+	BYTE	KEYSH   flamesofconflict_key+0
+flamesofconflict_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   124
+	BYTE		VOL     63*flamesofconflict_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	W72
+// 001   ----------------------------------------
+	BYTE	W72
+// 002   ----------------------------------------
+	BYTE	W72
+// 003   ----------------------------------------
+	BYTE	W72
+// 004   ----------------------------------------
+	BYTE	W72
+// 005   ----------------------------------------
+	BYTE		N11     Dn2   v100
+	BYTE	W72
+// 006   ----------------------------------------
+	BYTE	W72
+// 007   ----------------------------------------
+	BYTE		N17     Gs1 
+	BYTE		N17     Ds2 
+	BYTE	W18
+	BYTE		        Gs1 
+	BYTE		N17     Ds2 
+	BYTE	W18
+	BYTE		N28     Gs1 
+	BYTE		N28     Ds2 
+	BYTE	W36
+// 008   ----------------------------------------
+	BYTE		N17     Gs1 
+	BYTE		N17     Ds2 
+	BYTE	W18
+	BYTE		N44     Gs1 
+	BYTE		N44     Ds2 
+	BYTE	W54
+// 009   ----------------------------------------
+	BYTE		N11     Cs2 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+// 010   ----------------------------------------
+	BYTE		        Cs2 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE		N11     Ds2 
+	BYTE	W12
+	BYTE	GoTo
+	 POIN2	flamesofconflict_7_B1
+flamesofconflict_7_B2:
+// 011   ----------------------------------------
+	BYTE		VOICE   124
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+flamesofconflict:
+	BYTE	7	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	flamesofconflict_pri	// Priority
+	BYTE	flamesofconflict_rev	// Reverb.
+
+	POIN2	flamesofconflict_grp
+
+	POIN2	flamesofconflict_1
+	POIN2	flamesofconflict_2
+	POIN2	flamesofconflict_3
+	POIN2	flamesofconflict_4
+	POIN2	flamesofconflict_5
+	POIN2	flamesofconflict_6
+	POIN2	flamesofconflict_7
+
+	

@@ -404,3 +404,30 @@ ThroneRoomTSA:
 
 ThroneRoomPalette:
 #incbin "ThroneRoomPalette.bin"
+
+VillageGate2Image:
+#incbin "VillageGate2Image.bin"
+
+VillageGate2TSA:
+#incbin "VillageGate2TSA.bin"
+
+VillageGate2Palette:
+#incbin "VillageGate2Palette.bin"
+
+VillageNightImage:
+#incbin "VillageNightImage.bin"
+
+VillageNightTSA:
+#incbin "VillageNightTSA.bin"
+
+VillageNightPalette:
+#incbin "VillageNightPalette.bin"
+
+InsideHouseClosedImage:
+#incbin "InsideHouseClosedImage.bin"
+
+InsideHouseClosedTSA:
+#incbin "InsideHouseClosedTSA.bin"
+
+InsideHouseClosedPalette:
+#incbin "InsideHouseClosedPalette.bin"

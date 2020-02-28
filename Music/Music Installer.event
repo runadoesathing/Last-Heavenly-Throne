@@ -31,6 +31,10 @@ SongTable(0x19,flycagedbird, 0)
 SongTable(0x1A,birdfeeder,0)
 #include "birdfeeder.event"
 
+// Flames Of Conflict
+SongTable(0x1B,flamesofconflict,0)
+#include "flamesofconflict.event"
+
 // Dawn of the Five Suns
 SongTable(0x1C,themanysuns,0)
 #include "themanysuns.event"

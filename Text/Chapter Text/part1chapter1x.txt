@@ -5,6 +5,8 @@ children playing as heroes![AN]
 Let us paint a flower of their[N]
 blood on this town![A][X]
 
+
+
 ## P1C2AlvarinBattleQuote
 [MidLeft][LoadAlvarin]
 Oh, my sweet cherry Anker![.6][N]
@@ -12,12 +14,16 @@ Don't you worry a bit![AN]
 I shall make a necklace of[N]
 their bones just for you![A][X]
 
+
+
 ## P1C2AnkerDeathQuote
 [MidLeft][LoadAnker]
 Oh, my darling Alvarin...![.6][N]
 I cannot leave you now![AN]
 I shall fly south to meet[N]
 you again![A][X]
+
+
 
 ## P1C2AlvarinDeathQuote
 [MidLeft][LoadAlvarin]
@@ -29,6 +35,45 @@ you again![A][X]
 
 
 
+## SarmareeBattleQuote
+[MidLeft][LoadSarmaree]
+We didn't have a choice.[.6][N]
+You'd attack us anyways.[AN]
+We couldn't just sit around[N]
+and watch our homes flood![A][X]
+
+
+
+## SarmareeDeathQuote
+[MidLeft][LoadSarmaree]
+Damn you,[.5] Dagmema...![.6][N]
+[CloseEyes]Damn all of Corbenic![A][X]
+
+
+
+## SarmareeDagmema
+[MidLeft][LoadSarmaree]
+So you'd fight your own kin,[.5][N]
+all for a foreign village...[AN]
+Do you not understand why[N]
+we came here at all?![AN]
+You taint the soldiers of[N]
+Malava with treachery![A][ClearFace]
+
+[MidRight][LoadDagmema]
+You might be Malavan,[.5] b[.4]-but[N]
+that gives you no right[AN]
+to pillage and plunder,[.5][N]
+no matter the reason![A][ClearFace]
+
+[MidLeft][LoadSarmaree]
+You can sit on your high horse[N]
+all you'd like,[.5] Dagmema.[AN]
+I'll let you ride it right into[N]
+my lance if you're so keen![A][X]
+
+
+
 ## P1C1xSteelAxeVillage
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBlackHairGirl]
@@ -36,7 +81,7 @@ Wham![MoveMidRight] Bam![MoveMidRight][ToggleSmile] Have you ever seen an[N]
 axe as good as this one right here?[AN]
 Look how pristine its curvature is![.6][N]
 How it flows as you swing it down![AN]
-Ha![LoadOverworldFaces][MoveMidRight][......][ToggleSmile] Oh my...[.6][N]
+Ha![MoveMidRight][LoadOverworldFaces][.......][ToggleSmile] Oh my...[.6][N]
 That's quite...[......] a large dent.[AN]
 Maybe you should take this from me.[N]
 Don't need to get yelled at![A][X]
@@ -552,3 +597,29 @@ before we get struck down![A]
 [FarRight]
 If we can convince that knight,[.5] maybe it'll[N]
 be four,[.5] S[0xE9]tanta![.6] But we need to move![A][X]
+
+
+
+## P1C2AnkerAnker
+[MidRight][LoadAlvarin]
+[MidLeft][LoadAnker]
+Oh, my darling Alvarin![.5] Look at the chaos[N]
+that covers this defenseless town![A]
+
+[MidRight]
+My sweet cherry Anker,[.5] I do see the chaos![.6][N]
+But what would you imply by that?[A]
+
+[MidLeft]
+Well,[.5] I think it's a perfect opportunity to[N]
+show the power of our blades combined![AN]
+To rain fury upon those who stand against[N]
+us,[.5] and take what's rightfully ours![A]
+
+[MidRight]
+You are too smart,[.5] my sweet cherry![.6] How do[N]
+you come up with such brilliant schemes?[A]
+
+[MidLeft]
+Come now,[.5] darling.[.6] Let us create a beautiful[N]
+scene of destruction on this village![A][X]

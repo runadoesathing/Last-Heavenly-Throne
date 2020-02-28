@@ -41,11 +41,11 @@ Fort 0x26,FortRealImage|IsPointer,FortRealTSA|IsPointer,FortRealPalette|IsPointe
 Fort_Evening 0x27,RuinsImage|IsPointer,RuinsTSA|IsPointer,RuinsPalette|IsPointer
 Fort_Ruins 0x28,TallForestImage|IsPointer,TallForestTSA|IsPointer,TallForestPalette|IsPointer
 Fort_Ruins_Outside 0x29,ThroneRoomImage|IsPointer,ThroneRoomTSA|IsPointer,ThroneRoomPalette|IsPointer
-Fort_2 0x2A,0x8932820,0x8937134,0x89375e8
+Fort_2 0x2A,VillageGate2Image|IsPointer,VillageGate2TSA|IsPointer,VillageGate2Palette|IsPointer
 Fort_2_Burning 0x2B,ForestMorningImage|IsPointer,ForestMorningTSA|IsPointer,ForestMorningPalette|IsPointer
-Shrine 0x2C,0x893ca30,0x893f1d4,0x893f688
+Shrine 0x2C,VillageNightImage|IsPointer,VillageNightTSA|IsPointer,VillageNightPalette|IsPointer
 Shrine_lighter 0x2D,ThroneRoomNightImage|IsPointer,ThroneRoomNightTSA|IsPointer,ThroneRoomNightPalette|IsPointer
-Shrine_2 0x2E,0x893f888,0x8942b38,0x8942fec
+Shrine_2 0x2E,InsideHouseClosedImage|IsPointer,InsideHouseClosedTSA|IsPointer,InsideHouseClosedPalette|IsPointer
 Shrine_3 0x2F,0x89430ec,0x8947398,0x894784c
 Desert 0x30,0x894794c,0x8949f70,0x894a424
 Forest_Dense 0x31,0x894a524,0x894eef8,0x894f3ac

@@ -29,7 +29,7 @@ Your order holds you on an altar of lies.
 Hwen and Bhatn would seek your death![ClearFace]
 
 [MidRight][LoadSrihwen]
-I follow the Earthmother's heart...
+I follow the Springmother's heart...
 You can't--![ClearFace]
 
 [MidLeft][LoadBabhru]
@@ -68,7 +68,7 @@ You're lying, aren't you?
 Trying to fool me into your cause?
 
 [MidRight]
-The Earthmother brings me many blessings...
+The Springmother brings me many blessings...
 Your movements tell me that you're reluctant to fight against us.
 You don't have to believe in my powers.
 But will you believe me when I say I don't wish to fight you either?

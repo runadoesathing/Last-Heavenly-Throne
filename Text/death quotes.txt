@@ -172,7 +172,7 @@ Please don't die on me, Miach!![X]
 [OpenMidRight][LoadSrihwen]
 Her voice...
 I can hear it calling in the distance.[CloseEyes]
-I'm sorry I couldn't save you, Earthmother...[X]
+I'm sorry I couldn't save you, Springmother...[X]
 
 
 
@@ -251,7 +251,7 @@ Soma?[.....] Soma...![X]
 ## SrihwenPrologueDeathQ
 [BattleText]
 [MidRight][LoadSrihwen]
-Earthmother...
+Springmother...
 I wasn't strong enough to aid you...[ClearFace]
 
 [MidRight][LoadEthniu]

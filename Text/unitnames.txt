@@ -358,8 +358,8 @@ Soldier of House Malava. She's and[N]
 mousey, but wishes to do good.[X]
 
 ## SarmareeDesc
-Soldier of House Malava, in[N]
-central Srughna. Vain and cocky.[X]
+Soldier of House Malava, in central[N]
+Srughna. Determined to help his people.[X]
 
 ## RemnantDesc
 Marauders made up of Malavan soldiers,[N]
