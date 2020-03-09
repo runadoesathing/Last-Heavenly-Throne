@@ -20,7 +20,7 @@ ALIGN 4
 	
 	
 	MigVul_Healing:
-	SelfHealing_Effect(HealCalc_ItemEPV|1)
+	SelfHealing_Effect(HealCalc_ItemMight|1)
 	
 	ALIGN 4
 	Item_UETemplate:

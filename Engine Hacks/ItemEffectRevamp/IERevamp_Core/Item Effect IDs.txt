@@ -55,4 +55,3 @@ FE8 Item Effect IDs
 0x35	Another Vulnerary
 0x36	Juna Fruit
 0x37	Latona
-0x38    Spirit Dust

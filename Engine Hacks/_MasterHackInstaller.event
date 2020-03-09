@@ -220,60 +220,74 @@ POP
   ALIGN 4
   #include "ReaverSplit/ReaverSplit.event"
   
+  MESSAGE CannotCrit at currentOffset
   //Makes weapon crit of 255 negate crits
   ALIGN 4
   #include "CannotCrit/CannotCrit.event"
   
+  MESSAGE Array at currentOffset
   //Venno's array-based weapon locks
   ALIGN 4
   #include "WeaponLockArray/AdvWeaponLocks.event"
   
+  MESSAGE Clear at currentOffset
   //Clear All Items (by Snek)
   ALIGN 4
   #include "ClearAllItems/ClearAllItems.lyn.event"
   
+  MESSAGE AIE at currentOffset
   //AI Extension (by Stan)
   ALIGN 4
   //#include "AiPerformExtension/AiPerformExt.event"
   #include "AiPerformExtension/AiScrDefinitions.event"
   
-  //Talk AI (by Stan)
-  ALIGN 4
-  #include "Talk AI/TalkAi.event"
-  
+  MESSAGE CWR at currentOffset
   //Change Weapon Rank by Sme
   ALIGN 4
   ChangeWeaponRankASMC:
   #include "ChangeWeaponRanks/ChangeWeaponRankASMC.lyn.event"
   
+  MESSAGE NarrowFont at currentOffset
   //Narrow Fonts by Scraiza
   ALIGN 4
   #include "NarrowFont/Narrowfont installer.event"
   
+  MESSAGE ASMC Suite at currentOffset
   //ASMC Suite by Sme
   ALIGN 4
   #include "ASMC Suite/ASMC Check Installer.event"
   
+  MESSAGE walking sounds at currentOffset
   //Footsteps by Teq
   ALIGN 4
   #include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.txt"
   
+  MESSAGE portrait fix at currentOffset
   //Portrait Height Fix by Wan
   ALIGN 4
   #include "PortraitHeightFix/Portrait Shift Table.txt"
   
+  MESSAGE conditional name desc at currentOffset
   //Conditional Name Desc by yours truly ;)
   ALIGN 4
   #include "ConditionalNameDesc/ConditionalInstaller.event"
   
+  MESSAGE dsfe avoid at currentOffset
   ALIGN 4
   #include "DSFEAvoid/DSFEAvoid.event"
   
+  MESSAGE prep screen at currentOffset
   ALIGN 4
   #include "PrepScreen/PrepScreen.event"
   
+  MESSAGE poison rework at currentOffset
   ALIGN 4
-  //#include "SupportLimits/Installer_FE8.txt"
+  #inctext lyn "PoisonRework/PoisonRework.elf" "PoisonRework/Hooks.elf"
+  
+  MESSAGE three promotions at currentOffset
+  ALIGN 4
+  //#include "ThreePromotions/ThreePromotions.event"
+  MESSAGE three promotions end at currentOffset
 
   ALIGN 4
   #include "SkillSystem/SkillSystemInstaller.event"

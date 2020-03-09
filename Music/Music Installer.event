@@ -59,3 +59,6 @@ SongTable(0x43,harpy, 0)
 SongTable(0x58,KnightsOath, 0)
 #include "KnightsOath.event"
 
+// Knight's Oath
+SongTable(0x59,warcry, 0)
+#include "warcry.event"

@@ -413,7 +413,7 @@ magic[X]
 motherly figures[X]
 
 ## LamechLike1ID
-pious people[X]
+piety[X]
 
 ## LamechLike2ID
 self-improvement[X]

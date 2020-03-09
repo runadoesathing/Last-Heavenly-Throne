@@ -1,0 +1,1986 @@
+<!DOCTYPE html>
+<head>
+	<style type="text/css">
+		body {
+			font-family: "Arial";
+			font-size: 14px;
+			color: #eee;
+			background-color: #222;
+		}
+		div {
+			line-height: 25px;
+		}
+		.main {
+			width: 800px;
+			margin: 0 auto;
+		}
+		a {
+			color: #ddd;
+			text-decoration: none;
+			border-bottom: 1px solid;
+		}
+		a:hover {
+			color: #fff;
+		}
+		.rabbit-hole {
+			border-left:1px solid #ccc;
+			padding-left: 20px;
+			margin-bottom: 20px;
+		}
+		.proc {
+			color: #ada;
+		}
+		pre {
+			padding: 5px;
+			background-color: #333;
+			overflow: scroll;
+			min-height: 150px;
+			max-height: 300px;
+			line-height: 20px;
+		}
+	</style>
+</head>
+<body>
+<div class="main">
+	<h1>
+		Procs and Functions of the Branched Promotion Screen
+	</h1>
+	<h4>Proc tree structure</h4>
+	<p>Note: using Stan's proc tree explorer, the "ccramify" proc at 0xB1271C is a child of another proc by the same name. Other procs that are part of the battle prep menu also seem to be children of this proc. Not sure if this is also the case when the promotion screen is called from within a chapter - my test cases have focused on the trainee autopromotion case. For the purposes of this doc, when I say "ccramify" I'm referring to the one at 0xB1271C.</p>
+	<ul>
+		<li>
+			Tree 2
+			<ul>
+				<li>
+					<a href="#">0xB1271C ccramify</a>
+					<ul>
+						<li><a href="#">0xB12A08 CCRamifyMenuSelect</a></li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<h4>What calls what</h4>
+	<p>Eventually these will all be links that jump to a disassembly of the function.</p>
+	<div>
+		<div><a href="#ccramify" class="proc">0xB1271C ccramify</a></div>
+		<div class="rabbit-hole">
+			<div><a href="#0xCCD48">0xCCD48 SetupPromotionScreen</a></div>
+				<div class="rabbit-hole">
+					<div><a href="#0xCD47C">0xCD47C SomethingToDoWithButtonPresses</a></div>
+					<div><a href="#0xCCBF4">0xCCBF4 LoadUIForPromoScreen</a></div>
+					<div class="rabbit-hole">
+						<div><a href="#0xCCCE0">0xCCCE0 SomeKindOfLoop</a></div>
+					</div>
+					<div><a href="#0xCD408">0xCD408 LoadSomeTextOnPromoScreen</a></div>
+					<div><a href="#0xCD570">0xCD570 LoadClassBattleSprite</a></div>
+					<div><a href="#0xCCCA4">0xCCCA4 SomethingToDoWithUnlockingThirdOption</a></div>
+					<div><a href="#0xCCAAC">0xCCAAC LoadClassReelFontPalette</a></div>
+					<div><a href="#0xCCB40">0xCCB40 LoadClassNameInClassReelFont</a></div>
+					<div><a href="#0xCDDDC">0xCDDDC Make6C_PromotionMenuSelect</a></div>
+					<div class="rabbit-hole">
+						<div><a href="#CCRamifyMenuSelect" class="proc">0xB12A08 CCRamifyMenuSelect</a></div>
+						<div class="rabbit-hole">
+							<div><a href="#0xCDD78">0xCDD78 BuildPromotionMenu</a></div>
+							<div class="rabbit-hole">
+								<div><a href="#PromotionMenuDefs">0xB129E4 PromotionMenuDefs</a></div>
+								<div class="rabbit-hole">
+									<div><a href="#0xCDB1C">0xCDB1C SomePromoMenuStartRoutine</a></div>
+									<div><a href="#0xCDB28">0xCDB28 PromoMenu_RPressHandler</a></div>
+									<div><a href="#0xCDC14">0xCDC14 PromoMenu_BPressHandler</a></div>
+								</div>
+								<div><a href="#PromotionMenuCommandDefs">0xB12954 PromotionMenuCommandDefs</a></div>
+								<div class="rabbit-hole">
+									<div><a href="#0xCDCC4">0xCDCC4 PopulateClassNamesFrom6CStorage</a></div>
+									<div><a href="#0xCDB34">0xCDB34 Promotion_Actual</a></div>
+									<div><a href="#0xCDD00">0xCDD00 PromotionSelect_OnHover</a></div>
+									<div><a href="#0xCDD38">0xCDD38 HardCodedCheckForThirdOptionUsability</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div><a href="#0xCCF60">0xCCF60 SomeFuncThatDoesBGImageStuff</a></div>
+				<div><a href="#0xCD014">0xCD014 LoadBattleSpritesForBranchScreen</a></div>
+				<div><a href="#0xCD294">0xCD294 MoveToLabelInParent6C_Unknown1</a></div>
+				<div><a href="#0xCD1D4">0xCD1D4 DeleteSome6Cs</a></div>
+				<div><a href="#0xCD2CC">0xCD2CC MoveToLabelInParent6C_Unknown2</a></div>
+				<div><a href="#0xCD618">0xCD618 Make6C_ccramify_end</a></div>
+			</div>
+		</div>
+		<h4>Order of operations</h4>
+		<ol>
+			<li><a href="#0xCCD48">0xCCD48</a></li>
+			<li><a href="#0xCD47C">0xCD47C</a></li>
+			<li><a href="#0xCCBF4">0xCCBF4</a></li>
+			<li><a href="#0xCCCE0">0xCCCE0</a></li>
+			<li><a href="#0xCD408">0xCD408</a></li>
+			<li><a href="#0xCD570">0xCD570</a> (foreach number_of_branches)</li>
+			<li><a href="#0xCCCA4">0xCCCA4</a></li>
+			<li><a href="#0xCD570">0xCD570</a> (3rd time, if <a href="#0xCCCA4">0xCCCA4</a> returns TRUE)</li>
+			<li><a href="#0xCCAAC">0xCCAAC</a></li>
+			<li><a href="#0xCCB40">0xCCB40</a></li>
+			<li><a href="#0xCDDDC">0xCDDDC</a></li>
+			<li><a href="#0xCCF60">0xCCF60</a></li>
+			<li><a href="#0xCDD78">0xCDD78</a></li>
+			<li><a href="#0xCDD38">0xCDD38</a></li>
+			<li><a href="#0xCCCA4">0xCCCA4</a></li>
+			<li><a href="#0xCDCC4">0xCDCC4</a> (foreach number_of_branches)</li>
+			<li><a href="#0xCDB1C">0xCDB1C</a></li>
+			<li><a href="#0xCDD00">0xCDD00</a> (after this point, the menu and text are loaded)</li>
+			<li><a href="#0xCD014">0xCD014</a></li>
+			<li><a href="#0xCD47C">0xCD47C</a></li>
+			<li><a href="#0xCD408">0xCD408</a></li>
+			<li><a href="#0xCCB40">0xCCB40</a></li>
+			<li><a href="#0xCD014">0xCD014</a></li>
+			<li><a href="#0xCCB40">0xCCB40</a> (after this point, the class reel font title of the first option is loaded)</li>
+			<li><a href="#0xCD014">0xCD014</a> / <a href="#0xCCB40">0xCCB40</a> (repeat once per frame)</li>
+			<li><a href="#0xCDD00">0xCDD00</a> (when up/down is pressed) -> <a href="#0xCD47C">0xCD47C</a> -> <a href="#0xCD408">0xCD408</a></li>
+			<li><a href="#0xCDC14">0xCDC14</a> (when B press)</li>
+			<li><a href="#0xCDB34">0xCDB34</a> (when A press)</li>
+			<li><a href="#0xCDCC4">0xCDCC4</a> (foreach number_of_branches, when "Change" selected)</li>
+			<li><a href="#0xCDB28">0xCDB28</a></li>
+			<li><a href="#0xCDCC4">0xCDCC4</a> (foreach number_of_branches)</li>
+		</ol>
+		<div class="dis">
+			<h4 class="funcname proc" id="ccramify">0xB1271C ccramify</h4>
+			<p>This proc sets up the branch promotion screen, handles all the sprites and graphics, etc. Parent proc of CCRamifyMenuSelect</p>
+			<pre>
+08B1271C 0002   //Procs  ccramify 
+08B1271E 0000   
+08B12720 3D69   //call 08013d68
+08B12722 0801   
+
+08B12724 0003   //set cycle routine 08014068 ContinueUntilSomeTransition6CExists
+08B12726 0000   
+08B12728 4069   
+08B1272A 0801   
+
+08B1272C 0001   //name instruction 08207050 ccramify
+08B1272E 0000   
+08B12730 7050   
+08B12732 0820   
+
+08B12734 000B   //set label 0 
+08B12736 0000   
+08B12738 0000   
+08B1273A 0000   
+
+08B1273C 0002   //call routine 080CCD48 SetupPromotionScreen
+08B1273E 0000   
+08B12740 CD49   
+08B12742 080C   
+
+08B12744 000E   //wait 6 cycles
+08B12746 0006   
+08B12748 0000   
+08B1274A 0000   
+
+08B1274C 0002   //call routine 080CCF60 SomeFuncThatDoesBGImageStuff
+08B1274E 0000   
+08B12750 CF61   
+08B12752 080C   
+
+08B12754 000B   //set label 1
+08B12756 0001   
+08B12758 0000   
+08B1275A 0000   
+
+08B1275C 0002   //call routine 08013D8C which jumps to 13cec, loads some proc at 59a044
+08B1275E 0000   
+08B12760 3D8D   
+08B12762 0801   
+
+08B12764 0003   //set cycle routine 08014068
+08B12766 0000   
+08B12768 4069   
+08B1276A 0801   
+
+08B1276C 0003   //call routine 080CD014 LoadBattleSpritesForBranchScreen
+08B1276E 0000   
+08B12770 D015   
+08B12772 080C   
+
+08B12774 000C   //goto label 3
+08B12776 0003   
+08B12778 0000   
+08B1277A 0000   
+
+08B1277C 000B   //set label 2
+08B1277E 0002   
+08B12780 0000   
+08B12782 0000   
+
+08B12784 0002   //call routine 080CD294 MoveToLabelInParent6C_Unknown1
+08B12786 0000   
+08B12788 D295   
+08B1278A 080C   
+
+08B1278C 0002   //call routine 08013D68
+08B1278E 0000   
+08B12790 3D69   
+08B12792 0801   
+
+08B12794 0003   //set cycle routine 08014068
+08B12796 0000   
+08B12798 4069   
+08B1279A 0801   
+
+08B1279C 000B   //set label 4
+08B1279E 0004   
+08B127A0 0000   
+08B127A2 0000   
+
+08B127A4 0002   //call 080CD1D4 DeleteSome6Cs
+08B127A6 0000   
+08B127A8 D1D5   
+08B127AA 080C   
+
+08B127AC 0002   //call 080CD2CC MoveToLabelInParent6C_Unknown2
+08B127AE 0000   
+08B127B0 D2CD   
+08B127B2 080C   
+
+08B127B4 0004   //set end routine 080CD618 Make6C_ccramify_end
+08B127B6 0000   
+08B127B8 D619   
+08B127BA 080C   
+
+08B127BC 0002   //call 08013D68
+08B127BE 0000   
+08B127C0 3D69   
+08B127C2 0801   
+
+08B127C4 0003   //set cycle routine 08014068
+08B127C6 0000   
+08B127C8 4069   
+08B127CA 0801   
+
+08B127CC 0002   //call 080CD218
+08B127CE 0000   
+08B127D0 D219   
+08B127D2 080C   
+
+08B127D4 000B   //set label 5
+08B127D6 0005   
+08B127D8 0000   
+08B127DA 0000   
+
+08B127DC 000B   //set label 3
+08B127DE 0003   
+08B127E0 0000   
+08B127E2 0000   
+
+08B127E4 0000   
+08B127E6 0000   
+08B127E8 0000   
+08B127EA 0000   //end proc
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname proc" id="CCRamifyMenuSelect">0xB12A08 CCRamifyMenuSelect</h4>
+			<p>This proc handles only the actual menu on the promotion screen with the class options, building it and serving as the parent proc.</p>
+			<pre>
+08B12A08 000E   //Procs  CCRamifyMenuSelect 
+08B12A0A 0006   //wait 6 cycles
+08B12A0C 0000   
+08B12A0E 0000   
+
+08B12A10 0001   //name instruction: 08 20 70 F0 -> CCRamifyMenuSelect
+08B12A12 0000   
+08B12A14 70F0   
+08B12A16 0820   
+
+08B12A18 0002   //call routine CDD78 BuildPromotionMenu
+08B12A1A 0000   
+08B12A1C DD79   
+08B12A1E 080C   
+
+08B12A20 0003   //set cycle routine CDDD4
+08B12A22 0000   
+08B12A24 DDD5   
+08B12A26 080C   
+
+08B12A28 000E   //yield
+08B12A2A 0000   
+08B12A2C 0000   
+08B12A2E 0000   
+
+08B12A30 000B   //set label 0
+08B12A32 0000   
+08B12A34 0000   
+08B12A36 0000   
+
+08B12A38 000C   //goto label 2
+08B12A3A 0002   
+08B12A3C 0000   
+08B12A3E 0000   
+
+08B12A40 000B   //set label 1
+08B12A42 0001   
+08B12A44 0000   
+08B12A46 0000   
+
+08B12A48 0002   //call routine CDDD8
+08B12A4A 0000   
+08B12A4C DDD9   
+08B12A4E 080C   
+
+08B12A50 000B   //set label 2
+08B12A52 0002   
+08B12A54 0000   
+08B12A56 0000   
+
+08B12A58 0000   //end proc
+08B12A5A 0000   
+08B12A5C 0000   
+08B12A5E 0000   
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname proc" id="PromotionMenuDefs">0xB129E4 PromotionMenuDefs</h4>
+			<p>These are menu defs for the promotion options menu. See <a href="https://doc.feuniverse.us/static/stan/E_MenuNotes.txt">Stan's menu doc</a> for more info.</p>
+			<pre>
+08B129E4 0210   //X:10 y:02 
+08B129E6 0008   //width:08 height: 00
+
+08B129E8 0000   //menu style: 0
+08B129EA 0000   
+
+08B129EC 2954   //ptr to command definitions
+08B129EE 08B1   //08B12954
+
+08B129F0 DB1D   //Start of menu lifetime
+08B129F2 080C   //080CDB1C //some sort of background gfx routine? calls BG_EnableSyncByMask
+
+08B129F4 DB29   //routine to handle generic r press at start
+08B129F6 080C   //080CDB28 //literally does the same as above
+
+08B129F8 0000   
+08B129FA 0000   
+
+08B129FC DC15   //B press
+08B129FE 080C   //080CDC14 //i guess this closes it but doesn't seem to work if on the trainee force promo
+
+08B12A00 0000   
+08B12A02 0000   
+
+08B12A04 0000   
+08B12A06 0000   
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname proc" id="PromotionMenuCommandDefs">0xB12954 PromotionMenuCommandDefs</h4>
+			<p>These are command defs for the promotion options menu. See <a href="https://doc.feuniverse.us/static/stan/E_MenuNotes.txt">Stan's menu doc</a> for more info.</p>
+			<pre>
+08B12954 70E4   //backup string: 082070E4
+08B12956 0820   
+
+08B12958 0000   //label text ID
+08B1295A 06DC   //help text ID
+
+08B1295C 0000   //selection ID: option 0
+08B1295E 0000   
+
+08B12960 F449 
+08B12962 0804   //Usability routine+1: 0804F448 (always usable)
+
+08B12964 DCC5   //Draw routine: 080CDCC4: get class names and populate
+08B12966 080C   
+
+08B12968 DB35   //080CDB34: effect routine: Promotion_Actual: promotes to selected class
+08B1296A 080C   
+    
+08B1296C 0000   //Idle Routine
+08B1296E 0000   NOP		    
+
+08B12970 DD01   //Hover routine
+08B12972 080C   //080CDD00 //PromotionCommand_OnChange - loads text for the bottom textbox from the text buffer
+    
+08B12974 0000   //Un-hover routine
+08B12976 0000   NOP
+//end command1
+
+08B12978 70D8   //backup string: 082070D8
+08B1297A 0820   
+
+08B1297C 0000   //label text ID
+08B1297E 06DC   //help text ID
+
+08B12980 0100   //selection ID: option 1
+08B12982 0000   
+
+08B12984 F449   //Usability routine+1: 0804F448 (always usable)
+08B12986 0804   
+
+08B12988 DCC5   //Draw routine: 080CDCC4: get class names and populate
+08B1298A 080C   
+
+08B1298C DB35   //080CDB34: effect routine: Promotion_Actual: promotes to selected class
+08B1298E 080C   
+
+08B12990 0000   //Idle routine
+08B12992 0000   NOP
+
+08B12994 DD01   //Hover routine
+08B12996 080C   //080CDD00 //PromotionCommand_OnChange - loads text for the bottom textbox from the text buffer
+
+08B12998 0000   //Un-hover routine
+08B1299A 0000   NOP
+//end command2
+
+08B1299C 70CC   //backup string
+08B1299E 0820   //082070CC
+
+08B129A0 0000   //name
+08B129A2 06DC   //helptext
+
+08B129A4 0200   //selection ID: 2
+08B129A6 0000   
+
+08B129A8 DD39   //usability routine
+08B129AA 080C   //080CDD38
+           
+08B129AC DCC5   //Draw routine: 080CDCC4: get class names and populate
+08B129AE 080C   
+            
+08B129B0 DB35   //080CDB34: effect routine: Promotion_Actual: promotes to selected class
+08B129B2 080C   
+                
+08B129B4 0000   //Idle routine
+08B129B6 0000   NOP
+                
+08B129B8 DD01   //hover routine
+08B129BA 080C   //080CDD00 //PromotionCommand_OnChange - loads text for the bottom textbox from the text buffer
+                    
+08B129BC 0000   //un-hover routine 
+08B129BE 0000   NOP
+//end command3; padding bytes follow
+
+08B129C0 0000   NOP
+08B129C2 0000   NOP
+
+08B129C4 0000   NOP
+08B129C6 0000   NOP
+
+08B129C8 0000   NOP
+08B129CA 0000   NOP
+
+08B129CC 0000   NOP
+08B129CE 0000   NOP
+
+08B129D0 0000   NOP
+08B129D2 0000   NOP
+
+08B129D4 0000   NOP
+08B129D6 0000   NOP
+
+08B129D8 0000   NOP
+08B129DA 0000   NOP
+
+08B129DC 0000   NOP
+08B129DE 0000   NOP
+
+08B129E0 0000   NOP
+08B129E2 0000   NOP
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCCD48">0xCCD48 SetupPromotionScreen</h4>
+			<p>Master function for building the promotion menu. Sets up map buffers for BG0, BG1 and BG2 and calls most of the child functions below. In here, the loop for gathering promotion options and associated data (name, sprite, weapon equipped) is run, and it checks for trainee classes to determine whether to load an extra promotion option for those classes (which is hardcoded here).</p>
+			<pre>
+080CCD48 B5F0   PUSH {r4,r5,r6,r7,lr}
+080CCD4A 4657   MOV r7, r10
+080CCD4C 464E   MOV r6, r9
+080CCD4E 4645   MOV r5, r8
+080CCD50 B4E0   PUSH {r5,r6,r7}
+080CCD52 B088   ADD SP, #0x20
+080CCD54 1C05   MOV r5 ,r0
+080CCD56 6968   LDR r0, [r5, #0x14]
+080CCD58 9001   STR r0,[SP, #0x4]
+080CCD5A 1C01   MOV r1 ,r0
+080CCD5C 3129   ADD r1, #0x29
+080CCD5E 2400   MOV r4, #0x0
+080CCD60 2002   MOV r0, #0x2
+080CCD62 7008   STRB r0, [r1, #0x0]
+080CCD64 9801   LDR r0,[SP, #0x4]
+080CCD66 3038   ADD r0, #0x38
+080CCD68 7800   LDRB r0, [r0, #0x0]
+080CCD6A 1C29   MOV r1 ,r5
+080CCD6C 3142   ADD r1, #0x42
+080CCD6E 8008   STRH r0, [r1, #0x0]
+080CCD70 2009   MOV r0, #0x9
+080CCD72 6528   STR r0, [r5, #0x50]
+080CCD74 4842   LDR r0, =#0x02022CA8 (BG0 Map Buffer ) //for text
+080CCD76 2100   MOV r1, #0x0
+080CCD78 F734 FA52   BL 0x08001220   //BG_Fill 
+080CCD7C 4841   LDR r0, =#0x020234A8 (BG1 Map Buffer ) //seems unused
+080CCD7E 2100   MOV r1, #0x0
+080CCD80 F734 FA4E   BL 0x08001220   //BG_Fill 
+080CCD84 4840   LDR r0, =#0x02023CA8 (BG2 Map Buffer ) //for UI elements
+080CCD86 2100   MOV r1, #0x0
+080CCD88 F734 FA4A   BL 0x08001220   //BG_Fill 
+080CCD8C F781 FEEC   BL 0x0804EB68   //LoadNewUIGraphics 
+080CCD90 F748 FC76   BL 0x08015680   //LoadObjUIGfx 
+080CCD94 2101   MOV r1, #0x1
+080CCD96 4249   NEG r1 ,r1
+080CCD98 22FB   MOV r2, #0xFB
+080CCD9A 0052   LSL r2 ,r2 ,#0x1
+080CCD9C 2006   MOV r0, #0x6
+080CCD9E 9000   STR r0,[SP, #0x0]
+080CCDA0 2000   MOV r0, #0x0
+080CCDA2 2358   MOV r3, #0x58
+080CCDA4 F000 FB6A   BL 0x080CD47C   //SomethingToDoWithButtonPresses
+080CCDA8 F7FF FF24   BL 0x080CCBF4   //LoadUIForPromoScreen
+080CCDAC 6D28   LDR r0, [r5, #0x50]
+080CCDAE 218C   MOV r1, #0x8C
+080CCDB0 0049   LSL r1 ,r1 ,#0x1
+080CCDB2 2268   MOV r2, #0x68
+080CCDB4 F000 FB28   BL 0x080CD408   //LoadTextOnPromoScreen
+080CCDB8 866C   STRH r4, [r5, #0x32]
+080CCDBA 86AC   STRH r4, [r5, #0x34]
+080CCDBC 86EC   STRH r4, [r5, #0x36]
+080CCDBE 2401   MOV r4, #0x1
+080CCDC0 1C20   MOV r0 ,r4
+080CCDC2 F74C FB35   BL 0x08019430   //GetUnitStruct 
+080CCDC6 4682   MOV r10, r0
+080CCDC8 2800   CMP r0, #0x0
+080CCDCA D100   BNE #0x80CCDCE
+    080CCDCC E08F   B 0x80CCEEE
+080CCDCE 6800   LDR r0, [r0, #0x0]
+080CCDD0 2800   CMP r0, #0x0
+080CCDD2 D100   BNE #0x80CCDD6
+    080CCDD4 E08B   B 0x80CCEEE
+080CCDD6 1C29   MOV r1 ,r5
+080CCDD8 3142   ADD r1, #0x42
+080CCDDA 7900   LDRB r0, [r0, #0x4]
+080CCDDC 8809   LDRH r1, [r1, #0x0]
+080CCDDE 4288   CMP r0 ,r1
+080CCDE0 D000   BEQ #0x80CCDE4
+    080CCDE2 E084   B 0x80CCEEE
+080CCDE4 4651   MOV r1, r10
+080CCDE6 6848   LDR r0, [r1, #0x4]
+080CCDE8 7900   LDRB r0, [r0, #0x4]
+080CCDEA 9002   STR r0,[SP, #0x8]
+080CCDEC 4650   MOV r0, r10
+080CCDEE F749 FE9B   BL 0x08016B28   //GetUnitEquippedWeapon 
+080CCDF2 0400   LSL r0 ,r0 ,#0x10
+080CCDF4 0C00   LSR r0 ,r0 ,#0x10
+080CCDF6 4681   MOV r9, r0
+080CCDF8 2200   MOV r2, #0x0
+080CCDFA 4690   MOV r8, r2
+080CCDFC 1C28   MOV r0 ,r5
+080CCDFE 304A   ADD r0, #0x4A
+080CCE00 9006   STR r0,[SP, #0x18]
+080CCE02 1C29   MOV r1 ,r5
+080CCE04 3148   ADD r1, #0x48
+080CCE06 9105   STR r1,[SP, #0x14]
+080CCE08 1C2A   MOV r2 ,r5
+080CCE0A 3240   ADD r2, #0x40
+080CCE0C 9203   STR r2,[SP, #0xC]
+080CCE0E 3809   SUB r0, #0x9
+080CCE10 9004   STR r0,[SP, #0x10]
+080CCE12 1C2B   MOV r3 ,r5
+080CCE14 3338   ADD r3, #0x38
+080CCE16 1C2F   MOV r7 ,r5
+080CCE18 3732   ADD r7, #0x32
+080CCE1A 1C2E   MOV r6 ,r5
+080CCE1C 362C   ADD r6, #0x2C
+080CCE1E 9902   LDR r1,[SP, #0x8]
+080CCE20 004C   LSL r4 ,r1 ,#0x1 //somewhere in here the classes to promote to are loaded.
+080CCE22 4444   ADD r4, r8
+080CCE24 4A19   LDR r2, [PC, #0x64] # pointer:080CCE8C -> 0895DFA4 (CCBranch )
+080CCE26 18A4   ADD r4 ,r4, R2
+080CCE28 7820   LDRB r0, [r4, #0x0] # pointer:0895E034 -> 00002449
+080CCE2A 8030   STRH r0, [r6, #0x0] //promo class 1 store to -> 2024FD8
+080CCE2C 7821   LDRB r1, [r4, #0x0] # pointer:0895E034 -> 00002449
+080CCE2E 1C38   MOV r0 ,r7
+080CCE30 464A   MOV r2, r9
+080CCE32 9307   STR r3,[SP, #0x1C]
+080CCE34 F000 FB9C   BL 0x080CD570  //ProbablyLoadsClassAnim
+080CCE38 9906   LDR r1,[SP, #0x18]
+080CCE3A 4441   ADD r1, r8
+080CCE3C 7008   STRB r0, [r1, #0x0]
+080CCE3E 7820   LDRB r0, [r4, #0x0] //wherever it loads this, it pulls a classID from the table.
+080CCE40 F74C FB00   BL 0x08019444   //GetROMClassStruct 
+080CCE44 8840   LDRH r0, [r0, #0x2] # pointer:0800244B -> 00000000
+080CCE46 9B07   LDR r3,[SP, #0x1C]
+080CCE48 8018   STRH r0, [r3, #0x0]
+080CCE4A 3302   ADD r3, #0x2
+080CCE4C 3702   ADD r7, #0x2
+080CCE4E 3602   ADD r6, #0x2
+080CCE50 2001   MOV r0, #0x1  //loop counter
+080CCE52 4480   ADD r8, r0    //increment
+080CCE54 4641   MOV r1, r8    //get total passes
+080CCE56 2901   CMP r1, #0x1
+080CCE58 DDE1   BLE #0x80CCE1E
+080CCE5A 4648   MOV r0, r9
+080CCE5C 9A05   LDR r2,[SP, #0x14]
+080CCE5E 8010   STRH r0, [r2, #0x0]
+080CCE60 F7FF FF20   BL 0x080CCCA4  //unknown func
+080CCE64 0600   LSL r0 ,r0 ,#0x18
+080CCE66 2800   CMP r0, #0x0
+080CCE68 D04B   BEQ #0x80CCF02
+    080CCE6A 4651   MOV r1, r10
+    080CCE6C 6848   LDR r0, [r1, #0x4]
+    080CCE6E 7900   LDRB r0, [r0, #0x4]
+    080CCE70 9002   STR r0,[SP, #0x8]
+    080CCE72 283E   CMP r0, #0x3E   //Promotion 3 branch@CCE72.bin@BIN 
+    080CCE74 D01D   BEQ #0x80CCEB2
+        080CCE76 283E   CMP r0, #0x3E    //check pupil
+        080CCE78 DC0A   BGT #0x80CCE90    //jump to check recruit
+            080CCE7A 283D   CMP r0, #0x3D    //check journeyman
+            080CCE7C D00C   BEQ #0x80CCE98    //if journeyman
+                080CCE7E E040   B 0x80CCF02
+080CCE80 2CA8 0202   //LDRDATA
+080CCE84 34A8 0202   //LDRDATA
+080CCE88 3CA8 0202   //LDRDATA
+080CCE8C DFA4 0895   //LDRDATA
+            080CCE90 9A02   LDR r2,[SP, #0x8]   //Promotion 3 branch@CCE90.bin@BIN 
+            080CCE92 2A47   CMP r2, #0x47
+            080CCE94 D01A   BEQ #0x80CCECC
+                080CCE96 E034   B 0x80CCF02
+            080CCE98 207E   MOV r0, #0x7E    //journeyman case - get t2 journeyman
+            080CCE9A 8628   STRH r0, [r5, #0x30] //store class ID to r5 offset 30 -> which is r6 (02025708)
+            080CCE9C 1C28   MOV r0 ,r5      //r5 is 020256d8 
+            080CCE9E 3036   ADD r0, #0x36   //0202570E -> 00 99
+            080CCEA0 217E   MOV r1, #0x7E   //class id
+            080CCEA2 464A   MOV r2, r9      //current items
+            080CCEA4 F000 FB64   BL 0x080CD570  //loads a battle sprite???
+            080CCEA8 1C29   MOV r1 ,r5      //returns 0
+            080CCEAA 314C   ADD r1, #0x4C
+            080CCEAC 7008   STRB r0, [r1, #0x0] //store to 02025724
+            080CCEAE 207E   MOV r0, #0x7E
+            080CCEB0 E018   B 0x80CCEE4
+        080CCEB2 207F   MOV r0, #0x7F //pupil case - get t2 pupil
+        080CCEB4 8628   STRH r0, [r5, #0x30]
+        080CCEB6 1C28   MOV r0 ,r5
+        080CCEB8 3036   ADD r0, #0x36
+        080CCEBA 217F   MOV r1, #0x7F
+        080CCEBC 464A   MOV r2, r9
+        080CCEBE F000 FB57   BL 0x080CD570 //load battle sprite
+        080CCEC2 1C29   MOV r1 ,r5
+        080CCEC4 314C   ADD r1, #0x4C
+        080CCEC6 7008   STRB r0, [r1, #0x0]
+        080CCEC8 207F   MOV r0, #0x7F
+        080CCECA E00B   B 0x80CCEE4
+    080CCECC 2037   MOV r0, #0x37
+    080CCECE 8628   STRH r0, [r5, #0x30]
+    080CCED0 1C28   MOV r0 ,r5
+    080CCED2 3036   ADD r0, #0x36
+    080CCED4 2137   MOV r1, #0x37
+    080CCED6 464A   MOV r2, r9
+    080CCED8 F000 FB4A   BL 0x080CD570
+    080CCEDC 1C29   MOV r1 ,r5
+    080CCEDE 314C   ADD r1, #0x4C
+    080CCEE0 7008   STRB r0, [r1, #0x0]
+    080CCEE2 2037   MOV r0, #0x37
+    080CCEE4 F74C FAAE   BL 0x08019444   //GetROMClassStruct 
+    080CCEE8 8840   LDRH r0, [r0, #0x2]  //load class name
+    080CCEEA 87A8   STRH r0, [r5, #0x3C] //store to 02025714
+    080CCEEC E009   B 0x80CCF02
+    080CCEEE 3401   ADD r4, #0x1
+    080CCEF0 1C28   MOV r0 ,r5
+    080CCEF2 3040   ADD r0, #0x40
+    080CCEF4 9003   STR r0,[SP, #0xC]
+    080CCEF6 1C29   MOV r1 ,r5
+    080CCEF8 3141   ADD r1, #0x41
+    080CCEFA 9104   STR r1,[SP, #0x10]
+    080CCEFC 2C3F   CMP r4, #0x3F
+    080CCEFE DC00   BGT #0x80CCF02
+        080CCF00 E75E   B 0x80CCDC0
+080CCF02 8E68   LDRH r0, [r5, #0x32]      //load some val at 0202570a (=18?)
+080CCF04 2800   CMP r0, #0x0
+080CCF06 D104   BNE #0x80CCF12
+    080CCF08 8EA8   LDRH r0, [r5, #0x34]
+    080CCF0A 2800   CMP r0, #0x0
+    080CCF0C D101   BNE #0x80CCF12
+        080CCF0E 86A8   STRH r0, [r5, #0x34]  
+        080CCF10 8668   STRH r0, [r5, #0x32]
+080CCF12 2100   MOV r1, #0x0
+080CCF14 2001   MOV r0, #0x1
+080CCF16 9A03   LDR r2,[SP, #0xC]
+080CCF18 7010   STRB r0, [r2, #0x0] //store 1 to 02025718
+080CCF1A 9804   LDR r0,[SP, #0x10]
+080CCF1C 7001   STRB r1, [r0, #0x0] //store 0 to 02025719
+080CCF1E 1C28   MOV r0 ,r5          //load =020256D8
+080CCF20 9902   LDR r1,[SP, #0x8]   //load current class from SP
+080CCF22 F7FF FDC3   BL 0x080CCAAC  //load palette for reel font
+080CCF26 1C28   MOV r0 ,r5
+080CCF28 F7FF FE0A   BL 0x080CCB40   //load class name in reel font
+080CCF2C F748 FBA8   BL 0x08015680   //LoadObjUIGfx 
+080CCF30 1C28   MOV r0 ,r5
+080CCF32 F000 FF53   BL 0x080CDDDC   //Make6C_PromotionMenuSelect 
+080CCF36 6568   STR r0, [r5, #0x54]
+080CCF38 9901   LDR r1,[SP, #0x4]
+080CCF3A 6948   LDR r0, [r1, #0x14]
+080CCF3C 3031   ADD r0, #0x31
+080CCF3E 7800   LDRB r0, [r0, #0x0]
+080CCF40 2801   CMP r0, #0x1
+080CCF42 D104   BNE #0x80CCF4E
+    080CCF44 F7C8 FD6A   BL 0x08095A1C
+    080CCF48 200F   MOV r0, #0xF
+    080CCF4A F735 F82F   BL 0x08001FAC   //BG_EnableSyncByMask 
+080CCF4E B008   ADD SP, #0x20
+080CCF50 BC38   POP {r3,r4,r5}
+080CCF52 4698   MOV r8, r3
+080CCF54 46A1   MOV r9, r4
+080CCF56 46AA   MOV r10, r5
+080CCF58 BCF0   POP {r4,r5,r6,r7}
+080CCF5A BC01   POP {r0}
+080CCF5C 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCD47C">0xCD47C SomethingToDoWithButtonPresses</h4>
+			<p>This reads something from the keypress buffer and does something with BG1. BG1 doesn't seem to be used on this screen as far as I can tell. So no real idea what this is doing.</p>
+			<pre>
+080CD47C B5F0   PUSH {r4,r5,r6,r7,lr}
+080CD47E 464F   MOV r7, r9
+080CD480 4646   MOV r6, r8
+080CD482 B4C0   PUSH {r6,r7}
+080CD484 4680   MOV r8, r0
+080CD486 4689   MOV r9, r1
+080CD488 0412   LSL r2 ,r2 ,#0x10
+080CD48A 0C17   LSR r7 ,r2 ,#0x10
+080CD48C 041B   LSL r3 ,r3 ,#0x10
+080CD48E 0C1E   LSR r6 ,r3 ,#0x10
+080CD490 4A2A   LDR r2, [PC, #0xA8] # pointer:080CD53C -> 0858791C (KeyStatusBuffer Pointer )
+080CD492 6810   LDR r0, [r2, #0x0] # pointer:0858791C -> 02024CC0 (KeyStatusBuffer@KeyStatusBuffer.FirstTickDelay )
+080CD494 8881   LDRH r1, [r0, #0x4] # pointer:02024CC4 (KeyStatusBuffer@KeyStatusBuffer.Current )
+080CD496 200C   MOV r0, #0xC
+080CD498 4008   AND r0 ,r1
+080CD49A 2800   CMP r0, #0x0
+080CD49C D002   BEQ #0x80CD4A4
+    080CD49E 4928   LDR r1, [PC, #0xA0] # pointer:080CD540 -> 03005408
+    080CD4A0 2000   MOV r0, #0x0
+    080CD4A2 8008   STRH r0, [r1, #0x0]
+080CD4A4 6810   LDR r0, [r2, #0x0] # pointer:0858791C -> 02024CC0 (KeyStatusBuffer@KeyStatusBuffer.FirstTickDelay )
+080CD4A6 8901   LDRH r1, [r0, #0x8] # pointer:02024CC8 (KeyStatusBuffer@KeyStatusBuffer.NewPresses:  1 For Press, 0 Otherwise )
+080CD4A8 2580   MOV r5, #0x80
+080CD4AA 00AD   LSL r5 ,r5 ,#0x2
+080CD4AC 1C28   MOV r0 ,r5
+080CD4AE 4008   AND r0 ,r1
+080CD4B0 2800   CMP r0, #0x0
+080CD4B2 D003   BEQ #0x80CD4BC
+    080CD4B4 4922   LDR r1, [PC, #0x88] # pointer:080CD540 -> 03005408
+    080CD4B6 8808   LDRH r0, [r1, #0x0] # pointer:03005408
+    080CD4B8 3001   ADD r0, #0x1
+    080CD4BA 8008   STRH r0, [r1, #0x0]
+080CD4BC F78D FA80   BL 0x0805A9C0   //NewEfxAnimeDrvProc 
+080CD4C0 4C20   LDR r4, [PC, #0x80] # pointer:080CD544 -> 030053A0
+080CD4C2 2200   MOV r2, #0x0
+080CD4C4 2100   MOV r1, #0x0
+080CD4C6 8067   STRH r7, [r4, #0x2]
+080CD4C8 80A6   STRH r6, [r4, #0x4]
+080CD4CA 2301   MOV r3, #0x1
+080CD4CC 81A3   STRH r3, [r4, #0xC]
+080CD4CE 4640   MOV r0, r8
+080CD4D0 80E0   STRH r0, [r4, #0x6]
+080CD4D2 4648   MOV r0, r9
+080CD4D4 8120   STRH r0, [r4, #0x8]
+080CD4D6 9807   LDR r0,[SP, #0x1C]
+080CD4D8 8160   STRH r0, [r4, #0xA]
+080CD4DA 7062   STRB r2, [r4, #0x1]
+080CD4DC 81E5   STRH r5, [r4, #0xE]
+080CD4DE 200A   MOV r0, #0xA
+080CD4E0 8220   STRH r0, [r4, #0x10]
+080CD4E2 4819   LDR r0, [PC, #0x64] # pointer:080CD548 -> 02000088
+080CD4E4 61E0   STR r0, [r4, #0x1C]
+080CD4E6 4819   LDR r0, [PC, #0x64] # pointer:080CD54C -> 020041C8
+080CD4E8 6260   STR r0, [r4, #0x24]
+080CD4EA 4819   LDR r0, [PC, #0x64] # pointer:080CD550 -> 02004088
+080CD4EC 6220   STR r0, [r4, #0x20]
+080CD4EE 4819   LDR r0, [PC, #0x64] # pointer:080CD554 -> 0200F1C8
+080CD4F0 62A0   STR r0, [r4, #0x28]
+080CD4F2 4819   LDR r0, [PC, #0x64] # pointer:080CD558 -> 030053E0
+080CD4F4 6320   STR r0, [r4, #0x30]
+080CD4F6 2204   MOV r2, #0x4
+080CD4F8 8002   STRH r2, [r0, #0x0]
+080CD4FA 8041   STRH r1, [r0, #0x2]
+080CD4FC 8081   STRH r1, [r0, #0x4]
+080CD4FE 80C1   STRH r1, [r0, #0x6]
+080CD500 8101   STRH r1, [r0, #0x8]
+080CD502 21C0   MOV r1, #0xC0
+080CD504 0089   LSL r1 ,r1 ,#0x2
+080CD506 81C1   STRH r1, [r0, #0xE]
+080CD508 2108   MOV r1, #0x8
+080CD50A 8201   STRH r1, [r0, #0x10]
+080CD50C 8145   STRH r5, [r0, #0xA]
+080CD50E 8182   STRH r2, [r0, #0xC]
+080CD510 8243   STRH r3, [r0, #0x12]
+080CD512 4912   LDR r1, [PC, #0x48] # pointer:080CD55C -> 020234A8 (BG1 Map Buffer )
+080CD514 6141   STR r1, [r0, #0x14]
+080CD516 4912   LDR r1, [PC, #0x48] # pointer:080CD560 -> 02017790
+080CD518 6181   STR r1, [r0, #0x18]
+080CD51A 4912   LDR r1, [PC, #0x48] # pointer:080CD564 -> 02019790
+080CD51C 61C1   STR r1, [r0, #0x1C]
+080CD51E 4912   LDR r1, [PC, #0x48] # pointer:080CD568 -> 0201A790
+080CD520 6201   STR r1, [r0, #0x20]
+080CD522 4912   LDR r1, [PC, #0x48] # pointer:080CD56C -> 080CD34D
+080CD524 6241   STR r1, [r0, #0x24]
+080CD526 F7A1 F9E3   BL 0x0806E8F0
+080CD52A 1C20   MOV r0 ,r4
+080CD52C F78D FA68   BL 0x0805AA00
+080CD530 BC18   POP {r3,r4}
+080CD532 4698   MOV r8, r3
+080CD534 46A1   MOV r9, r4
+080CD536 BCF0   POP {r4,r5,r6,r7}
+080CD538 BC01   POP {r0}
+080CD53A 4700   BX r0
+080CD53C 791C 0858   //LDRDATA
+080CD540 5408 0300   //LDRDATA
+080CD544 53A0 0300   //LDRDATA
+080CD548 0088 0200   //LDRDATA
+080CD54C 41C8 0200   //LDRDATA
+080CD550 4088 0200   //LDRDATA
+080CD554 F1C8 0200   //LDRDATA
+080CD558 53E0 0300   //LDRDATA
+080CD55C 34A8 0202   //LDRDATA
+080CD560 7790 0201   //LDRDATA
+080CD564 9790 0201   //LDRDATA
+080CD568 A790 0201   //LDRDATA
+080CD56C D34D 080C   //LDRDATA
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCCBF4">0xCCBF4 LoadUIForPromoScreen</h4>
+			<p>Loads some tiles into BG2's buffer, which is used for menu and text boxes. So this probably just draws the menu boxes onscreen.</p>
+			<pre>
+080CCBF4 B510   PUSH {r4,lr}
+080CCBF6 4C09   LDR r4, [PC, #0x24] # pointer:080CCC1C -> 08A30800 (Compressed Data0xA30800 )
+080CCBF8 2002   MOV r0, #0x2
+080CCBFA F734 F9C7   BL 0x08000F8C   //GetBackgroundTileDataOffset 
+080CCBFE 1C01   MOV r1 ,r0
+080CCC00 4807   LDR r0, [PC, #0x1C] # pointer:080CCC20 -> 06003000
+080CCC02 1809   ADD r1 ,r1, R0
+080CCC04 1C20   MOV r0 ,r4
+080CCC06 F746 F9A3   BL 0x08012F50   //UnLZ77Decompress 
+080CCC0A 4806   LDR r0, [PC, #0x18] # pointer:080CCC24 -> 02023CA8 (BG2 Map Buffer )
+080CCC0C 4906   LDR r1, [PC, #0x18] # pointer:080CCC28 -> 08A30978 (Something tiled FillTileRect 26)
+080CCC0E 228C   MOV r2, #0x8C
+080CCC10 0152   LSL r2 ,r2 ,#0x5
+080CCC12 F000 F865   BL 0x080CCCE0
+080CCC16 BC10   POP {r4}
+080CCC18 BC01   POP {r0}
+080CCC1A 4700   BX r0
+080CCC1C 0800 08A3   //LDRDATA
+080CCC20 3000 0600   //LDRDATA
+080CCC24 3CA8 0202   //LDRDATA
+080CCC28 0978 08A3   //LDRDATA
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCCCE0">0xCCCE0 SomeKindOfLoop</h4>
+			<p>No idea what this does, but it's called by LoadUIForPromoScreen.</p>
+080CCCE0 B5F0   PUSH {r4,r5,r6,r7,lr}
+080CCCE2 1C07   MOV r7 ,r0
+080CCCE4 0412   LSL r2 ,r2 ,#0x10
+080CCCE6 0C15   LSR r5 ,r2 ,#0x10
+080CCCE8 1C8C   ADD r4 ,r1, #0x2
+080CCCEA 22FF   MOV r2, #0xFF
+080CCCEC 6808   LDR r0, [r1, #0x0]
+080CCCEE 780E   LDRB r6, [r1, #0x0]
+080CCCF0 0A03   LSR r3 ,r0 ,#0x8
+080CCCF2 4013   AND r3 ,r2
+080CCCF4 0419   LSL r1 ,r3 ,#0x10
+080CCCF6 2B0C   CMP r3, #0xC
+080CCCF8 DD16   BLE #0x80CCD28
+    080CCCFA 1288   ASR r0 ,r1 ,#0xA
+    080CCCFC 183A   ADD r2 ,r7, R0
+    080CCCFE 0431   LSL r1 ,r6 ,#0x10
+    080CCD00 1408   ASR r0 ,r1 ,#0x10
+    080CCD02 041B   LSL r3 ,r3 ,#0x10
+    080CCD04 2800   CMP r0, #0x0
+    080CCD06 DB08   BLT #0x80CCD1A
+        080CCD08 8820   LDRH r0, [r4, #0x0]
+        080CCD0A 1828   ADD r0 ,r5, R0
+        080CCD0C 8010   STRH r0, [r2, #0x0]
+        080CCD0E 3402   ADD r4, #0x2
+        080CCD10 3202   ADD r2, #0x2
+        080CCD12 4807   LDR r0, [PC, #0x1C] # pointer:080CCD30 -> FFFF0000
+        080CCD14 1809   ADD r1 ,r1, R0
+        080CCD16 2900   CMP r1, #0x0
+        080CCD18 DAF6   BGE #0x80CCD08
+    080CCD1A 4905   LDR r1, [PC, #0x14] # pointer:080CCD30 -> FFFF0000
+    080CCD1C 1858   ADD r0 ,r3, R1
+    080CCD1E 0C03   LSR r3 ,r0 ,#0x10
+    080CCD20 0419   LSL r1 ,r3 ,#0x10
+    080CCD22 1408   ASR r0 ,r1 ,#0x10
+    080CCD24 280C   CMP r0, #0xC
+    080CCD26 DCE8   BGT #0x80CCCFA
+080CCD28 BCF0   POP {r4,r5,r6,r7}
+080CCD2A BC01   POP {r0}
+080CCD2C 4700   BX r0
+
+			<pre>
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCD408">0xCD408 LoadSomeTextOnPromoScreen</h4>
+			<p>Description</p>
+			<pre>
+080CD408 B570   PUSH {r4,r5,r6,lr}
+080CD40A B081   ADD SP, #0x4
+080CD40C 1C0D   MOV r5 ,r1
+080CD40E 1C16   MOV r6 ,r2
+080CD410 042D   LSL r5 ,r5 ,#0x10
+080CD412 0C2D   LSR r5 ,r5 ,#0x10
+080CD414 0436   LSL r6 ,r6 ,#0x10
+080CD416 0C36   LSR r6 ,r6 ,#0x10
+080CD418 4C14   LDR r4, [PC, #0x50] # pointer:080CD46C -> 0201FADC
+080CD41A 2200   MOV r2, #0x0
+080CD41C 8020   STRH r0, [r4, #0x0]
+080CD41E 210E   MOV r1, #0xE
+080CD420 8061   STRH r1, [r4, #0x2]
+080CD422 21E0   MOV r1, #0xE0
+080CD424 0089   LSL r1 ,r1 ,#0x2
+080CD426 80A1   STRH r1, [r4, #0x4]
+080CD428 80E0   STRH r0, [r4, #0x6]
+080CD42A 200F   MOV r0, #0xF
+080CD42C 8120   STRH r0, [r4, #0x8]
+080CD42E 20F0   MOV r0, #0xF0
+080CD430 0080   LSL r0 ,r0 ,#0x2
+080CD432 8160   STRH r0, [r4, #0xA]
+080CD434 81A2   STRH r2, [r4, #0xC]
+080CD436 480E   LDR r0, [PC, #0x38] # pointer:080CD470 -> 0000FFFF
+080CD438 81E0   STRH r0, [r4, #0xE]
+080CD43A 480E   LDR r0, [PC, #0x38] # pointer:080CD474 -> 06010000 (OBJ_VRAM0_TEXT )
+080CD43C 61E0   STR r0, [r4, #0x1C]
+080CD43E 480E   LDR r0, [PC, #0x38] # pointer:080CD478 -> 020145C8
+080CD440 6220   STR r0, [r4, #0x20]
+080CD442 1C20   MOV r0 ,r4
+080CD444 F78D FB10   BL 0x0805AA68
+080CD448 042D   LSL r5 ,r5 ,#0x10
+080CD44A 0436   LSL r6 ,r6 ,#0x10
+080CD44C 1436   ASR r6 ,r6 ,#0x10
+080CD44E 1429   ASR r1 ,r5 ,#0x10
+080CD450 20C0   MOV r0, #0xC0
+080CD452 03C0   LSL r0 ,r0 ,#0xF
+080CD454 182D   ADD r5 ,r5, R0
+080CD456 142D   ASR r5 ,r5 ,#0x10
+080CD458 9600   STR r6,[SP, #0x0]
+080CD45A 1C20   MOV r0 ,r4
+080CD45C 1C32   MOV r2 ,r6
+080CD45E 1C2B   MOV r3 ,r5
+080CD460 F78D FCEE   BL 0x0805AE40
+080CD464 B001   ADD SP, #0x4
+080CD466 BC70   POP {r4,r5,r6}
+080CD468 BC01   POP {r0}
+080CD46A 4700   BX r0
+080CD46C FADC 0201   //LDRDATA
+080CD470 FFFF 0000   //LDRDATA
+080CD474 0000 0601   //LDRDATA
+080CD478 45C8 0201   //LDRDATA
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCD570">0xCD570 LoadClassBattleSprite</h4>
+			<p>Loads battle animation data for the given class, given the items in the unit's current inventory it determines what (if any) weapon should be shown equipped.</p>
+			<pre>
+080CD570 B5F0   PUSH {r4,r5,r6,r7,lr}
+080CD572 1C04   MOV r4 ,r0          //0202570E -> 00 99
+080CD574 0409   LSL r1 ,r1 ,#0x10   //class ID
+080CD576 0C0F   LSR r7 ,r1 ,#0x10   //clean it to 1 class and store in r7
+080CD578 0412   LSL r2 ,r2 ,#0x10
+080CD57A 0C16   LSR r6 ,r2 ,#0x10   //store items to r6
+080CD57C 1C38   MOV r0 ,r7
+080CD57E F74B FF61   BL 0x08019444   //GetROMClassStruct 
+080CD582 6B45   LDR r5, [r0, #0x34]  //08 8a f6 c8  ->  battle anim settings
+080CD584 1C30   MOV r0 ,r6           
+080CD586 F749 FFDF   BL 0x08017548   //GetItemWType 
+080CD58A 2180   MOV r1, #0x80
+080CD58C 0049   LSL r1 ,r1 ,#0x1
+080CD58E 1840   ADD r0 ,r0, R1
+080CD590 0400   LSL r0 ,r0 ,#0x10
+080CD592 0C03   LSR r3 ,r0 ,#0x10
+080CD594 2000   MOV r0, #0x0
+080CD596 8020   STRH r0, [r4, #0x0]
+080CD598 2200   MOV r2, #0x0
+080CD59A E002   B 0x80CD5A2
+080CD59C 1C50   ADD r0 ,r2, #0x1
+080CD59E 0600   LSL r0 ,r0 ,#0x18
+080CD5A0 0E02   LSR r2 ,r0 ,#0x18
+080CD5A2 0090   LSL r0 ,r2 ,#0x2
+080CD5A4 1941   ADD r1 ,r0, R5
+080CD5A6 8808   LDRH r0, [r1, #0x0]
+080CD5A8 4298   CMP r0 ,r3
+080CD5AA D102   BNE #0x80CD5B2
+    080CD5AC 8848   LDRH r0, [r1, #0x2]
+    080CD5AE 3801   SUB r0, #0x1
+    080CD5B0 8020   STRH r0, [r4, #0x0]
+080CD5B2 8848   LDRH r0, [r1, #0x2]
+080CD5B4 2800   CMP r0, #0x0
+080CD5B6 D1F1   BNE #0x80CD59C
+080CD5B8 2100   MOV r1, #0x0
+080CD5BA 5E60   LDSH r0, [r4, #0x4]
+080CD5BC 2800   CMP r0, #0x0
+080CD5BE D113   BNE #0x80CD5E8
+    080CD5C0 4B01   LDR r3, [PC, #0x4] # pointer:080CD5C8 -> 00000109
+    080CD5C2 2200   MOV r2, #0x0
+    080CD5C4 E005   B 0x80CD5D2
+    080CD5C6 0000   NOP
+080CD5C8 0109 0000   //LDRDATA
+    080CD5CC 1C50   ADD r0 ,r2, #0x1
+    080CD5CE 0600   LSL r0 ,r0 ,#0x18
+    080CD5D0 0E02   LSR r2 ,r0 ,#0x18
+    080CD5D2 0090   LSL r0 ,r2 ,#0x2
+    080CD5D4 1941   ADD r1 ,r0, R5
+    080CD5D6 8808   LDRH r0, [r1, #0x0]
+    080CD5D8 4298   CMP r0 ,r3
+    080CD5DA D102   BNE #0x80CD5E2
+        080CD5DC 8848   LDRH r0, [r1, #0x2]
+        080CD5DE 3801   SUB r0, #0x1
+        080CD5E0 8020   STRH r0, [r4, #0x0]
+    080CD5E2 8848   LDRH r0, [r1, #0x2]
+    080CD5E4 2800   CMP r0, #0x0
+    080CD5E6 D1F1   BNE #0x80CD5CC
+080CD5E8 2E00   CMP r6, #0x0
+080CD5EA D00F   BEQ #0x80CD60C
+    080CD5EC 1C30   MOV r0 ,r6
+    080CD5EE F74A F863   BL 0x080176B8   //GetItemWRank 
+    080CD5F2 1C04   MOV r4 ,r0
+    080CD5F4 1C38   MOV r0 ,r7
+    080CD5F6 F74B FF25   BL 0x08019444   //GetROMClassStruct 
+    080CD5FA 1C05   MOV r5 ,r0
+    080CD5FC 1C30   MOV r0 ,r6
+    080CD5FE F749 FFA3   BL 0x08017548   //GetItemWType 
+    080CD602 352C   ADD r5, #0x2C
+    080CD604 182D   ADD r5 ,r5, R0
+    080CD606 782D   LDRB r5, [r5, #0x0]
+    080CD608 42AC   CMP r4 ,r5
+    080CD60A DA01   BGE #0x80CD610
+    080CD60C 2000   MOV r0, #0x0
+    080CD60E E000   B 0x80CD612
+080CD610 2001   MOV r0, #0x1
+080CD612 BCF0   POP {r4,r5,r6,r7}
+080CD614 BC02   POP {r1}
+080CD616 4708   BX r1
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCCCA4">0xCCCA4 SomethingToDoWithUnlockingThirdOption</h4>
+			<p>This seems to be the function that checks if the game has been beaten in order to unlock the third promotion option for the trainee classes.</p>
+			<pre>
+080CCCA4 B500   PUSH {lr}
+080CCCA6 B099   ADD SP, #0x64
+080CCCA8 4668   MOV r0, SP
+080CCCAA F7D6 F83D   BL 0x080A2D28   //LoadSomeUnitStatThingUnlockIdk 
+080CCCAE 0600   LSL r0 ,r0 ,#0x18
+080CCCB0 2800   CMP r0, #0x0
+080CCCB2 D104   BNE #0x80CCCBE
+    080CCCB4 F7D6 F896   BL 0x080A2DE4
+    080CCCB8 4668   MOV r0, SP
+    080CCCBA F7D6 F835   BL 0x080A2D28   //LoadSomeUnitStatThingUnlockIdk 
+080CCCBE 4668   MOV r0, SP
+080CCCC0 7B81   LDRB r1, [r0, #0xE]
+080CCCC2 201C   MOV r0, #0x1C
+080CCCC4 4008   AND r0 ,r1
+080CCCC6 2800   CMP r0, #0x0
+080CCCC8 D005   BEQ #0x80CCCD6
+    080CCCCA 20E0   MOV r0, #0xE0
+    080CCCCC 4008   AND r0 ,r1
+    080CCCCE 2800   CMP r0, #0x0
+    080CCCD0 D001   BEQ #0x80CCCD6
+        080CCCD2 2001   MOV r0, #0x1
+        080CCCD4 E000   B 0x80CCCD8
+080CCCD6 2001   MOV r0, #0x1   //Promotion 3 branch@CCCD6.bin@BIN 
+080CCCD8 B019   ADD SP, #0x64
+080CCCDA BC02   POP {r1}
+080CCCDC 4708   BX r1
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCCAAC">0xCCAAC LoadClassReelFontPalette</h4>
+			<p>Loads palette/LZ77 data for the fancy font in the top left. This is called once.</p>
+			<pre>
+080CCAAC B530   PUSH {r4,r5,lr}
+080CCAAE B088   ADD SP, #0x20
+080CCAB0 1C04   MOV r4 ,r0
+080CCAB2 0408   LSL r0 ,r1 ,#0x10
+080CCAB4 0C00   LSR r0 ,r0 ,#0x10
+080CCAB6 1C22   MOV r2 ,r4
+080CCAB8 3244   ADD r2, #0x44
+080CCABA 2300   MOV r3, #0x0
+080CCABC 2100   MOV r1, #0x0
+080CCABE 8011   STRH r1, [r2, #0x0]
+080CCAC0 1C25   MOV r5 ,r4
+080CCAC2 3546   ADD r5, #0x46
+080CCAC4 702B   STRB r3, [r5, #0x0]
+080CCAC6 3203   ADD r2, #0x3
+080CCAC8 2178   MOV r1, #0x78
+080CCACA 7011   STRB r1, [r2, #0x0]
+080CCACC F74C FCBA   BL 0x08019444   //GetROMClassStruct 
+080CCAD0 8800   LDRH r0, [r0, #0x0]  //loads class name
+080CCAD2 4669   MOV r1, SP
+080CCAD4 F73D FBD4   BL 0x0800A280   //GetStringFromIndexInBuffer 
+080CCAD8 4668   MOV r0, SP
+080CCADA 7800   LDRB r0, [r0, #0x0]
+080CCADC 0600   LSL r0 ,r0 ,#0x18
+080CCADE 1600   ASR r0 ,r0 ,#0x18
+080CCAE0 2800   CMP r0, #0x0
+080CCAE2 D018   BEQ #0x80CCB16
+    080CCAE4 466C   MOV r4, SP
+    080CCAE6 7820   LDRB r0, [r4, #0x0] //loop start
+    080CCAE8 F7E7 FB0E   BL 0x080B4108 //gets stuff from after class reel
+    080CCAEC 1C01   MOV r1 ,r0
+    080CCAEE 2900   CMP r1, #0x0
+    080CCAF0 D005   BEQ #0x80CCAFE
+        080CCAF2 7948   LDRB r0, [r1, #0x5]
+        080CCAF4 7909   LDRB r1, [r1, #0x4]
+        080CCAF6 1A40   SUB r0 ,r0, R1
+        080CCAF8 7829   LDRB r1, [r5, #0x0]
+        080CCAFA 1840   ADD r0 ,r0, R1
+        080CCAFC E001   B 0x80CCB02
+    080CCAFE 7828   LDRB r0, [r5, #0x0]
+    080CCB00 3004   ADD r0, #0x4
+    080CCB02 7028   STRB r0, [r5, #0x0]
+    080CCB04 3401   ADD r4, #0x1
+    080CCB06 4668   MOV r0, SP
+    080CCB08 3013   ADD r0, #0x13
+    080CCB0A 4284   CMP r4 ,r0
+    080CCB0C DC03   BGT #0x80CCB16
+        080CCB0E 2000   MOV r0, #0x0
+        080CCB10 5620   LDSB r0, [r4, #0x0]
+        080CCB12 2800   CMP r0, #0x0
+        080CCB14 D1E7   BNE #0x80CCAE6 //loop - looks like this runs 0x13 times or until it hits a 0
+080CCB16 4807   LDR r0, [PC, #0x1C] # pointer:080CCB34 -> 08A36338 (Compressed Data0xA36338 )
+080CCB18 4907   LDR r1, [PC, #0x1C] # pointer:080CCB38 -> 06011000
+080CCB1A F746 FA19   BL 0x08012F50   //UnLZ77Decompress 
+080CCB1E 4807   LDR r0, [PC, #0x1C] # pointer:080CCB3C -> 08A372C0 (Something's palette 79)
+080CCB20 21A0   MOV r1, #0xA0
+080CCB22 0089   LSL r1 ,r1 ,#0x2
+080CCB24 2240   MOV r2, #0x40
+080CCB26 F734 F947   BL 0x08000DB8   //CopyToPaletteBuffer 
+080CCB2A B008   ADD SP, #0x20
+080CCB2C BC30   POP {r4,r5}
+080CCB2E BC01   POP {r0}
+080CCB30 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCCB40">0xCCB40 LoadClassNameInClassReelFont</h4>
+			<p>References some data after the Opening Class Reel data to load the class name in the curly font used at the top of the screen. This is treated as text, so it will automatically match whatever the class name in gameplay is. This is called each frame throughout the promotion screen lifecycle.</p>
+			<pre>
+080CCB40 B5F0   PUSH {r4,r5,r6,r7,lr}
+080CCB42 B089   ADD SP, #0x24
+080CCB44 1C07   MOV r7 ,r0
+080CCB46 3041   ADD r0, #0x41
+080CCB48 7801   LDRB r1, [r0, #0x0]
+080CCB4A 0049   LSL r1 ,r1 ,#0x1
+080CCB4C 3815   SUB r0, #0x15
+080CCB4E 1840   ADD r0 ,r0, R1
+080CCB50 8800   LDRH r0, [r0, #0x0]
+080CCB52 2674   MOV r6, #0x74
+080CCB54 F74C FC76   BL 0x08019444   //GetROMClassStruct 
+080CCB58 8800   LDRH r0, [r0, #0x0]
+080CCB5A A901   ADD r1,SP, #0x1      //name of new class
+080CCB5C F73D FB90   BL 0x0800A280   //GetStringFromIndexInBuffer 
+080CCB60 A801   ADD r0,SP, #0x1
+080CCB62 7800   LDRB r0, [r0, #0x0]
+080CCB64 0600   LSL r0 ,r0 ,#0x18
+080CCB66 1600   ASR r0 ,r0 ,#0x18
+080CCB68 2800   CMP r0, #0x0
+080CCB6A D027   BEQ #0x80CCBBC
+    080CCB6C AD01   ADD r5,SP, #0x1
+    080CCB6E 7828   LDRB r0, [r5, #0x0]  //loop start
+    080CCB70 F7E7 FACA   BL 0x080B4108   //looks like this gets some data from after the class reel stuff
+    080CCB74 1C04   MOV r4 ,r0
+    080CCB76 2C00   CMP r4, #0x0
+    080CCB78 D016   BEQ #0x80CCBA8
+        080CCB7A 6823   LDR r3, [r4, #0x0]
+        080CCB7C 2B00   CMP r3, #0x0
+        080CCB7E D014   BEQ #0x80CCBAA
+            080CCB80 2104   MOV r1, #0x4
+            080CCB82 5661   LDSB r1, [r4, #0x4]
+            080CCB84 1A71   SUB r1 ,r6, R1
+            080CCB86 3902   SUB r1, #0x2
+            080CCB88 2206   MOV r2, #0x6
+            080CCB8A 56A2   LDSB r2, [r4, #0x8]
+            080CCB8C 3206   ADD r2, #0x6
+            080CCB8E 2081   MOV r0, #0x81
+            080CCB90 01C0   LSL r0 ,r0 ,#0x7
+            080CCB92 9000   STR r0,[SP, #0x0]
+            080CCB94 2004   MOV r0, #0x4
+            080CCB96 F738 FC47   BL 0x08005428   //RegisterObject (ye idk names anymore) Registers object attributes to intermediate buffers r0=root node index r1=base x coord r2=base y coord r3=ROM OAM Data pointer [sp+0]=base OAM2 data
+            080CCB9A 2005   MOV r0, #0x5
+            080CCB9C 5620   LDSB r0, [r4, #0x0]
+            080CCB9E 2104   MOV r1, #0x4
+            080CCBA0 5661   LDSB r1, [r4, #0x4]
+            080CCBA2 1A40   SUB r0 ,r0, R1
+            080CCBA4 1836   ADD r6 ,r6, R0
+            080CCBA6 E000   B 0x80CCBAA
+        080CCBA8 3604   ADD r6, #0x4
+    080CCBAA 3501   ADD r5, #0x1
+    080CCBAC 4668   MOV r0, SP
+    080CCBAE 3017   ADD r0, #0x17
+    080CCBB0 4285   CMP r5 ,r0
+    080CCBB2 DC03   BGT #0x80CCBBC
+        080CCBB4 2000   MOV r0, #0x0
+        080CCBB6 5628   LDSB r0, [r5, #0x0]
+        080CCBB8 2800   CMP r0, #0x0
+        080CCBBA D1D8   BNE #0x80CCB6E     //loop end
+080CCBBC 1C39   MOV r1 ,r7
+080CCBBE 3144   ADD r1, #0x44
+080CCBC0 8808   LDRH r0, [r1, #0x0]
+080CCBC2 28FE   CMP r0, #0xFE
+080CCBC4 D801   BHI #0x80CCBCA
+    080CCBC6 3001   ADD r0, #0x1
+    080CCBC8 8008   STRH r0, [r1, #0x0]
+080CCBCA B009   ADD SP, #0x24
+080CCBCC BCF0   POP {r4,r5,r6,r7}
+080CCBCE BC01   POP {r0}
+080CCBD0 4700   BX r0
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDDDC">0xCDDDC Make6C_PromotionMenuSelect</h4>
+			<p>Pretty straightforward: starts the proc CCRamifyMenuSelect as a child proc of ccramify.</p>
+			<pre>
+080CDDDC B500   PUSH {lr}   //Make6C_PromotionMenuSelect 
+080CDDDE 1C01   MOV r1 ,r0
+080CDDE0 4802   LDR r0, [PC, #0x8] # pointer:080CDDEC -> 08B12A08 (Procs  CCRamifyMenuSelect )
+080CDDE2 F734 FF4B   BL 0x08002C7C   //New6C 
+080CDDE6 BC02   POP {r1}
+080CDDE8 4708   BX r1
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCCF60">0xCCF60 SomeFuncThatDoesBGImageStuff</h4>
+			<p>This looks like it draws everything to the screen.</p>
+			<pre>
+080CCF60 B510   PUSH {r4,lr}
+080CCF62 1C04   MOV r4 ,r0
+080CCF64 F736 FEDC   BL 0x08003D20
+080CCF68 F736 FE94   BL 0x08003C94   //Font_InitForUIDefault 
+080CCF6C 200F   MOV r0, #0xF
+080CCF6E F735 F81D   BL 0x08001FAC   //BG_EnableSyncByMask 
+080CCF72 2080   MOV r0, #0x80
+080CCF74 0040   LSL r0 ,r0 ,#0x1
+080CCF76 2102   MOV r1, #0x2
+080CCF78 2200   MOV r2, #0x0
+080CCF7A F739 FC47   BL 0x0800680C
+080CCF7E 1C20   MOV r0 ,r4
+080CCF80 3041   ADD r0, #0x41
+080CCF82 7800   LDRB r0, [r0, #0x0]
+080CCF84 0040   LSL r0 ,r0 ,#0x1
+080CCF86 3438   ADD r4, #0x38
+080CCF88 1824   ADD r4 ,r4, R0
+080CCF8A 2100   MOV r1, #0x0
+080CCF8C 5E60   LDSH r0, [r4, #0x4]
+080CCF8E F7FF FD69   BL 0x080CCA64
+080CCF92 2001   MOV r0, #0x1
+080CCF94 4240   NEG r0 ,r0
+080CCF96 F739 FDAB   BL 0x08006AF0
+080CCF9A 4B1A   LDR r3, [PC, #0x68] # pointer:080CD004 -> 03003080 (IORegisters@IORegisters.To 04000000 (DISPCNT / LCD Control) )
+080CCF9C 7B1A   LDRB r2, [r3, #0xC] # pointer:0300308C (IORegisters@IORegisters.To 04000008 (BG0CNT / BG0 Control) )
+080CCF9E 2104   MOV r1, #0x4
+080CCFA0 4249   NEG r1 ,r1
+080CCFA2 1C08   MOV r0 ,r1
+080CCFA4 4010   AND r0 ,r2
+080CCFA6 7318   STRB r0, [r3, #0xC]   //IORegisters@IORegisters.To 04000008 (BG0CNT / BG0 Control) 
+080CCFA8 7C1A   LDRB r2, [r3, #0x10] # pointer:03003090 (IORegisters@IORegisters.To 0400000A (BG1CNT / BG1 Control) )
+080CCFAA 1C08   MOV r0 ,r1
+080CCFAC 4010   AND r0 ,r2
+080CCFAE 2202   MOV r2, #0x2
+080CCFB0 4310   ORR r0 ,r2
+080CCFB2 7418   STRB r0, [r3, #0x10]   //IORegisters@IORegisters.To 0400000A (BG1CNT / BG1 Control) 
+080CCFB4 7D18   LDRB r0, [r3, #0x14] # pointer:03003094 (IORegisters@IORegisters.To 0400000C (BG2CNT / BG2 Control) )
+080CCFB6 4001   AND r1 ,r0
+080CCFB8 2001   MOV r0, #0x1
+080CCFBA 4301   ORR r1 ,r0
+080CCFBC 7519   STRB r1, [r3, #0x14]   //IORegisters@IORegisters.To 0400000C (BG2CNT / BG2 Control) 
+080CCFBE 7E18   LDRB r0, [r3, #0x18] # pointer:03003098 (IORegisters@IORegisters.To 0400000E (BG3CNT / BG3 Control) )
+080CCFC0 2103   MOV r1, #0x3
+080CCFC2 4308   ORR r0 ,r1
+080CCFC4 7618   STRB r0, [r3, #0x18]   //IORegisters@IORegisters.To 0400000E (BG3CNT / BG3 Control) 
+080CCFC6 200F   MOV r0, #0xF
+080CCFC8 F734 FFF0   BL 0x08001FAC   //BG_EnableSyncByMask 
+080CCFCC 4B0E   LDR r3, [PC, #0x38] # pointer:080CD008 -> 04000008 (REG_BG0CNT )
+080CCFCE 881A   LDRH r2, [r3, #0x0] # pointer:04000008 (REG_BG0CNT )
+080CCFD0 490E   LDR r1, [PC, #0x38] # pointer:080CD00C -> 0000FFFC
+080CCFD2 1C08   MOV r0 ,r1
+080CCFD4 4010   AND r0 ,r2
+080CCFD6 3001   ADD r0, #0x1
+080CCFD8 8018   STRH r0, [r3, #0x0]   //REG_BG0CNT 
+080CCFDA 3302   ADD r3, #0x2
+080CCFDC 881A   LDRH r2, [r3, #0x0] # pointer:0400000A (REG_BG1CNT )
+080CCFDE 1C08   MOV r0 ,r1
+080CCFE0 4010   AND r0 ,r2
+080CCFE2 3001   ADD r0, #0x1
+080CCFE4 8018   STRH r0, [r3, #0x0]   //REG_BG1CNT 
+080CCFE6 3302   ADD r3, #0x2
+080CCFE8 881A   LDRH r2, [r3, #0x0] # pointer:0400000C (REG_OFFSET_BG2CNT )
+080CCFEA 1C08   MOV r0 ,r1
+080CCFEC 4010   AND r0 ,r2
+080CCFEE 3001   ADD r0, #0x1
+080CCFF0 8018   STRH r0, [r3, #0x0]   //REG_OFFSET_BG2CNT 
+080CCFF2 4A07   LDR r2, [PC, #0x1C] # pointer:080CD010 -> 0400000E (REG_OFFSET_BG3CNT )
+080CCFF4 8810   LDRH r0, [r2, #0x0] # pointer:0400000E (REG_OFFSET_BG3CNT )
+080CCFF6 4001   AND r1 ,r0
+080CCFF8 3101   ADD r1, #0x1
+080CCFFA 8011   STRH r1, [r2, #0x0]   //REG_OFFSET_BG3CNT 
+080CCFFC BC10   POP {r4}
+080CCFFE BC01   POP {r0}
+080CD000 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCD014">0xCD014 LoadBattleSpritesForBranchScreen</h4>
+			<p>This function runs once per frame while on the branched promotion screen. It references a state variable at 0x02025718 in RAM, which can be 0, 1, or 2 to check whether to load a new sprite or keep the previous one in place. 0 is "static", 1 is "sliding old sprite off of screen" and 2 is "new sprite sliding onto screen". It also calls LoadClassNameInClassReelFont for the new class if the current selection has changed. This function is only used for the branch selection and is not referenced on the actual promotion screen.</p>
+			<pre>
+080CD014 B5F0   PUSH {r4,r5,r6,r7,lr}
+080CD016 4657   MOV r7, r10
+080CD018 464E   MOV r6, r9
+080CD01A 4645   MOV r5, r8
+080CD01C B4E0   PUSH {r5,r6,r7}
+080CD01E B097   ADD SP, #0x5C
+080CD020 4681   MOV r9, r0
+080CD022 4812   LDR r0, [PC, #0x48] # pointer:080CD06C -> 030053A0
+080CD024 6941   LDR r1, [r0, #0x14] # pointer:030053B4
+080CD026 9114   STR r1,[SP, #0x50]
+080CD028 6982   LDR r2, [r0, #0x18] # pointer:030053B8
+080CD02A 9215   STR r2,[SP, #0x54]
+080CD02C 4910   LDR r1, [PC, #0x40] # pointer:080CD070 -> 0201FADC
+080CD02E 694F   LDR r7, [r1, #0x14] # pointer:0201FAF0
+080CD030 6989   LDR r1, [r1, #0x18] # pointer:0201FAF4
+080CD032 468A   MOV r10, r1
+080CD034 464B   MOV r3, r9
+080CD036 3340   ADD r3, #0x40
+080CD038 7819   LDRB r1, [r3, #0x0] //load from 02025718 -> some kind of state variable for what the sprite is doing?
+080CD03A 1C04   MOV r4 ,r0
+080CD03C 2901   CMP r1, #0x1        //this is 0 when static, 1 when switching initiated, 2 when new sprite has loaded and is coming in
+080CD03E D000   BEQ #0x80CD042
+    080CD040 E090   B 0x80CD164
+080CD042 8E7A   LDRH r2, [r7, #0x32]
+080CD044 2032   MOV r0, #0x32
+080CD046 5E39   LDSH r1, [r7, #0x0]
+080CD048 480A   LDR r0, [PC, #0x28] # pointer:080CD074 -> 00000117
+080CD04A 4281   CMP r1 ,r0
+080CD04C DC1E   BGT #0x80CD08C
+    080CD04E 1C10   MOV r0 ,r2
+    080CD050 300C   ADD r0, #0xC
+    080CD052 8678   STRH r0, [r7, #0x32]
+    080CD054 4651   MOV r1, r10
+    080CD056 8E48   LDRH r0, [r1, #0x32]
+    080CD058 300C   ADD r0, #0xC
+    080CD05A 8648   STRH r0, [r1, #0x32]
+    080CD05C 9A14   LDR r2,[SP, #0x50]
+    080CD05E 8850   LDRH r0, [r2, #0x2]
+    080CD060 300C   ADD r0, #0xC
+    080CD062 8050   STRH r0, [r2, #0x2]
+    080CD064 9B15   LDR r3,[SP, #0x54]
+    080CD066 8058   STRH r0, [r3, #0x2]
+    080CD068 E012   B 0x80CD090
+    080CD06A 0000   NOP
+080CD06C 53A0 0300   //LDRDATA
+080CD070 FADC 0201   //LDRDATA
+080CD074 0117 0000   //LDRDATA
+    080CD078 4803   LDR r0, [PC, #0xC] # pointer:080CD088 -> 0895EEA4 (UnitPalette )
+    080CD07A 1810   ADD r0 ,r2, R0
+    080CD07C 7800   LDRB r0, [r0, #0x0] # pointer:0895EEA4 (UnitPalette ) -> 00000000
+    080CD07E 3801   SUB r0, #0x1
+    080CD080 0400   LSL r0 ,r0 ,#0x10
+    080CD082 0C00   LSR r0 ,r0 ,#0x10
+    080CD084 9016   STR r0,[SP, #0x58]
+    080CD086 E053   B 0x80CD130
+080CD088 EEA4 0895   //LDRDATA
+080CD08C 2002   MOV r0, #0x2
+080CD08E 7018   STRB r0, [r3, #0x0]
+080CD090 4648   MOV r0, r9
+080CD092 3040   ADD r0, #0x40
+080CD094 7800   LDRB r0, [r0, #0x0]
+080CD096 2802   CMP r0, #0x2
+080CD098 D000   BEQ #0x80CD09C
+    080CD09A E087   B 0x80CD1AC
+080CD09C F78D FCA0   BL 0x0805A9E0
+080CD0A0 483D   LDR r0, [PC, #0xF4] # pointer:080CD198 -> 030053A0
+080CD0A2 F78D FCC1   BL 0x0805AA28
+080CD0A6 4649   MOV r1, r9
+080CD0A8 3142   ADD r1, #0x42
+080CD0AA 880C   LDRH r4, [r1, #0x0]
+080CD0AC 3C01   SUB r4, #0x1
+080CD0AE 0424   LSL r4 ,r4 ,#0x10
+080CD0B0 0C24   LSR r4 ,r4 ,#0x10
+080CD0B2 2041   MOV r0, #0x41
+080CD0B4 4448   ADD r0, r9
+080CD0B6 4680   MOV r8, r0
+080CD0B8 7800   LDRB r0, [r0, #0x0]
+080CD0BA 0040   LSL r0 ,r0 ,#0x1
+080CD0BC 464D   MOV r5, r9
+080CD0BE 352C   ADD r5, #0x2C
+080CD0C0 1828   ADD r0 ,r5, R0
+080CD0C2 8806   LDRH r6, [r0, #0x0]
+080CD0C4 4A35   LDR r2, [PC, #0xD4] # pointer:080CD19C -> 0000FFFF
+080CD0C6 9216   STR r2,[SP, #0x58]
+080CD0C8 8808   LDRH r0, [r1, #0x0]
+080CD0CA F74B F8E7   BL 0x0801829C   //GetUnitByCharId 
+080CD0CE 1C01   MOV r1 ,r0
+080CD0D0 A801   ADD r0,SP, #0x1
+080CD0D2 2248   MOV r2, #0x48
+080CD0D4 F004 FD9A   BL 0x080D1C0C   //memcpy 
+080CD0D8 4643   MOV r3, r8
+080CD0DA 7818   LDRB r0, [r3, #0x0]
+080CD0DC 0040   LSL r0 ,r0 ,#0x1
+080CD0DE 182D   ADD r5 ,r5, R0
+080CD0E0 8828   LDRH r0, [r5, #0x0]
+080CD0E2 F74C F9AF   BL 0x08019444   //GetROMClassStruct 
+080CD0E6 9002   STR r0,[SP, #0x8]
+080CD0E8 6B45   LDR r5, [r0, #0x34]
+080CD0EA A801   ADD r0,SP, #0x1
+080CD0EC F749 FD1C   BL 0x08016B28   //GetUnitEquippedWeapon    //No weapon display at Promotion@SWITCH 
+080CD0F0 1C02   MOV r2 ,r0
+080CD0F2 0412   LSL r2 ,r2 ,#0x10
+080CD0F4 0C12   LSR r2 ,r2 ,#0x10
+080CD0F6 AB13   ADD r3,SP, #0x13
+080CD0F8 A801   ADD r0,SP, #0x1
+080CD0FA 1C29   MOV r1 ,r5
+080CD0FC F78B FBA4   BL 0x08058848   //GetBattleAnimationId 
+080CD100 0400   LSL r0 ,r0 ,#0x10
+080CD102 0C00   LSR r0 ,r0 ,#0x10
+080CD104 4680   MOV r8, r0
+080CD106 2100   MOV r1, #0x0
+080CD108 4D25   LDR r5, [PC, #0x94] # pointer:080CD1A0 -> 0895E0A4 (UnitPalette )
+080CD10A 0424   LSL r4 ,r4 ,#0x10
+080CD10C 1424   ASR r4 ,r4 ,#0x10
+080CD10E 00E0   LSL r0 ,r4 ,#0x3
+080CD110 1B03   SUB r3 ,r0, R4
+080CD112 0436   LSL r6 ,r6 ,#0x10
+080CD114 1436   ASR r6 ,r6 ,#0x10
+080CD116 0408   LSL r0 ,r1 ,#0x10
+080CD118 1401   ASR r1 ,r0 ,#0x10
+080CD11A 18CA   ADD r2 ,r1, R3
+080CD11C 1950   ADD r0 ,r2, R5
+080CD11E 7800   LDRB r0, [r0, #0x0] # pointer:0895E09D -> 11000000
+080CD120 42B0   CMP r0 ,r6
+080CD122 D0A9   BEQ #0x80CD078
+080CD124 1C48   ADD r0 ,r1, #0x1
+080CD126 0400   LSL r0 ,r0 ,#0x10
+080CD128 0C01   LSR r1 ,r0 ,#0x10
+080CD12A 1400   ASR r0 ,r0 ,#0x10
+080CD12C 2806   CMP r0, #0x6
+080CD12E DDF2   BLE #0x80CD116
+080CD130 4641   MOV r1, r8
+080CD132 0408   LSL r0 ,r1 ,#0x10
+080CD134 1400   ASR r0 ,r0 ,#0x10
+080CD136 9A16   LDR r2,[SP, #0x58]
+080CD138 0411   LSL r1 ,r2 ,#0x10
+080CD13A 1409   ASR r1 ,r1 ,#0x10
+080CD13C 8E7A   LDRH r2, [r7, #0x32]
+080CD13E 3228   ADD r2, #0x28
+080CD140 0412   LSL r2 ,r2 ,#0x10
+080CD142 1412   ASR r2 ,r2 ,#0x10
+080CD144 2306   MOV r3, #0x6
+080CD146 9300   STR r3,[SP, #0x0]
+080CD148 2358   MOV r3, #0x58
+080CD14A F000 F997   BL 0x080CD47C
+080CD14E 4815   LDR r0, [PC, #0x54] # pointer:080CD1A4 -> 0201FADC
+080CD150 F78D FE60   BL 0x0805AE14
+080CD154 464B   MOV r3, r9
+080CD156 6D18   LDR r0, [r3, #0x50]
+080CD158 2232   MOV r2, #0x32
+080CD15A 5EB9   LDSH r1, [r7, #0x8]
+080CD15C 233A   MOV r3, #0x3A
+080CD15E 5EFA   LDSH r2, [r7, #0xC]
+080CD160 F000 F952   BL 0x080CD408
+080CD164 4649   MOV r1, r9           //check if sprite is in Incoming state
+080CD166 3140   ADD r1, #0x40
+080CD168 7808   LDRB r0, [r1, #0x0]
+080CD16A 4C0B   LDR r4, [PC, #0x2C] # pointer:080CD198 -> 030053A0
+080CD16C 2802   CMP r0, #0x2
+080CD16E D11D   BNE #0x80CD1AC       //if not, sprite is static
+    080CD170 8E7A   LDRH r2, [r7, #0x32]
+    080CD172 2332   MOV r3, #0x32
+    080CD174 5EF8   LDSH r0, [r7, #0xC]
+    080CD176 2882   CMP r0, #0x82
+    080CD178 DD16   BLE #0x80CD1A8
+        080CD17A 210C   MOV r1, #0xC
+        080CD17C 1A50   SUB r0 ,r2, R1
+        080CD17E 8678   STRH r0, [r7, #0x32]
+        080CD180 4652   MOV r2, r10
+        080CD182 8E50   LDRH r0, [r2, #0x32]
+        080CD184 1A40   SUB r0 ,r0, R1
+        080CD186 8650   STRH r0, [r2, #0x32]
+        080CD188 9B14   LDR r3,[SP, #0x50]
+        080CD18A 8858   LDRH r0, [r3, #0x2]
+        080CD18C 1A40   SUB r0 ,r0, R1
+        080CD18E 8058   STRH r0, [r3, #0x2]
+        080CD190 9915   LDR r1,[SP, #0x54]
+        080CD192 8048   STRH r0, [r1, #0x2]
+        080CD194 E00A   B 0x80CD1AC
+        080CD196 0000   NOP
+080CD198 53A0 0300   //LDRDATA
+080CD19C FFFF 0000   //LDRDATA
+080CD1A0 E0A4 0895   //LDRDATA
+080CD1A4 FADC 0201   //LDRDATA
+    080CD1A8 2000   MOV r0, #0x0
+    080CD1AA 7008   STRB r0, [r1, #0x0]
+080CD1AC 1C20   MOV r0 ,r4              //30053A0
+080CD1AE F78D FBDD   BL 0x0805A96C      //this returns a boolean, loads stuff at 0x14 and 0x18 of the pointer given. in this case 0x14 = 02028f78 and 0x18 = 02028fc0. if data at 0xE is FFFE then return 1, otherwise 0. ours was ffff
+080CD1B2 0600   LSL r0 ,r0 ,#0x18
+080CD1B4 2800   CMP r0, #0x0
+080CD1B6 D002   BEQ #0x80CD1BE          //if zero, branch
+    080CD1B8 1C20   MOV r0 ,r4
+    080CD1BA F78D FBE9   BL 0x0805A990
+080CD1BE 4648   MOV r0, r9              //load 6C header and
+080CD1C0 F7FF FCBE   BL 0x080CCB40      //jump to DrawClassNameInClassreelFont
+080CD1C4 B017   ADD SP, #0x5C           
+080CD1C6 BC38   POP {r3,r4,r5}
+080CD1C8 4698   MOV r8, r3
+080CD1CA 46A1   MOV r9, r4
+080CD1CC 46AA   MOV r10, r5
+080CD1CE BCF0   POP {r4,r5,r6,r7}
+080CD1D0 BC01   POP {r0}
+080CD1D2 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCD294">0xCD294 MoveToLabelInParent6C_Unknown1</h4>
+			<p>This probably jumps around to different parts of the ccramify 6C based on state changes, but I wasn't able to see this in action. There seem to be three valid states it checks for.</p>
+			<pre>
+080CD294 B500   PUSH {lr}
+080CD296 1C01   MOV r1 ,r0
+080CD298 6948   LDR r0, [r1, #0x14]
+080CD29A 6940   LDR r0, [r0, #0x14]
+080CD29C 3031   ADD r0, #0x31
+080CD29E 7800   LDRB r0, [r0, #0x0]
+080CD2A0 2800   CMP r0, #0x0
+080CD2A2 D104   BNE #0x80CD2AE
+    080CD2A4 1C08   MOV r0 ,r1
+    080CD2A6 2104   MOV r1, #0x4
+    080CD2A8 F735 FE3C   BL 0x08002F24   //Goto6CLabel 
+    080CD2AC E00B   B 0x80CD2C6
+080CD2AE 2801   CMP r0, #0x1
+080CD2B0 D103   BNE #0x80CD2BA
+    080CD2B2 1C08   MOV r0 ,r1
+    080CD2B4 F735 FDEE   BL 0x08002E94   //Break6CLoop 
+    080CD2B8 E005   B 0x80CD2C6
+080CD2BA 2802   CMP r0, #0x2
+080CD2BC D103   BNE #0x80CD2C6
+    080CD2BE 1C08   MOV r0 ,r1
+    080CD2C0 2104   MOV r1, #0x4
+    080CD2C2 F735 FE2F   BL 0x08002F24   //Goto6CLabel 
+080CD2C6 BC01   POP {r0}
+080CD2C8 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCD1D4">0xCD1D4 DeleteSome6Cs</h4>
+			<p>Based on a state variable, if state is 2 or greater, delete some 6Cs from the proc tree. I also couldn't get this to trigger in my test case.</p>
+			<pre>
+080CD1D4 B530   PUSH {r4,r5,lr}
+080CD1D6 6944   LDR r4, [r0, #0x14]
+080CD1D8 6965   LDR r5, [r4, #0x14]
+080CD1DA 1C29   MOV r1 ,r5
+080CD1DC 3131   ADD r1, #0x31
+080CD1DE 7809   LDRB r1, [r1, #0x0]
+080CD1E0 2900   CMP r1, #0x0
+080CD1E2 D011   BEQ #0x80CD208
+    080CD1E4 2901   CMP r1, #0x1
+    080CD1E6 D10F   BNE #0x80CD208
+        080CD1E8 F735 FDC0   BL 0x08002D6C   //Delete6C 
+        080CD1EC 1C20   MOV r0 ,r4
+        080CD1EE F735 FDBD   BL 0x08002D6C   //Delete6C 
+        080CD1F2 1C28   MOV r0 ,r5
+        080CD1F4 F735 FDBA   BL 0x08002D6C   //Delete6C 
+        080CD1F8 4805   LDR r0, [PC, #0x14] # pointer:080CD210 -> 030053A0
+        080CD1FA F78D FC15   BL 0x0805AA28
+        080CD1FE 4805   LDR r0, [PC, #0x14] # pointer:080CD214 -> 0201FADC
+        080CD200 F78D FE08   BL 0x0805AE14
+        080CD204 F78D FBEC   BL 0x0805A9E0
+080CD208 BC30   POP {r4,r5}
+080CD20A BC01   POP {r0}
+080CD20C 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCD2CC">0xCD2CC MoveToLabelInParent6C_Unknown2</h4>
+			<p>Another one that jumps to some label in the ccramify 6C, also wasn't able to trigger in the wild. States 0 and 1 go to label 5 while states 2 and above break out of the 6C loop.</p>
+			<pre>
+080CD2CC B500   PUSH {lr}
+080CD2CE 1C01   MOV r1 ,r0
+080CD2D0 6948   LDR r0, [r1, #0x14]
+080CD2D2 6940   LDR r0, [r0, #0x14]
+080CD2D4 3031   ADD r0, #0x31
+080CD2D6 7800   LDRB r0, [r0, #0x0]
+080CD2D8 2800   CMP r0, #0x0
+080CD2DA D001   BEQ #0x80CD2E0
+    080CD2DC 2801   CMP r0, #0x1
+    080CD2DE D104   BNE #0x80CD2EA
+    080CD2E0 1C08   MOV r0 ,r1
+    080CD2E2 2105   MOV r1, #0x5
+    080CD2E4 F735 FE1E   BL 0x08002F24   //Goto6CLabel 
+    080CD2E8 E004   B 0x80CD2F4
+080CD2EA 2802   CMP r0, #0x2
+080CD2EC D102   BNE #0x80CD2F4
+    080CD2EE 1C08   MOV r0 ,r1
+    080CD2F0 F735 FDD0   BL 0x08002E94   //Break6CLoop 
+080CD2F4 BC01   POP {r0}
+080CD2F6 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCD618">0xCD618 Make6C_ccramify_end</h4>
+			<p>Starts a new ccramify_end 6C, which presumably cleans stuff up and returns to te previous game state. This doesn't seem to trigger on autopromotion.</p>
+			<pre>
+080CD618 B500   PUSH {lr}
+080CD61A 4803   LDR r0, [PC, #0xC] # pointer:080CD628 -> 08B127EC (Procs  ccramify_end )
+080CD61C 2103   MOV r1, #0x3
+080CD61E F735 FB2D   BL 0x08002C7C   //New6C 
+080CD622 BC01   POP {r0}
+080CD624 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDD78">0xCDD78 BuildPromotionMenu</h4>
+			<p>Calls the actual menu 6C and populates it with the menu definitions at 0xB129E4. Sets the resulting E_Menu as child proc of CCRamifyMenuSelect.</p>
+			<pre>
+080CDD78 B570   PUSH {r4,r5,r6,lr}
+080CDD7A B083   ADD SP, #0xC
+080CDD7C 1C06   MOV r6 ,r0
+080CDD7E 304C   ADD r0, #0x4C
+080CDD80 2500   MOV r5, #0x0
+080CDD82 7005   STRB r5, [r0, #0x0]
+080CDD84 F735 FFCC   BL 0x08003D20
+080CDD88 F735 FF84   BL 0x08003C94   //Font_InitForUIDefault 
+080CDD8C 2000   MOV r0, #0x0
+080CDD8E F735 FFB1   BL 0x08003CF4   //SetFontGlyphSet 
+080CDD92 4C0C   LDR r4, [PC, #0x30] # pointer:080CDDC4 -> 03005380
+080CDD94 490C   LDR r1, [PC, #0x30] # pointer:080CDDC8 -> 06001400
+080CDD96 1C20   MOV r0 ,r4
+080CDD98 22A0   MOV r2, #0xA0
+080CDD9A 2305   MOV r3, #0x5
+080CDD9C F735 FF8C   BL 0x08003CB8   //Font_InitForUI 
+080CDDA0 1C20   MOV r0 ,r4
+080CDDA2 F735 FFC9   BL 0x08003D38   //SetFont 
+080CDDA6 4809   LDR r0, [PC, #0x24] # pointer:080CDDCC -> 08B129E4 //menu definition
+080CDDA8 4909   LDR r1, [PC, #0x24] # pointer:080CDDD0 -> 08B12A60 //geometry info
+080CDDAA 6809   LDR r1, [r1, #0x0] # pointer:08B12A60 -> 000C0101 //x:1, y:1, width:C, height:0
+080CDDAC 9500   STR r5,[SP, #0x0]
+080CDDAE 9501   STR r5,[SP, #0x4]
+080CDDB0 9602   STR r6,[SP, #0x8]
+080CDDB2 2202   MOV r2, #0x2 	     //background ID
+080CDDB4 2300   MOV r3, #0x0
+080CDDB6 F780 FF7B   BL 0x0804ECB0   //NewMenu Constructs Menu 6C E_Menu 6C pointer r0=pointer to Menu Definition r1=geometry r2=background BG index r3=tile related thing? (stored to field 0x66)
+080CDDBA 6530   STR r0, [r6, #0x50]
+080CDDBC B003   ADD SP, #0xC
+080CDDBE BC70   POP {r4,r5,r6}
+080CDDC0 BC01   POP {r0}
+080CDDC2 4700   BX r0
+080CDDC4 5380 0300   //LDRDATA
+080CDDC8 1400 0600   //LDRDATA
+080CDDCC 29E4 08B1   //LDRDATA
+080CDDD0 2A60 08B1   //LDRDATA
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDB1C">0xCDB1C SomePromoMenuStartRoutine</h4>
+			<p>Calls some func that calls BG_EnableSyncByMask. Returns 0 in r0.</p>
+			<pre>
+080CDB1C B500   PUSH {lr}
+080CDB1E F781 FE85   BL 0x0804F82C
+080CDB22 2000   MOV r0, #0x0
+080CDB24 BC02   POP {r1}
+080CDB26 4708   BX r1
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDB28">0xCDB28 PromoMenu_RPressHandler</h4>
+			<p>Literally exactly the same as above, also calls 0x4f82c.</p>
+			<pre>
+080CDB28 B500   PUSH {lr}
+080CDB2A F781 FE7F   BL 0x0804F82C
+080CDB2E 2000   MOV r0, #0x0
+080CDB30 BC02   POP {r1}
+080CDB32 4708   BX r1
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDC14">0xCDC14 PromoMenu_BPressHandler</h4>
+			<p>The handler for B press on the promotion options menu. This seems to be disabled for the Trainee auto-promotion in the battle prep screen - need to test what it does when using a promotion item. I assume it just deletes the CCRamifyMenuSelect 6C and exits.</p>
+			<pre>
+080CDC14 B510   PUSH {r4,lr}
+080CDC16 6941   LDR r1, [r0, #0x14]
+080CDC18 694C   LDR r4, [r1, #0x14]
+080CDC1A 6960   LDR r0, [r4, #0x14]
+080CDC1C 6940   LDR r0, [r0, #0x14]
+080CDC1E 3031   ADD r0, #0x31
+080CDC20 7800   LDRB r0, [r0, #0x0]
+080CDC22 2800   CMP r0, #0x0
+080CDC24 D003   BEQ #0x80CDC2E
+    080CDC26 2801   CMP r0, #0x1
+    080CDC28 D003   BEQ #0x80CDC32
+        080CDC2A 2802   CMP r0, #0x2
+        080CDC2C D001   BEQ #0x80CDC32
+        080CDC2E 2000   MOV r0, #0x0
+        080CDC30 E007   B 0x80CDC42
+080CDC32 1C08   MOV r0 ,r1
+080CDC34 F735 F89A   BL 0x08002D6C   //Delete6C 
+080CDC38 1C20   MOV r0 ,r4
+080CDC3A 2102   MOV r1, #0x2
+080CDC3C F735 F972   BL 0x08002F24   //Goto6CLabel 
+080CDC40 200B   MOV r0, #0xB
+080CDC42 BC10   POP {r4}
+080CDC44 BC02   POP {r1}
+080CDC46 4708   BX r1
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDCC4">0xCDCC4 PopulateClassNamesFrom6CStorage</h4>
+			<p>CCRamifyMenuSelect's proc storage starts at 0x020256D8 (in RAM). The classes that the unit can promote to are stored starting at offset 0x2A (third option being at 0x30). This function takes a class ID and pulls the string for the class name so it can be used to populate the menu.</p>
+			<pre>
+080CDCC4 B530   PUSH {r4,r5,lr}   //PromotionCommand_OnTextDraw 
+080CDCC6 B092   ADD SP, #0x48
+080CDCC8 1C04   MOV r4 ,r0
+080CDCCA 1C0D   MOV r5 ,r1
+080CDCCC 6960   LDR r0, [r4, #0x14]
+080CDCCE 6941   LDR r1, [r0, #0x14]
+080CDCD0 1C28   MOV r0 ,r5
+080CDCD2 303C   ADD r0, #0x3C
+080CDCD4 7800   LDRB r0, [r0, #0x0]
+080CDCD6 0600   LSL r0 ,r0 ,#0x18
+080CDCD8 1600   ASR r0 ,r0 ,#0x18
+080CDCDA 0040   LSL r0 ,r0 ,#0x1
+080CDCDC 312C   ADD r1, #0x2C
+080CDCDE 1809   ADD r1 ,r1, R0
+080CDCE0 8808   LDRH r0, [r1, #0x0]
+080CDCE2 F74B FBAF   BL 0x08019444   //GetROMClassStruct 
+080CDCE6 8800   LDRH r0, [r0, #0x0]
+080CDCE8 F73C FAAA   BL 0x0800A240   //GetStringFromIndex 
+080CDCEC 1C02   MOV r2 ,r0
+080CDCEE 1C20   MOV r0 ,r4
+080CDCF0 1C29   MOV r1 ,r5
+080CDCF2 F7FF FFA9   BL 0x080CDC48
+080CDCF6 B012   ADD SP, #0x48
+080CDCF8 BC30   POP {r4,r5}
+080CDCFA BC02   POP {r1}
+080CDCFC 4708   BX r1
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDB34">0xCDB34 Promotion_Actual</h4>
+			<p>Opens the "Change/Cancel" menu. Handles the actual changing of the class of a unit and any states that need to be added/removed (e.g. Rangers no longer able to use Ballistae, so unmount the unit). There are also some hardcoded trainee class checks here (0x3D, 0x3E, 0x47). Promotion gains are handled separately in the same block as levelups, at 0x2BD50.</p>
+			<pre>
+080CDB34 B5F0   PUSH {r4,r5,r6,r7,lr}   //PromotionCommand_OnSelect 
+080CDB36 B082   ADD SP, #0x8
+080CDB38 1C07   MOV r7 ,r0
+080CDB3A 1C0E   MOV r6 ,r1
+080CDB3C 6978   LDR r0, [r7, #0x14]
+080CDB3E 6940   LDR r0, [r0, #0x14]
+080CDB40 6944   LDR r4, [r0, #0x14]
+080CDB42 3040   ADD r0, #0x40
+080CDB44 7800   LDRB r0, [r0, #0x0]
+080CDB46 2800   CMP r0, #0x0
+080CDB48 D157   BNE #0x80CDBFA
+    080CDB4A 1C20   MOV r0 ,r4
+    080CDB4C 3038   ADD r0, #0x38
+    080CDB4E 7800   LDRB r0, [r0, #0x0]
+    080CDB50 F74A FBA4   BL 0x0801829C   //GetUnitByCharId 
+    080CDB54 1C05   MOV r5 ,r0
+    080CDB56 6868   LDR r0, [r5, #0x4]
+    080CDB58 7901   LDRB r1, [r0, #0x4]
+    080CDB5A 1C33   MOV r3 ,r6
+    080CDB5C 333C   ADD r3, #0x3C
+    080CDB5E 2000   MOV r0, #0x0
+    080CDB60 5618   LDSB r0, [r3, #0x0]
+    080CDB62 2801   CMP r0, #0x1
+    080CDB64 DC08   BGT #0x80CDB78
+        080CDB66 4A03   LDR r2, [PC, #0xC] # pointer:080CDB74 -> 0895DFA4 (CCBranch )
+        080CDB68 0049   LSL r1 ,r1 ,#0x1
+        080CDB6A 1840   ADD r0 ,r0, R1
+        080CDB6C 1880   ADD r0 ,r0, R2
+        080CDB6E 7801   LDRB r1, [r0, #0x0] # pointer:0895E0A3 -> 00020039
+        080CDB70 E019   B 0x80CDBA6
+        080CDB72 0000   NOP
+080CDB74 DFA4 0895   //LDRDATA
+    080CDB78 1C22   MOV r2 ,r4
+    080CDB7A 323B   ADD r2, #0x3B
+    080CDB7C 2802   CMP r0, #0x2
+    080CDB7E D116   BNE #0x80CDBAE
+        080CDB80 293E   CMP r1, #0x3E   //Promotion 3 branch@CDB80.bin@BIN 
+        080CDB82 D00A   BEQ #0x80CDB9A
+            080CDB84 293E   CMP r1, #0x3E
+            080CDB86 DC02   BGT #0x80CDB8E
+                080CDB88 293D   CMP r1, #0x3D
+                080CDB8A D003   BEQ #0x80CDB94
+                    080CDB8C E00B   B 0x80CDBA6
+                080CDB8E 2947   CMP r1, #0x47
+                080CDB90 D006   BEQ #0x80CDBA0
+                    080CDB92 E008   B 0x80CDBA6
+                080CDB94 207E   MOV r0, #0x7E
+                080CDB96 7010   STRB r0, [r2, #0x0]
+                080CDB98 E009   B 0x80CDBAE
+            080CDB9A 207F   MOV r0, #0x7F
+            080CDB9C 7010   STRB r0, [r2, #0x0]
+            080CDB9E E006   B 0x80CDBAE
+        080CDBA0 2037   MOV r0, #0x37
+        080CDBA2 7010   STRB r0, [r2, #0x0]
+        080CDBA4 E003   B 0x80CDBAE
+        080CDBA6 1C20   MOV r0 ,r4
+        080CDBA8 303B   ADD r0, #0x3B
+        080CDBAA 7001   STRB r1, [r0, #0x0]
+        080CDBAC 1C02   MOV r2 ,r0
+    080CDBAE 7810   LDRB r0, [r2, #0x0]
+    080CDBB0 281E   CMP r0, #0x1E
+    080CDBB2 DC0A   BGT #0x80CDBCA
+        080CDBB4 281D   CMP r0, #0x1D
+        080CDBB6 DB08   BLT #0x80CDBCA
+            080CDBB8 68E8   LDR r0, [r5, #0xC]
+            080CDBBA 2180   MOV r1, #0x80
+            080CDBBC 0109   LSL r1 ,r1 ,#0x4
+            080CDBBE 4008   AND r0 ,r1
+            080CDBC0 2800   CMP r0, #0x0
+            080CDBC2 D002   BEQ #0x80CDBCA
+                080CDBC4 1C28   MOV r0 ,r5
+                080CDBC6 F769 FF51   BL 0x08037A6C   //TryRemoveUnitFromBallista 
+    080CDBCA 480E   LDR r0, [PC, #0x38] # pointer:080CDC04 -> 03005360
+    080CDBCC 490E   LDR r1, [PC, #0x38] # pointer:080CDC08 -> 06001000
+    080CDBCE 2280   MOV r2, #0x80
+    080CDBD0 2305   MOV r3, #0x5
+    080CDBD2 F736 F871   BL 0x08003CB8   //Font_InitForUI 
+    080CDBD6 480D   LDR r0, [PC, #0x34] # pointer:080CDC0C -> 02022DBA
+    080CDBD8 210A   MOV r1, #0xA
+    080CDBDA 2206   MOV r2, #0x6
+    080CDBDC 2300   MOV r3, #0x0
+    080CDBDE F009 FC63   BL 0x080D74A8   //TileMap_FillRect 
+    080CDBE2 2001   MOV r0, #0x1
+    080CDBE4 F734 F9E2   BL 0x08001FAC   //BG_EnableSyncByMask 
+    080CDBE8 4809   LDR r0, [PC, #0x24] # pointer:080CDC10 -> 08B12930
+    080CDBEA 2100   MOV r1, #0x0
+    080CDBEC 9100   STR r1,[SP, #0x0]
+    080CDBEE 9701   STR r7,[SP, #0x4]
+    080CDBF0 2102   MOV r1, #0x2
+    080CDBF2 2200   MOV r2, #0x0
+    080CDBF4 2300   MOV r3, #0x0
+    080CDBF6 F781 F81D   BL 0x0804EC34   //NewMenu_804EC34 
+080CDBFA 2000   MOV r0, #0x0
+080CDBFC B002   ADD SP, #0x8
+080CDBFE BCF0   POP {r4,r5,r6,r7}
+080CDC00 BC02   POP {r1}
+080CDC02 4708   BX r1
+080CDC04 5360 0300   //LDRDATA
+080CDC08 1000 0600   //LDRDATA
+080CDC0C 2DBA 0202   //LDRDATA
+080CDC10 2930 08B1   //LDRDATA
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDD00">0xCDD00 PromotionSelect_OnHover</h4>
+			<p>This handles clearing and loading the description text of the class into the text box at the bottom of the branch promotion screen.</p>
+			<pre>
+080CDD00 B500   PUSH {lr}   //PromotionCommand_OnChange 
+080CDD02 6940   LDR r0, [r0, #0x14]
+080CDD04 6943   LDR r3, [r0, #0x14]
+080CDD06 1C1A   MOV r2 ,r3
+080CDD08 3240   ADD r2, #0x40
+080CDD0A 2001   MOV r0, #0x1
+080CDD0C 7010   STRB r0, [r2, #0x0]
+080CDD0E 313C   ADD r1, #0x3C
+080CDD10 7808   LDRB r0, [r1, #0x0]
+080CDD12 1C19   MOV r1 ,r3
+080CDD14 3141   ADD r1, #0x41
+080CDD16 7008   STRB r0, [r1, #0x0]
+080CDD18 7809   LDRB r1, [r1, #0x0]
+080CDD1A 0049   LSL r1 ,r1 ,#0x1
+080CDD1C 1C18   MOV r0 ,r3
+080CDD1E 3038   ADD r0, #0x38
+080CDD20 1840   ADD r0 ,r0, R1
+080CDD22 2100   MOV r1, #0x0
+080CDD24 5E40   LDSH r0, [r0, #0x4]
+080CDD26 F7FE FE9D   BL 0x080CCA64
+080CDD2A 2001   MOV r0, #0x1
+080CDD2C 4240   NEG r0 ,r0
+080CDD2E F738 FEDF   BL 0x08006AF0
+080CDD32 BC02   POP {r1}
+080CDD34 4708   BX r1
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCCA64">0xCCA64 ChangeClassDescription</h4>
+			<p>Helper function for 0xCDD00. This handles clearing and loading the description text of the class into the text box at the bottom of the branch promotion screen.</p>
+			<pre>
+080CCA64 B510   PUSH {r4,lr}
+080CCA66 1C04   MOV r4 ,r0
+080CCA68 F739 FF86   BL 0x08006978
+080CCA6C F73B FBF0   BL 0x08008250
+080CCA70 2002   MOV r0, #0x2
+080CCA72 210F   MOV r1, #0xF
+080CCA74 1C22   MOV r2 ,r4
+080CCA76 F739 FFDB   BL 0x08006A30
+080CCA7A 2000   MOV r0, #0x0
+080CCA7C F73A F848   BL 0x08006B10
+080CCA80 2001   MOV r0, #0x1
+080CCA82 F73A F811   BL 0x08006AA8
+080CCA86 2002   MOV r0, #0x2
+080CCA88 F73A F80E   BL 0x08006AA8
+080CCA8C 2004   MOV r0, #0x4
+080CCA8E F73A F80B   BL 0x08006AA8
+080CCA92 2008   MOV r0, #0x8
+080CCA94 F73A F808   BL 0x08006AA8
+080CCA98 2040   MOV r0, #0x40
+080CCA9A F73A F805   BL 0x08006AA8
+080CCA9E 2004   MOV r0, #0x4
+080CCAA0 F73A F826   BL 0x08006AF0
+080CCAA4 BC10   POP {r4}
+080CCAA6 BC01   POP {r0}
+080CCAA8 4700   BX r0
+
+			</pre>
+		</div>
+		<div class="dis">
+			<h4 class="funcname" id="0xCDD38">0xCDD38 HardCodedCheckForThirdOptionUsability</h4>
+			<p>Checks unit's character ID and current class against hard-coded list of trainee classes to see if unit is able to use the third option if it exists.</p>
+			<pre>
+080CDD38 B510   PUSH {r4,lr}   //Usability_ThirdPromotionOption 
+080CDD3A 480C   LDR r0, [PC, #0x30] # pointer:080CDD6C -> 08B12A08 (Procs  CCRamifyMenuSelect )
+080CDD3C F735 F8AE   BL 0x08002E9C   //Find6C 
+080CDD40 6940   LDR r0, [r0, #0x14] # pointer:08B12A1C -> 080CDD79
+080CDD42 6944   LDR r4, [r0, #0x14] # pointer:080CDD8D -> B1F73520
+080CDD44 F7FE FFAE   BL 0x080CCCA4
+080CDD48 0600   LSL r0 ,r0 ,#0x18
+080CDD4A 2800   CMP r0, #0x0
+080CDD4C D010   BEQ #0x80CDD70
+    080CDD4E 1C20   MOV r0 ,r4
+    080CDD50 3038   ADD r0, #0x38
+    080CDD52 7800   LDRB r0, [r0, #0x0]
+    080CDD54 F74A FAA2   BL 0x0801829C   //GetUnitByCharId 
+    080CDD58 6840   LDR r0, [r0, #0x4]
+    080CDD5A 7900   LDRB r0, [r0, #0x4]
+    080CDD5C 283D   CMP r0, #0x3D
+    080CDD5E DB07   BLT #0x80CDD70
+        080CDD60 283E   CMP r0, #0x3E
+        080CDD62 DD01   BLE #0x80CDD68
+            080CDD64 2847   CMP r0, #0x47
+            080CDD66 D103   BNE #0x80CDD70
+            080CDD68 2001   MOV r0, #0x1
+            080CDD6A E002   B 0x80CDD72
+080CDD6C 2A08 08B1   //LDRDATA
+080CDD70 2003   MOV r0, #0x3
+080CDD72 BC10   POP {r4}
+080CDD74 BC02   POP {r1}
+080CDD76 4708   BX r1
+
+			</pre>
+		</div>
+	</div>
+	
+</body>

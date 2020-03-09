@@ -392,3 +392,9 @@ DiamondDef:
 #incbin "DiamondDef/DiamondDef.dmp"
 POIN SkillTester
 WORD DiamondDefID
+
+ALIGN 4
+Anticipation:
+#incbin "Anticipation/Anticipation.dmp"
+POIN SkillTester
+WORD AnticipationID

@@ -1,0 +1,369 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	warcry_grp  voicegroup001
+	#define	warcry_pri  0
+	#define	warcry_rev  0
+	#define	warcry_mvl  127
+	#define	warcry_key  0
+	#define	warcry_tbs  1
+	#define	warcry_exg  0
+	#define	warcry_cmp  1
+
+	// .rodata
+	//	warcry
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.3) ****************//
+
+warcry_1:
+	BYTE	KEYSH   warcry_key+0
+warcry_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   200*warcry_tbs/2
+	BYTE		VOICE   33
+	BYTE		VOL     51*warcry_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N23     Gs0   v100
+	BYTE		N23     Dn1 
+	BYTE		N23     Gs1 
+	BYTE	W48
+	BYTE		N05     Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+// 001   ----------------------------------------
+warcry_1_001:
+	BYTE		N11     Gs0   v100
+	BYTE		N11     Dn1 
+	BYTE		N11     Gs1 
+	BYTE	W24
+	BYTE		N23     Gs0 
+	BYTE		N23     Dn1 
+	BYTE		N23     Gs1 
+	BYTE	W72
+	BYTE	PEND
+// 002   ----------------------------------------
+warcry_1_002:
+	BYTE		N23     Gs0   v100
+	BYTE		N23     Dn1 
+	BYTE		N23     Gs1 
+	BYTE	W48
+	BYTE		N05     Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE		N11     Gs0 
+	BYTE		N11     Dn1 
+	BYTE		N11     Gs1 
+	BYTE	W24
+	BYTE		        Gs0 
+	BYTE		N11     Dn1 
+	BYTE		N11     Gs1 
+	BYTE	W24
+	BYTE		        Gs0 
+	BYTE		N11     Dn1 
+	BYTE		N11     Gs1 
+	BYTE	W24
+	BYTE		N05     Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE		N05     Ds1 
+	BYTE		N05     An1 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	warcry_1_002
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	warcry_1_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	warcry_1_002
+// 007   ----------------------------------------
+	BYTE		N11     Gs0   v100
+	BYTE		N11     Dn1 
+	BYTE		N11     Gs1 
+	BYTE	W24
+	BYTE		        Gs0 
+	BYTE		N11     Dn1 
+	BYTE		N11     Gs1 
+	BYTE	W24
+	BYTE		N05     Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE		N05     Ds1 
+	BYTE		N05     An1 
+	BYTE	W12
+	BYTE		        Gs0 
+	BYTE		N05     Dn1 
+	BYTE		N05     Gs1 
+	BYTE	W12
+	BYTE		        An0 
+	BYTE		N05     Ds1 
+	BYTE		N05     An1 
+	BYTE	W12
+	BYTE	GoTo
+	 POIN2	warcry_1_B1
+warcry_1_B2:
+// 008   ----------------------------------------
+	BYTE		VOICE   33
+	BYTE		PAN     c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.5) ****************//
+
+warcry_2:
+	BYTE	KEYSH   warcry_key+0
+warcry_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE		VOL     76*warcry_mvl/mxv
+	BYTE		PAN     c_v-16
+	BYTE		BEND    c_v+0
+	BYTE		N44     Fn2   v100
+	BYTE		N44     Bn2 
+	BYTE		N44     Fn3 
+	BYTE	W48
+	BYTE		N11     Fn2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fn3 
+	BYTE	W12
+// 001   ----------------------------------------
+warcry_2_001:
+	BYTE		N23     Fn2   v100
+	BYTE		N23     Bn2 
+	BYTE		N23     Fn3 
+	BYTE	W24
+	BYTE		N68     Fn2 
+	BYTE		N68     Bn2 
+	BYTE		N68     Fn3 
+	BYTE	W72
+	BYTE	PEND
+// 002   ----------------------------------------
+warcry_2_002:
+	BYTE		N44     Fn2   v100
+	BYTE		N44     Bn2 
+	BYTE		N44     Fn3 
+	BYTE	W48
+	BYTE		N11     Fn2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE		N11     Bn2 
+	BYTE		N11     Fn3 
+	BYTE	W12
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	warcry_2_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	warcry_2_002
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	warcry_2_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	warcry_2_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	warcry_2_001
+	BYTE	GoTo
+	 POIN2	warcry_2_B1
+warcry_2_B2:
+// 008   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE		PAN     c_v-16
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.10) ****************//
+
+warcry_3:
+	BYTE	KEYSH   warcry_key+0
+warcry_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     76*warcry_mvl/mxv
+	BYTE		PAN     c_v+16
+	BYTE		BEND    c_v+0
+	BYTE		N44     Dn1   v100
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds1 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		N23     Dn1 
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 002   ----------------------------------------
+	BYTE		N44   
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+// 003   ----------------------------------------
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE		N23     Dn1 
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+// 005   ----------------------------------------
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N32   
+	BYTE	W36
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+// 006   ----------------------------------------
+	BYTE		N44   
+	BYTE	W48
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+// 007   ----------------------------------------
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	warcry_3_B1
+warcry_3_B2:
+// 008   ----------------------------------------
+	BYTE		VOICE   0
+	BYTE		PAN     c_v+16
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+warcry:
+	BYTE	3	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	warcry_pri	// Priority
+	BYTE	warcry_rev	// Reverb.
+
+	POIN2	warcry_grp
+
+	POIN2	warcry_1
+	POIN2	warcry_2
+	POIN2	warcry_3
+
+	

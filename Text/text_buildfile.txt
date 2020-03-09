@@ -65,6 +65,9 @@ Part 2: Rise from the Rubble[X]
 # 0x1D5
 Hills[X]
 
+# 0x50E
+Item[X]
+
 # 0x4EE
 [NRL][nru][nrc][nrk][X]
 

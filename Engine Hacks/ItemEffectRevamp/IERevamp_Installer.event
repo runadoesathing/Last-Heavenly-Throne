@@ -1,3 +1,4 @@
+//Item Effect Revamp v1.8
 //Currently FE8 only
 
 #ifndef FreeSpace	//write hack at this offset if assebmling from this file
@@ -8,6 +9,7 @@
 #endif
 
 #include "Extensions\Hack Installation.txt"
+#include "IERevamp_Core/IE_RoutineDefinitions.event"
 #include "_ItemStatMacros.event"
 
 /*The item effect revamp changes to effect id
@@ -17,6 +19,8 @@ If you want to change it back into a normal,
 change the item effect id from 0x26 to 0x1e
 (the effect id of the 1 use chest key)
 */
+//Latona did not have an effect id so I gave it effect id 0x37
+//be sure to set it or latona will not do anything
 
 ALIGN 4
 #ifndef ItemEffectRevamp
@@ -36,7 +40,7 @@ ALIGN 4
 		
 		//Update Items
 		PUSH
-			SetItemUseID(0x8C, 0x37)	//give Latona an item effect id
+		//SetItemUseID(0x8C, 0x37)	//give Latona an item effect id
 		POP
 	#else
 		ERROR "This is for FE8 only"

@@ -1,0 +1,1001 @@
+1000
+0x00 NULL
+0x01 
+0x02 
+0x03 
+0x04 
+0x05 Treasured Memories
+0x06 
+0x07 
+0x08 
+0x09 Corbenic Pride
+0x0A Ritual Song of Dhara
+0x0B 
+0x0C 
+0x0D 
+0x0E 
+0x0F 
+0x10 
+0x11 Hollow Battle's Call
+0x12 
+0x13 Shadow of the Enemy
+0x14 Assault
+0x15 
+0x16 
+0x17 
+0x18 
+0x19 Fly, My Bird
+0x1A A Savage Approach
+0x1B The Battle Must Be Won
+0x1C Powerful Foe
+0x1D 
+0x1E 
+0x1F 
+0x20 
+0x21 Healing
+0x22 Curing
+0x23 To a Higher Place
+0x24 Advance
+0x25 Tension
+0x26 Raid!
+0x27 Reunion
+0x28 Indignation
+0x29 Sorrow
+0x2A Laughter
+0x2B Legacy
+0x2C Lyon
+0x2D Lost Heart
+0x2E Solve the Riddle
+0x2F Lights in the Dark
+0x30 Comrades
+0x31 Victory
+0x32 Into the Shadow of Victory
+0x33 Quiet Palace Courtyard
+0x34 Faded Green
+0x35 Shops
+0x36 Armories
+0x37 Bonds
+0x38 Colosseum Entrance
+0x39 In the Colosseum
+0x3A Colosseum Victory
+0x3B Colosseum Defeat
+0x3C Victory Song A
+0x3D Victory Song B
+0x3E Game Over
+0x3F In Sorrow's Shroud
+0x40 Records
+0x41 Victory and the Future
+0x42 Fly with the Breeze
+0x43 The theme song of FE on title screen
+0x44 Lyon (Organ Arrangement)
+0x45 The Final Battle
+0x46 Epilogue
+0x47 EnvSound:Windy day
+0x48 EnvSound:Windy day with birds
+0x49 EnvSound:Lava boiling
+0x4A EnvSound:Nighttime
+0x4B EnvSound:Water flowing
+0x4C EnvSound:Birds chirping
+0x4D EnvSound:Soft swooshy sound
+0x4E EnvSound:Wind gusts
+0x4F SE:Wind gust stopping
+0x50 SE:Blizzard
+0x51 EnvSound:Legendary weapon theme of FE
+0x52 EnvSound:Outside with birds softly chirping
+0x53 EnvSound:River
+0x54 BGM
+0x55 BGM
+0x56 BGM
+0x57 SkillSystems DragonVeinSFX
+0x58 Knight's Oath
+0x59  [Empty Track]
+0x5A SE:Show Dialog/Get Item
+0x5B SE:LevelUP
+0x5C SE:Weapon broke
+0x5D  [Empty Track]
+0x5E  [Empty Track]
+0x5F  [Empty Track]
+0x60 SE:SaveMenu Wrote
+0x61 SE:Menu Show
+0x62  [Empty Track]
+0x63  [Empty Track]
+0x64  [Empty Track]
+0x65 SE:Map cursor moved
+0x66 SE:Menu Move cursor
+0x67 SE:Menu Move cursor(higher-pitched)
+0x68 SE:Non-controllable unit's range is displayed
+0x69 SE:Controllable unit's range is displayed (when pressing A button)
+0x6A SE:Menu option selected (A pressed)
+0x6B SE:Going back in the menu (B pressed)
+0x6C SE:Invalid option selected
+0x6D SE:SaveMenu New Game
+0x6E SE:SaveMenu Move cursor
+0x6F SE:SaveMenu Swipe
+0x70 SE:R Description Open
+0x71 SE:R Description Close
+0x72 SE:SaveMenu Can not be selected
+0x73 SE:Phase Message Sound
+0x74 EnvSound:Bell such as a call
+0x75 SE:HP Replenishment
+0x76 SE:Menu Select
+0x77 SE:Menu Select
+0x78 SE:Mini Map Open
+0x79 SE:Mini Map Close
+0x7A SE:Menu Can not be selected
+0x7B SE:System error warning
+0x7C SE:Menu Show
+0x7D SE:[[Unknown,Tell me if you know!]]
+0x7E SE:Menu Show
+0x7F SE:System error warning
+0x80 SE:Link Arena sfx
+0x81 SE:Crowd cheering
+0x82 SE:Rest staff (map)
+0x83 SE:Silence staff (map)
+0x84 SE:Silence staff strike(map)
+0x85 SE:Sleep staff (map)
+0x86 SE:Hammerne staff (map)
+0x87 SE:Berserk staff (map)
+0x88 SE:Barrier staff (map)
+0x89 SE:Live staff
+0x8A SE:Relive staff
+0x8B SE:Recover staff
+0x8C SE:Reserve staff
+0x8D SE:Unlock staff (map)
+0x8E SE:Crowd cheering (softer)
+0x8F EnvSound:Crowd cheering, then stops
+0x90 SE:FE6 Chapter opening humming
+0x91 SE:FE6 Chapter opening
+0x92  [Empty Track]
+0x93  [Empty Track]
+0x94  [Empty Track]
+0x95 EnvSound:Sandstorm
+0x96 SE:Footsteps 1
+0x97 SE:Footsteps 2
+0x98 SE:Footsteps 3
+0x99 SE:Footsteps 4
+0x9A SE:Footsteps 5
+0x9B SE:Horse trot
+0x9C SE:Horse trot 2
+0x9D SE:Horse trot 3
+0x9E SE:Horse trot 4
+0x9F SE:Horse trot 5
+0xA0 SE:Armour walk
+0xA1 SE:Armour walk 2
+0xA2 SE:Armour walk 3
+0xA3 SE:Armour walk 4
+0xA4 SE:Armour walk 5
+0xA5 SE:Armour walk 6
+0xA6 SE:Pegasus flying
+0xA7 SE:Pegasus flying 2
+0xA8  [Empty Track]
+0xA9  [Empty Track]
+0xAA SE:Recovery from a status effect
+0xAB SE:Village Destroyed
+0xAC SE:Captive falling from dead holder
+0xAD  [Empty Track]
+0xAE  [Empty Track]
+0xAF SE:Destroyed wall/snag
+0xB0 SE:Attacking wall/snag
+0xB1 SE:Unlocking door
+0xB2  [Empty Track]
+0xB3 SE:Torch
+0xB4 SE:Warping
+0xB5 SE:Warp end
+0xB6 SE:Pure Water
+0xB7 SE:Poison sound
+0xB8 SE:UI or status-related sound effect?
+0xB9 SE:Gold changing
+0xBA SE:Poison event
+0xBB  [Empty Track]
+0xBC SE:Vertical Arrow Trap
+0xBD SE:Water tile going under
+0xBE SE:Water tile coming up
+0xBF SE:Fire tile
+0xC0  [Empty Track]
+0xC1  [Empty Track]
+0xC2  [Empty Track]
+0xC3  [Empty Track]
+0xC4  [Empty Track]
+0xC5  [Empty Track]
+0xC6  [Empty Track]
+0xC7 SE:GBA version of Zelda:OoT future Hyrule Castle winds
+0xC8 SE:Small plunk? @C85_23
+0xC9 SE:Light plunk? @C85_22
+0xCA SE:Large plunk? @C85_24
+0xCB SE:Eliwood critical sword swing  @C85_38
+0xCC SE:Tap?
+0xCD SE:Low plunk?
+0xCE SE:Sword unsheathing @C85_36
+0xCF SE:Sword unsheathing 2  @C85_37
+0xD0 SE:Ballista fire
+0xD1 SE:Creaking @C85_19
+0xD2 SE:Hit (map) @C85_1A
+0xD3 SE:Hit 2(map)
+0xD4 SE:Hit 3(map)
+0xD5 SE:Kill (map)
+0xD6 SE:Death (map)
+0xD7 SE:Miss (realtime)
+0xD8 SE:Crumbling? @C85_1F @C85_20 @C85_21
+0xD9  [Empty Track]
+0xDA  [Empty Track]
+0xDB  [Empty Track]
+0xDC SE:Mamkute transform
+0xDD SE:Mamkute de-transform
+0xDE SE:Mamkute yowl @C85_7B
+0xDF SE:Mamkute roar [Empty Track]
+0xE0  [Empty Track]
+0xE1  [Empty Track]
+0xE2 SE:Armour triangle, allies striking
+0xE3 SE:Idoun/Fire Dragon death roar [Empty Track]
+0xE4  [Empty Track]
+0xE5 SE:Idoun/Fire Dragon death roar [Empty Track]
+0xE6 SE:Mamkute transform growl
+0xE7 SE:Brigand battle cry @C85_33
+0xE8  [Empty Track]
+0xE9  [Empty Track]
+0xEA SE:Axe falling @C85_42
+0xEB SE:Axe rising @C85_41
+0xEC  [Empty Track]
+0xED SE:C86_48 [Empty Track]
+0xEE  [Empty Track]
+0xEF SE:Dance/Play effect
+0xF0 SE:Divine weapon shine
+0xF1 SE:Fire charge @C85_3E
+0xF2 SE:Fire shoot
+0xF3  [Empty Track]
+0xF4 SE:Bolting static
+0xF5 SE:Bolting strike
+0xF6 SE:Shaman charging @C85_28
+0xF7 SE:Fire spell hitting
+0xF8 SE:Elfire spell hitting
+0xF9 SE:Berserk staff (realtime)
+0xFA SE:Silence staff charging (realtime)
+0xFB SE:Silence staff forming (realtime)
+0xFC SE:Silence staff strike
+0xFD SE:Rest staff (realtime)
+0xFE SE:Purge flash
+0xFF SE:Purge flash 2
+0x0100 SE:Purge charging
+0x0101 SE:Purge strike
+0x0102 SE:Barrier staff (realtime)
+0x0103 SE:Hammerne staff (realtime)
+0x0104  [Empty Track]
+0x0105  [Empty Track]
+0x0106  [Empty Track]
+0x0107  [Empty Track]
+0x0108 SE:Aircalibur1(no sound) [Empty Track]
+0x0109 SE:Aircalibur2(no sound) [Empty Track]
+0x010A SE:Flux charging
+0x010B  [Empty Track]
+0x010C SE:Ekkesachs Range Attack [Empty Track]
+0x010D SE:Sword of the seal Range Attack [Empty Track]
+0x010E SE:Live staff
+0x010F SE:Live staff (on map?)
+0x0110 SE:Relive staff
+0x0111 SE:Relive staff (on map?)
+0x0112 SE:Recover staff
+0x0113 SE:Recover staff (on map?)
+0x0114 SE:Reserve staff (realtime)
+0x0115  [Empty Track]
+0x0116  [Empty Track]
+0x0117 SE:@C85_40 [Empty Track]
+0x0118  [Empty Track]
+0x0119 SE:Bolting sparks
+0x011A SE:Bolting strike
+0x011B SE:Sleep charging (realtime)
+0x011C SE:Sleep activating (realtime)
+0x011D SE:Rumbling?
+0x011E SE:Ecksacks Wave [Empty Track]
+0x011F SE:Weird charging sound
+0x0120 SE:Lightning charging
+0x0121 SE:Lightning strike
+0x0122 SE:Fimbulvetr wind
+0x0123 SE:Fimbulvetr ice
+0x0124 SE:Nosferatu symbol
+0x0125 SE:Nosferatu drain
+0x0126 SE:Nosferatu heal
+0x0127 SE:Divine charging
+0x0128 SE:Divine falling
+0x0129 SE:Divine strike
+0x012A SE:Aureola light beam [Empty Track]
+0x012B SE:Aureola light bomb falling [Empty Track]
+0x012C SE:Aureola light explosion [Empty Track]
+0x012D  [Empty Track]
+0x012E  [Empty Track]
+0x012F  [Empty Track]
+0x0130 SE:Fenrir symbols
+0x0131 SE:Fenrir rune
+0x0132 SE:Fenrir flame
+0x0133 SE:Fenrir hit
+0x0134 SE:Vaklyrie charging @C85_4A
+0x0135 SE:Sage/Lyon magical rune @C85_49
+0x0136 SE:Ballista arrow @C85_3F
+0x0137 SE:Ballista arrow falling
+0x0138 SE:Hazymoon 1
+0x0139 SE:Hazymoon 2
+0x013A  [Empty Track]
+0x013B SE:Promotion aura rises
+0x013C SE:Promotion aura falls
+0x013D SE:Promotion glow after emerging from aura
+0x013E SE:Promotion lightning bolt
+0x013F SE:Demon King' s appearance 1
+0x0140 SE:Demon King' s appearance 2
+0x0141 SE:Demon King' s appearance 3 @C85_29
+0x0142 SE:Dying Demon King @C85_2A
+0x0143  [Empty Track]
+0x0144  [Empty Track]
+0x0145  [Empty Track]
+0x0146  [Empty Track]
+0x0147 SE:Single lightning strike (promotion/Bolting)
+0x0148  [Empty Track]
+0x0149  [Empty Track]
+0x014A SE:@C85_1B
+0x014B SE:@C85_1B
+0x014C SE:@C85_1B
+0x014D SE:@C85_1B
+0x014E SE:Soft step@C85_1B
+0x014F SE:Soft step 2@C85_1B
+0x0150 SE:Soft step 3@C85_1B
+0x0151 SE:Soft step 4@C85_1B
+0x0152  [Empty Track]
+0x0153  [Empty Track]
+0x0154 SE:Soft step@C85_1B
+0x0155 SE:Soft step 2@C85_1B
+0x0156 SE:Soft step 3@C85_1B
+0x0157 SE:Soft step 4@C85_1B
+0x0158 SE:Soft step 5@C85_1B
+0x0159 SE:soft steps...@C85_1B
+0x015A SE:@C85_1B
+0x015B SE:@C85_1B
+0x015C  [Empty Track]
+0x015D  [Empty Track]
+0x015E SE:@C85_1B
+0x015F SE:@C85_1B
+0x0160 SE:@C85_1B
+0x0161 SE:@C85_1B
+0x0162 SE:@C85_1B
+0x0163 SE:@C85_1B
+0x0164 SE:@C85_1B
+0x0165 SE:@C85_1B
+0x0166  [Empty Track]
+0x0167  [Empty Track]
+0x0168 SE:@C85_1B
+0x0169 SE:@C85_1B
+0x016A SE:@C85_1B
+0x016B SE:@C85_1B
+0x016C SE:@C85_1B
+0x016D SE:@C85_1B
+0x016E SE:@C85_1B
+0x016F SE:@C85_1B
+0x0170  [Empty Track]
+0x0171  [Empty Track]
+0x0172 SE:@C85_1B
+0x0173 SE:@C85_1B
+0x0174 SE:@C85_1B
+0x0175 SE:@C85_1B
+0x0176 SE:@C85_1B
+0x0177 SE:@C85_1B
+0x0178 SE:@C85_1B
+0x0179 SE:@C85_1B
+0x017A  [Empty Track]
+0x017B  [Empty Track]
+0x017C SE:@C85_1B
+0x017D SE:@C85_1B
+0x017E SE:@C85_1B
+0x017F SE:@C85_1B
+0x0180 SE:@C85_1B
+0x0181 SE:@C85_1B
+0x0182 SE:@C85_1B
+0x0183 SE:@C85_1B
+0x0184  [Empty Track]
+0x0185  [Empty Track]
+0x0186 SE:@C85_1B
+0x0187 SE:@C85_1B
+0x0188 SE:@C85_1B
+0x0189 SE:@C85_1B
+0x018A SE:@C85_1B
+0x018B SE:@C85_1B
+0x018C SE:@C85_1B
+0x018D SE:@C85_1B
+0x018E  [Empty Track]
+0x018F  [Empty Track]
+0x0190 SE:@C85_1B
+0x0191 SE:@C85_1B
+0x0192 SE:@C85_1B
+0x0193 SE:@C85_1B
+0x0194 SE:@C85_1B
+0x0195 SE:@C85_1B
+0x0196  [Empty Track]
+0x0197  [Empty Track]
+0x0198  [Empty Track]
+0x0199  [Empty Track]
+0x019A SE:@C85_1B
+0x019B SE:@C85_1B
+0x019C SE:@C85_1B
+0x019D SE:@C85_1B
+0x019E SE:@C85_1B
+0x019F SE:@C85_1B
+0x01A0  [Empty Track]
+0x01A1  [Empty Track]
+0x01A2  [Empty Track]
+0x01A3  [Empty Track]
+0x01A4 SE:@C85_1B
+0x01A5 SE:@C85_1B
+0x01A6 SE:@C85_1B
+0x01A7 SE:@C85_1B
+0x01A8 SE:@C85_1B
+0x01A9 SE:@C85_1B
+0x01AA  [Empty Track]
+0x01AB  [Empty Track]
+0x01AC  [Empty Track]
+0x01AD  [Empty Track]
+0x01AE SE:@C85_1B
+0x01AF SE:@C85_1B
+0x01B0 SE:@C85_1B
+0x01B1 SE:@C85_1B
+0x01B2 SE:@C85_1B
+0x01B3 SE:@C85_1B
+0x01B4  [Empty Track]
+0x01B5  [Empty Track]
+0x01B6  [Empty Track]
+0x01B7  [Empty Track]
+0x01B8 SE:@C85_1B
+0x01B9 SE:@C85_1B
+0x01BA SE:@C85_1B
+0x01BB SE:@C85_1B
+0x01BC SE:@C85_1B
+0x01BD SE:@C85_1B
+0x01BE  [Empty Track]
+0x01BF  [Empty Track]
+0x01C0  [Empty Track]
+0x01C1  [Empty Track]
+0x01C2 SE:@C85_1B
+0x01C3 SE:@C85_1B
+0x01C4 SE:@C85_1B
+0x01C5 SE:@C85_1B
+0x01C6 SE:@C85_1B
+0x01C7 SE:@C85_1B
+0x01C8  [Empty Track]
+0x01C9  [Empty Track]
+0x01CA  [Empty Track]
+0x01CB  [Empty Track]
+0x01CC SE:@C85_1B
+0x01CD SE:@C85_1B
+0x01CE SE:@C85_1B
+0x01CF SE:@C85_1B
+0x01D0 SE:@C85_1B
+0x01D1 SE:@C85_1B
+0x01D2  [Empty Track]
+0x01D3  [Empty Track]
+0x01D4  [Empty Track]
+0x01D5  [Empty Track]
+0x01D6 SE:@C85_1B
+0x01D7 SE:@C85_1B
+0x01D8 SE:@C85_1B
+0x01D9 SE:@C85_1B
+0x01DA SE:@C85_1B
+0x01DB SE:@C85_1B
+0x01DC  [Empty Track]
+0x01DD  [Empty Track]
+0x01DE  [Empty Track]
+0x01DF  [Empty Track]
+0x01E0 SE:@C85_1B
+0x01E1 SE:@C85_1B
+0x01E2 SE:@C85_1B
+0x01E3 SE:@C85_1B
+0x01E4 SE:@C85_1B
+0x01E5 SE:@C85_1B
+0x01E6  [Empty Track]
+0x01E7  [Empty Track]
+0x01E8  [Empty Track]
+0x01E9  [Empty Track]
+0x01EA SE:@C85_1B
+0x01EB SE:@C85_1B
+0x01EC SE:@C85_1B
+0x01ED SE:@C85_1B
+0x01EE SE:@C85_1B
+0x01EF SE:@C85_1B
+0x01F0  [Empty Track]
+0x01F1  [Empty Track]
+0x01F2  [Empty Track]
+0x01F3  [Empty Track]
+0x01F4 SE:@C85_1B
+0x01F5 SE:@C85_1B
+0x01F6 SE:@C85_1B
+0x01F7 SE:@C85_1B
+0x01F8 SE:@C85_1B
+0x01F9 SE:@C85_1B
+0x01FA  [Empty Track]
+0x01FB  [Empty Track]
+0x01FC  [Empty Track]
+0x01FD  [Empty Track]
+0x01FE SE:@C85_1B
+0x01FF SE:@C85_1B
+0x0200 SE:@C85_1B
+0x0201 SE:@C85_1B
+0x0202 SE:@C85_1B
+0x0203 SE:@C85_1B
+0x0204  [Empty Track]
+0x0205  [Empty Track]
+0x0206  [Empty Track]
+0x0207  [Empty Track]
+0x0208 SE:@C85_1B
+0x0209 SE:@C85_1B
+0x020A SE:@C85_1B
+0x020B SE:@C85_1B
+0x020C SE:@C85_1B
+0x020D SE:@C85_1B
+0x020E  [Empty Track]
+0x020F  [Empty Track]
+0x0210  [Empty Track]
+0x0211  [Empty Track]
+0x0212 SE:@C85_1B
+0x0213 SE:@C85_1B
+0x0214 SE:@C85_1B
+0x0215 SE:@C85_1B
+0x0216 SE:@C85_1B
+0x0217 SE:@C85_1B
+0x0218  [Empty Track]
+0x0219  [Empty Track]
+0x021A  [Empty Track]
+0x021B  [Empty Track]
+0x021C SE:@C85_1B
+0x021D SE:@C85_1B
+0x021E SE:@C85_1B
+0x021F SE:@C85_1B
+0x0220 SE:@C85_1B
+0x0221 SE:@C85_1B
+0x0222  [Empty Track]
+0x0223  [Empty Track]
+0x0224  [Empty Track]
+0x0225  [Empty Track]
+0x0226 SE:@C85_1B
+0x0227 SE:@C85_1B
+0x0228 SE:@C85_1B
+0x0229 SE:@C85_1B
+0x022A SE:@C85_1B
+0x022B SE:@C85_1B
+0x022C  [Empty Track]
+0x022D  [Empty Track]
+0x022E  [Empty Track]
+0x022F  [Empty Track]
+0x0230 SE:@C85_1B
+0x0231 SE:@C85_1B
+0x0232 SE:@C85_1B
+0x0233 SE:@C85_1B
+0x0234 SE:@C85_1B
+0x0235 SE:@C85_1B
+0x0236  [Empty Track]
+0x0237  [Empty Track]
+0x0238  [Empty Track]
+0x0239  [Empty Track]
+0x023A SE:@C85_1B
+0x023B SE:@C85_1B
+0x023C SE:@C85_1B
+0x023D SE:@C85_1B
+0x023E SE:@C85_1B
+0x023F SE:@C85_1B
+0x0240  [Empty Track]
+0x0241  [Empty Track]
+0x0242  [Empty Track]
+0x0243  [Empty Track]
+0x0244 SE:@C85_1B
+0x0245 SE:@C85_1B
+0x0246 SE:@C85_1B
+0x0247 SE:@C85_1B
+0x0248 SE:@C85_1B
+0x0249 SE:@C85_1B
+0x024A  [Empty Track]
+0x024B  [Empty Track]
+0x024C  [Empty Track]
+0x024D  [Empty Track]
+0x024E SE:@C85_1B
+0x024F SE:@C85_1B
+0x0250 SE:@C85_1B
+0x0251 SE:@C85_1B
+0x0252 SE:@C85_1B
+0x0253 SE:@C85_1B
+0x0254  [Empty Track]
+0x0255  [Empty Track]
+0x0256  [Empty Track]
+0x0257  [Empty Track]
+0x0258 SE:@C85_1B
+0x0259 SE:@C85_1B
+0x025A SE:@C85_1B
+0x025B SE:@C85_1B
+0x025C SE:@C85_1B
+0x025D SE:@C85_1B
+0x025E  [Empty Track]
+0x025F  [Empty Track]
+0x0260  [Empty Track]
+0x0261  [Empty Track]
+0x0262 SE:@C85_3C
+0x0263 SE:@C85_25 @C85_3C
+0x0264 SE:@C85_35
+0x0265 SE:@C85_35
+0x0266 SE:@C85_2B
+0x0267 SE:@C85_2B
+0x0268 SE:[[Unknown,Tell me if you know!]]
+0x0269 SE:Circle of light by torch
+0x026A SE:Earthquake
+0x026B SE:[[Unknown,Tell me if you know!]]
+0x026C SE:[[Unknown,Tell me if you know!]]
+0x026D  [Empty Track]
+0x026E  [Empty Track]
+0x026F  [Empty Track]
+0x0270  [Empty Track]
+0x0271  [Empty Track]
+0x0272  [Empty Track]
+0x0273  [Empty Track]
+0x0274  [Empty Track]
+0x0275  [Empty Track]
+0x0276  [Empty Track]
+0x0277  [Empty Track]
+0x0278  [Empty Track]
+0x0279  [Empty Track]
+0x027A  [Empty Track]
+0x027B  [Empty Track]
+0x027C  [Empty Track]
+0x027D  [Empty Track]
+0x027E  [Empty Track]
+0x027F  [Empty Track]
+0x0280  [Empty Track]
+0x0281  [Empty Track]
+0x0282  [Empty Track]
+0x0283  [Empty Track]
+0x0284  [Empty Track]
+0x0285  [Empty Track]
+0x0286  [Empty Track]
+0x0287  [Empty Track]
+0x0288  [Empty Track]
+0x0289  [Empty Track]
+0x028A  [Empty Track]
+0x028B  [Empty Track]
+0x028C  [Empty Track]
+0x028D  [Empty Track]
+0x028E  [Empty Track]
+0x028F  [Empty Track]
+0x0290  [Empty Track]
+0x0291  [Empty Track]
+0x0292  [Empty Track]
+0x0293  [Empty Track]
+0x0294  [Empty Track]
+0x0295  [Empty Track]
+0x0296  [Empty Track]
+0x0297  [Empty Track]
+0x0298  [Empty Track]
+0x0299  [Empty Track]
+0x029A  [Empty Track]
+0x029B  [Empty Track]
+0x029C  [Empty Track]
+0x029D  [Empty Track]
+0x029E  [Empty Track]
+0x029F  [Empty Track]
+0x02A0  [Empty Track]
+0x02A1  [Empty Track]
+0x02A2  [Empty Track]
+0x02A3  [Empty Track]
+0x02A4  [Empty Track]
+0x02A5  [Empty Track]
+0x02A6  [Empty Track]
+0x02A7  [Empty Track]
+0x02A8  [Empty Track]
+0x02A9  [Empty Track]
+0x02AA  [Empty Track]
+0x02AB  [Empty Track]
+0x02AC  [Empty Track]
+0x02AD  [Empty Track]
+0x02AE  [Empty Track]
+0x02AF  [Empty Track]
+0x02B0  [Empty Track]
+0x02B1  [Empty Track]
+0x02B2  [Empty Track]
+0x02B3  [Empty Track]
+0x02B4  [Empty Track]
+0x02B5  [Empty Track]
+0x02B6  [Empty Track]
+0x02B7  [Empty Track]
+0x02B8  [Empty Track]
+0x02B9  [Empty Track]
+0x02BA  [Empty Track]
+0x02BB  [Empty Track]
+0x02BC SE:Shine attack
+0x02BD SE:Luna symbol
+0x02BE SE:Luna hitting
+0x02BF SE:Excalibur forming
+0x02C0 SE:Excalibur cutting
+0x02C1 SE:Aura flash
+0x02C2 SE:Aura going up
+0x02C3 SE:Aura strike
+0x02C4 SE:Luce flash [Empty Track]
+0x02C5 SE:Luce charging [Empty Track]
+0x02C6 SE:Luce flowing [Empty Track]
+0x02C7 SE:Gespenst symbol
+0x02C8 SE:Gespenst clouds
+0x02C9 SE:Gespenst strike
+0x02CA SE:Forblaze charging [Empty Track]
+0x02CB SE:Forblaze rising [Empty Track]
+0x02CC SE:Weird charging
+0x02CD SE:Weird glittery sound
+0x02CE SE:No damage
+0x02CF SE:Weird pat sound @C85_43
+0x02D0 SE:Eliwood's sword shining @C85_44
+0x02D1 SE:Eliwood's horse neighing @C85_45 [Empty Track]
+0x02D2 SE:Weird flaming sound @C85_46
+0x02D3 SE:Dancing @C85_3A
+0x02D4 SE:Playing @C85_3B [Empty Track]
+0x02D5 SE:Dancing (map)
+0x02D6 SE:Sacred Stone shattered
+0x02D7 SE:Snag falling
+0x02D8 SE:Weird charging sound
+0x02D9 SE:Thud
+0x02DA SE:Sword unsheathing
+0x02DB SE:Bizarre three sound effects [Empty Track]
+0x02DC SE:Ref whistle, what's this doing here? [Empty Track]
+0x02DD SE:Glittery sound @C85_4B
+0x02DE SE:Shine sound @C85_4C [Empty Track]
+0x02DF SE:Shine sound 2 @C85_4D [Empty Track]
+0x02E0 SE:Weird rumbling
+0x02E1 SE:Eclipse striking
+0x02E2 SE:Eclipse striking (shorter)
+0x02E3  [Empty Track]
+0x02E4 SE:Summoner crit sound @C85_78
+0x02E5 SE:Text advancing (text displayed on brown scroll/tablet)
+0x02E6 SE:Short noise-based sfx
+0x02E7 SE:Short noise-based sfx (lower)
+0x02E8 SE:@C85_50 [Empty Track]
+0x02E9 SE:Magic shine
+0x02EA SE:Magic shine, long
+0x02EB SE:Magic shine, longer
+0x02EC SE:Magic shine, even longer
+0x02ED SE:Magic shine, longest
+0x02EE  [Empty Track]
+0x02EF  [Empty Track]
+0x02F0 SE:Rumbling at the Dragon's Gate
+0x02F1 SE:Dragons screaming
+0x02F2 SE:Fire Dragon dying
+0x02F3 SE:Fire Dragon dying 2
+0x02F4 SE:No damage
+0x02F5 SE:High-pitched dragon yell
+0x02F6 SE:Soft step [Empty Track]
+0x02F7 SE:Druid critical charge @C85_4F
+0x02F8 SE:Sage critical conjuration @C85_2F
+0x02F9 SE:Swish sound
+0x02FA SE:Icy sound [Empty Track]
+0x02FB SE:Fire Dragon attacking
+0x02FC SE:Dragons attacking Athos
+0x02FD SE:Ereshkigal charging [Empty Track]
+0x02FE SE:Ereshkigal strike [Empty Track]
+0x02FF SE:Swoosh sound [Empty Track]
+0x0300  [Empty Track]
+0x0301  [Empty Track]
+0x0302 SE:Revenant Map Step
+0x0303 SE:Entombed Map Step
+0x0304 SE:Bonewalker Map Step
+0x0305 SE:Wight Map Step
+0x0306 SE:Oculus Map... Step...?
+0x0307 SE:Arch Mogall map step
+0x0308 SE:Bael map step
+0x0309 SE:Elder Bael map step
+0x030A SE:Tarvos map step
+0x030B SE:Maelduin map step
+0x030C SE:Gorgon's Map Step 1
+0x030D SE:Gorgon's Map Step 2
+0x030E SE:World map move by ship 1
+0x030F SE:World map move by ship 2
+0x0310 SE:World map Draw Road
+0x0311 SE:World map destinations appearing
+0x0312 SE:Enemy appears on world map
+0x0313 SE:clashing weapons, when world map skirmish started
+0x0314 SE:When the word "skirmish" appears
+0x0315  [Empty Track]
+0x0316 SE:Chapter Opening
+0x0317 SE:Game Opening Title SE?
+0x0318  [Empty Track]
+0x0319  [Empty Track]
+0x031A  [Empty Track]
+0x031B  [Empty Track]
+0x031C  [Empty Track]
+0x031D  [Empty Track]
+0x031E  [Empty Track]
+0x031F  [Empty Track]
+0x0320 SE:Revenant combat sounds 1 @C85_64
+0x0321 SE:Revenant combat sounds 2 @C85_65
+0x0322 SE:Revenant combat sounds 3 @C85_73
+0x0323  [Empty Track]
+0x0324  [Empty Track]
+0x0325 SE:Bael combat sounds 1 @C85_56
+0x0326 SE:Bael combat sounds 2 @C85_57
+0x0327 SE:Bael combat sounds 3 @C85_58
+0x0328  [Empty Track]
+0x0329 SE:Cyclops battle cry @C85_75
+0x032A SE:Mauthedoog Roar @C85_5A
+0x032B SE:Mauthedoog Bite @C85_5B
+0x032C SE:Mauthedoog Howl @C85_5C
+0x032D  [Empty Track]
+0x032E SE:Gargoyle battle cry @C85_5E
+0x032F SE:Gorgon casting spell 1 @C85_61
+0x0330 SE:Gorgon casting spell 2 @C85_62
+0x0331 SE:Gorgon scream @C85_63
+0x0332 SE:Gargoyle laugh @C85_5F
+0x0333  [Empty Track]
+0x0334 SE:Revenant Step @C85_66
+0x0335 SE:Entombed Step @C85_66
+0x0336 SE:Bonewalker Step @C85_67
+0x0337 SE:Wight Step @C85_67
+0x0338 SE:Bael Step @C85_59
+0x0339 SE:Elder Bael Step @C85_59
+0x033A SE:Mauthedoog Step @C85_59
+0x033B SE:Gwyllgi Step @C85_59
+0x033C  [Empty Track]
+0x033D  [Empty Track]
+0x033E SE:@C85_66
+0x033F SE:@C85_66
+0x0340 SE:@C85_67
+0x0341 SE:@C85_67
+0x0342 SE:@C85_59
+0x0343 SE:@C85_59
+0x0344 SE:@C85_59
+0x0345 SE:@C85_59
+0x0346  [Empty Track]
+0x0347  [Empty Track]
+0x0348 SE:@C85_66
+0x0349 SE:@C85_66
+0x034A SE:@C85_67
+0x034B SE:@C85_67
+0x034C SE:@C85_59
+0x034D SE:@C85_59
+0x034E SE:@C85_59
+0x034F SE:@C85_59
+0x0350  [Empty Track]
+0x0351  [Empty Track]
+0x0352 SE:@C85_66
+0x0353 SE:@C85_66
+0x0354 SE:@C85_67
+0x0355 SE:@C85_67
+0x0356 SE:@C85_59
+0x0357 SE:@C85_59
+0x0358 SE:@C85_59
+0x0359 SE:@C85_59
+0x035A  [Empty Track]
+0x035B  [Empty Track]
+0x035C SE:@C85_66
+0x035D SE:@C85_66
+0x035E SE:@C85_67
+0x035F SE:@C85_67
+0x0360 SE:@C85_59
+0x0361 SE:@C85_59
+0x0362 SE:@C85_59
+0x0363 SE:@C85_59
+0x0364  [Empty Track]
+0x0365  [Empty Track]
+0x0366 SE:@C85_66
+0x0367 SE:@C85_66
+0x0368 SE:@C85_67
+0x0369 SE:@C85_67
+0x036A SE:@C85_59
+0x036B SE:@C85_59
+0x036C SE:@C85_59
+0x036D SE:@C85_59
+0x036E  [Empty Track]
+0x036F  [Empty Track]
+0x0370 SE:@C85_66
+0x0371 SE:@C85_66
+0x0372 SE:@C85_67
+0x0373 SE:@C85_67
+0x0374 SE:@C85_59
+0x0375 SE:@C85_59
+0x0376 SE:@C85_59
+0x0377 SE:@C85_59
+0x0378  [Empty Track]
+0x0379  [Empty Track]
+0x037A SE:@C85_76
+0x037B SE:Dragon roar @C85_77
+0x037C SE:Mage knight magic sound @C85_79
+0x037D SE:@C85_74
+0x037E SE:Charging sound
+0x037F SE:Mage knight crit sound (Similar to Shaman) @C85_7A
+0x0380 SE:Dragon roar with wind on bg
+0x0381  [Empty Track]
+0x0382  [Empty Track]
+0x0383  [Empty Track]
+0x0384 SE:Dark magic (one of the monster spells?)
+0x0385  [Empty Track]
+0x0386  [Empty Track]
+0x0387  [Empty Track]
+0x0388  [Empty Track]
+0x0389  [Empty Track]
+0x038A  [Empty Track]
+0x038B  [Empty Track]
+0x038C  [Empty Track]
+0x038D  [Empty Track]
+0x038E  [Empty Track]
+0x038F  [Empty Track]
+0x0390  [Empty Track]
+0x0391  [Empty Track]
+0x0392  [Empty Track]
+0x0393  [Empty Track]
+0x0394  [Empty Track]
+0x0395  [Empty Track]
+0x0396  [Empty Track]
+0x0397  [Empty Track]
+0x0398  [Empty Track]
+0x0399  [Empty Track]
+0x039A  [Empty Track]
+0x039B  [Empty Track]
+0x039C  [Empty Track]
+0x039D  [Empty Track]
+0x039E  [Empty Track]
+0x039F  [Empty Track]
+0x03A0  [Empty Track]
+0x03A1  [Empty Track]
+0x03A2  [Empty Track]
+0x03A3  [Empty Track]
+0x03A4  [Empty Track]
+0x03A5  [Empty Track]
+0x03A6  [Empty Track]
+0x03A7  [Empty Track]
+0x03A8  [Empty Track]
+0x03A9  [Empty Track]
+0x03AA  [Empty Track]
+0x03AB  [Empty Track]
+0x03AC SE:Gleipnir Rune and Fire
+0x03AD SE:Gleipnir Hitting
+0x03AE  [Empty Track]
+0x03AF SE:Naglfar Rune and vortex
+0x03B0 SE:Naglfar Hitting
+0x03B1  [Empty Track]
+0x03B2 SE:Formotiis Magic
+0x03B3 SE:Formotiis Magic
+0x03B4  [Empty Track]
+0x03B5 SE:Excalibur wind clouds
+0x03B6 SE:Demon Surge
+0x03B7 SE:Gorgon attacking @C85_60
+0x03B8 SE:Stone 1 SFX
+0x03B9 SE:Stone 2 SFX
+0x03BA SE:Stone Map SFX
+0x03BB SE:Manakete Myrrh step
+0x03BC SE:ch18 Someone's ftep
+0x03BD SE:[[Unknown,Tell me if you know!]]
+0x03BE SE:[[Unknown,Tell me if you know!]]
+0x03BF SE:Summon SFX
+0x03C0 SE:Mogall combat sounds 1 @C85_68
+0x03C1  [Empty Track]
+0x03C2 SE:Mogall combat sounds 2 @C85_6A
+0x03C3 SE:Mogall combat sounds 3 @C85_6B
+0x03C4 SE:Mogall combat sounds 4 @C85_6C
+0x03C5  [Empty Track]
+0x03C6 SE:Evil Eye
+0x03C7 SE:Crimson Eye
+0x03C8  [Empty Track]
+0x03C9 SE:Egg grow
+0x03CA SE:Egg birth
+0x03CB  [Empty Track]
+0x03CC  [Empty Track]
+0x03CD  [Empty Track]
+0x03CE  [Empty Track]
+0x03CF SE:@C85_1F @C85_20 @C85_21
+0x03D0 SE:[[Unknown,Tell me if you know!]]
+0x03D1 SE:Activate Skill Animation
+0x03D2 SE:[[Unknown,Tell me if you know!]]
+0x03D3 SE:Ivaldi 1
+0x03D4 SE:Ivaldi 2
+0x03D5 SE:Shadowshot fire
+0x03D6 SE:Shadowshot hitting
+0x03D7  [Empty Track]
+0x03D8  [Empty Track]
+0x03D9  [Empty Track]
+0x03DA  [Empty Track]
+0x03DB  [Empty Track]
+0x03DC  [Empty Track]
+0x03DD  [Empty Track]
+0x03DE  [Empty Track]
+0x03DF  [Empty Track]
+0x03E0  [Empty Track]
+0x03E1  [Empty Track]
+0x03E2  [Empty Track]
+0x03E3  [Empty Track]
+0x03E4  [Empty Track]
+0x03E5 SE:Using Promotion SE1
+0x03E6 SE:Using Promotion SE2 maybe
+0x03E7  [Empty Track]

@@ -91,21 +91,14 @@ Don't need to get yelled at![A][X]
 ## P1C1xSlimBowVillage
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadPigtails]
-I thought bows were[N]
-supposed to be huge.[AN]
-Make your arms hurt,[.6][N]
-need some strength.[AN]
-Then my dad got this[N]
-from the capital.[AN]
-It's like a toy![.5][N]
-But it's not.[AN]
-You could shoot[N]
-someone's eye out.[AN]
+I thought bows were meant to be huge.[.6][N]
+Make your arms hurt,[.5] need strength...[AN]
+Then my dad got this from the capital.[.6][N]
+It's like a toy![.5] But it's not.[AN]
+You could shoot someone's eye out.[.6][N]
 Well, I'm not a kid.[AN]
-I'd rather use a [N]
-bigger bow myself.[AN]
-You have a kid you[N]
-can give it to?[A][X]
+I'd rather use a bigger bow myself.[.6][N]
+You have a kid you can give it to?[A][X]
 
 
 
@@ -623,3 +616,195 @@ you come up with such brilliant schemes?[A]
 [MidLeft]
 Come now,[.5] darling.[.6] Let us create a beautiful[N]
 scene of destruction on this village![A][X]
+
+
+
+## P1C2CethernTown
+[MidRight][LoadCethern]
+S[0xE9]tanta![.6] Ferdiad![.6][N]
+Where are you?[A][X]
+
+
+
+## P1C2CethernDogTown
+[FarFarLeft][LoadDagmema][MoveMidLeft]
+T[.4]-There's more coming from the gate![.6][N]
+We can't hold them all off![A]
+
+[MidRight][LoadCethern]
+You're that soldier that was helping us...![.6][N]
+Have you seen a blonde-haired girl or--[A][X]
+
+
+
+## P1C2BadBoysHere
+[FarFarLeft][LoadEnemySoldier]
+They're over here![A][CloseSpeechSlow]
+
+[MidLeft][ClearFace][FarFarLeft][MoveLeft][FarFarLeft][LoadEnemySoldier][MoveFarLeft][Left]
+They're Corbenic soldiers![N]
+We can't let them get away![A]
+
+[MidRight][MoveRight][FarRight][LoadSetanta]
+I think our luck is up,[.5] Cethern![.6][N]
+Now's the time for us to run![A]
+
+[Right]
+No![.5] I refuse to let these[N]
+bandits pillage this town![A]
+
+[FarRight][ClearFace][LoadFerdiad]
+I don't want them to either,[.5] but I[N]
+actually have to agree with S[0xE9]tanta![AN]
+Miach and Airmed would be devastated[N]
+if you didn't make it back home![A]
+
+[Right]
+[Beat] Ugh,[.5] fine![.6] Everyone,[.5][N]
+we're retreating![A][ClearFace][FarRight][ClearFace][.......]
+
+[FarLeft]
+Do we chase after them?[.6] They're[N]
+going to tell the capital about--![A]
+
+[Left]
+Let them leave.[.5] There's not much[N]
+difference if we get them or not.[AN]
+Either they tell their soldiers to[N]
+attack,[.5] getting their men back...[AN]
+Or Corbenic won't have enough forces[N]
+to fight both Heichalot and us.[A]
+
+[FarLeft]
+I guess you're right...[.6] We should get[N]
+back to Malava soon either way.[AN]
+I don't wanna be here if Corbenic[N]
+decides to hit back at us![A][X]
+
+
+
+## P1C2Sadhbhdhbhdhbhdhbh
+[MidLeft][LoadBrunetteMan][FarFarRight][LoadCethern][MoveRight][FarFarRight][LoadSetanta][MoveFarRight][MidLeft]
+You're back![.6] Did[N]
+everything go well?[A]
+
+[Right]
+We were...[.6] We got attacked by Srughnans.[.6][N]
+Srughnan soldiers,[.5] to be exact.[A]
+
+[FarRight]
+They've taken the food we could've gotten.[.6][N]
+Seems they were more desperate than us.[A]
+
+[MidLeft]
+That's terrible...[.6][CloseEyes] So now we're being[N]
+assaulted from both ends...?[A]
+
+[FarRight][ClearFace][LoadFerdiad]
+Is Lady Sadhbh still awake?[AN]
+If she's from the capital,[.5][N]
+we could ask them for help![A]
+
+[MidLeft][OpenEyes]
+She's spending another night here,[.6][N]
+but she's most likely gone to sleep.[AN]
+I did ask her something along those[N]
+lines earlier today.[AN]
+Apparently the capital is occupied[N]
+with sending supplies to the north...[AN]
+There may not be much left for us.[A]
+
+[FarRight]
+That sounds horrible...![.6][N]
+So that's all we can do?[A]
+
+[MidLeft]
+You must be exhausted from having to[N]
+fight with those Srughnan bandits.[AN]
+For your own sakes,[.5] you should get some[N]
+rest.[.6] And don't worry too much.[AN]
+I'm sure a solution will present itself[N]
+to us soon enough.[A][ClearFace][.6]
+
+[Right]
+A solution?[.6] Is there really[N]
+any solution to this mess?[A]
+
+[MidLeft][LoadSetanta]
+It doesn't seem like it at all.[.6][N]
+We're in a river of bad news.[A]
+
+[FarRight]
+Come on,[.5] you two...[.6] Go[N]
+home and get some sleep.[A]
+
+[MidLeft]
+You don't see any problem with[N]
+this situation,[.5] Fern?[AN]
+The fact that we've only got[N]
+starvation to look forward to?[A]
+
+[FarRight]
+I'm worried,[.5] but I'm trying to[N]
+stay optimistic,[.5] S[0xE9]tanta![AN][MoveFarRight]
+I'm going home.[.6] If you're smart,[.5][N]
+you'll both do the same.[A][ClearFace][.6]
+
+[Right]
+Ferdiad and the Alderman are right.[.6][N]
+There has to be something we can do...[A][X]
+
+
+
+## P1C2ClonkeineTime
+[MidRight][LoadOldMan][FarFarLeft][LoadCethern][MoveMidLeft]
+Grandfather![.6] What are you doing[N]
+awake at a time like this?![A]
+
+[MidRight]
+Do you believe I can sleep when the[N]
+past repeats itself in front of me?[AN]
+Lady Sadhbh has told me everything.[A]
+
+[MidLeft]
+So you know about the war...[.6][N]
+Grandfather,[.5] can I ask something?[AN]
+What drove you to be a knight?[A]
+
+[MidRight]
+Well,[.5] believe it or not,[.5] I was[N]
+born farther up north than here.[AN]
+I saw the consequences of the war,[.5][N]
+back when my eyes were still good![AN]
+And I had your grandmother to keep[N]
+safe![.6] It felt like I had no choice.[AN][MoveMidRight]
+Don't tell me you're considering...[A]
+
+[MidLeft]
+I don't know.[.6] It's just a thought[N]
+in my head right now.[A]
+
+[MidRight]
+[Beat][MoveMidRight] I think now is the time for[N]
+me to give you this,[.5] Cethern.[AN]
+I don't know what your choices[N]
+will be,[.5] but no matter what...[AN]
+
+[MidLeft]
+...![.6][N]
+This is...[A]
+
+[MidRight]
+This used to be my old sword.[.6][N]
+After that,[.5] it was your mother's...[AN]
+Did I ever tell you how great of[N]
+a Crownflier she was?[A]
+
+[MidLeft][ToggleSmile]
+A thousand times before,[.5] Grandfather.[.6][N]
+I don't know how to thank you...[A]
+
+[MidRight]
+Don't worry about thanking me.[AN]
+All you need to do is hold that[N]
+sword,[.5] and do what's right.[A][X]

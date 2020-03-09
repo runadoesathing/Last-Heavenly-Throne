@@ -17,6 +17,40 @@ ALIGN 4
 LoseGold:
 #incbin "gold_collect.dmp"
 
+// Three Promotions (aera/7743)
+/*
+PUSH
+  ORG 0xCCCD6
+    #incbin "CCCD6.dmp"
+  ORG 0xCCE72
+    #incbin "CCE72.dmp"
+  ORG 0xCCE90
+    #incbin "CCE90.dmp"
+  ORG 0xCDB80
+    #incbin "CDB80.dmp"
+  ORG 0xCDDE8
+    #incbin "CDD38.dmp"
+POP
+*/
+    
+// Deny Deployment (aera/7743)
+PUSH
+  ORG 0x957F8
+    BYTE 0x00 0x48 0x87 0x46
+    POIN DenyDeployment
+POP
+
+ALIGN 4
+DenyDeployment:
+#incbin "denydeployment.dmp"
+POIN DenyDeploymentTable
+
+#define DenyDeploymentEntry(unit, edition, chapter) "BYTE unit 0x00 edition chapter"
+
+DenyDeploymentTable:
+DenyDeploymentEntry(Sadhbh, 0xFF, 0x2)
+WORD 0x00000000
+
 PUSH
 ORG $192B8
 jumpToHack(ChangePortraitStatus)

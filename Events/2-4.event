@@ -86,7 +86,7 @@ UNIT Antariksa Soldier 0x0 Level(4, Enemy, 1)            [3,6]   0 0 0 0        
 UNIT AntariksaMag Diviner_F 0x0 Level(4, Enemy, 1)       [9,13]  0 0 0 0               [MalkuthI]               [0,6,4,0]
 UNIT Antariksa Fighter 0x0 Level(3, Enemy, 1)            [4,10]  DropItem 0 0 0        [HandAxe, DoorKey]       [0,6,4,0]
 UNIT Antariksa Myrmidon 0x0 Level(4, Enemy, 1)           [0,4]   DropItem 0 0 0        [Armorslayer, ChestKey]  [0,0,4,0]
-UNIT Antariksa BowCav 0x0 Level(5, Enemy, 1)             [9,17]  0 0 0 0               [IronBow]                [0,0x12,4,0]
+UNIT Antariksa BowCav 0x0 Level(5, Enemy, 1)             [9,17]  0 0 0 0               [CaltropBow]                [0,0x12,4,0]
 UNIT AntariksaMag Diviner 0x0 Level(4, Enemy, 1)         [11,14] 0 0 0 0               [MalkuthI]               [0,3,4,0]
 UNIT Antariksa Mercenary 0x0 Level(3, Enemy, 1)          [1,8]   DropItem 0 0 0        [SteelSword]             [0,6,4,0]
 UNIT 0x80 Brigand 0x0 Level(6, Enemy, 1)                 [17,15] 0 0 0 0               [SnakeAxe,Elixir]        [0,4,4,0]

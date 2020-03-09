@@ -352,6 +352,7 @@ setCardEntry(WarMonkCard, WarMonkPortrait, WarMonkPortraitPalette)
 setCardEntry(SwordmasterFCard, SwordmasterFPortrait, SwordmasterFPortraitPalette)
 setCardEntry(ShamanFCard, ShamanFPortrait, ShamanFPortraitPalette)
 setCardEntry(SilverKnightCard, SilverKnightPortrait, SilverKnightPortraitPalette)
+setCardEntry(ClericCard, ClericPortrait, ClericPortraitPalette)
 
 ALIGN 16
 WORD 0 0 0 0 0 0 0 0

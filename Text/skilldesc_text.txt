@@ -1285,3 +1285,7 @@ Confidant: If adjacent to Birnath, gain[N]
 ## SD_DiamondDef
 Diamond Defense: +Res/4 attack when[N]
 user's Res is higher than enemy's Res.[X]
+
+## SD_Anticipation
+Anticipation: Unit gains +2 Avoid for[N]
+each point of Speed, instead of +1.[X]

@@ -2,7 +2,7 @@
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
-// Used up to: 124
+// Used up to: 126
 
 //AI Skills
 
@@ -317,6 +317,9 @@
 
 
 //Pre-Battle Skills
+
+//Anticipation: Unit gains +2 Avoid for each point of Speed, instead of +1.
+#define AnticipationID 126
 
 //Axefaith: Axes can't lose durability, and grants +Luck*1.5 Hit when wielding axes.
 //By 2WB & Colorz

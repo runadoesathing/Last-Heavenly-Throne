@@ -224,7 +224,7 @@ northeast edge. Stoic and frank.[X]
 
 ## SadhbhDesc
 Member of the Crownflight of Caer[N]
-Siddi, Corbenic's capital guard.[X]
+Siddi. A perfectionist at heart.[X]
 
 ## AinghaDesc
 Wayfarer from the captured kingdom of[N]
@@ -354,8 +354,8 @@ Monks of the Antariksan Order, dedicated[N]
 to an obscure Wardbearer of the skies.[X]
 
 ## NairatmyaDesc
-Soldier of House Malava. She's and[N]
-mousey, but wishes to do good.[X]
+Soldier of House Malava. She's timid[N]
+and mousey, but good-hearted.[X]
 
 ## SarmareeDesc
 Soldier of House Malava, in central[N]
@@ -494,19 +494,19 @@ Axe Keeper[X]
 Bow Keeper[X]
 
 ## Aknight_Desc
-Heavily armored knights with[N]
+Heavily armoured knights with[N]
 poor agility. Equip: Axes.[X]
 
 ## Lknight_Desc
-Heavily armored knights with[N]
+Heavily armoured knights with[N]
 poor agility. Equip: Lances.[X]
 
 ## Sknight_Desc
-Heavily armored knights with[N]
+Heavily armoured knights with[N]
 poor agility. Equip: Swords.[X]
 
 ## Bknight_Desc
-Heavily armored knights with[N]
+Heavily armoured knights with[N]
 poor agility. Equip: Bows.[X]
 
 ## Wrider_Desc
@@ -722,7 +722,7 @@ Malkuth I[X]
 Yesod II[X]
 
 ## YesodIIDesc
-Debuff enemy's Mag/Res by 3.[X]
+Debuffs enemy's Mag/Res by 3.[X]
 
 ## HodIIIName
 Hod III[X]
@@ -975,3 +975,71 @@ Sames Scroll[X]
 Sames Scroll: +15% HP/Skl/[N]
 Spd/Res, -10% Str/Def.[N]
 Water affinity only.[X]
+
+## SnakeDesc
+Applies 3 levels of poison.[X]
+
+## SnakeBowDesc
+[_A][_p][_p][_l][_i][_e][_s] 3 [_l][_e][_v][_e][_l][_s] [_o][_f] [_p][_o][_i][_s][_o][_n]. [_E][_f][_f][_e][_c][_t][_i][_v][_e] [_a][_g][_a][_i][_n][_s][_t] [_f][_l][_i][_e][_r][_s].[X]
+
+## ViperswordDesc
+Vipersword[X]
+
+## ViperspearDesc
+Viperspear[X]
+
+## ViperaxeDesc
+Viper Axe[X]
+
+## ViperbowDesc
+Viper Bow[X]
+
+## ViperDesc
+Applies 7 levels of poison.[X]
+
+## HodIIIDesc
+Debuffs enemy's Skill by 6.[X]
+
+## KachchhapaName
+Kachchhapa[X]
+
+## KachchhapaDesc
+[X]
+
+## BodkinBowName
+Bodkin Bow[X]
+
+## BodkinBowDesc
+Effective against armour.[X]
+
+## BodkinDesc
+Effective against armour.[X]
+
+## ArmorslayerName
+[_A][_r][_m][_o][_u][_r][_s][_l][_a][_y][_e][_r][X]
+
+## CaltropBowName
+Caltrop Bow[X]
+
+## CaltropBowDesc
+Effective against cavalry.[X]
+
+## IronBowDesc
+Bows are effective against fliers.[X]
+
+## WarpCardName
+Warp Card[X]
+
+## SpectreCardName
+[_S][_p][_e][_c][_t][_r][_e] [_C][_a][_r][_d][X]
+
+## SpectreCardDesc
+[_M][_a][_g][_i][_c] [_w][_e][_a][_p][_o][_n]. [_N][_o][_n]-[_m][_a][_g][_i][_c] [_u][_n][_i][_t][_s] [_o][_n][_l][_y].[X]
+
+## SpectreCardUse
+A card that holds[N]
+magical energy.[N]
+Non-magic users only.[X]
+
+## RescueCardName
+Rescue Card[X]

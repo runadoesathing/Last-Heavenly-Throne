@@ -1,0 +1,11 @@
+PUSH
+  #incbin "triple_promotion.dmp"
+POP
+POIN ThreePromotionTable
+
+#define ThreePEntry(t1, t2) "BYTE t1 t2"
+
+ALIGN 4
+ThreePromotionTable:
+ThreePEntry(Myrmidon, Ranger)
+SHORT 0x0

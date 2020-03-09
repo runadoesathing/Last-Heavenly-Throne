@@ -56,19 +56,19 @@ ItemIconSlot(0x38,"Weapon Icons/Items/Elfire.png")
 ItemIconSlot(0x39,"Weapon Icons/Items/Bolting.png")
 ItemIconSlot(0x3A,"Weapon Icons/Items/Fimbulvetr.png")
 ItemIconSlot(0x3B,"Weapon Icons/Items/Shield.png")
-//0x3C - Excalibur
+ItemIconSlot(0x3C,"Weapon Icons/Items/SteelGreatlance.png")
 ItemIconSlot(0x3D,"Weapon Icons/Items/MalkuthI.png")
 ItemIconSlot(0x3E,"Weapon Icons/Items/YesodII.png")
-//0x3F - divine
-//0x40 - purge
-//0x41 - aura
-//0x42 - light tome that's nice
+ItemIconSlot(0x3F,"Weapon Icons/Items/HodIII.png")
+ItemIconSlot(0x40,"Weapon Icons/Items/SteelPoleax.png")
+ItemIconSlot(0x41,"Weapon Icons/Items/SilverPoleax.png")
+ItemIconSlot(0x42,"Weapon Icons/Items/SilverGreatlance.png")
 ItemIconSlot(0x43,"Weapon Icons/Items/Flux.png")
-//0x44 - luna l
+ItemIconSlot(0x44,"Weapon Icons/Items/SteelWarbow.png")
 ItemIconSlot(0x45,"Weapon Icons/Items/ResireS.png")
-//0x46 - bohr x
-//0x47 - fenrir n
-//0x48 - dark tome that's nice
+ItemIconSlot(0x46,"Weapon Icons/Items/SilverWarbow.png")
+ItemIconSlot(0x47,"Weapon Icons/Items/BodkinBow.png")
+ItemIconSlot(0x48,"Weapon Icons/Items/CaltropBow.png")
 ItemIconSlot(0x49,"Weapon Icons/Items/Heal.png")
 ItemIconSlot(0x4A,"Weapon Icons/Items/Mend.png")
 ItemIconSlot(0x4B,"Weapon Icons/Items/Recover.png")
@@ -96,9 +96,9 @@ ItemIconSlot(0x60,"Weapon Icons/Items/Boots.png")
 ItemIconSlot(0x61,"Weapon Icons/Items/BodyRing.png")
 ItemIconSlot(0x62,"Weapon Icons/Items/IronWarbow.png")
 ItemIconSlot(0x63,"Weapon Icons/Items/Clonkeine.png")
-//0x64 - orion bolt (replaceable?)
-//0x65 - elysian whip (replaceable?)
-//0x66 - guiding ring (replaceable?)
+ItemIconSlot(0x64,"Weapon Icons/Items/SpectreCard.png")
+ItemIconSlot(0x65,"Weapon Icons/Items/WarpCard.png")
+ItemIconSlot(0x66,"Weapon Icons/Items/RescueCard.png")
 ItemIconSlot(0x67,"Weapon Icons/Items/ChestKey.png")
 ItemIconSlot(0x68,"Weapon Icons/Items/DoorKey.png")
 ItemIconSlot(0x69,"Weapon Icons/Items/Lockpick.png")

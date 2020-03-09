@@ -1,0 +1,5 @@
+1. drag and drop the .asm files onto "Assemble ARM.bat"
+2. use Event Assembler to assemble "5BranchPromos.event" to a ROM 
+-OR-
+2. #include "5BranchPromos.event" in your existing buildfile
+3. you're done! Feel free to modify any of the classes eligible for the extra promotions, what they promote into, etc. You will have to add this to both "NewBranchPromoEligibility.asm" and "NewBranchPromoOptionSelect.asm" in both cases.

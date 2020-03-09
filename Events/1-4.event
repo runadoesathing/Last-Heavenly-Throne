@@ -296,10 +296,6 @@ BEQ 0x4B 0xC 0x0
 	CLEAN
 LABEL 0x4B
 _0x2620 0x1107 //camera better around borders of map
-CHECK_ALIVE Sadhbh
-BEQ 0x55 0xC 0x0
-	REMU Sadhbh
-LABEL 0x55
 STAL 60
 EnterStop
 LOAD1 0x1 Children
@@ -667,9 +663,9 @@ NoFade
 ENDA
 	
 ShopBruh:
-SHLI Fire Flux Heal Vulnerary 
+SHLI Fire Flux Heal Vulnerary Elixir
 ALIGN 4
 
 ArmoryBruh:
-SHLI IronSword IronLance IronAxe IronBow
+SHLI IronSword SteelSword SlimSword IronLance SteelLance SlimLance IronAxe SteelAxe SlimAxe IronBow SteelBow SlimBow
 ALIGN 4

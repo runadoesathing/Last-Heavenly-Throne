@@ -1,27 +1,28 @@
 ## AillenBQ
-[BattleText]
 [OpenMidLeft][LoadAillen]
-You came to rescue the girl?
-[ToggleSmile]I'll take you and her down![X]
+You came to rescue the girl?[.6][N]
+[ToggleSmile]I'll take you and her down![A][X]
 
 
 
 ## AillenDQ
-[BattleText]
 [OpenMidLeft][LoadAillen]
-Blast... How can [CloseEyes]they be this strong?![X]
+Blast...[.6][N]
+How can [CloseEyes]you be this strong?![A][X]
 
 
 
 ## Lalitha1BQ
-[BattleText]
 [OpenMidRight][LoadLalitha]
-Remember me, savage beast?[ToggleSmile]
-See how I've blasted all your scummy friends to bits?[ClearFace][ToggleSmile]
+Remember me, savage beast?[AN][ToggleSmile]
+See how I've blasted all your[N]
+scummy friends to bits?[A][ClearFace][ToggleSmile]
 
 [OpenMidLeft][LoadAillen]
-You've come straight to me, however.
-I'll cut you down where you stand, arrogant lass!
+And yet,[.5] you've come straight[N]
+to me instead of fleeing.[AN]
+That will be your final mistake,[N]
+[.5]arrogant lass![A]
 [X]
 
 
@@ -60,177 +61,237 @@ obstacles to their goals...[A][X]
 
 
 ## P1C2HelloSetanta
-[ConversationText]
 [OpenMidLeft][LoadSetanta]
 [OpenRight][LoadCethern]
 [OpenFarRight][LoadFerdiad]
-So, if we're waiting for her to finish talking to your grandfather...
-Why do we have to wait outside!?[CloseEyes]
-I'm freezing![OpenEyes]
+Ugh,[.5] it's so cold out...[.6] When[N]
+will Lady Sadhbh get up?[A]
 
 [OpenMidLeft]
-Winter's coming soon.
-I wonder if we're going to have enough food with the war going on.
+We could always just startle her awake.[.6][N]
+Wouldn't have to wait as long then.[A]
 
 [OpenRight]
-We'll have to hope the bandits don't hit the further villages...
-There's not much more we can do...
+S[0xE9]tanta,[.5] don't even[N]
+think about it.[A]
 
-[OpenMidLeft]
-Well, at least we can eat each other if it comes to that.
+[OpenMidLeft][CloseEyes]
+I wasn't actually going to,[.5] Cethern...[OpenEyes][A]
 
-[OpenRight][CloseEyes]
-Now's not the time for a remark, S[0xE9]tanta.[OpenEyes]
-
-[OpenMidLeft]
-Fine.[MoveMidLeft]
-Is everything fine with you, Cethern?
-You seem... mournful.
+[OpenFarRight]
+Is everything okay with you,[.5] Cethern?[AN]
+I can't imagine this is easy with[N]
+Miach and Airmed to worry about...[A]
 
 [OpenRight]
-I've been considering a few things.
-Don't worry about me.
+Don't worry about me.[.6] I've been mulling[N]
+a few things over,[.5] but otherwise I'm fine.[A] 
 
 [OpenFarFarLeft][LoadSadhbh]
-Excuse me...
-May I interrupt your conversation?
+Excuse me...[A]
 
-[OpenMidLeft][MoveFarLeft][OpenFarFarLeft][MoveLeft][OpenLeft]
-Terribly sorry to bother you three.[ToggleSmile]
-I would simply like to thank you.
-Your hospitality has been a welcome surprise, despite my hostility.
+[OpenMidLeft][MoveFarLeft][OpenFarFarLeft][MoveLeft][OpenLeft][ToggleSmile]
+I didn't think I'd have any[N]
+company to wish me farewell.[AN]
+But since you're all here,[.6][N]
+I'd like to give my thanks.[AN]
+Your hospitality has been a[N]
+welcome surprise to me.[A]
 
 [OpenRight]
-It is no problem at all, Lady Sadhbh.[ToggleSmile]
-How did things go with my grandfather?
+It is no problem at all,[.5] Lady Sadhbh.[.6][ToggleSmile][N]
+How did things go with my grandfather?[A]
 
 [OpenLeft]
-Sir MacCumail is a character, but his insight is like no one's I've heard.
-It is a shame I cannot take him with me.
+Sir MacCumail may be a tad eccentric,[.6][N]
+but his insight is an incredible asset.[AN]
+It is a shame I cannot take him with me.[A]
 
 [OpenFarRight]
-We thank you for informing us of the war with Heichalot. 
-These extra few days should help with preparing for winter, Lady Sadhbh.
+We thank you for informing us of the[N]
+war with Heichalot, Lady Sadhbh.[AN]
+Had we not been told,[.5] we'd probably[N]
+be in a much worse position...[A]
 
 [OpenLeft]
-It is nothing but my duty.
-I'll set up my pegasus and be off to Pedryvan in the hour.
-I wish your village the best.[ClearFace][.......]
+It is nothing but my duty.[AN]
+I'll set up my pegasus and be[N]
+off to Pedryvan in the hour.[AN]
+I wish your village the best.[A][ClearFace][.......]
 
 [OpenRight][MoveRight]
-Lady Sadhbh!
-Please hold for a second!
+Lady Sadhbh![.6][N]
+Please wait![A]
 
 [OpenLeft][LoadSadhbh]
-Is something wrong, Cethern?
-I must leave with haste.
+Is something wrong,[.5] Cethern?[.6][N]
+I must leave with haste.[A]
 
 [OpenRight]
-I...[......][MoveRight][LoadOverworldFaces]
-I would like to accompany you to Pedryvan!
+I...[A][CloseSpeechSlow][MoveRight][LoadOverworldFaces]
+I would like to accompany[N]
+you to Pedryvan![A]
 
 [OpenFarLeft]
-Cethern, what in the bearers are you--![A]
+Cethern,[.6] what in the[N]
+bearers are you--![A]
 
 [OpenLeft][CloseEyes]
-Well,[......][OpenEyes] if you truly wish.
-I would not be against letting Sir MacCumail's grandson join me.
+Well...[......][OpenEyes] Only if you truly wish.[AN]
+I would not be against letting[N]
+Sir MacCumail's grandson join me.[A]
 
 [OpenFarRight]
-Cethern!
-Are you absolutely sure about this?!
-Those aren't just bandits up there!
-And what about Airmed or Miach?[OpenEyes]
+Cethern![.6][N]
+Are you absolutely sure about this?![AN]
+Those aren't just bandits up there![.6][N]
+And what about Airmed or Miach?[A]
 
 [OpenFarLeft]
-You'll die in Pedryvan!
-How would that make t--
+You'll die in Pedryvan![.6][N]
+How would that make t--[A]
 
 [OpenRight]
-If we cannot win the war against Heichalot, what will happen to my family?!
-I need to do what I can to protect Cluain Bolg![CloseEyes]
-This is the only choice I have to keep everyone safe.[OpenEyes]
+If we cannot win against Heichalot,[.5][N]
+what will happen to my family?![AN]
+I need to do what I can to protect[N]
+Cluain Bolg![.6] To protect my siblings![AN][CloseEyes]
+This is the only choice I have to[N]
+keep everyone safe...[A][OpenEyes]
 
 [OpenFarRight]
-...Then I'm coming too.
-I'm not letting you die.
+[Beat] Then I'm coming too.[.6][N]
+I'm not letting you die.[A]
 
 [OpenFarLeft]
-Fern, are you insane?!
-How'll you fight a war with a weapon you can't use?!
+Fern,[.5] are you insane?![AN]
+How will you fight a war[N]
+with your novice archery?![A]
 
 [OpenFarRight]
-S[0xE9]tanta, be quiet!
-At least I'm going to fight!
-Even with your axe, you hide away like a coward!
-So yes, I wish to join you as well, Lady Sadhbh.
-Please forgive me.
+S[0xE9]tanta,[.5] be quiet![.6][N]
+At least I'm going to fight![AN]
+Even with your axework,[.5] you hide[N]
+away like a coward![AN]
+So yes,[.5] I wish to join you as well,[.5][N]
+Lady Sadhbh.[.6] Please forgive me.[A]
 
 [OpenFarLeft]
-...I've got no other choice but to come with you two.[CloseEyes]
-We might as well die together...[OpenEyes]
+[Beat] I've got no other choice[N]
+but to come with you two.[AN][CloseEyes]
+We might as well die together.[A][OpenEyes]
 
 [OpenLeft][ToggleSmile]
-You are all very brave. You shall serve your nation well.
-Gather what you can for the road.
-We'll leave on the hour.[X]
+You are all very brave.[.6][N]
+You shall serve Corbenic well.[AN]
+Gather what you can for the road.[.4][N]
+We'll leave on the hour.[A][X]
 
 
 
 ## P1C2GoodbyeFamily
-[ConversationText]
 [OpenLeft][LoadMiach]
 [OpenFarLeft][LoadAirmed]
 [OpenMidRight][LoadCethern]
-I'll need you to look after our grandfather together, both of you.
-I don't know how long I'll be gone, but I should be back eventually.[A]
+I'll need you to look after our[N]
+grandfather together,[.5] both of you.[AN]
+I don't know how long I'll be gone,[.5][N]
+but I should be back eventually.[A]
 
 [OpenFarLeft]
-That's not fair at all!
-I'm coming with you, Cethern!
-Miach thinks he's competent enough already, so let him take care of grandpa!
+That's not fair at all![.6][N]
+I'm coming with you, Cethern![AN]
+Miach thinks he's competent enough,[.4][N]
+so let him take care of grandpa![A]
 
 [OpenLeft]
-No! I want to come with Cethern too!
-He already said I could!
+No![.5] I want to go with Cethern![.6][N]
+He already said I could![A]
 
 [OpenMidRight]
-I need you both to stay here.
-The town's going to need your help.
-You'll be doing something just as valuable as fighting.[A]
+I need you both to stay here.[.6][N]
+Cluain Bolg will need your help.[AN]
+You'll be doing something just[N]
+as valuable as fighting.[A]
 
 [OpenFarLeft]
-But Cethern...!
+But Cethern...![A]
 
 [OpenFarFarLeft]
-Cethern...
-Please, come closer...
+Cethern...[.6][N]
+Come here for a moment.[A]
   
 [OpenMidRight]
-...!
-Grandfather, what is it?
+.[.4].[.4].[.4]![.6][N]
+Grandfather![AN]
+You shouldn't--![A]
 
-[MoveRight][OpenFarLeft][ClearFace][OpenLeft][ClearFace][OpenMidLeft][LoadOldMan][ToggleSmile][MoveMidLeft]
-Cethern, you make me proud.
-Please take care out there...
-[OpenRight]
-I will, grandfather. Don't worry about me.
-You've trained me well enough.
+[FarLeft][ClearFace][Left][ClearFace][MidLeft][LoadOldMan]
+Cethern,[.5] you make me proud.[.6][N]
+Please take care out there...[A]
 
-[OpenFarFarRight][LoadSadhbh][MoveFarRight]
-Sir MacCumail.
-I'll take care of your son.
-It is my duty to make sure no harm befalls him.
-I swear it upon Aingha herself.
+[OpenMidRight][ToggleSmile]
+I will,[.5] grandfather.[.6][N]
+Don't worry a bit over me.[AN]
+You've trained me well enough.[A][CloseSpeechSlow]
+
+[OpenFarFarRight][LoadSadhbh][MoveFarRight][MidRight][MoveRight][FarRight][ToggleSmile]
+Sir MacCumail.[.6][N]
+I'll take care of your grandson.[AN]
+It will be my duty to make sure[N]
+no harm befalls him.[AN]
+I swear it upon Aingha herself.[A]
 
 [OpenMidLeft]
-You have the attitude of a Crownflier...
-I trust you to have the strength.[MoveMidLeft]
-Now go. Show the Heichalotians that we cannot be slighted so easily...!
+You have the attitude of a Crownflier...[.6][N]
+I trust you to have the strength.[AN][MoveMidLeft]
+Now go.[.6] Show the Heichalotians that[N]
+we cannot be slighted so easily...![A][X]
 
+
+
+## P1C2LadySadhbhGo
 [OpenRight]
-Thank you, grandfather.
-Let's head out, Lady Sadhbh.[X]
+Thank you,[.5] grandfather.[.6][N]
+Let's head out,[.5] Lady Sadhbh.[X]
+
+
+
+## P1C2LadySadhbhWait
+[OpenRight]
+Thank you,[.5] grandfather.[.6][N]
+Let's head out,[.5] Lady--[A]
+
+[FarFarRight][LoadDagmema]
+Wait up for me!![A][CloseSpeechSlow]
+
+[MidLeft][ClearFace][Right][ClearFace][FarRight][ClearFace][MidLeft][LoadCethern][FarFarRight][MoveMidRight][MidLeft][LoadOverworldFaces]
+You're that Srughnan soldier![.6][N]
+But why are you here?[A]
+
+[MidRight]
+I might not remember your name,[.5][N]
+but I do know one thing![AN]
+I'd like to accompany you to[N]
+fight against Heichalot![A]
+
+[MidLeft]
+My name is Cethern...[.6] But why would[N]
+a Srughnan want to join with us?[A]
+
+[MidRight]
+The war's only just happened,[.5] but I've[N]
+seen the huge chaos it's caused...[AN]
+I[.4]-I just want everything to go[N]
+back to normal![.5] That's why I'll fight![A]
+
+[FarLeft][LoadSadhbh][MidLeft][MoveLeft][FarLeft][ToggleSmile]
+That is indeed an admirable cause...[.6][N]
+Very well.[.5] Your help is well needed.[A]
+
+[MidRight]
+T[.4]-Thank you![.6] I promise you[N]
+won't regret this![A][X]
 
 
 

@@ -24,3 +24,6 @@ Comrades[X]
 
 ## FadedGreenSR
 Faded Green[X]
+
+## DrumsOfTragedySR
+Drums of Tragedy[X]

@@ -109,7 +109,7 @@ UNIT Gedeon Fighter 0x1 Level(1, Ally, 0)    [9,10] 0x0 0x0 0x1 REDA9R11 [0x0] [
 UNIT
 
 JhudielP:
-UNIT Jhudiel_1 GoldKnight 0x1 Level(1, Enemy, 1)    [10,5] 0x0 0x0 0x0 0x0 [SteelSword] [0x0,0x0,0x0,0x0]
+UNIT Jhudiel_1 GoldKnight 0x1 Level(1, Enemy, 1)    [10,5] 0x0 0x0 0x0 0x0 [SilverBlade] [0x0,0x0,0x0,0x0]
 UNIT
 
 CethernCeth:
@@ -539,16 +539,15 @@ TEXTSTART
 TEXTSHOW P1CFOneHit
 TEXTEND
 REMA
+MUSCMID 0x7FFF
 MOVE 0xA Cethern [10,6]
 ENUN
-MUSCMID 0x7FFF
-MUSS 0x0
 StartBattle
 MissedAttack(0,0)
 MissedAttack(1,0)
-SetScriptedBattle(55,5,0,80,22,15)
-FIG1 Cethern Jhudiel_1 0x0
-MURE 0x2
+SetScriptedBattle(55,5,0,80,29,15)
+FIG1 Cethern Jhudiel_1 Clonkeine
+MUSC 0x59
 CUMO Jhudiel_1
 STAL 60
 CURE
@@ -556,12 +555,12 @@ TEXTSTART
 TEXTSHOW P1CFTwoHit
 TEXTEND
 REMA
-MUSCMID 0x7FFF
+MUSCFAST 0x7FFF
 StartBattle
 NormalDamage(0,5)
-CriticalHit(1,66)
-SetScriptedBattle(55,5,0,80,22,15)
-FIG1 Cethern Jhudiel_1 0x0
+CriticalHit(1,87)
+SetScriptedBattle(55,5,0,80,29,15)
+FIG1 Cethern Jhudiel_1 Clonkeine
 MUSC 0x29
 FADI 4
 CLEA 0x0

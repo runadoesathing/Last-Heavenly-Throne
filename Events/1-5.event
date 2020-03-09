@@ -130,7 +130,7 @@ UNIT Ishpan Monk 0x0 Level(10, Enemy, 1)              [1,8]   0 0 0 0           
 UNIT 0x84 BowCav 0x0 Level(7, Enemy, 1)               [0,7]   DropItem 0 0 0     [SteelBow]   NeverMoveAI
 UNIT Ochren Myrmidon_F 0x0 Level(5, Enemy, 1)         [7,15]  DropItem 0 0 0     [SteelSword] NeverMoveAI
 UNIT 0x85 Mage 0x0 Level(5, Enemy, 1)                 [11,14] 0 0 0 0            [Wind]       NeverMoveAI 
-UNIT 0x85 Shaman 0x0 Level(4, Enemy, 1)               [13,2]  0 0 0 0            [Flux]      NeverMoveAI
+UNIT 0x85 Shaman 0x0 Level(4, Enemy, 1)               [13,2]  0 0 0 0            [Flux]       NeverMoveAI
 UNIT Ochren AxeKnight 0x0 Level(5, Enemy, 1)          [7,3]   0 0 0 0            [SteelAxe]   NeverMoveAI
 UNIT 0x84 Fighter Ishpan Level(4, Enemy, 1)           [20,1]  0 0 0 0            [IronAxe]    AttackInRangeAI 
 UNIT Ochren Soldier Ishpan Level(5, Enemy, 1)         [18,12] 0 0 0 0            [IronLance]  AttackInRangeAI 
@@ -138,16 +138,16 @@ UNIT 0x84 Monk Ishpan Level(4, Enemy, 1)              [15,13] 0 0 0 0           
 UNIT 0x84 SkyKnight Ishpan Level(5, Enemy, 1)         [7,9]   0 0 0 0            [SlimLance]  NeverMoveAI 
 UNIT Ochren SwordKnight Ishpan Level(5, Enemy, 1)     [14,9]  0 0 0 0            [IronBlade]  NeverMoveAI 
 UNIT 0x84 AxeCav Ishpan Level(7, Enemy, 1)            [0,9]   0 0 0 0            [SteelAxe]   NeverMoveAI
-UNIT 0x85 Monk Ishpan Level(5, Enemy, 1)              [6,12]  0 0 0 0            [MalkuthI]   NeverMoveAI 
+UNIT 0x85 Diviner_F Ishpan Level(5, Enemy, 1)         [6,12]  0 0 0 0            [MalkuthI]   NeverMoveAI 
 UNIT 0x85 Monk Ishpan Level(6, Enemy, 1)              [10,4]  0 0 0 0            [MalkuthI]   NeverMoveAI 
 UNIT 0x84 Myrmidon Ishpan Level(5, Enemy, 1)          [3,6]   0 0 0 0            [IronSword]  NeverMoveAI 
 UNIT Ochren LanceKnight Ishpan Level(6, Enemy, 1)     [1,12]  0 0 0 0            [Javelin]    NeverMoveAI 
 UNIT Ochren SwordCav Ishpan Level(6, Enemy, 1)        [2,14]  0 0 0 0            [SteelSword] NeverMoveAI
 UNIT Ochren Archer Ishpan Level(5, Enemy, 1)          [8,2]   0 0 0 0            [IronBow]    NeverMoveAI
-UNIT 0x84 Archer_F Ishpan Level(5, Enemy, 1)          [9,12]  0 0 0 0            [IronBow]    NeverMoveAI
+UNIT 0x84 Archer_F Ishpan Level(5, Enemy, 1)          [9,12]  0 0 0 0            [BodkinBow]  NeverMoveAI
 UNIT Ochren LanceCav Ishpan Level(6, Enemy, 1)        [6,5]   0 0 0 0            [IronLance]  NeverMoveAI 
 UNIT 0x84 Soldier Ishpan Level(6, Enemy, 1)           [17,1]  0 0 0 0            [IronLance]  NeverMoveAI 
-UNIT OchrenMag Mage_F Ishpan Level(5, Enemy, 1)       [12,0]  0 0 0 0            [Thunder]    NeverMoveAI
+UNIT OchrenMag Mage_F Ishpan Level(5, Enemy, 1)       [12,0]  0 0 0 0            [Fire,Vulnerary]    NeverMoveAI
 UNIT
 
 GedeonP:

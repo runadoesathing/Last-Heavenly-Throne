@@ -1,11 +1,5 @@
 
 #ifdef _FE8_
-
-	
-	#ifndef Free_Space
-		#define Free_Space 0xBABD00 //Switch to any unused address
-		ORG Free_Space
-	#endif
 	
 	#include EAstdlib.event
 	#include "Extensions/Hack Installation.txt"

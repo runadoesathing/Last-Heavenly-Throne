@@ -147,6 +147,7 @@ ALIGN 4
 WeaponDebuffTable:
 defWeaponDebuffs(0,0,0,0,0,0,0) //0x0: let 0-index entry be no debuffs.
 defWeaponDebuffs(0,0,0,0,0,3,3) //0x1: Yesod II debuff.
+defWeaponDebuffs(0,6,0,0,0,0,0) //0x2: Hod III debuff.
 
 // People who stay in the party when they die
 PUSH
@@ -195,6 +196,13 @@ BL(0x17624) //gets item crit
 SHORT 0x1C02 0xE002 //mov r2,r0; b 2C678
 POP
 
+// sets windy sound to fade maybe?
+PUSH
+  ORG $2246AC
+    BYTE 0x01 0x00 0x01 0x00
+POP
+
+// weather priority
 PUSH
   ORG $30366
     BYTE 0xC0

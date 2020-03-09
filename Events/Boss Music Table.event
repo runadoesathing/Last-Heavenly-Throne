@@ -13,6 +13,7 @@ BossMusicTable:
   BossMusicEntry(Sarmaree, 0x1B)
   BossMusicEntry(Anker, 0x1B)
   BossMusicEntry(Alvarin, 0x1B)
+  BossMusicEntry(Aillen, 0x1B)
   BossMusicEntry(Lamech, 0x1B)
   BossMusicEntry(Ishpan, 0x1B)
   BossMusicEntry(Gedaliah, 0x1B)

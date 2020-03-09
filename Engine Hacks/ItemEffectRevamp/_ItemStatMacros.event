@@ -4,9 +4,6 @@
 	
 	#ifdef _FE8_
 	//Item routines
-		#ifndef ItemTable
-			#define ItemTable 0x809B10 //Item Data Table Offset
-		#endif
 		#ifndef Item_GetID
 			#define Item_GetID 0x174EC
 		#endif
@@ -43,18 +40,23 @@
 		#ifndef Item_GetStat_WEXP 
 			#define Item_GetStat_WEXP 0x17798
 		#endif
-		
+		#ifndef Item_GetData
+			#define Item_GetData 0x177B0
+			/*Returns pointer to the entry in the item table*/
+		#endif
 	#endif
-
+/* moved to"IERevamp_Core/_UseIDSetup.event" to fit in bl range
 	#ifndef ITEM_STAT_EFFECTVALUE
 		#define ITEM_STAT_EFFECTVALUE
 		ALIGN 4
 		Item_GetStat_EPV:
-		#incbin "GetItemStat_EPV.dmp"
-		POIN ItemTable
+		#include "GetItemStat_EPV.event"
+		
+		//#incbin "GetItemStat_EPV.dmp"
+		//POIN ItemTable
 		
 	#endif
-
+*/
 	//Item Stat table Macros
 	#define SetItemMight(Item_ID, Might) "setTableByte(ItemTable, 0x24, Item_ID, 0x15, Might)"
 	#define SetItemUseID(Item_ID, Use_ID) "setTableByte(ItemTable, 0x24, Item_ID, 0x1E, Use_ID)"

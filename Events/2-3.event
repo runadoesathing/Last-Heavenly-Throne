@@ -83,7 +83,7 @@ UNIT Anila Soldier 0x0 Level(4, Enemy, 1)       [15,4]  0 0 0 0        [IronLanc
 UNIT Anila SwordCav 0x0 Level(4, Enemy, 1)      [19,5]  0 0 0 0        [IronBlade]          [0,3,4,0]
 UNIT Anila Fighter 0x0 Level(3, Enemy, 1)       [15,10] 0 0 0 0        [IronAxe]            [0,3,4,0]
 UNIT Anila LanceCav 0x0 Level(4, Enemy, 1)      [18,12] 0 0 0 0        [IronLance]          [0,6,4,0]
-UNIT Anila Archer 0x0 Level(5, Enemy, 1)        [15,14] 0 0 0 0        [IronBow]            [0,3,4,0]
+UNIT Anila Archer 0x0 Level(5, Enemy, 1)        [15,14] 0 0 0 0        [BodkinBow]          [0,3,4,0]
 UNIT
 
 NakstraniP:

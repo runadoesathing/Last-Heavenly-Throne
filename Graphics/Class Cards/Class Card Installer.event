@@ -47,6 +47,12 @@ BowKnightPortraitPalette:
 #incbin "BowKnightPalette.dmp"
 
 ALIGN 4
+ClericPortrait:
+#incbin "Cleric.dmp"
+ClericPortraitPalette:
+#incbin "ClericPalette.dmp"
+
+ALIGN 4
 DarkKnightPortrait:
 #incbin "DarkKnight.dmp"
 DarkKnightPortraitPalette:

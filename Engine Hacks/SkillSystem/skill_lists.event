@@ -111,7 +111,7 @@ ALIGN 4
 
 SwordmasterSkillList:
 BYTE 255 VantageID
-BYTE 1 DartingBlowID
+BYTE 1 AnticipationID
 BYTE 1 CritUpID
 BYTE 00 00
 ALIGN 4
@@ -169,7 +169,7 @@ ALIGN 4
 
 HeroSkillList:
 BYTE 255 ArmsthriftID
-BYTE 1 BlueFlameID
+BYTE 1 DartingBlowID
 BYTE 00 00
 ALIGN 4
 

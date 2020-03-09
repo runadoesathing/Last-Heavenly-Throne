@@ -35,10 +35,10 @@ ALIGN 4
 ALIGN 16
 #include "Tilesets/Tileset Installer.event"
 
-/*NewStatScreen:
-#incext Png2Dmp "StatScreen2.png" --lz77
+NewStatScreen:
+#incext Png2Dmp "StatusScreen.png" --lz77
 NewStatScreenPal:
-#incext Png2Dmp "StatScreen2.png" --palette-only
+#incext Png2Dmp "StatusScreen.png" --palette-only
 
 //Stat screen
 PUSH
@@ -47,7 +47,7 @@ POIN NewStatScreen
 ORG $88640
 POIN NewStatScreenPal
 POP
-*/
+
 
 PUSH
 ORG $AAC5AC
