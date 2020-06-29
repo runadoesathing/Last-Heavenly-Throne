@@ -47,7 +47,7 @@ Tutorial:
 END_MAIN
 
 UnitsP:
-UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA14R8 [IronSword, Vulnerary, SpectreCard] [0x0,0x0,0x0,0x0]
+UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA14R8 [IronSword, Vulnerary] [0x0,0x0,0x0,0x0]
 UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA12R9 [IronAxe] [0x0,0x0,0x0,0x0]
 UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [14,9] 0x0 0x0 0x1 REDA13R9 [IronBow, Vulnerary] [0x0,0x0,0x0,0x0]
 UNIT
@@ -69,7 +69,7 @@ UNIT Sadhbh 0x49 0x1 Level(0, Ally, 0)    [9,0] 0x0 0x0 0x1 REDA7R2 [0x0] [0x0,0
 UNIT
 
 EnemyUnits:
-UNIT 0x68 Fighter 0x68 Level(3, Enemy, 1)    [2,3] 0 0 0 0 [HandAxe] NeverMoveAI
+UNIT 0x68 Fighter 0x68 Level(3, Enemy, 1)    [2,3] 0 0 0 0 [HandAxe] [0x3,0x3,0x4,0x20]
 UNIT
 
 EnemyElse:
@@ -146,7 +146,7 @@ TUTORIALTEXTBOXSTART
 TEXTSHOW MaghmeallThree
 TEXTEND
 REMA
-MUSCMID 0x7FFF //fades out the music
+MUSCSLOW 0x7FFF //fades out the music
 FADI 3
 STAL 120
 EnterStop
@@ -159,10 +159,10 @@ MUSC 0x24
 TEXTCONT // for loadoverworldfaces
 TEXTEND
 REMA
-FADI 16
+FADI 6
 CLEAN
 LOAD1 0x1 EnemyUnits
-FADU 16
+FADU 6
 STAL 30
 BROWNBOXTEXT CaerRigor [8,8] // box in the top right that's pretty cool for small text
 LOAD1 0x1 UnitsP
@@ -187,9 +187,9 @@ TEXTSHOW P1C1RealBanditNotice
 TEXTEND
 REMA
 MUSC 0x9
-CALL 0x591F40
 SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
-STAL 20
+STAL 60
+CALL 0x591F40
 TUTORIALTEXTBOXSTART
 TEXTSHOW P1C1Warning
 TEXTEND
@@ -222,6 +222,7 @@ CLEA 0x0 // removes all player units
 CLEE 0x0 // removes all enemy units
 CLEN 0x0 // removes all npc units
 FADU 4
+MUSC 0x52
 STAL 15
 BROWNBOXTEXT LaterThatDay [8,8] // box in the top right that's pretty cool for small text
 STAL 15
@@ -233,7 +234,6 @@ STAL 60
 CURE // removes the cursor
 FADI 16
 SetBackground(0x4)
-MUSC 0x52
 TEXTSTART
 TEXTSHOW P1C1Heichalot
 TEXTEND

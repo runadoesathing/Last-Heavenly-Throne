@@ -106,8 +106,8 @@ Lalitha_Sage:
 Lalitha_MageKnight:
 	#incbin "./_palettes/Lalitha_MageKnight.lzpal"
 
-Nala_SwordKeeper:
-	#incbin "./_palettes/Nala_SwordKeeper.lzpal"
+Nandi_SwordKeeper:
+	#incbin "./_palettes/Nandi_SwordKeeper.lzpal"
 
 Hanlin_Valkyrie:
 	#incbin "./_palettes/Hanlin_Valkyrie.lzpal"
@@ -154,8 +154,8 @@ Antariksa_Diviner:
 Chakora_Archer:
 	#incbin "./_palettes/Chakora_Archer.lzpal"
 
-Nairatmya_BowKeeper:
-	#incbin "./_palettes/Nairatmya_BowKeeper.lzpal"
+Dagmema_BowKeeper:
+	#incbin "./_palettes/Dagmema_BowKeeper.lzpal"
 
 Sarmaree_Soldier:
 	#incbin "./_palettes/Sarmaree_Soldier.lzpal"
@@ -189,4 +189,7 @@ Anker_WyvernLord:
 
 Alvarin_WyvernLord:
 	#incbin "./_palettes/Alvarin_WyvernLord.lzpal"
+
+Trieu_Myrmidon:
+	#incbin "./_palettes/Trieu_Myrmidon.lzpal"
 

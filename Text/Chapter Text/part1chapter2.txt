@@ -33,18 +33,14 @@ Golud, Corbenic[X]
 
 
 ## P1C2WMIntro
-Cethern,[....] S[0xE9]tanta,[....] and Ferdiad stave off[N]
-the brigands near their village.[AN]
-After their act of heroism,[.....][N]
-they are informed by a Crownflier,[.....] Lady[AN]
-Sadhbh of Caer Siddi,[.....] that Heichalot has[N]
-declared war on their kingdom.[AN]
-After considering the situation,[.....][N]
-the three agree to join the[AN]
-Kingdom's defense against the[N]
-Principality invaders.[AN]
-Receiving their rushed send-off,[AN]
-they leave swiftly towards Pedryvan[N]
+Cethern and his friends retreat[N]
+from bandits further south.[AN]
+The next morning, Cethern agrees[N]
+to go northward with Lady Sadhbh.[AN]
+His friends S[0xE9]tanta and Ferdiad[N]
+join Corbenic's defense as well.[AN]
+Receiving their rushed send-off,[N]
+they leave swiftly towards Pedryvan,[AN]
 at the Kingdom's north border.[A][X]
 
 
@@ -74,9 +70,6 @@ Wouldn't have to wait as long then.[A]
 [OpenRight]
 S[0xE9]tanta,[.5] don't even[N]
 think about it.[A]
-
-[OpenMidLeft][CloseEyes]
-I wasn't actually going to,[.5] Cethern...[OpenEyes][A]
 
 [OpenFarRight]
 Is everything okay with you,[.5] Cethern?[AN]
@@ -287,7 +280,7 @@ back to normal![.5] That's why I'll fight![A]
 
 [FarLeft][LoadSadhbh][MidLeft][MoveLeft][FarLeft][ToggleSmile]
 That is indeed an admirable cause...[.6][N]
-Very well.[.5] Your help is well needed.[A]
+Very well.[.5] Your help is much needed.[A]
 
 [MidRight]
 T[.4]-Thank you![.6] I promise you[N]
@@ -295,645 +288,795 @@ won't regret this![A][X]
 
 
 
-## P1C2ToCaerWydyr
-[ConversationText]
+## P1C2ToCaerWydyrSadhbh
 [OpenFarFarRight][LoadSadhbh][MoveMidLeft][OpenMidLeft]
-It's a slow ride, isn't it?
-I would usually go faster than this.
+It's a slow ride,[.5] isn't it?[.6][N]
+I would usually go faster than this.[A][X]
 
+
+
+## P1C2DogMemeCaerWydyr
+[OpenFarFarRight][LoadDagmema][MoveFarRight]
+Sorry![.6] I don't got a horse[N]
+like the rest of you,[.5] so...[A][X]
+
+
+
+## P1C2DogMemeDead
 [OpenFarFarRight][LoadFerdiad][MoveFarRight][OpenFarRight]
-None of us have ridden far from Cluain Bolg before, Lady Sadhbh.
-The ground here is softer and wet.
-Please excuse our inexperience.
+None of us have ridden far from[N]
+Cluain Bolg before,[.5] Lady Sadhbh.[AN]
+The ground here is softer and wet.[.6][N]
+Please excuse our inexperience.[A][X]
 
+
+
+## P1C2FortniteFortnite
 [OpenFarFarRight][LoadCethern][MoveRight][OpenRight]
-What's happened since Heichalot declared war?
-I assume not much yet.
+What's happened since[N]
+Heichalot declared war?[AN]
+I assume not much yet.[A]
 
 [OpenMidLeft]
-We've heard of attacks organized from Uffren, but nothing more.
-Trying to gather information is tricky, early as it is now.
-But it's salt in the wounds, planning invasion from our land.
+We've heard of attacks organized[N]
+from Uffren,[.5] but nothing more.[AN]
+Trying to gather information is[N]
+tricky, early as it is now.[AN]
+But it's salt in the wounds,[.5][N]
+planning invasion from our land.[A][X]
 
+
+
+## P1C2DogMemeB
+[FarRight][ClearFace][LoadFerdiad][X]
+
+
+
+## P1C2KuroiNino
 [OpenFarRight]
-Uffren...
-That's where your grandfather fought, yes?
+Uffren...[.6] That's where your[N]
+grandfather fought,[.5] yes?[A]
 
 [OpenRight]
-That's right.[ToggleSmile]
-If he knew all this, maybe he would've came along.
-
-[OpenFarRight][ClearFace][LoadSetanta]
-He'd probably try to even his own score despite his age.
-I don't think he'd care if he died trying that.
+That's right.[AN][ToggleSmile]
+If he knew all this,[.5] maybe[N]
+he would've came along.[A]
 
 [OpenMidLeft][ToggleSmile]
-It's definitely a plan of some Caer Siddi nobles to plan a retaking of Uffren.
-But for now, we're on the defensive.
+It's definitely a plan of some Caer[N]
+Siddi nobles to retake Uffren.[AN]
+But for now,[.5] we're on the defensive.[A]
 
-[OpenFarRight]
-We're startled with war, and all the nobles can think about are land grabs.[CloseEyes]
-I can't stand nobility at all.[OpenEyes]
+[OpenFarRight][ClearFace][LoadSetanta]
+We're startled with war,[.5] and all the[N]
+nobles can think about are land grabs.[AN][CloseEyes]
+I can't stand nobility at all.[A][OpenEyes]
 
 [OpenRight]
-S[0xE9]tanta, you know Lady Sadhbh is part of the nobility, right?
-Same with all of the Crownfliers.
+S[0xE9]tanta,[.5] you know Lady Sadhbh[N]
+is part of the nobility,[.5] right?[AN]
+Same with all of the Crownfliers.[A]
 
 [OpenMidLeft]
-No, no. It's all okay.
-I have a distaste for nobles as well.
-It's not like they enjoy my company much either.
+No, no.[.6] It's all okay.[AN]
+I have a distaste for[N]
+nobles as well.[AN]
+It's not like they enjoy[N]
+my company much either.[AN]
 
 [OpenFarRight][ToggleSmile]
-You're quite a knight then, Sadhbh.
-I think I actually like you.
+You're quite a knight then,[.5] Sadhbh.[.6][N]
+I think I actually like you.[A]
 
 [OpenFarFarRight][ToggleSmile]
-Uh, everyone?
-I think we're being followed!
+Uh,[.5] everyone?[AN]
+I think we're[N]
+being followed![A]
 
 [OpenMidLeft][ClearFace][LoadSadhbh]
-Ferdiad, huddle back in.
-Who would be following us...?
+Ferdiad,[.5] huddle back in.[.6][N]
+Who would be following us...?[A]
 
 [OpenFarRight]
-Sadhbh? She's gone.
-She ran back to see.
+Sadhbh?[.5] She's gone.[.6][N]
+She ran back to see.[A]
 
 [OpenMidLeft]
-...Are you kidding?!
-Ferdiad, I told you to huddle back![X]
+[Beat] Are you kidding?![AN]
+Ferdiad,[.5] I told you[N]
+to huddle back![A][X]
 
 
 
 ## P1C2MiachAppear
-[ConversationText]
 [OpenFarFarLeft][LoadFerdiad][MoveMidLeft]
-Come out from where you are!
-We know you're there!
+Come out from where you are![.6][N]
+We know you're there![A]
 
 [OpenFarFarRight]
-Please don't hurt me!
-Please don't hurt me...
+Don't hurt me![.5][N]
+Please don't hurt me...[A]
 
 [OpenMidLeft]
-Wait, that voice...
-It can't--!
+Wait,[.5] that voice...[.6][N]
+It can't--![A]
 
 [LoadOverworldFaces][OpenMidRight][LoadMiach]
-I just wanted to come along!
-I'm so sorry!
+I just wanted to come along![.6][N]
+A[.5]-And I won't apologize for that![A]
 
 [OpenMidLeft]
-Miach?! What are you doing?![.....]
-And how did you follow us...?
+Miach?![.6] What are you doing?![.6][N]
+And how did you follow us...?[A]
 
 [OpenMidRight]
-You were all leaving, but Cethern wouldn't let me come along...
-But I'm strong enough!
-I know I'm strong enough!
-So I snuck out of town with Airmed, but she got caught.[MoveMidRight][ToggleSmile]
-But I didn't!
-So I chased after you! It helped that you were moving slowly, and I could sneak through the forest...
+You were all leaving,[.5] but Cethern[N]
+wouldn't let me come along...[AN]
+But I'm strong enough![.6][N]
+I know I'm strong enough![AN]
+So I snuck out of town with[N]
+Airmed, but she got caught.[AN][MoveMidRight][ToggleSmile]
+But I didn't![.5][N]
+So I chased after you![AN]
+It helped that you were[N]
+moving really really slow,[AN]
+and it was easy to sneak[N]
+through the woods...[A]
 
 [OpenFarFarLeft][ToggleSmile]
-Miach! What in the bearers' name are you doing here?!
+Miach![.6] What in the bearers'[N]
+name are you doing here?![A]
 
 [OpenMidLeft][MoveLeft][OpenFarLeft][LoadCethern][OpenMidRight]
-Hi Cethern! Airmed says hi.
-She couldn't make it though.
+Hi Cethern![.6] Airmed says hi.[.6][N]
+She couldn't make it, though.[A]
 
 [OpenFarLeft]
-No. Miach, you need to head back.
-It's amazingly dangerous up here.
+No![.6] Miach,[.5] you need to head back.[.6][N]
+It's too dangerous up here.[A]
 
 [OpenLeft]
-Cethern...[.....][CloseEyes] 
-I think it would be more dangerous if we didn't take Miach.[OpenEyes]
-We're already a few hours away from Rigor.
-It'd be tough to get back.
+Cethern...[AN][CloseEyes]
+I think it would be more dangerous[N]
+if we didn't take him with us.[OpenEyes][AN]
+We're already a few hours away.[.5][N]
+It'd be tough to get back.[A]
 
 [OpenMidRight]
-I can pull my own weight, Cethern!
-I won't get in your way, promise!
+I can pull my own weight,[.5] Cethern![.6][N]
+I won't get in your way,[.5] promise![A]
 
 [OpenFarLeft]
-...[......]I don't have a choice then.
-You're staying with us.
+[Beat] I don't have a choice then.[.6][N]
+You're staying with us.[A]
 
 [OpenMidRight][ToggleSmile]
-Thank you so much, Cethern!
-I'll make sure to--!
+Thank you so much,[.5] Cethern![.6][N]
+I'll make sure to--![A]
 
 [OpenFarLeft][ToggleSmile]
-But you're not getting involved in any fighting.
-You're not trained enough to fight, and you most likely didn't bring a weapon.
-Once we get to Pedryvan, you'll have to find a way to help out.
+But you're not getting involved in[N]
+any fighting,[.5] you got that?[AN]
+You're not trained enough to fight,[.5][N]
+and you probably don't have a weapon.[AN]
+Once we get to Pedryvan,[.5] you'll have[N]
+to find a way to help out.[A]
 
 [OpenMidRight]
-Aww, but...![.....][MoveMidRight][ToggleSmile] 
-Alright, I promise!
-I'll make you proud, Cethern!
+Aww,[.5] but...![N][MoveMidRight][ToggleSmile]
+Alright,[.5] I promise![AN]
+I'll make you proud,[N]
+[.5]Cethern![A]
 
 [OpenFarFarLeft]
-Cethern![....] Fern![....]
-What's going on over there?!
+Cethern![.....] Fern![......][N]
+What's going on over there?![A]
 
 [OpenLeft][ToggleSmile]
-Don't worry, S[0xE9]tanta!
-It's just Miach!
+Don't worry,[.5] S[0xE9]tanta![.6][N]
+It's just Miach![A]
 
 [OpenFarLeft]
-Alright Miach, you can get on my horse.
-Hold onto me tight, understood?
+Alright, Miach.[.6] Hop on my horse.[.6][N]
+Hold onto me tight,[.5] understood?[A]
 
-[OpenMidRight]
-Understood![MoveMidRight]
-Let's go![X]
+[OpenMidRight][ToggleSmile]
+Understood![.6][N][MoveMidRight]
+Let's go![A][X]
 
 
 
 ## P1C2SadhbhWorry
-[ConversationText]
-[OpenFarFarRight][LoadSadhbh][MoveLeft][OpenLeft]
-We'll have to pass by this fortress to continue forwards to Pedryvan.
-[OpenLeft][MoveMidLeft][OpenMidLeft]
-Hmm? There's people up ahead.
-Everyone, hold for a moment.[X]
+[OpenFarFarRight][LoadSadhbh][MoveLeft]
+We'll have to pass by this fortress[N]
+to continue forwards to Pedryvan.[AN]
+[MoveMidLeft][OpenMidLeft]
+Hmm?[.5] There's people up ahead.[.5][N]
+Everyone,[.5] halt and stay back![A][X]
 
 
 
 ## P1C2HarrassingATeenGirl
-[ConversationText]
 [OpenRight][LoadLalitha][OpenFarRight][LoadSellsword][OpenMidLeft][LoadAillen]
-What do we have here?[....][ToggleSmile]
-Usually the intruders we kill aren't waifs like you.
-Maybe you're old enough to beg for your life properly?
+What do we have here?[AN][ToggleSmile]
+Usually the intruders we[N]
+kill aren't waifs like you.[AN]
+Maybe you're old enough to[N]
+beg for your life properly?[A]
 
 [OpenRight]
-That's quite a bold assumption.[....]
-Be glad I'm not destroying you where you stand.
-You're standing before the strongest, most powerful magician in Maghmeall!
-If I were you, I'd hand over this dusty fortress to me right now and scram.
+That's quite a bold assumption.[AN]
+Be glad I'm not destroying you[N]
+where you stand,[.5] you beast.[AN]
+You're standing before the strongest,[.5][N]
+most powerful magician in Maghmeall![AN]
+If I were you,[.5] I'd hand over this dusty[N]
+fortress to me right now and scram.[A]
 
 [OpenMidLeft]
-She's confident as well! I have a better idea then.
-Boys, do you think she'll fetch a pretty price in Macha?
+She's confident as well![.6][N]
+I have a better idea then.[AN]
+Boys,[.5] you think she'll fetch[N]
+a pretty price in Macha?[A]
 
 [OpenFarRight][ToggleSmile]
-She's looking from down south...
-Aye, should fetch a pretty coin!
+She's looking from south of here...[.6][N]
+Aye,[.5] should fetch a pretty coin![A]
 
 [OpenRight]
-Just try and lay a finger on me.
-I'll blast your head off your body![X]
+Just try and lay a finger on me.[.6][N]
+I'll blast your head off your body![A][X]
 
 
 
 ## P1C2BroYouJustKilledMyBestFriend
-[ConversationText]
 [OpenRight][LoadLalitha]
 [OpenFarRight][LoadBandit]
 [OpenMidLeft][LoadAillen][ToggleSmile]
-That's a pretty trick you have there!
-Shame it just means we're gonna beat you more before we ship you away!
+You're a dastard of a waif,[.5] waltzing[N]
+into our base with a smug smile...[AN]
+But you're only an overconfident[N]
+scamp,[.5] waiting to be disciplined![AN]
+We're just going to have to beat[N]
+you more before we ship you away![A]
 
 [OpenRight][ToggleSmile][MoveRight]
-Hey![....][MoveRight] 
-Let go of me![MoveRight]
-I might spare your lives!
+Hey![MoveRight] Let go of me![MoveRight][N]
+I might spare your lives![A]
 
 [OpenMidLeft]
-Put her in the cell. 
-Take her tome and be sure she doesn't slip away!
+Put her in the cell.[AN]
+Take her tome and be sure[N]
+she doesn't slip away![A]
 
 [OpenFarRight]
-Understood boss![ToggleSmile]
-You'll sure line our pockets...[X]
+Understood,[.5] boss![.6][N][ToggleSmile]
+You'll sure line our pockets...[A][X]
 
 
 
 ## P1C2Sad
-[ConversationText]
 [OpenMidLeft][LoadAillen]
-Hmm...? I'm sensing the presence of someone else...[MoveMidLeft]
-Everyone come out! The waif may have friends![X]
+Everyone,[.5] be on guard![.6][N]
+The waif may have friends![A][X]
 
 
 
 ## P1C2LetsGoSaveTheWaif
-[ConversationText]
 [OpenMidLeft][LoadSadhbh]
 [OpenFarRight][LoadMiach]
 [OpenRight][LoadCethern]
-Excuse me for suggesting this, Sadhbh.
-I'm going to go save that girl.
+Excuse me for suggesting this,[.5] Sadhbh.[.6][N]
+I'm going to go save that girl.[A]
 
 [OpenMidLeft][CloseEyes]
-Yet more bandits. What pathetic people.[OpenEyes]
-I will not oppose you, Cethern.
-I simply ask that caution is expressed.
-Death is a real possibility for any of us.
+Yet more bandits.[.6][N]
+What pathetic people.[OpenEyes][AN]
+I will not oppose your[N]
+actions,[.5] Cethern.[AN]
+I simply ask that caution[N]
+is expressed.[AN]
+Death is a real possibility[N]
+for any of us.[A]
 
 [OpenRight]
-Thank you for the reminder, Sadhbh.
-Miach, I'll need you to hide away.
-We can't have you near us when we're fighting like this.
+Thank you for the reminder,[.5] Lady Sadhbh.[.6][N]
+Miach,[.5] I'll need you to hide away.[AN]
+We can't have you near us when we fight.[A]
 
 [OpenFarRight]
-Cethern...![MoveFarRight]
-Fine, I promised.[CloseEyes]
-I'll just go hide around the corner of the fort...[ClearFace][......]
+Cethern...![......][N]
+Fine,[MoveFarRight] I promised.[AN][CloseEyes]
+I'll just go hide around[N]
+the corner of the fort...[A][ClearFace][......]
 
 [OpenRight][MoveRight]
-Ferdiad![....] S[0xE9]tanta![....]
-Let's move forward![X]
+Ferdiad![.....] S[0xE9]tanta![......][N]
+Let's move forward![A][X]
 
 
 
 ## P1C2BlackNino
-[ConversationText]
 [OpenMidLeft][LoadLalitha][CloseEyes][ToggleSmile]
-They didn't notice... 
-That I was able to snatch the key from under their nose!
-[MoveMidRight][LoadOverworldFaces][OpenMidRight][OpenEyes]
-I cannot be stopped by a locked door!
-Behold the magician's true power![MoveMidRight][ToggleSmile]
-Huh?[MoveMidRight][MoveMidRight]
-No, no,[CloseEyes] no![....]
-I must've grabbed the wrong key!
-[OpenEyes][MoveMidLeft][LoadOverworldFaces][OpenMidLeft]
-Hmph! I'll just have to fight them once they let me out![CloseEyes]
-Buffoons...[X]
+They didn't notice...[AN]
+That I was able to snatch the[N]
+key from under their nose![A][CloseSpeechSlow]
+
+[MoveMidRight][LoadOverworldFaces][OpenEyes]
+I cannot be stopped by a locked door![.6][N]
+Behold the magician's true power![AN][MoveMidRight][ToggleSmile]
+Huh?[MoveMidRight][MoveMidRight] No,[....] no,[.....][CloseEyes] no![......][N]
+I must've grabbed the wrong key![A][CloseSpeechSlow]
+
+[OpenEyes][MoveMidLeft][LoadOverworldFaces]
+Hmph![.6] I'll just have to fight them once[N]
+they let me out![.6][CloseEyes] Bunch of buffoons...[A][X]
 
 
 
 ## P1C2YetMoreDialogue
-[ConversationText]
 [OpenFarFarLeft][LoadBres][MoveMidLeft][OpenMidLeft][ToggleSmile]
-Phew... He almost saw me.
-I'll have to check out this side of the fortress as well.
-As long as I can find some information, this trip to Golud will be perfect![MoveMidLeft][CloseEyes]
-I'm sorry, you petty bandits...[OpenEyes]
-This is for the sake of my people.[X]
+Phew...[.6] That mustached[N]
+man almost spotted me.[AN]
+Looks like a fair bit of[N]
+fun is going on here...[AN]
+As long as I can find[N]
+some information,[AN]
+this trip to Golud will[N]
+be just perfect![AN][CloseEyes][ToggleSmile]
+Somebody's got to know[N]
+where he's gone...[A][X]
 
 
 
 ## P1C2BresCethern
-[ConversationText]
 [OpenMidRight][LoadCethern][OpenMidLeft][LoadBres][ToggleSmile]
-Excuse me! You don't look like any of the brigands running about.
-Are you trying to rout them too?
+Excuse me![.6] You don't look like[N]
+any of the brigands running about.[AN]
+Are you trying to rout them?[A]
 
 [OpenMidRight][ToggleSmile]
-That would be my plan...[MoveMidRight]
-Sorry, who are you?
+That would be my plan...[.6][N]
+Sorry,[.5] who are you?[A]
 
 [OpenMidLeft][ToggleSmile]
-You can simply call me Bres.
-It seems our goals align.
-We both seem well-versed in swordplay, so why don't we work together?
+You can simply call me Bres.[.6][N]
+It seems our goals align.[AN]
+Our swordwork is polished,[.5][N]
+so why don't we buddy up?[A]
 
 [OpenMidRight][ToggleSmile]
-We're heading to Pedryvan as soon as we can afterwards.
-Fighting a war against Heichalot.
-Unless you want to become involved in that trouble, perhaps not.
+We're heading to Pedryvan as soon[N]
+as we can after this.[AN]
+Fighting a war against Heichalot.[AN]
+Unless you wish to become involved[N]
+in that trouble,[.5] perhaps not.[A]
 
 [OpenMidLeft]
-Heichalot?[....][ToggleSmile] Well, maybe an ally just for the time being then.
-We'll see where the road takes us when the bandits are gone.
+Heichalot?[.6][ToggleSmile] Well,[.5] maybe an ally[N]
+just for the time being.[AN]
+We'll see where the road takes[N]
+us when the bandits are gone.[A]
 
 [OpenMidRight]
-Then it's good to have you on our side, Bres.
-Follow me![X]
+Then it's good to have you[N]
+on our side,[.5] Bres.[.6] Follow me![A][X]
 
 
 
 ## P1C2LalithaFerdiad
-[ConversationText]
 [OpenMidRight][LoadFace][0xFF][0xFF][OpenMidLeft][LoadLalitha]
-You foolish bandit! You'll...[MoveMidLeft][ToggleSmile]
-Oh, you're not that awful man!
-Thank you very much for saving me!
-My name is Talitha Pancala, strongest magician in all of Maghmeall!
-I pledge myself to your cause until all of those terrible bandits are gone![.....][ToggleSmile]
-But[CloseEyes] I may need my tome back first...[X]
+You foolish bandit![.5] You'll...[MoveMidLeft][ToggleSmile][N]
+Oh,[.5] you're not that awful man![AN]
+Thank you very much for saving me![AN]
+My name is Talitha Pancala,[.5] the most[N]
+powerful magician in all of Maghmeall![AN]
+I pledge myself to your cause until all[N]
+of those terrible bandits are gone![A][......][ToggleSmile][CloseEyes][N]
+But I may need my tome back first...[A][X]
 
 
 
 ## P1C2HelpMeCethern
-[ConversationText]
 [OpenFarRight][LoadSellsword][OpenMidLeft][LoadMiach]
-Cethern...!
-Cethern, where are you?!
-Please help me Cethern!
+Cethern...![MoveMidLeft][N]
+Cethern, where are you?![AN]
+Please help me,[.4] Cethern![A]
 
 [OpenFarFarLeft]
-Miach!![X]
+Miach!![A][X]
 
 
 
 ## P1C2MiachYouDummy
-[ConversationText]
 [OpenMidLeft][LoadMiach]
 [OpenMidRight][LoadCethern]
-Miach, I told you to hide away!
-It's dangerous out here!
+Miach, I told you to hide away![.6][N]
+It's dangerous out in the open![A]
 
 [OpenMidLeft]
-I was hiding, Cethern!
-They saw me between some rocks...
+I was hiding,[.5] Cethern![.5][N]
+But then they saw me...[A]
 
 [OpenMidRight]
-You need to be extremely careful if you're coming with us.
-This isn't just a game, Miach.[X]
+You need to be extremely careful[N]
+if you're coming with us.[AN]
+This isn't just a game, Miach.[A][X]
 
 
 
 ## P1C2SadhbhAlive
-[ConversationText]
 [OpenRight][LoadMiach]
 [OpenFarRight][LoadCethern]
 [OpenMidLeft][LoadSadhbh]
-Cethern!
-Are you both unharmed?!
+Cethern![.6][N]
+Are you both unharmed?![A]
 
 [FarRight]
-We're fine, thankfully.
-Have the bandits fled?
+We're fine,[.5] thankfully.[.6][N]
+Have the bandits fled?[A]
 
 [MidLeft]
-Indeed.[ToggleSmile] A successful rout.
-Let's gather inside and catch our breath before leaving again.[X]
+Indeed.[.5][ToggleSmile] A successful rout.[AN]
+Let's gather inside and catch[N]
+our breaths before leaving.[A][X]
 
 
 
 ## P1C2FerdiadAlive
-[ConversationText]
 [OpenRight][LoadMiach]
 [OpenFarRight][LoadCethern]
 [OpenMidLeft][LoadFerdiad]
-Cethern!
-Have you seen Lady Sadhbh?
-I've looked everywhere inside, but she's nowhere to be found...!
+Cethern![.5] Have you seen Lady Sadhbh?[AN]
+I've looked everywhere inside,[.5][N]
+but she's nowhere to be found...![A]
 
 [FarRight]
-I haven't.[....][MoveFarRight]
-Don't tell me she's...!
+I haven't.[MoveFarRight][N]
+Don't tell me she's...![A]
 
 [MidLeft]
-I'll head back inside to look again.[CloseEyes]
-I don't know what we'd do if she...[X]
+I'll head back inside to look again.[.6][N][CloseEyes]
+I don't know what we'd do if she...[A][X]
 
 
 
 ## P1C2SetantaAlive
-[ConversationText]
 [OpenRight][LoadMiach]
 [OpenFarRight][LoadCethern]
 [OpenMidLeft][LoadSetanta]
-Cethern!
-Where is Fern?!
+Cethern![.6][N]
+Where is Fern?![A]
 
 [FarRight]
-I haven't seen her anywhere.
-Maybe she's still inside the fortress?
+I haven't seen her anywhere.[.6][N]
+Maybe she's still inside?[A]
 
 [MidLeft]
-Damn it Cethern, I've checked everywhere inside and she's nowhere!
+Damn it Cethern,[.5] I've checked[N]
+everywhere inside![.6] She's nowhere![A]
 
 [FarRight]
-She has to be somewhere.
-She couldn't just...[X]
+She has to be somewhere.[.6][N]
+She couldn't just...[A][X]
+
+
+
+## P1C2DogMemeAlive
+[OpenRight][LoadMiach]
+[OpenFarRight][LoadCethern]
+[MidLeft][LoadDagmema]
+E[.....]-Everybody that you came with...[.6][N]
+They're all dead...[A]
+
+[FarRight]
+Dead?![.6] I...[MoveFarRight][N][CloseEyes]
+How could I have been so incompetent![A]
+
+[Right][CloseEyes]
+Everybody's dead...?[A][X]
 
 
 
 ## P1C2NoOneAlive
-[ConversationText]
 [OpenMidLeft][LoadMiach]
 [OpenMidRight][LoadCethern]
-Miach, I told you to hide away!
-It's dangerous out here!
+Miach, I told you to hide away![.6][N]
+It's dangerous out in the open![A]
 
 [OpenMidLeft]
-I was hiding, Cethern!
-They saw me between some rocks...
+I was hiding,[.5] Cethern![.5][N]
+But then they saw me...[A]
 
 [OpenMidRight]
-You need to be extremely careful if you're coming with us.
-This isn't just a game, Miach.
+You need to be extremely careful[N]
+if you're coming with us.[AN]
+This isn't just a game, Miach.[A]
 
 [OpenMidLeft]
-Where's everyone else?
-Are they still inside?
+Where's everyone else?[.6][N]
+Are they still inside?[A]
 
 [OpenMidRight]
-...Head inside with me Miach.
-We need to talk about something.[X]
+[Beat] Head inside with me,[.5] Miach.[.6][N]
+We need to talk about something.[A][X]
 
 
 
 ## P1C2LalithaAndBres
-[ConversationText]
 [FarLeft][LoadBres]
 [Left][LoadLalitha]
 [OpenMidRight][LoadCethern]
-So you both helped us during the fight.
-What do you plan on doing now?
+So you've both helped us well.[.6][N]
+What do you plan on doing now?[A]
 
 [FarLeft]
-I'm trying to find a certain... someone.
-What's going on with Heichalot makes it harder to find them.
-If you're going to fight them, I'd join you until it's over.
+I'm trying to find a certain someone.[AN]
+What's going on with Heichalot makes[N]
+it harder to find them.[AN][ToggleSmile]
+If you're going to fight them,[.5] I'd[N]
+join you until this war's over.[A]
 
-[Left]
-And I've already pledged myself to fend off those terrible bandits...
-From what I've heard, Heichalot is just another group of terrible bandits![ToggleSmile]
-Think of it as an extension.
-I'm coming with you too.
+[Left][ToggleSmile]
+And I've already pledged myself to fend[N]
+off those terrible bandits...[AN]
+From what I've heard,[.5] Heichalot is just[N]
+another group of terrible bandits![AN][ToggleSmile]
+Think of it as an extension.[.5][N]
+I'm coming with you too.[A]
 
 [MidRight]
-If you're both absolutely sure, having you would be excellent.
-We'll leave for the camp once we've gotten back on our feet.[X]
+If you're both absolutely sure,[.5][N]
+having you would be excellent.[AN]
+We'll leave for the camp once[N]
+we've gotten back on our feet.[A][X]
 
 
 
 ## P1C2LalithaOnly
-[ConversationText]
 [OpenMidRight][LoadCethern]
 [MidLeft][LoadLalitha]
-Excuse me! Mister!
-You're leaving soon?
+Excuse me![.5] Mister![.6][N]
+You're leaving soon?[A]
 
 [MidRight]
-We're heading north to fight against Heichalot.
-There's been war declared.
+We're heading north to fight[N]
+against Heichalot.[AN]
+There's been war declared.[A]
 
 [MidLeft]
-I've heard about that...
-You should take me with you.
-I've pledged to stay until the bandits have been destroyed.[ToggleSmile]
-I think you may need someone of my skill!
+I've heard about that...[.6][N]
+You should take me with you![AN]
+I've pledged to stay until the[N]
+bandits have been destroyed.[AN][ToggleSmile]
+I think you may need someone[N]
+of my skill![A]
 
 [MidRight]
-Someone with magical abilities would be excellent to have.
-If you truly wish to come, we'll head out in a few.[X]
+Someone with magical abilities[N]
+would be excellent to have.[AN]
+If you truly wish to come,[.5][N]
+we'll head out in a few.[A][X]
 
 
 
 ## P1C2BresOnly
-[ConversationText]
 [MidLeft][LoadBres]
 [OpenMidRight][LoadCethern]
-Bres, you said you would think on joining us to Heichalot.
-What are your thoughts on it?
+Bres,[.5] you said you would think[N]
+on joining us to Heichalot.[AN]
+What are your thoughts on it?[A]
 
 [MidLeft]
-I have no qualms with it.[ToggleSmile] 
-It would be much easier to find what I'm looking for if Heichalot isn't breathing down Corbenic's neck.
+I have no qualms with it.[AN][ToggleSmile]
+It would be much easier to find what[N]
+I'm looking for if I helped you.[AN]
+Better for Heichalot to not be[N]
+breathing down Corbenic's neck.[A]
 
 [MidRight][ToggleSmile]
-What are you looking for that would be inside this fortress?
+What are you looking for that[N]
+would be inside this fortress?[A]
 
 [MidLeft]
-I'm looking for a specific someone.
-I haven't had much luck, though.
-Maybe I'll find them further north.
+I'm looking for a specific someone.[.6][N]
+I haven't had much luck,[.5] though...[AN]
+Maybe I'll find them further north.[A]
 
 [MidRight]
-Perhaps you will.
-We'll head out in a few.
-Gather yourself and be ready to leave.[X]
+Perhaps you will.[.6][N]
+We'll head out in a few.[AN]
+Gather yourself and be[N]
+ready to leave.[A][X]
 
 
 
 ## P1C2BresOnlyButLalitha
-[ConversationText]
 [MidLeft][LoadBres]
 [OpenMidRight][LoadCethern]
-Bres, you said you would think on joining us to Heichalot.
-What are your thoughts on it?
+Bres,[.5] you said you would think[N]
+on joining us to Heichalot.[AN]
+What are your thoughts on it?[A]
 
 [MidLeft]
-I have no qualms with it.[ToggleSmile] 
-It would be much easier to find what I'm looking for if Heichalot isn't breathing down Corbenic's neck.
+I have no qualms with it.[AN][ToggleSmile]
+It would be much easier to find what[N]
+I'm looking for if I helped you.[AN]
+Better for Heichalot to not be[N]
+breathing down Corbenic's neck.[A]
 
 [MidRight][ToggleSmile]
-What are you looking for that would be inside this fortress?
+What are you looking for that[N]
+would be inside this fortress?[A]
 
 [MidLeft]
-I'm looking for a specific someone.
-I haven't had much luck, though.
-Maybe I'll find them further north.
+I'm looking for a specific someone.[.6][N]
+I haven't had much luck,[.5] though...[AN]
+Maybe I'll find them further north.[A]
 
 [MidRight]
-Perhaps you will.
-We'll head out in a few.
-Gather your-
+Perhaps you will.[.6][N]
+We'll head out in a few.[AN]
+Gather your--[A]
 
 [FarFarLeft][LoadLalitha]
-Wait up there, both of you!
-You can't just leave me here!
+Wait up there,[.5] both of you![.6][N]
+You can't just leave me here![A][CloseSpeechSlow]
 [MoveLeft][MidLeft][MoveFarLeft][Left][LoadOverworldFaces]
-I'm coming with you.
-It's better than staying in some moldy fort!
+I'm coming with you.[AN]
+It's better than staying[N]
+in some moldy fort![A]
 
 [MidRight]
-You're the girl from earlier... Did you need something?
+You're the girl from earlier...[.6][N]
+Did you need something?[A]
 
 [Left][ToggleSmile]
-I am Talitha Pancala, strongest magician in all of Maghmeall!
-Taking me with you would be a wise decision, mister.
-My magical abilities are completely unparalleled!
+I am Talitha Pancala,[.5] strongest[N]
+magician in all of Maghmeall![AN]
+Taking me with you would be a[N]
+wise decision,[.5] mister.[AN]
+My magical abilities are matched[N]
+and challenged by none![A]
 
 [FarLeft]
-If you're so strong, how did you get captured by them?
+If you're so strong,[.5] how did[N]
+you get captured by them?[A]
 
 [Left][ToggleSmile]
-Hmph![MoveLeft]
-I could've defeated them had I tried with more than-
+Hmph![AN][MoveLeft]
+I could've defeated them had[N]
+I tried with more than--[A]
 
 [MidRight]
-Talitha. If you truly wish to come, I will not stop you.
-Just know we are headed to a battleground.
+Talitha.[.6] If you truly wish to[N]
+come,[.5] I will not stop you.[AN]
+Just know we are headed to[N]
+a battleground.[A]
 
 [Left]
-I know and understand that!
-Why else would I say yes?
+I understand that![.6][N]
+Why else would I say yes?[A]
 
 [MidRight]
-Very well then.
-We'll leave in a few. Be ready.[ClearFace][......]
+Very well then.[AN]
+We'll leave in a[N]
+few.[.6] Be ready.[A][ClearFace][......]
 
 [FarLeft][ToggleSmile]
-Tried with more than what, Talitha?
-You didn't finish your sentence.
+Tried with more than what,[.5] Talitha?[.6][N]
+You didn't finish your sentence.[A]
 
 [Left][ToggleSmile]
-I'm not talking to you, blueberry![ClearFace][......]
+I'm not talking to[N]
+you,[.5] blueberry![A][ClearFace][......]
 
 [FarLeft]
-Blueberry...?[X]
+Blueberry?[A][X]
 
 
 
 ## P1C2ButLalitha
-[ConversationText]
 [OpenMidRight][LoadCethern]
 [FarFarLeft][LoadLalitha]
-Wait up there mister![MoveMidLeft][MidLeft]
-You're leaving soon?
+Wait up there mister![A][CloseSpeechSlow]
+[MoveMidLeft]
+You're leaving soon,[.5][N]
+aren't you?[A]
 
 [MidRight]
-We're heading north to fight against Heichalot.
-Did you need something?
+We're heading north to[N]
+fight against Heichalot.[AN]
+Did you need something?[A]
 
 [MidLeft]
-Well, of course I need something![.....][LoadOverworldFaces]
-I need you to take me with you!
-You can't leave me in this moldy fortress alone, can you?
+Well,[.5] of course I need something![......][N][LoadOverworldFaces]
+I need you to take me with you![AN]
+You can't leave me in this moldy[N]
+fortress alone,[.5] can you?[A]
 
 [MidRight]
-I saw you using magic earlier...
-Are you truly a magician?
+I saw you using magic earlier...[.6][N]
+Are you truly a magician?[A]
 
 [MidLeft]
-Of course I am! You're talking to Talitha Pancala, strongest mage in all of Maghmeall!
-I can blast anyone I wish down with my arcane might!
+Of course I am![.5] You're talking to Talitha[N]
+Pancala, the most powerful magician![AN]
+I can blast anyone I wish down with the[N]
+supreme power of my arcane might![A]
 
 [MidRight]
-Someone with those powers would be useful, but this is a war we are heading to fight.
+Someone with those powers would be useful,[.5][N]
+but this is a war we are headed to fight.[AN]
 
 [MidLeft]
-I know and understand that!
-Why else would I say yes?
+I understand that![.6][N]
+Why else would I say yes?[A]
 
 [MidRight]
-...Very well then.[N]
-We'll leave in a few. Be ready.[X]
+Very well then.[AN]
+We'll leave in a[N]
+few.[.6] Be ready.[A][X]
 
 
 
 ## P1C2MiachOnly
-[ConversationText]
 [MidLeft][LoadCethern]
 [MidRight][LoadMiach]
-W[....]-Where is everyone, Cethern?
-They can't be...![.....][MoveMidRight]
-Say something!
+W[....]-Where is everyone,[.5] Cethern?[.6][N]
+They can't be...![.....][MoveMidRight] Say something![A]
 
 [MidLeft][CloseEyes]
-I'm sorry, Miach.[.....][OpenEyes]
-We're the only two that made it...
+I'm sorry,[.5] Miach.[......][OpenEyes][N]
+We're the only two still here...[A][CloseSpeechSlow][.......]
 
 [MidRight]
-Are we still going to Pedryvan?
-Even without everybody...?
+Are we still going to war?[.6][N]
+Even without everybody...?[A]
 
 [MidLeft][CloseEyes]
-...[.....][OpenEyes]Yes. 
-Gather what you brought.
-We're still going to head for the camp.[X]
+[Beat] [OpenEyes]Yes.[.5][N]
+Gather what you brought.[AN]
+We're still going to head[N]
+for the camp.[.5] Let's go.[A][X]
+
+
+
+## P1C3FortressSadhbh
+[OpenMidRight][LoadSadhbh]
+[OpenMidLeft][LoadBres]
+Oh?[.6] A member of the Crownflight,[.5][N]
+right in front of me?[AN][ToggleSmile]
+I've heard all about them,[.5] but[N]
+this is my first time seeing one.[A]
+
+[MidRight][ToggleSmile]
+Who exactly are you?[.6] You better[N]
+not be one of these bandits.[A]
+
+[MidLeft]
+Absolutely not![.6] I'd much rather consider[N]
+myself a travelling intellectual.[A]
+
+[MidRight]
+Most intellectuals I know don't wander[N]
+around with a sword in their hand.[AN]
+Or hang around in abandoned forts[N]
+with men who kidnap young girls.[A]
+
+[MidLeft]
+I've come here for an entirely[N]
+different reason,[.5] my lady.[AN]
+Did you know this fortress preceeds[N]
+the kingdom of Corbenic?[AN]
+Of course,[.5] I didn't come here only[N]
+to admire the olden architecture.[AN]
+I've got someone I'm looking for.[A]
+
+[MidRight]
+I'll be keeping an eye on you.[AN]
+As long as you fight with us,[.5][N]
+we should have no problem.[A][X]
 
 
 

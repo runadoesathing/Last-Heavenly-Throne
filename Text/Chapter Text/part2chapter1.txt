@@ -76,7 +76,7 @@ That would be me.
 I didn't know you were up there![ToggleSmile]
 It makes sense, now that I look at you.
 Say, would you mind doing me a favour?
-You know Tara, the greatmother?[ToggleSmile]
+You know Khema, the greatmother?[ToggleSmile]
 She's still kicking, isn't she?
 
 [MidLeft][ToggleSmile]
@@ -510,7 +510,7 @@ Am I that infamous?
 
 [FarRight]
 I'm afraid you are.
-It's why Tara locks you and Soma up.
+It's why Khema locks you and Soma up.
 A woman with the Wardbearers' power is quite something.
 
 [MidLeft]
@@ -571,7 +571,7 @@ I promise I won't cause no trouble.
 
 [Left]
 We're almost there...
-Hopefully we can get in without Tara noticing...[X]
+Hopefully we can get in without Khema noticing...[X]
 
 
 
@@ -579,7 +579,7 @@ Hopefully we can get in without Tara noticing...[X]
 [ConversationText]
 [MidLeft]
 We're almost there...
-Hopefully we can get in without Tara noticing...[X]
+Hopefully we can get in without Khema noticing...[X]
 
 
 
@@ -592,7 +592,7 @@ Dharan Monastery[X]
 [ConversationText]
 [FarFarRight][LoadSrihwen][MoveRight][FarFarRight][LoadSoma][MoveFarRight][Right]
 The halls are always so calm here.
-I wonder where Tara is...?
+I wonder where Khema is...?
 
 [FarRight]
 Shhh.
@@ -602,14 +602,14 @@ We should return to our chambers quickly...!
 Ahem.
 I do believe I'm owed an explanation.
 
-[MidLeft][LoadTara]
+[MidLeft][LoadKhema]
 Soma...
 Did you believe I wouldn't notice your abscence?
 Or Srihwen's?
 Just because I am busy with Antariksa doesn't mean I am oblivious.
 
 [FarRight]
-Greatmother Tara, I can explain!
+Greatmother Khema, I can explain!
 You see, I--
 
 [MidLeft]
@@ -618,7 +618,7 @@ It is unsafe outside for Srihwen.
 Especially with the hostilites in the east, we can't endanger her.
 
 [Right]
-Please forgive us, Greatmother Tara.
+Please forgive us, Greatmother Khema.
 We didn't know we would be attacked...
 
 [MidLeft]
@@ -626,7 +626,7 @@ Attacked...?[.....]
 You were attacked?
 
 [Right]
-Greatmother Tara, Soma and Ethniu kept me safe...!
+Greatmother Khema, Soma and Ethniu kept me safe...!
 
 [MidLeft]
 Was it by the Anilan Order?
@@ -635,7 +635,7 @@ I knew this would happen...
 I knew we couldn't trust them!
 
 [FarRight][ClearFace][LoadEthniu]
-Greatmother Tara, please tell us what's going on.
+Greatmother Khema, please tell us what's going on.
 Why did you meet with Antariksa?
 
 [MidLeft]

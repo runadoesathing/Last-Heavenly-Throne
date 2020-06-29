@@ -23,6 +23,10 @@ SongTable(0xA,srihwen, 1)
 SongTable(0x11,redstain, 1)
 #include "redstain.event"
 
+// Antiquity
+SongTable(0x13,antiquity, 1)
+#include "antiquity.event"
+
 // Fly, Caged Bird
 SongTable(0x19,flycagedbird, 0)
 #include "flycagedbird.event"
@@ -35,7 +39,7 @@ SongTable(0x1A,birdfeeder,0)
 SongTable(0x1B,flamesofconflict,0)
 #include "flamesofconflict.event"
 
-// Dawn of the Five Suns
+// Heichalot's Flower
 SongTable(0x1C,themanysuns,0)
 #include "themanysuns.event"
 
@@ -59,6 +63,22 @@ SongTable(0x43,harpy, 0)
 SongTable(0x58,KnightsOath, 0)
 #include "KnightsOath.event"
 
-// Knight's Oath
+// War Cry
 SongTable(0x59,warcry, 0)
 #include "warcry.event"
+
+// Level Up (Gaiden)
+SongTable(0x5B,levelup,7)
+#include "levelup.event"
+
+// Greatmother of Dhara
+SongTable(0x5D,greatmother,0)
+#include "greatmother.event"
+
+// Primordial Reminders
+SongTable(0x5E,descension,1)
+#include "descension.event"
+
+// Save Sound
+//SongTable(0x60,savesound,3)
+//#include "savesound.event"

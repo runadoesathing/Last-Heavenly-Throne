@@ -81,7 +81,7 @@ Your death would be an ultimate revenge on Chandra![X]
 [ConversationText]
 [Right][LoadDhara2]
 [FarRight][LoadDhara]
-[MidLeft][LoadTara]
+[MidLeft][LoadKhema]
 That's the situation as it is.
 It appears a diplomatic solution may be lost on us.
 
@@ -129,7 +129,7 @@ I'm sorry, greatmother...!
 I told her to stay with me...
 
 [Right]
-Please, Greatmother Tara!
+Please, Greatmother Khema!
 I need to see if my grove is safe!
 
 [MidLeft]
@@ -187,7 +187,7 @@ I am losing track of the current topic, though.
 What matters is that neither Srihwen nor Soma are leaving!
 
 [FarRight][MoveRight]
-Greatmother Tara...[.....][MoveRight]
+Greatmother Khema...[.....][MoveRight]
 I've been given the blessings of the Springmother.
 I don't want to fight, but to sit locked away in this monastery...?
 It doesn't feel right.
@@ -238,7 +238,7 @@ Neither of you are leaving.
 Asking me so many times will not change my answer!
 
 [FarRight][MoveRight]
-Greatmother Tara...[.....][MoveRight]
+Greatmother Khema...[.....][MoveRight]
 I've been given the blessings of the Springmother.
 I don't want to fight, but to sit locked away in this monastery...?
 It doesn't feel right.
@@ -518,7 +518,7 @@ And it helps that I can guard Srihwen at the same time!
 [MidLeft][ToggleSmile]
 I'm sorry if I'm not the biggest help.
 I don't want to be some burden on keeping your grove safe.
-I just thought that Greatmother Tara would let you come if I did too.
+I just thought that Greatmother Khema would let you come if I did too.
 
 [Right]
 Don't worry about it!
@@ -598,7 +598,7 @@ And it helps that I can guard Srihwen at the same time!
 [MidLeft][ToggleSmile]
 I'm sorry if I'm not the biggest help.
 I don't want to be some burden on keeping your grove safe.
-I just thought that Greatmother Tara would let you come if I did too.
+I just thought that Greatmother Khema would let you come if I did too.
 
 [Right]
 Don't worry about it!

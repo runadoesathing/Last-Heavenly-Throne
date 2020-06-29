@@ -429,17 +429,17 @@ Rionall_Minimug:
 #incbin "Rionall_minimug.dmp"
 
 ALIGN 4
-SadhbhAlpha_Mug:
-#incbin "SadhbhAlpha_mug.dmp"
+Sadhbh_Mug:
+#incbin "Sadhbh_mug.dmp"
 ALIGN 4
-SadhbhAlpha_Frames:
-#incbin "SadhbhAlpha_frames.dmp"
+Sadhbh_Frames:
+#incbin "Sadhbh_frames.dmp"
 ALIGN 4
-SadhbhAlpha_Palette:
-#incbin "SadhbhAlpha_palette.dmp"
+Sadhbh_Palette:
+#incbin "Sadhbh_palette.dmp"
 ALIGN 4
-SadhbhAlpha_Minimug:
-#incbin "SadhbhAlpha_minimug.dmp"
+Sadhbh_Minimug:
+#incbin "Sadhbh_minimug.dmp"
 
 ALIGN 4
 Sanjana_Mug:

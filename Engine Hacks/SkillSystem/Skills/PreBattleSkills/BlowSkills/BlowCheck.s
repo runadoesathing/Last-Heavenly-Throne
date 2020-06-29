@@ -20,7 +20,7 @@ cmp r0, #0          @Check if unit has the corresponding Faire skill.
 bne SkillChecks
 SkillReturn:
 add     r4, #0x01
-cmp     r4, #0x0B
+cmp     r4, #0x0D
 bne     CheckLoop
 b       EndProgram
 SkillChecks:
@@ -48,6 +48,8 @@ cmp     r4, #0x0A
 beq     CleanFightSkill
 cmp     r4, #0x0B
 beq     BrackishBlowSkill
+cmp     r4, #0x0C
+beq     DiamantSkill
 b SkillReturn
 EndProgram:		@I had to move this to stop out of range errors. - Darrman
 pop {r4-r7}
@@ -208,6 +210,22 @@ ldrh r3, [r0]
 add r3, #4
 strh r3, [r0]
 b SkillReturn
+
+DiamantSkill:
+ldr r3,=0x203a968 @Spaces Moved
+ldrb r2,[r3]
+cmp r2, #0x2
+bhi Trampoline
+
+@add res/4 attack
+ldr r0, =0x203a4ec
+mov  r1, #0x5A
+ldrh r3, [r0, r1] @attack
+ldrb r2, [r0, #0x18] @res
+lsr  r2, #2
+add  r3, r2
+strh r3, [r0,r1]
+b       SkillReturn
 
 
 

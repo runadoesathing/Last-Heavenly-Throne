@@ -65,7 +65,11 @@
 #define Naitramya 0x24
 #define Nairatmya 0x24
 #define Dagmema 0x24
+#define Dogmeme 0x24
+#define DogMeme 0x24
+#define DogeMeme 0x24
 #define Nakstrani 0x25
+#define Trieu 0x26
 #define Miach 0x2E
 #define Sarmaree 0x45
 #define Aillen 0x46
@@ -140,6 +144,7 @@
 #define Halberdier 0x58
 #define Halberdier_F 0x59
 #define BowKnight 0x5A
+#define BowKeeper 0x5A
 #define Diviner_F 0x5B
 #define Child 0x6D
 #define Child_F 0x6E
@@ -176,6 +181,7 @@
 #define Clonkeine 0x8A
 #define WarpCard 0x91
 #define SpectreCard 0x92
+#define RescueCard 0x93
 #define Padma 0xB8
 #define SlimAxe 0xBC
 #define SlimBow 0xBD

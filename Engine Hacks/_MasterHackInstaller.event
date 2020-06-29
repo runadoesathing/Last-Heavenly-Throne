@@ -288,6 +288,8 @@ POP
   ALIGN 4
   //#include "ThreePromotions/ThreePromotions.event"
   MESSAGE three promotions end at currentOffset
+  
+  #include "ModularSupply/ModularSupply.event"
 
   ALIGN 4
   #include "SkillSystem/SkillSystemInstaller.event"

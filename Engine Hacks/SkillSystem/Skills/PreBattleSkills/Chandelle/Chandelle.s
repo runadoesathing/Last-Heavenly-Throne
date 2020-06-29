@@ -22,9 +22,12 @@ beq End
 
 ldr r3,=0x203a968 @Spaces Moved
 ldrb r2,[r3]
+cmp r2, #0xFF
+beq End
+
 mov r1, #0x62 @crit
 ldrh r0, [r4, r1]
-mov r3,#0x2
+mov r3,#0x3
 mul r3,r2
 add r0, r3
 strh r0, [r4,r1]

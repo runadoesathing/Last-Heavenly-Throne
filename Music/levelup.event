@@ -1,0 +1,150 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	levelup_grp  voicegroup001
+	#define	levelup_pri  0
+	#define	levelup_rev  0
+	#define	levelup_mvl  127
+	#define	levelup_key  0
+	#define	levelup_tbs  1
+	#define	levelup_exg  0
+	#define	levelup_cmp  1
+
+	// .rodata
+	//	levelup
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+levelup_1:
+	BYTE	KEYSH   levelup_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   145*levelup_tbs/2
+	BYTE		VOICE   63
+	BYTE		VOL     69*levelup_mvl/mxv
+	BYTE		PAN     c_v-14
+	BYTE		BEND    c_v+0
+	BYTE		N11     An3   v100
+	BYTE	W12
+	BYTE		N23     En4 
+	BYTE	W24
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		N11     Bn3 
+	BYTE	W12
+	BYTE		        Cn4 
+	BYTE	W12
+	BYTE		        Dn4 
+	BYTE	W12
+	BYTE		        Gn4 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		VOICE   63
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+levelup_2:
+	BYTE	KEYSH   levelup_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		VOL     70*levelup_mvl/mxv
+	BYTE		PAN     c_v+14
+	BYTE		BEND    c_v+0
+	BYTE		N11     An2   v100
+	BYTE	W12
+	BYTE		N23     En3 
+	BYTE	W24
+	BYTE		N05     Dn3 
+	BYTE	W06
+	BYTE		        Cn3 
+	BYTE	W06
+	BYTE		N11     Bn2 
+	BYTE	W12
+	BYTE		        Gn2 
+	BYTE	W12
+	BYTE		        Bn2 
+	BYTE	W12
+	BYTE		        Dn3 
+	BYTE	W12
+// 001   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+levelup_3:
+	BYTE	KEYSH   levelup_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		VOL     95*levelup_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE		N92     Fn2   v100
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		PAN     c_v+0
+	BYTE		        c_v+0
+	BYTE		        c_v+0
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+levelup_4:
+	BYTE	KEYSH   levelup_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*levelup_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*levelup_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*levelup_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*levelup_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N23     Gn2   v100
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+	BYTE		N23   
+	BYTE	W24
+// 001   ----------------------------------------
+	BYTE		VOICE   47
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*levelup_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*levelup_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*levelup_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+levelup:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	levelup_pri	// Priority
+	BYTE	levelup_rev	// Reverb.
+
+	POIN2	levelup_grp
+
+	POIN2	levelup_1
+	POIN2	levelup_2
+	POIN2	levelup_3
+	POIN2	levelup_4
+
+	

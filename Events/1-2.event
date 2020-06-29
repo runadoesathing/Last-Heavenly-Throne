@@ -70,16 +70,16 @@ UNIT Malava Fighter 0x0 Level(1, Enemy, 1)           [1,4]   0 0 1 REDA1R4      
 UNIT Malava SwordCav_F 0x0 Level(2, Enemy, 1)        [11,2]  0 0 1 REDA11R2        [IronSword] AttackInRangeAI
 UNIT Malava AxeCav 0x0 Level(1, Enemy, 1)            [11,14] 0 0 1 REDA11R14       [IronAxe]   [0,0,4,0]
 UNIT Malava Soldier 0x0 Level(1, Enemy, 1)           [7,13]  0 0 1 REDA7R13        [IronLance] [0,3,4,0]
-UNIT Malava Soldier 0x0 Level(2, Enemy, 1)           [3,6]   0 0 1 REDA3R6         [IronLance] [0,6,4,0]
+UNIT Malava Soldier 0x0 Level(2, Enemy, 1)           [3,6]   DropItem 0 1 REDA3R6         [IronLance] [0,6,4,0]
 UNIT
 
 Bandito1P:
-UNIT 0x80 Brigand 0x0 Level(1, Enemy, 1)             [7,0]   0 0 1 REDA7R0         [IronAxe] [6,4,0,0]
-UNIT 0x80 Brigand 0x0 Level(1, Enemy, 1)             [0,0]   0 0 1 REDA0R0         [IronAxe] [6,4,0,0]
+UNIT 0x80 Brigand 0x0 Level(1, Enemy, 1)             [7,0]   0 0 1 REDA7R0         [IronAxe] [0,4,0,0]
+UNIT 0x80 Brigand 0x0 Level(1, Enemy, 1)             [0,0]   0 0 1 REDA0R0         [IronAxe] [0,4,0,0]
 UNIT
 
 Bandito2P:
-UNIT 0x80 Brigand 0x0 Level(1, Enemy, 1)             [14,14] 0 0 1 REDA14R14       [IronAxe] [6,4,0,0]
+UNIT 0x80 Brigand 0x0 Level(1, Enemy, 1)             [14,14] 0 0 1 REDA14R14       [IronAxe] [0,4,0,0]
 UNIT
 
 ReinforcementsI:
@@ -155,12 +155,13 @@ CUMO Cethern
 STAL 60
 CURE
 Text(P1C1xClClClClClCl)
+STAL 20
 MUSC 0x9
 CALL 0x591F40
 SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
 STAL 20
 TUTORIALTEXTBOXSTART
-TEXTSHOW P1C1Warning
+TEXTSHOW P1C2Warning
 TEXTEND
 REMA
 NoFade
@@ -185,7 +186,7 @@ TEXTSHOW2 P1C2BadBoysHere
 TEXTEND
 REMA
 MUSCMID 0x7FFF
-FADI 4
+FADI 3
 STAL 60
 MUSC 0x4A
 SetBackground(VillageNight)

@@ -484,8 +484,8 @@ Critical Force: Base critical is[N]
 Skl * 1.5.[X]
 
 ## SD_Chivalry
-Chivalry: When enemy is at full HP,[N]
-damage and Def/Res +3.[X]
+Chivalrous Soul: When enemy is at[N]
+full HP, damage and Def/Res +3.[X]
 
 ## SD_Pragmatic
 Pragmatic: When enemy is not at full HP,[N]
@@ -1214,7 +1214,7 @@ all movement, gain brave effect.[X]
 
 ## SD_Haughty
 Haughty: +10 Crit/Crit Avoid when[N]
-user's Mag is higher than enemy's Str.[X]
+unit's Mag is higher than enemy's Str.[X]
 
 ## SD_Quintain
 Quintain: +15 Hit against[N]
@@ -1226,8 +1226,8 @@ is less than enemy's. (Promoted[N]
 units count as Level + 20).[X]
 
 ## SD_Chandelle
-Chandelle: Gain +2 Avoid[N]
-per space moved.[X]
+Chandelle: +3 Avoid per space moved.[N]
+(No bonuses for premature stops.)[X]
 
 ## SD_MachaArts
 Macha Arts: Take -4 damage/gain +40[N]
@@ -1280,11 +1280,11 @@ above 50% HP within two spaces.[X]
 
 ## SD_Abettor
 Confidant: If adjacent to Birnath, gain[N]
-+4 attack, Def/Res, and attack speed.[X]
++4 damage, Def/Res, and attack speed.[X]
 
 ## SD_DiamondDef
-Diamond Defense: +Res/4 attack when[N]
-user's Res is higher than enemy's Res.[X]
+Diamant: If unit moves two or less[N]
+spaces, +1 damage per 4 points of Res.[X]
 
 ## SD_Anticipation
 Anticipation: Unit gains +2 Avoid for[N]

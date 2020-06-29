@@ -23,7 +23,7 @@ NewSupportTable:
     BYTE 0x0 0x0 //separator
 
   HanlinSupport:
-  SupportCompatibility(SinGu,Bres,Enoch,Zheng,0,0,0)
+  SupportCompatibility(SinGu,Bres,Enoch,Zheng,Bheki,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 4 //number of partners
@@ -165,24 +165,24 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   BhekiSupport:
-  SupportCompatibility(Enoch,Radhe,Danand,Zheng,0,0,0)
+  SupportCompatibility(Enoch,Radhe,Hanlin,Kyuhn,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 4 //number of partners
   BYTE 0x0 0x0 //separator
 
   DanandSupport:
-  SupportCompatibility(Sengann,Kyuhn,Aingha,Naamah,Bheki,Gusainji,Nakstrani)
+  SupportCompatibility(Sengann,Kyuhn,Aingha,Naamah,Gusainji,Nakstrani,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 7 //number of partners
+  BYTE 6 //number of partners
   BYTE 0x0 0x0 //separator
 
   KyuhnSupport:
-  SupportCompatibility(Danand,Zheng,Marici,Len,0,0,0)
+  SupportCompatibility(Danand,Zheng,Marici,Len,Bheki,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 4 //number of partners
+  BYTE 5 //number of partners
   BYTE 0x0 0x0 //separator
 
   GusainjiSupport:
@@ -207,10 +207,10 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   ZhengSupport:
-  SupportCompatibility(Hanlin,Kyuhn,Murugan,Bheki,0,0,0)
+  SupportCompatibility(Hanlin,Kyuhn,Murugan,0,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 4 //number of partners
+  BYTE 3 //number of partners
   BYTE 0x0 0x0 //separator
 
   RadheSupport:
@@ -266,7 +266,7 @@ NewSupportTable:
   SupportCompatibility(Ethniu,Soma,Aingha,Enoch,Ferdiad,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 4 //number of partners
+  BYTE 5 //number of partners
   BYTE 0x0 0x0 //separator
 
 BYTE 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 

@@ -119,7 +119,7 @@
 [LoadDhara] = [LoadFace][0x52][0x1]
 [LoadDhara2] = [LoadFace][0x53][0x1]
 [LoadAnker] = [LoadFace][0x54][0x1]
-[LoadTara] = [LoadFace][0x55][0x1]
+[LoadKhema] = [LoadFace][0x55][0x1]
 [LoadAlvarin] = [LoadFace][0x56][0x1]
 [LoadMustacheMan] = [LoadFace][0x58][0x1]
 [LoadOldMan] = [LoadFace][0x59][0x1]

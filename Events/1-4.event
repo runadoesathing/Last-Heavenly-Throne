@@ -235,7 +235,6 @@ BEQ 0x2 0xC 0x0
 	TEXTSHOW P1C3FeAlive
 	GOTO 0x66
 LABEL 0x2
-ENUT CluainBolgGone // no one is alive
 TEXTSHOW P1C3NoOneAlive
 LABEL 0x66
 TEXTEND
@@ -272,9 +271,6 @@ TEXTEND
 REMA
 ENUT 0x13
 LABEL 0xBB
-CALL 0x591F40
-SVAL 0x3 3000
-GIVEITEMTOMAIN 0x0
 MUSCMID 0x7FFF
 FADI 4
 STAL 60
@@ -405,38 +401,66 @@ TEXTEND
 REMA
 FADI 5
 STAL 60
-MUSC 0x31
+MUSC 0x32
 SetBackground(VillageCG)
 TEXTSTART
 TEXTSHOW P1C3TheHeichalotiansAreGone
 TEXTEND
-REMA
-FADI 4
-STAL 60
-MUSC 0x36
-SetBackground(TavernCG)
-BROWNBOXTEXT LaterThatDay [8,8] // box in the top right that's pretty cool for small text
-TEXTSTART
-CHECK_ALIVE Aengus
-BEQ 0x0 0x0 0xC
-	CHECK_ALIVE Ethniu
-	BEQ 0x1 0x0 0xC
-		TEXTSHOW P1C3AengusEthniuCethernInTheVilla
-		GOTO 0x3
-	TEXTSHOW P1C3AengusCethernInTheVilla
-	GOTO 0x3
-LABEL 0x0
 CHECK_ALIVE Ethniu
-BEQ 0x2 0x0 0xC
-	TEXTSHOW P1C3EthniuCethernInTheVilla
-	GOTO 0x3
-LABEL 0x2
-TEXTSHOW P1C3CethernInTheVilla
-LABEL 0x3
+BEQ 0xA0 0xC 0x0
+  CHECK_ALIVE Aengus
+  BEQ 0xA1 0xC 0x0
+    TEXTSHOW2 P1C3Aengus
+    TEXTEND
+    TEXTSHOW2 P1C3AengusReaction
+    TEXTEND
+    TEXTSHOW2 P1C3Ethniu
+    TEXTEND
+    TEXTSHOW2 P1C3EthniuAfterAengusReaction
+    TEXTEND
+    TEXTSHOW2 P1C3EthniuBerates
+    TEXTEND
+    TEXTSHOW2 P1C3AengusAgrees
+    TEXTEND
+    TEXTSHOW2 P1C3But
+    TEXTEND
+    TEXTSHOW2 P1C3CethernAengusEthniu
+    TEXTEND
+    GOTO 0xA3
+  LABEL 0xA1
+  TEXTSHOW2 P1C3Ethniu
+  TEXTEND
+  TEXTSHOW2 P1C3EthniuReaction
+  TEXTEND
+  TEXTSHOW2 P1C3EthniuBerates
+  TEXTEND
+  TEXTSHOW2 P1C3But
+  TEXTEND
+  TEXTSHOW2 P1C3CethernEthniu
+  TEXTEND
+LABEL 0xA0
+CHECK_ALIVE Aengus
+BEQ 0xA2 0xC 0x0
+  TEXTSHOW2 P1C3Aengus
+  TEXTEND
+  TEXTSHOW2 P1C3AengusReaction
+  TEXTEND
+  TEXTSHOW2 P1C3AengusBerates
+  TEXTEND
+  TEXTSHOW2 P1C3ButAengus
+  TEXTEND
+  TEXTSHOW2 P1C3But
+  TEXTEND
+  TEXTSHOW2 P1C3CethernAengus
+  TEXTEND
+  GOTO 0xA3
+LABEL 0xA2
+TEXTSHOW2 P1C3NoAengusEthniu
 TEXTEND
+LABEL 0xA3
 REMA
+MUSCMID 0x7FFF
 FADI 4
-//put the sadhbh rionall event here
 STAL 60
 CHECK_ALIVE Sadhbh
 BEQ 0x40 0x0 0xC
@@ -658,12 +682,20 @@ NoFade
 ENDA
 
 CleartheSeal:
+MUSC 0x9
+CUMO Hanlin
+STAL 60
+CURE
+Text(P1C3Funds)
+CALL 0x591F40
+SVAL 0x3 3000
+GIVEITEMTOMAIN 0x0
 ASMC ClearDebuffs|1
 NoFade
 ENDA
 	
 ShopBruh:
-SHLI Fire Flux Heal Vulnerary Elixir
+SHLI Fire Flux Heal WarpCard RescueCard Vulnerary Elixir
 ALIGN 4
 
 ArmoryBruh:

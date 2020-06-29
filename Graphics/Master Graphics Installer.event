@@ -16,7 +16,7 @@ ALIGN 4
 ALIGN 4
 //Mugs Install
 MESSAGE Mugs begin at currentOffset
-#include "Mugs/Mug Installer.event"
+#include "Mugs/_Mug Installer.event"
 MESSAGE Mugs end at currentOffset
 
 ALIGN 4

@@ -20,13 +20,15 @@ TURN 0x1E OhNoTheyreComing [1, 255] 0x0
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x8,LalithaRecruit, Cethern, Lalitha)
-CharacterEventBothWays(0x8,LalithaRecruit, Setanta, Lalitha)
-CharacterEventBothWays(0x8,LalithaRecruit, Ferdiad, Lalitha)
-CharacterEventBothWays(0x8,LalithaRecruit, Sadhbh, Lalitha)
-CharacterEventBothWays(0x8,LalithaRecruit, Bres, Lalitha)
-CharacterEventBothWays(0x8,LalithaRecruit, Dagmema, Lalitha)
-CharacterEventBothWays(0x9,BresRecruit, Cethern, Bres)
+CharacterEventBothWays(0x8, LalithaRecruit, Cethern, Lalitha)
+CharacterEventBothWays(0x8, LalithaRecruit, Setanta, Lalitha)
+CharacterEventBothWays(0x8, LalithaRecruit, Ferdiad, Lalitha)
+CharacterEventBothWays(0x8, LalithaRecruit, Sadhbh, Lalitha)
+CharacterEventBothWays(0x8, LalithaRecruit, Bres, Lalitha)
+CharacterEventBothWays(0x8, LalithaRecruit, Dagmema, Lalitha)
+CharacterEventBothWays(0x9, BresRecruit, Cethern, Bres)
+CharacterEvent(0xA, FortressSadhbh, Sadhbh, Bres, 0x9)
+CharacterEvent(0xA, FortressSadhbh, Bres, Sadhbh, 0x9)
 END_MAIN
 
 LocationBasedEvents:
@@ -120,6 +122,7 @@ TheSquadronBoi:
 UNIT Sadhbh Crownflier 0x1 Level(1, Ally, 0)    [0,4] 0x0 0x0 0x1 REDA9R11 [0x0] [0x0,0x0,0x0,0x0]
 UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [0,5] 0x0 0x0 0x1 REDA9R12 [0x0] [0x0,0x0,0x0,0x0]
 UNIT Ferdiad BowCav 0x1 Level(1, Ally, 0)    [0,5] 0x0 0x0 0x1 REDA8R11 [0x0] [0x0,0x0,0x0,0x0]
+UNIT Dagmema BowKeeper 0x1 Level(1, Ally, 0) [0,4] 0x0 0x0 0x1 REDA8R12 [0x0] [0,0,0,0]
 UNIT
 
 SheJoins:
@@ -213,7 +216,23 @@ MUSC 0x24
 SetBackground(0x1B)
 BROWNBOXTEXT CaerGolud [8,8] // box in the top right that's pretty cool for small text
 TEXTSTART
-TEXTSHOW P1C2ToCaerWydyr
+TEXTSHOW P1C2ToCaerWydyrSadhbh
+TEXTEND
+CHECK_ALIVE Dagmema
+BEQ 0xB33 0xC 0x0
+  TEXTSHOW2 P1C2DogMemeCaerWydyr
+  GOTO 0xB34
+TEXTSHOW2 P1C2DogMemeDead
+LABEL 0xB34
+TEXTEND
+TEXTSHOW2 P1C2FortniteFortnite
+TEXTEND
+CHECK_ALIVE Dagmema
+BEQ 0xB35 0xC 0x0
+  TEXTSHOW2 P1C2DogMemeB
+  TEXTEND
+LABEL 0xB35
+TEXTSHOW2 P1C2KuroiNino
 TEXTEND
 REMA
 FADI 4
@@ -345,6 +364,7 @@ CLEE 0x0
 CLEN 0x0
 _0x2620 0xC0C
 MUSC 0x26
+CAM1 [15,11]
 FADU 4
 STAL 20
 LOAD2 0x1 MiachHereBoi
@@ -424,7 +444,25 @@ LABEL 0x1
 	REMA
 	GOTO 0x3
 LABEL 0x2
-ENUT 0xA
+	CHECK_ALIVE Dagmema
+	BEQ 0x44 0xC 0x0
+  ENUT CluainBolgGone // no one is alive
+	TEXTSTART
+	TEXTSHOW P1C2MiachYouDummy
+	TEXTEND
+	REMA
+	LOAD2 0x1 TheSquadronBoi
+	ENUN
+	CUMO [8,12]
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW P1C2DogMemeAlive
+	TEXTEND
+	REMA
+	GOTO 0x3
+LABEL 0x44
+ENUT CluainBolgGone // no one is alive
 TEXTSTART
 TEXTSHOW P1C2NoOneAlive
 TEXTEND
@@ -501,7 +539,7 @@ LABEL 0x8
 MUSCMID 0x7FFF
 FADI 4
 STAL 60
-CHECK_EVENTID 0xA //is everyone dead from cluain bolg but cethern?
+CHECK_EVENTID CluainBolgGone //is everyone dead from cluain bolg but cethern?
 BEQ 0xA 0x0 0xC
 	EnterStop
 	MUSC 0x2B
@@ -553,15 +591,21 @@ NoFade
 ENDA
 
 LalithaRecruit:
-MUSC 0x30
+MUSS 0x30
+STAL 33
+STORETOSOMETHING 0x0
 Text(P1C2LalithaFerdiad)
+MURE 0x2
 CUSA Lalitha
 NoFade
 ENDA
 
 BresRecruit:
-MUSC 0x30
+MUSS 0x30
+STAL 33
+STORETOSOMETHING 0x0
 Text(P1C2BresCethern)
+MURE 0x2
 CUSA Bres
 NoFade
 ENDA
@@ -583,6 +627,14 @@ ENUN
 TEXTCONT
 TEXTEND
 REMA
+NoFade
+ENDA
+
+FortressSadhbh:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+Text(P1C3FortressSadhbh)
+MUNO
 NoFade
 ENDA
 

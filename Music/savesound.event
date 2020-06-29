@@ -1,0 +1,98 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	savesound_grp  voicegroup001
+	#define	savesound_pri  0
+	#define	savesound_rev  0
+	#define	savesound_mvl  127
+	#define	savesound_key  0
+	#define	savesound_tbs  1
+	#define	savesound_exg  0
+	#define	savesound_cmp  1
+
+	// .rodata
+	//	savesound
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+savesound_1:
+	BYTE	KEYSH   savesound_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   180*savesound_tbs/2
+	BYTE		VOICE   11
+	BYTE		VOL     82*savesound_mvl/mxv
+	BYTE		PAN     c_v-26
+	BYTE		BEND    c_v+0
+	BYTE		N05     Gs5   v100
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE		        Gs5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		        Ds5 
+	BYTE	W06
+	BYTE		        En5 
+	BYTE	W06
+	BYTE		N17     Cs5 
+	BYTE	W18
+	BYTE		N23     Gs4 
+	BYTE	W24
+	BYTE		N68     Cs4 
+	BYTE		N68     Fs4 
+	BYTE		N68     Gs4 
+	BYTE	W18
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+savesound_2:
+	BYTE	KEYSH   savesound_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   11
+	BYTE		VOL     63*savesound_mvl/mxv
+	BYTE		PAN     c_v+24
+	BYTE		BEND    c_v+0
+	BYTE		N05     Cs4   v100
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		        Cs5 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N17     Cs4 
+	BYTE	W18
+	BYTE		N23     Dn4 
+	BYTE	W42
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+savesound:
+	BYTE	2	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	savesound_pri	// Priority
+	BYTE	savesound_rev	// Reverb.
+
+	POIN2	savesound_grp
+
+	POIN2	savesound_1
+	POIN2	savesound_2
+
+	

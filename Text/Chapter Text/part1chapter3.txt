@@ -1,15 +1,14 @@
 ## LamechBQ
-[BattleText]
 [OpenMidLeft][LoadLamech]
-Surrender, or fall before the might of Heichalot's forces![X]
+Surrender,[.5] or be caught in the[N]
+snares Heichalot lures you to![A][X]
 
 
 
 ## LamechDQ
-[BattleText]
 [OpenMidLeft][LoadLamech]
-I cannot fall here...[.....]
-[CloseEyes]The village should've been...![X]
+So,[.4] this is where I fall.[......][N]
+[CloseEyes]A deserving end for me...[A][X]
 
 
 
@@ -17,13 +16,13 @@ I cannot fall here...[.....]
 The party departs towards[N]
 the encampment on the border[N]
 between Corbenic and Heichalot.[AN]
-Bringing with themselves[N]
-Cethern's younger brother Miach,[AN]
-they rout an abandoned fortress of[N]
-bandits harrassing a young girl.[AN]
-With an additional notch on[N]
-their belts,[.....] the group continues[N]
-from Golud to Pedryvan.[A][X]
+Bringing with them Cethern's[N]
+younger brother, Miach,[.5] they rout[AN]
+an abandoned fortress of bandits[N]
+harrassing a young magician.[AN]
+With an additional notch on their[N]
+belts,[.....] the group continues from[N]
+Golud to the Pedryvan camp.[A][X]
 
 
 
@@ -58,1325 +57,1617 @@ Manapia, Pedryvan[X]
 
 
 ## P1C3EveryoneAlive
-[ConversationText]
 [OpenMidLeft][LoadCethern]
 [OpenMidRight][LoadSadhbh]
-We've finally arrived at the border.
-Gather your breath for a second.
-We'll need to introduce ourselves to the commander as soon as we can.
+We've finally arrived at the border.[.6][N]
+Gather your breath for a second.[AN]
+We'll need to introduce ourselves[N]
+to the commander as soon as we can.[A]
 
 [OpenMidLeft]
-Thank you, Lady Sadhbh.[....][MoveMidLeft]
-Looks like a lot of soldiers are here.
+Thank you, Lady Sadhbh.[MoveMidLeft][N]
+Looks like a lot of soldiers are here.[A]
 
 [OpenMidRight]
-It's not as many as it should be.
-We had forces in Srughna helping with floods, but getting them back is tricky.
-It doesn't help that Srughna refuses to be involved in this confrontation.
+It's not as many as it should be.[AN]
+We had forces in Srughna,[.5] but you may[N]
+already know the problem with that.[AN]
+The Kingdom of Srughna refuses to be[N]
+involved in this confrontation.[A]
 
 [OpenMidLeft]
-Sounds like a messy situation.
-I'm glad that all of us are here to help bolster the encampment.[....]
-But, is it normally this cold up here so early...?
+I've seen the messiness firsthand...[AN]
+I'm glad that all of us are here[N]
+to help bolster the encampment.[AN]
+But, is it normally this cold up[N]
+here so early in the year...?[A]
 
 [OpenMidRight]
-It is. We should get you inside.
-You'll get used to it soon enough.[X]
+It is.[.6] We should get you inside.[.6][N]
+You'll get used to it soon enough.[A][X]
 
 
 
 ## P1C3SaAliveFeDead
-[ConversationText]
 [OpenMidLeft][LoadCethern]
 [OpenMidRight][LoadSadhbh]
-We've finally arrived at the border.
-Gather your breath for a second.
-We'll need to introduce ourselves to the commander as soon as we can.
+We've finally arrived at the border.[.6][N]
+Gather your breath for a second.[AN]
+We'll need to introduce ourselves[N]
+to the commander as soon as we can.[A]
 
 [OpenMidLeft]
-Thank you, Lady Sadhbh.[....][MoveMidLeft]
-Looks like a lot of soldiers are here.
+Thank you, Lady Sadhbh.[MoveMidLeft][N]
+Looks like a lot of soldiers are here.[A]
 
 [OpenMidRight]
-It's not as many as it should be.
-We had forces in Srughna helping with floods, but getting them back is tricky.
-It doesn't help that Srughna refuses to be involved in this confrontation.
+It's not as many as it should be.[AN]
+We had forces in Srughna,[.5] but you may[N]
+already know the problem with that.[AN]
+The Kingdom of Srughna refuses to be[N]
+involved in this confrontation.[A]
 
 [OpenMidLeft]
-Sounds like a messy situation.[.....][CloseEyes]
-... ...
+I've seen the messiness firsthand...[.6][N][CloseEyes]
+[Beat] [Beat][A]
 
 [OpenMidRight]
-What was your friend's name again...
-It was Feridad, correct?
+I can't forgive myself either for[N]
+what happened to her,[.5] Cethern...[AN]
+It was my duty to protect you,[.5][N]
+but Ferdiad...?[AN]
+She meant as much to me as she[N]
+did you.[.6] Her death was my fault.[A]
 
 [OpenMidLeft][OpenEyes]
-Yes...
-I should have been able to protect her.
-But I couldn't.
-I'm doubting my choice to be here.
-I couldn't imagine losing S[0xE9]tanta, or...
+Don't say that,[.5] Lady Sadhbh.[.6][N]
+I should have been able to protect her.[A][......][N]
+I'm doubting my choice to be here.[.5][N]
+I couldn't imagine losing S[0xE9]tanta, or...[A]
 
 [OpenMidRight]
-That is the reality of war, Cethern.
-If you wish to go back, I could--
+This...[.6] This is the reality of war,[.5] Cethern.[.6][N]
+If you wish to go back, I could--[A]
 
 [OpenMidLeft]
-I'm not going back, Lady Sadhbh.
-I need to protect my family.
+I'm not going back,[.5] Lady Sadhbh.[.6][N]
+I need to protect my family.[A]
 
 [OpenMidRight]
-Very well then. Let's head to the commander.
-You must be freezing cold here outside.[X]
+Very well then.[.5] Let's find the commander.[.6][N]
+You must be freezing cold here outside.[A][X]
 
 
 
 
 ## P1C3SaAliveSeDead
-[ConversationText]
 [OpenMidLeft][LoadCethern]
 [OpenMidRight][LoadSadhbh]
-We've finally arrived at the border.
-Gather your breath for a second.
-We'll need to introduce ourselves to the commander as soon as we can.
+We've finally arrived at the border.[.6][N]
+Gather your breath for a second.[AN]
+We'll need to introduce ourselves[N]
+to the commander as soon as we can.[A]
 
 [OpenMidLeft]
-Thank you, Lady Sadhbh.[....][MoveMidLeft]
-Looks like a lot of soldiers are here.
+Thank you, Lady Sadhbh.[MoveMidLeft][N]
+Looks like a lot of soldiers are here.[A]
 
 [OpenMidRight]
-It's not as many as it should be.
-We had forces in Srughna helping with floods, but getting them back is tricky.
-It doesn't help that Srughna refuses to be involved in this confrontation.
+It's not as many as it should be.[AN]
+We had forces in Srughna,[.5] but you may[N]
+already know the problem with that.[AN]
+The Kingdom of Srughna refuses to be[N]
+involved in this confrontation.[A]
 
 [OpenMidLeft]
-Sounds like a messy situation.[.....][CloseEyes]
-... ...
+I've seen the messiness firsthand...[.6][N][CloseEyes]
+[Beat] [Beat][A]
 
 [OpenMidRight]
-That other boy's name...
-Wasn't it S[0xE9]tanta?
+That other boy's name...[.6][N]
+Wasn't it S[0xE9]tanta?[A]
 
 [OpenMidLeft][OpenEyes]
-It was...
-He said that me, Ferdiad, and him would be a trio together.
-It's hard to register that he's gone.
+It was...[.5] He said that me,[.5] Ferdiad,[.5][N]
+and him would be a trio together.[AN]
+It's hard to register that he's gone...[A]
 
 [OpenMidRight]
-That is the reality of war, Cethern.
-If you wish to go back, I could--
+That is the reality of war,[.5] Cethern.[.6][N]
+If you wish to go back, I could--[A]
 
 [OpenMidLeft]
-I'm not going back, Lady Sadhbh.
-I need to protect my family.
+I'm not going back,[.5] Lady Sadhbh.[.6][N]
+I need to protect my family.[A]
 
 [OpenMidRight]
-Very well then. Let's head to the commander.
-You must be freezing cold here outside.[X]
+Very well then.[.5] Let's find the commander.[.6][N]
+You must be freezing cold here outside.[A][X]
 
 
 
 ## P1C3SaAliveRestDead
-[ConversationText]
 [OpenMidLeft][LoadCethern]
 [OpenMidRight][LoadSadhbh]
-We've finally arrived at the border.
-Gather your breath for a second.
-We'll need to introduce ourselves to the commander as soon as we can.
+We've finally arrived at the border.[.6][N]
+Gather your breath for a second.[AN]
+We'll need to introduce ourselves[N]
+to the commander as soon as we can.[A]
 
 [OpenMidLeft]
-Thank you, Lady Sadhbh.[....][MoveMidLeft]
-Looks like a lot of soldiers are here.
+Thank you, Lady Sadhbh.[MoveMidLeft][N]
+Looks like a lot of soldiers are here.[A]
 
 [OpenMidRight]
-It's not as many as it should be.
-We had forces in Srughna helping with floods, but getting them back is tricky.
-It doesn't help that Srughna refuses to be involved in this confrontation.
+It's not as many as it should be.[AN]
+We had forces in Srughna,[.5] but you may[N]
+already know the problem with that.[AN]
+The Kingdom of Srughna refuses to be[N]
+involved in this confrontation.[A]
 
 [OpenMidLeft]
-Sounds like a messy situation.[.....][CloseEyes]
-... ...
+I've seen the messiness firsthand...[.6][N][CloseEyes]
+[Beat] [Beat][A]
 
 [OpenMidRight]
-I'm terribly sorry that I was unable to keep your friends safe.
-Even with you knowing the risk, I should've done more to protect you.
+I'm terribly sorry that I was unable[N]
+to keep your friends safe.[AN]
+Even with you knowing the risk,[.5] I[N]
+should've done more to protect you.[A]
 
 [OpenMidLeft][OpenEyes]
-It was not your fault, Lady Sadhbh.[.....]
-I shouldn't have let them come...
+It was not your fault,[.5] Lady Sadhbh.[......][N]
+I shouldn't have let them come...[A]
 
 [OpenMidRight]
-You should not feel pressured to stay.
-I can return you to Cluain Bolg if--
+You should not feel pressured to stay.[.6][N]
+I can return you to Cluain Bolg if--[A]
 
 [OpenMidLeft]
-I'm not going back, Lady Sadhbh.
-I need to protect my family.
+I'm not going back,[.5] Lady Sadhbh.[.6][N]
+I need to protect my family.[A]
 
 [OpenMidRight]
-Very well then. Let's head to the commander.
-You must be freezing cold here outside.[X]
+Very well then.[.5] Let's find the commander.[.6][N]
+You must be freezing cold here outside.[A][X]
 
 
 
 ## P1C3SeAlive
-[ConversationText]
 [OpenMidRight][LoadSetanta]
 [OpenMidLeft][LoadCethern]
-We're here at the camp...
-Are you holding up okay, S[0xE9]tanta?
+We're here at the camp...[.6][N]
+Are you holding up okay,[.5] S[0xE9]tanta?[A]
 
 [OpenMidRight]
-I'm just in shock.
-I didn't think Sadhbh would be the first one to die...
+I'm just in shock.[AN]
+I didn't think Sadhbh would[N]
+be the first one to die...[A]
 
 [OpenMidLeft]
-I'm surprised as well.[CloseEyes]
-It's a terrible thing to happen...[OpenEyes]
-Will the people here even take us seriously without her?
+I'm surprised as well.[.6][N][CloseEyes]
+It's a terrible thing to happen...[OpenEyes][AN]
+Will the people here even take[N]
+us seriously without her?[A]
 
 [OpenMidRight]
-We could always head back...
-We should head back.
-But I know that you'd never take that as an option.
+We could always head back...[.6][N]
+We should head back.[AN]
+But I know that you'd never[N]
+take that as an option.[A]
 
 [OpenMidLeft]
-You know that I cannot, S[0xE9]tanta.
-Neither would Ferdiad.
-We're here to fight for the safety of our village and families.
+You know that I cannot,[.5] S[0xE9]tanta.[.6][N]
+Neither would Ferdiad.[AN]
+We're here to fight for the safety[N]
+of our village and families.[A]
 
 [OpenMidRight]
-I don't agree with it, but I understand it.
-You should try to find whoever runs this camp then.
-They should probably know what happened to Sadhbh.
+I don't agree with it,[.5] but I[N]
+understand it.[AN]
+You should try to find whoever[N]
+runs this camp then.[AN]
+They should probably know what[N]
+happened to Sadhbh.[A]
 
 [OpenMidLeft]
-Are you not coming with me?
+Are you not coming with me?[A]
 
 [OpenMidRight]
-I need to make sure Fern is alright.
-She might put on a courageous front when we're talking about fighting, but she's still the same person as always, constantly fretting over everyone...
+I need to make sure Fern is alright.[AN]
+She might put on a courageous front[N]
+when we're talking about fighting,[AN]
+but she's still a worrywart at heart.[A]
 
 [OpenMidLeft]
-Check up on Miach too.
-He could be distraught as well.
-I'll be back soon.[X]
+Check up on Miach too.[AN]
+Lady Sadhbh's death may[N]
+take a toll on him.[AN]
+I'll be back soon.[A][X]
 
 
 
 ## P1C3SeAliveFeDead
-[ConversationText]
 [OpenMidRight][LoadSetanta]
 [OpenMidLeft][LoadCethern]
-We're here at the camp...
-Are you holding up okay, S[0xE9]tanta?
+We're here at the camp...[.6][N]
+Are you holding up okay,[.5] S[0xE9]tanta?[A]
 
 [OpenMidRight]
-I still can't believe they're gone...[MoveMidRight]
-We shouldn't be out here Cethern.
-Sadhbh and Fern are both dead.
-Either of us could be next.
+I still can't believe they're gone...[MoveMidRight][N]
+We shouldn't be out here Cethern.[AN]
+Sadhbh and Fern are both dead.[.5][N]
+Either of us could be next.[A]
 
 [OpenMidLeft][CloseEyes]
-I know that.[OpenEyes]
-It hurts me just as much.
-But running away would just make their loss be in vain.
+I know that.[.6][N][OpenEyes]
+It hurts me just as much.[AN]
+But running away would just[N]
+make their loss be in vain.[A]
 
 [OpenMidRight][CloseEyes]
-Fern...[......][OpenEyes]
-I have to stay for her. She'd yell at me if I tried to run away without you.
-But we have to promise not to die on each other, Cethern.
-We are a duo, aren't we?
+Fern...[.......][OpenEyes][N]
+I have to stay for her.[A] She'd yell at[N]
+me if I tried to run away without you.[AN]
+But we have to promise not to die on[N]
+each other.[.6] We're a duo,[.5] right?[A]
 
 [OpenMidLeft]
-We are, S[0xE9]tanta.
-Indeed we are.[.....]
-Could you check up on Miach?
+We are,[.5] S[0xE9]tanta.[.6] Indeed we are.[.6][N]
+Could you check up on Miach?[A]
 
 [OpenMidRight]
-Trying to find the person who runs this encampment?
-I don't know if I'm the best person to comfort your brother...
+Going to find the person[N]
+who runs this encampment?[AN]
+I don't know if I'd be good[N] 
+at comforting your brother...[A]
 
 [OpenMidLeft]
-You'll do fine, S[0xE9]tanta.
-I need to tell them about Lady Sadhbh.
-I'll be back soon, I promise.[X]
+You'll do fine,[.5] Setanta.[.6] I need to tell them[N]
+about Lady Sadhbh.[.6] I'll be back soon.[A][X]
 
 
 
 ## P1C3FeAlive
-[ConversationText]
 [OpenMidLeft][LoadCethern]
 [OpenMidRight][LoadFerdiad]
-I can't believe we made it here...[CloseEyes]
-It didn't seem like we would.[OpenEyes]
+I can't believe we made it here...[.6][N][CloseEyes]
+It didn't seem like we would.[OpenEyes][A]
 
 [OpenMidLeft]
-You and Miach should take some rest.
-I'll try and find the commander.
+You and Miach should take some rest.[.6][N]
+I'll try and find the commander.[A]
 
 [OpenMidRight]
-Cethern, I'm coming with you.
-You're not the only person--
+Cethern,[.5] I'm coming with you.[.6][N]
+You're not the only person--[A]
 
 [OpenMidLeft]
-Ferdiad, you really should rest.
-You might be hiding it now, but there are tears behind your eyes.
-I've known you for long enough.
+Ferdiad,[.5] you really should rest.[AN]
+You might be hiding it now,[.5] but[N]
+there are tears behind your eyes.[AN]
+I've known you for long enough.[A]
 
 [OpenMidRight]
-And what about you Cethern?
-You stress about everything, but you push people away instead of letting them help you!
+And what about you Cethern?[.6][N]
+You stress about everything,[AN]
+but you push people away[N]
+instead of letting them help![A]
 
 [OpenMidLeft]
-Ferdiad, I...!
+Ferdiad,[.5] I...![A]
 
 [OpenMidRight]
-Have you decided that you're somehow more resilient than I am?![MoveMidRight]
-Maybe you are.[......] 
-Maybe you've buried your regret for S[0xE9]tanta and Lady Sadhbh.
+Have you decided that you're somehow[N]
+more resilient than I am?![A][MoveMidRight][N]
+Maybe you are.[.6] Maybe you've buried your[N]
+regret for S[0xE9]tanta and Lady Sadhbh.[A]
 
 [OpenMidLeft]
-That's not what I meant, Ferdiad![CloseEyes]
-... ...[OpenEyes]
+That's not what I meant,[.5] Ferdiad...![N][CloseEyes]
+[Beat] [Beat][OpenEyes][A]
 
 [OpenMidRight]
-... ...
+[Beat] [Beat][A]
 
 [OpenMidLeft]
-... ...[MoveMidLeft]
-Can you please take care of Miach?
-I'm worried about him as well.
-He knew S[0xE9]tanta almost as well as us, and I'm not sure if he understood the risk of going to war as much as we do...
+[Beat] [Beat][MoveMidLeft][N]
+Can you please take care of Miach?[AN]
+I'm worried about him as well.[AN]
+I'm not sure if he understood the risk[N]
+of going to war as much as we do...[A]
 
 [OpenMidRight][MoveMidRight][CloseEyes]
-If you say so...[OpenEyes]
-But know this Cethern.
-You are not the only competent member of our whole group.[CloseEyes]
-We cannot push others away and expect to be fine...[X]
+If you say so...[.6][N][OpenEyes]
+But know this Cethern.[AN]
+You are not the only competent[N]
+member of our whole group.[AN][CloseEyes]
+You can't push others away and[N]
+expect to be fine...[A][X]
 
 
 
 ## P1C3NoOneAlive
-[ConversationText]
 [OpenMidRight][LoadMiach]
 [OpenMidLeft][LoadCethern]
-Miach, stay close to me. I don't want to lose you among everyone.
+Miach,[.5] stay close to me.[.6] I don't want[N]
+to lose you among everyone.[A]
 
 [OpenMidRight]
-I'm staying as close as I can.[MoveMidRight]
-Cethern...?
+I'm staying as close as[N]
+I can.[MoveMidRight] Cethern...?[A]
 
 [OpenMidLeft]
-Is everything okay, Miach?
+Is everything okay,[.5] Miach?[A]
 
 [OpenMidRight]
-I[.....]-I[CloseEyes] shouldn't have come, Cethern.[OpenEyes]
-We should've stayed back home...
+I[.....]-I[CloseEyes] shouldn't have come,[.5] Cethern.[.6][OpenEyes][N]
+We should've stayed back home...[A]
 
 [OpenMidLeft]
-Miach, I--
+Miach,[.5] I--[A]
 
 [OpenMidRight][CloseEyes]
-We might not win the war, but at least we'd all be together again...
+We might not win the war,[.5] but at[N]
+least we'd all be together again...[A]
 
 [OpenMidLeft]
-Stop with that!
-We need to stay strong, Miach!
-Everyone might be gone, but we're still here![MoveMidLeft]
-You came to help everyone keep Cluain Bolg safe.
-To keep Airmed safe as well.
+Stop with that![N][.6]
+We need to stay strong,[.5] Miach![AN]
+Everyone might be gone,[.5] but[N]
+we're still here.[AN][MoveMidLeft]
+You came to help everyone keep[N]
+Cluain Bolg safe.[AN]
+To keep Airmed safe as well.[A]
 
 [OpenMidRight][OpenEyes]
-Sniff...
-Cethern...
+Sniff...[.6][N]
+Cethern...[A]
 
 [OpenMidLeft]
-You stay here, alright?
-I need to find the commander and tell him we're willing to help.
-I promise I'll keep us safe, Miach.[X]
+You stay here, alright?[AN]
+I need to find the commander and[N]
+tell him we're willing to help.[AN]
+I promise I'll keep us safe,[.5] Miach.[A][X]
 
 
 
 ## P1C3AengusAndEthniu
-[ConversationText]
 [OpenMidLeft][LoadAengus]
 [OpenMidRight][LoadEthniu][MoveMidRight]
-I told you Aengus!
-Look what's happened!
-
-[OpenMidLeft][CloseEyes]
-Huh...?[.....][MoveMidLeft][OpenEyes] Oh no!
-There's raiders in the town!
-
-[OpenMidRight]
-That's what I was trying to tell you, you incompetent oaf!
-Do you ever listen to me?!
+I told you,[.5] Aengus![.6][N]
+Look what's happened![A]
 
 [OpenMidLeft]
-Wait, over there!
-Are those Corbenic forces?
+Huh...?[MoveMidLeft][OpenEyes] Oh no![.6][N]
+There's raiders in the town![A]
+
+[OpenMidRight]
+That's what I was trying to tell[N]
+you,[.5] you incompetent oaf![AN]
+Do you ever listen to me?![A]
+
+[OpenMidLeft]
+Wait,[.5] over there![.6][N]
+Are those Corbenic forces?[A]
 
 [OpenMidRight][CloseEyes]
-I just asked, do you...![OpenEyes]
-Oh. Those are Corbenic!
+I just asked,[.5] do you--![.6][OpenEyes][N]
+Oh![.6] Those are Corbenic![A]
 
 [OpenMidLeft]
-Should we assist them?
-They seem to have everythin' handled pretty well...
+Should we assist them?[AN]
+They seem to have everythin'[N]
+handled pretty well...[A]
 
 [OpenMidRight]
-Aren't you supposed to help them? Come on, we're fighting.
-Dust yourself off and follow my lead. Got it?
+Aren't you supposed to help them?[.6][N]
+Come on,[.5] we're fighting.[AN]
+Dust yourself off,[.5] you loafer.[A]
 
 [ClearFace][......][OpenMidLeft]
-Wait a minute![....][MoveMidLeft]
-Ethniu,[....] please wait![X]
+Wait a minute![MoveMidLeft][N]
+Ethniu,[....] please wait![A][X]
 
 
 
 ## P1C3ReinforcementTime
-[ConversationText]
 [OpenMidRight][LoadLamech]
-They're bringing more forces in...
-Send out our reserves!
-We can shock them out of this village and take it![X]
+They're bringing more forces in...[.6][N]
+Send out our reserves![AN]
+We have to shock them out of[N]
+this village and take it![A][X]
 
 
 
 ## P1C3AengusCethern
-[ConversationText]
 [OpenMidRight][LoadCethern]
 [.....][OpenFarFarLeft][LoadAengus]
 [MoveMidLeft]
-Hold up a second there!
-You're the leader of everyone, right?
+Hold up a second there![AN]
+You're the leader of[N]
+everyone,[.5] right?[A]
 
 [OpenMidRight]
-You could say that.
-And you must be the guard stationed here?
+You could say that.[AN]
+And you must be the[N]
+guard stationed here?[A]
 
 [OpenMidLeft]
-Yes I am!
-Though it's more accurate to say I live here.
-The name's Aengus. If you've seen the girl in the robes, she's my sis' Ethniu.
+Yes,[.4] I am![AN]
+Though, it's more accurate to[N]
+say I live here.[AN]
+The name's Aengus.[.6] If you've[N]
+seen the girl in the robes,[AN]
+she's my sis,[.5] Ethniu.[A]
 
 [OpenMidRight]
-Good to have you and your sister. My name's Cethern.
-We came from the encampment east of here in case of this.
+Good to have you and your[N]
+sister.[.6] My name's Cethern.[AN]
+We came from the encampment[N]
+due east in case of this.[A]
 
 [OpenMidLeft]
-Huh?[....] Oh right.[....]
-The war.
+Bad thing isn't it,[.5] this war?[.6] Didn't[N]
+think we'd be on the butt end.[A]
 
 [OpenMidRight]
-...Did you not know about it?
-Are you sure you're--
+It definitely is bad.[.6] But that's[N]
+exactly why we're here,[.4] Aengus.[A]
 
-[OpenMidLeft]
-Yep, yep I am! Perfectly fine![....][MoveMidLeft]
-Let's stop talkin' and start fightin'![X]
+[OpenMidLeft][ToggleSmile]
+Then let's stop talkin'[N]
+and start fightin'![A][X]
 
 
 
 ## P1C3EthniuLalitha
-[ConversationText]
 [OpenMidLeft][LoadLalitha]
 [OpenMidRight][LoadEthniu]
-Is there something bothering you?
-Shouldn't you be focusing on the enemy?
+Is there something bothering you?[.6][N]
+Shouldn't you be focusing on the enemy?[A]
 
 [OpenMidLeft]
-You're a magician too, aren't you?
-Holding that book like that?
+You're a magician too,[.5] aren't you?[.6][N]
+Holding that book like that?[A]
 
 [OpenMidRight]
-If you don't have anything else to say, please leave me alone.
-Maybe you haven't noticed, but we're in the middle of a fight.
+If you don't have anything else[N]
+to say,[.5] please leave me alone.[AN]
+Maybe you haven't noticed,[.5] but[N]
+we're in the middle of a fight.[A]
 
 [OpenMidLeft][ToggleSmile]
-Oh, I definitely did notice!
-It's not like I need to focus that hard on it though.
-Maybe you haven't noticed my prowess yet?
+Oh,[.5] I definitely did notice![AN]
+It's not like I need to focus[N]
+that hard on it,[.5] though.[AN]
+Maybe you haven't noticed my[N]
+prowess yet?[A]
 
 [OpenMidRight][ToggleSmile]
-Your prowess...?[MoveMidRight][CloseEyes]
-You know what? Sure.[OpenEyes]
-Just don't get impaled.[X]
+Your prowess...?[MoveMidRight][CloseEyes] You know what?[.6][N]
+Sure.[.6][OpenEyes] Just don't get impaled.[A][X]
 
 
 
 ## P1C3LamechRein
-[ConversationText]
 [OpenMidLeft][LoadLamech]
-[OpenMidRight][LoadEnemySoldier]
-Lamech! Our forces are being obliterated!
+[OpenMidRight][LoadFemaleEnemySoldier]
+Lamech![.6] Our forces are being obliterated![.6][N]
 What are we to do now?![A]
 
 [OpenMidLeft]
-There's not many options left...
-Let's all charge on my signal.
-The cavalry may have failed, but perhaps we can still shock them!
-We cannot return to Heichalot empty-handed![X]
+There's not many options left...[.6][N]
+On my signal,[.4] I will be charging.[A]
+
+[OpenMidRight]
+You don't sound very confident,[.5] Lamech.[A]
+
+[OpenMidLeft]
+I will soon become a failure to either[N]
+Manapia or Heichalot.[.6] You,[.4] though...[AN]
+You may yet live if you flee.[A]
+
+[OpenMidRight]
+We shall charge with you,[.5] Lamech![.6][N]
+Our service to the very end![A]
+
+[OpenMidLeft]
+I thank you then.[.5][N]
+Be ready![A][X]
 
 
 
 ## P1C3NoLamechRein
-[ConversationText]
 [OpenMidRight][LoadEnemySoldier]
-Lamech has been finished...![MoveMidRight]
-Everyone, charge on my signal!
-We will not return home without victory![X]
+Lamech has been finished...![MoveMidRight][N]
+Everyone, charge on my signal![AN]
+We will not return home without[N]
+our victory![A][X]
 
 
 
 ## P1C3JavelinText
-[ConversationText]
 [OpenMidLeft][LoadFace][0xFF][0xFF]
 [OpenMidRight][LoadBrunetteMan]
-Don't tell me...
-Have the Heichalotians broken through?![MoveMidRight]
-My body might be strong, but I've got no place fighting alongside youse.
-Maybe you'd find a better use for this?
-I know it's good for huntin' at least.[X]
+Don't tell me...[MoveMidRight][N]
+Have the Heichalotians broken through?![AN]
+My body might be strong,[.5] but I've got[N]
+no place fighting alongside youse.[AN]
+Maybe you'd find a better use for this?[.5][N]
+I know it's good for huntin' at least.[A][X]
 
 
 
 ## P1C3SteelAxeText
-[ConversationText]
 [OpenMidLeft][LoadFace][0xFF][0xFF]
 [OpenMidRight][LoadYouth]
-My pa's still out choppin' wood now, but he left his good axe at home.[MoveMidRight]
-To be perfectly honest with ya, I'm too scared to fight.
-But I don't think he'd be too mad if I gave ya it to shoo them off.[X]
+My pa's still out choppin' wood now,[.6][N]
+but he left his good axe at home.[AN]
+To be perfectly honest with ya,[MoveMidRight][N]
+I'm too scared to fight.[AN]
+But I don't think he'd be too mad[N]
+if I gave ya it to shoo them off.[A][X]
 
 
 
 ## P1C3GoddessIconText
-[ConversationText]
 [OpenMidLeft][LoadFace][0xFF][0xFF]
 [OpenMidRight][LoadOldWoman]
-To think of how brutal the fighting must be...
-I pray for your safety.
-Know that Aingha and her divinity watch over your souls as you fight.
-Take this with you, and may you light the way for purity and safety.[X]
+To think of how brutal the fighting[N]
+must be...[.6] I pray for your safety.[AN]
+Know that Aingha and her divinity[N]
+watch over your souls as you fight.[AN]
+Take this with you,[.5] and may you light[N]
+the way for purity and safety.[A][X]
 
 
 
 ## P1C3CommanderTime
-[ConversationText]
 [OpenRight][LoadSadhbh]
 [OpenFarRight][LoadCethern]
 [OpenMidLeft][LoadWydyrCommander]
-Hmmm...
-You must be Lady Sadhbh.
-And an additional soul?
+Hmmm...[.6][N]
+You must be Lady Sadhbh.[AN]
+And an additional soul[N]
+comes with you?[A]
 
 [OpenRight]
-Indeed. I do not believe I have had the pleasure of meeting you.
+Indeed.[.6] I do not believe I have had[N]
+the pleasure of meeting you.[A]
 
 [OpenMidLeft]
-Perhaps not.
-I am C[0xFA] Raoi, the strategist of Pedryvan's nobles.
-I assume you intend on fighting on these lines, the both of you?
+Perhaps not.[AN]
+I am C[0xFA] Raoi, the strategist[N]
+of Pedryvan's nobles.[AN]
+I assume you intend to fight on[N]
+the front line,[.5] the both of you?[A]
 
 [OpenFarRight]
-If you would allow us.
-There are more than just us two.
+If you would allow us to, C[0xFA] Raoi.[.6][N]
+It is not only us,[.5] however.[AN]
+Several capable fighters have come[N]
+to aid in Corbenic's defense.[A]
 
 [OpenMidLeft]
-It is always better to have more willing to lay down their lives.[ToggleSmile]
-Especially when one of them is a Crownflier...
+It is always better for more to lay[N]
+down their lives for Corbenic.[AN][ToggleSmile]
+Especially when one is a Crownflier...[A]
 
 [OpenRight][ToggleSmile]
-...Have you heard any news of A[0xED]fe?
-I was told she flew here from Rigor.
+[Beat] Have you heard any news of Lady A[0xED]fe?[.6][N]
+I was told she flew here from Rigor.[A]
 
 [OpenMidLeft]
-Yes, she did.
-She was sent to ward off potential strike forces, but she's been missing from us for the past day now.
-No sign of her anywhere.
+Yes,[.5] she did.[AN]
+She was sent to ward off any strike[N]
+forces,[.5] but she's gone missing.[AN]
+None of the other pegasus knights[N]
+have found any trace of her.[A]
+
+[OpenFarRight]
+Lady A[0xED]fe...[.6] That's Ferdiad's[N]
+mother,[.5] isn't it?[A]
 
 [OpenRight]
-That's unfortunate...[MoveRight]
-I'm sure she will be alright.
-I'd like to ask about this young man here, Cethern.
+That is correct.[.6] And how unfortunate to[N]
+hear...[.6] I shall pray for her safety.[AN]
+Now,[.4] about the young man I've brought...[A][CloseSpeechSlow]
 
-[OpenFarRight][MoveRight][FarRight]
-Cethern, if you would?
-
-[Right]
-Both my brother and I have come from Cluain Bolg to fight here, Sir C[0xFA] Raoi.
-Though, I'd rather my brother not fight.
-If there's anything we may do, please tell us. We wish to stop Heichalot.
+[OpenFarRight][MoveRight]
+Both my brother and I have come from Cluain[N]
+Bolg to fight here, Sir C[0xFA] Raoi.[AN]
+We come in place of our grandfather,[.5][N]
+Sir MacCumail,[.5] who couldn't make it.[AN]
+Though,[.5] I'd rather my brother not fight.[AN]
+If there's anything we may do,[.5] please[N]
+tell us.[.6] We wish to stop Heichalot.[A]
 
 [OpenMidLeft][ToggleSmile]
-What a passionate boy.
-Is your brother trained in anything?
+What a passionate boy.[.6] And you're both[N]
+the grandsons of Sir MacCumail...[AN]
+Is your brother trained in anything?[A]
 
 [OpenRight][ToggleSmile]
-No. Basic knowledge of a sword, but not enough to fight anybody.
+He knows the basics of a sword,[.5][N]
+but not enough to fight anybody.[A]
 
 [OpenMidLeft]
-We've suffered somewhat heavy injuries protecting the border.
-Tell your brother to head to the tent on the north of the camp.
-The few healers that we have could use all the support they could get.[ToggleSmile]
-As for you two...
-I'd like the boy to head to Manapia.
-There's been a lack of forces to divert to other parts of the border.
-You should do fine fortifying the village against attack.
+We've suffered somewhat heavy[N]
+injuries protecting the border.[AN]
+Tell your brother to head to the[N]
+tent on the north of the camp.[AN]
+The few healers that we have could[N]
+use all the support they could get.[AN][ToggleSmile]
+As for you two...[.6][N]
+I'd like the boy to head to Manapia.[AN]
+There's been a lack of forces to[N]
+divert to other parts of the border.[AN]
+You should do fine fortifying the[N]
+village against any attack.[A]
 
 [OpenFarRight][ToggleSmile]
-That's to the east of here...
-Being so close to the border, I could see the need.
-But you didn't mention my name, C[0xFA] Raoi.
-What about myself?
+That's to the east of here...[AN]
+Being so close to the border,[.5][N]
+I could see the need.[AN]
+But you didn't mention my name,[.5][N]
+C[0xFA] Raoi.[.6] What about myself?[A]
 
 [OpenMidLeft]
-I'll need you to head further east to Ochren, Lady Sadhbh.
-Lord Rionall has failed to offer as much support as he should.
-I assume that with your duress we may achieve better results.
+I'll need you to head further[N]
+east to Ochren,[.5] Lady Sadhbh.[AN]
+Lord Rionall has failed to offer[N]
+as much support as he should.[AN]
+I assume that with your duress we[N]
+may achieve better results.[A]
 
 [OpenFarRight]
-Understood.
-Will you be fine without my help for now, Cethern?
+Understood.[AN]
+Will you be fine without[N]
+my help for now,[.5] Cethern?[A]
 
 [OpenRight]
-I believe I can manage.
-I'll inform my brother and prepare to head out.
-
-[OpenMidLeft]
-If you require resupply, I may allocate you a small amount of funds for further resources.
-There could be conflict there.
-
-[OpenRight]
-Thank you for the offer, Sir C[0xFA] Raoi.
-I will do Corbenic proud![X]
+I believe I can manage.[AN]
+I'll inform my brother and[N]
+prepare to head out.[AN]
+I will do Corbenic proud,[.5][N]
+Sir C[0xFA] Raoi![A][X]
 
 
 
 ## P1C3CommanderTimeSaDead
-[ConversationText]
 [OpenMidRight][LoadCethern]
 [OpenMidLeft][LoadWydyrCommander]
-Hmmm... Do you have a reason to be bothering me, knave?
+Hmmm...[.6] Do you have a reason to[N]
+be bothering me, knave?[AN]
 
 [OpenMidRight]
-Terribly sorry to, sir.
-My name is Cethern.
-I came with Lady Sadhbh to help around here, but...
+Terribly sorry to,[.5] sir.[.6][N]
+My name is Cethern.[AN]
+I came with Lady Sadhbh to[N]
+help around here,[.5] but...[A]
 
 [OpenMidLeft]
-Ah? Lady Sadhbh?
-I've not yet been acquainted with her.
-Where would she be?
+Ah?[.6] Lady Sadhbh?[AN]
+I've not yet been[N]
+acquainted with her.[AN]
+Where would she be?[A]
 
 [OpenMidRight]
-...She didn't make it here.
-We didn't know what to do, so we continued on our way here.
+[Beat] She didn't make it here.[AN]
+We didn't know what to do,[.5] so[N]
+we continued on our way here.[A]
 
 [OpenMidLeft]
-Lady Sadhbh is...[....][MoveMidLeft] !![....]
-That is a Crownflier's...!
+Lady Sadhbh is...[......]![MoveMidLeft][N]
+That is a Crownflier's...![A]
 
 [OpenMidRight]
-I didn't know how else to show her intention, so I took her kerchief.
-It was the only thing I could think of...
+I didn't know how else to show her[N]
+intention,[.5] so I took her headband.[AN]
+It was the only thing I could think of...[A]
 
 [OpenMidLeft]
-Hold right there! This proves nothing!
-You could have killed her yourself!
-Explain yourself quickly, or you'll find yourself dead in but a few seconds!
+Hold right there![.5] This proves nothing![.6][N]
+You could have killed her yourself![AN]
+Explain yourself quickly,[.5] or you'll find[N]
+yourself dead in but a few seconds![A]
 
 [OpenMidRight]
-Please sir, you have to believe me!
-Both her and Sir MacCumail wanted to--
+Please sir,[.5] you have to believe me![.6][N]
+Both her and Sir MacCumail wanted to--[A]
 
 [OpenMidLeft]
-Sir MacCumail?[....][MoveMidLeft] Hold once again!
-You bear the resemblance of him...!
+Sir MacCumail?[MoveMidLeft] Hold once again![.6][N]
+You bear the resemblance of him...![A]
 
 [OpenMidRight]
-Both my brother and I are grandchildren of Sir MacCumail.
-I would have no intentions of ever harming a Crownflier.
+Both my brother and I are the[N] 
+grandsons of Sir MacCumail.[AN]
+I would have no intentions of[N]
+ever harming a Crownflier.[A]
 
 [OpenMidLeft]
-I can't say I completely believe your story,[CloseEyes] but there's no harm believing it.[OpenEyes]
-If you attempt anything, you'll be whelmed down before you realize it.
-My name is C[0xFA] Raoi.
-I'm the strategist for Pedryvan's nobility.
-You must be wishing to lay down your life to fight Heichalot, yes?
+I can't say I believe you entirely,[.5][CloseEyes] but[N]
+there's no harm entertaining you.[OpenEyes][AN]
+If you attempt anything,[.5] you'll be[N]
+whelmed down before you realize it.[AN]
+My name is C[0xFA] Raoi.[.6] I'm the[N]
+strategist for Pedryvan's nobility.[AN]
+You must be wishing to lay down your[N]
+life to fight Heichalot,[.5] yes?[A]
 
 [OpenMidRight]
-Yes. I've brought others with me.
-Though, I'd rather my brother not fight.
-He's not the most trained with a weapon.
+Yes.[.6] I've brought others with me too.[.6][N]
+Though,[.5] I'd rather my brother not fight.[AN]
+He's not the best-trained with a weapon.[A]
 
 [OpenMidLeft]
-Hmmm.[.....] I can think of some tasks that either of you could fulfill.[MoveMidLeft]
-Tell your brother to head to the tent on the north of camp.
-Most of our healers are still in Srughna, and support is greatly needed.
-As for you.[.....]
-Would you happen to know where Manapia is located?
+Hmmm.[.5] I can think of some tasks that[N]
+either of you could fulfill.[AN]
+Tell your brother to head to the[N]
+tent on the north of camp.[AN]
+Most of our healers are in Srughna,[.5][N]
+and support is greatly needed.[AN]
+As for you...[.6] Would you happen to[N]
+know where Manapia is located?[AN]
 
 [MidRight]
-I'm afraid not.
-We come from the province of Rigor.
+I'm afraid not.[.6] We come from[N]
+the province of Rigor.[A]
 
 [MidLeft]
-Manapia is a border village due eastward from this camp.
-We've had a lack of forces to send there.[ToggleSmile]
-Until now.
-I'd like you and whoever is with you to help fortify the town.[ToggleSmile]
-Should you need it, I can offer funds for you to resupply with.
-It would be a small amount, but enough to pay for weaponry.
+Manapia is a border village[N]
+due eastward from this camp.[AN]
+We've had a lack of forces[N]
+to send there.[AN][ToggleSmile]
+Until now. I'd like you to[N]
+help fortify this town.[AN][ToggleSmile]
+Your compatriots will be an[N]
+excellent help alongside you.[A]
 
 [MidRight]
-You are too generous, Sir C[0xFA] Raoi.[....]
-I'll tell everyone immediately.[MoveMidRight]
-We will do Corbenic proud![X]
+You are too generous,[.5] Sir C[0xFA] Raoi.[N]
+I'll tell everyone immediately.[A][MoveMidRight][N]
+We will do Corbenic proud![A][ClearFace][.6]
+
+[MidLeft]
+The grandson of Sir MacCumail...[.6][N]
+He may be a valuable asset.[A][X]
 
 
 
 ## P1C3CommanderTimeAllDead
-[ConversationText]
 [OpenMidRight][LoadCethern]
 [OpenMidLeft][LoadWydyrCommander]
-Hmmm... Do you have a reason to be bothering me, knave?
+Hmmm...[.6] Do you have a reason to[N]
+be bothering me, knave?[AN]
 
 [OpenMidRight]
-Terribly sorry to, sir.
-My name is Cethern.
-I came with Lady Sadhbh to help around here, but...
+Terribly sorry to,[.5] sir.[.6][N]
+My name is Cethern.[AN]
+I came with Lady Sadhbh to[N]
+help around here,[.5] but...[A]
 
 [OpenMidLeft]
-Ah? Lady Sadhbh?
-I've not yet been acquainted with her.
-Where would she be?
+Ah?[.6] Lady Sadhbh?[AN]
+I've not yet been[N]
+acquainted with her.[AN]
+Where would she be?[A]
 
 [OpenMidRight]
-...She didn't make it here.
-We didn't know what to do, so we continued on our way here.
+[Beat] She didn't make it here.[AN]
+We didn't know what to do,[.5] so[N]
+we continued on our way here.[A]
 
 [OpenMidLeft]
-Lady Sadhbh is...[....][MoveMidLeft] !![....]
-That is a Crownflier's...!
+Lady Sadhbh is...[......]![MoveMidLeft][N]
+That is a Crownflier's...![A]
 
 [OpenMidRight]
-I didn't know how else to show her intention, so I took her kerchief.
-It was the only thing I could think of...
+I didn't know how else to show her[N]
+intention,[.5] so I took her headband.[AN]
+It was the only thing I could think of...[A]
 
 [OpenMidLeft]
-Hold right there! This proves nothing!
-You could have killed her yourself!
-Explain yourself quickly, or you'll find yourself dead in but a few seconds!
+Hold right there![.5] This proves nothing![.6][N]
+You could have killed her yourself![AN]
+Explain yourself quickly,[.5] or you'll find[N]
+yourself dead in but a few seconds![A]
 
 [OpenMidRight]
-Please sir, you have to believe me!
-Both her and Sir MacCumail wanted to--
+Please sir,[.5] you have to believe me![.6][N]
+Both her and Sir MacCumail wanted to--[A]
 
 [OpenMidLeft]
-Sir MacCumail?[....][MoveMidLeft] Hold once again!
-You bear the resemblance of him...!
+Sir MacCumail?[MoveMidLeft] Hold once again![.6][N]
+You bear the resemblance of him...![A]
 
 [OpenMidRight]
-Both my brother and I are grandchildren of Sir MacCumail.
-I would have no intentions of ever harming a Crownflier.
+Both my brother and I are the[N] 
+grandsons of Sir MacCumail.[AN]
+I would have no intentions of[N]
+ever harming a Crownflier.[A]
 
 [OpenMidLeft]
-I can't say I completely believe your story,[CloseEyes] but there's no harm believing it.[OpenEyes]
-If you attempt anything, you'll be whelmed down before you realize it.
-My name is C[0xFA] Raoi.
-I'm the strategist for Pedryvan's nobility.
-You must be wishing to lay down your life to fight Heichalot, yes?
+I can't say I believe you entirely,[.5][CloseEyes] but[N]
+there's no harm entertaining you.[OpenEyes][AN]
+If you attempt anything,[.5] you'll be[N]
+whelmed down before you realize it.[AN]
+My name is C[0xFA] Raoi.[.6] I'm the[N]
+strategist for Pedryvan's nobility.[AN]
+You must be wishing to lay down your[N]
+life to fight Heichalot,[.5] yes?[A]
 
 [OpenMidRight]
-Yes. It's only us two though.
-We had more with us, but...
+Yes.[.6] It's only us two though.[.6][N]
+We had more with us,[.5] but...[A]
 
 [FarFarRight][LoadMiach]
-Cethern!
+Cethern![A]
 
 [MidRight]
-In the bearers' name, Miach don't--!
+In the bearers' name,[.4] Miach,[.5] don't--![A]
 
 [FarFarRight][MoveFarRight][FarRight]
-Hello![....][MoveFarRight]
-Are you the guy in charge?
+Hello.[MoveFarRight][N]
+Are you the man in charge?[A]
 
 [MidRight][MoveRight][Right]
-Excuse my brother's behaviour, Sir C[0xFA] Raoi.
-He can be an absolute nuisance.
+Excuse my brother's behaviour,[.5] Sir C[0xFA] Raoi.[.6][N]
+He doesn't know much of manners yet.[A]
 
 [FarRight]
-Hey!
+Hey![A]
 
 [MidLeft]
-Hmmm.[.....] Excuse me for one second.
-Touch nothing in here.[ClearFace][......]
+Hmmm...[......] Excuse me for one second.[.6][N]
+Touch nothing in here.[A][ClearFace][......]
 
 [Right]
-I told you to stay outside, Miach!
-What are you thinking?!
+I told you to stay outside,[.5] Miach![.6][N]
+What are you thinking?![A]
 
 [FarRight]
-You're not gonna convince him alone!
-I'm helping you, I swear!
+You're not gonna convince him alone![.6][N]
+I'm helping you,[.5] I swear![A]
 
 [Right]
-It's good to have a second face, but you need to watch your tone!
-We're talking with nobility.
+It's good to have a second face,[.5] but[N]
+you need to watch your tone.[AN]
+We're talking with nobility![A]
 
 [FarLeft][LoadWydyrCommander]
-Terribly sorry to leave. I've decided what you two may help with.
-Hanlin, may you come inside?
+Terribly sorry to leave.[.6] I've decided[N]
+what you two may help with.[AN]
+Hanlin,[.5] may you come inside?[A]
 
 [Left][LoadHanlin]
-... ...
+[Beat] [Beat]
 
 [FarLeft]
-This is Hanlin, one of our healers.
-Hanlin, these are Cethern and Miach.
+This is Hanlin,[.5] one of our healers.[.6][N]
+Hanlin,[.5] these are Cethern and his brother.[A]
 
 [Left]
-Greetings.
+Greetings,[.5] my allies.[A]
 
 [FarLeft]
-We're lucky to have her here, but we're still lacking support.[MoveFarLeft]
-I'd like you to take the younger boy and train him as a medic.
-Even some basic understanding would go a long way to helping the injured.
-As for Cethern...
-Would you happen to know where Manapia is located?
+We're lucky to have her here,[.5] but[N]
+we're still lacking support.[AN]
+I'd like you to take the younger[N]
+boy and train him as a medic.[AN]
+Even a basic understanding would go[N]
+a long way in helping the injured.[AN]
+As for Cethern...[AN]
+Would you happen to know where[N]
+Manapia is located?[A]
 
 [Right]
-I'm afraid not.
-We come from the province of Rigor.
+I'm afraid not.[.6] We come from[N]
+the province of Rigor.[A]
 
 [FarLeft]
-Manapia is a border village due eastward from this camp.
-We've had a lack of forces to send there.[ToggleSmile]
-Until now.
-I'd like you and whoever is with you to help fortify the town.[ToggleSmile]
-Should you need it, I can offer funds for you to resupply with.
-It would be a small amount, but enough to pay for weaponry.
+Manapia is a border village[N]
+due eastward from this camp.[AN]
+We've had a lack of forces[N]
+to send there.[AN][ToggleSmile]
+Until now. I'd like you to[N]
+help fortify this town.[AN][ToggleSmile]
+Your compatriots will be an[N]
+excellent help alongside you.[A]
 
 [Left]
-...[MoveLeft][LoadOverworldFaces]
-C[0xFA] Raoi. Please find another.
-I cannot teach this boy.
+[Beat][MoveLeft]C[0xFA] Raoi.[.6] Please find another.[.6][N]
+I cannot teach this boy.[A]
 
 [FarLeft]
-Hanlin, what are you--?
+Hanlin,[.4] what are you--?[A]
 
-[Left]
-My skills are in riding, not staying put in some army camp.
-I wish to accompany Cethern to Manapia.
+[Left][LoadOverworldFaces]
+My skills are in riding,[.5] not[N]
+staying put in some army camp.[AN]
+I wish to accompany Cethern.[AN]
+This is the best way for me to[N]
+utilize my skills as a healer.[AN]
 
 [FarLeft]
-Absolutely not!
-I refuse to let one of our few healers endanger herself as such!
+Absolutely not![AN]
+I refuse to let one of our few[N]
+healers endanger herself as such![A]
 
 [Left]
-Our lack of medics is because of a lack of willing hands.
-Getting a different medic to train Miach would be as effective as my stay.
+And if Cethern is attacked in[N]
+Manapia?[.6] Who will help him then?[A][CloseSpeechSlow][......]
 
 [FarLeft][CloseEyes]
-Hmmm...[.....] I do not like this idea.
-But you are not one of our own.
-I cannot force you to stay here, no matter how much recommendation I give you.
-You may join Cethern.
-Take this gold and escort Miach to the north tent.
+Hmmm...[.....] I do not like this idea.[.6][N]
+But you are not one of our own.[AN]
+I cannot force you to stay here,[.5][N] 
+no matter how much I lecture you.[AN]
+You may join Cethern.[A]
 
 [Right]
-You are too generous, Sir C[0xFA] Raoi.
-We will do Corbenic proud![X]
+You are too generous,[.5] Sir C[0xFA] Raoi.[.6][N]
+We will do Corbenic proud![A][X]
 
 
 
 ## P1C3HanlinOutsideBoiBoiBoiBoi
-[ConversationText]
 [OpenMidLeft][LoadCethern]
 [OpenMidRight][LoadMiach]
-Are you sure I can't come with you?
-Being with the healers sounds boring...
+Are you sure I can't come with you?[.6][N]
+Being with the healers sounds boring...[A]
 
 [MidLeft]
-It's the safest choice.
-Just think of it as weapon training.
-I'm sure I'll be back to check in on you eventually.
+It's the safest choice.[.6][N]
+Just think of it as weapon training.[AN]
+I'm sure I'll be back soon enough.[A]
 
 [FarFarRight][LoadHanlin]
-Excuse me?
-[MoveFarRight][FarRight]You came in recently, yes?
+Excuse me?[A][CloseSpeechSlow]
+[MoveFarRight][FarRight]You came in recently, yes?[A]
 
 [MidRight][MoveRight][MidLeft]
-We just came in from the south.
-Who may you be?
+We just came in from the south.[.6][N]
+Who may you be?[A]
 
 [FarRight]
-My name is Hanlin.
-I'm one of the few medics here, but I overheard something.
-Something about the healers?
+My name is Hanlin.[.6][N]
+I'm one of the few medics here.[AN]
+I overheard you say something.[.5][N]
+Something about the healers?[A]
 
 [Right]
-That old guy's forcing me to stay with them.[CloseEyes] My brother's forcing me too...[OpenEyes]
+They're making me stay with them.[.6][N][CloseEyes]
+My brother's forcing me too...[OpenEyes][A]
 
 [FarRight]
-And you must be heading off to fight.[.....][LoadOverworldFaces]
-I implore you to take me as well.
-My skills are being wasted living in a nurses' tent.
+And you must be heading off to fight.[.......][LoadOverworldFaces][N]
+I implore you to take me as well.[AN]
+My skills are wasted being holed up[N]
+inside this encampment.[A]
 
 [MidLeft]
-Would it be okay with Sir C[0xFA] Raoi?
-He told me of a lack of medics...
+Would it be okay with Sir C[0xFA] Raoi?[.6][N]
+He told me of a lack of medics...[A]
 
 [FarRight]
-This boy is joining them. It's a lack of hands, not skill.
-Please. I am trained with both staves and horseback.
+This boy is joining them.[.6] It[N]
+is a lack of hands,[.5] not skill.[AN]
+Please.[.6] I am trained in both[N]
+healing and horseback riding.[AN]
+If your group is moving near[N]
+the border,[.5] you may need me.[A]
 
 [MidLeft]
-We could use that...[MoveMidLeft]
-As long as Sir C[0xFA] Raoi allows it, absolutely.
+We could use that...[AN][MoveMidLeft]
+As long as Sir C[0xFA] Raoi[N]
+allows it,[.5] absolutely.[A]
 
 [Right]
-What?!
-Even the healer gets to join you?!
-That's not fair at all!
+What?![.6] Even the healer gets to join you?![.6][N]
+That's not fair at all![A]
 
 [FarRight][ToggleSmile]
-I thank you for understanding.
-Let me escort the boy.[ToggleSmile]
-I will grab my belongings and be ready to leave on the hour.[ClearFace][......]
+I thank you for your kindness.[.6][N]
+Let me grab my belongings.[AN][ToggleSmile]
+I will be ready to leave in[N]
+only a few minutes.[A][ClearFace][......]
 
 [Right][MoveLeft][MidLeft][MoveFarLeft][Left]
-Cethern!![X]
+Cethern,[.4] you-!![A][X]
 
 
 
 ## P1C3HanlinHereInPicodobraWithFerdiad
-[ConversationText]
 [OpenMidLeft][LoadCethern]
 [OpenRight][LoadHanlin]
 [OpenFarRight][LoadFerdiad]
-Manapia...
-It feels similar to Cluain Bolg.
-Doesn't feel like we're far from home.
+Manapia...[.6] It feels similar to Cluain Bolg.[.6][N]
+Doesn't feel like we're far from home.[A]
 
 [OpenMidLeft]
-It's a smaller village.
-We're so close to the border, yet everyone is so calm.
+We're so close to the border,[.5][N]
+yet everyone is so calm.[A]
 
 [OpenRight]
-Most of the fighting has been kept east of here.
-These people are spared strife.
+Much of the fighting has been kept east.[.5][N]
+These people are spared of any conflict.[A]
 
 [OpenFarRight]
-Are you from Pedryvan, Hanlin?
-Your dress and hair are interesting.
+Are you from Pedryvan,[.5] Hanlin?[.6][N]
+Your outfit is quite interesting.[A]
 
 [OpenRight]
-I am not. I come from the far north of Macha.
+I am not.[.5] I come from the[N]
+far north of Macha.[A]
 
 [OpenMidLeft]
-Macha? How did you get involved with this conflict?
-From what I've heard, Macha and Heichalot are allies, not enemies...
+Macha? How did you get involved[N]
+with this conflict?[AN]
+From what I've heard, Macha and[N]
+Heichalot are allies, not enemies...[A]
 
 [OpenRight]
-I am somewhat distrusted because of it.
-But my duty is to heal, not to fight.
-Most who do not like me change their mind when I tend to their wounds.
+My motherland tends to scare some people.[.6][N]
+But I also have a duty to fight Heichalot.[AN]
+Those who distrust me tend to change their[N]
+opinion when I tend to their wounds.[A]
 
 [OpenFarFarRight]
-'Cuse my tongue, but...[X]
+'Cuse my tongue, but...[A][X]
 
 
 
 ## P1C3HanlinHereInPicodobra
-[ConversationText]
 [OpenRight][LoadHanlin]
 [OpenMidLeft][LoadCethern]
-Manapia...
-It's smaller than home.
-We're so close to the border, yet everyone is so calm.
+Manapia...[A]
+We're so close to the border,[.4][N]
+yet everyone is so calm.[A]
 
 [OpenRight]
-Most of the fighting has been kept eastward of here.
-These people have been uninvolved.
+Much of the fighting has been kept east.[.5][N]
+These people are spared of any conflict.[A]
 
 [OpenMidLeft]
-Your voice and name sound different, Hanlin.
-Are you from Corbenic?
+Your accent and name sound different,[.5][N]
+Hanlin.[.6] Are you from Corbenic?[A]
 
 [OpenRight]
-I am not.
-I come from the far north of Macha.
+I am not.[.5] I come from the[N]
+far north of Macha.[A]
 
 [OpenMidLeft]
-Macha?
-How did you get involved with this conflict?
-From what I've heard, Macha and Heichalot are allies, not enemies...
+Macha? How did you get involved[N]
+with this conflict?[AN]
+From what I've heard, Macha and[N]
+Heichalot are allies, not enemies...[A]
 
 [OpenRight]
-Not all of us are as loyal to Heichalot.
-Of course, with me being Macha, I am somewhat distrusted by others.
-But my duty is to heal, not to fight.
-Most who do not like me change their mind when I tend to their wounds.
+My motherland tends to scare some people.[.6][N]
+But I also have a duty to fight Heichalot.[AN]
+Those who distrust me tend to change their[N]
+opinion when I tend to their wounds.[A]
 
 [OpenFarFarRight]
-'Cuse my tongue, but...[X]
+'Cuse my tongue, but...[A][X]
 
 
 
 ## P1C3VillagerBoi
-[ConversationText]
 [OpenLeft][LoadCethern]
 [OpenFarLeft][LoadHanlin]
 [OpenMidRight][LoadBlandMan]
-Youse group looks quite stocked up.
-What business do you have here?
+Youse group looks quite stocked up.[.5][N]
+What business do you have here?[A]
 
 [OpenLeft]
-We've been sent here from Pedryvan to help fortify Manapia against Heichalot.
+We've been sent here from Pedryvan to[N]
+help fortify Manapia against Heichalot.[A]
 
 [OpenMidRight]
-Shows what a sad time it is...
-But we don't need any protection.
-We've already got our own guard watching the town as we speak.
+Shows what a sad time it is...[.5][N]
+But we don't need any protection.[AN]
+We've already got our own guard[N]
+watching the town as we speak.[A]
 
 [OpenLeft]
-Your own guard?
-Where are they?
+Your own guard?[.5][N]
+Where are they?[A]
 
 [OpenMidRight]
-They're holed up and rarin' to go in the watchtower on the outskirts of town.
-Don't worry.
-When the sun comes tomorrow youse can ride back out east.
+They're holed up and rarin' to go in the[N]
+watchtower on the outskirts of town.[AN]
+Don't worry.[.5] When the sun comes again,[.4][N]
+youse can ride back out east.[A]
 
 [OpenLeft]
-Are you sure you need no bolstering?
-Your village is close to Heichalot.
+Are you sure you need no bolstering?[.5][N]
+Your village is close to Heichalot.[A]
 
 [OpenMidRight]
-We've always been friendly with those on the other side.
-Even with the war, who's to say that stops now?[MoveMidRight]
-Come now, rest yourselves up and leave back tomorrow.
-You must be exhausted.[ClearFace][......]
+We've always been friendly with[N]
+those on the other side.[AN]
+Even with the war,[.5] who's to [N]
+say that stops now?[AN][MoveMidRight]
+Come now,[.5] rest yourselves up.[.4][N]
+You must be exhausted.[A][ClearFace][......]
 
 [OpenFarLeft]
-This isn't right.
-Those close to the border could be friendly, but they still have ties.
-Heichalotians feel quite heavy loyalties to their nation.
+This isn't right.[AN]
+Those close to the border could be[N]
+friendly,[.5] but they still have ties.[AN]
+Heichalotians feel quite heavy[N]
+loyalties to their nation.[A]
 
 [OpenLeft]
-Let's keep our guards up.
-Rest may be good for us right now, but Heichalot could strike at any time.[X]
+Let's keep our guards up.[AN]
+Rest may be good for us right now,[.5] but[N]
+Heichalot could strike at any time.[A][X]
 
 
 
 ## P1C3OhNoMyMan
-[ConversationText]
 [OpenMidRight][LoadLamech]
-Manapia...
-Our first victory shall be here.[X]
+Manapia...[.6][N]
+Why must our first victory be here?[A][X]
 
 
 
 ## P1C3HouseHouseBres
-[ConversationText]
 [OpenMidRight][LoadBres]
 [OpenMidLeft][LoadCethern]
-It feels wrong sitting like this.
-Yet Manapia doesn't want to fortify...
+It feels wrong sitting like this.[.6][N]
+Yet,[.4] Manapia doesn't want to fortify...[A]
 
 [MidRight][ToggleSmile]
-Maybe they're confident enough in their own abilities.
-Maybe they truly believe themselves immune from any harm.
+Maybe they're confident[N]
+in their own abilities.[AN]
+Maybe they truly believe[N]
+they're immune to any harm.[AN]
 
 [MidLeft][ToggleSmile]
-Perhaps. I feel uneasy waiting just to leave back to camp tomorrow.
-There has to be some way to convince the people here that they need help.
+I feel uneasy just waiting for tomorrow.[AN]
+There has to be some way to convince the[N]
+people here that they need help.[A]
 
 [MidRight]
-They mentioned their own guard.
-We may wish to talk with them?[ToggleSmile]
-I'm sure they could convince the villagers of the need for protection.
+They mentioned their own guard.[.5][N]
+We may wish to talk with them?[AN][ToggleSmile]
+I'm sure they could convince the[N]
+villagers of the need for us.[A]
 
 [MidLeft][ToggleSmile]
-That may be best for us.
-We should head out to find th--
+That may be best for us.[.5][N]
+We should go find th--[A]
 
 [FarFarRight]
-Stay inside!
-It's too dangerous out!
+Stay inside![.6][N]
+It's too dangerous out![A]
 
 [MidRight][ToggleSmile]
-There's something going on.
-Sounds like an interesting time.
-Shall we go check it?
+Sounds like something[N]
+interesting is happening.[AN]
+Shall we go check it out?[A]
 
 [MidLeft][ToggleSmile]
-This is no time to be cheerful, Bres.
-Let's head out front![X]
+This is no time to be cheerful,[.5] Bres.[.6][N]
+Let's head out front![A][X]
 
 
 
 ## P1C3HouseHouseHanlin
-[ConversationText]
 [OpenMidRight][LoadHanlin]
 [OpenMidLeft][LoadCethern]
-It feels wrong sitting like this.
-Yet Manapia doesn't want to fortify...
+It feels wrong sitting like this.[.6][N]
+Yet,[.4] Manapia doesn't want to fortify...[A]
 
 [MidRight]
-I've said that.
-They will eventually learn to regret this inaction.
+They will eventually learn[N]
+to regret this inaction.[A]
 
 [MidLeft]
-Perhaps. I hope that we don't let it reach that tragedy.
-There has to be some way to convince the people here that they need help.
+I don't want let it reach that tragedy.[AN]
+There has to be some way to convince the[N]
+people here that they need help.[A]
 
 [MidRight]
-Talking with their own guard may prove fruitful.
-They should understand the need for an active defense against Heichalot.
+Talking with their own guard may[N]
+prove fruitful in some way.[AN]
+They should understand the need for[N]
+an active defense against Heichalot.[A]
 
 [MidLeft]
-That may be best for us.
-We should head out to find th--
+That may be best for us.[.5][N]
+We should go find th--[A]
 
 [FarFarRight]
-Stay inside!
-It's too dangerous out!
+Stay inside![.6][N]
+It's too dangerous out![A]
 
 [MidRight]
-There's something going on.[CloseEyes]
-Are we too late...?[OpenEyes]
+But perhaps we're too[N]
+late to convince them.[A]
 
 [MidLeft]
-We should hope not, Hanlin.
-Let's head out front![X]
+We should hope not,[.5] Hanlin.[.6][N]
+Let's head out front![A][X]
 
 
 
 ## P1C3HouseHouseNope
-[ConversationText]
 [Right][LoadPigtails]
 [FarRight][LoadBlandMan]
-We should be able to keep out anyone who's come in.
-Stay inside here 'til it's safe to go outside.
+Stay inside here 'til they're gone.[.5][N]
+We'll be safe,[.5] I promise that.[A]
 
 [FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
-What's happening outside?
+What's happening outside?![A]
 
 [FarRight]
-Nothin' to worry about.
-Raiders have come down, but our guard should be enough!
-Youse group should stay inside.
-Better to keep youse safe to head back in one piece.
+Nothin' to worry about.[AN]
+Raiders have come down,[.5] but our[N]
+guard should be enough![AN]
+Youse group should stay inside.[AN]
+Better to keep youse safe to[N]
+head back in one piece.[A]
 
 [MidLeft]
-We came here to help protect Manapia, not sit around like helpless children!
-I'm sorry sir, but I'll need to head past you.
+We came here to help protect Manapia,[.5][N]
+not sit around like helpless children![AN]
+Move out of the way, sir![A]
 
 [FarRight]
-I will not!
-This is Manapia's business.
-We're competent enough!
+I will not![.5] This is Manapia's business.[.6][AN]
+If our neighbours wish to fight us,[.5] then[N]
+we will be the ones to meet them![A]
 
 [MidLeft][CloseEyes]
-... ...[.....] Very well, sir.[OpenEyes]
-You can block the entrance.
-But I'll find another way out!
-I came to help, and I will![ClearFace][......]
+... ...[.....] Very well, sir.[OpenEyes][.6][N]
+You can block the entrance.[AN]
+But I'll find another way out![.5][N]
+I came to help,[.4] and I will![A][ClearFace][......]
 
 [Right]
-Will our guard truly be enough?
-I saw so many outside...
+Will our guard truly be enough?[.5][N]
+I saw so many outside...[A]
 
 [FarRight]
-I trust in those two.
-If we can't stop that boy, they'll benefit from his help too...[X]
+I trust in those two.[AN]
+I can only hope that boy doesn't cause[N]
+any more damage than my basement...[A][X]
 
 
 
 ## P1C3SoMany
-[ConversationText]
 [MidLeft][LoadHanlin]
 [MidRight][LoadCethern]
-There's so many Heichalotians...
-And I can't see anyone who looks like this town's guard.
-Are we truly to do this alone?
+There's so many Heichalotians...[AN]
+And I can't see anyone who looks[N]
+like this town's guard.[AN]
+Are we truly to do this alone?[A]
 
 [MidLeft]
-We are competent enough.
-Trust in your own skills.
+We are competent enough.[.6][N]
+Trust in your own skills.[A]
 
 [MidRight]
-I will...[.....][MoveMidRight]
-Prepare yourselves!
-We're to rout these invaders![X]
+I will...[......][MoveMidRight] Prepare yourselves![.6][N]
+We're to rout these invaders![A][X]
+
+
+
+## P1C3Funds
+[MidLeft][LoadCethern]
+[MidRight][LoadHanlin]
+There's some shops here...[AN]
+I brought some coin I made[N]
+from my healing in the camp.[AN]
+Consider it my payment for[N]
+allowing me to join you.[AN]
+This may be a good time to[N]
+restock your companions.[A]
+
+[MidLeft]
+Thank you very much,[.5] Hanlin.[.6][N]
+I'll keep that in mind![A][X]
 
 
 
 ## P1C3LetsGoLesbians
-[ConversationText]
 [OpenMidLeft][LoadCethern]
-That should be the last of them.
-Let's do rounds and check on the villagers![X]
+That should be the last of them.[.6][N]
+Let's check on the villagers![A][X]
 
 
 
 ## P1C3TheHeichalotiansAreGone
-[ConversationText]
 [Left][LoadBlandMan]
 [FarLeft][LoadGingerWoman]
-Thank Aingha!
-The raiders are gone!
+Oh goodness...[.5] The raiders...[.5][N]
+I can't believe they're--[A]
 
 [Left]
-I can't find Aengus or Ethniu...
-Could that group o' soldiers truly have saved us?
+Is that Lamech...?[.6] By the bearers, why[N]
+was he here to raid our village?[A]
 
 [FarFarRight][LoadCethern][MoveMidRight][FarLeft]
-You must be the leader of that force from the encampment, right?
-You saved Manapia.
-You saved us from those invaders!
-
-[MidRight][ToggleSmile]
-It was simply what I had to do.
-Though, we cannot stay forever.[ToggleSmile]
-If I could recommend something, you will need to build up defenses.
-We may not be able to provide much more aid in the coming days.
-
-[Left]
-... Youse saved us.
-Perhaps having more than a guard or two may be what keeps us safe.
+You're the leader of that[N]
+group from the camp,[.4] right?[AN]
+What have you done...?[A]
 
 [MidRight]
-Thank you for understanding.
-I hope that working together like this can prevent another attack from Heichalot.[X]
-
-
-
-## P1C3AengusEthniuCethernInTheVilla
-[ConversationText]
-[OpenMidRight][LoadCethern]
-What an exhausting fight.
-I hope Miach is doing fine...
-
-[OpenFarFarLeft][LoadAengus]
-Hey, look!
-It's him!
-The person who was helpin' us fight off those raiders![MoveLeft]
-
-[OpenFarFarLeft][LoadEthniu][MoveFarLeft]
-It is him.
-Did you want to say anything that matters, Aengus?
-
-[OpenMidRight]
-Aengus...
-You must both be the guard of the town.
-I thank you for your assistance earlier.
-
-[OpenFarLeft]
-It's what we're supposed to do.
-We don't do much often though, so some of us stick to napping during their watch.
-Isn't that right, Aengus?
+They were raiding the town![AN]
+You wanted me to sit still while[N]
+they destroyed your homes?[A]
 
 [Left]
-Pretend you haven't slacked off during your watch!
+Did you think they were bandits?![N]
+Those were our neighbours![AN]
+Our friends,[.5] our compatriots,[.5][N]
+even some of our families![A]
+
+[MidRight]
+And those neighbours sought to[N]
+take over your village![AN]
+I will not apologize for keeping[N]
+the Heichalotians away![AN]
+
+[Left]
+[Beat] Get out.[.6][N]
+We did not want your help.[AN]
+The least you can do for Manapia[N]
+is let us clean your mess.[A][X]
+
+
+
+## P1C3NoAengusEthniu
+[MidRight]
+By the bearers,[.5] this is absurd![.6][N]
+You could have lost everything.[AN]
+Yet,[.4] I'm worse than Heichalot for[N]
+keeping your town safe![A]
 
 [FarLeft]
-I'm not the one stationed here.
-I only do this because you're my brother!
-If I didn't cover for you, this town would be ash.[.....]
-Maybe I should leave to help against Heichalot and see how you do alone.
+[Beat] Please just leave.[A]
 
 [MidRight]
-I wouldn't be against more help, but it seems like Manapia could use all the protection it can get.
+I'll be out of your hair.[AN]
+I don't wish for this to happen again,[.5] but[N]
+you'll realize your folly soon enough.[A][X]
 
+
+
+## P1C3Aengus
+[FarFarLeft][LoadAengus]
+Wait a minute there,[.5] mister![A]
+
+[FarLeft][ClearFace][FarFarLeft][MoveFarLeft]
+I don't think that's right to say.[.5][N]
+This man saved all of our tails![AN]
+Manapia wouldn't be around no longer[N]
+if we didn't have his help.[A][X]
+
+
+
+## P1C3Ethniu
+[FarFarRight][LoadEthniu]
+Are you seriously bashing the man[N]
+who saved our entire village?[A]
+
+[MidRight][MoveRight][FarFarRight][MoveFarRight]
+Don't tell me you're on the side of[N]
+the people who just tried to kill us.[A][X]
+
+
+
+## P1C3AengusReaction
 [Left]
-Ethniu, you can't leave me alone!
-If you're gonna leave, I'm comin' with ya!
+Aengus![.5] I know you helped this man,[.5] but this[N]
+wasn't something you should've helped with![A][X]
+
+
+
+## P1C3EthniuReaction
+[Left]
+Ethniu![.5] I know you helped this man,[.5] but this[N]
+wasn't something you should've helped with![A][X]
+
+
+
+## P1C3EthniuAfterAengusReaction
+[Left]
+Not you too,[.4] Ethniu![A][X]
+
+
+
+## P1C3EthniuBerates
+[FarRight]
+Had this boy not fought off those hoodlums,[.5][N]
+you might not be alive to yell at him.[A]
+
+[Right]
+Boy...?[.5][MoveRight] I believe I'm ol--[A]
+
+[FarRight]
+Shut up.[.6] Point is,[.5] if you're hoping to kick[N]
+him out of Manapia,[.5] I'll be going too.[A][X]
+
+
+
+## P1C3AengusAgrees
+[FarLeft]
+That's the same with me![.6][N]
+I'll be heading out with my sister.[A][X]
+
+
+
+## P1C3AengusBerates
+[FarLeft]
+You might've survived that whole spat,[.5] sir.[.6][N]
+My sister barely did.[.7] At least she fought.[AN]
+You've got a lot of nerve kickin' out the[N]
+saviour of Manapia.[A][X]
+
+
+
+## P1C3But
+[Left]
+B[.4]-But you're the guard of the town![.6][N]
+We need you to keep us--[AN][.6][MoveLeft]
+Ugh,[.5] you're maddened in the head...[.6][N]
+He leaves tomorrow.[.5] End of discussion.[A][ClearFace][CloseSpeechSlow][.6][X]
+
+
+
+## P1C3ButAengus
+[MidRight]
+I'm so sorry about that...[AN]
+I only came here to make sure[N]
+this wouldn't happen again.[A]
 
 [FarLeft]
-You shouldn't worry about Manapia.
-By the time it can be protected, we can have way more than two people watching over everyone.
-Give us the few days and we'll be well ready for anything else.
+What I'm saying is,[.5] if you're kicking him out...[.6]
+Then I'll be leaving as well.[A][X]
 
-[MidRight]
-I'll think on it. 
-For now, our priority is your village's safety.
+
+
+## P1C3CethernAengusEthniu
+[FarRight][ClearFace][Left][LoadEthniu][Right][MoveMidRight]
+Thank you very much for understanding.[.6][N]
+I only came here to help...[A]
 
 [Left]
-Well, maybe I can buy you a drink to convince you.
-As thanks for helping us out!
+Don't worry about that fogey.[.6] It sucks what[N]
+happened,[.5] but you saved our behinds.[AN]
 
 [FarLeft]
-Aengus...![.....][MoveFarLeft]
-If you're going to be convinced by him, [CloseEyes]prepare for lots of this.[OpenEyes]
+We should be thanking you,[.5] if anythin'![.6][N]
+Me and Ethniu are pretty strong,[.5] but...[AN]
+I'm not sure if we could handle an[N]
+entire army on our own.[A]
 
 [MidRight]
-Don't worry.
-This kind of interaction is all too familiar for me...[X]
+That brings me to the reason I came.[AN]
+If possible,[.5] I'd like you both to help keep[N]
+the townsfolk safe from further attack.[AN]
+If this happened again,[.5] neither me nor[N]
+any of my allies would be able to help.[A]
 
+[FarLeft]
+I'm sure if you can't convince them,[.5] we could![.6][N]
+Isn't that right,[.4] Ethniu?[A]
 
+[Left]
+I think that's a little too optimistic.[.6][N]
+As much as I'd like to keep everyone safe...[AN]
+I get the feeling they're not willing to[N]
+listen to any of us.[A]
 
-## P1C3AengusCethernInTheVilla
-[ConversationText]
-[OpenMidRight][LoadCethern]
-What an exhausting fight.
-I hope Miach is doing fine...
+[FarLeft]
+Well,[.5] you're not planning on doing[N]
+nothing,[.5] are you?![.6] That's not an option![AN]
+Our neighbours could get hurt![A]
 
-[OpenFarFarLeft][LoadAengus][MoveMidLeft][MidLeft]
-You're the person who was helpin' us fight off those raiders, huh?
+[Left]
+We won't be able to sway them.[.6][N]
+As much as I detest the thought,[AN]
+the only way we can save Manapia[N]
+is to end the war ourselves.[AN]
+I'd like to come back with you[N]
+to your camp,[.4] if I may.[A]
+
+[FarLeft]
+Woah,[.5] you can't just leave[N]
+me here,[.4] Ethniu![A]
+
+[Left]
+Come with us,[.4] then.[N]
+No one's stopping you.[A]
+
+[FarLeft]
+If I leave,[.5] they'll remove[N]
+me from the knighthood![A]
 
 [MidRight]
-You're the guard of the town.
-Where's the other one?
-I saw a woman with you as well.
+As much as I'd like to bring you with me,[.5][N]
+I can't leave this town defenseless.[AN]
+The only thing I can ask of you is to[N]
+keep Manapia safe in my stead.[AN]
+I'll be heading out soon.[.5][N]
+Thank you again for your help.[A][ClearFace][.6]
+
+[Left]
+So,[.6] I'm going with him.[.6][N]
+I don't know your plans,[.5] but...[A]
+
+[FarLeft]
+I want to stay here and help.[.6][N]
+It'd be terrible to leave everyone...[AN]
+And the nobility'd kick my behind[N]
+just for thinkin' of leaving...[AN]
+But I can't help but feel like somethin'[N]
+is pulling me to come with you,[.5] Ethniu.[A]
+
+[Left]
+The sooner we end this war,[.5] the[N]
+sooner everyone'll be safe.[AN]
+Let's get our stuff packed,[.5] Aengus.[.6][N]
+We've got a long walk ahead of us.[A][X]
+
+
+
+## P1C3CethernAengus
+[FarLeft][MoveMidLeft][MidRight]
+Thank you very much for understanding.[.6][N]
+I only came here to help...[A]
 
 [MidLeft]
-About that...[.....]
-I'm quittin' from my position as guard.
-I may be a royal knight, but that doesn't matter to me anymore.
+We should be thanking you,[.5] if anythin'.[.6][N]
+Me and Ethniu were pretty strong,[.5] but...[A]
 
 [MidRight]
-Hold on a second...!
-You're resigning from being a royal knight?
-Why would you want to do that?!
+Again,[.5] I'm sorry about that...[A]
 
 [MidLeft]
-...[......]My sister got really hurt in the battle.
+I'm just glad she's alive.[.6][N]
+She's a natural fighter.[A]
 
 [MidRight]
-Oh...
-I'm very sorry about that.
+Reminds me of my siblings.[.6][N]
+What are you going to do now?[A]
 
 [MidLeft]
-If I couldn't protect her, who am I to protect anyone else?
-I wanted to ask if I could come with you.
+I'm the guard of this town.[AN]
+It's my job to make sure the[N]
+people are safe.[AN]
+If I can't do that,[.5] I don't[N]
+deserve to be guard anymore.[A][.6]
+I'd like to come with you.[.5][N]
+I want to fight alongside you.[A]
 
 [MidRight]
-...I can understand where you're coming from.
-But are you sure you can leave?
-This town desperately needs defenses.
+Are you sure that's the right[N]
+thing to do?[AN]
+Shouldn't you take care of your[N]
+sister and make sure she's fine?[A]
 
 [MidLeft]
-Don't worry.
-I might not be able to keep the town safe, but I know a thin' or two about it in my head.
-Give me a few days and I can be helpin' everyone with it.
+She's strong enough.[.5] I'm sure she'll be angry[N]
+enough to whip this village into top shape.[AN]
+This town'll have enough defenses by[N]
+tomorrow,[.5] I'm sure of that![A]
 
 [MidRight]
-I'll think about it for now.
-For now, our priority is your village's safety.
+If you say so...[AN]
+I'm still not sure about this,[.5] but[N]
+I'll trust you and your sister.[AN]
+We'll be heading back to the camp[N]
+later tonight.[.5] Make sure you tell her.[A][ClearFace][.6]
 
-[MidLeft]
-If it'll help convince you, I'll buy you a drink.
-I could use one myself...
-
-[MidRight]
-I don't drink that much, but I won't say no.
-I could use the stress relief.[X]
+[MidLeft][X]
 
 
 
@@ -1433,50 +1724,6 @@ What a stubborn woman...[X]
 
 
 
-## P1C3CethernInTheVilla
-[ConversationText]
-[OpenMidRight][LoadCethern]
-What an exhausting fight.
-I hope Miach is doing fine...
-
-[OpenFarFarLeft][LoadLittleBoy]
-Mister! Mister!
-[MoveMidLeft][MidLeft][ToggleSmile]
-You're the one who was fightin' all of those evil folk!
-Riding around and smashin' down everyone...
-I'm goin' ta be a knight like ya when I grow up!
-
-[MidRight]
-A knight?[ToggleSmile]
-I'm terribly sorry, but I'm no knight.
-Only from a village like this down south.
-
-[MidLeft]
-You're not a knight?
-But ya look just like one!
-Well, more than the knight that lives here.
-
-[MidRight]
-The knight that lives here...?[.....][MoveMidRight]
-Oh.[....] The guard.
-I'm hoping to be a knight too, like my grandfather.
-If you're truly enthusiastic about it, then perhaps one day we will both make it there.
-
-[FarFarLeft]
-L[0xE9]n! Get back here!
-Don't go running off talking to strangers!
-
-[MidLeft]
-Sorry ma![MoveMidLeft][ToggleSmile]
-Gotta go mister.
-One day I'll slice down brigands like you![ClearFace][......]
-
-[MidRight]
-What a familiar presence...[.....][CloseEyes]
-Miach...[A][X]
-
-
-
 ## CaerOchren
 Ochren, Corbenic[X]
 
@@ -1489,8 +1736,8 @@ Lady Sadhbh.
 It is interesting to see you at this hour.
 To what do I owe this pleasure?
 
-[MidRight]
-Lord Rionall.[ToggleSmile]
+[MidRight][ToggleSmile]
+Lord Rionall.
 I apologize for the late entry.
 During times of war, speed is of the essence.
 
@@ -1573,5 +1820,24 @@ Charge forward![X]
 
 ## P1C3SoldierSignal
 [ConversationText]
-[OpenMidRight][LoadEnemySoldier]
-Anyone who's still alive, take them down![X]
+[OpenMidRight][LoadFemaleEnemySoldier]
+Anyone who's still alive,[.4] take them down![X]
+
+
+
+## LamechCethernQuote
+[MidRight][LoadCethern]
+Your forces are decimated and[N]
+your chances of victory small.[AN]
+You do not have to die here![.5][N]
+Leave now while you can![A][ClearFace]
+
+[MidLeft][LoadLamech]
+You do not understand what[N]
+you're up against,[.5] young boy.[AN]
+Here you will face the fangs[N]
+and claw of a cornered wolf.[AN]
+I am trapped by my duty to[N]
+complete this assault.[AN]
+No matter how much I loathe[N]
+my orders,[.5] I will fight![A][X]

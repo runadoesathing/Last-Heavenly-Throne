@@ -59,15 +59,15 @@ VantagePlus:
 eor r4,r5
 eor r5,r4
 eor r4,r5
-mov r1, #0x66
-mov r0, #0
-strh r0, [r4,r1]
-mov r1, #0x68
-mov r0, #0
-strh r0, [r4,r1]
-mov r1, #0x6A
-mov r0, #0
-strh r0, [r4,r1]
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
 
 Normal:
 str r4, [r6]

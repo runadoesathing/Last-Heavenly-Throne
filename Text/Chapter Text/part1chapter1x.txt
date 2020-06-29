@@ -16,6 +16,8 @@ their bones just for you![A][X]
 
 
 
+
+
 ## P1C2AnkerDeathQuote
 [MidLeft][LoadAnker]
 Oh, my darling Alvarin...![.6][N]
@@ -137,8 +139,8 @@ The next day...[X]
 ## P1C1xAinghaHouse
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadGingerWoman]
-Conflict here so soon...[.6] I[N]
-pray Aingha keeps us safe.[AN][MoveMidRight]
+Conflict here so soon...[.6] I pray[N]
+to Aingha to keep us safe.[AN][MoveMidRight]
 Who is Aingha? Well, she's[N]
 the Wardbearer of Corbenic![AN]
 Our lush soil, our rich game,[N]
@@ -191,8 +193,8 @@ Am I interrupting something?[.6][N]
 I see you're both quite busy.[A]
 
 [OpenFarLeft]
-Cethern![.6] Did you beat those[N]
-bandits to a pulp?![A]
+Cethern![.6] You beat those bandits to[N]
+a pulp yesterday,[.5] didn't you?![A]
 
 [OpenFarRight]
 I guess you could say that.[AN]
@@ -247,7 +249,7 @@ are informed by a Crownflier,[.....] Lady[AN]
 Sadhbh of Caer Siddi,[.....] that Heichalot[N]
 has declared war on their kingdom.[AN]
 The thought ruminates in the[N]
-youths' minds,[.5] especially Cethern.[AN]
+youths' minds,[.5] especially Cethern's.[AN]
 The next morning,[.5] Cethern and his[N]
 friends are tasked with securing[AN]
 food from a further village for[N]
@@ -260,15 +262,15 @@ The region of Rigor covers the southern[N]
 part of Corbenic,[.5] bordering with Srughna[N]
 to the south and Caer Siddi,[.5] Corbenic's[N]
 capital and largest castle,[.5] to the north.[AN]
-Soldiers from Caer Siddi were sent to[N]
-aid with recovery from heavy flooding[N]
+Soldiers from Caer Siddi have been sent[N]
+to aid with recovery from heavy flooding[N]
 in the Srughnan noble houses' lands.[AN]
 However,[.5] with the edict of isolation[N]
 from Srughna's margrave,[.5] many of those[N]
 soldiers have become stuck around the[N]
 border,[.5] away from their homes and families.[AN]
-The pressure put on Srughna,[.5] from[N]
-Corbenic and their own flooding,[.5][N]
+The pressure put on Srughna,[.5] both[N]
+from Corbenic and their own flooding,[.5][N]
 threatens to pierce the border from[N]
 Srughna to the villages of Rigor...[A][X]
 
@@ -376,7 +378,7 @@ Those bandits are harrasing you,[.5][N]
 aren't they?[A]
 
 [MidRight]
-I...[.5] They're not bandits.[.6][N]
+I...[.6] They're not bandits.[.6][N]
 They're Srughnan soldiers![AN]
 
 [MidLeft]
@@ -408,7 +410,7 @@ to have a chat with me?[A]
 
 [MidRight]
 He should be.[.6][ToggleSmile] My siblings are taking care[N]
-of him right now, so don't mind them.[A]
+of him right now,[.5] so don't mind them.[A]
 
 [MidLeft]
 Thank you very[N]
@@ -438,7 +440,7 @@ What would you have us do?[A]
 
 [MidLeft]
 It's a bit of a favour,[.5] I must say.[.6] But[N]
-I'm sure you have an idea of it already.[AN]
+I'm sure you're up to the task.[AN]
 You can feel the chills of winter begin[N]
 to set in already,[.5] can you not?[A]
 
@@ -533,7 +535,7 @@ bandit,[.5] but what else are we to do?![A]
 H[....]-Hold it right there![A]
 
 [MidLeft][ClearFace][FarFarLeft][MoveMidLeft]
-What do you think you're doing...![AN]
+What do you think you're doing?![AN]
 You cross the border,[.5] a[.4]-and now you're[N]
 planning on raiding this town?![A]
 
@@ -588,8 +590,8 @@ We can only have so much luck[N]
 before we get struck down![A]
 
 [FarRight]
-If we can convince that knight,[.5] maybe it'll[N]
-be four,[.5] S[0xE9]tanta![.6] But we need to move![A][X]
+Well,[.4] it's not any help if we're standing[N]
+around like this![.6] We need to move![A][X]
 
 
 
@@ -660,8 +662,8 @@ Miach and Airmed would be devastated[N]
 if you didn't make it back home![A]
 
 [Right]
-[Beat] Ugh,[.5] fine![.6] Everyone,[.5][N]
-we're retreating![A][ClearFace][FarRight][ClearFace][.......]
+[Beat] Ugh,[.5] fine![.6] Everyone![.5][N]
+We're retreating![A][ClearFace][FarRight][ClearFace][.......]
 
 [FarLeft]
 Do we chase after them?[.6] They're[N]
@@ -693,7 +695,7 @@ We were...[.6] We got attacked by Srughnans.[.6][N]
 Srughnan soldiers,[.5] to be exact.[A]
 
 [FarRight]
-They've taken the food we could've gotten.[.6][N]
+They took everything.[.6] Food,[.5] supplies...[.6][N]
 Seems they were more desperate than us.[A]
 
 [MidLeft]
@@ -711,12 +713,12 @@ but she's most likely gone to sleep.[AN]
 I did ask her something along those[N]
 lines earlier today.[AN]
 Apparently the capital is occupied[N]
-with sending supplies to the north...[AN]
+with the war to the north...[AN]
 There may not be much left for us.[A]
 
 [FarRight]
-That sounds horrible...![.6][N]
-So that's all we can do?[A]
+That sounds horrible...[.6][N]
+There has to be something we can do...[A]
 
 [MidLeft]
 You must be exhausted from having to[N]

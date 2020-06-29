@@ -1,0 +1,21 @@
+
+#ifndef MODULAR_SUPPLY
+	
+	#define MODULAR_SUPPLY
+	
+  MESSAGE ModularSupply at currentOffset
+	ALIGN 4
+	#inctext lyn "SupplyUsability.o" "Definitions.o"
+	ALIGN 4
+	SupplyUsabilityPhantomIDLink:
+	BYTE 0x51
+	
+	ALIGN 4
+	Part1SupplyList:
+	BYTE Cethern 0x00
+  
+  ALIGN 4
+  Part2SupplyList:
+  BYTE Srihwen 0x00
+	
+#endif // MODULAR_SUPPLY

@@ -2,23 +2,23 @@ INLINE MagCharTable,Base Magic,Magic Growth
 None,0,0
 Cethern (Eirika),1,30
 Setanta (Seth),0,15
-Ferdiad (Gilliam),2,25
+Ferdiad (Gilliam),3,25
 Hanlin (Franz),3,50
 Aingha/Airmed (Moulder),0,20
-Sadhbh (Vanessa),5,25
+Sadhbh (Vanessa),7,25
 Lalitha (Ross),6,60
 Aengus (Neimi),0,5
 Bres (Colm),1,15
 Ethniu (Garcia),4,55
-Gedeon (Innes),2,40
-Soma (Lute),0,20
+Gedeon (Innes),5,40
+Soma (Lute),1,20
 Varuna (Natasha),0,10
-Sanjana (Cormag),2,25
+Sanjana (Cormag),3,25
 Srihwen (Ephraim),5,60
-Rudram (Forde),1,25
+Rudram (Forde),2,25
 Nala (Kyle),1,20
-Sirin (Amelia),3,20
-Birnath (Artur),2,15
+Sirin (Amelia),4,20
+Birnath (Artur),3,15
 Sin Gu (Gerik),0,0
 Len (Tethys),0,0
 Calingi (Marisa),0,0
@@ -35,8 +35,8 @@ Radhe (Joshua),0,0
 Enoch (Syrene),0,0
 Naamah (Tana),0,0
 Marici (Lyon),1,15
-Nairatmya (Orson),1,10
-Nakstrani,4,50
+Nairatmya (Orson),2,10
+Nakstrani (Glen),4,50
 Selena,0,0
 Valter,0,0
 Riev,0,0

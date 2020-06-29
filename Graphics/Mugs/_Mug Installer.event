@@ -1,0 +1,358 @@
+#include "Tools/Tool Helpers.txt"
+
+#include "_Portrait_Dmps_Installer.txt"
+
+PUSH
+  ORG $5524
+    POIN NewPortraitTable
+POP
+
+#define setMugSlot(mugSlot, mugLocation, minimugLocation, paletteLocation, framesLocation, mouthX, mouthY, eyeX, eyeY, eyeControl) "POIN mugLocation; POIN minimugLocation; POIN paletteLocation; POIN framesLocation; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD eyeControl"
+#define setMugSlot(mugSlot, mugLocation, minimugLocation, paletteLocation, framesLocation, mouthX, mouthY, eyeX, eyeY) "POIN mugLocation; POIN minimugLocation; POIN paletteLocation; POIN framesLocation; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD 0x01"
+#define setCardEntry(cardEntry, cardLocation, cardPaletteLocation) "POIN 0 0 cardPaletteLocation 0 cardLocation; BYTE 0 0 0 0; WORD 0x1"
+#define setCardEntryOld(cardEntry, cardPaletteLocation, cardLocation) "POIN 0 0 cardPaletteLocation 0 cardLocation; BYTE 0 0 0 0; WORD 0x1"
+
+ALIGN 16
+NewPortraitTable:
+setMugSlot(0x0, 0x0, 0x0, 0x0, 0x0, 0, 0, 0, 0) // first one
+setMugSlot(0x1, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(CethernPort, Cethern_Mug, Cethern_Minimug, Cethern_Palette, Cethern_Frames, 3, 5, 3, 3, 1)
+setMugSlot(AinghaPort, AirmedAlpha_Mug, AirmedAlpha_Minimug, AirmedAlpha_Palette, AirmedAlpha_Frames, 2, 6, 3, 4)
+setMugSlot(SetantaPort, Setanta_Mug, Setanta_Minimug, Setanta_Palette, Setanta_Frames, 3, 5, 3, 3)
+setMugSlot(FerdiadPort, Ferdiad_Mug, Ferdiad_Minimug, Ferdiad_Palette, Ferdiad_Frames, 2, 5, 3, 3)
+setMugSlot(HanlinPort, HanlinAlpha_Mug, HanlinAlpha_Minimug, HanlinAlpha_Palette, HanlinAlpha_Frames, 2, 6, 3, 4)
+setMugSlot(SadhbhPort, Sadhbh_Mug, Sadhbh_Minimug, Sadhbh_Palette, Sadhbh_Frames, 3, 5, 3, 3)
+setMugSlot(LalithaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+setMugSlot(AengusPort, Aengus_Mug, Aengus_Minimug, Aengus_Palette, Aengus_Frames, 3, 4, 3, 2)
+setMugSlot(MiachPort, MiachAlpha_Mug, MiachAlpha_Minimug, MiachAlpha_Palette, MiachAlpha_Frames, 3, 7, 3, 5)
+setMugSlot(BresPort, BresAlpha_Mug, BresAlpha_Minimug, BresAlpha_Palette, BresAlpha_Frames, 2, 5, 3, 3)
+setMugSlot(RionallPort, Rionall_Mug, Rionall_Minimug, Rionall_Palette, Rionall_Frames, 3, 5, 3, 3)
+setMugSlot(EthniuPort, Ethniu_Mug, Ethniu_Minimug, Ethniu_Palette, Ethniu_Frames, 2, 5, 3, 3)
+setMugSlot(GedeonPort, Gedeon_Mug, Gedeon_Minimug, Gedeon_Palette, Gedeon_Frames, 2, 5, 2, 3)
+setMugSlot(JhudielPort, Jhudiel_Mug, Jhudiel_Minimug, Jhudiel_Palette, Jhudiel_Frames, 3, 5, 3, 3)
+setMugSlot(SrihwenPort, Srihwen_Mug, Srihwen_Minimug, Srihwen_Palette, Srihwen_Frames, 4, 5, 4, 3)
+setMugSlot(CamnielPort, Camniel_Mug, Camniel_Minimug, Camniel_Palette, Camniel_Frames, 3, 5, 3, 3)
+setMugSlot(CethernPortClosed, Cethern_Mug, Cethern_Minimug, Cethern_Palette, Cethern_Frames, 3, 5, 3, 3, 6)
+setMugSlot(AnluanPort, Anluan_Mug, Anluan_Minimug, Anluan_Palette, Anluan_Frames, 3, 5, 3, 3)
+setMugSlot(AillenPort, Aillen_Mug, Aillen_Minimug, Aillen_Palette, Aillen_Frames, 3, 5, 3, 3)
+setMugSlot(LamechPort, Lamech_Mug, Lamech_Minimug, Lamech_Palette, Lamech_Frames, 3, 5, 3, 3)
+setMugSlot(IshpanPort, Ishpan_Mug, Ishpan_Minimug, Ishpan_Palette, Ishpan_Frames, 3, 5, 3, 3)
+setMugSlot(GedaliahPort, Gedaliah_Mug, Gedaliah_Minimug, Gedaliah_Palette, Gedaliah_Frames, 3, 5, 3, 3)
+setMugSlot(ShukaPort, Shuka_Mug, Shuka_Minimug, Shuka_Palette, Shuka_Frames, 3, 5, 3, 3)
+setMugSlot(CuRaoiPort, CuRaoi_Mug, CuRaoi_Minimug, CuRaoi_Palette, CuRaoi_Frames, 3, 5, 3, 3)
+setMugSlot(FemaleEnemySoldierPort, FemaleEnemySoldier_Mug, FemaleEnemySoldier_Minimug, FemaleEnemySoldier_Palette, FemaleEnemySoldier_Frames, 4, 6, 4, 4)
+
+// PLACEHOLDER
+setMugSlot(EthniuPTSPort, Ethniu_Mug, Ethniu_Minimug, Ethniu_Palette, Ethniu_Frames, 2, 5, 3, 3)
+
+setMugSlot(SomaPort, Soma_Mug, Soma_Minimug, Soma_Palette, Soma_Frames, 4, 5, 4, 3)
+setMugSlot(SanjanaPort, Sanjana_Mug, Sanjana_Minimug, Sanjana_Palette, Sanjana_Frames, 4, 6, 4, 4)
+
+// PLACEHOLDER
+setMugSlot(VarunaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(NalaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+setMugSlot(NairatmyaPort, Nairatmya_Mug, Nairatmya_Minimug, Nairatmya_Palette, Nairatmya_Frames, 3, 6, 3, 4)
+setMugSlot(ChakoraPort, Chakora_Mug, Chakora_Minimug, Chakora_Palette, Chakora_Frames, 3, 5, 3, 3)
+
+// PLACEHOLDER
+setMugSlot(SirinPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(BirnathPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+setMugSlot(NakstraniPort, Nakstrani_Mug, Nakstrani_Minimug, Nakstrani_Palette, Nakstrani_Frames, 3, 6, 3, 4)
+setMugSlot(BabhruPort, Babhru_Mug, Babhru_Minimug, Babhru_Palette, Babhru_Frames, 3, 5, 3, 3)
+setMugSlot(GogaPort, Goga_Mug, Goga_Minimug, Goga_Palette, Goga_Frames, 3, 5, 3, 3)
+
+// PLACEHOLDER
+setMugSlot(AlakkhiPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(TumbaruPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(BhadraPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(VasavaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(KalkinPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(ManasaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(BhatnPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+setMugSlot(SarmareePort, Sarmaree_Mug, Sarmaree_Minimug, Sarmaree_Palette, Sarmaree_Frames, 3, 5, 3, 3)
+
+// PLACEHOLDER
+setMugSlot(BhekiPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(DanandPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(KyuhnPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(GusainjiPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(MuruganPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(AinghaPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(SinGuPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(LenPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(CalingiPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(RhibhuPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(SengannPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(FlidaisPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(ZhengPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(RadhePort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(EnochPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(NaamahPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// PLACEHOLDER
+setMugSlot(RudramPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+setMugSlot(SetantaPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+
+// PLACEHOLDER
+setMugSlot(HwenPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+setMugSlot(FerdiadPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(HanlinPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(LalithaPTSPort, LalithaPTS_Mug, LalithaPTS_Minimug, LalithaPTS_Palette, LalithaPTS_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(SadhbhPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(MariciPort, Marici_Mug, Marici_Minimug, Marici_Palette, Marici_Frames, 3, 6, 3, 4)
+setMugSlot(BresPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(DagmemaPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(AengusPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(GedeonPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(JhudielPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(BanditPort, 0x884F064, 0x884EE9C, 0x884E87C, 0x884E89C, 2, 5, 3, 3)
+setMugSlot(SellswordPort, 0x884D878, 0x884D6A8, 0x884D088, 0x884D0A8, 2, 5, 3, 3)
+setMugSlot(CamnielPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(CuRaoiPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(RionallPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(GedaliahPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(DharaPort, Dhara_Mug, Dhara_Minimug, Dhara_Palette, Dhara_Frames, 2, 6, 3, 4)
+setMugSlot(Dhara2Port, Dhara2_Mug, Dhara2_Minimug, Dhara2_Palette, Dhara2_Frames, 2, 6, 3, 4)
+setMugSlot(AnkerPort, Anker_Mug, Anker_Minimug, Anker_Palette, Anker_Frames, 2, 5, 3, 3) // placeholder
+setMugSlot(TaraPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+setMugSlot(AlvarinPort, Alvarin_Mug, Alvarin_Minimug, Alvarin_Palette, Alvarin_Frames, 2, 5, 3, 3) // placeholder
+setMugSlot(0x57, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(MustacheVillagerPort, 0x8843330, 0x8843298, 0x8842C78, 0x8842C98, 2, 6, 3, 4)
+setMugSlot(OldManPort, 0x8841C74, 0x8841BDC, 0x88415BC, 0x88415DC, 2, 7, 3, 5)
+setMugSlot(BrunetteManPort, 0x88405B8, 0x8840520, 0x883FF00, 0x883FF20, 2, 5, 3, 3)
+setMugSlot(BlondeManPort, 0x883EEFC, 0x883EE64, 0x883E844, 0x883E864, 2, 6, 3, 4)
+setMugSlot(BlandManPort, 0x883D840, 0x883D7A8, 0x883D188, 0x883D1A8, 2, 5, 3, 3)
+setMugSlot(YoungBoyPort, 0x883C184, 0x883C0EC, 0x883BACC, 0x883BAEC, 2, 5, 3, 3)
+setMugSlot(LittleBoyPort, 0x883AAC8, 0x883AA30, 0x883A410, 0x883A430, 2, 7, 3, 5)
+setMugSlot(OldWomanPort, 0x883940C, 0x8839374, 0x8838D54, 0x8838D74, 2, 6, 3, 4)
+setMugSlot(GingerWomanPort, 0x8837D50, 0x8837CB8, 0x8837698, 0x88376B8, 2, 6, 3, 4)
+setMugSlot(PigtailsPort, 0x8836694, 0x88365FC, 0x8835FDC, 0x8835FFC, 2, 6, 3, 4)
+setMugSlot(BlackHairPort, 0x8834FD8, 0x8834F40, 0x8834920, 0x8834940, 2, 6, 3, 4)
+setMugSlot(LittleGirlPort, 0x883391C, 0x8833884, 0x8833264, 0x8833284, 2, 7, 3, 5)
+
+// ANNA
+setMugSlot(0x64, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+
+// ARMOURY
+setMugSlot(0x65, 0x8830BA4, 0x0, 0x8830584, 0x88305A4, 3, 2, 2, 0)
+
+// VENDOR
+setMugSlot(0x66, 0x882F580, 0x0, 0x882EF60, 0x882EF80, 3, 3, 2, 0)
+
+// ARENA
+setMugSlot(0x67, 0x882DF5C, 0x0, 0x882D93C, 0x882D95C, 3, 2, 2, 0)
+
+// SECRET SHOP
+setMugSlot(0x68, 0x882C938, 0x0, 0x882C318, 0x882C338, 3, 3, 2, 0)
+
+setMugSlot(0x69, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(0x6a, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(EnemySoldierPort, 0x8829C58, 0x8829BC0, 0x8829580, 0x88295C0, 2, 5, 3, 3)
+setMugSlot(0x6c, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(AnilaPort, 0x8877754, 0x88775A4, 0x8829540, 0x8876FA4, 2, 5, 3, 3)
+setMugSlot(0x6e, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(0x6f, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(0x70, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+setMugSlot(0x71, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
+
+// Myrmidon
+setCardEntryOld(MyrmidonCard, 0x8828ED8, 0x8828EF8)
+
+// Swordmaster
+setCardEntryOld(SwordmasterCard, 0x8828960, 0x8828980)
+
+// Woodsman
+setCardEntryOld(WoodsmanCard, 0x88281F8, 0x8828218)
+
+// Warrior
+setCardEntryOld(WarriorCard, 0x88279F8, 0x8827A18)
+
+// Lance Keeper
+setCardEntry(LanceKeeperCard, LanceKeeperPortrait, LanceKeeperPortraitPalette)
+
+// General
+setCardEntryOld(GeneralCard, 0x8826A48, 0x8826A68)
+
+// Archer
+setCardEntry(ArcherCard, ArcherMPortrait, ArcherMPortraitPalette)
+
+// Sniper
+setCardEntry(SniperMCard, SniperMPortrait, SniperMPortraitPalette)
+
+// Diviner
+setCardEntry(MonkCard, MonkMPortrait, MonkMPortraitPalette)
+
+// Bishop
+setCardEntryOld(BishopCard, 0x882516C, 0x882518C)
+
+// Diabolist
+setCardEntry(DiabolistCard, DiabolistMPortrait, DiabolistMPortraitPalette)
+
+// Sage
+setCardEntryOld(SageCard, 0x88243D8, 0x88243F8)
+
+// Mystic
+setCardEntryOld(MysticCard, 0x8823D44, 0x8823D64)
+
+// Druid
+setCardEntryOld(DruidCard, 0x88235B0, 0x88235D0)
+
+// Lance Knight
+setCardEntry(LanceKnightCard, LanceKnightPortrait, LanceKnightPortraitPalette)
+
+// Gold Knight
+setCardEntry(GoldKnightCard, GoldKnightPortrait, GoldKnightPortraitPalette)
+
+// Trobairitz
+setCardEntry(TrobairitzCard, TrobairitzPortrait, TrobairitzPortraitPalette)
+
+// Valkyrie
+setCardEntry(ValkyrieCard, ValkyriePortrait, ValkyriePortraitPalette)
+
+// Bow Knight
+setCardEntry(BowKnightCard, BowKnightPortrait, BowKnightPortraitPalette)
+
+// Ranger (Unused)
+setCardEntry(ArcherFCard, ArcherFPortrait, ArcherFPortraitPalette)
+
+// Sky Knight
+setCardEntryOld(SkyKnightCard, 0x881FC9C, 0x881FCBC)
+
+// Crownflier
+setCardEntryOld(CrownflierCard, 0x881F370, 0x881F390)
+
+// Wyvern Rider
+setCardEntry(WyvernRiderCard, WyvernRiderPortrait, WyvernRiderPortraitPalette)
+
+// Wyvern Lord
+setCardEntry(WyvernLordCard, WyvernLordPortrait, WyvernLordPortraitPalette)
+
+// Soldier
+setCardEntry(SoldierCard, SoldierMPortrait, SoldierMPortraitPalette)
+
+// Brigand
+setCardEntryOld(BrigandCard, 0x881D550, 0x881D570)
+
+// Pirate
+setCardEntry(PirateCard, PiratePortrait, PiratePortraitPalette)
+
+// Berserker
+setCardEntryOld(BerserkerCard, 0x881C4FC, 0x881C51C)
+
+// Thief (Unused)
+setCardEntry(AssassinCard, AssassinPortrait, AssassinPortraitPalette)
+
+// Manakete (Unused)
+setCardEntry(AxeKeeperCard, AxeKeeperPortrait, AxeKeeperPortraitPalette)
+
+// Mercenary
+setCardEntryOld(MercenaryCard, 0x881B01C, 0x881B03C)
+
+// Hero
+setCardEntry(HeroCard, HeroPortrait, HeroPortraitPalette)
+
+// Fleet (Unused)
+setCardEntry(AxeKnightCard, AxeKnightPortrait, AxeKnightPortraitPalette)
+
+// Wyvern Knight
+setCardEntryOld(WyvernKnightCard, 0x88199F8, 0x8819A18)
+
+// Trickster
+setCardEntry(TricksterCard, TricksterMPortrait, TricksterMPortraitPalette)
+
+// Mage Knight
+setCardEntryOld(MageKnightCard, 0x8818BDC, 0x8818BFC)
+
+// Great Knight
+setCardEntryOld(GreatKnightCard, 0x88183B0, 0x88183D0)
+
+// Ranger
+setCardEntryOld(RangerCard, 0x8817BF4, 0x8817C14)
+
+// Phantom
+setCardEntryOld(PhantomCard, 0x8817438, 0x8817458)
+
+// Unused (0x99 - 0xAA)
+setCardEntry(BishopFCard, BishopFPortrait, BishopFPortraitPalette)
+setCardEntry(BowKeeperCard, BowKeeperPortrait, BowKeeperPortraitPalette)
+setCardEntry(DarkKnightCard, DarkKnightPortrait, DarkKnightPortraitPalette)
+setCardEntry(DiabolistFCard, DiabolistFPortrait, DiabolistFPortraitPalette)
+setCardEntry(DruidFCard, DruidFPortrait, DruidFPortraitPalette)
+setCardEntry(HalberdierCard, HalberdierPortrait, HalberdierPortraitPalette)
+setCardEntry(LanceKnightFCard, LanceKnightFPortrait, LanceKnightFPortraitPalette)
+setCardEntry(MageKnightFCard, MageKnightFPortrait, MageKnightFPortraitPalette)
+setCardEntry(MonkFCard, MonkFPortrait, MonkFPortraitPalette)
+setCardEntry(MyrmidonFCard, MyrmidonFPortrait, MyrmidonFPortraitPalette)
+setCardEntry(PaleRiderCard, PaleRiderPortrait, PaleRiderPortraitPalette)
+setCardEntry(RangerFCard, RangerFPortrait, RangerFPortraitPalette)
+setCardEntry(SageFCard, SageFPortrait, SageFPortraitPalette)
+setCardEntry(SniperFCard, SniperFPortrait, SniperFPortraitPalette)
+setCardEntry(SwordKeeperCard, SwordKeeperPortrait, SwordKeeperPortraitPalette)
+setCardEntry(SwordKnightCard, SwordKnightPortrait, SwordKnightPortraitPalette)
+setCardEntry(SwordKnightFCard, SwordKnightFPortrait, SwordKnightFPortraitPalette)
+setCardEntry(TemplarCard, TemplarPortrait, TemplarPortraitPalette)
+
+// SUPPLY
+setMugSlot(0xAB, 0x880DBE8, 0x880DA18, 0x880D3F8, 0x880D418, 2, 5, 3, 3)
+
+setCardEntry(TricksterFCard, TricksterFPortrait, TricksterFPortraitPalette)
+setCardEntry(WarClericCard, WarClericPortrait, WarClericPortraitPalette)
+setCardEntry(WarMonkCard, WarMonkPortrait, WarMonkPortraitPalette)
+setCardEntry(SwordmasterFCard, SwordmasterFPortrait, SwordmasterFPortraitPalette)
+setCardEntry(ShamanFCard, ShamanFPortrait, ShamanFPortraitPalette)
+setCardEntry(SilverKnightCard, SilverKnightPortrait, SilverKnightPortraitPalette)
+setCardEntry(ClericCard, ClericPortrait, ClericPortraitPalette)
+
+ALIGN 16
+WORD 0 0 0 0 0 0 0 0
