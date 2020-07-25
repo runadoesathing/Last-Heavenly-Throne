@@ -229,7 +229,7 @@ Relationships with this unit boost defenses,[N]
 Hit rate, Avoid rate, and Critical rate.[X]
 
 ## FireAffRID
-[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_W][_a][_r][_d][_b][_e][_a][_r][_e][_r] [_M][_a][_c][_h][_a].[N]
+[_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_F][_i][_r][_s][_t] [_M][_a][_c][_h][_a][_n][_a][_i], [_M][_a][_c][_h][_a].[N]
 [_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_a][_m][_a][_g][_e],[N]
 [_H][_i][_t] [_r][_a][_t][_e], [_C][_r][_i][_t][_i][_c][_a][_l] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_A][_v][_o][_i][_d].[X]
 
@@ -267,3 +267,6 @@ Hit rate, Avoid rate, and Critical rate.[X]
 [_A][_n] [_a][_f][_f][_i][_n][_i][_t][_y] [_w][_i][_t][_h] [_t][_h][_e] [_E][_m][_p][_y][_r][_e][_a][_n], [_T][_e][_n][_l][_e][_t][_h].[N]
 [_R][_e][_l][_a][_t][_i][_o][_n][_s][_h][_i][_p][_s] [_w][_i][_t][_h] [_t][_h][_i][_s] [_u][_n][_i][_t] [_b][_o][_o][_s][_t] [_d][_e][_f][_e][_n][_s][_e][_s],[N]
 [_H][_i][_t] [_r][_a][_t][_e], [_A][_v][_o][_i][_d] [_r][_a][_t][_e], [_a][_n][_d] [_C][_r][_i][_t][_i][_c][_a][_l] [_r][_a][_t][_e].[X]
+
+# 0x42 WeaponRankID
+Weapon rank increased.[X]

@@ -27,3 +27,9 @@ Faded Green[X]
 
 ## DrumsOfTragedySR
 Drums of Tragedy[X]
+
+## GreatmotherSR
+Greatmother[X]
+
+## PrimordialSR
+Primordial Reminders[X]

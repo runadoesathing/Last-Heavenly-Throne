@@ -416,6 +416,19 @@ Nakstrani_Minimug:
 #incbin "Nakstrani_minimug.dmp"
 
 ALIGN 4
+Nandi_Mug:
+#incbin "Nandi_mug.dmp"
+ALIGN 4
+Nandi_Frames:
+#incbin "Nandi_frames.dmp"
+ALIGN 4
+Nandi_Palette:
+#incbin "Nandi_palette.dmp"
+ALIGN 4
+Nandi_Minimug:
+#incbin "Nandi_minimug.dmp"
+
+ALIGN 4
 Rionall_Mug:
 #incbin "Rionall_mug.dmp"
 ALIGN 4
@@ -531,4 +544,17 @@ SrihwenPurple_Palette:
 ALIGN 4
 SrihwenPurple_Minimug:
 #incbin "SrihwenPurple_minimug.dmp"
+
+ALIGN 4
+Varuna_Mug:
+#incbin "Varuna_mug.dmp"
+ALIGN 4
+Varuna_Frames:
+#incbin "Varuna_frames.dmp"
+ALIGN 4
+Varuna_Palette:
+#incbin "Varuna_palette.dmp"
+ALIGN 4
+Varuna_Minimug:
+#incbin "Varuna_minimug.dmp"
 

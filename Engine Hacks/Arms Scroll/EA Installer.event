@@ -1,0 +1,39 @@
+//Insert all Event Files here
+
+//Edit these values here!
+
+//Note: If you run this hack again with a different Item ID, the previous Item ID will be bugged. Don't do that.
+
+
+
+//Do not edit any values below here unless you have repointed them
+
+//#define ItemEffectTable 0x2FC90
+//#define ItemUsabilityTable 0x288B0
+//#define PrepScreenUsabilityTable 0x29F34
+//#define ItemTargetTable 0x28E8C
+
+//Definitely don't edit anything below here
+PUSH
+ORG 0x2F820
+jumpToHack(ArmsFirst)
+POP
+
+ALIGN 4
+ArmsFirst:
+BYTE 0x40 0xb4 0xff 0x20 0x30 0x40 0x40 0xbc 0x00 0x49 0x08 0x47
+POIN Arms|1
+
+Arms:
+BYTE 0x89 0x28 0x03 0xD0 ArmsScroll 0x28 0x0B 0xD0 0x04 0x49 0x08 0x47 0xE0 0x68 0x80 0x21 0x89 0x01 0x08 0x43 0x00 0x49 0x08 0x47 0x2D 0xF8 0x02 0x08 0x3B 0xF8 0x02 0x08
+#include "ASM+.DMPs/Arm Scroll.lyn.event"
+//#incbin "ASM+.DMPs/Arm Scroll.dmp"
+POIN ItemTable
+
+#include "ASM+.DMPs/NewUsability.lyn.event"
+//#incbin "ASM+.DMPs/Usability.dmp"
+//POIN ItemTable
+
+Usability2:
+#include "ASM+.DMPs/Usability2.lyn.event"
+//#incbin "ASM+.DMPs/Usability2.dmp"

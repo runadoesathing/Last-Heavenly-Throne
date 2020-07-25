@@ -102,67 +102,60 @@ A few days later...[X]
 
 
 ## P1C4CethernOnlyCamp
-[ConversationText]
 [MidLeft][LoadCethern]
-We've finally returned to camp...
-I suppose our first order of business is to inform C[0xFA] Raoi...[X]
+We've finally returned to camp...[AN]
+Our first order of business is to[N]
+inform C[0xFA] Raoi of everything.[AN]
+[Beat] I wonder if Miach is okay.[A][X]
 
 
 
 ## P1C4SadhbhCamp
-[ConversationText]
 [MidLeft][LoadCethern]
-We've finally returned to camp...
-Our first order of business is to inform C[0xFA] Raoi.
+We've finally returned to camp...[AN]
+Our first order of business is to[N]
+inform C[0xFA] Raoi of everything.[A][CloseSpeechSlow]
 
 [FarFarRight][LoadSadhbh][MoveMidRight][MidRight][ToggleSmile]
-Cethern.
-I am glad to see you are well.
+Cethern.[.6] I am glad to[N]
+see you are well.[A]
 
 [MidLeft]
-Lady Sadhbh!
-You made it back from Ochren already?
+Lady Sadhbh![AN]
+You made it back from[N]
+Ochren already?[A]
 
 [MidRight]
-I thankfully have.[ToggleSmile]
-How fared Manapia?
+I thankfully have.[ToggleSmile][.6][N]
+How fared Manapia?[A]
 
 [MidLeft]
-We were unfortunately assaulted by Heichalot.
-They attempted to gain ground on us, but we fought them off.
-The town should be safeguarded now, more than it was.
+Heichalot launched an assault on us.[AN]
+We fought them off,[.5] but the village[N]
+was less than thankful for our help.[A]
 
 [MidRight]
-I assume you've returned to tell C[0xFA] Raoi.
-We should head in together.
-I've news to tell him as well.[X]
+Less than thankful?[.6] How odd...[.6][N]
+You've come to tell C[0xFA] Raoi?[AN]
+We should head in together.[.4][N]
+I've news to tell him as well.[A][ClearFace][.......][X]
 
 
 
-## P1C4EthniuCamp
-[ConversationText]
-[FarFarLeft][LoadCethern][MoveMidRight]
-We've finally returned to camp...
-Our first order of business is to inform the commander.
+## P1C4AECamp
+[FarFarRight][LoadEthniu][MoveLeft]
+There you are.[.6] Do you know how much[N]
+of a nuisance you were to follow?[AN]
+[X]
 
-[MidLeft][LoadEthniu]
-So this is a war encampment.
-It's filthy and horrific.
-Even worse than after the fight at Manapia.
 
-[MidRight][ClearFace][LoadCethern]
-It's not a very nice place, but it's protecting us from Heichalot.
-If this is offputting, you're free to return home.
+## P1C4ACamp
+[X]
 
-[MidLeft]
-I'll be fine.
-Only something to adjust to.
-I'd rather be here.
-Come on, let's go see that commander of yours.
 
-[MidRight]
-Of course.
-It's in that tent, right ahead...[X]
+
+## P1C4ECamp
+[X]
 
 
 

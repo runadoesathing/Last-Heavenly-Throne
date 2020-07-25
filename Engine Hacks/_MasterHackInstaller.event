@@ -289,7 +289,11 @@ POP
   //#include "ThreePromotions/ThreePromotions.event"
   MESSAGE three promotions end at currentOffset
   
+  ALIGN 4
   #include "ModularSupply/ModularSupply.event"
+  
+  ALIGN 4
+  #include "Arms Scroll/EA Installer.event"
 
   ALIGN 4
   #include "SkillSystem/SkillSystemInstaller.event"

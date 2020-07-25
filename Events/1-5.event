@@ -81,6 +81,10 @@ UnitsP:
 UNIT Cethern EirikaLord 0x1 Level(1, Ally, 0)    [20,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
 
+DagmemaP:
+UNIT Dagmema BowKnight 0x1 Level(1, Ally, 0)    [21,8] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
 SetantaP:
 UNIT Setanta AxeCav 0x1 Level(1, Ally, 0)    [20,7] 0x0 0x0 0x0 0x0 [0x0] [0x0,0x0,0x0,0x0]
 UNIT
@@ -202,14 +206,25 @@ TEXTSTART
 CHECK_ALIVE Sadhbh
 BEQ 0x0 0x0 0xC
 	TEXTSHOW P1C4SadhbhCamp
-	GOTO 0x2
+  TEXTEND
+  GOTO 0x1
 LABEL 0x0
-CHECK_ALIVE Ethniu
-BEQ 0x1 0x0 0xC
-	TEXTSHOW P1C4EthniuCamp
-	GOTO 0x2
-LABEL 0x1
 TEXTSHOW P1C4CethernOnlyCamp
+TEXTEND
+LABEL 0x1
+CHECK_ALIVE Aengus
+BEQ 0xD00 0xC 0x0
+  CHECK_ALIVE Ethniu
+  BEQ 0xC00 0xC 0x0
+      TEXTSHOW2 P1C4AECamp
+      GOTO 0x2
+  LABEL 0xC00
+  TEXTSHOW2 P1C4ACamp
+  GOTO 0x2
+LABEL 0xD00
+CHECK_ALIVE Ethniu
+BEQ 0x2 0xC 0x0
+  TEXTSHOW2 P1C4ECamp
 LABEL 0x2
 TEXTEND
 REMA
@@ -327,6 +342,7 @@ AliveCLoad(Bres,BresP,0xBBD)
 AliveCLoad(Ethniu,EthniuP,0xBBE)
 AliveCLoad(Aengus,AengusP,0xBBF)
 AliveCLoad(Hanlin,HanlinP,0xBB10)
+AliveCLoad(Dagmema,DagmemaP,0xBB11)
 _0x2620 0x501
 MUSC 0x25
 FADU 16
@@ -384,44 +400,7 @@ CLEAN
 CLEA 0x0
 LOAD2 0x1 UnitsP
 ENUN
-AliveCLoad(Setanta,SetantaP,0xCCA)
-AliveCLoad(Ferdiad,FerdiadP,0xCCB)
-AliveCLoad(Lalitha,LalithaP,0xCCC)
-AliveCLoad(Bres,BresP,0xCCD)
-AliveCLoad(Ethniu,EthniuP,0xCCE)
-AliveCLoad(Aengus,AengusP,0xCCF)
-AliveCLoad(Hanlin,HanlinP,0xCC10)
-LOAD1 0x1 MiachPP
-ENUN
 LABEL 0xA0AA
-FADU 16
-CHECK_ALIVE Hanlin
-BEQ 0xB0B0 0x0 0xC
-	MUSC 0x9
-	CUMO Hanlin
-	STAL 60
-	CURE
-	TEXTSTART
-	TEXTSHOW P1C4HanlinExplains
-	TEXTEND
-	REMA
-	GOTO 0xB0BB
-LABEL 0xB0B0
-MUSC 0x9
-CUMO Cethern
-STAL 60
-CURE
-TEXTSTART
-TEXTSHOW P1C4CethernExplains
-TEXTEND
-REMA
-LABEL 0xB0BB
-SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
-STAL 20
-TUTORIALTEXTBOXSTART
-TEXTSHOW P1C4Warning
-TEXTEND
-REMA
 GotoPrepScreen
 NoFade
 ENDA
@@ -477,7 +456,7 @@ ENDA
 OutOfTheWoods:
 //SVAL 0x2 0x0
 //CALL 0x9EE1B8
-_0x2620 0x800 //camera better around borders of map
+CAM1 Ishpan
 CUMO Ishpan
 STAL 60
 CURE
@@ -627,6 +606,33 @@ NoFade
 ENDA
 
 CleartheSeal:
-ASMC ClearDebuffs|1
+MUSC 0x9
+CHECK_ALIVE Hanlin
+BEQ 0xB0B0 0x0 0xC
+  CAM1 Hanlin
+	CUMO Hanlin
+	STAL 60
+	CURE
+	TEXTSTART
+	TEXTSHOW P1C4HanlinExplains
+	TEXTEND
+	REMA
+	GOTO 0xB0BB
+LABEL 0xB0B0
+CAM1 Cethern
+CUMO Cethern
+STAL 60
+CURE
+TEXTSTART
+TEXTSHOW P1C4CethernExplains
+TEXTEND
+REMA
+LABEL 0xB0BB
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
+STAL 20
+TUTORIALTEXTBOXSTART
+TEXTSHOW P1C4Warning
+TEXTEND
+REMA
 NoFade
 ENDA

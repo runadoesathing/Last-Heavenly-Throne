@@ -782,7 +782,7 @@ Sir MacCumail?[MoveMidLeft] Hold once again![.6][N]
 You bear the resemblance of him...![A]
 
 [OpenMidRight]
-Both my brother and I are the[N] 
+Both my brother and I are the[N]
 grandsons of Sir MacCumail.[AN]
 I would have no intentions of[N]
 ever harming a Crownflier.[A]
@@ -884,7 +884,7 @@ Sir MacCumail?[MoveMidLeft] Hold once again![.6][N]
 You bear the resemblance of him...![A]
 
 [OpenMidRight]
-Both my brother and I are the[N] 
+Both my brother and I are the[N]
 grandsons of Sir MacCumail.[AN]
 I would have no intentions of[N]
 ever harming a Crownflier.[A]
@@ -1320,7 +1320,7 @@ not sit around like helpless children![AN]
 Move out of the way, sir![A]
 
 [FarRight]
-I will not![.5] This is Manapia's business.[.6][AN]
+I will not![.5] This is Manapia's business.[AN]
 If our neighbours wish to fight us,[.5] then[N]
 we will be the ones to meet them![A]
 
@@ -1529,14 +1529,14 @@ I only came here to make sure[N]
 this wouldn't happen again.[A]
 
 [FarLeft]
-What I'm saying is,[.5] if you're kicking him out...[.6]
+What I'm saying is,[.5] if you're kicking him out...[.6][N]
 Then I'll be leaving as well.[A][X]
 
 
 
 ## P1C3CethernAengusEthniu
 [FarRight][ClearFace][Left][LoadEthniu][Right][MoveMidRight]
-Thank you very much for understanding.[.6][N]
+Thank you for understanding.[.6][N]
 I only came here to help...[A]
 
 [Left]
@@ -1601,10 +1601,10 @@ Thank you again for your help.[A][ClearFace][.6]
 
 [Left]
 So,[.6] I'm going with him.[.6][N]
-I don't know your plans,[.5] but...[A]
+I don't know your plans...[A]
 
 [FarLeft]
-I want to stay here and help.[.6][N]
+My heart tells me to stay and help.[.6][N]
 It'd be terrible to leave everyone...[AN]
 And the nobility'd kick my behind[N]
 just for thinkin' of leaving...[AN]
@@ -1621,7 +1621,7 @@ We've got a long walk ahead of us.[A][X]
 
 ## P1C3CethernAengus
 [FarLeft][MoveMidLeft][MidRight]
-Thank you very much for understanding.[.6][N]
+Thank you for understanding.[.6][N]
 I only came here to help...[A]
 
 [MidLeft]
@@ -1644,7 +1644,7 @@ I'm the guard of this town.[AN]
 It's my job to make sure the[N]
 people are safe.[AN]
 If I can't do that,[.5] I don't[N]
-deserve to be guard anymore.[A][.6]
+deserve to be guard anymore.[AN][.6]
 I'd like to come with you.[.5][N]
 I want to fight alongside you.[A]
 
@@ -1667,60 +1667,67 @@ I'll trust you and your sister.[AN]
 We'll be heading back to the camp[N]
 later tonight.[.5] Make sure you tell her.[A][ClearFace][.6]
 
-[MidLeft][X]
+[MidLeft]
+Please forgive me,[.5] Ethniu.[.6][N]
+I'll be back before you know it.[A][X]
 
 
 
-## P1C3EthniuCethernInTheVilla
-[ConversationText]
-[OpenMidRight][LoadCethern]
-What an exhausting fight.
-I hope Miach is doing fine...
-
-[OpenFarFarLeft][LoadEthniu][MoveMidLeft][MidLeft]
-You look like the leader of that group.
-The one that helped stave off Heichalot.
-
-[MidRight]
-I suppose I am.
-You must be the woman who was helping us.
-Can I ask who you are?
+## P1C3CethernEthniu
+[FarLeft][ClearFace][FarRight][ClearFace][MidLeft][LoadEthniu][Right][MoveMidRight]
+Thank you for understanding.[.6][N]
+I only came here to help...[A]
 
 [MidLeft]
-My name is Ethniu.
-I was the sister of the oaf who should've been guarding the town, before he...
+Don't think you're off the hook.[AN]
+You saved our behinds,[.5] but your[N]
+hands aren't free of bloodshed.[A]
 
 [MidRight]
-...[.....]I'm very sorry for your loss Ethniu.
-Losing a sibling like that...
-I couldn't imagine the pain.
+[Beat] Your brother.[AN]
+I can't imagine the pain[N]
+of losing a siblilng.[A]
 
 [MidLeft]
-Don't apologize.
-It's his stupid oaf self's fault.[CloseEyes]
-He should've listened to me...[.....][OpenEyes]
-But that doesn't matter.
-What matters is my request.
-I'd like to join your party back to the border encampment.
+I don't want your apology.[.5] It's his[N]
+own damn fault that he's dead.[AN]
+You saying sorry isn't going to[N]
+bring him back to life.[A]
 
 [MidRight]
-Are you sure you can leave?
-This town desperately needs defenses.
+I'm...[.5] not sure I know what to say.[A]
 
 [MidLeft]
-Unlike my brother, I was never supposed to guard the town.
-But if you truly require it, I could educate them on my position.
+Good.[.5] Then listen up.[.6][N]
+If you're smart,[.5] you'll take me with you.[AN]
+I only guard this town because my brother[N]
+was too much of an oaf to do it alone.[AN]
+Now that he's gone,[.5] I've no other reason[N]
+to stay in this brattish hamlet.[A]
 
 [MidRight]
-I'll think about it for now.
-For now, our priority is your village's safety.
+The people here desperately need[N]
+someone to keep them safe.[AN]
+I can't just take you away and[N]
+let them fend for themselves![A]
 
 [MidLeft]
-Good.
-I hope you'll make the right decision.[ClearFace][......]
+It's the only way they'll learn.[AN]
+I could tell them everything they[N]
+need to keep Heichalot at bay,[AN]
+but they would never listen.[A]
 
-[MidRight][CloseEyes]
-What a stubborn woman...[X]
+[MidRight]
+I can't take you away from them.[AN]
+I have to ask you to keep Manapia[N]
+safe in my stead.[.5] I'm sorry.[A][ClearFace][.7]
+
+[MidLeft]
+The sooner we end this war,[.5] the[N]
+sooner everyone'll be safe.[AN]
+Your death won't be in vain,[.4][N]
+my oaf of a brother...[AN][CloseEyes]
+I'll avenge you.[.6] I swear it.[A][X]
 
 
 
@@ -1730,98 +1737,106 @@ Ochren, Corbenic[X]
 
 
 ## P1C3SadhbhRionall
-[ConversationText]
 [MidRight][LoadSadhbh][MidLeft][LoadRionall][ToggleSmile]
-Lady Sadhbh.
-It is interesting to see you at this hour.
-To what do I owe this pleasure?
+Lady Sadhbh?[.6] At this hour?[.6][N]
+To what do I owe this pleasure?[A]
 
 [MidRight][ToggleSmile]
-Lord Rionall.
-I apologize for the late entry.
-During times of war, speed is of the essence.
+Lord Rionall.[.6] During times of[.6][N]
+war,[.5] speed is of the essence.[A]
 
 [MidLeft]
-Indeed it is, indeed it is...
-What is required of me now?
+Indeed it is,[.5] indeed it is...[.6][N]
+What is required of me now?[A]
 
 [MidRight]
-It is business from the Pedryvan border camp.
-Questions from the tacticians about the amount of support you have given.
+Business from the Pedryvan border camp.[AN]
+We have qualms over the support you've[N]
+given.[.6] Or rather,[.5] the lack of it.[A]
 
 [MidLeft]
-Lady Sadhbh, I have given as much support as I can.
-Our already small militia is protecting this side of the border from Heichalotian assault.
-We have given what food we can to your encampment.
-What else does Pedryvan ask of us?
+Lady Sadhbh,[.5] I have given what I can.[AN]
+Our already small militia is protecting[N]
+this side of the border from assault.[AN]
+We've given our crop to your border.[.5][N]
+What else does Pedryvan ask of us?[A]
 
 [MidRight]
-The path into Ochren is small and rarely used.
-Are you certain that no more of your forces can be given?
+The path into Ochren is small and rarely used.[.6][N]
+You cannot spare a single soldier for us?[A]
 
 [MidLeft]
-I am absolutely certain, Lady Sadhbh.
-Perhaps you may find resolution when the soldiers in Srughna return.
+I am absolutely certain,[.5] Lady Sadhbh.[AN]
+Perhaps you may find resolution when[N]
+the soldiers in Srughna return.[A]
 
 [MidRight]
-Mayhaps we will.
-The encampment shall be informed of your current perils.
-Please continue with your aid, Lord of Ochren.[ClearFace][.......]
+[CloseEyes]Sigh[Beat] Aingha tests me so.[AN][OpenEyes]
+Pedryvan shall be informed of[N]
+your many hardships,[.5] milord.[AN][MoveMidRight]
+I wonder,[.5] how many of those are[N]
+caused by your cold apathy...?[AN]
+Nevertheless,[.5] I take my leave.[A][ClearFace][.......]
 
 [FarFarRight]
-Has she left back for Pedryvan?
+Has she left back for Pedryvan?[A]
 
 [MidLeft]
-Indeed she has.
-I am terribly sorry to hide you away.
+Indeed she has.[.6][N]
+I am terribly sorry to hide you away.[A]
 
 [MidRight][LoadIshpan][LoadOverworldFaces]
-No matter.
-The gravity of the manner calls for it.
-I assume Heichalot may still count on your assistance?
+What brutes the Crownfliers are...[.6][N]
+A complete lack of respect.[AN]
+I assume Heichalot may still[N]
+count on your assistance?[A]
 
 [MidLeft]
-So long as my people are kept unharmed, my lands are yours.
-I understand that any struggle would be futile.
+So long as my people are kept[N]
+unharmed,[.5] my lands are yours.[AN]
+I understand that any struggle[N]
+would be futile.[A]
 
 [MidRight]
-Ochren will be left alone.
-Your land will join Uffren in its union under the prince.
+Ochren will be left alone.[AN]
+Your land will join Uffren in[N]
+its union under the prince.[A]
 
 [MidLeft]
-That is fine.
-I thank you for your merciful grace in allowing my surrender.
+I thank you for your mercy[N]
+in allowing my surrender.[A]
 
 [MidRight]
-I shall return to Uffren to tell my men the news.
-If any more forces from Corbenic bother you, they will deal with us at your borders.[ClearFace][......]
+I shall return to Uffren[N]
+to tell my men the news.[AN]
+If any forces from Corbenic[N]
+bother you,[.5] they will deal[AN]
+with us at your borders.[A][ClearFace][......]
 
 [MidLeft]
-I am making the correct call.
-This is the right decision for my people...[X]
+This is the right call for my people.[.6][N][CloseEyes]
+This must be what is right...[A][X]
 
 
 
 ## P1C3Bandoleo
-[ConversationText]
 [OpenMidLeft][LoadSellsword]
-The town's already being raided...
-We should blend right in![X]
+The town's already being raided...[.6][N]
+We should blend right in![A][X]
 
 
 
 ## P1C3LamechSignal
-[ConversationText]
 [OpenMidLeft][LoadLamech]
-Everybody!
-Charge forward![X]
+Everybody![.6][N]
+Charge forward![A][X]
 
 
 
 ## P1C3SoldierSignal
-[ConversationText]
 [OpenMidRight][LoadFemaleEnemySoldier]
-Anyone who's still alive,[.4] take them down![X]
+Anyone who's still alive,[.5][N]
+take them down![A][X]
 
 
 

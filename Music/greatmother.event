@@ -23,13 +23,7 @@ greatmother_1_B1:
 	BYTE	TEMPO   80*greatmother_tbs/2
 	BYTE		VOICE   46
 	BYTE		PAN     c_v+0
-	BYTE		VOL     66*greatmother_mvl/mxv
-	BYTE		PAN     c_v+0
-	BYTE		VOL     66*greatmother_mvl/mxv
-	BYTE		PAN     c_v+0
-	BYTE		VOL     66*greatmother_mvl/mxv
-	BYTE		PAN     c_v+0
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     56*greatmother_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE		N11     Bn2   v100
 	BYTE	W12
@@ -161,11 +155,11 @@ greatmother_1_B2:
 // 021   ----------------------------------------
 	BYTE		VOICE   46
 	BYTE		PAN     c_v+0
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     56*greatmother_mvl/mxv
 	BYTE		PAN     c_v+0
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     56*greatmother_mvl/mxv
 	BYTE		PAN     c_v+0
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     56*greatmother_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE	FINE
 
@@ -177,13 +171,13 @@ greatmother_2_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   60
 	BYTE		PAN     c_v-10
-	BYTE		VOL     59*greatmother_mvl/mxv
+	BYTE		VOL     54*greatmother_mvl/mxv
 	BYTE		PAN     c_v-10
-	BYTE		VOL     59*greatmother_mvl/mxv
+	BYTE		VOL     54*greatmother_mvl/mxv
 	BYTE		PAN     c_v-10
-	BYTE		VOL     59*greatmother_mvl/mxv
+	BYTE		VOL     54*greatmother_mvl/mxv
 	BYTE		PAN     c_v-10
-	BYTE		VOL     59*greatmother_mvl/mxv
+	BYTE		VOL     54*greatmother_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE	W96
 // 001   ----------------------------------------
@@ -302,11 +296,11 @@ greatmother_2_B2:
 // 021   ----------------------------------------
 	BYTE		VOICE   60
 	BYTE		PAN     c_v-10
-	BYTE		VOL     59*greatmother_mvl/mxv
+	BYTE		VOL     54*greatmother_mvl/mxv
 	BYTE		PAN     c_v-10
-	BYTE		VOL     59*greatmother_mvl/mxv
+	BYTE		VOL     54*greatmother_mvl/mxv
 	BYTE		PAN     c_v-10
-	BYTE		VOL     59*greatmother_mvl/mxv
+	BYTE		VOL     54*greatmother_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE	FINE
 
@@ -318,13 +312,13 @@ greatmother_3_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   52
 	BYTE		PAN     c_v+7
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     60*greatmother_mvl/mxv
 	BYTE		PAN     c_v+7
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     60*greatmother_mvl/mxv
 	BYTE		PAN     c_v+7
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     60*greatmother_mvl/mxv
 	BYTE		PAN     c_v+7
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     60*greatmother_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE	W96
 // 001   ----------------------------------------
@@ -451,11 +445,11 @@ greatmother_3_B2:
 // 021   ----------------------------------------
 	BYTE		VOICE   52
 	BYTE		PAN     c_v+7
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     60*greatmother_mvl/mxv
 	BYTE		PAN     c_v+7
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     60*greatmother_mvl/mxv
 	BYTE		PAN     c_v+7
-	BYTE		VOL     66*greatmother_mvl/mxv
+	BYTE		VOL     60*greatmother_mvl/mxv
 	BYTE		BEND    c_v+0
 	BYTE	FINE
 

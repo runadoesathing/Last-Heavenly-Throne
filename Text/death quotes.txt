@@ -77,10 +77,9 @@ How could you let her die?![A][X]
 
 
 ## ConallDeathQ
-[BattleText]
 [OpenMidRight][LoadCethern]
-Please, keep my brother safe...
-[CloseEyes]I can't go on...[X]
+Please,[.5] keep my brother safe...[.6][N]
+[CloseEyes]I can't go on...[A][X]
 
 
 
@@ -107,11 +106,9 @@ I was useless...[A][X]
 
 
 ## SadhbhDeathQ
-[BattleText]
 [OpenMidRight][LoadSadhbh]
-So this is it.
-You are all competent enough.[CloseEyes]
-I trust in your strength...[X]
+A[0xED]fe...[.6][CloseEyes] I protected your[N]
+daughter with my life...[A][X]
 
 
 

@@ -182,6 +182,7 @@
 #define WarpCard 0x91
 #define SpectreCard 0x92
 #define RescueCard 0x93
+#define ArmsScroll 0xA2
 #define Padma 0xB8
 #define SlimAxe 0xBC
 #define SlimBow 0xBD

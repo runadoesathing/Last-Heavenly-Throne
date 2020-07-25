@@ -39,7 +39,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AREA 0x0 DidWeLose [4,0] [13,4]
+AREA 0x65 DidWeLose [4,0] [13,4]
 END_MAIN
 
 Dunno1:
@@ -83,73 +83,74 @@ UNIT
 
 EnemyGang:
 UNIT Chakora Archer_F 0x0 Level(7, Enemy, 1)            [1,3]  DropItem 0 0 0 [SteelBow, Talisman]    [3,3,4,0x20]
-UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [5,6]  0 0 0 0        [MalkuthI]              [0,0x8,4,0]
-UNIT Antariksa Woodsman 0x0 Level(2, Enemy, 1)          [3,8]  DropItem 0 0 0 [IronAxe, DoorKey]      [0,0x8,4,0]
-UNIT Antariksa Mercenary 0x0 Level(2, Enemy, 1)         [0,3]  0 0 0 0        [IronSword]             [0,0x8,4,0]
-UNIT Antariksa Soldier 0x0 Level(1, Enemy, 1)           [10,8] 0 0 0 0        [IronLance]             [0,0x8,4,0]
-UNIT AntariksaMag Diabolist_F 0x0 Level(2, Enemy, 1)    [3,5]  DropItem 0 0 0 [Fire,Vulnerary]        [0,0x8,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [5,6]  0 0 0 0        [MalkuthI]              [7,1,4,0]
+UNIT Antariksa Woodsman 0x0 Level(2, Enemy, 1)          [3,8]  DropItem 0 0 0 [IronAxe, DoorKey]      [7,1,4,0]
+UNIT Antariksa Mercenary 0x0 Level(2, Enemy, 1)         [0,3]  0 0 0 0        [IronSword]             [7,1,4,0]
+UNIT Antariksa Soldier 0x0 Level(1, Enemy, 1)           [10,8] 0 0 0 0        [IronLance]             [7,1,4,0]
+UNIT AntariksaMag Diabolist_F 0x0 Level(2, Enemy, 1)    [3,5]  DropItem 0 0 0 [Fire,Vulnerary]        [7,1,4,0]
 UNIT
 
 TurnTwoReinforcements:
-UNIT Antariksa Soldier 0x0 Level(2, Enemy, 1)           [0,0] 0 0 1 REDA0R0        [IronLance]            [0,0x8,4,0]
-UNIT Antariksa BowKnight 0x0 Level(2, Enemy, 1)         [2,0] 0 0 1 REDA2R1        [IronBow]             [0,0x8,4,0]
+UNIT Antariksa Soldier 0x0 Level(2, Enemy, 1)           [0,0] 0 0 1 REDA0R0        [IronLance]            [7,1,4,0]
+UNIT Antariksa BowKnight 0x0 Level(2, Enemy, 1)         [2,0] 0 0 1 REDA2R1        [IronBow]             [7,1,4,0]
 UNIT
 
 TurnThreeReinforcements:
-UNIT Antariksa Woodsman 0x0 Level(3, Enemy, 1)          [1,0] DropItem 0 1 REDA1R1 [IronAxe, ChestKey]    [0,0x8,4,0]
+UNIT Antariksa Woodsman 0x0 Level(3, Enemy, 1)          [1,0] DropItem 0 1 REDA1R1 [IronAxe, ChestKey]    [7,1,4,0]
 UNIT
 
 TurnFourReinforcements:
-UNIT Antariksa Myrmidon_F 0x0 Level(1, Enemy, 1)        [0,0] 0 0 1 REDA0R1    [IronSword]   [0,0x8,4,0]
+UNIT Antariksa Myrmidon_F 0x0 Level(1, Enemy, 1)        [0,0] 0 0 1 REDA0R1    [IronSword]   [7,1,4,0]
 UNIT
 
 TurnFourReinforcements2:
-UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [17,8] DropItem 0 1 REDA17R8  [YesodII, ChestKey]     [0,0x8,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [17,8] DropItem 0 1 REDA17R8  [YesodII, ChestKey]     [7,1,4,0]
 UNIT
 
 TurnFiveReinforcements:
-UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [0,0] 0 0 1 REDA2R0    [MalkuthI]    [0,0x8,4,0]
-UNIT Antariksa LanceCav_F 0x0 Level(3, Enemy, 1)        [0,0] 0 0 1 REDA0R2    [IronLance]     [0,0x8,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)        [0,0] 0 0 1 REDA2R0    [MalkuthI]    [7,1,4,0]
+UNIT Antariksa LanceCav_F 0x0 Level(3, Enemy, 1)        [0,0] 0 0 1 REDA0R2    [IronLance]     [7,1,4,0]
 UNIT
 
 TurnFiveReinforcements2:
-UNIT Antariksa SwordCav 0x0 Level(3, Enemy, 1)       [17,8] 0 0 1 REDA17R8  [IronSword]     [0,0x8,4,0]
+UNIT Antariksa SwordCav 0x0 Level(3, Enemy, 1)       [17,8] 0 0 1 REDA17R8  [IronSword]     [7,1,4,0]
 UNIT
 
 TurnSixReinforcements:
-UNIT Antariksa SkyKnight 0x0 Level(2, Enemy, 1)    [0,1] 0 0 1 REDA1R1 [IronLance]    [0,0x8,4,0]
+UNIT Antariksa SkyKnight 0x0 Level(2, Enemy, 1)    [0,1] 0 0 1 REDA1R1 [IronLance]    [7,1,4,0]
 UNIT
 
 TurnSevenReinforcements:
-UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)    [0,0] 0 0 1 REDA1R1 [YesodII]    [0,0x8,4,0]
-UNIT Antariksa Myrmidon 0x0 Level(2, Enemy, 1)    [0,5] 0 0 1 REDA1R5 [IronSword]    [0,0x8,4,0]
+UNIT AntariksaMag Diviner 0x0 Level(2, Enemy, 1)    [0,0] 0 0 1 REDA1R1 [YesodII]    [7,1,4,0]
+UNIT Antariksa Myrmidon 0x0 Level(2, Enemy, 1)    [0,5] 0 0 1 REDA1R5 [IronSword]    [7,1,4,0]
 UNIT
 
 TurnSevenReinforcements2:
-UNIT AntariksaMag Diabolist 0x0 Level(2, Enemy, 1)    [17,8] DropItem 0 1 REDA17R8 [Wind, Vulnerary]   [0,0x8,4,0]
+UNIT AntariksaMag Diabolist 0x0 Level(2, Enemy, 1)    [17,8] DropItem 0 1 REDA17R8 [Wind, Vulnerary]   [7,1,4,0]
 UNIT
 
 TurnNineReinforcements:
-UNIT Antariksa AxeCav 0x0 Level(3, Enemy, 1)         [17,4] 0 0 1 REDA17R4 [IronAxe] [0,0x8,4,0]
-UNIT Antariksa LanceKnight 0x0 Level(2, Enemy, 1)    [9,9] 0 0 1 REDA9R9 [IronLance] [0,0x8,4,0]
+UNIT Antariksa AxeCav 0x0 Level(3, Enemy, 1)         [17,4] 0 0 1 REDA17R4 [IronAxe] [7,1,4,0]
+UNIT Antariksa LanceKnight 0x0 Level(2, Enemy, 1)    [9,9] 0 0 1 REDA9R9 [IronLance] [7,1,4,0]
 UNIT
 
 DidWeLose:
 CHECK_ACTIVE
 SVAL 1 Chakora
-BEQ 0x0 0xC 0x1 //branch if chakora is the active unit
+BEQ 0x1 0xC 0x1 //branch if chakora is the active unit
 SVAL 1 Antariksa
-BEQ 0x0 0xC 0x1 //branch if chakora is the active unit
+BEQ 0x1 0xC 0x1 //branch if chakora is the active unit
 SVAL 1 AntariksaMag
-BEQ 0x0 0xC 0x1 //branch if chakora is the active unit
-GOTO 0x1
-LABEL 0x0
-ENUT 0x65
+BEQ 0x1 0xC 0x1 //branch if chakora is the active unit
+ENUF 0x65
+GOTO 0x2
 LABEL 0x1
-//FADI 4
-//CLEA 0x0
-//CLEE 0x0
-//CLEN 0x0
+CAM1 Srihwen
+CUMO Srihwen
+STAL 60
+CURE
+Text(PlaceholderText)
+LABEL 0x2
 NoFade
 ENDA
 

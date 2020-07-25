@@ -1,156 +1,178 @@
 ## P2C1HealVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadGingerWoman]
-Oh dear!
-You look so troubled!
-If you'd like, you could talk to me about what's on your mind.
-[MoveMidRight]Oh? You're busy?
-That's fine.
-And take this for the road.
-What?
-You look like someone who could use a staff like this.
-Be safe out there, alright?[X]
+Oh dear![.6] You look so troubled![AN]
+If you'd like,[.5] you could talk to[N]
+me about what's on your mind.[AN]
+Oh?[.6] You're busy?[.6] That's alright.[.5][N]
+Here,[.5] take this for the road.[AN]
+You look like someone who could[N]
+need its power.[.6] Take care![A][X]
 
 
 
 ## P2C1WormVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadLittleBoy]
-I'm scared to head back out...
-There were a bunch of scary-lookin' guys outside of town.
-My uncle said if I was in danger, to use this book...
-But then my ma said never to use it!
-I tried readin' it, but none of it made any sense...
-There aren't even any pictures!
-I don't get how a dumb book like this'll keep me safe!
-Huh?[MoveMidRight]
-You try readin' it![X]
+I'm scared to head back out...[AN]
+There were a bunch of scary-lookin'[N]
+men hanging outside of town.[AN]
+My uncle said if I was in danger,[.5][N]
+to use this book he got me...[AN]
+But then my ma' said don't use it![AN]
+I tried readin' it, but none of[N]
+it made any sense...[AN]
+There aren't even any pictures![AN]
+I don't get how a dumb book like[N]
+this'll keep me safe![AN]
+Huh?[MoveMidRight] You try readin' it![A][X]
 
 
 
 ## P2C1GoldVillageNo
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadOldWoman]
-There's this girl with silver hair that stops by here.
-It's not often, but she's quite nice and polite.[ToggleSmile]
-Buys me straight out of the flour I make.[ToggleSmile]
-Some men came by earlier and asked where she was.
-I told them that I'd like to know too![ToggleSmile]
-If you see her ever, tell her I said hello![X]
+There's this girl with silver[N]
+hair that stops by here.[AN]
+It's not often,[.5] but she's quite[N]
+nice and polite.[AN][ToggleSmile]
+Buys me straight out of the[N]
+flour I mill myself.[AN][ToggleSmile]
+Some men came by earlier[N]
+and asked where she was.[AN]
+I told them that I'd like[N]
+to know too![AN][ToggleSmile]
+If you see her ever, tell[N]
+her I said hello![A][X]
 
 
 
 ## P2C1GoldVillageYes
-[ConversationText]
 [MidLeft][LoadSrihwen]
 [MidRight][LoadOldWoman][ToggleSmile]
-Srihwen!
-It's excellent to see you.
+Srihwen! How wonderful it is to see you![AN]
 
 [MidLeft]
-Hello.
-I don't think I've been here in a while.[ToggleSmile]
-It's been harder to make the rounds recently.
+Hello![.6] I don't think I've been[N]
+here for a while now...[AN][ToggleSmile]
+It's been harder to make the[N]
+rounds recently.[A]
 
 [MidRight][ToggleSmile]
-I don't assume you're here to pick up more flour?
+I don't assume you're here[N]
+to pick up more flour?[A]
 
 [MidLeft][ToggleSmile]
-I'm afraid I don't have the time.
-There's a ruckus going on outside.
+I'm afraid I don't have the time.[.6][N]
+There's a ruckus going on outside.[A]
 
 [MidRight]
-Say, some men came by earlier and asked for someone.
-A silver-haired girl that reminded me of you...
-Said they'd heard she was locked up in the monastery.
-Would that happen to be you?
+Say,[.5] some men came by earlier[N]
+and asked for someone.[AN]
+A silver-haired girl that[N]
+reminded me of you...[AN]
+Said they'd heard she was[N]
+locked up in the monastery.[AN]
+Would that happen to be you?[A]
 
 [MidLeft]
-That...[MoveMidLeft]
-That would be me.
+That...[MoveMidLeft] would be me.[A]
 
 [MidRight][ToggleSmile]
-I didn't know you were up there![ToggleSmile]
-It makes sense, now that I look at you.
-Say, would you mind doing me a favour?
-You know Khema, the greatmother?[ToggleSmile]
-She's still kicking, isn't she?
+I didn't know you were up there![.6][N][ToggleSmile]
+Makes sense,[.5] now that I look at you.[AN]
+Would you mind doing me a favour?[.5][N]
+You know Khema,[.4] the greatmother?[AN][ToggleSmile]
+She's still kicking, isn't she?[A]
 
 [MidLeft][ToggleSmile]
-Yes.
-What do you need me to do?
+As much as she's ever been.[.6][N]
+What do you need me to do?[A]
 
 [MidRight][ToggleSmile]
-Give this to her.
-Tell her it's from me and she'll understand.
+Give this to her,[.4] and[N]
+tell her it's from me.[AN]
+She'll understand.[A]
 
 [MidLeft][ToggleSmile]
-Got it.[....][MoveMidLeft]
-I'll buy something from you next time, promise...![X]
+Understood.[AN]
+I'll buy lots of flour[N]
+next time,[.5] I promise![A][X]
 
 
 
 ## P2C1SlimLanceVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBlondeMan]
-My daughter always wanted to be a Srughnan knight...
-So I tried my hardest to help her train.
-Gave her a spear, to give her a head start, ya know?
-Well, turns out she wanted to ride a wyvern!
-And they train wyvern riders with axes!
-That head start was for nothin'!
-She's headed out, but she left one of her spears here.
-If you want it, it's yours.[X]
+My daughter always wanted[N]
+to be a Srughnan knight...[AN]
+So I tried my hardest to[N]
+help her train.[AN]
+Gave her a spear, to give[N]
+her a head start, ya know?[AN]
+Well, turns out she wanted[N]
+to ride a wyvern![AN]
+And they train their wyvern[N]
+riders with axes![AN]
+A head start,[.5] for nothin'![AN]
+She's headed out, but she left[N]
+one of her spears here.[AN]
+If you want it, it's yours.[A][X]
 
 
 
 ## P2C1ProtectTheVillages
-[ConversationText]
 [Left][LoadSrihwen][FarLeft][LoadEthniu][FarFarRight][LoadSoma][MoveMidRight]
-Srihwen!
-Who were those people?
+Srihwen![.6][N]
+Who were those people?[A]
 
 [Left]
-Soma...!
-They were from the Anilan Order...
-I think they wanted me.
+Soma![.6] Some Anilan monks tried[N]
+to take me with them.[AN]
+They said something about a[N]
+caged bird...[A]
 
 [FarLeft]
-If you're not gonna stay near us, Srihwen...
-You'll have to learn to fight for yourself.
+If you're not going to[N]
+stay near us,[.5] Srihwen...[AN]
+You'll have to learn to[N]
+fight for yourself.[A]
 
 [Left]
-I brought that treasure from the monastery, just in case...
+I brought that treasure from[N]
+the monastery,[.5] just in case.[A]
 
 [FarLeft]
-It's better than nothing, but if we weren't around...
-You've got the Springmother and a healing staff.
-Not much to keep anybody away.
+It's better than nothing,[.6][N]
+but if we weren't around...[AN]
+You've got the Springmother[N]
+and a healing staff.[AN]
+Not much to keep anyone away.[A]
 
 [MidRight]
-Oh, this is going to be cool![MoveMidRight]
-You can finally show us the Springmother's power!
+Oh, this is going to be cool![AN][MoveMidRight]
+You can finally show us the[N]
+Springmother's power![A]
 
 [Left]
-It won't be much help if we're fighting...
-But I'll try to focus on the ground.
-It'll help if anybody else comes towards us.
+It won't be much help if we're fighting...[.6][N]
+But I'll try to focus on the ground.[AN]
+If they've got reinforcements,[.5] I'll know.[A]
 
 [FarLeft]
-They're all over the town...
-How absolutely irritating.
+Look at them down there...[.6][N]
+They're all over the town.[AN]
+How absolutely irritating.[A]
 
 [MidRight][ToggleSmile]
-Good thing we brought our weapons with us!
-Stay in the back and we'll keep you safe, Srihwen!
+Good thing we brought[.5][N]
+our weapons with us![AN]
+Stay in the back and we'll[N]
+keep you safe,[.5] Srihwen![A]
 
 [Left][ToggleSmile]
-We need to prioritize the villagers' safety.
-Make sure they pillage nothing...![X]
+We need to keep the villagers safe.[.5][N]
+Let them pillage nothing...![A][X]
 
 
 
@@ -163,16 +185,20 @@ Please be cautious.[A][X]
 
 
 ## P2C1WMIntro
-The expanse of Bhuloka.[.......][N]
+East of the Kingdom of Srughna,[.5][N]
+covered in an ocean of trees,[.5] is the[N]
+original homeland of the Wardbearers:[.6][N]
+the sprawling forests of Bhuloka.[AN]
 Displaced from outside conflict and[N]
 politics,[......] the people of Bhuloka live[N]
 simple lives with no ruler.[AN]
-The closest thing to leaders are the[N]
-greatmothers and greatfathers of the[N]
-isolated Bhulokan Orders.[AN]
+The closest thing to leaders are[N]
+the greatmothers and fathers of[N]
+the isolated Bhulokan Orders.[AN]
 Dedicating their lives to revering[N]
-the Wardbearers,[......] each Order follows a[N]
-unique dogma,[.....] faith,[.....] and culture.[AN]
+the Wardbearers that brought them[N]
+life,[.5] each order lives with their[N]
+own unique dogma and culture.[AN]
 These Orders have existed for[N]
 centuries without falling,[......] despite[N]
 the numerous conflicts between[N]
@@ -181,56 +207,59 @@ monks of different faiths.[A][X]
 
 
 ## P2C1WMIntro2
-To the far west of Bhuloka,[......][N]
-on the border of Srughna is[N]
-the domain of Dhara,[......][N]
-covered in dense forests.[AN]
+To the far west of Bhuloka,[......] on[N]
+the border of Srughna is the[N]
+domain of the Dharan Order.[AN]
 Devoted to worship of the[N]
 Springmother,[......] Hwen,[......] the[N]
 women of the Dharan Order[N]
 live in relative isolation.[AN]
-Leaving from their monastery,[......][N]
-a group of Dharan acolytes[N]
-make a stop to a nearby[N]
-village for produce.[AN]
-They ready themselves to[N]
-carry back their haul,[N]
-unaware of the grim news[N]
-they will also bring...[A][X]
+A priestess of the order,[N]
+Srihwen,[.5] travels with her[N]
+fellow curates to a nearby town,[.5][N]
+against her greatmother's will.[AN]
+Slowly breaking the priestess's[N]
+isolation from the outside,[.5] they[N]
+remain unaware of their isolation[N]
+from the past eight years.[AN]
+An ominous wind still blows in[N]
+from the north,[.5] building to a[N]
+storm that will upheave the[N]
+peaceful land of Bhuloka...[A][X]
 
 
 
 ## ShukaBQ
-[BattleText]
 [MidLeft][LoadShuka]
-I was hoping to make this nice and peaceful.
-Hurts to mar those pretty faces of yours![X]
+I was hoping to make this[N]
+nice and peaceful.[AN]
+Hurts to mar those pretty[N]
+faces of yours![A][X]
 
 
 
 ## ShukaDQ
-[BattleText]
 [MidLeft][LoadShuka]
-Hnngh...!
-You're only delaying...
-The inevitable...[X]
+Hnngh...![.5] This isn't over...[.6][N]
+It can't be over...![A][X]
 
 
 
 ## ShukaSrihwenQ
-[BattleText]
 [MidLeft][LoadShuka]
-Is this a joke?
-You've not even got a weapon!
-What place are you in to resist?!
+Is this a joke?[.5] You've not[N]
+even got a weapon![AN]
+Who are you to resist?![A]
 
 [ClearFace][MidRight][LoadSrihwen]
-I don't want to hurt you...
-But I also can't go with you.
+I don't want to hurt you...[.6][N]
+But I also can't go with you.[A]
 
 [ClearFace][MidLeft][LoadShuka][ToggleSmile]
-Oh, I don't think you've got a choice.
-Those little friends of yours can't protect you now![X]
+Oh, I don't think you've got[N]
+a choice in the matter.[AN]
+Those little friends of yours[N]
+can't protect you now![A][X]
 
 
 
@@ -240,156 +269,176 @@ Dhara[X]
 
 
 ## P2C1FirstContact
-[ConversationText]
 [MidLeft][LoadSoma][ToggleSmile]
-Hey![MoveMidLeft] Srihwen!
-Look at what they have!
-You could get yourself another headband!
+Hey,[.5] Srihwen![.6] Look at what they have![.6][AN]
+Don't you think you deserve another[N]
+headband after so long?[A]
 
 [FarFarRight][ToggleSmile][LoadSrihwen][MoveMidRight]
-Soma, we don't have much gold...
-We should focus on essentials first.
+Soma,[.5] we don't have much gold...[N]
+We should focus on essentials first.[A]
 
 [MidLeft][ToggleSmile]
-But you say that every time we're here!
-Don't you wanna enjoy yourself a little?
+But you say that every time we're here![N]
+Don't you wanna enjoy yourself a little?[A]
 
 [MidRight][ToggleSmile]
-We're not supposed to be here.
-What would the greatmother say if she saw us?
+I'll stick to buying necessities.[AN]
+The greatmother would notice if[N]
+I begun wearing new clothing.[AN]
+What would she say if she found[N]
+out of our escapades?[A]
 
 [FarFarLeft][LoadEthniu][MoveFarLeft][MidLeft][MoveLeft][FarLeft]
-You two would be fine.
-It's me who would be on the line.
+You two would be perfectly fine.[.6][N]
+It's me who would be on the line.[A]
 
 [MidRight]
-Ethniu, I think we'd all be in trouble...
+Ethniu,[.5] I think we'd all[N]
+be in trouble...[A]
 
 [FarLeft]
-You're basically the greatmother's daughters, you two.
-If only she'd babysit you more.
+You're basically the greatmother's[N]
+daughters,[.5] you two.[AN]
+If only she'd babysit you more.[A]
 
 [Left][ToggleSmile]
-If you're going to be so cranky, why'd you come?
-Shouldn't you be shoving your face in some dingy tome?
+If you're going to be that[N]
+cranky,[.5] why'd you come?[AN]
+Shouldn't you be shoving your[N]
+face in some dingy tome?[AN]
 
 [FarLeft][ToggleSmile]
-Our greatmother's meeting together with the Antariksan Order.
-Things have been tense between them since forever.
-But it only seems like it's getting worse now.
-I'm trying to take my mind off of it.
+Our greatmother's meeting with the[N]
+Antariksan Order today.[AN]
+It's always been tense,[.5] but now it[N]
+only seems like it's getting worse.[AN]
+I thought a shopping trip would be a[N]
+better distraction than reading.[AN]
+Seems like I was wrong...[A]
 
 [Left][ToggleSmile]
-Here, you can do that by deciding what colour would look best on her.
-Ooh![MoveLeft] They've got a nice blue-coloured bow here!
+If you want a distraction,[.5] you can help[N]
+me find a good colour for Srihwen![AN]
+Oh![.5] Do you think a blue like this[N]
+would look good on her?[A]
 
 [MidRight][ToggleSmile]
-I'm going to look for some flour.
-Maybe some fruit as well?
+I'm going to look for some flour.[.6][N]
+Maybe some fruit as well?[A]
 
 [FarLeft]
-Mind if I come along with you?
-I'd rather not--
+Mind if I come along with you?[.6][N]
+I'd rather not--[A]
 
 [Left][ToggleSmile]
-Ethniu! If you took that veil off, wouldn't this look amazing on you?!
+Ethniu![.5] If you took that veil off,[.5][N]
+wouldn't this look amazing on you?![A]
 
 [FarLeft][ToggleSmile]
-Help.[MoveFarLeft] Me.
+Help.[MoveFarLeft] Me.[A]
 
 [MidRight][ToggleSmile]
-I think you're already occupied.
-Don't worry, I know where to look.
+I think you've found your distraction.[.6][N]
+Don't worry,[.5] I won't be long.[A][CloseSpeechSlow]
 
-[Left][ClearFace][FarLeft][ClearFace][......][MidRight][MoveMidLeft][LoadOverworldFaces]
-[ToggleSmile]Let's see... It's a right down this road...[.......][MoveMidLeft]
-Springmother. Someone is following me.
-It isn't Ethniu or Soma's steps either...
+[Left][ClearFace][FarLeft][ClearFace][......][MidRight][MoveMidLeft][......][LoadOverworldFaces]
+[ToggleSmile]Let's see...[.6] It's right up these stairs...[N][.......][MoveMidLeft]
+Springmother...[.6] Someone is following me.[AN]
+It doesn't sound like Soma or Ethniu...[A][CloseSpeechSlow]
 
 [FarFarRight][LoadShuka][MoveRight]
-Hey, hold on a second!
-Lady with the silver locks!
+Hey,[.5] hold on a second![.6][N]
+Lady with the silver locks![A][CloseSpeechSlow]
 
 [MidLeft][ClearFace][LoadSrihwen]
-Do you need something?
-I'm a little busy, so...
+Do you need something?[.6][N]
+I'm a little busy...[A]
 
 [Right][ToggleSmile]
-I only wanted to ask what a lovely girl like you is doing alone!
-You've got such pretty eyes, too...
+I only wanted to ask what a lovely[N]
+girl like you is doing alone![AN]
+You've got such pretty eyes, too...[A]
 
 [MidLeft][ToggleSmile]
-I...[MoveMidLeft]
-Um...
+[Beat] Um,[.5] thanks...?[A]
 
 [Right]
-You know, I'm not actually from here.
-I'm from the Anilan Order.
-I know Dhara doesn't normally like us, but you seem different.
-[ToggleSmile]What do you say?
-Care to come back and spend a while with me?
+You know,[.5] I'm not actually from here.[.6][N]
+I'm from the Anilan Order.[AN]
+I know people around here don't normally[N]
+like us,[.5] but you seem different.[AN]
+[ToggleSmile]What do you say?[.5] Care to take a walk[N]
+around town with me?[A]
 
 [MidLeft][ToggleSmile]
-I'd rather, um,[MoveMidLeft] not...
+I'd rather,[.5] um,[MoveMidLeft] not...[A]
 
 [FarFarRight][LoadYellowHood][MoveFarRight][ToggleSmile][LoadOverworldFaces]
-To think we'd actually find the Caged Bird of Dhara here...
-I thought we'd have to sneak into the monastery!
+To think you'd actually find[N]
+the Caged Bird of Dhara here...[AN]
+I thought we'd have to break[N]
+into that monastery![A]
 
-[MidLeft]
-Caged bird?
-What does that--
+[MidLeft][ToggleSmile]
+Caged bird?[.6][N]
+What does that--[A]
 
-[Right][ToggleSmile][MoveRight][CloseEyes]
-I told you to hide...![MoveRight][OpenEyes]
-Come on, don't make me ask again.
-I think we'd get along quite nicely!
+[Right][MoveRight][CloseEyes]
+I told you to hide...![AN][MoveRight][OpenEyes]
+Come on, don't make me[N]
+have to ask again.[AN]
+I think we'd get along[N]
+quite nicely![A]
 
 [FarFarLeft][LoadEthniu][MoveLeft][MidLeft][MoveFarLeft][Left]
-Stay away, you terrible, Anilan hoodlums!
-If you haven't noticed, you're in Dharan territory.
-I'd crawl back before you return in pieces.
+Stay away,[.5] you terrible,[.4][N]
+Anilan hoodlums![AN]
+If you haven't noticed,[.5][N]
+you're on Dharan ground.[AN]
+I'd crawl back before you[N]
+return in pieces.[A]
 
 [FarLeft]
-Ethniu...[MoveFarLeft]
-Thank the Springmother you're here...!
+Ethniu...![.6][N]
+Thank the Springmother you're here![A]
 
 [Left]
-Next time, don't leave me with Soma.
-But now that I'm here, it's time for you two to leave.
+Next time,[.5] don't leave me[N]
+alone with Soma.[AN][MoveLeft]
+Now that I'm here,[.5] it's time[N]
+for you two to leave![A]
 
 [Right]
-I wanted to resolve this diplomatically...
-Have a good time with the girl we wanted, not have to knock some faces in...
-Guess I can't do that anymore.
-Everybody, surround them![X]
+I wanted to resolve this diplomatically...[AN]
+Have a good time with the girl we wanted,[.5][N]
+not have to knock some faces in...[AN]
+Guess I can't do that anymore.[.5][N]
+Everybody, surround them![A][X]
 
 
 
 ## P2C1BanditPredict
-[ConversationText]
 [MidLeft][LoadSrihwen]
-Down by the anima magician...[MoveMidLeft]
-Another person coming...![X]
-
-
-
-## P2C1CavalierPredict
-[ConversationText]
-[MidLeft][LoadSrihwen]
-From behind, there's more people coming.
-Watch out...![X]
+Down by that magician...[N]
+Someone else is coming.[AN][CloseEyes]
+I don't have a good feeling[N]
+about this...[A][X]
 
 
 
 ## P2C1MariciText
-[ConversationText]
 [MidLeft][LoadMarici]
-They're up ahead...?
-I thought they'd be in the monastery.
-And it seems like they're caught in a bit of trouble.
-Didn't think I'd have to fight this early!
-I can't have them fall on my watch![X]
+Wait a minute...[.6][N]
+Is that them up ahead?[AN]
+I thought they'd be up[N]
+in the monastery.[AN]
+And it looks like they're[N]
+caught in some trouble.[AN]
+Didn't think I'd have to[N]
+fight this early![AN]
+I can't have them fall on[N]
+my watch![A][X]
 
 
 
@@ -397,189 +446,203 @@ I can't have them fall on my watch![X]
 [ConversationText]
 [MidRight][LoadSrihwen]
 [MidLeft][LoadMarici]
-White hair, robed outfit...
-Ya must be from the Dharan Order.
+White hair, robed outfit...[AN]
+You're the girl from the[N]
+Dharan Order, aren't you?[A]
 
 [MidRight]
-Who are you...?[MoveMidRight]
-You're not working with the Order of Anila, are you?
+Who are you...?[AN]
+You're not working with[N]
+the Order of Anila,[.5] right?[A]
 
 [MidLeft]
-What?
-Not at all.
-I was sent from House Avanti.
-In Srughna?
-Apparently Dhara needed some help with something.
-And I was the one who got sent.
+Not at all.[.6] I was sent from[N]
+House Avanti.[.6] In Srughna?[AN]
+Apparently Dhara needed some[N]
+help with something.[AN]
+And since I'm the greenhorn,[.5][N]
+they threw me the request.[A]
 
 [MidRight]
-Oh...!
-It's great to have help then...
+Oh...![.6][N]
+It's great to have help then...[A]
 
 [MidLeft]
-Do ya need any assistance?
-It looks like those men are bothering you.
+It looks like those men are bothering[N]
+you.[.6] Do you need my assistance?[A]
 
 [MidRight]
-They tried to take me with them...
-Bring me to Anila.
-We need to keep them away from the villagers.
+They tried to take me with them...[N]
+To bring me to Anila.[AN]
+We need to keep them away from[N]
+the villagers.[A]
 
-[MidLeft]
-No problem at all.
-Let's get right to it![X]
+[MidLeft][ToggleSmile]
+You can leave it to me.[.6] Let's[N]
+keep these brigands away![A][X]
 
 
 
 ## P2C1HouseAnila
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBlandMan]
-For as long as I can remember, Anila and Dhara have hated each other.
-I'm not exactly sure what it is...
-I do know something though.
-The Dharan monastery only allows women, and the Anilan one only allows men.
-It's probably something relating to that.
-But I'm not a monk.
-It's just a theory of mine.[X]
+For as long as I can remember,[.5] Anila[N]
+and Dhara have hated each other.[AN]
+I'm not exactly sure what it is...[.5][N]
+I do know something though.[AN]
+The Dharan monastery only allows women,[.4][N]
+and the Anilans only allow men.[AN]
+I'm not a monk,[.5] but surely it's[N]
+something to do with that.[A][X]
 
 
 
 ## P2C1GoodJob
-[ConversationText]
 [MidRight][LoadSrihwen]
 [MidLeft][LoadMustacheMan]
-Thank you ever so much for keeping those Anilans at bay!
+Thank you ever so much for[N]
+keeping those Anilans at bay![A]
 
 [MidRight]
-It was no problem...
-Is the village alright?
+I was only doing what I had to.[AN]
+Are the villagers all okay?[.6][N]
+Do any require healing?[A]
 
 [MidLeft]
-We'll be fine.
-It'll take a bit, but everything is good!
-Hopefully the situation with Anila doesn't get any worse.
-I'm not sure what we'd do.
+We'll need a bit to recover,[.5][N]
+but otherwise we'll be fine![AN]
+Hopefully those Anila monks[N]
+have learned their lesson.[A]
 
 [MidRight]
-Hopefully it won't.
-Good luck to you.
+Keep an eye out for yourselves.[.6][N]
+I wish you the best of luck.[A]
 
 [MidLeft][MoveFarLeft][Left][LoadBlondeMan]
-It is you!
-The priestess with white hair!
+It is you![.6][N]
+The priestess with white hair![A]
 
 [MidRight]
-Huh...?
-I don't know what--
+Huh...?[.6] I mean,[.5] I have[N]
+white hair,[.4] but--[A]
 
 [Left]
-She's from the monastery!
-To think she saved our village...!
+She's from the monastery![.6][N]
+To think she saved our village...![A]
 
 [MidRight]
-I[....]-I should be going now.
-I'm really sorry...
+I[....]-I should be going now.[.6][N]
+I'm really sorry...[A]
 
 [FarLeft][MidRight][ClearFace][......][FarLeft]
-Give our thanks to the greatmother![X]
+Give our thanks to[N]
+the greatmother![A][X]
 
 
 
 ## P2C1OnTheWay
-[ConversationText]
 [FarRight][LoadEthniu]
 [MidLeft][LoadSrihwen]
 [Right][LoadSoma]
-You doing okay, Srihwen?
-You're even quieter than you usually are.
+Are you doing okay,[.4] Srihwen?[.6] You're[N]
+even quieter than you usually are.[A]
 
 [MidLeft]
-I've just been pondering.
-The people back there called me different titles.
-That white-haired priestess, the Dharan caged bird...
-Have I missed something while in the monastery?
+I've just been pondering everything.[AN]
+Everyone outside seems to have a[N]
+different nickname for me.[AN]
+Do I have the infamy for rumours?[A]
 
 [Right]
-You've only gotten out when you're with us, right?
-It'd make sense if you didn't hear most of the rumours.
-
-[MidLeft]
-Rumours...?
-Am I that infamous?
+You've only gotten out when[N]
+you're with us,[.5] right?[AN]
+It'd make sense if you didn't[N]
+hear most of the rumours.[A]
 
 [FarRight]
-I'm afraid you are.
-It's why Khema locks you and Soma up.
-A woman with the Wardbearers' power is quite something.
+It's why Khema locks you and Soma up.[AN]
+A woman with the Springmother's blessing[N]
+is quite appealing to a lot of people.[A]
 
 [MidLeft]
-The greatmother locks us up for that?
+I know that,[.4] but--[A]
 
 [Right]
-It doesn't make sense.
-I'm a perfectly fine guard for you!
+It doesn't make sense.[.5] I'm a[N]
+perfectly fine guard for you![A]
 
 [MidLeft]
-That, and I can only commune with Hwen...
+And it's not like I can do much[N]
+with the power I do have...[A]
 
 [Right][ToggleSmile][MoveRight]
-That's still really amazing![ToggleSmile]
-And I guess it's why you're so dangerous...
+What are you talking about?![.6][N]
+You can speak with the Springmother![AN]
+And you have her sight blessed upon you![.6][N][ToggleSmile]
+[Beat][.4] I guess that's why you're so dangerous.[A]
 
 [FarRight]
-Especially with both Anila and Antariksa spatting with us.
-You're a valuable asset, not to mention...
-You lack physical fortitude to resist.
+And so valuable to the other orders.[AN]
+Your existence threatens the livelihood[N]
+of their own dogmas. Not to mention...[AN]
+You lack the strength to fight back.[A]
 
-[Right]
-Don't just call her an asset like that!
-She's a real, human person too![ToggleSmile]
-And besides, I've got enough fortitude for the both of us![X]
+[Right][ToggleSmile]
+Don't worry![.6] I've got enough strength[N]
+for the both of us![A]
+
+[FarRight][ToggleSmile]
+[Beat][A][X]
 
 
 
 ## P2C1Marici
-[ConversationText]
 [FarFarLeft][LoadMarici]
-Excuse me, ya three?[MidLeft][MoveLeft][FarFarLeft][MoveFarLeft]
-I have something to ask of you.
+Excuse me,[.5] you three?[A][MidLeft][MoveLeft][FarFarLeft][MoveFarLeft]
+I have something to ask of you.[A]
 
 [Right]
-You were the one helping us fight!
-Why are you riding with us?
+You were the one helping us fight![.6][N]
+What do you need?[A]
 
 [FarLeft]
-I'd like to join you back to your monastery.
-I need to speak with your greatmother.
-
-[FarRight]
-You did assist us...
-But can we bring a stranger like this inside?
-
-[Right]
-We've already left when we shouldn't have.
-Better to break two rules than one!
-
-[FarRight]
-That's a horrible expression.
-But it shouldn't be breaking a rule if it's her.
-
-[FarLeft]
-Thank ya very much!
-I promise I won't cause no trouble.
+I'd like to join you back to your monastery.[.6][N]
+I need to speak with your greatmother.[A]
 
 [Left]
-We're almost there...
-Hopefully we can get in without Khema noticing...[X]
+You did help us in the village.[AN]
+But,[.4] is it wise to bring a stranger[N]
+into the monastery right now?[A]
+
+[Right]
+I'm already outside the[N]
+monastery with you.[AN][ToggleSmile]
+Better to break two rules[N]
+than one![A]
+
+[FarRight][ToggleSmile]
+No,[.4] Soma.[.4] It's not.[AN][MoveFarRight]
+If she's got an important message[N]
+for the greatmother,[.5] let her come.[AN]
+She might be expecting her.[A]
+
+[FarLeft][ToggleSmile]
+Thank you very much![AN]
+I promise I won't[N]
+cause no trouble![A]
+
+[Left][ToggleSmile]
+We're almost there.[AN]
+Hopefully the greatmother[N]
+is still busy...[A][X]
 
 
 
 ## P2C1NoMarici
-[ConversationText]
 [MidLeft]
-We're almost there...
-Hopefully we can get in without Khema noticing...[X]
+We're almost there.[AN]
+Hopefully the greatmother[N]
+is still busy...[A][X]
 
 
 
@@ -589,176 +652,224 @@ Dharan Monastery[X]
 
 
 ## P2C1Tara
-[ConversationText]
-[FarFarRight][LoadSrihwen][MoveRight][FarFarRight][LoadSoma][MoveFarRight][Right]
-The halls are always so calm here.
-I wonder where Khema is...?
+[FarFarRight][LoadSrihwen][MoveRight][FarFarRight][LoadSoma][MoveFarRight]
+It's so quiet...[.6] Do you think[N]
+Khema is still busy?[A]
 
-[FarRight]
-Shhh.
-We should return to our chambers quickly...!
+[Right]
+We can ask that later...[AN]
+If the greatmother sees us[N]
+outside our chambers,[.5] she'll...[A]
 
 [FarFarLeft]
-Ahem.
-I do believe I'm owed an explanation.
+I will do what?[A]
 
-[MidLeft][LoadKhema]
-Soma...
-Did you believe I wouldn't notice your abscence?
-Or Srihwen's?
-Just because I am busy with Antariksa doesn't mean I am oblivious.
+[MidLeft][LoadKhema][LoadOverworldFaces]
+Please continue your conversation.[.6][N]
+I'd love to hear of your adventure.[A]
 
 [FarRight]
-Greatmother Khema, I can explain!
-You see, I--
+Khema,[.5] I can explain![.6][N]
+You see,[.5] I--[A]
 
 [MidLeft]
-I warned you to stay on monastery grounds for a reason.
-It is unsafe outside for Srihwen.
-Especially with the hostilites in the east, we can't endanger her.
+Antariksa may occupy my mind,[.5] but[N]
+that doesn't make me oblivious.[AN]
+I warned you to stay on monastery[N]
+grounds for a reason.[AN]
+Your duty is to protect Srihwen.[.4][N]
+It is unsafe outside for her.[AN]
+With the growing hostilites in[N]
+the east,[.5] we cannot endanger her.[A]
 
 [Right]
-Please forgive us, Greatmother Khema.
-We didn't know we would be attacked...
+Please forgive us,[.5] Greatmother Khema.[.6][N]
+We didn't know we would be attacked...![A]
 
 [MidLeft]
-Attacked...?[.....]
-You were attacked?
+Attacked...?[.....][MoveMidLeft][N]
+You were attacked?![A]
 
 [Right]
-Greatmother Khema, Soma and Ethniu kept me safe...!
+Greatmother Khema,[.5] Soma and[N]
+Ethniu kept me safe...![A]
 
 [MidLeft]
-Was it by the Anilan Order?
-The Antariksan Order?
-I knew this would happen...
-I knew we couldn't trust them!
+I knew this would happen...[AN]
+They strike at our heart the[N]
+moment our eyes are averted![A]
 
 [FarRight][ClearFace][LoadEthniu]
-Greatmother Khema, please tell us what's going on.
-Why did you meet with Antariksa?
+Greatmother Khema,[.5] please tell us[N]
+what's happening.[AN]
+What is happening in Antariksa?[A]
 
 [MidLeft]
-I suppose you three should be informed eventually...
-The Antariksan Order wishes to form an alliance.
-A political alliance between the eight Orders of Bhuloka.
+I suppose you three should[N]
+be informed eventually...[AN]
+The Antariksan Order wishes[N]
+to form an alliance.[AN]
+A political alliance between[N]
+the eight Orders of Bhuloka.[A]
 
 [FarRight]
-What's the point of that?
-Do we need to be united like Macha?
+An alliance?[.6] What's the point of that?[.6][N]
+Do we need to be united like Macha?[A]
 
 [MidLeft]
-It relates to Srughna and Heichalot.
-There is fear between action from either of them.
-Antariksa wants us to be able to stand up as a force of our own.
+It relates to Srughna and Heichalot.[AN]
+There are whispers of another war[N]
+brewing between the two kingdoms.[AN]
+Antariksa wants us to be able to[N]
+stand up as a force of our own.[A]
 
 [Right]
-Wouldn't that mean aligning with Anila...?
-Why would they attack us then?
+That would mean aligning with Anila.[.6][N]
+Why would they attack us then...?[A]
 
 [MidLeft]
-Both our Order and the Order of Chandra have opposed this idea.
-Meeting with Antariksa, our grove only fueled that sentiment.
-It seems the Anilan Order wanted to be proactive in action.
+Both our order and the Order of[N]
+Chandra have opposed this idea.[AN]
+Meeting with Antariksa,[.5] our grove[N]
+only fueled that sentiment.[A]
 
 [FarRight]
-So because we didn't wish to join, they're trying to subjugate us...
-Miserable. Why would we align with Anila after all they've done?[ClearFace]
+They attempted to force us into[N]
+submission over a shoddy alliance?[AN]
+Miserable.[.6] Anila gives us another[N]
+reason to never trust them.[A][ClearFace]
 
 [LoadSoma]
-How's the Chandran Order doing?
-Have they been attacked as well?
+How's the Chandran Order doing?[.6][N]
+Have they been attacked as well?[A]
 
 [MidLeft]
-I have heard nothing from them.
-But either way, your actions were foolish.
-Return to your chambers and do not leave.
+I have heard nothing from them.[AN]
+Our next order of business is to tell[N]
+them of what happened to you three.[AN]
+If Anila is attempting to strongarm[N]
+us into agreement,[.5] they could be next.[AN]
+And this is why I can't have you both[N]
+leave the monastery.[AN]
+If you were to be captured,[.5] Srihwen...[N]
+I don't know what they would do to you.[A]
 
 [Right]
-U-[MoveRight]Understood.
-I'm sorry, greatmother.
-This will never happen again...[X]
+I'm sorry,[.5] greatmother.[AN]
+I'll stay on the monastery[N]
+grounds now.[.6] I promise.[A]
+
+[FarRight]
+Does that include me,[.5] greatmother?[AN]
+I wanna know whether the Chandran[N]
+Order is safe.[.6] I need to know.[A]
+
+[MidLeft]
+Does it include the one who is[N]
+obligated to guard Srihwen's life?[AN]
+Of course it does.[.6] I think you two[N]
+should be returning to your chambers.[A]
+
+[Right]
+Let's just go,[.5] Soma.[.6][N]
+I've done too much damage already...[A][ClearFace]
+
+[FarRight][.6][CloseEyes][.6][ClearFace][.6][MidLeft]
+Srihwen...[A][X]
 
 
 
 ## P2C1HwenCommune
-[ConversationText]
 [MidRight][LoadSrihwen]
-I should have never left...
-Everybody was in danger.
-I couldn't even help keep them away.
-I still can't fight, even after everything...
+It seems my destiny is to stay here.[.6][N]
+Everyone was in danger.[.6] And yet...[AN]
+I couldn't fight back at all.[.5][N]
+I should've never left at all.[A][CloseSpeechSlow][.7]
 
 [FarFarLeft][ToggleInvert]
-You seem distressed.
-Is something wrong, Srihwen?
+You seem distressed.[.6][N]
+Is something wrong,[.5] Srihwen?[A]
 
 [MidRight][ToggleSmile][ToggleInvert]
-Springmother...![ToggleSmile]
-Thank goodness you're here.
-I require your guidance more than ever.
+Springmother...![.6][ToggleSmile] Thank[N]
+goodness you're here.[AN]
+I require your guidance[N]
+more than ever.[A]
 
 [MidLeft][LoadHwen][ToggleInvert]
-What is wrong, my child?
-You seemed to handle the day well.
+My guidance...[.6] What troubles you?[.6][N]
+You seemed to handle the day well.[A]
 
 [MidRight][ToggleInvert]
-Even with your blessings...
-Your sight into the soil, your advice.
-My hands struggle to hold a weapon.
-What use am I?
-It doesn't help that conflict seems to draw near...
+Even with all of your blessings...[AN]
+Your sight into the soil,[.5] your[N]
+helpful advice,[.5] your essence...[AN]
+My hands struggle to hold a weapon.[AN]
+What use am I?[.6] It doesn't help that[N]
+conflict seems to draw near...[A]
 
 [MidLeft][ToggleInvert]
-You assume that you must fight alone.
+You assume that you must fight alone.[AN]
 
 [MidRight][ToggleInvert]
-I had isolated myself without realizing it.
-What if I am alone again?
+I know I'm not alone now,[.5] but when[N]
+those men first showed up,[.5] I was.[AN]
+What if I am alone again?[A]
 
 [MidLeft][ToggleInvert]
-Even by yourself, you are more powerful than you believe.
-Trust in your senses, your healing.
+Power is not only your physical strength.[.6][N]
+Trust in your senses,[.5] your healing.[AN]
+You are more powerful than you think,[N]
+my oracle.[.6] I know you are.[A]
 
 [FarFarLeft][ToggleInvert]
-Srihwen!
-Are you in here?
+Srihwen![.6][N]
+Are you in here?[A]
 
 [MidLeft][ToggleInvert]
-I believe I should be going.
-Believe in yourself.
+Believe in yourself,[.5] my child.[.6][N]
+I leave you to your company.[A]
 
 [MidRight][MidLeft][ClearFace][MidRight][MoveMidRight][ToggleInvert]
-Springmother, don't go...!
-Please...
+Springmother,[.5] don't go...![.6][N]
+Please...[A][CloseSpeechSlow]
 
 [FarFarLeft][LoadSoma][MoveMidLeft]
-Are you doing okay, Srihwen?
+Everything alright?[.6][N]
+Hope I'm not interrupting something.[A]
 
 [MidRight]
-I'm doing okay...
-I was just talking with--
-
-[MidLeft]
-The Springmother, correct?[ToggleSmile]
-It's still incredible how you can talk with her!
-
-[MidRight][ToggleSmile]
-I guess it is...
-Settling in for the night?
+I...[.5][MoveMidRight] Everything's okay.[.6][N]
+Just trying to comprehend the day...[A]
 
 [MidLeft][ToggleSmile]
-Yep I am![MoveMidLeft][ToggleSmile]
-Hey, Srihwen?
-Don't worry about today, okay?
-It wasn't your fault we got involved in that fight.[ToggleSmile]
-I'll be by your side like I should, promise!
+Springmother giving you trouble?[A]
+
+[MidRight][ToggleSmile]
+You were listening?[.6][N]
+And no,[.5] she wasn't.[AN]
+Her advice just sometimes...[.5][N]
+makes me have to think.[A]
+
+[MidLeft][ToggleSmile]
+You should be glad the Greatmother[N]
+doesn't hear you say that![AN][ToggleSmile][MoveMidLeft]
+If you want my opinion,[.4] Srihwen...[.5][N]
+Don't worry about today,[.5] okay?[AN]
+It wasn't your fault we got stuck[N]
+in that scuffle.[AN][ToggleSmile]
+I'll be by your side like I should.[.5][N]
+I can promise you that![A]
 
 [MidRight]
-Thanks, Soma.[MoveMidRight][CloseEyes][ToggleSmile]
-I'm exhausted...
-I think I might just...[ClearFace]
+Thanks,[.4] Soma.[.4][MoveMidRight][CloseEyes][ToggleSmile] I'm exhausted...[.6][N]
+Would you mind closing the door...?[A][ClearFace]
 
 [MidLeft][ToggleSmile][.......]
-Hehe...
-Good night, Srihwen.[X]
+I wouldn't mind at all.[.6][N]
+Good night,[.5] Srihwen.[A][X]
+
+
+
+## ThatNight
+That night...[X]

@@ -36,9 +36,9 @@ ALIGN 16
 #include "Tilesets/Tileset Installer.event"
 
 NewStatScreen:
-#incext Png2Dmp "StatusScreen.png" --lz77
+#incext Png2Dmp "TempSS.png" --lz77
 NewStatScreenPal:
-#incext Png2Dmp "StatusScreen.png" --palette-only
+#incext Png2Dmp "TempSS.png" --palette-only
 
 //Stat screen
 PUSH

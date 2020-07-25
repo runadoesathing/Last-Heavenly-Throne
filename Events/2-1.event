@@ -15,8 +15,8 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TURN 0x0 CleartheSeal [1,0] 0x0
 TURN 0x0 BAMITSMARICI [3,0] 0x0
-TURN 0x0 BanditPredict [5,0] 0x0
-TURN 0x0 BANDITONE [6,0] 0x0
+TURN 0x0 BanditPredict [6,0] 0x0
+TURN 0x0 BANDITONE [7,0] 0x0
 TURN 0xE OhNoOhBoy [1,255] 0x0
 END_MAIN
 
@@ -36,7 +36,7 @@ END_MAIN
 MiscBasedEvents:
 CauseGameOverIfLordDies
 AFEV 0 EndingScene 0x2
-AREA 0xD MoreOnTheWay [11,6] [14,9]
+AREA 0xD MoreOnTheWay [11,0] [14,9]
 END_MAIN
 
 Dunno1:
@@ -66,19 +66,19 @@ UNIT
 
 EnemyUnits:
 UNIT Shuka Diabolist Shuka Level(5, Enemy, 1)    [3,6] 0 0 0 0 [Brine] NeverMoveAI
+UNIT Anila Mercenary Shuka Level(1, Enemy, 1)    [4,5] 0 0 0 0 [IronBlade] [0,3,4,0]
 UNIT
 
 EnemyTwo:
 UNIT Anila Myrmidon Shuka Level(1, Enemy, 1)    [0,2] 0 0 1 REDA3R6 [IronBlade] [0,0,4,0]
-UNIT Anila Mercenary Shuka Level(1, Enemy, 1)    [0,3] 0 0 1 REDA5R2 [IronBlade] [0,3,4,0]
 UNIT Anila Archer Shuka Level(1, Enemy, 1)    [14,9] 0 0 1 REDA10R6 [IronBow] [0,6,4,0]
 UNIT Anila Soldier Shuka Level(2, Enemy, 1)    [0,3] 0 0 1 REDA0R3 [IronLance] [0,6,4,0]
 UNIT Anila SwordKnight Shuka Level(1, Enemy, 1)    [0,2] 0 0 1 REDA7R4 [IronSword] [3,3,4,0x20]
 UNIT Anila Soldier Shuka Level(2, Enemy, 1)    [0,2] 0 0 1 REDA8R5 [Javelin] [0,3,4,0]
-UNIT Anila SwordCav Shuka Level(1, Enemy, 1)    [12,9] 0 0 1 REDA7R9 [IronSword] [0,3,4,0]
+UNIT Anila SwordCav Shuka Level(1, Enemy, 1)    [12,9] 0 0 1 REDA10R9 [IronSword] [0,3,4,0]
 UNIT Anila LanceKnight Shuka Level(1, Enemy, 1)    [13,9] DropItem 0 1 REDA12R5 [IronLance,Vulnerary] [3,3,4,0x20]
 UNIT Anila Mystic Shuka Level(1, Enemy, 1)    [14,9] 0 0 1 REDA14R4 [Flux] [0,6,4,0]
-UNIT Anila Soldier Shuka Level(1, Enemy, 1)    [12,9] 0 0 1 REDA10R9 [IronLance] [0,3,4,0]
+UNIT Anila Soldier Shuka Level(1, Enemy, 1)    [12,9] 0 0 1 REDA7R9 [IronLance] [0,3,4,0]
 UNIT Anila Mercenary Shuka Level(1, Enemy, 1)    [13,9] 0 0 1 REDA10R3 [IronSword] [0,3,4,0]
 UNIT Anila Myrmidon Shuka Level(2, Enemy, 1)    [14,9] 0 0 1 REDA14R9 [SteelSword] [0,3,4,0]
 UNIT
@@ -179,7 +179,7 @@ MUSCMID 0x7FFF
 FADI 4
 CLEAN
 STAL 60
-MUSC 0x52
+MUSC 0x4C
 SetBackground(BigForestPath)
 TEXTSTART
 TEXTSHOW P2C1OnTheWay
@@ -201,13 +201,20 @@ STAL 60
 MUSC 0x4E
 SetBackground(CastleHallway)
 BROWNBOXTEXT DharanMonastery [8,8] // box in the top right that's pretty cool for small text
-Text(P2C1Tara)
+TEXTSTART
+TEXTSHOW P2C1Tara
+TEXTEND
+MUSC 0x5D
+TEXTCONT
+TEXTEND
+REMA
 MUSCMID 0x7FFF
 FADI 4
 CLEAN
 STAL 60
 MUSC 0x4A
 SetBackground(BedroomNight)
+BROWNBOXTEXT ThatNight [8,8] // box in the top right that's pretty cool for small text
 Text(P2C1HwenCommune)
 MUSCMID 0x7FFF
 FADI 4
@@ -217,6 +224,7 @@ ENDA
 
 CleartheSeal:
 MOVE 0xA Shuka [13,9]
+MOVE 0xA Anila [5,2]
 STAL 30
 LOAD1 0x1 EnemyTwo
 ENUN
@@ -287,8 +295,8 @@ BEQ 0x0 0xC 0x0
 	CALL 0x9EE310
 	REMA
 	CALL 0x591F40
-	SVAL 0x3 3000
-	GIVEITEMTOMAIN 0x0
+	SVAL 0x3 BlueGem
+  GIVEITEMTO 0xFFFF
 	TILECHANGE 0x5
 	GOTO 0x1
 LABEL 0x0
