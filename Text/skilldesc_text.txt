@@ -211,19 +211,19 @@ Just thought I'd point them out.[X]
 
 ## SD_Demoiselle
 Demoiselle: Male allies within[N]
-2 tiles receive -2 damage.[X]
+2 tiles take -2 damage.[X]
 
 ## SD_Gentilhomme
 Gentilhomme: Female allies within[N]
-2 tiles receive -2 damage.[X]
+2 tiles take -2 damage.[X]
 
 ## SD_MaleficAura
 Malefic Aura: Enemies within 2[N]
-tiles receive +2 magic damage.[X]
+tiles take +2 magic damage.[X]
 
 ## SD_Inspiration
 Inspiration: Allies within 2 tiles[N]
-deal +2 damage and receive -2 damage.[X]
+deal +2 damage and take -2 damage.[X]
 
 ## SD_Charm
 Charm: Allies within 2[N]
@@ -389,7 +389,7 @@ enemies within 3 tiles.[X]
 
 ## SD_LilysPoise
 Lily's Poise: Adjacent allies gain[N]
-+1/-3 damage dealt/received.[X]
++1/-3 damage dealt/taken.[X]
 
 ## SD_Expertise
 Expertise: Reduce bonus damage[N]
@@ -858,31 +858,31 @@ after using a staff.[X]
 
 ## SD_DriveStr
 Drive Strength: Allies within[N]
-2 spaces receive +4 strength.[X]
+2 spaces gain +4 strength.[X]
 
 ## SD_DriveMag
 Drive Magic: Allies within[N]
-2 spaces receive +4 magic.[X]
+2 spaces gain +4 magic.[X]
 
 ## SD_DriveSkl
 Drive Skill: Allies within[N]
-2 spaces receive +4 skill.[X]
+2 spaces gain +4 skill.[X]
 
 ## SD_DriveSpd
 Drive Speed: Allies within[N]
-2 spaces receive +4 speed.[X]
+2 spaces gain +4 speed.[X]
 
 ## SD_DriveLck
 Drive Luck: Allies within[N]
-2 spaces receive +4 luck.[X]
+2 spaces gain +4 luck.[X]
 
 ## SD_DriveDef
 Drive Defense: Allies within[N]
-2 spaces receive +4 defense.[X]
+2 spaces gain +4 defense.[X]
 
 ## SD_DriveRes
 Sowed Faith: Allies within[N]
-2 spaces receive +3 resistance.[X]
+2 spaces gain +3 resistance.[X]
 
 ## SD_Blossom
 Blossom: 2x growth rates,[N]
@@ -1234,7 +1234,7 @@ Macha Arts: Take -4 damage/gain +40[N]
 Avo when enemy has a sword equipped.[X]
 
 ## SD_MutedSoul
-Muted Soul: Adjacent units receive[N]
+Muted Soul: Adjacent units take[N]
 -3 damage, but deal -3 damage.[X]
 
 ## SD_ChandrasFealty

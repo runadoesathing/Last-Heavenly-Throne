@@ -221,6 +221,19 @@ Ethniu_Minimug:
 #incbin "Ethniu_minimug.dmp"
 
 ALIGN 4
+EthniuPTS_Mug:
+#incbin "EthniuPTS_mug.dmp"
+ALIGN 4
+EthniuPTS_Frames:
+#incbin "EthniuPTS_frames.dmp"
+ALIGN 4
+EthniuPTS_Palette:
+#incbin "EthniuPTS_palette.dmp"
+ALIGN 4
+EthniuPTS_Minimug:
+#incbin "EthniuPTS_minimug.dmp"
+
+ALIGN 4
 FemaleEnemySoldier_Mug:
 #incbin "FemaleEnemySoldier_mug.dmp"
 ALIGN 4
@@ -299,6 +312,19 @@ HanlinAlpha_Minimug:
 #incbin "HanlinAlpha_minimug.dmp"
 
 ALIGN 4
+Hwen_Mug:
+#incbin "Hwen_mug.dmp"
+ALIGN 4
+Hwen_Frames:
+#incbin "Hwen_frames.dmp"
+ALIGN 4
+Hwen_Palette:
+#incbin "Hwen_palette.dmp"
+ALIGN 4
+Hwen_Minimug:
+#incbin "Hwen_minimug.dmp"
+
+ALIGN 4
 Ishpan_Mug:
 #incbin "Ishpan_mug.dmp"
 ALIGN 4
@@ -323,6 +349,32 @@ Jhudiel_Palette:
 ALIGN 4
 Jhudiel_Minimug:
 #incbin "Jhudiel_minimug.dmp"
+
+ALIGN 4
+Kalkin_Mug:
+#incbin "Kalkin_mug.dmp"
+ALIGN 4
+Kalkin_Frames:
+#incbin "Kalkin_frames.dmp"
+ALIGN 4
+Kalkin_Palette:
+#incbin "Kalkin_palette.dmp"
+ALIGN 4
+Kalkin_Minimug:
+#incbin "Kalkin_minimug.dmp"
+
+ALIGN 4
+Khema_Mug:
+#incbin "Khema_mug.dmp"
+ALIGN 4
+Khema_Frames:
+#incbin "Khema_frames.dmp"
+ALIGN 4
+Khema_Palette:
+#incbin "Khema_palette.dmp"
+ALIGN 4
+Khema_Minimug:
+#incbin "Khema_minimug.dmp"
 
 ALIGN 4
 Lalitha_Mug:
@@ -440,6 +492,19 @@ Rionall_Palette:
 ALIGN 4
 Rionall_Minimug:
 #incbin "Rionall_minimug.dmp"
+
+ALIGN 4
+RionallPTS_Mug:
+#incbin "RionallPTS_mug.dmp"
+ALIGN 4
+RionallPTS_Frames:
+#incbin "RionallPTS_frames.dmp"
+ALIGN 4
+RionallPTS_Palette:
+#incbin "RionallPTS_palette.dmp"
+ALIGN 4
+RionallPTS_Minimug:
+#incbin "RionallPTS_minimug.dmp"
 
 ALIGN 4
 Sadhbh_Mug:

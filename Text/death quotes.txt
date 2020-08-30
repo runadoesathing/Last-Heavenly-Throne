@@ -100,8 +100,8 @@ Mother...?[......][N]
 
 ## HanlinDeathQ
 [OpenMidRight][LoadHanlin]
-... ...[.....][CloseEyes][N]
-I was useless...[A][X]
+Does the vigil...[.6][N]
+die with me...?[A][X]
 
 
 
@@ -165,95 +165,88 @@ Please don't die on me, Miach!![X]
 
 
 ## SrihwenDeathQ
-[BattleText]
 [OpenMidRight][LoadSrihwen]
-Her voice...
-I can hear it calling in the distance.[CloseEyes]
-I'm sorry I couldn't save you, Springmother...[X]
+Her voice...[.6] I can hear it[N]
+calling for me,[.5] somewhere.[AN]
+I'm sorry for disappointing you,[.4][N]
+Springmother.[.6][CloseEyes] Forgive me...[A][X]
 
 
 
 ## SomaDeathQ
-[BattleText]
 [OpenMidRight][LoadSoma]
-My loyalty to you exceeds my purpose on the battlefield...
-I'm sorry Srihwen, but I must tuck my tail and retreat![X]
+My loyalty to you exceeds my[N]
+purpose on the battlefield...[A]
+I'm sorry, Srihwen,[.5] but I must[N]
+tuck my tail and retreat![A][X]
 
 
 
 ## NalaDeathQ
-[BattleText]
 [MidRight][LoadNala]
-Abhria would be proud...
-You cannot[CloseEyes] take that...[X]
+House Abhira would be proud...[.6][N]
+You cannot[CloseEyes] take that...[A][X]
 
 
 
 ## SanjanaDeathQ
-[BattleText]
 [MidRight][LoadSanjana]
-It was silly to think a prince would save me...[X]
+It was silly to think a prince[N]
+would save me...[A][X]
 
 
 
 ## VarunaDeathQ
-[BattleText]
 [MidRight][LoadVaruna]
-No!
-I'm a soldier of Srughna!
-I thought I had become better than this...[X]
+No![.6] I'm a soldier of Srughna![.6][N]
+I thought I was...[.6][CloseEyes] better...[A][X]
 
 
 
 ## MariciDeathQ
-[BattleText]
 [MidRight][LoadMarici]
-I've been hurt...
-But I can keep going...[......] [CloseEyes]Keep going...[X]
+I've been hurt...[.6] But I can[N]
+keep going![......] [CloseEyes]Keep...[.6] going...[A][X]
 
 
 
 ## EthniuPTSDeathQ
-[BattleText]
 [MidRight][LoadEthniu]
-I'm pathetic.
-A pathetic woman deserves a pathetic end...[X]
+I'm pathetic.[.6] A pathetic woman[N]
+deserves a pathetic end...[A][X]
 
 
 
 ## EthniuPrologueDeathQ
-[BattleText]
 [MidRight][LoadEthniu]
-Soma...
-Keep Srihwen away from those brigands...[ClearFace]
+Soma...[.6] Keep Srihwen away[N]
+from these brigands...[A][ClearFace]
 
 [MidRight][LoadSrihwen]
-Ethniu...!
-I should have never left the monastery...[X]
+Ethniu![.6] I...[.6][CloseEyes] should never have[N]
+left the monastery...[A][X]
 
 
 
 ## SomaPrologueDeathQ
-[BattleText]
 [MidRight][LoadSoma]
-Srihwen...!
-This ends my service to you...[ClearFace]
+Srihwen...![.5] I wasn't able...[N]
+to keep my promise...[A][ClearFace]
 
 [MidRight][LoadSrihwen]
-Don't say stuff like that, Soma...[.....]
-Soma?[.....] Soma...![X]
+Soma?[.....] Talk to me,[.4] Soma...![.6][N][CloseEyes]
+You can't die...[.5] Please![A][X]
 
 
 
 ## SrihwenPrologueDeathQ
-[BattleText]
 [MidRight][LoadSrihwen]
-Springmother...
-I wasn't strong enough to aid you...[ClearFace]
+Springmother...[.6] I wasn't[N]
+strong enough to aid you...[A][ClearFace]
 
 [MidRight][LoadEthniu]
-Srihwen![.....][CloseEyes]
-How could we have been so stupid?![X]
+Srihwen![......][CloseEyes] How could we have[N]
+been so stupid?![A][X]
 
 
 
@@ -322,7 +315,6 @@ I am...[CloseEyes] my people's bulwark...[X]
 
 
 ## BresPTSDeathQ
-[BattleText]
 [OpenMidRight][LoadBres]
-It's okay.
-I came to terms with this a long time ago...[X]
+It's okay.[.6] Everything fades to[N]
+antiquity eventually...[A][X]

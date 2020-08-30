@@ -800,7 +800,7 @@ This is...[A]
 This used to be my old sword.[.6][N]
 After that,[.5] it was your mother's...[AN]
 Did I ever tell you how great of[N]
-a Crownflier she was?[A]
+a knight she was?[A]
 
 [MidLeft][ToggleSmile]
 A thousand times before,[.5] Grandfather.[.6][N]

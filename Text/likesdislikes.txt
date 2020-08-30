@@ -380,7 +380,7 @@ cold weather[X]
 sunrises[X]
 
 ## ChakoraLike2ID
-the smell of leather[X]
+philosophy[X]
 
 ## ChakoraDislike1ID
 The Chandran Order[X]
@@ -509,7 +509,7 @@ breaking promises[X]
 190cm[X]
 
 ## ChakoraAgeID
-25[X]
+21[X]
 
 ## ChakoraHeightID
 157cm[X]
@@ -647,7 +647,7 @@ enclosed spaces[X]
 bamboo[X]
 
 ## GogaDislike1ID
-the Wardbearer Bhatn[X]
+the Penumbra[X]
 
 ## GogaDislike2ID
 the full moon[X]
@@ -668,7 +668,7 @@ peace and quiet[X]
 rivers[X]
 
 ## AlakkhiDislike2ID
-[X]
+herbal tea[X]
 
 ## AlakkhiAgeID
 32[X]
@@ -740,7 +740,7 @@ wisteria[X]
 being outsmarted[X]
 
 ## KalkinDislike2ID
-the Dharan Order[X]
+the Springmother[X]
 
 ## KalkinAgeID
 41[X]
@@ -953,7 +953,7 @@ vengeance[X]
 wyverns[X]
 
 ## AinghaDislike1ID
-the feeling of suspense[X]
+surprises[X]
 
 ## AinghaDislike2ID
 Heichalot[X]

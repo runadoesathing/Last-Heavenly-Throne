@@ -513,7 +513,7 @@ think we'd be on the butt end.[A]
 
 [OpenMidRight]
 It definitely is bad.[.6] But that's[N]
-exactly why we're here,[.4] Aengus.[A]
+exactly why we're here,[.4] Aengus![A]
 
 [OpenMidLeft][ToggleSmile]
 Then let's stop talkin'[N]
@@ -1111,7 +1111,7 @@ Heichalot are allies, not enemies...[A]
 
 [OpenRight]
 My motherland tends to scare some people.[.6][N]
-But I also have a duty to fight Heichalot.[AN]
+But I have no allegiance to Macha anymore.[AN]
 Those who distrust me tend to change their[N]
 opinion when I tend to their wounds.[A]
 
@@ -1147,7 +1147,7 @@ Heichalot are allies, not enemies...[A]
 
 [OpenRight]
 My motherland tends to scare some people.[.6][N]
-But I also have a duty to fight Heichalot.[AN]
+But I have no allegiance to Macha anymore.[AN]
 Those who distrust me tend to change their[N]
 opinion when I tend to their wounds.[A]
 
@@ -1844,7 +1844,7 @@ take them down![A][X]
 [MidRight][LoadCethern]
 Your forces are decimated and[N]
 your chances of victory small.[AN]
-You do not have to die here![.5][N]
+You don't have to die here![.5][N]
 Leave now while you can![A][ClearFace]
 
 [MidLeft][LoadLamech]

@@ -270,3 +270,23 @@ Hit rate, Avoid rate, and Critical rate.[X]
 
 # 0x42 WeaponRankID
 Weapon rank increased.[X]
+
+## QuitDialogAirmed
+[Left][LoadAirmed]
+You're taking a break already, Cethern?[N]
+[Yes][X]
+
+## QuitDialogYesAirmed
+[CloseSpeechSlow][Left]
+Alright...[.6] Make sure you choose Resume[N]
+Chapter to return.[.4][MoveLeft] You better return![A][X]
+
+## QuitDialogHwen
+[Left][LoadHwen]
+Do you require rest, my oracle?[N]
+[Yes][X]
+
+## QuitDialogYesHwen
+[CloseSpeechSlow][Left][ToggleSmile]
+You deserve some respite.[.6][ToggleSmile] When you're ready,[.5][N]
+choose Resume Chapter to continue.[A][X]

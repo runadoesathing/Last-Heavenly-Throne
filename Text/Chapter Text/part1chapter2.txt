@@ -171,12 +171,12 @@ Lady Sadhbh.[.6] Please forgive me.[A]
 
 [OpenFarLeft]
 [Beat] I've got no other choice[N]
-but to come with you two.[AN][CloseEyes]
-We might as well die together.[A][OpenEyes]
+but to come with you two.[AN]
+We might as well die together...[A]
 
 [OpenLeft][ToggleSmile]
 You are all very brave.[.6][N]
-You shall serve Corbenic well.[AN]
+You'll fight for your home well.[AN]
 Gather what you can for the road.[.4][N]
 We'll leave on the hour.[A][X]
 

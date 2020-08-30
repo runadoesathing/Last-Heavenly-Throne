@@ -18,9 +18,10 @@ How dare you invade us!
 What have we done to you?![ClearFace]
 
 [OpenMidLeft][LoadIshpan]
-I'm afraid I don't entirely know myself.
-But I have a duty to the prince of Heichalot.
-If you truly wish to fight, then I must honour your wishes![X]
+It is the will of the Heavenly Prince.
+His cardinals have decreed it so.
+If you truly wish to fight, child...
+I must honour your wishes.[X]
 
 
 
@@ -143,672 +144,870 @@ I've news to tell him as well.[A][ClearFace][.......][X]
 
 
 ## P1C4AECamp
-[FarFarRight][LoadEthniu][MoveLeft]
+[FarFarRight][LoadEthniu][MoveRight]
 There you are.[.6] Do you know how much[N]
 of a nuisance you were to follow?[AN]
+
+[FarFarRight][LoadAengus][MoveFarRight]
+A horse would've been great...[.6][N]
+I need to sit down...![A]
+
+[MidLeft]
+How did--?![.6] I mean...[.6] I told[N]
+you two to stay![AN]
+Manapia needs your help[N]
+more than we do.[A]
+
+[FarRight]
+We figured the best way to do[N]
+that was to join up with you![AN]
+Besides,[.5] they're sort of mad at[N]
+us just like they are with you.[A]
+
+[Right]
+Seems like gratefulness is yet another[N]
+shortage the war has brought us.[AN]
+They didn't want our help,[.5] Cethern.[.6][N]
+All they've done is pull a tantrum.[AN]
+That's why we came here;[.6] to offer[N]
+our help in ending this stupid war.[A]
+
+[FarRight]
+Plus,[.5] you've seen us in battle.[.6][N]
+We'll be plenty good for you![A]
+
+[MidLeft]
+[Beat][.5] If you're both so enthusiastic,[.6][N]
+your help is very much appreciated.[A]
+
+[Right]
+You think I'm enthusiastic?[A]
+
+[FarRight]
+I sure am![.6] Come on, Ethniu.[.5] let's get some[N]
+rest.[.6] I gotta take this armour off![A][ClearFace][Right][ClearFace][.7]
+
+[MidLeft]
+I should really check[N]
+in with C[0xFA] Raoi now...[A]
 [X]
 
 
+
 ## P1C4ACamp
+[FarFarRight][LoadAengus][MoveMidRight]
+Finally...[.6] Your group's made me[N]
+seriously consider a horse.[A]
+
+[MidLeft]
+I'm shocked you kept pace with us.[.6] You[N]
+should probably take your armour off.[A]
+
+[MidRight][ToggleSmile]
+Just showing you how dedicated I am![.6][N][ToggleSmile]
+Tell me when we're leaving again.[A]
+
+[MidLeft]
+I'm going to check in with the[N]
+commander right now.[AN]
+Not planning on leaving anybody[N]
+at this camp,[.5] including you.[A]
+
+[MidRight]
+That's good,[.5] that's good...[AN][CloseEyes]
+If you'll excuse me,[.5] I'm going[N]
+to take a very long nap.[A][ClearFace][.7]
+
+[MidLeft]
+Not planning on leaving anyone...[.6][N]
+Why am I lying to myself?[A]
 [X]
 
 
 
 ## P1C4ECamp
+[FarFarRight][LoadEthniu][MoveMidRight]
+There you are.[.6] Do you know how much[N]
+of a nuisance you were to follow?[AN]
+
+[MidLeft]
+You...?[.6] What are you doing here?[.6][N]
+I told you to stay and help--[A]
+
+[MidRight]
+I heard what you told me to do.[.6][N]
+But that idea was stupid.[A]
+
+[MidLeft]
+Stupid?[.6] Do you think protecting[N]
+your hometown is stupid?[AN]
+
+[MidRight]
+It's not my home anymore.[.6][N]
+What's the point of staying?[AN]
+I don't care if you'll take me[N]
+or not.[.6] I'm here to help.[AN]
+Someone else will gladly take[N]
+my combat experience,[.5] I'm sure.[A]
+
+[MidLeft]
+[Beat][.5] I know how angry you must be.[.6][AN]
+I would be angry too if I lost[N]
+one of my siblings,[.5] Ethniu.[AN][.6]
+If you're passionate about ending[N]
+the war,[.5] I'll take your help.[AN]
+Take some time to rest.[.6] You must[N]
+be exhausted from walking so far.[A]
+
+[MidRight]
+You won't regret taking me.[.6] We're[N]
+going to give Heichalot hell.[A][ClearFace][.7]
+
+[MidLeft]
+Her brother...[.6] I can't let anything[N]
+like that happen to Miach.[A]
 [X]
 
 
 
 ## P1C4HanlinExplains
-[ConversationText]
 [MidLeft][LoadCethern]
 [MidRight][LoadHanlin]
-We should have a small window of opportunity before we are noticed.
-Best to use it to prepare for the battle ahead.
+We should have a small window of[N]
+opportunity before we are noticed.[AN]
+Best to use it as well as we can.[A]
 
 [MidLeft]
-I'll use it well.
-Everyone, brace yourselves to break through![X]
+I'll use it well.[.6] Everyone,[.5] brace[N]
+yourselves to break through![A][X]
 
 
 
 ## P1C4CethernExplains
-[ConversationText]
 [MidRight][LoadCethern]
-They haven't seemed to notice us yet.
-We should quickly prepare ourselves before we break through![X]
+They haven't seemed to notice us yet.[AN]
+We should position ourselves well[N]
+before we break through![A][X]
 
 
 
 ## P1C4IshpanNotices
-[ConversationText]
 [MidLeft][LoadIshpan]
-Corbenic forces coming from the trees...
-Everyone! Take your positions!
-You fight for Ochren and Heichalot![X]
+There![.6] Corbenic forces,[N] 
+coming from the trees![AN]
+Take your positions,[.5] men![AN]
+You fight for both Ochren[N]
+and Heichalot![A][X]
 
 
 
 ## P1C4CethernRealizesTheTruth
-[ConversationText]
 [MidRight][LoadCethern]
-They're fortified, yes.
-But they're set up towards this forest, not the trail...[MoveMidRight]
-Have they betrayed Corbenic?!
+They're fortified,[.5] yes.[.6] But they're set[N] 
+up towards this forest,[.5] not the trail...[AN][MoveMidRight]
+Have they betrayed Corbenic?![A]
 
 [FarFarRight]
-Cethern!
-Hold on a moment![X]
+Cethern![A][X]
 
 
 
 ## P1C4CuRaoiSadhbh
-[ConversationText]
 [Right][LoadCethern]
 [FarRight][LoadSadhbh]
 [MidLeft][LoadWydyrCommander]
-Both of you have returned.
-I hope only to hear of success.
+Both of you have returned.[.6] I[N]
+hope only to hear of success.[A]
 
 [Right]
-Manapia was attacked by Heichalot, but they are fortified now.
-We were lucky to arrive before the raid.
+Manapia was attacked by Heichalot.[AN]
+We fended them off,[.5] but they refused[N]
+any help in fortifying themselves.[A]
 
 [FarRight]
-Lord Rionall of Ochren is unable to provide further support.
-He states that he must protect his own land from Heichalot.[MoveFarRight]
-If I may speak out of turn, Sir C[0xFA] Raoi...
-I am suspicious of Lord Rionall's actions.
+As for myself,[.5] Lord Rionall cannot provide[N]
+any further support for this encampment.[AN]
+He states he must protect himself first,[.5] but[N]
+if I may speak my peace,[.5] C[0xFA] Raoi...[AN]
+I cannot help but be suspicious of him.[A]
 
 [MidLeft]
-I understand why you may believe that, Lady Sadhbh.
-Despite being isolated, I have faith in Lord Rionall.
+It is understandable why you may[N]
+feel that way,[.5] Lady Sadhbh.[AN]
+I urge you, if you can, to put more[N]
+faith in Lord Rionall's actions.[AN]
+He has been nothing but loyal for[N]
+the past thirty years.[A]
 
 [FarRight]
-Understood...[......][MoveFarRight][N]
-What next for us?
+[Beat] Understood.[AN]
+What are your current[N]
+plans for us?[A]
 
 [MidLeft]
-I believe that the boy has proven himself a competent soldier.
-The time has come for us to make a move of our own.
-I would like Cethern to head into Ochren.
-From there, he will organize an assault into Uffren.
+It irks me that Manapia has refused[N]
+our generous offers of assistance.[AN]
+Yet,[.5] if what the boy says is true,[.5][N]
+I don't believe he is at any fault.[AN]
+In fact,[.5] I think he has proven himself[N]
+quite the competent soldier.[AN]
+I have discussed about our next move to[N]
+great lengths with our compatriots.[AN]
+Cethern is to travel through Ochren,[.5] and[N]
+organize an assault into Uffren.[A]
 
 [FarRight]
-!!![.....][N]
-Sir C[0xFA] Raoi...
+C[0xFA] Raoi![A]
 
 [MidLeft]
-You do not need to worry, Lady Sadhbh.
-You are dismissed, Cethern.
-Prepare to travel out to Ochren.
-Meet with Lord Rionall and plan with him.
+You are dismissed,[.5] Cethern.[.6][N]
+Prepare to ride to Ochren.[AN]
+Meet with Lord Rionall and[N]
+determine your plan with him.[A]
 
 [Right]
-U[....]-Understood, Sir C[0xFA] Raoi.
-I'll do Corbenic proud.[ClearFace][......]
+U[....]-Understood, Sir C[0xFA] Raoi.[.6][N]
+I'll do Corbenic proud.[A][ClearFace][.......]
 
 [FarRight][MoveMidRight][MidRight]
-Sir C[0xFA] Raoi!
-I apologize to speak out of turn once more...
-But this is a dangerous mission!
-You're planning on retaking Uffren?!
+So this was your gambit all along?[.6][N]
+You're planning on retaking Uffren?![A]
 
 [MidLeft]
-The boy has combat prowess, and the heart of Sir MacCumail.
-I believe him to be the best fighter for this job.
+The boy has combat prowess,[.5] and[N]
+the heart of Sir MacCumail.[AN]
+I believe him to be the best[N]
+choice for this mission.[A]
 
 [MidRight]
-But this is a suicide mission, C[0xFA] Raoi!
-Don't you understand you're sending them to die?!
+You dare justify this with MacCumail's name?[.6][N]
+Am I the only sane noble in Corbenic?![AN]
+This is a suicide mission,[.5] C[0xFA] Raoi![.6][N]
+You're sending that boy to his death![A]
 
 [MidLeft]
-Enough from you, Lady Sadhbh!
-I am the commander here.
-You are subordinate while in my camp.[......]
-Now, for your own mission...
+Enough,[.5] Lady Sadhbh![.6] You may be a noble,[.5][N]
+but you are only a Crownflier![AN]
+While you are here,[.5] you are subordinate to[N]
+the nobility of Pedryvan.[AN]
+Either you silence your tongue and accept[N]
+my orders,[.5] or I remove you from your duty![A]
 
 [MidRight][CloseEyes]
-... ...[X]
+[Beat][.5][OpenEyes] There's no need.[AN]
+I will not blindly serve your[N]
+foolish ambitions.[AN]
+You should be ashamed to call[N]
+yourself Corbenic nobility.[A][ClearFace][.7]
+
+[MidLeft]
+If that is how you wish[N]
+to play,[.5] Lady Sadhbh...[A][CloseSpeechSlow][MoveMidRight]
+Men![.6] That Crownflier is a[N]
+traitor![.6] Stop her![A][X]
 
 
 
 ## P1C4CuRaoiNoSadhbh
-[ConversationText]
 [MidRight][LoadCethern]
 [MidLeft][LoadWydyrCommander]
-Cethern.
-I hope only to hear of your success.
+Cethern.[.6] I hope only to[N]
+hear of your success.[A]
 
 [MidRight]
-Manapia was attacked by Heichalot, but they are fortified now.
-We were lucky to arrive before the raid.
+Manapia was attacked by Heichalot.[AN]
+We fended them off,[.5] but they refused[N]
+any help in fortifying themselves.[A]
 
 [MidLeft]
-That is excellent.
-It seems you have proven yourself a competent soldier.
-I would expect no less from the grandson of Sir MacCumail.
+That is...[.6] very odd.[.6] Very odd indeed...[AN]
+You said you managed to keep Heichalot[N]
+away,[.5] though. Was the village unharmed?[A]
 
 [MidRight]
-Thank you, Sir C[0xFA] Raoi.
-What next for us?
+Mostly,[.5] sir.[A]
 
 [MidLeft]
-Eager, are we?
-The time has come for us to make a move of our own.
-I would like you to head into Ochren.
-From there, organize an assault into Uffren.
-Meet with Lord Rionall and plan with him.
-He should be willing to give his support.
+You've got some combat prowess,[.5] boy.[AN]
+I think you've proven yourself to be[N]
+quite the competent soldier.[A]
 
 [MidRight]
-Understood, Sir C[0xFA] Raoi.
-I'll do Corbenic proud![ClearFace][......]
+Thank you, Sir C[0xFA] Raoi...[.6][N]
+But what next for us?[A]
+
+[MidLeft]
+Eager, are we?[.6] I've discussed Corbenic's[N]
+plans going forward with our compatriots.[AN]
+The time has come for us to make our move.[AN]
+I would like you to head into Ochren.[.5][N]
+From there,[.5] organize an assault into Uffren.[AN]
+Meet with Lord Rionall and plan with him.[.5][N]
+He should be willing to give his support.[A]
+
+[MidRight]
+Understood,[.5] Sir C[0xFA] Raoi.[.6][N]
+I'll do Corbenic proud![A][ClearFace][.......]
 
 [MidLeft][ToggleSmile]
-Everything is according to plan...
-We shall take back Uffren, and force Heichalot away for good![X]
+Everything is according to plan...[.6]
+We shall take back Uffren,[.5] and[N]
+force Heichalot away for good.[AN][ToggleSmile]
+This shall be the masterstroke![A][X]
 
 
 
 ## P1C4MiachTalk
-[ConversationText]
 [FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
-This is the healer's tent...
-I wonder where Miach is?
+This is the healer's tent...[.6][N]
+I wonder where Miach is?[A]
 
 [MidRight][LoadGingerWoman]
-Good morn' to you, young mister.
-Are you lookin' for someone?
+Good morn' to you,[.5] young mister.[.6][N]
+Are you lookin' for someone?[A]
 
 [MidLeft]
-I'm hoping to find Miach.
-Is he busy at all?
+I'm hoping to find[N]
+Miach.[.6] Is he here?[A]
 
 [MidRight]
-You must be his brother!
-I'll find him right now.[ClearFace][......]
+You must be his brother![.6][N]
+I'll find him right now.[A][ClearFace][......]
 
 [MidLeft][CloseEyes][ToggleSmile]
-Thank the bearers.
-He actually stayed.
+Thank the bearers...[.6][N]
+He actually stayed.[A]
 
 [MidRight][LoadMiach][ToggleSmile]
-Cethern?[N]
-You're back already?
+Cethern?[.6] You're back already?[A]
 
 [MidLeft][OpenEyes][LoadOverworldFaces]
-Thankfully here.
-How's staying with the healers?
+Thankfully here.[.6] How's[N]
+staying with the healers?[A]
 
 [MidRight]
-It's so tedious...
-Every time I take care of one person, two more show up.
-Are you sure I can't come with you?
+It's so tedious...[.6] Every time I take[N]
+care of one person,[.5] two more show up.[AN]
+Are you sure I can't come with you?[A]
 
 [MidLeft]
-You're needed here, Miach.
-It's safer for you, and healing is an essential job.
+You should stay here, Miach.[AN]
+It's safer for you,[.5] and[N]
+healing is a needed job.[A]
 
 [MidRight]
-I know I promised I would but...
-Please?
-I promise I've been learning as much as I can!
-When I'm not busy healing, I'm swinging a sword around!
+I know I promised I would, but...[.6] Please?[.6][N]
+I've been learning as much as I can![AN]
+When I'm not busy healing,[.4] I grab a sword[N]
+and practice more of my swings![A]
 
 [MidLeft]
-... ...[.....]
-Where exactly are you getting a sword from?
+[Beat] Where exactly are you[N]
+getting a sword from?[A]
 
 [MidRight]
-Um,[.....][MoveMidRight] never mind!
-Point is, I still want to fight!
+Um,[MoveMidRight] never mind![.6][N]
+Point is,[.4] I still want to fight![A]
 
 [MidLeft]
-Miach, I can't.
-We're headed out to rush into Heichalot.
-I couldn't imagine you getting hurt, or worse...
+Miach,[.4] I can't.[.6] We're headed into Heichalot.[.6][N]
+I couldn't imagine you getting hurt...[A]
 
 [MidRight]
-... ...
-Fine.
-I'll stay here.[.....]
-But I'm not happy about it.
+[Beat] Fine.[.6] I'll stay here.[.6][N]
+But I'm not happy about it.[A]
 
 [MidLeft]
-Your safety is more important than your happiness, Miach.[ClearFace][......]
+Your safety is more important[N]
+than your happiness, Miach.[A][ClearFace][......]
 
 [MidRight][CloseEyes]
-Cethern...
+Cethern...[A]
 
 [FarFarRight]
-Miach!
-We need your assistance!
+Miach![.6] We need your assistance![A]
 
 [MidRight][OpenEyes]
-I'll be there in a second!
-Just hold on a moment![X]
+I'll be there in a second![A][X]
 
 
 
 ## P1C4MiachEscapeWithSadhbh
-[ConversationText]
 [MidLeft][LoadMiach]
-Alright, I should have a few moments to...
+Alright,[.5] I should have[N]
+a few moments to...[A]
 
 [FarFarRight]
-Excuse me, Miach?
+Excuse me...[.6] Miach?[A]
 
 [MidLeft]
-Huh?
-Who said that?
+Huh?[.6] Who said that?[A]
 
 [MidRight][LoadSadhbh]
-I didn't mean to scare you.
-Shouldn't you be back in the tent?
+I didn't mean to scare you.[.6][N]
+Shouldn't you be back in the tent?[A]
 
 [MidLeft]
-Is my brother telling you to nag me now?
-I'm only getting a bit of fresh air.
+Is my brother telling you to nag me now?[.6][N]
+I'm only getting a bit of fresh air.[A]
 
 [MidRight]
-Not at all.
-I'm actually concerned for him.
+Not at all.[.6] I'm actually[N] 
+concerned for him.[A]
 
 [MidLeft]
-Concerned?
-Aren't you traveling with him?
+Concerned?[.6] Aren't you[N]
+traveling with him?[A]
 
 [MidRight]
-The commander won't allow me to.
-He's sending him to Heichalot, but the mission is perilous.
-Cethern could be walking right into a trap.
-I'm scared he won't return alive.
+The commander won't allow me to.[.6][N]
+He's sending him to Heichalot,[.5][N]
+but the mission is perilous.[AN]
+Cethern could be walking directly[N]
+into a trap and not know it.[AN]
+I'm scared he won't return alive.[A]
 
-[MidLeft]
-!!!
+[FarFarRight]
+Did a pink-haired Crownflier go[N]
+past here?[.6] She's gone rogue![A]
 
 [MidRight]
-I'm scared of what C[0xFA] Raoi may do to you if that happens.
-That's why I'm here now.
+I'm scared of what C[0xFA] Raoi may[N]
+do to you if that happens.[AN]
+That's why I'm here.[.5][N]
+We have to go.[.6] Now.[A]
 
 [MidLeft]
-I'm not going back home![MoveMidLeft]
-I came here to fight, and I--!
+I...[.6] I don't want to go home,[.5] Sadhbh.[.6][N]
+I came here to fight,[.5] and I--![A]
 
-[MidRight][ToggleSmile]
-And that's exactly what we're going to do.
-Grab a sword.[X]
+[MidRight]
+Then take this sword and follow me.[.6][N]
+That's exactly what we're going to do.[A]
+[X]
 
 
 
 ## P1C4MiachEscape
-[ConversationText]
 [MidLeft][LoadMiach]
-Alright, I should have a few moments to myself.[MoveRight]
-My sword should be right around...[MoveRight] here!
+Alright,[.5] I should have a[N]
+few moments to myself.[AN]
+My sword should be right[N]
+around...[.6][MoveRight] here![A]
 
 [OpenFarFarLeft]
-Miach!
-Where are you?!
+Miach![.6] We need you![A]
 
 [Right]
-I'll be there, sorry![MoveMidRight][MidRight]
-The horses are on the other side of camp...
-If I hurry, I should be able to catch up![MoveFarFarRight][....][X]
+I'll be there,[.5] sorry![A][CloseSpeechSlow]MoveMidRight]
+The horses are on the[N]
+other side of camp...[AN]
+If I hurry,[.5] I should be[N]
+able to catch up![A][CloseSpeechSlow][MoveFarFarRight][......][X]
 
 
 
 ## P1C4IshpanTalks
-[ConversationText]
 [Right][LoadEnemySoldierF]
 [FarRight][LoadEnemySoldier]
 [MidLeft][LoadIshpan]
-Your ruler, Lord Rionall, has surrendered to the Heichalotian crown.
-You serve both him and our prince now.
+Your lord has surrendered[N]
+to the Heichalotian crown.[AN]
+You serve both him and our[N]
+prince now.[A]
 
 [Right]
-I understand we're not to fight Heichalot...
-But what happens if Corbenic comes?
+I understand we're not[N]
+to fight Heichalot...[AN]
+But what happens if[N]
+Corbenic soldiers come?[A]
 
 [MidLeft]
-Any entrance will be treated as invasion.
-I understand they may have been your brothers before...
-But you are Heichalotian now.
-You fight for Uffren, not Caer Siddi.
-I hope that realization arrives sooner.[ClearFace][......]
+Corbenic is Heichalot's enemy.[AN]
+I understand they may have been[N]
+your brothers and sisters before...[AN]
+But you are Heichalotian now.[.6] You[N]
+fight for Uffren,[.5] not Caer Siddi.[AN]
+I hope that realization proves[N]
+itself to you soon enough.[A][ClearFace][......]
 
 [FarRight]
-Those arrogant priests.
-Makes me want to stab his eyes out.
-Why did Lord Rionall have to buddy up with that prude?
+Those arrogant priests.[.6] Makes[N]
+me want to stab his eyes out.[AN]
+Why did Lord Rionall have to[N]
+buddy up with that prick?[A]
 
 [Right]
-Heichalotian clergy is always like that.
-Always looking down on everybody...[MoveRight]
-I've gotta be honest.
-I don't feel right fighting anymore.
+Heichalotian clergy are always like[N]
+that,[.5] looking down on everybody...[AN][MoveRight]
+I've gotta be honest.[.6] I don't feel[N]
+right fighting anymore.[A]
 
 [FarRight]
-Thinking of deserting?[ToggleSmile]
-You're lucky I'm not telling anybody.
+Thinking of deserting?[.6][ToggleSmile] You're[N]
+lucky I'm not telling anybody.[A]
 
 [Right][ToggleSmile]
-I've got two brothers in Golud...!
-I couldn't imagine fighting either of them.
-And I serve Ochren, not Heichalot!
+I've got cousins in Golud...![.6] I can't[N]
+imagine fighting any of them...[AN]
+And I serve Ochren,[.5] not Heichalot![A]
 
 [FarRight]
-But you also serve Lord Rionall.
-To think this all would happen...[X]
+But you also serve Lord Rionall.[AN]
+Deserting doesn't sound so bad[N]
+in comparison to this mess...[A][X]
 
 
 
 ## P1C4SadhbhAndMiachJoin
-[ConversationText]
 [Right][LoadMiach]
 [FarRight][LoadSadhbh]
 [MidLeft][LoadCethern]
-Lady Sadhdh?
-And... Miach!
-What are you both doing here?!
+Lady Sadhdh?[.6] And...[.6] Miach?![.6][N]
+What are you doing here?![A]
 
 [FarRight]
-You are being sent to your death.
-You have to fall back!
+C[0xFA] Raoi has sent you[N]
+on a death mission.[AN]
+You have to retreat![A]
 
 [Right]
-Fall back?!
-You said we were going to fight!
+Retreat?![.6] You said we[N]
+were going to fight![A]
 
 [MidLeft]
-Why did you bring Miach with you, Sadhbh?!
+Why did you bring Miach[N]
+with you,[.5] Sadhbh?![A]
 
 [FarRight]
-If C[0xFA] Raoi assigned you this, heading back to camp would be dangerous.
-You and Miach need to flee south.
+If C[0xFA] Raoi assigned you this,[.5] heading[N]
+back to camp could be dangerous.[AN]
+You and Miach need to flee south.[A]
 
 [MidLeft]
-With all respect, Lady Sadhbh...
-I'm not fleeing.
+With all respect,[.5] Lady Sadhbh...[.6][N]
+I'm not fleeing.[A]
 
 [Right]
-I'm not running either!
-I'll be staying with Cethern!
+I'm not running either![.6] I'll[N]
+be staying with Cethern![A]
 
-[MidLeft][CloseEyes]
-No, you won't![OpenEyes]
-You need to get back to camp right--!
+[MidLeft]
+No,[.5] you're not staying![A]
 
 [FarRight]
-Miach cannot return.
-Who knows what will happen if either of you does.
+Miach cannot return.[.5] Who knows what[N]
+will happen if either of you does.[A]
 
 [Right][LoadOverworldFaces]
-And that's exactly why I'm fighting with Cethern![......][MoveRight]
-I even brought a weapon!
+And that's exactly why I'm[N]
+fighting with Cethern![AN]
+I even brought a weapon![A]
 
 [MidLeft]
-Miach!
+Can you listen to me,[.5] Miach?[.6] Why can't[N]
+you just follow instructions?![A]
 
 [FarRight]
-If neither of you wish to flee, I cannot stop you.
-But I would never be able to sleep at night if I left you alone.[MoveFarRight]
-I'll be accompanying you into Uffren.
-I swore on Aingha you'd be safe.
+If neither of you wish to flee,[.5][N]
+I cannot stop you.[AN]
+But I would never be able to sleep[N]
+at night if I left you alone.[AN][.5]
+I'll be accompanying your group.[.5][N]
+I swore to Aingha you'd be safe.[A]
 
 [MidLeft]
-You're not ready, Miach!
-Why can't you just follow instructions?!
+[Beat] You're not ready to fight, Miach.[A]
 
 [FarRight]
-We can only move forward, Cethern.
-Better for Miach to be armed than not...
+We can only move forward,[.5] Cethern.[.6] Better[N]
+for Miach to be armed than not.[A]
 
 [MidLeft]
-Stay as close as you can to me.
-Don't engage with anybody.
+Stay as close as you can to[N]
+me.[.6] Don't engage with anybody.[A]
 
 [Right]
-I'll stick by you, Cethern.
-I promise that.
+I'll stick by you,[.5][N]
+Cethern.[.6] I promise.[A]
 
 [MidLeft][CloseEyes]
-Your promises don't seem to mean much.[ClearFace][......]
+Your promises don't[N]
+seem to mean much.[A][ClearFace][......]
 
 [FarRight]
-I'm sorry, Miach.
-Your brother just wants you safe.
+I'm sorry, Miach.[.6] Your brother[N]
+just wants you to be safe.[A]
 
 [Right]
-I'm going to stay safe.
-So is he, and so is everybody back home.[X]
+I'll be safe.[.6] So is he,[.4] and so[N]
+will everybody back home.[A][X]
 
 
 
 ## P1C4MiachJoin
-[ConversationText]
 [OpenMidLeft][LoadCethern]
 [OpenFarFarRight][LoadMiach][MoveMidRight]
-Cethern![ClearFace][LoadOverworldFaces][......]
+Cethern![A][ClearFace][LoadOverworldFaces][......]
 
 [MidLeft]
-Miach!! You--!
+Miach?![.6] You--![A]
 
 [MidRight][LoadMiach]
-My horse![MoveMidRight]
-It ran away!
+My horse![.6][N][MoveMidRight]
+It ran away![A]
 
 [MidLeft][MoveMidLeft]
-What are you thinking, Miach?!
-I told you not to--
+What are you thinking,[.5] Miach?![N]
+I told you not to--[A]
 
 [MidRight]
-I know you did!
-You told me to stay back at camp!
-Be with the healers and keep myself safe...
-I don't care about that!
-I want to help you fight!
+I know you did![.6] You told[N]
+me to stay back at camp![AN]
+Be with the healers and[N]
+keep myself safe...[AN]
+I don't care about that![.5][N]
+I want to help you fight![AN]
 
 [MidLeft]
-So you stole a horse and rode here?!
+So you stole a horse[N]
+and rode here?![A]
 
 [MidRight]
-I... might have stolen a weapon as well.
+I...[.6] might have stolen[N]
+some supplies as well.[A]
 
 [MidLeft]
-Is this what you were betting on?
-Letting your horse run away so you'd be forced to stay?
-Are you so inept at following instructions?!
+Is this what you were betting on?[AN]
+Letting your horse run away so you'd[N]
+be forced to stay with me?[AN]
+Are you that inept at listening to[N]
+instructions, Miach?![A]
 
 [MidRight]
-Cethern...
-I just wanted to help...
-That's all I want to do.
+Cethern...[.6] I just wanted to help...[.6][N]
+That's all I want to do.[A]
 
 [MidLeft]
-Stay as close as you can to me.
-Don't engage with anybody.
+Stay as close as you can to me.[.6][N]
+Don't engage with anybody.[A]
 
 [MidRight]
-I'll stick by you, Cethern.
-I promise that.
+I'll stick by you,[.5][N]
+Cethern.[.6] I promise.[A]
 
 [MidLeft][CloseEyes]
-Your promises don't seem to mean much.[ClearFace][......]
+Your promises don't[N]
+seem to mean much.[A][ClearFace][......]
 
 [MidRight][CloseEyes]
-I'm going to stay safe.
-So is he, and so is everybody back home...[X]
+I'll be safe.[.6] So is he,[.4] and so[N]
+will everybody back home.[A][X]
 
 
 
 ## P1C4GedeonAppears
-[ConversationText]
 [MidRight][LoadGedeon]
 [Left][LoadEnemySoldier]
 [FarLeft][LoadEnemySoldier]
-We're finally here at Ochren...
-Why couldn't we be assigned against the other side?
-That trail is torturous!
+We're finally here at Ochren...[AN]
+Why couldn't we be assigned[N]
+against the other side?[AN]
+That trail is torturous![A]
 
 [MidRight]
-Don't worry about that.
-We're here now, and we'll earn our coin.
+Don't worry about that.[AN]
+We're here now,[.5] and[N]
+we'll earn our coin.[A]
 
 [Left]
-Are you sure you're fine with this, Gedeon?
-Don't you have a few friends this side of the border?
+Are you sure you're fine[N]
+with this,[.5] Gedeon?[AN]
+Don't you have a few friends[N]
+this side of the border?[AN]
 
 [MidRight]
-... ...
-It's best not to think about that.
-We'll probably be fighting against some capital scum.
-Best to keep our minds on the battle.
+[Beat] It's best not to think[N]
+about that.[AN]
+We'll probably be fighting[N]
+against some capital scum.[AN]
+Best to keep our minds on[N]
+the battle.[A]
 
 [FarLeft]
-Stoic as ever, Gedeon.
-We'll keep up here until they come through![X]
+Stoic as ever,[.5] Gedeon.[AN]
+We'll keep up here until[N]
+they come through![A][X]
 
 
 
 ## P1C4MendVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBlackHairGirl]
-To think Heichalot would get here so soon...
-You better be careful fighting them off.
-Here, this may not be much, but it'll help if any of you get bloodied.
-Best be safe. You can't heal a corpse.[X]
+To think Heichalot would[N]
+get here so soon...[AN]
+You better be careful if[N]
+you're fighting them off.[AN]
+Here.[.6] This may not be much,[.4][N]
+but it'll help your bloodied.[AN]
+Best be safe.[.6] You can't heal[N]
+a corpse.[A][X]
 
 
 
 ## P1C4ThunderVillage
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBlondeMan]
-I've never understood magic, you know that?
-How the heck a book like this goes from words to summoning lightning...
-Maybe you'd have a better for it than I.
-An old man like me ain't gonna have much luck figuring it out.[X]
+I've never understood magic,[.5][N]
+you know that?[AN]
+How the heck a book like this[N]
+goes from words to lightning...[AN]
+Maybe you'd have a better eye[N]
+for it than myself.[AN]
+An old man like me ain't gonna[N] 
+have much luck![A][X]
 
 
 
 ## P1C4GedeonAengus
-[ConversationText]
 [MidRight][LoadAengus]
 [MidLeft][LoadGedeon]
-Aengus?!
-What are you doing here?!
+Aengus?![.6] What are you doing here?![A]
 
 [MidRight][ToggleSmile]
-Gedeon!
-Always followin' the coin, aren't ya?
-It's a long story, actually.
-You know I don't want to fight ya, right?
+Gedeon![.6] Always followin'[N]
+the coin, aren't you?[AN]
+It's a long story,[.5] actually.[AN]
+You know I don't want to[N]
+fight ya,[.5] right?[A]
 
 [MidLeft][ToggleSmile]
-I don't want to fight you either, Aengus.
-Didn't we just get a drink together a month ago?[MoveMidLeft]
-Now we're here.
+I don't want to fight you[N]
+either,[.5] Aengus.[AN]
+Didn't we just get a drink[N]
+together a month ago?[AN][MoveMidLeft]
+Now we're here.[A]
 
 [MidRight][ToggleSmile]
-Yeah, we did![ToggleSmile]
-How much are you gettin' for this?
+Yeah,[.5] we did![.6][ToggleSmile] How much are[N]
+you gettin' for this?[A]
 
 [MidLeft]
-To be perfectly frank, not that much.
-Not the best job, but it's hard to get any.
+To be perfectly frank,[.5][N]
+not that much.[AN]
+Not the best job,[.5] but[N]
+it's hard to get any.[A]
 
 [MidRight]
-Why don't you join us?
-It's not really a job, but come on.
-You don't wanna have to fight me or Ethniu.
+Why don't you join us?[AN]
+It's not really a job,[.5][N]
+but come on.[AN]
+You don't wanna have to[N]
+fight me or Ethniu.[A]
 
 [MidLeft]
-Ethniu, right...[ToggleSmile][MoveMidLeft]
-You know what, Aengus?
-I think I might take you up on that.[X]
+Ethniu,[.5] right...[.6][ToggleSmile] You know what,[.5] Aengus?[.6][N]
+I might take you up on that.[A][X]
 
 
 
 ## P1C4GedeonEthniu
-[ConversationText]
 [MidRight][LoadEthniu]
 [MidLeft][LoadGedeon]
-Ethniu?!
-Why are you all the way out here?!
+Ethniu?[.6] Why are you all[N]
+the way out here?![A]
 
 [MidRight]
-Is it really that much of a surprise?
-I'm not chained to my brother, Gedeon.
+Is it really that[N] 
+much of a surprise?[AN]
+I'm not chained to[N]
+my brother,[.5] Gedeon.[A]
 
 [MidLeft]
-I know that, but I thought you were helping him back in town!
+I know that,[.5] but I thought you[N]
+were helping him back in town![A]
 
 [MidRight]
-Found a better job.
-Looks like you have too.
+Found a better job.[.5][N]
+Looks like you have too.[A]
 
 [MidLeft]
-I wouldn't call it a better job.
-My last one fell through, and it's hard enough.
-This is the only thing I could find that pays.
+I wouldn't call it a better job.[AN]
+My last one fell through,[.5] and[N]
+it's hard enough.[AN]
+This is the only thing I could[N]
+find that pays.[A]
 
 [MidRight]
-It doesn't pay, but you could always fight with us.
-I think my brother would loathe one of us dying.
+It doesn't pay,[.5] but you could[N]
+always fight with us.[AN]
+I think my brother would[N]
+loathe one of us dying.[A]
 
 [MidLeft]
-Aengus?
-Loathing something?
-I couldn't imagine him being that serious.
-But at the same time, I don't think I'd wanna risk it...
+Aengus?[.6] Loathing something?[N]
+I couldn't imagine him being[N]
+that serious.[AN]
+But at the same time,[.5] I don't[N]
+think I'd wanna risk it...[A]
 
 [MidRight]
-So you're coming with us?
+So you're coming with us?[A]
 
 [MidLeft][ToggleSmile]
-You know what, Ethniu?
-I think I will.[X]
+You know what,[.5] Ethniu?[.6][N]
+I think I will.[A][X]
 
 
 
 ## P1C4DiabolistHouse
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBlondeMan]
-You've got to watch your belongings near magicians.
-Once I was in Caer Siddi, walking down the street...
-Next thing I know, this girl in a cape runs by me!
-I didn't even notice it, but she'd stolen all my coin!
-Good luck trying to get it back!
-I still have the burns from trying![X]
+You've got to watch your[N]
+belongings near magicians.[AN]
+Once I was in Caer Siddi,[.4][N]
+walking down the street...[AN]
+Next thing I know,[.5] this[N]
+girl in a cape runs by me![AN]
+I didn't even notice it,[.5] but[N]
+she'd stolen all my coin![AN]
+And good luck trying to get[N]
+it back from them![AN]
+I still have the burns on[N]
+my chest from trying![A][X]
 
 
 
 ## P1C4RionallHouse
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadBrunetteMan]
-I never would've imagined Lord Rionall to side with Heichalot.
-He's always been a saviour of Ochren.
-When Caer Siddi ignored us, he would step in.
-Unlike the capital, he truly treats us as his own.
-It hurts to see this unfold...[X]
+I never would've imagined Lord[N]
+Rionall to side with Heichalot.[AN]
+He's always been the saviour of[N]
+Ochren.[.6] Our saviour.[AN]
+When Caer Siddi ignored our pleas[N]
+for help,[.5] he would answer us.[AN]
+Unlike the capital,[.5] he truly[N]
+treats us as his own.[AN]
+It hurts to see this unfold...[A][X]
 
 
 
 ## P1C4LightMagicHouse
-[ConversationText]
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadOldMan]
-Light magic, holy magic, or whatever you call it...
-It's the absolute power of the Wardbearers.
-To come into contact with their essence weakens the body.
-The scars it leaves behind hurt the soul.
-So if you ever see a diviner of the Wardbearers...
-You'd be best trying not to get hit.[X]
+Light magic,[.5] holy magic,[.5] or[N]
+whatever you call it...[AN]
+It is the absolute power of[N]
+the Wardbearers.[AN]
+To come into contact with their[N]
+essence weakens the body.[AN]
+The scars it leaves behind hurt[N]
+both the body and soul.[AN]
+So if you ever see a diviner of[N]
+the Wardbearers...[AN]
+You'd be best suited dodging[N]
+their strikes.[A][X]
 
 
 
@@ -973,65 +1172,68 @@ Can't say I've ever been there.[X]
 
 
 ## P1C4RionallBetray
-[ConversationText]
 [MidRight][LoadMiach]
 [MidLeft][LoadCethern]
-Ochren has turned on us...
-We have to tell somebody.
-Otherwise, everyone in Pedryvan will--!
+Ochren has turned on us...[.6][N]
+We have to tell somebody.[AN]
+Otherwise,[.5] everyone in[N]
+Pedryvan will be--![A]
 
 [MidRight]
-Cethern!
-Behind you![X]
+Cethern![.6] Behind you![A][X]
 
 
 
 ## P1C4RionallExplains
-[ConversationText]
 [Right][LoadCethern]
 [FarRight][LoadMiach]
 [MidLeft][LoadRionall]
-I'm afraid I cannot let you return to your camp.
+I'm afraid I cannot let[N]
+you return to your camp.[A]
 
 [Right]
-Lord Rionall!
-What is there to gain from betrayal?!
+Lord Rionall![.6] What is there[N]
+to gain from betrayal?![A]
 
 [MidLeft]
-Heichalot overpowers us on a level that is incomprehensible.
-To fight back against them is to kill us all.
-Ochren's people are mine to lead, and I will do anything to save them!
+Heichalot overpowers us on a[N]
+level that is unfathomable.[AN]
+To fight back against them is[N]
+to doom all of Corbenic.[AN]
+Ochren's people are mine to lead,[.4][N]
+and I will see them spared![A]
 
 [Right]
-So you would surrender to them?!
+So you would surrender[N]
+to them?![A]
 
 [MidLeft]
-Who are you to speak to me like that?[MidLeft]
-Pah, not like it matters.
-Consider those your last words, boy.
+You do not understand the cataclysm[N]
+a future of war will bring us.[AN]
+I cannot let you prolong this pathetic[N]
+resistance anymore,[.5] boy.[AN]
+Say your prayer to the Hunt Maiden.[A]
 
 [FarRight][MoveFarRight]
-Cethern, run![X]
+Cethern,[.5] run![A][X]
 
 
 
 ## P1C4SkyKnightsAway
-[ConversationText]
 [MidLeft][LoadRionall]
-Foolish soldiers.
-They run directly into Heichalot.[MoveMidLeft]
-Sky knights!
-Do not chase them!
-Bring to them the Stems of Heichalot![X]
+Foolish soldiers.[.6] They run directly[N]
+into Heichalot.[AN][MoveMidLeft]
+Sky knights![.6] Do not chase them![AN]
+Bring to them the Stems of[N]
+Heichalot![A][X]
 
 
 
 ## P1C4AinghaCursesMe
-[ConversationText]
 [MidLeft][LoadRionall]
-Aingha...[MoveMidLeft]
-No, not to her anymore.
-She would curse my name with her every breath.[X]
+Aingha...[.6] No,[.5] not to her anymore.[AN]
+She would curse my name[N]
+with her every breath.[A][X]
 
 
 

@@ -6,8 +6,8 @@ Theurge,CantoID
 Dracolord,CantoID
 Lnc. Cav,CantoID
 Lnc. Cav (F),CantoID
-Gold Knight,CantoPlusID
-Silver Knight,CantoPlusID
+Gold Knight,CantoID
+Silver Knight,CantoID
 Lance Knight,ShoveID
 Lance Knight (F),ShoveID
 General,ShoveID
@@ -28,20 +28,20 @@ Archer,ShoveID
 Archer (F),ShoveID
 Sniper,ShoveID
 Sniper (F),ShoveID
-Ranger,CantoPlusID
-Ranger (F),CantoPlusID
+Ranger,CantoID
+Ranger (F),CantoID
 Wyvern Rider,CantoID
 Wyvern Rider (F),CantoID
-Wyvern Lord,CantoPlusID
-Wyvern Lord (F),CantoPlusID
-Wyvern Knight,CantoPlusID
-Wyvern Knight (F),CantoPlusID
+Wyvern Lord,CantoID
+Wyvern Lord (F),CantoID
+Wyvern Knight,CantoID
+Wyvern Knight (F),CantoID
 Mage,CunningID
 Mage (F),CunningID
 Sage,ShoveID
 Sage (F),ShoveID
-Mage Knight,CantoPlusID
-Mage Knight (F),CantoPlusID
+Mage Knight,CantoID
+Mage Knight (F),CantoID
 Bishop,ShoveID
 Bishop (F),ShoveID
 Shaman,ShoveID
@@ -52,15 +52,15 @@ Summoner,SummonID
 Summoner (F),SummonID
 Rogue,CunningID
 Gorgon Egg,0x0
-Great Knight,CantoPlusID
-Great Knight (F),CantoPlusID
+Great Knight,CantoID
+Great Knight (F),CantoID
 Swd. Cav,CantoID
 Swd. Cav (F),CantoID
 Axe Cav,CantoID
 Bow Cav,CantoID
 Soldier (F),ShoveID
-Arbalest,CantoPlusID
-Arbalest (F),CantoPlusID
+Arbalest,CantoID
+Arbalest (F),CantoID
 Rogue (F),CunningID
 Fighter,ShoveID
 Warrior,ShoveID
@@ -72,10 +72,10 @@ Priest,ShoveID
 War Monk,ShoveID
 War Cleric,ShoveID
 Pegasus Knight,CantoID
-Falcon Knight,CantoPlusID
+Falcon Knight,CantoID
 Cleric,ShoveID
 Troubadour,CantoID
-Valkyrie,CantoPlusID
+Valkyrie,CantoID
 Dancer,DanceID
 Soldier,ShoveID
 Necromancer,SummonID
@@ -84,9 +84,9 @@ Phantom,0x0
 Axe Knight,ShoveID
 Entombed,0x0
 Sword Knight,ShoveID
-Templar,CantoPlusID
-Dark Knight,CantoPlusID
-Dark Knight (F),CantoPlusID
+Templar,CantoID
+Dark Knight,CantoID
+Dark Knight (F),CantoID
 Halberdier,ShoveID
 Halberdier (F),ShoveID
 Bow Keeper,ShoveID

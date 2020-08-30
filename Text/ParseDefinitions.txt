@@ -80,6 +80,7 @@
 [LoadSanjana] = [LoadFace][0x1D][0x1]
 [LoadVaruna] = [LoadFace][0x1E][0x1]
 [LoadNala] = [LoadFace][0x1F][0x1]
+[LoadNandi] = [LoadFace][0x1F][0x1]
 [LoadDagmema] = [LoadFace][0x20][0x1]
 [LoadChakora] = [LoadFace][0x21][0x1]
 [LoadSirin] = [LoadFace][0x22][0x1]

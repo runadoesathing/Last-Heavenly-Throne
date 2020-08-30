@@ -275,8 +275,8 @@ Wandering magician from the south.[N]
 She's arrogant and cheeky at times.[X]
 
 ## AengusDesc
-Royal knight from Manapia. A bit[N]
-slow, but otherwise competent.[X]
+Royal knight from Manapia. He's[N]
+optimistic and loyal to his sister.[X]
 
 ## BresDesc
 Swordsman with unknown goals.[N]
@@ -315,7 +315,7 @@ Prideful and goading.[X]
 
 ## AnilaDesc
 Monks from the Anilan Order, who[N]
-worship the godly aspect Anila.[X]
+worship the divine aspect Anila.[X]
 
 ## MariciDesc
 Rookie mounted archer of Srughna.[N]

@@ -18,295 +18,313 @@ Damn the Antariksan Order...[X]
 ## ChakoraBQ
 [BattleText]
 [MidLeft][LoadChakora]
-Ever since my banishment...
-I've sought revenge.
-The Anusuya Grove will burn to the ground![X]
+Ever since my banishment...[N]
+I've sought revenge.[AN]
+The Anusuya Grove will[N]
+burn to the ground![A][X]
 
 
 
 ## ChakoraSomaQ
-[BattleText]
 [MidRight][LoadSoma]
-Chakora?
-What are you doing with the enemy?![ClearFace]
+Chakora?[.5] What are you doing[N]
+with Antariksa?![A][ClearFace]
 
 [MidLeft][LoadChakora]
-Soma...
-So you came back.
-It's too late to convince me.[ClearFace]
+Soma...[.6] So you came back.[AN]
+It's too late to convince me[N]
+to back down.[A][ClearFace]
 
 [MidRight][LoadSoma]
-What happened to you?!
-Why are you fighting against your own people?![ClearFace]
+What happened to you?[AN]
+Why are you fighting against[N]
+your own grove?![A][ClearFace]
 
 [MidLeft][LoadChakora]
-My people?!
-The Anusuya Grove, who left me to rot?!
-Even though I did nothing wrong![ClearFace]
+My people?![.5] The Anusuya[N]
+Grove,[.5] who left me to rot?![AN]
+I did nothing wrong![AN]
+They banished me for their[N]
+own petty revenge![A][ClearFace]
 
 [MidRight][LoadSoma]
-I don't know what happened.
-But we've both changed.
-It's unfortunate we have to fight...[X]
+I don't know what happened.[AN]
+But it's clear that we've[N]
+both changed.[AN]
+You're not the girl I treated[N]
+like a big sister anymore.[A][ClearFace]
+
+[MidLeft][LoadChakora]
+I guess I'm not.[.6][N]
+Goodbye,[.5] Soma.[A]
+[X]
 
 
 
 ## ChakoraSrihwenQ
-[BattleText]
 [MidLeft][LoadChakora]
-The white-haired oracle of Hwen...
-I never expected to see your face on this battlefield.[ClearFace]
+The white-haired oracle...[AN]
+I never expected to see your[N]
+face on this battlefield.[A][ClearFace]
 
 [MidRight][LoadSrihwen]
-Why do the orders fight?
+Why do the orders fight?[.6][N]
 What have we done?[ClearFace]
 
 [MidLeft][LoadChakora]
-What have you done?!
-My people exiled me, all for the crime of nothing!
-I left to enlighten myself, only to return and lose everything to this horrid monastery![ClearFace]
+You know what you've done![AN]
+Dhara and Chandra both sit[N]
+on a false sense of pride![AN]
+Your orders think themselves[N]
+above everyone.[.6] And why?[AN]
+It all stems from you.[A][ClearFace]
 
 [MidRight][LoadSrihwen]
-But why do you come back to conquer them...?
-Will unity with Antariksa and Anila bring you joy?[ClearFace]
+From me...?[.6][N]
+I don't understand what--[A]
 
 [MidLeft][LoadChakora]
-Quiet!
-You come here with a sheltered mind.
-Your death would be an ultimate revenge on this grove![X]
+Quiet![.6] You and your orders[N]
+are sheltered from reality...[AN]
+Antariksa is the cure for your[N]
+clouded minds![X]
 
 
 
 ## P2C2MeetingRoomStuff
-[ConversationText]
 [Right][LoadDhara2]
 [FarRight][LoadDhara]
 [MidLeft][LoadKhema]
-That's the situation as it is.
-It appears a diplomatic solution may be lost on us.
+And that is our current situation.[AN]
+It appears a diplomatic solution[N]
+may be lost on Antariksa.[A]
 
 [Right]
-The Anilan and Antariksan Orders are joining forces...
-What is going on?
-Why is this happening?
+The Anilan and Antariksan[N]
+Orders are joining forces...[AN]
+What is going on?[N]
+Why is this happening?[A]
 
 [FarRight]
-This is a good thing though, isn't it?
-We can finally stave off those Anilan brigands!
+Isn't this a good thing?[AN]
+Anila's finally given us a reason[N]
+to fight back against them![A]
 
 [Right][ClearFace][LoadEthniu]
-It's not a good thing.
-Antariksa wants all of the orders to align.
-It could be any of the further orders fighting us too.
-What happens if we're conspired against at all angles?
+It's not a good thing.[.6] Antariksa[N]
+wants all of the orders to align.[AN]
+What happens if the others agree?[.6][N]
+If we're assaulted from all angles?[A]
 
 [MidLeft]
-For now, it is only two orders in this alliance.
-I've gathered everyone here to discuss our options.
+For now,[.5] it is only two[N]
+orders in this alliance.[AN]
+I've gathered everyone[N]
+to discuss our options.[AN]
 
 [FarRight][ClearFace][LoadSoma]
-The Chandran Order would never conspire against us!
-You should know that, Ethniu!
+Why aren't we helping the Chandran Order?[.6][N]
+This order needs them like they need us![A]
 
 [MidLeft]
-Soma, I told you and Srihwen to stay in your chambers!
+Soma,[.5] I told you to stay with Srihwen![A]
 
 [FarRight]
-I know you did, but I couldn't help but overhear you...
-This involves my home!
-I can't just sit idly!
+I know you did,[.5] but this involves my home![AN]
+Do you want me to just sit around while[N]
+my people are in danger?![A]
 
 [Right]
-To be fair to Soma, you're talking about her grove being in danger.
+To be fair to Soma,[.5] you're talking[N]
+about her grove being in danger.[A]
 
 [MidLeft]
-Yes, Soma.
-Your grove has been on the receiving end of aggression.
-But your duty is to remain with Srihwen!
+Soma,[.5] I understand your concern.[AN]
+We still have not heard anything[N]
+from the Chandran Order.[AN]
+That's why we're discussing our[N]
+course of action right now.[A]
+
+[FarRight]
+Without me?[.6] The one that's[N]
+from the Chandran Order?[A][CloseSpeechSlow]
 
 [Right][ClearFace][FarRight][MoveRight][FarRight][LoadSrihwen]
-I'm sorry, greatmother...!
-I told her to stay with me...
+I'm sorry,[.5] greatmother![.6][N]
+I told her to stay with me...[A]
 
 [Right]
-Please, Greatmother Khema!
-I need to see if my grove is safe!
+Please,[.5] Greatmother Khema![.6][N]
+I need to see if my grove is safe![A]
 
 [MidLeft]
-I understand your concern.
-I would also be worried if I learned my home was threatened.
+Soma,[.5] I would also be worried if I[N]
+learned my home was threatened.[AN]
+But I still cannot let you leave.[.5][N]
+You swore an oath to the Springmother.[AN]
+With that attack yesterday,[.5] we know[N]
+they're targetting Srihwen.[A]
 
 [Right]
-Then why can't you--!
-
-[MidLeft]
-You have sworn an oath to protect Srihwen.
-With the attack yesterday, we need to keep her safe at all costs.
-Her divine gifts only make her more of a target.
-
-[Right]
-Then let her come with me!
-Not only would I be keeping her safe...
-[ToggleSmile]But those gifts are incredible in a battle!
-She can sense the enemy's footsteps before we can even see them![X]
+Then let her come with me![AN]
+Not only would she be safe...[.5][N][ToggleSmile]
+But she's incredible in battle![AN]
+She can sense the enemy before[N]
+we can even see them![A][X]
 
 
 
 ## P2C2MariciMR
-[ConversationText]
 [FarLeft][LoadMarici][MidLeft][MoveLeft][FarLeft]
-I don't mean to barge in, greatmother.
-But Srihwen was quite useful yesteday.
+I don't mean to barge[N]
+in unannounced,[.5] but...[AN]
+We wouldn't have made it[N]
+yesterday without Srihwen.[A]
 
 [Left]
-Who are you exactly?[.....]
-And how did you get in here?
+Who are you?[.5][N]
+And how did you find your way in here?[AN]
+Perhaps this monastery needs rebuilding if[N]
+sneaking in and out is so effortless.[AN]
 
 [FarLeft]
-My name's Marici.
-I'm from Srughna.
-I was told to come here to help guard ya.
+My name's Marici.[.6] I'm from Srughna.[.6][N]
+I was sent by the...[.6] Tundran Order?[AN]
+They said you might be in danger.[.5][N]
+I'm the only one who came,[.5] so...[AN]
 
 [Left]
-It's excellent to have more help,[.....] but who exactly sent you here?
-
-[FarLeft]
-I don't know, but they looked like a monk of some kind.
-Apparently they were trying to get help from Houses Pancala and Vraja too.
-
-[Left]
-That is a wise idea...
-Perhaps we should seek help from Srughna.
+The Chandran Order...[AN]
+Perhaps we should also[N]
+seek help from Srughna.[A]
 
 [Right][ClearFace][LoadEthniu]
-It's not as if Antariksa or Anila can do that with us around the border.
-They probably don't want Srughna's help anyways...
+It's not as if Antariksa or Anila can try[N]
+anything with us blocking the border.[AN]
+They might not even want Srughna's help...[A][ClearFace][LoadSoma]
 
 [Left]
-I am losing track of the current topic, though.
-What matters is that neither Srihwen nor Soma are leaving!
+As much as I would approve of returning[N]
+the favour to the Chandran Order...[AN]
+I don't consider it wise for that to[N]
+include you,[.5] Soma.[.6] I apologize.[A]
 
 [FarRight][MoveRight]
-Greatmother Khema...[.....][MoveRight]
-I've been given the blessings of the Springmother.
-I don't want to fight, but to sit locked away in this monastery...?
-It doesn't feel right.
-I want to use my powers to help our grove.
-And to do that,[MoveRight] I have no choice but to leave my nest.[LoadOverworldFaces]
-
-[Left][MoveLeft]
-I can't let you, Srihwen!
-What would the Springmother think if her oracle lost her life?
-
-[Right]
-There's this feeling in my heart...
-The Springmother hasn't told me so, but I believe she would want me to fight.
-To use my sight into the earth, my healing staves...
-I want to keep the Dharan Order safe.
-Please, greatmother.
-Let me leave the monastery.
+Greatmother Khema...[.5] I've been given[N]
+the blessings of the Springmother.[AN]
+I loathe the idea of fighting,[.5] but to sit[N]
+locked away in this monastery...?[AN]
+If everyone else is willing to stand up[N]
+to defend our lands,[LoadOverworldFaces][.6] I should as well.[AN]
 
 [Left]
-You've left the grounds before...[.....]
-I suppose if I kept you here, you'd only escape again.
-I can only hope you three can keep her safe as well as I can.
+What would the Springmother think[N]
+if her oracle lost her life?[AN]
+Please consider the risk of what[N]
+you ask of me, Srihwen![A]
 
-[FarRight][ClearFace][LoadSoma][ToggleSmile]
-I give my word, greatmother!
-Srihwen will stay as safe as she was before!
+[Right]
+I pondered over it all last night.[.6][N]
+There's this feeling in my heart...[AN]
+The Springmother hasn't told me so,[.4][N]
+but she would want me to fight.[AN]
+To use my sight into the earth and[N]
+my healing abilities to help...[AN]
+I want to keep the Dharan Order safe.[.5][N]
+Please.[.6] Let me go,[.4] greatmother.[A]
 
-[Left][ToggleSmile]
-If you are going to leave, though...
-I have a favour to ask.
-Soma has been ardent in wishing to check up on the Chandran Order.
-I would ask of you to assist them from Antariksan aggresion.
+[Left]
+You've never sounded this determined...[AN]
+I suppose if I kept you here any longer,[.5][N]
+you'd eventually sneak away with Soma.[AN]
+Very well.[.6] I order you two to go with Ethniu[N]
+and the Srughnan knight to aid Chandra.[AN]
+If you find yourselves under siege again,[.4][N]
+act strictly in defense.[.5] Understood?[A]
 
-[FarLeft]
-I'll go with them and help too.
-Better for me to go than stay.
+[Right]
+Thank you for understanding,[.5] greatmother.[.6][N]
+I promise on the Springmother I'll return.[A]
 
-[Right][ToggleSmile]
-I'll do my best, greatmother.[.....]
-Thank you for your understanding.[X]
+[FarRight][ToggleSmile]
+You'll return unharmed,[.5] and we will too![.6][N]
+Chandran Order,[.5] here[.4] we[.4] come![A][X]
 
 
 
 ## P2C2NoMariciMR
-[ConversationText]
 [MidLeft]
-Neither of you are leaving.
-Asking me so many times will not change my answer!
+Neither of you are leaving.[.6][N]
+I know what you're capable of,[.5] Srihwen.[AN]
+But please,[.5] understand why I say this.[.5][N]
+It's only for your safety.[AN]
 
 [FarRight][MoveRight]
-Greatmother Khema...[.....][MoveRight]
-I've been given the blessings of the Springmother.
-I don't want to fight, but to sit locked away in this monastery...?
-It doesn't feel right.
-I want to use my powers to help our grove.
-And to do that,[.....][MoveRight] I have no choice but to leave my nest.[LoadOverworldFaces]
+Greatmother Khema...[.5] I've been given[N]
+the blessings of the Springmother.[AN]
+I loathe the idea of fighting,[.5] but to sit[N]
+locked away in this monastery...?[AN]
+If everyone else is willing to stand up[N]
+to defend our lands,[LoadOverworldFaces][.6] I should as well.[AN]
 
 [MidLeft]
-I can't let you, Srihwen!
-What would the Springmother think if her oracle lost her life?
+What would the Springmother think[N]
+if her oracle lost her life?[AN]
+Please consider the risk of what[N]
+you ask of me, Srihwen![A]
 
 [Right]
-There's this feeling in my heart...
-The Springmother hasn't told me so, but I believe she would want me to fight.
-To use my sight into the earth, my healing staves...
-I want to keep the Dharan Order safe.
-Please, greatmother.
-Let me leave the monastery.
+I pondered over it all last night.[.6][N]
+There's this feeling in my heart...[AN]
+The Springmother hasn't told me so,[.4][N]
+but she would want me to fight.[AN]
+To use my sight into the earth and[N]
+my healing abilities to help...[AN]
+I want to keep the Dharan Order safe.[.5][N]
+Please.[.6] Let me go,[.4] greatmother.[A]
 
 [MidLeft]
-You've left the grounds before...[.....]
-I suppose if I kept you here, you'd only escape again.
-I can only hope you two can keep her safe as well as I can.
+You've never sounded this determined...[AN]
+I suppose if I kept you here any longer,[.5][N]
+you'd eventually sneak away with Soma.[AN]
+Very well.[.6] I order you two to go with Ethniu[N]
+and the Srughnan knight to aid Chandra.[AN]
+If you find yourselves under siege again,[.4][N]
+act strictly in defense.[.5] Understood?[A]
 
-[FarRight][LoadSoma][ToggleSmile]
-I give my word, greatmother!
-Srihwen will stay as safe as she was before!
+[Right]
+Thank you for understanding,[.5] greatmother.[.6][N]
+I promise on the Springmother I'll return.[A]
 
-[MidLeft][ToggleSmile]
-If you are going to leave, though...
-I have a favour to ask.
-Soma has been ardent in wishing to check up on the Chandran Order.
-I would ask of you to assist them from Antariksan aggresion.
-
-[FarRight][ClearFace][LoadEthniu]
-I'll keep an eye on them for you, greatmother.
-They won't get hurt on my watch.
-
-[Right][ToggleSmile]
-I'll do my best, greatmother.[.....]
-Thank you for your understanding.[X]
+[FarRight][ClearFace][LoadSoma][ToggleSmile]
+You'll return unharmed,[.5] and we will too![.6][N]
+Chandran Order,[.5] here[.4] we[.4] come![A][X]
 
 
 
 ## P2C2WMIntro
 Srihwen leaves the Dharan monastery[N]
-with a few acolytes and the blessing[N]
+with her retinue and the blessing[N]
 of her greatmother.[AN]
-She heads south along Bhuloka's[N]
-western border to the Chandran[N]
-Order,[.....] in the hopes of aiding[AN]
-against any possible aggression[N]
-from either Anila or Antariksa.[A][X]
+She heads south to the eastern[N]
+part of Chandra's domain,[.5] to aid[N]
+against Anila and Antariksa.[A][X]
 
 
 
 ## P2C2WMIntro2
-The Chandran Order,[.....] located in the[N]
-southwest corner of Bhuloka,[.....] has[N]
-a split worship between both the[N]
-Springmother and the Wardbearer[AN]
-Bhatn,[.....] known as the Penumbra.[......][N]
-The Dharan and Chandran Orders[N]
-have always had a strong rapport,[.....][N]
-due to their similar beliefs.[AN]
-As Srihwen approaches the domain[N]
-of the Chandran Order,[.....] a battle[N]
-is already underway near the gate[N]
-to its monastery...[A][X]
+The Chandran Order,[.5] nestled between[N]
+Dhara and Prabhasa along the western[N]
+edge of Bhuloka,[.5] worships both the[N]
+Springmother and the Wardbearer Bhatn.[AN]
+Over the time of their existence,[.5] a[N]
+strong rapport has formed between the[N]
+two orders,[.5] and they have aided each[N]
+other many times before.[AN]
+Continuing that tradition,[.5] Srihwen[N]
+approaches the domain of Chandra's[N]
+eastern monastery,[.5] as conflict skulks[N]
+from across the Sarasvati River...[A][X]
 
 
 
@@ -321,1324 +339,1355 @@ Chandra[X]
 
 
 ## P2C2OutsideGate
-[ConversationText]
 [MidLeft][LoadSanjana]
 [MidRight][LoadNala]
-Sanjana, have you seen Varuna anywhere?
-I have a bad feeling about those threats.
+Sanjana,[.5] have you seen[N]
+Varuna anywhere?[A]
 
 [MidLeft]
-He's scouting above the canopy for anybody.
-We don't wanna be caught by surprise.
+He's scouting above the canopy for anybody.[.6][N]
+We don't wanna be caught by surprise.[A]
 
 [MidRight]
-At least the other grove is closer to Srughna.
-This one, though?
-Antariksa could come through at any time.
+The other grove was closer to Srughna.[.6][N]
+We're not going to find safety here.[AN]
+Antariksa could assault us at any time.[AN]
 
 [MidLeft]
-That was a smart idea, Nandi, coming here.[ToggleSmile]
-You're a great strategist, you know that?
+Coming here was smart,[.5] Nandi.[.6][ToggleSmile] You're a[N]
+great strategist,[.5] you know that?[A]
 
 [MidRight][ToggleSmile]
-Enough with the praise.
-Just because Varuna is keeping watch doesn't mean we can mess around.
+Enough with the praise,[.5] Sanjana.[AN]
+Just because Varuna is keeping watch[N]
+doesn't mean we can mess around.[A]
 
 [MidLeft]
-Fine, fine...[MoveMidLeft]
-Hey, up there!
-He's coming back right now!
+Fine,[.4] fine...[.5][MoveMidLeft] Hey,[.5] up there![.6][N]
+He's coming back right now![A]
 
 [Right][LoadVaruna][MidRight][MoveFarRight][Right]
-It's not good!
-They're going to surround this gate any minute!
+It's not good![.6] They're going to[N]
+surround us any minute now![A]
 
 [FarRight]
-What did you see, Varuna?
-How bad is it?
+What did you see,[.5] Varuna?[.6][N]
+How bad is it?[A]
 
 [Right]
-There's quite a few of them.
-They almost got my wyvern with an arrow!
-We need to meet them before they get close!
+There's quite a few of them.[.6][N]
+Almost got my wyvern with an arrow![AN]
+We need to attack them before they[N]
+get any closer to the monastery![A]
 
 [FarRight]
-Not a good idea.
-If they get closer to the gate, we'll have them out in the open.
-Then they won't have anywhere to hide but where they came from.
+Not a good idea.[.6] If we attack first,[.5][N]
+they'll have the advantage of cover.[AN]
+By letting them come to us instead,[.4][N]
+they won't have anywhere to hide.[A]
 
 [MidLeft]
-Another smart idea, Nandi...!
-All we have to do is protect the grove, right?
-I'm sure with both of your incredible strength, we can hold the line!
+Another smart idea,[.5] Nandi...![AN]
+All we have to do is protect[N]
+the grove,[.5] right?[AN][ToggleSmile]
+I'm sure with your incredible[N]
+strength,[.5] we can hold the line![A]
 
-[Right]
-But we can get the jump on them!
-They won't have time to prepare if we rush them with our mettle!
+[Right][ToggleSmile]
+I've got incredible strength too![.6][N]
+We can get the jump on them![AN]
+They won't have time to prepare[N]
+if we rush them right now![A]
 
 [FarRight]
-You both need to calm down.[MoveFarRight]
-We can't get ahead of ourselves.
+Both of you![.6] We can't get[N]
+ahead of ourselves![A]
 
 [MidLeft]
-We can't calm down now!
-They're coming from around the corner![X]
+We can't calm down now![AN]
+They're coming from the east[N]
+as we speak![A][X]
 
 
 
 ## P2C2ChakoraChakora
-[ConversationText]
 [MidLeft][LoadEnemySoldier]
 [MidRight][LoadChakora]
-Finally...
-Back again at these horrid walls.
+Finally...[.6] Back again at[N]
+these horrid walls.[A]
 
 [MidLeft]
-Back again?
-You have some history with this place?
+Back again?[.6] You have some[N]
+history with this place?[A]
 
 [MidRight]
-Terrible history.
-Just know I'm glad to exact my vengeance today.
-Today, the Anusuya Grove shall fall, and with that, so shall the Chandran Order.
+Terrible history.[.6] They banished me for[N]
+"fraternizing" with your order.[AN]
+All I sought was enlightenment.[.6][N]
+They branded me a traitor.[A]
 
 [MidLeft]
-Yeah, yeah, just don't turn your coat.
-Remember that we stand here because of Antariksa's greatmother.
+Yeah,[.4] yeah,[.4] I get the gist.[AN]
+I'm sure you know you're here only[N]
+because of our greatmother's mercy.[AN]
+Don't go turnin' your coat again.[A]
 
 [MidRight]
-Indeed I shall.
-Everyone!
-Breach the gate!
-Give them no mercy![X]
+Wasn't planning on it.[.6] Everyone![.6][N]
+The Anusuya Grove falls today![A][X]
 
 
 
 ## P2C2SrihwenHere
-[ConversationText]
 [MidLeft][LoadSrihwen]
 [FarRight][LoadEthniu]
 [Right][LoadSoma]
-This isn't good!
-The Antariksan Order is already here!
+This isn't good![AN]
+The Antariksan Order[N]
+is already here![A]
 
 [FarRight]
-But look who's at the gate.
-Those can't be monks...
+But look who's at the gate.[.6][N]
+Those can't be monks...[A]
 
 [Right]
-They're not from the Order of Chandra.
-They must be Srughnan soldiers!
+Definitely not from the Order of Chandra.[.6][N]
+They must be more Srughnan soldiers![A]
 
 [MidLeft]
-Whoever they might be, it looks like they're on our side.
-We have to get to them and help...![X]
+Whoever they might be,[.5] it looks like[N]
+they're on our side.[AN]
+We have to get to them and help...![A][X]
 
 
 
 ## P2C2NoticeThem
-[ConversationText]
 [MidLeft][LoadNala]
 [FarRight][LoadVaruna]
 [Right][LoadSanjana]
-Hey! From the other corner!
-There's more people coming!
+Hey![.5] From the other corner![.6][N]
+There's more people coming![A]
 
 [FarRight]
-More enemies?!
-I'll cover that side with my axe!
+More enemies?![.6] I'll cover[N]
+that side with my axe![A]
 
 [MidLeft]
-Hold it, Varuna!
-One of them...
-One of them looks like a Srughnan soldier!
+Hold it,[.5] Varuna![.6] One of them...[.6][N]
+There's another Srughnan knight![A]
 
 [Right]
-You mean they're one of us?!
-[ToggleSmile]How noble! 
-Our prince in a time of need!
+You mean they're one of us?![.6] [ToggleSmile]How noble![.6][N]
+Our prince in a time of need![A]
 
 [MidLeft][ToggleSmile]
-Sanjana, they're actually not--
+Sanjana,[.5] they're actually not--[AN]
 
 [FarRight]
-No time to talk around!
-Let's cut the enemy down![X]
+No time to talk![.6] Let's[N]
+cut the enemy down![A][X]
 
 
 
 ## P2C2NoMariciThem
-[ConversationText]
 [MidLeft][LoadNala]
 [FarRight][LoadVaruna]
 [Right][LoadSanjana]
-Hey! From the other corner!
-There's more people coming!
+Hey![.5] From the other corner![.6][N]
+There's more people coming![A]
 
 [FarRight]
-More enemies?!
-I'll cover that side with my axe!
+More enemies?![.6] I'll cover[N]
+that side with my axe![A]
 
 [MidLeft]
-Hold it, Varuna!
-They don't look like Antariksans!
-I think they're coming to our aid!
+Hold it,[.5] Varuna![.6] I think[N]
+they're coming to our aid![A]
 
 [Right]
-We're being saved?!
-[ToggleSmile]How noble!
-Knights in a time of need!
+We're being saved?![.6] [ToggleSmile]How noble![.6][N]
+Our princes in a time of need![A]
 
 [MidLeft][ToggleSmile]
-Sanjana, they're actually not--
+Sanjana,[.5] they're actually not--[AN]
 
 [FarRight]
-No time to talk around!
-Let's cut the enemy down![X]
+No time to talk![.6] Let's[N]
+cut the enemy down![A][X]
 
 
 
 ## P2C2ForestTalk
-[ConversationText]
 [MidLeft][LoadSrihwen]
+[Right][LoadSoma]
 [FarRight][LoadEthniu]
-[Right][LoadSoma][ToggleSmile]
-Aaah, I'm so excited!
-I haven't been home in forever!
+So,[.4] Soma...[.6] Hasn't it been seven[N]
+years since you've been home?[AN]
+You were still a kid when I[N]
+first met you.[A]
 
-[FarRight][ToggleSmile]
-We're not going here just to relax, Soma.
-It won't be a peaceful family reunion.
-
-[Right][ToggleSmile]
-I know that!
-But keeping my people safe is perfectly fine by me.
-And it helps that I can guard Srihwen at the same time!
+[Right]
+Has it seriously been that long?![AN][ToggleSmile]
+I've got a lot of time to make[N]
+up for once we get there,[.4] then![A]
 
 [MidLeft][ToggleSmile]
-I'm sorry if I'm not the biggest help.
-I don't want to be some burden on keeping your grove safe.
-I just thought that Greatmother Khema would let you come if I did too.
+You haven't talked with anyone[N]
+from there since you left?[A]
 
 [Right]
-Don't worry about it!
-You're a healer, Srihwen!
-And a good one at that!
+I was busy with you, Srihwen![AN]
+This is the first time the greatmother's[N]
+actually let me out of the monastery.[AN][ToggleSmile]
+I'll be glad to introduce you both[N]
+to everyone at the monastery![A]
 
-[FarRight]
-Is the Chandran Order any different from Dhara?
-I can't say I've ever been here.
-
-[Right]
-Well, for one, we have two groves instead of one.
-I'm from the Anusuya Grove, and we worship Hwen more than Bhatn.
-
-[FarRight]
-That's where we're headed, isn't it?
+[FarRight][ToggleSmile]
+We're not coming to relax,[.5] Soma.[.6][N]
+It's not a simple family reunion.[A]
 
 [Right]
-Yep it is!
-Oh, and if you head further east...
-You get this amazing clear view of the Sarasvati River!
-
-[FarRight]
-The Sarasvati River?
-So you're right next to the Antariksan Order.
-If they were to attack, you'd be the first in line...
-That's not good.
-
-[MidLeft]
-And Anila's already attacked us before...
-It wouldn't be unlikely if Antariksa did something.
-
-[Right]
-Don't talk about it like that!
-You'll only make it more likely...
-
-[FarRight]
-Hey, in the distance...
-Is that what I think it is?
-
-[Right][ToggleSmile]
-Ooh! The monastery!
-It looks better than I remember!
-
-[MidLeft][ToggleSmile][Right][ToggleSmile][ClearFace][......][MidLeft][ToggleSmile]
-Soma...!
-Wait up for us...!
-
-[FarRight][MidLeft][ClearFace][.......][MidLeft][LoadMarici]
-Quite a team, aren't they?
-Stuck together like honey.
+I know that![.6][ToggleSmile] Once everyone's safe,[N]
+then we can have some fun![AN]
+Hey![MoveRight] That's the path right there![.6][N]
+Come on,[.5] we're so close![A][ClearFace][.7][ToggleSmile]
 
 [FarRight][MoveMidRight]
-It's a long story.
-I can tell you it another time.
-Come on, let's make sure they don't get into any more trouble.[X]
+So what brought you to make that[N]
+passionate speech to the greatmother?[A]
+
+[MidLeft]
+Sorry,[.5] what did you say?[A]
+
+[MidRight]
+I'm saying that I've never seen you so[N]
+passionate about something you hate.[AN]
+Why would you come all the way out here[N]
+when you know there'll be fighting?[A]
+
+[MidLeft]
+It...[.6] Soma was pleading so[N]
+hard with Greatmother Khema.[AN]
+She wanted to go and protect the[N]
+people she loved.[AN]
+I couldn't just let her be stuck[N]
+in the monastery because of me.[A]
+
+[MidRight]
+You only did it for Soma?[A]
+
+[MidLeft]
+I guess I did?[A]
+
+[MidRight]
+Well,[.5] just stay very close to us.[AN]
+Greatmother Khema might kill us before[N]
+the enemy does if you got hurt.[AN]
+
+[FarFarLeft][LoadMarici][MoveFarLeft][MidLeft][MoveLeft][FarLeft]
+Excuse me...[.6] I think we should[N]
+catch up to the blonde lady.[A]
+
+[MidRight]
+Good idea.[.6] Last time one of us[N]
+ran off,[.5] it did not end well.[A]
+
+[Left]
+Sorry...[A][X]
 
 
 
 ## P2C2ForestTalkNoMarici
-[ConversationText]
 [MidLeft][LoadSrihwen]
+[Right][LoadSoma]
 [FarRight][LoadEthniu]
-[Right][LoadSoma][ToggleSmile]
-Aaah, I'm so excited!
-I haven't been home in forever!
+So,[.4] Soma...[.6] Hasn't it been seven[N]
+years since you've been home?[AN]
+You were still a kid when I[N]
+first met you.[A]
 
-[FarRight][ToggleSmile]
-We're not going here just to relax, Soma.
-It won't be a peaceful family reunion.
-
-[Right][ToggleSmile]
-I know that!
-But keeping my people safe is perfectly fine by me.
-And it helps that I can guard Srihwen at the same time!
+[Right]
+Has it seriously been that long?![AN][ToggleSmile]
+I've got a lot of time to make[N]
+up for once we get there,[.4] then![A]
 
 [MidLeft][ToggleSmile]
-I'm sorry if I'm not the biggest help.
-I don't want to be some burden on keeping your grove safe.
-I just thought that Greatmother Khema would let you come if I did too.
+You haven't talked with anyone[N]
+from there since you left?[A]
 
 [Right]
-Don't worry about it!
-You're a healer, Srihwen!
-And a good one at that!
+I was busy with you, Srihwen![AN]
+This is the first time the greatmother's[N]
+actually let me out of the monastery.[AN][ToggleSmile]
+I'll be glad to introduce you both[N]
+to everyone at the monastery![A]
 
-[FarRight]
-Is the Chandran Order any different from Dhara?
-I can't say I've ever been here.
-
-[Right]
-Well, for one, we have two groves instead of one.
-I'm from the Anusuya Grove, and we worship Hwen more than Bhatn.
-
-[FarRight]
-That's where we're headed, isn't it?
+[FarRight][ToggleSmile]
+We're not coming to relax,[.5] Soma.[.6][N]
+It's not a simple family reunion.[A]
 
 [Right]
-Yep it is!
-Oh, and if you head further east...
-You get this amazing clear view of the Sarasvati River!
+I know that![.6][ToggleSmile] Once everyone's safe,[N]
+then we can have some fun![AN]
+Hey![MoveRight] That's the path right there![.6][N]
+Come on,[.5] we're so close![A][ClearFace][.7][ToggleSmile]
 
-[FarRight]
-The Sarasvati River?
-So you're right next to the Antariksan Order.
-If they were to attack, you'd be the first in line...
-That's not good.
+[FarRight][MoveMidRight]
+So what brought you to make that[N]
+passionate speech to the greatmother?[A]
 
 [MidLeft]
-And Anila's already attacked us before...
-It wouldn't be unlikely if Antariksa did something.
+Sorry,[.5] what did you say?[A]
 
-[Right]
-Don't talk about it like that!
-You'll only make it more likely...
+[MidRight]
+I'm saying that I've never seen you so[N]
+passionate about something you hate.[AN]
+Why would you come all the way out here[N]
+when you know there'll be fighting?[A]
 
-[FarRight]
-Hey, in the distance...
-Is that what I think it is?
+[MidLeft]
+It...[.6] Soma was pleading so[N]
+hard with Greatmother Khema.[AN]
+She wanted to go and protect the[N]
+people she loved.[AN]
+I couldn't just let her be stuck[N]
+in the monastery because of me.[A]
 
-[Right][ToggleSmile]
-Ooh! The monastery!
-It looks better than I remember!
+[MidRight]
+You only did it for Soma?[A]
 
-[MidLeft][ToggleSmile][Right][ToggleSmile][ClearFace][......][MidLeft][ToggleSmile]
-Soma...!
-Wait up for us...!
+[MidLeft]
+I guess I did?[A]
 
-[FarRight][MidLeft][ClearFace][.......][FarRight][CloseEyes]
-Ugh, do I always have to be responsible for them...?
-[OpenEyes]Come on Ethniu, you're used to this.[X]
+[MidRight]
+Well,[.5] just stay very close to us.[AN]
+Greatmother Khema might kill us before[N]
+the enemy does if you got hurt.[AN]
+
+[FarFarLeft][LoadSoma][MoveFarLeft][MidLeft][MoveLeft][FarLeft]
+Come on,[.5] you two![.6][N]
+Hurry up already![A][X]
 
 
 
 ## P2C2ReinWarning
-[ConversationText]
 [MidRight][LoadSrihwen]
-I can feel their movements...
-They're starting to come from the other side...![X]
+I can feel them moving about...[.6][N]
+They're coming from both sides![A][X]
 
 
 
 ## P2C2ChakoraMad
-[ConversationText]
 [MidLeft][LoadChakora]
-How are they keeping us away so easily?!
-That's it!
-This is personal now![X]
+That's it![.6] I won't stand by and watch[N]
+these fools fall at the gates![AN]
+The Anusuya Grove falls by my hand![A][X]
 
 
 
 ## P2C2ChakoraKalkin
-[ConversationText]
 [MidLeft][LoadChakora]
-They can't keep us away forever...!
-I'll get in that monastery if it's the last thing I do!
+They can't keep us away forever...![AN]
+I'll get in that monastery if it's[N]
+the last thing I do![A]
 
 [FarFarRight][LoadKalkin]
-Chakora.
-The enemy is still standing.
-What is the meaning of this?
+Chakora.[.6] The enemy is still standing.[.6][N]
+What is the meaning of this?[A]
 
 [MidLeft][MoveLeft]
-Who is that...?[.....]
-Wait, Kalkin?![.....]
-I[....]-I can explain!
+Who is that?[.6] Wait, Kalkin?![.6][N]
+I[....]-I can explain![A]
 
 [FarFarRight][MoveMidRight]
-I don't believe an explanation is necessary.
-You were tasked with eliminating the Chandran Order's resistance.
-Yet this grass is littered with Antariksa's blood.
+I don't believe that an explanation[N]
+is necessary.[AN]
+You were tasked with eliminating[N]
+the Chandran Order's resistance.[AN]
+Yet this grass is littered with[N]
+Antariksa's blood.[A]
 
 [Left]
-It's not like that, I swear!
-Just give me some more time!
-I can get inside and take down the--
+It's not like that,[.5] I swear![.6][N]
+Just give me some more time![AN]
+I can get inside and take--[A]
 
 [MidRight]
-And kill more of our monks with your folly?
-The wisest thing you can do now is gather what remains and flee.
-You have failed our greatmother.
+And kill more of our monks with[N]
+your fantasies of revenge?[AN]
+The wisest thing you can do now[N]
+is gather what remains and flee.[AN]
+You have failed our greatmother.[A]
 
 [Left]
-I...[A][MoveMidLeft]
+I...[.5] can't...[A][CloseSpeechSlow][MoveMidLeft]
 
 [MidLeft]
-No![.....] I refuse to leave![.....]
-I won't stop until this wretched order lies at my feet!
+No![.5] I refuse to leave now![AN]
+I won't stop until this wretched[N]
+order lies at my feet![A]
 
 [MidRight]
-You are a fool.
-It appears we cannot trust your abilities anymore.
-Goodbye, Chakora.
+You are a fool,[.5] Chakora.[AN]
+It appears we cannot trust[N]
+your abilities anymore.[A]
 
 [MidRight][LoadOverworldFaces][MidLeft][MoveMidLeft]
-I...[......]
-Is this...?[.....][MoveMidLeft]
-Damn you, Kalkin...
+I...[......] Is this...?[.....][MoveMidLeft][N]
+Damn you,[.5] Kalkin...[A]
 
 [MidRight][MidLeft][ClearFace][LoadOverworldFaces][.......][MidRight]
-Everyone!
-Fall back!
-The Chandran Order will kneel before us another day![X]
+Everyone,[.5] fall back with me![AN]
+The Chandran Order will kneel[N]
+before us another day![A][X]
 
 
 
 ## P2C2SoldierKalkin
-[ConversationText]
 [MidLeft][LoadEnemySoldierF]
-I can't believe it...
-Chakora is gone...!
+I can't believe it...[.6][N]
+Chakora is gone...![A]
 
 [FarFarRight][LoadKalkin]
-Chakora may be dead, but you are still alive.
+Chakora may be dead,[.5] but[N]
+you are still alive.[A]
 
 [MidLeft]
-Kalkin!
-Thank goodness you're here!
-What are our orders?
+Kalkin![.6] Thank goodness you're[N]
+here![.6] What are our orders?[A]
 
 [FarFarRight][MoveMidRight]
-We're losing too many of our people.
-Our best option is to retreat and fight another day.
+We're losing too many of our own.[AN]
+Our best option is to retreat and[N]
+fight another day.[A]
 
 [MidLeft]
-Understood![.....][MoveMidLeft]
-Kalkin, would our greatmother abhor us?
+Understood.[.6] Kalkin,[.5] would the[N]
+greatmother abhor us?[A]
 
 [MidRight]
-The greatmother is merciful and generous.
-We may prove ourselves to her another day.
-
-[MidLeft]
-Oh, thank the bearers!
-Alright...
-Everyone, let's fall back![X]
+The greatmother is ever so merciful.[N]
+You may prove yourself another day.[AN]
+Everyone,[.5] fall back with me![AN]
+The Chandran Order will kneel[N]
+before us another day![A][X]
 
 
 
 ## P2C2SomaWin
-[ConversationText]
 [MidLeft][LoadSoma][MidRight][LoadSrihwen]
-They're...[......][MoveMidRight]
-They're retreating...!
+They're...[.5] retreating...![A]
 
 [MidLeft][ToggleSmile]
-We did it!
-Srihwen, we held them off!
+We did it![.6] Srihwen,[.5][N]
+we held them off![A]
 
 [FarRight][ToggleSmile][LoadEthniu][MidRight][MoveRight][FarRight]
-Well done, you two.
-To be perfectly honest, I was worried in the same way the greatmother was.
-I thought you'd both get hurt trying to help.
-[ToggleSmile]But it seems like I was wrong.
-And for once, I'm glad I was.
+I thought you'd both get[N]
+hurt trying to help.[AN]
+Seems like I was wrong.[.5][N][ToggleSmile]
+I'm glad I was.[A]
 
 [MidLeft]
-So now that the enemy's gone...
-I can introduce you both to my family!
+So now that the enemy's gone...[.6][N]
+I can introduce you to the grove![A]
 
 [Right][ToggleSmile]
-I'm not sure I should.
-The enemy may have fled, but they might come back at any time...
-I think I should keep watch on the ground.
+I'm not sure I should,[.5] Soma...[AN]
+The enemy may have fled, but they[N]
+might come back at any time...[AN]
+I think I should keep watch.[AN]
 
 [FarRight]
-Oh no, you're not getting out of this...!
-You don't get to leave me alone with Soma anymore!
+Oh no,[.5] you're not getting[N]
+out of this one...![AN]
+You don't get to leave me[N]
+alone with Soma anymore![A]
 
 [MidLeft][ToggleSmile]
-Come on!
-The Order can keep watch for us.
-We won't get to do this again for a long time![X]
+Come on![.6] The grove can keep watch for us.[.6][N]
+We won't get another chance like this![A][X]
 
 
 
 ## P2C2LostEthniu
-[ConversationText]
 [MidLeft][LoadSoma][MidRight][LoadSrihwen]
-They're...[......][MoveMidRight]
-They're retreating...!
+They're...[.5] retreating...![A]
 
 [MidLeft][ToggleSmile]
-We did it!
-Srihwen, we held them off!
+We did it![.6] Srihwen,[.5][N]
+we held them off![A]
 
 [MidRight][ToggleSmile]
-Where's Ethniu?
-Why can't I feel her movements...?
+Where's Ethniu?[.6] Why can't[N]
+I feel her movements...?[A]
 
 [MidLeft]
-She's...
-Oh no...
-Srihwen, don't look...!
+She's...[.6][MoveMidLeft][N]
+Srihwen,[.4] don't look...[A]
 
 [MidRight]
-I...[MoveMidRight]
-Oh, Springmother...
-What have we done...?
-How could this happen?[CloseEyes]
-What will the greatmother think when she hears of this...![OpenEyes]
+Oh...[.6] Springmother...[.6][N]
+What have we done...?[AN]
+How could this happen?[AN][CloseEyes]
+What will the greatmother[N]
+think when she finds out...![A][OpenEyes]
 
 [MidLeft]
-Please calm down, Srihwen!
-Ethniu... She wouldn't want us to cry.
+Please calm down,[.5] Srihwen![AN]
+Ethniu...[.6] She wouldn't want[N]
+us to cry over her.[A]
 
 [MidRight]
-We should get back to the greatmother.
-She should know what happened...
+[Beat] We should get back to the[N]
+monastery as soon as we can.[AN]
+She should know what happened...[A]
 
 [MidLeft]
-But...![.....]
-Yeah, we probably should...
-Just let me say hello to my order and we'll leave.[X]
+Can I please say hello to my[N]
+grove before we head out?[AN]
+
+[MidRight]
+I'm not going to stop you...[AN][MidLeft][ClearFace][.6][MidRight]
+Ethniu...[.6][CloseEyes] I'm so sorry...[A][X]
 
 
 
 ## P2C2NSV
-[ConversationText]
 [MidLeft][LoadSrihwen]
-These walls...
-The designs in them are gorgeous.
-Are these of the Springmother?
-And that must be the Penumbra...
+These walls...[.6][N]
+The designs in them are gorgeous.[AN]
+Are these of the Springmother?[N]
+And that must be the Penumbra...[A]
 
 [MidRight][LoadNala]
-You must be admiring the drawings.
-I must admit, I do not know much of the bearers.[ToggleSmile]
-But their craftmanship is impeccable.
+You must be admiring the drawings.[AN]
+I must admit,[.5] I do not know much[N]
+about the Wardbearers.[AN][ToggleSmile]
+But this craftmanship is impeccable.[A]
 
 [MidLeft][ToggleSmile]
-You...
-You were the one helping us earlier.
-I never got your name.
+You were the one helping us earlier.[.6][N]
+I never got your name.[A]
 
 [MidRight]
-I am Nandi of House Abhira.
-The other two that were with me are Sanjana and Varuna.
-They're both soldiers of House Vraja.
+I am Nandi of House Abhira.[AN]
+The other two are Sanjana and Varuna.[.5][N]
+They're both soldiers of House Dasarna.[A]
 
 [MidLeft]
-These houses are Srughnan, correct?
-I can't say I know much of them.
+These houses are Srughnan,[.5] correct?[.6][N]
+I can't say I know much of them.[A]
 
 [FarRight][LoadVaruna][MidRight][MoveRight][FarRight]
-You don't know how Vraja?!
-It's right on the other side of the border from here!
-It's an incredible place like you wouldn't believe!
+You don't know how Dasarna?![AN]
+It's right on the other side[N]
+of the border from here![AN]
+You'd be surprised how amazing[N]
+it looks this time of year![A][ClearFace]
 
 [FarRight][LoadSanjana]
-It's alright.
-Nothing special.[ToggleSmile]
-To be perfectly honest, we're the best things to come out of it!
+It's alright.[.6] Nothing special.[AN][ToggleSmile]
+To be perfectly honest,[.5] we're the[N]
+best things to come out of it.[A]
 
 [Right][ToggleSmile]
-And what would your lord think of you saying that?
-Excuse their behaviour.
-Both of them may be rare birds, but they are reliable.
+And what would your lord[N]
+think of you saying that?[AN]
+Excuse their behaviour.[AN]
+They may be rare birds,[.4][N]
+but they are reliable.[A]
 
 [FarRight]
-Rare birds?
-That's a compliment, right?
+Rare birds?[.6] That's a[N]
+compliment,[.5] right?[A]
 
 [Right]
-Anyhow, your group is from the Order of Dhara, yes?
-We were told by the Order of Chandra that you were in danger.
-Besides that, we haven't been told much else of the situation.
+Anyhow,[.5] your group is from[N]
+the Order of Dhara, yes?[AN]
+We were told by the monks[N]
+here you may be in danger.[AN]
+I can't say we know much[N]
+of the specifics,[.5] however.[A]
 
 [MidLeft]
-There's been attacks on our orders from further east.
-It's happened before, but never at this intensity...
-Apparently they wish to conquer us.
+There's been attacks on our[N]
+orders from further east.[AN]
+It's happened before,[.5] but[N]
+never at this intensity...[AN]
+Apparently they plan to[N]
+conquer all of Bhuloka.[A]
 
 [FarRight][LoadVaruna]
-Conquer you?!
-That's horrible!
-We need to fight back against them!
+Conquer?![.6] That's horrible![.6] We need[N]
+to fight back against them![A]
 
 [Right]
-As na[0xEF]ve as that sounds, that may be our best option.
-If we may, priestess of Dhara...
+As na[0xEF]ve as that sounds,[.6][N]
+that may be our best option.[AN]
+If we may,[.5] priestess of Dhara...[A]
 
 [MidLeft]
-Oh, my name...
-My name is Srihwen.
+Oh,[.5] my name...![.6][N]
+My name is Srihwen.[A]
 
 [Right]
-Srihwen, if you would allow us, we would like to join your fight.
+Srihwen,[.5] if you would allow us,[.5][N]
+we would like to join your group.[A]
 
-[FarRight][LoadSanjana]
-We're joining them?[ToggleSmile]
-I guess it's better than hanging around here.
+[FarRight][ClearFace][LoadSanjana]
+We're joining them?[.6][ToggleSmile] I guess it's[N]
+better than hanging around here.[AN][ClearFace]
 
-[FarRight][LoadVaruna]
-It sounds like a true test of my strength!
-I'm in!
+[FarRight][ClearFace][LoadVaruna]
+It sounds like the[N]
+perfect test for me![AN]
+Count me in![A]
 
 [MidLeft][ToggleSmile]
-Thank you, knights of Srughna.
-We're heading out to Dhara before sundown.
+Thank you,[.5] knights of Srughna.[.6][N]
+It's great to have your help.[A]
 
 [Right][MidLeft][ClearFace][......][FarRight]
-Did you hear that?[ToggleSmile]
-She called us all knights![X]
+Did you hear that?[.6][N][ToggleSmile]
+She called us all knights![A][X]
 
 
 
 ## P2C2SV
-[ConversationText]
 [MidLeft][LoadSrihwen]
-These walls...
-The designs in them are gorgeous.
-Are these of the Springmother?
-And that must be the Penumbra...
+These walls...[.6][N]
+The designs in them are gorgeous.[AN]
+Are these of the Springmother?[N]
+And that must be the Penumbra...[A]
 
 [FarFarRight][LoadVaruna]
-Hey!
-There she is!
+Hey![.6][N]
+I found her![A]
 
 [MidLeft]
-Huh...?
-Who's there?
+Huh...?[.6][N]
+Who's there?[A]
 
 [FarFarRight][MoveRight]
-You're that healer woman!
-Taking a walk around?
+You're that healer woman![.6][N]
+Taking a walk around?[A]
 
 [FarRight][LoadSanjana]
-At least she finds this place enjoyable.
-We're the only interesting people here, you know that?
+At least she finds this[N]
+place enjoyable.[AN]
+We're the only interesting[N]
+people here,[.5] you know that?[A]
 
 [MidLeft]
-You're the wyvern rider that helped us...
-Yet I never caught your name.
+You're the riders that helped us...[.6][N]
+Yet I never caught your names.[A]
 
 [Right]
-We're Varuna and Sanjana of House Vraja!
-There was Nandi with us as well, but...
+Varuna and Sanjana of House Dasarna![.6][N]
+There was Nandi with us as well, but...[A]
 
 [FarRight]
-I don't know why you make such a big deal of Vraja.
-It's just a place.
-We're the only good things to come from it.
+I don't know why you make such a big[N]
+deal of Dasarna.[.6] It's just a place.[A]
 
 [Right]
-Sanjana!
+Sanjana![A]
 
 [FarRight]
-It's true.
-Anyways, you're from the Order of Dhara, right?
-We got told about the orders being in danger.
-Anything else happen?
+It's true![.6] Anyways,[.4] you're from the[N]
+Order of Dhara, right?[AN]
+We got told about the orders being in[N]
+danger.[.6] Anything else happen?[A]
 
 [MidLeft]
-There's been attacks on our orders from further east.
-It's happened before, but never at this intensity...
-Apparently they wish to conquer us.
+There's been attacks on our[N]
+orders from further east.[AN]
+It's happened before,[.5] but[N]
+never at this intensity...[AN]
+Apparently they plan to[N]
+conquer all of Bhuloka.[A]
 
 [Right]
-Conquer you?!
-That's horrible!
-We need to fight back against them!
+Conquer?![.6] That's horrible![.6] We need[N]
+to fight back against them![A]
 
 [FarRight]
-If it means getting out of here, I'd be happy to join.
-There's nobody fun around here!
+If it means getting out of[N]
+here,[.5] I'd be happy to join![A]
 
-[Right]
-And it sounds like a true test of my strength.
-I'm in!
+[Right][ToggleSmile]
+And it sounds like the[N]
+perfect test for me![AN]
+Count me in![A]
 
-[MidLeft]
-Oh...
-Thank you both, knights of Srughna.
-We're heading out to Dhara before sundown.
+[MidLeft][ToggleSmile]
+Thank you both,[.5] knights of Srughna.[.6][N]
+It's great to have your help.[A]
 
 [Right][MidLeft][ClearFace][......][Right]
-Did you hear that?[ToggleSmile]
-She called us knights![X]
+Did you hear that?[.6][N][ToggleSmile]
+She called us knights![A][X]
 
 
 
 ## P2C2NS
-[ConversationText]
 [MidLeft][LoadSrihwen]
-These walls...
-The designs in them are gorgeous.
-Are these of the Springmother?
-And that must be the Penumbra...
+These walls...[.6][N]
+The designs in them are gorgeous.[AN]
+Are these of the Springmother?[N]
+And that must be the Penumbra...[A]
 
 [MidRight][LoadNala]
-You must be admiring the drawings.
-I must admit, I do not know much of the bearers.[ToggleSmile]
-But their craftmanship is impeccable.
+You must be admiring the drawings.[AN]
+I must admit,[.5] I do not know much[N]
+about the Wardbearers.[AN][ToggleSmile]
+But this craftmanship is impeccable.[A]
 
 [MidLeft][ToggleSmile]
-You...
-You were the one helping us earlier.
-I never got your name.
+You were the one helping us earlier.[.6][N]
+I never got your name.[A]
 
 [MidRight]
-I am Nandi of House Abhira.
-The other two that were with me were Sanjana and Varuna.
-They're both soldiers of House Vraja.
+I am Nandi of House Abhira.[AN]
+The other two were Sanjana and Varuna.[.5][N]
+They're both soldiers of House Dasarna.[A]
 
 [MidLeft]
-These houses are Srughnan, correct?
-I can't say I know much of them.
+These houses are Srughnan,[.5] correct?[N]
+I can't say I know much of them.[A]
 
 [FarRight][LoadSanjana][MidRight][MoveRight][FarRight]
-Vraja's alright, but nothing special.
-I'm probably the best thing to come out of it.
+Dasarna's alright,[.5] but nothing special.[.6][N]
+You should've heard Varuna talk about it.[A]
 
-[Right][ToggleSmile]
-And what would your lord think of you saying that?
-Excuse her.
-She may be a rare bird, but she is reliable.
+[Right]
+Excuse her behaviour.[.6] She may be[N]
+a rare bird,[.5] but she is reliable.[A]
 
 [FarRight]
-Rare bird?
-That's a compliment, right?
+Rare bird?[.6] That's a[N]
+compliment,[.5] right?[A]
 
 [Right]
-Anyhow, your group is from the Order of Dhara, yes?
-We were told by the Order of Chandra that you were in danger.
-Besides that, we haven't been told much else of the situation.
+Anyhow,[.5] your group is from[N]
+the Order of Dhara, yes?[AN]
+We were told by the monks[N]
+here you may be in danger.[AN]
+I can't say we know much[N]
+of the specifics,[.5] however.[A]
 
 [MidLeft]
-There's been attacks on our orders from further east.
-It's happened before, but never at this intensity...
-Apparently they wish to conquer us.
+There's been attacks on our[N]
+orders from further east.[AN]
+It's happened before,[.5] but[N]
+never at this intensity...[AN]
+Apparently they plan to[N]
+conquer all of Bhuloka.[A]
 
 [Right]
-Conquer you?
-That's not good at all, both for you or Srughna...
-If we may, priestess of Dhara...
+Conquer you?[.5] That doesn't bode well[N]
+for either Bhuloka or Srughna.[AN]
+If we may,[.5] priestess of Dhara...[A]
 
 [MidLeft]
-Oh, my name...
-My name is Srihwen.
+Oh,[.5] my name...![.6][N]
+My name is Srihwen.[A]
 
 [Right]
-Srihwen, if you would allow us, we would like to join your fight.
+Srihwen,[.5] if you would allow us,[.5][N]
+we would like to join your group.[A]
 
-[FarRight]
-We're joining them?[ToggleSmile]
-I guess it's better than hanging around here.
+[FarRight][LoadSanjana]
+We're joining them?[.6][ToggleSmile] I guess it's[N]
+better than hanging around here.[AN]
 
-[MidLeft][ToggleSmile]
-Thank you both, knights of Srughna.
-We're heading out to Dhara before sundown.
+[MidLeft]
+Thank you both,[.5] knights of Srughna.[.6][N]
+It's great to have your help.[A]
 
 [Right][MidLeft][ClearFace][......][FarRight]
-Knights?
-But Nandi's the only knight...[X]
+Knights?[.6] But Nandi's[N]
+the only knight...[A][X]
 
 
 
 ## P2C2NV
-[ConversationText]
 [MidLeft][LoadSrihwen]
-These walls...
-The designs in them are gorgeous.
-Are these of the Springmother?
-And that must be the Penumbra...
+These walls...[.6][N]
+The designs in them are gorgeous.[AN]
+Are these of the Springmother?[N]
+And that must be the Penumbra...[A]
 
 [MidRight][LoadNala]
-You must be admiring the drawings.
-I must admit, I do not know much of the bearers.[ToggleSmile]
-But their craftmanship is impeccable.
+You must be admiring the drawings.[AN]
+I must admit,[.5] I do not know much[N]
+about the Wardbearers.[AN][ToggleSmile]
+But this craftmanship is impeccable.[A]
 
 [MidLeft][ToggleSmile]
-You...
-You were the one helping us earlier.
-I never got your name.
+You were the one helping us earlier.[.6][N]
+I never got your name.[A]
 
 [MidRight]
-I am Nandi of House Abhira.
-The other two that were with me are Sanjana and Varuna.
-They're both soldiers of House Vraja.
+I am Nandi of House Abhira.[AN]
+The other two were Sanjana and Varuna.[.5][N]
+They're both soldiers of House Dasarna.[A]
 
 [MidLeft]
-These houses are Srughnan, correct?
-I can't say I know much of them.
+These houses are Srughnan,[.5] correct?[N]
+I can't say I know much of them.[A]
 
 [FarRight][LoadVaruna][MidRight][MoveRight][FarRight]
-You don't know how Vraja?!
-It's right on the other side of the border from here!
-It's an incredible place like you wouldn't believe!
+You don't know how Dasarna?![AN]
+It's right on the other side[N]
+of the border from here![AN]
+You'd be surprised how amazing[N]
+it looks this time of year![A]
 
 [Right]
-Excuse his behaviour.
-He may be a rare bird, but he's reliable.
-Anyhow, your group is from the Order of Dhara, yes?
-We were told by the Order of Chandra that you were in danger.
-Besides that, we haven't been told much else of the situation.
+Excuse his overenthusiasm.[AN]
+Anyhow,[.5] your group is from[N]
+the Order of Dhara, yes?[AN]
+We were told by the monks[N]
+here you may be in danger.[AN]
+I can't say we know much[N]
+of the specifics,[.5] however.[A]
 
 [MidLeft]
-There's been attacks on our orders from further east.
-It's happened before, but never at this intensity...
-Apparently they wish to conquer us.
+There's been attacks on our[N]
+orders from further east.[AN]
+It's happened before,[.5] but[N]
+never at this intensity...[AN]
+Apparently they plan to[N]
+conquer all of Bhuloka.[A]
 
-[FarRight]
-Conquer you?!
-That's horrible!
-We need to fight back against them!
+[FarRight][LoadVaruna]
+Conquer?![.6] That's horrible![.6] We need[N]
+to fight back against them![A]
 
 [Right]
-As na[0xEF]ve as that sounds, that may be our best option.
-If we may, priestess of Dhara...
+As na[0xEF]ve as that sounds,[.6][N]
+that may be our best option.[AN]
+If we may,[.5] priestess of Dhara...[A]
 
 [MidLeft]
-Oh, my name...
-My name is Srihwen.
+Oh,[.5] my name...![.6][N]
+My name is Srihwen.[A]
 
 [Right]
-Srihwen, if you would allow us, we would like to join your fight.
+Srihwen,[.5] if you would allow us,[.5][N]
+we would like to join your group.[A]
 
 [FarRight]
-It sounds like a true test of my strength!
-I'm in!
+It sounds like the[N]
+perfect test for me![AN]
+Count me in![A]
 
 [MidLeft][ToggleSmile]
-Oh...
-Thank you both, knights of Srughna.
-We're heading out to Dhara before sundown.
+Thank you,[.5] knights of Srughna.[.6][N]
+It's great to have your help.[A]
 
 [Right][MidLeft][ClearFace][......][FarRight]
-Did you hear that?[ToggleSmile]
-She called us both knights![X]
+Did you hear that?[.6][N][ToggleSmile]
+She called us knights![A][X]
 
 
 
 ## P2C2SO
-[ConversationText]
 [MidLeft][LoadSrihwen]
-These walls...
-The designs in them are gorgeous.
-Are these of the Springmother?
-And that must be the Penumbra...
+These walls...[.6][N]
+The designs in them are gorgeous.[AN]
+Are these of the Springmother?[N]
+And that must be the Penumbra...[A]
 
 [FarFarRight][LoadSanjana]
-At least you find this place enjoyable.
-We're the only interesting people here, you know that?
+At least you find this place enjoyable.[AN]
+We're the only interesting people here,[N]
+you know that?[A]
 
 [MidLeft]
-Huh...?
-Who's there?
+Huh...?[.6][N]
+Who's there?[A]
 
 [FarFarRight][MoveMidRight]
-My name's Sanjana.
-Taking a look at the depictions?
+My name's Sanjana.[.6] The walls[N]
+keeping you company?[A]
 
 [MidLeft]
-You were the one helping us earlier...
-Where are the other two?
+You were the one helping us earlier...[.6][N]
+Where are the other two?[A]
 
 [MidRight]
-They're...[.....][MoveMidRight]
-You know what?
-Never mind them.
-You're from the Order of Dhara, right?
-We got told about the orders being in danger.
-Anything else happen?
+They're...[.....][MoveMidRight] Never mind them.[.6][N]
+You're from the Order of Dhara, right?[AN]
+We got told about the orders being in[N]
+danger.[.6] Anything else happen?[A]
 
 [MidLeft]
-There's been attacks on our orders from further east.
-It's happened before, but never at this intensity...
-Apparently they wish to conquer us.
+There's been attacks on our[N]
+orders from further east.[AN]
+It's happened before,[.5] but[N]
+never at this intensity...[AN]
+Apparently they plan to[N]
+conquer all of Bhuloka.[A]
 
 [MidRight]
-Conquer you...
-So you need help right?
-If it means getting out of here, I'd be happy to join.
-There's nobody fun around here.
+Conquer you...[.6] So you need help right?[AN]
+If it means getting out of here, I'd be[N]
+happy to join.[.6] There's nothing to do here.[A]
 
 [MidLeft]
-Oh...
-Thank you for your generous offer, knight of Srughna.
-We're heading out to Dhara before sundown.
+That's...[.6] generous.[AN]
+Would it be okay with[N]
+the monastery?[A]
 
-[Right][MidLeft][ClearFace][......][MidRight]
-Knight?[.....]
-That's a funny thing to think.[X]
+[MidRight]
+I've got no obligations here.[AN]
+Besides,[.5] it'll benefit both of[N]
+us.[.6] You'll get my support...[AN]
+And I get to find that prince![A]
+
+[MidLeft]
+[Beat] I guess if the Order of Chandra[N]
+is safe for now, you can come...[AN][ClearFace][.7]
+
+[MidRight][ToggleSmile]
+Nice going,[.4] Sanjana![A][X]
 
 
 
 ## P2C2NO
-[ConversationText]
 [MidLeft][LoadSrihwen]
-These walls...
-The designs in them are gorgeous.
-Are these of the Springmother?
-And that must be the Penumbra...
+These walls...[.6][N]
+The designs in them are gorgeous.[AN]
+Are these of the Springmother?[N]
+And that must be the Penumbra...[A].
 
 [MidRight][LoadNala]
-You must be admiring the drawings.
-I must admit, I do not know much of the bearers.[ToggleSmile]
-But their craftmanship is impeccable.
+You must be admiring the drawings.[AN]
+I must admit,[.5] I do not know much[N]
+about the Wardbearers.[AN][ToggleSmile]
+But this craftmanship is impeccable.[A]
 
 [MidLeft][ToggleSmile]
-You...
-You were the one helping us earlier.
-I never got your name.
+You were the one helping us earlier.[.6][N]
+I never got your name.[A]
 
 [MidRight]
-I am Nandi of House Abhira.
-The other two that were with me are Sanjana and Varuna.
-They were both soldiers of House Vraja...
+I am Nandi of House Abhira.[AN]
+There were others with me,[.5][N]
+but they...[.6] didn't survive.[A]
 
 [MidLeft]
-These houses are Srughnan, correct?
-I can't say I know much of them.
+I'm...[.6] so sorry,[.5] Nandi.[A]
 
 [MidRight]
-Well, they share a few similarities with these orders.
-But speaking of the orders...
-Your group is from the Order of Dhara, yes?
-We were told by the Order of Chandra that you were in danger.
-Besides that, we haven't been told much else of the situation.
+These situations are an[N]
+unfortunate inevitability...[A][.6][N]
+Anyhow,[.5] your group is from[N]
+the Order of Dhara, yes?[AN]
+We were told by the monks[N]
+here you may be in danger.[AN]
+I can't say we know much[N]
+of the specifics,[.5] however.[A]
 
 [MidLeft]
-There's been attacks on our orders from further east.
-It's happened before, but never at this intensity...
-Apparently they wish to conquer us.
+There's been attacks on our[N]
+orders from further east.[AN]
+It's happened before,[.5] but[N]
+never at this intensity...[AN]
+Apparently they plan to[N]
+conquer all of Bhuloka.[A]
 
 [MidRight]
-Conquer you?
-That's not good at all, both for you or Srughna...
-If I may, priestess of Dhara...
+Conquer you?[.5] That doesn't bode well[N]
+for either Bhuloka or Srughna.[AN]
+If we may,[.5] priestess of Dhara...[A]
 
 [MidLeft]
-Oh, my name...
-My name is Srihwen.
+Oh,[.5] my name...![.6][N]
+My name is Srihwen.[A]
 
 [MidRight]
-Srihwen, if you would allow me, I would like to join your fight.
+Srihwen,[.5] if you would allow me,[.5][N]
+I would like to join your group.[A]
 
 [MidLeft]
-Oh...
-Thank you for your generous offer, knight of Srughna.
-We're heading out to Dhara before sundown.[X]
+Thank you for your generous[N] 
+offer,[.5] knight of Srughna.[AN]
+Would it be okay with the[N]
+Order of Chandra?[A]
+
+[MidRight]
+From what I've been told,[.5] the Order[N]
+of Chandra has plans for my absence.[AN]
+I don't know what they're scheming,[.4][N]
+but they should be safe.[A]
+
+[MidLeft][ToggleSmile]
+Then it is great to have[N]
+you as an ally,[.5] Nandi.[A][X]
 
 
 
 ## P2C2VO
-[ConversationText]
 [MidLeft][LoadSrihwen]
-These walls...
-The designs in them are gorgeous.
-Are these of the Springmother?
-And that must be the Penumbra...
+These walls...[.6][N]
+The designs in them are gorgeous.[AN]
+Are these of the Springmother?[N]
+And that must be the Penumbra...[A]
 
 [FarFarRight][LoadVaruna]
-Hey!
-There you are!
+Hey![.6] There you are![A]
 
 [MidLeft]
-Huh...?
-Who's there?
+Huh...?[.6][N]
+Who's there?[A]
 
 [FarFarRight][MoveMidRight]
-You're that healer woman!
-Taking a walk around?
+You're that healer woman![.6][N]
+Taking a walk around?[A]
 
 [MidLeft]
-You're the wyvern rider that helped us...
-Yet I never caught your name.
+You're the wyvern rider that helped us...[.6][N]
+Yet, I never caught your name.[A]
 
 [MidRight]
-I'm Varuna of House Vraja!
-There were two others with me, but...
-A[....]-Anyways!
-I heard that your order was having trouble!
-Not much else, but I did hear that!
+I'm Varuna of House Dasarna![.6][N]
+There were two others with me,[.4] but...[AN]
+A[....]-Anyways![.6] I heard that your order[N]
+was having trouble![AN]
+Not much else,[.5] but I did hear that![A]
 
 [MidLeft]
-There's been attacks on our orders from further east.
-It's happened before, but never at this intensity...
-Apparently they wish to conquer us.
+There's been attacks on our[N]
+orders from further east.[AN]
+It's happened before,[.5] but[N]
+never at this intensity...[AN]
+Apparently they plan to[N]
+conquer all of Bhuloka.[A]
 
 [MidRight]
-Conquer you?!
-That's horrible!
-We need to fight back against them!
-Hey, why don't I join you?
-It'd be good to test my strength...
-And it'd help you as well!
+Conquer you?![.6] That's horrible![.6][N]
+We need to fight back against them![AN]
+Hey, why don't I join you?[.6] It'd be[N]
+good to test my strength...[AN]
+And it'd help you as well![A]
 
 [MidLeft]
-Oh...
-Thank you for your generous offer, knight of Srughna.
-We're heading out to Dhara before sundown.
+Thank you for your offer,[.5] Varuna.[.6][N]
+Is it okay with the Order of Chandra?[A]
 
 [MidRight]
-Knight?[ToggleSmile]
-She called me a knight![X]
+I think we've scared off the enemy[N]
+here for the next while.[AN]
+Besides,[.5] the monks here said you[N]
+might be in more danger than them![A]
+
+[MidLeft]
+If it's alright with them...[AN][ToggleSmile]
+It's great to have another[N]
+knight of Srughna with us.[A][ClearFace][.7][ToggleSmile]
+
+[MidRight]
+She...[.6][ToggleSmile] called me a knight![A][X]
 
 
 
 ## P2C2StartTheSoma
-[ConversationText]
 [Left][LoadSrihwen]
 [FarLeft][LoadSoma]
-Why couldn't we stay the night there...
-It's not that often I get to go home.[X]
-
-
-
-## P2C2EthniuInterject
-[ConversationText]
-[FarLeft][ClearFace][LoadEthniu]
-We're in the middle of a conflict.
-It's best that we do everything quickly.[X]
+I wish we could've stayed the night...[.6][N]
+There was so much more I wanted to do.[A][X]
 
 
 
 ## P2C2SrihwenInterject
-[ConversationText]
 [Left]
-The Chandran Order's already been attacked...
-I don't want our monastery to have the same happen.[X]
+I'm sorry we couldn't stay longer.[AN]
+We need to tell the greatmother what[N]
+happened as soon as possible...[AN][X]
 
 
 
 ## P2C2VarunaInterject
-[ConversationText]
 [FarRight][LoadVaruna]
-If we need to go fast, I could always just fly ahead![X]
+If we need to go fast,[.5] I could[N]
+always just fly ahead![A][X]
 
 
 
 ## P2C2NalaInterject
-[ConversationText]
 [Right][LoadNala]
-That's unwise, Varuna.
-We need to stay together.
-The night makes travel unsafe.[X]
+That's unwise,[.5] Varuna.[.6][N]
+We need to stay together.[A][X]
+
+
+
+## P2C2NalaInterject2
+[Right][LoadNala]
+I've spoken with the monks at[N]
+your monastery.[AN]
+They'll be good enough to handle[N]
+themselves.[.6] I'm sure of it.[A][X]
 
 
 
 ## P2C2SomaInterject
-[ConversationText]
-[FarLeft]
-There's no need to fly anyways.
-We're already here![X]
-
-
-
-## P2C2SomaInterject2
-[ConversationText]
-[FarLeft][ClearFace][LoadSoma]
-There's no need to fly anyways.
-We're already here![X]
+[FarLeft][MoveLeft]
+There's no need to fly.[.6][N]
+We're already here![A][X]
 
 
 
 ## P2C2SomaInterjectNV
-[ConversationText]
 [FarLeft]
-Well, here we are!
-I guess this is where we part ways.[X]
-
-
-
-## P2C2SomaInterjectNV2
-[ConversationText]
-[FarLeft][ClearFace][LoadSoma]
-Well, here we are!
-I guess this is where we part ways.[X]
-
+Thank you,[.5] mister.[A][CloseSpeechSlow][MoveLeft]
+Well,[.5] here we are![.6] I guess[N]
+this is where we part ways.[A][X]
 
 
 ## P2C2SanjanaInterjectQ
-[ConversationText]
 [FarRight][ClearFace][LoadSanjana]
-Uhh...
-This doesn't look like a monastery.
-It's just a run-down shack.[X]
+This doesn't look like a monastery.[.6][N]
+It's just a run-down shack.[A][X]
 
 
 
 ## P2C2VarunaInterjectQ
-[ConversationText]
 [FarRight]
-Wait a minute...
-You said we were going to a monastery![X]
+Wait a minute...[.6] You said we[N]
+were going to a monastery![AN][X]
 
 
 
 ## P2C2NalaInterjectQ
-[ConversationText]
 [Right]
-Pardon my tongue, but...
-This seems a tad small to be a monastery.[X]
+Pardon my tongue,[.5] but...[.6] This seems[N]
+a tad small to be a monastery.[A][X]
 
 
 
 ## P2C2EthniuInterjectMen
-[ConversationText]
-[FarLeft][ClearFace][LoadEthniu]
-It's monastery rules.
-Men aren't allowed on the grounds, so they have to stay here instead.[X]
+[Left][ClearFace][LoadEthniu]
+Men aren't allowed on the grounds,[.5][N]
+so they have to stay here instead.[A][X]
 
 
 
 ## P2C2SomaInterjectMen
-[ConversationText]
-[FarLeft]
-We aren't allowed to bring men inside the monastery.
-So whenever they come, they just sleep here![X]
+[Left]
+We aren't allowed to bring men inside.[.6] If[N]
+they need to stay,[.5] they just sleep here![A][X]
 
 
 
 ## P2C2VarunaInterjectMen
-[ConversationText]
 [FarRight]
-That's not fair!
-How come?![X]
+That's not fair![.6][N]
+How come?![A][X]
 
 
 
 ## P2C2VarunaInterjectMen2
-[ConversationText]
 [FarRight][ClearFace][LoadVaruna]
-That's not fair!
-How come?![X]
+That's not fair![.6][N]
+How come?![A][X]
 
 
 
 ## P2C2NalaInterjectMen
-[ConversationText]
 [Right]
-Varuna, calm down.
-It's just for the night, isn't it?[X]
+Varuna,[.5] calm down.[.6] We're guests[N]
+in the company of these women.[AN]
+The least we can do is follow[N]
+their traditions for the night.[A][.5][N]
+It's just for the night,[.5] correct?[A][X]
 
 
 
 ## P2C2NalaInterjectMenNV
-[ConversationText]
 [Right]
-That's unfortunate.
-I won't argue with your way of life, though.
-It's just for the night, isn't it?[X]
+That's unfortunate,[.5] but I won't argue[N]
+against your traditions.[AN]
+It's just for the night,[.5] isn't it?[A][X]
 
 
 
 ## P2C2SrihwenInterjectMen
-[ConversationText]
-[Left]
-It's a very long story as to why...
-But yes.
-You wouldn't be here for long.[X]
+[FarLeft]
+Correct.[.6] I'm sorry we have to do this...[AN]
+Greatmother Khema wouldn't approve of[N]
+you staying on monastery ground.[A][X]
 
 
 
 ## P2C2SanjanaInterjectMen
-[ConversationText]
 [FarRight]
-If you ladies don't mind, I'm gonna stay here as well.
-No offense to your faith or anything.[X]
+If you ladies don't mind,[.5] I'm[N]
+going to stay here as well.[AN]
+No offense,[.5][ToggleSmile] but this seems too[N]
+interesting to pass up.[A][X]
 
 
 
 ## P2C2SanjanaInterjectMen2
-[ConversationText]
 [FarRight][ClearFace][LoadSanjana]
-If you ladies don't mind, I'm gonna stay here as well.
-No offense to your faith or anything.[X]
+If you ladies don't mind,[.5] I'm[N]
+going to stay here as well.[AN]
+No offense,[.5][ToggleSmile] but this seems too[N]
+interesting to pass up.[A][X]
 
 
 
 ## P2C2EthniuInterjectWhy
-[ConversationText]
-[FarLeft]
-Why would you do that?
-It's miserable out here.
-Srihwen could tell--
-
 [Left]
-Ethniu...!
-Let's let them stay here for the night.
-We'll bring our greatmother here tomorrow morning.
-From there, she can tell us what our strategy is.[X]
+There's nothing interesting out[N]
+here,[.5] I can promise you that.[AN]
+Srihwen could tell--[A]
+
+[FarLeft]
+Ethniu...![.7] If you want to stay out[N]
+here,[.5] we can't force you to come in.[AN]
+We'll bring our greatmother to this[N]
+house come tomorrow morning.[AN][CloseEyes]
+Tomorrow is going to be busy...[A][X]
 
 
 
 ## P2C2SrihwenInterjectWhy
-[ConversationText]
-[Left]
-If you truly wish...
-We'll bring our greatmother here tomorrow morning.
-From there, she can tell us what our strategy is.[X]
+[FarLeft]
+I...[.7] If you want to stay out here,[.5][N]
+we can't force you to come in.[AN]
+We'll bring our greatmother to[N]
+this house come tomorrow morning.[AN][CloseEyes]
+Tomorrow is going to be busy...[A][X]
 
 
 
 ## P2C2SrihwenInterjectMen2
-[ConversationText]
-[Left]
-It's a very long story as to why...
-But yes.
-You'll only be here for the night.
-We'll bring our greatmother here tomorrow morning.
-From there, she can tell us what our strategy is.[X]
-
-
-
-## P2C2SomaGoodNight
-[ConversationText]
-[FarLeft][ToggleSmile]
-Good night!
-Have a nice sleep![X]
-
-
-
-## P2C2SomaGoodNight2
-[ConversationText]
-[FarLeft][ClearFace][LoadSoma][ToggleSmile]
-Good night!
-Have a nice sleep![X]
+[FarLeft]
+Correct.[.6] I'm sorry we have to do this...[AN]
+Greatmother Khema wouldn't approve of[N]
+you staying on monastery ground.[AN]
+We'll bring her to this house come[N]
+tomorrow morning to discuss our plans.[AN][CloseEyes]
+Tomorrow is going to be busy...[A][X]
 
 
 
 ## P2C2TalkNS
-[ConversationText]
 [MidLeft][LoadNala]
 [MidRight][LoadSoma]
-You there!
-You're helping the Chandran Order, aren't you?
+You there![.6] You're helping the[N]
+Chandran Order,[.5] aren't you?[A]
 
 [MidLeft]
-Indeed I am.
-Do you need something, milady?
+Indeed I am.[.6] Do you need[N]
+something,[.5] milady?[A]
 
 [MidRight]
-My lady?
-Oh, that's me, isn't it?
-I'm not very used to being called a lady.
+My lady?[.6] Oh,[.5] that's me, isn't it?[.6] I'm not[N]
+very used to being called a lady.[A]
 
 [MidLeft]
-Is that so?
+Is that so?[A]
 
 [MidRight]
-I don't even call my liege by lady.
-Well, it's not even like I call her my liege either.
-She's my friend, after all!
+I don't even call my liege by lady.[.6] Well,[.5] it's[N]
+not even like I call her my liege either.[AN]
+She's my best friend,[.5] after all![A]
 
 [MidLeft]
-I think you misunderstand the duty of a knight.
+I think you misunderstand[N]
+the duty of a knight.[A]
 
 [MidRight]
-Knight?
-Well, I guess if I really thought about it, maybe I'd count as one...
-Anyways![MoveMidRight]
-You're helping us!
-Come on, we need to hold the gate!
+Knight?[.6] Well,[.4] I guess if I really thought[N]
+about it,[.5] maybe I'd count as one...[AN]
+Anyways![MoveMidRight] You're helping us![.5][N]
+Come on,[.5] we need to hold the gate![A]
 
 [MidLeft][MidRight][ClearFace][......][MidLeft]
-What a rare bird she is...[X]
+What a rare bird she is...[A][X]
 
 
 
 ## P2C2TalkSM
-[ConversationText]
 [MidRight][LoadMarici]
 [MidLeft][LoadSanjana]
-Excuse me!
-You there!
-Have you seen the Srughnan knight anywhere?
+Excuse me![.6] You there![.6] Have you seen[N]
+a handsome knight anywhere?[A]
 
 [MidRight]
-Srughnan knight...
-Isn't he right over there?
+A knight...[.6] Isn't that[N]
+one right over there?[A]
 
 [MidLeft]
-No, no no no.
-That's Nandi.
-He's great, but...
-I was told that there was another courageous banneret somewhere?
+No,[.5] no[.4] no[.4] no.[.6] That's Nandi.[AN]
+I was told that there was another[N]
+courageous banneret somewhere?[A]
 
 [MidRight]
-Haven't seen him.
-If I do, I'll tell you.
+I mean,[.5] I'm barely a knight,[.5] and I[N]
+wouldn't consider myself handsome...[AN]
+If I see him,[.5] I'll let you know.[A]
 
 [MidLeft][MidRight][ClearFace][......][MidLeft]
-Wait a minute![MoveMidLeft]
-Where is he?!
-You can't hide him from me![X]
+Wait a minute![MoveMidLeft] Where is he?![.6][N]
+You can't hide him from me![A][X]
 
 
 
 ## P2C2TalkVN
-[ConversationText]
 [MidLeft][LoadNala]
-Varuna!
-Hold for a moment!
+Varuna![.6] Hold for a moment![A]
 
 [FarFarRight][LoadVaruna][MoveMidRight]
-Nandi![.....]
-We can't stand still for a second.
-They're everywhere!
+Nandi![.....] We can't stand still for a[N]
+second.[.6] They're everywhere![A]
 
 [MidLeft]
-They are, but you need to be more careful.
-You said you already dodged an arrow.
-Another could easily wipe you out.
+They are,[.5] but you need to have caution.[.6][N]
+You said you already dodged an arrow.[AN]
+Another could easily wipe you out.[A]
 
 [MidRight][ToggleSmile]
-I'll be fine.
-I can see them high up from the air!
+I'll be fine.[.6] I can see them[N]
+high up from the air![A]
 
 [MidLeft][ToggleSmile]
-Varuna.
-That doesn't give you an excuse to be reckless.
+Varuna.[.6] That doesn't give you[N]
+an excuse to be reckless.[A]
 
 [MidRight]
-Hey![MoveMidRight]
-I can see more in the distance!
-Come on, Nandi!
+Hey![MoveMidRight] I can see more in the[N]
+distance![.6] Come on, Nandi![A]
 
 [MidLeft][MidRight][ClearFace][......][MidLeft]
-Varuna...[CloseEyes]
-There's such a thing as being too eager.[X]
+Varuna...[.6][CloseEyes] There's such a thing[N]
+as being too eager.[A][X]
+
+
+
+## P2C2WeLostIt
+[MidLeft][LoadSoma]
+Srihwen![.6] They made it[N]
+into the monastery![A]
+
+[MidRight][LoadSrihwen]
+We can't keep them away...[.6][N]
+They're too overwhelming...[A]
+
+[MidLeft][LoadSoma]
+We can't give up,[.5] Srihwen![AN]
+Get up![.5] Keep fighting![.6] I'm[N]
+not letting my people--![A]
+
+[FarFarLeft]
+Aaaaahhh![A][CloseSpeechSlow][.6]
+
+[MidRight][CloseEyes]
+It's too late...[.6][N]
+We've lost.[A][X]

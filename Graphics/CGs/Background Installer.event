@@ -405,6 +405,24 @@ ThroneRoomTSA:
 ThroneRoomPalette:
 #incbin "ThroneRoomPalette.bin"
 
+ArmyCampCentreImage:
+#incbin "ArmyCampCentreImage.bin"
+
+ArmyCampCentreTSA:
+#incbin "ArmyCampCentreTSA.bin"
+
+ArmyCampCentrePalette:
+#incbin "ArmyCampCentrePalette.bin"
+
+InsideBigTentImage:
+#incbin "InsideBigTentImage.bin"
+
+InsideBigTentTSA:
+#incbin "InsideBigTentTSA.bin"
+
+InsideBigTentPalette:
+#incbin "InsideBigTentPalette.bin"
+
 VillageGate2Image:
 #incbin "VillageGate2Image.bin"
 
@@ -431,3 +449,30 @@ InsideHouseClosedTSA:
 
 InsideHouseClosedPalette:
 #incbin "InsideHouseClosedPalette.bin"
+
+TempleImage:
+#incbin "TempleImage.bin"
+
+TempleTSA:
+#incbin "TempleTSA.bin"
+
+TemplePalette:
+#incbin "TemplePalette.bin"
+
+AlabasterCastleImage:
+#incbin "AlabasterCastleImage.bin"
+
+AlabasterCastleTSA:
+#incbin "AlabasterCastleTSA.bin"
+
+AlabasterCastlePalette:
+#incbin "AlabasterCastlePalette.bin"
+
+HouseNightImage:
+#incbin "HouseNightImage.bin"
+
+HouseNightTSA:
+#incbin "HouseNightTSA.bin"
+
+HouseNightPalette:
+#incbin "HouseNightPalette.bin"

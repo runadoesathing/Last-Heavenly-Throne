@@ -258,6 +258,11 @@
 #define VillageNight 0x2C
 #define ThroneRoomNight 0x2D
 #define InsideHouseClosed 0x2E
+#define InsideBigTent 0x2F
+#define ArmyCampCentre 0x30
+#define TempleCG 0x31
+#define AlabasterCastle 0x32
+#define HouseNightCG 0x33
 #define BlackCG 0x35
 
 #define SetantaExceeded 0x71

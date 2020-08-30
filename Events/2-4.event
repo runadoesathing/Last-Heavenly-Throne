@@ -26,7 +26,7 @@ END_MAIN
 LocationBasedEvents:
 Chest(Thunder,3,1)
 Chest(BodyRing,5,1)
-Chest(IronWarbow,7,1)
+Chest(IronBlade,7,1)
 Door(7,3)
 House(0x0,PavakaHouse,3,8)
 Village(0x9,PavakaVillage,10,10)

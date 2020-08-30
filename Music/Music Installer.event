@@ -14,8 +14,8 @@ voicegroup001:
 // Corbenic Pride
 //SongTable(0x9,cethernpride, 1)
 //#include "cethernpride.event"
-SongTable(0x9,hillsofanima, 1)
-#include "hillsofanima.event"
+SongTable(0x9,ilmr, 1)
+#include "ilmr.event"
 
 // Ritual Song of Dhara
 SongTable(0xA,srihwen, 1)

@@ -54,6 +54,66 @@ ALIGN 4
   #include "2-4.event"
 }
 
+PUSH
+  ORG $5920C0
+    CALL SuspendEvent
+    NoFade
+    ENDA
+POP
+
+SuspendEvent:
+CHECK_EVENTID TimeSkipFlag
+BEQ 0x1 0xC 0x0
+  TEXTSHOW QuitDialogHwen
+  TEXTEND
+  GOTO 0x2
+LABEL 0x1
+TEXTSHOW QuitDialogAirmed
+TEXTEND
+LABEL 0x2
+SVAL 0x7 0x1
+BNE 0x0 0xC 0x7
+ASMC 0xB5D5D
+CHECK_EVENTID TimeSkipFlag
+BEQ 0x3 0xC 0x0
+  TEXTSHOW2 QuitDialogYesHwen
+  TEXTEND
+  GOTO 0x4
+LABEL 0x3
+TEXTSHOW2 QuitDialogYesAirmed
+TEXTEND
+LABEL 0x4
+MUSCMID 0x7FFF
+FADI 4
+MNTS 0x0
+LABEL 0x0
+REMA
+EVBIT_T 0x7
+ENDA
+  
+
+FEE3TrailerEvent:
+SetBackground(BlackCG)
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+TEXTSHOW FEE3Intro
+TEXTEND
+REMA
+SetBackground(ArmyCamp)
+STAL 45
+BROWNBOXTEXT CorbenicBorderCamp [8,8] // box in the top right that's pretty cool for small text
+Text(FEE3First)
+FADI 4
+STAL 30
+SetBackground(ArmyCampCentre)
+Text(FEE3Second)
+FADI 4
+STAL 30
+SetBackground(InsideBigTent)
+Text(FEE3Third)
+ENDA
+
 //changes supply and seize to srihwen
 PUSH
 ORG 0x23F88
@@ -227,10 +287,6 @@ ALIGN 4
 Load2AlwaysTable:
 BYTE 0x1 Soma
 BYTE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 // separator
-
-//RunaDeathQuoteEvent:
-//Text(RunaDeathQ)
-//ENDA
 
 ALIGN 4
 CethernDeathTime:

@@ -95,7 +95,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   SanjanaSupport:
-  SupportCompatibility(Varuna,Nala,Marici,0,0,0,0)
+  SupportCompatibility(Varuna,Nala,Marici,Sirin,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 3 //number of partners
@@ -116,7 +116,7 @@ NewSupportTable:
   BYTE 0x0 0x0 //separator
 
   SirinSupport:
-  SupportCompatibility(Birnath,Sadhbh,Flidais,0,0,0,0)
+  SupportCompatibility(Birnath,Sadhbh,Flidais,Sanjana,0,0,0)
   SupportInitialValues(0,0,0,0,0,0,0)
   SupportPerChapter(0,0,0,0,0,0,0)
   BYTE 3 //number of partners

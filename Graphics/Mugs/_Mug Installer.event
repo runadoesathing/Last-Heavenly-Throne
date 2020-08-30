@@ -41,10 +41,7 @@ setMugSlot(GedaliahPort, Gedaliah_Mug, Gedaliah_Minimug, Gedaliah_Palette, Gedal
 setMugSlot(ShukaPort, Shuka_Mug, Shuka_Minimug, Shuka_Palette, Shuka_Frames, 3, 5, 3, 3)
 setMugSlot(CuRaoiPort, CuRaoi_Mug, CuRaoi_Minimug, CuRaoi_Palette, CuRaoi_Frames, 3, 5, 3, 3)
 setMugSlot(FemaleEnemySoldierPort, FemaleEnemySoldier_Mug, FemaleEnemySoldier_Minimug, FemaleEnemySoldier_Palette, FemaleEnemySoldier_Frames, 4, 6, 4, 4)
-
-// PLACEHOLDER
-setMugSlot(EthniuPTSPort, Ethniu_Mug, Ethniu_Minimug, Ethniu_Palette, Ethniu_Frames, 2, 5, 3, 3)
-
+setMugSlot(EthniuPTSPort, EthniuPTS_Mug, EthniuPTS_Minimug, EthniuPTS_Palette, EthniuPTS_Frames, 2, 5, 3, 3)
 setMugSlot(SomaPort, Soma_Mug, Soma_Minimug, Soma_Palette, Soma_Frames, 4, 5, 4, 3)
 setMugSlot(SanjanaPort, Sanjana_Mug, Sanjana_Minimug, Sanjana_Palette, Sanjana_Frames, 4, 6, 4, 4)
 setMugSlot(VarunaPort, Varuna_Mug, Varuna_Minimug, Varuna_Palette, Varuna_Frames, 3, 5, 3, 3)
@@ -75,7 +72,7 @@ setMugSlot(BhadraPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Fr
 setMugSlot(VasavaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
 
 // PLACEHOLDER
-setMugSlot(KalkinPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+setMugSlot(KalkinPort, Kalkin_Mug, Kalkin_Minimug, Kalkin_Palette, Kalkin_Frames, 2, 6, 3, 4)
 
 // PLACEHOLDER
 setMugSlot(ManasaPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
@@ -139,7 +136,7 @@ setMugSlot(RudramPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Fr
 setMugSlot(SetantaPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
 
 // PLACEHOLDER
-setMugSlot(HwenPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+setMugSlot(HwenPort, Hwen_Mug, Hwen_Minimug, Hwen_Palette, Hwen_Frames, 2, 6, 3, 4)
 
 setMugSlot(FerdiadPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
 setMugSlot(HanlinPTSPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
@@ -160,7 +157,7 @@ setMugSlot(GedaliahPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_
 setMugSlot(DharaPort, Dhara_Mug, Dhara_Minimug, Dhara_Palette, Dhara_Frames, 2, 6, 3, 4)
 setMugSlot(Dhara2Port, Dhara2_Mug, Dhara2_Minimug, Dhara2_Palette, Dhara2_Frames, 2, 6, 3, 4)
 setMugSlot(AnkerPort, Anker_Mug, Anker_Minimug, Anker_Palette, Anker_Frames, 2, 5, 3, 3) // placeholder
-setMugSlot(TaraPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
+setMugSlot(TaraPort, Khema_Mug, Khema_Minimug, Khema_Palette, Khema_Frames, 2, 6, 3, 4)
 setMugSlot(AlvarinPort, Alvarin_Mug, Alvarin_Minimug, Alvarin_Palette, Alvarin_Frames, 2, 5, 3, 3) // placeholder
 setMugSlot(0x57, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4) // placeholder
 setMugSlot(MustacheVillagerPort, 0x8843330, 0x8843298, 0x8842C78, 0x8842C98, 2, 6, 3, 4)
