@@ -7,9 +7,9 @@ jumpToHack(Renewal)
 POP
 
 ALIGN 4
-MESSAGE Renewal skills at currentOffset
 Renewal: //combined healing skills
 #include "HPRestorationSkills/RenewalAmaterasu.lyn.event"
+
 RenewalRenewalIDLink:
 BYTE RenewalID
 RenewalAmaterasuIDLink:
@@ -26,8 +26,6 @@ RenewalForagerIDLink:
 BYTE ForagerID
 RenewalImbueIDLink:
 BYTE ImbueID
-RenewalRetrogradeIDLink:
-BYTE RetrogradeID
 
 ALIGN 4
 ForagerList: //A list of terrain IDs that activate Forager

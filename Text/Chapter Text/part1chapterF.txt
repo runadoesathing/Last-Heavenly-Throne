@@ -1,7 +1,7 @@
 ## P1CFWMIntro
 Cethern, accompanied by his brother,[N]
-attacks into Ochren's land.[AN]
-Being surrounded by Lord Rionall,[N]
+advances into Ochren's land.[AN]
+Being surrounded by Rionall's forces,[N]
 they flee north into Heichalot.[AN]
 Chased by sky knights behind them,[N]
 Cethern's group moves quickly to[AN]
@@ -14,9 +14,9 @@ mountain path into Uffren.[A][X]
 Uffren, after its rebellion fourty[N]
 years ago, seceeded and joined under[N]
 the Principality of Heichalot.[AN]
-Cethern enters through the western part[N]
-of its border with Corbenic, both[N]
-following C[0xFA] Raoi's strategy[AN]
+Cethern enters through the western[N]
+part of its border with Corbenic,[N]
+both following C[0xFA] Raoi's strategy[AN]
 and attempting to flee from the[N]
 forces of Ochren on his behind.[AN]
 The sky knights pass over him, not[N]
@@ -31,952 +31,1059 @@ Uffren, Heichalot[X]
 
 
 ## GedaliahBQ
-[BattleText]
 [MidLeft][LoadGedaliah]
-Your pitiful resistance will end here, in Uffren.
-We shall claim victory from you, and raise flags on your land![X]
+Your pitiful resistance will end[N]
+here,[.5] in this valley.[AN]
+You are not worthy to face[N]
+the Stems of Heichalot![A][X]
+
+
+
+## GedaliahCethernBQ
+[MidLeft][LoadGedaliah]
+Your tantrum is pointless![AN]
+Heichalot has blocked you[N]
+from every escape.[AN]
+Why do you still fight?[A][ClearFace]
+
+[MidRight][LoadCethern]
+Your assault is pointless![AN]
+No matter how much you storm[N]
+us,[.5] we will never yield![AN]
+We will fight back to the ends[N]
+of Maghmeall![A][ClearFace]
+
+[MidLeft][LoadGedaliah]
+Just wait until the Stems[N]
+bring to you your death.[AN]
+Until they arrive,[.5] I am the[N]
+herald of your doom![AN]
+Fall before Heichalot and[N]
+the Heavenly Prince![A][X]
 
 
 
 ## GedaliahDQ
-[BattleText]
 [MidLeft][LoadGedaliah]
-Jhudiel... My heavenly prince...[CloseEyes]
-I've failed as your subject.[X]
+Impossible...[.6] To think I've failed[N]
+my nation...[.6][CloseEyes] My prince...[A][X]
 
 
 
 ## P1CFWelcomeToCaerVedwyd
-[ConversationText]
 [Right][LoadJhudiel]
 [FarRight][LoadCamniel]
 [MidLeft][LoadEnemySoldierF]
-Ishpan has been killed by Corbenic.
-We forced a small group of their soldiers up the trail.
-Stems of Heichalot, Lord Rionall implores that he may leave the rest to you.
+Ishpan has been killed by Corbenic.[AN]
+We forced a small group of their soldiers[N]
+up the trail towards Uffren.[AN]
+Stems of Heichalot,[.5] Lord Rionall implores[N]
+that he may leave the rest to you.[A]
 
 [ClearFace][......][FarRight]
-Jhudiel, isn't this an interesting situation?
-Fleeing into enemy territory...
-They must have truly been cornered.
+Jhudiel,[.5] isn't this interesting?[AN]
+Fleeing into enemy territory...[.6] They[N]
+must have truly been cornered.[A]
 
 [Right]
-They already are cornered.
-The trail is narrow and their options are few.
-Gedaliah?
+Perhaps they were.[.6] The trail is narrow[N]
+and their options are few.[.6] Gedaliah?[A]
 
 [MidLeft][LoadGedaliah]
-Yes, Shield Jhudiel?
-Is it finally time?
+Yes,[.5] Shield Jhudiel?[.6][N]
+Is it finally time?[A]
 
 [Right]
-I want you to head out with haste.
-Night has fallen, and we must use this to our advantage.
-Head out with haste and surround the Corbenic forces.
-Camniel and I will follow behind you.
+I want you to head out with haste.[AN]
+Night has fallen,[.5] and we must use[N]
+this to our advantage.[AN]
+Surround the Corbenic forces.[.6] Camniel[N]
+and I will follow behind you.[A]
 
 [MidLeft]
-Understood, Shield Jhudiel!
-I will round everyone up.
+Understood,[.4] Shield Jhudiel![.6][N]
+We will serve Heichalot well![A]
 
 [ClearFace][......][Right][ClearFace][MidLeft][LoadJhudiel]
-Camniel...
-I've been considering a few things.
+Camniel...[.6] I've been[N]
+considering a few things.[A]
 
 [FarRight][MoveMidRight][MidRight]
-I don't believe now is the time for philosophy, Jhudiel.
+I don't believe now is the[N]
+time for philosophy,[.5] Jhudiel.[A]
 
 [MidLeft]
-But Camniel!
-As stems of Heichalot, we serve the essence of Heichalot itself.
-Yet this war...
-I fail to see how it benefits us.
+But Camniel![.6] As Stems of Heichalot,[.5] we[N]
+serve the essence of Heichalot itself.[AN]
+Yet this war...[.6] I fail to see how it[N]
+benefits us.[A]
 
 [MidRight]
-I refuse to consider that.
-The essence of Heichalot is our heavenly prince.
-If he wishes to wage war, I shall be on the frontlines.
+I refuse to consider that.[.6] The essence[N]
+of Heichalot is our Heavenly Prince.[AN]
+If he wishes to wage war,[.5] I shall be on[N]
+the frontlines.[A]
 
 [MidLeft]
-And what happens if Heichalot wages war with Srughna?
-Or even Macha?
-Heichalot should not ever be all of Maghmeall!
+And what happens if Heichalot wages[N]
+war with Srughna?[.6] Or Macha?[AN]
+Heichalot should never be Maghmeall![A]
 
 [MidRight]
-Bring those arguments up with the clergy.
-We need to ready ourselves for battle.
-Corbenic cannot be allowed to reach this camp!
+Bring those arguments up with the clergy.[.6][N]
+We need to ready ourselves for battle.[AN]
+Corbenic cannot reach this camp![A]
 
 [MidLeft]
-... ...
-Of course.
-I apologize for losing focus, Camniel.
+[Beat] Of course.[.6] I apologize for[N]
+losing focus, Camniel.[A]
 
 [MidRight]
-Take your sword and steed, and charge forward.
-Fight for that essence of Heichalot you care so much about.[ClearFace][......]
+Take your shield and charge forward.[AN]
+Fight for that essence of Heichalot[N]
+you care so much about.[A][ClearFace][......]
 
 [MidLeft][CloseEyes]
-I will, Camniel.
-I will...[X]
+I will,[.4] Camniel.[.6] I will...[A][X]
 
 
 
 ## P1CFGedeonQuote
-[ConversationText]
 [MidRight][LoadGedeon]
-I made my vow to my friends, no matter the situation...[X]
+I made my vow to my friends,[.6][N]
+no matter the situation...[A][X]
+
+
+
+## P1CFDagmemaQuote
+[MidRight][LoadDagmema]
+This is insane...[.6] Can we really take[N]
+on so many enemies at once...?[AN][MoveMidRight]
+I wanna go home...[A][X]
 
 
 
 ## P1CFHanlinQuote
-[ConversationText]
 [MidRight][LoadHanlin]
-I promised to keep us safe...
-I'm not letting myself falter.[X]
+Despite the odds,[.5] it goes against my[N]
+vigil to run away...[.6] I'm here to help.[A][X]
 
 
 
 ## P1CFLalithaQuote
-[ConversationText]
 [MidRight][LoadLalitha]
-The enemy may be many, but we have the power of many.
-We can do this...![X]
+The enemy may be many,[.5] but[N]
+we have the power of many.[AN]
+We can do this...![A][X]
 
 
 
 ## P1CFBresQuote
-[ConversationText]
 [MidRight][LoadBres]
-I've stayed with you this far.
-Not like I can run away.[X]
+I've stayed with you this far.[.6][N]
+Not like I can run away...[A][X]
 
 
 
 ## P1CFAengusQuote
-[ConversationText]
 [MidRight][LoadAengus]
-Ethniu!
-Stay near me![X]
+Stupid?[.6][ToggleSmile] Just wait until you[N]
+see what I pull off,[.4] Ethniu![AN]
+These folks won't make a single[N]
+dent in my armour![A][X]
+
+
+
+## P1CFAengusQuoteEDead
+[MidRight][LoadAengus]
+I'm doing this for you,[.5] Ethniu...[.6][N]
+Sorry if I don't make it back.[A][X]
 
 
 
 ## P1CFEthniuQuote
-[ConversationText]
 [MidRight][LoadEthniu]
-Everyone, please remain vigilant.
-I do not want to see anyone die here.[X]
+Aengus![.6] Don't do anything stupid![.6][N]
+This just got very grave...[A][X]
+
+
+
+## P1CFEthniuQuoteADead
+[MidRight][LoadEthniu]
+Stay close to each other![.6] I don't[N]
+want to see anyone else die...[A][X]
 
 
 
 ## P1CFSetantaQuote
-[ConversationText]
 [MidRight][LoadSetanta]
-Fern?
-This is for you.[CloseEyes]
-I'm staying here for you...[X]
+Fern?[.6] This is for you.[.6][N][CloseEyes]
+I'm staying here for you...[A][X]
 
 
 
 ## P1CFFerdiadQuote
-[ConversationText]
 [MidRight][LoadFerdiad]
-Mother...
-I hoped that I could find you.[X]
+Mother,[.5] if I can't find you...[.6][N]
+I wanted to say I love you.[A][X]
+
 
 
 ## P1CFSadhbhQuote
-[ConversationText]
 [MidRight][LoadSadhbh]
-I fight for Caer Siddi.
-I cannot let the Crownflight down![X]
+I fight for the Crownflight![.6][N]
+I refuse to let them down![A][X]
+
+
+
+## P1CFMiachQuote
+[MidRight][LoadMiach]
+[Beat] There's so many of them...[A][X]
+
+
+
+## P1CFCethernQuote
+[MidRight][LoadCethern]
+Empty our supplies![.6] Use everything you have![.6][N]
+This is going to take all of our power![A][X]
 
 
 
 ## P1CFCethernMiachTalk
-[ConversationText]
 [MidLeft][LoadCethern]
 [MidRight][LoadMiach]
-Cethern...
-I'm going to be honest.
-I'm nervous...
+Cethern...[.6] I'm going to be[N]
+honest.[.6] I'm a bit scared...[A]
 
 [MidLeft]
-Stay in the fortress if you're too scared, Miach.
-I couldn't imagine to see you hurt.
+Stay in the fortress if[N]
+you're scared,[.5] Miach.[AN]
+I couldn't imagine seeing[N]
+you hurt.[A]
 
 [MidRight]
-No...
-I'm doing this for Airmed!
-We need to be strong!
+I can't.[.6] I don't know if we[N]
+can win,[.5] but if we don't...[AN]
+We have to do this for Airmed.[.5][N]
+For everyone in Cluain Bolg.[AN]
+I have to fight![A]
 
 [MidLeft]
-Then ready yourself.
-They'll be here any second![X]
+[Beat][LoadOverworldFaces] You're brave,[.5] Miach.[.6][N]
+Let's do this.[.6] Together.[AN]
+We're not going down without[N]
+a heck of a fight![A][X]
 
 
 
 ## P1CFSadhbhHanlinTorch
-[ConversationText]
 [MidLeft][LoadHanlin]
-The stars are so bright...
-I haven't seen them like this since I was back home.
-
 [FarFarRight][LoadSadhbh][MoveMidRight]
-Excuse me.
-You must be Hanlin, yes?
+Excuse me.[.6] You must[N]
+be Hanlin,[.5] yes?[A]
 
 [MidLeft]
-That would be me.
-Do you need something?
+That would be me.[.6][N]
+Do you need something?[AN]
+We're about to fight,[N]
+so please be quick.[A]
 
 [MidRight]
-I've heard that you're an excellent healer.
-I was wondering if you had any use for this?
+I've heard that you're[N]
+an excellent healer.[AN]
+I was wondering if you[N]
+had any use for this?[A]
 
 [MidLeft]
-That is indeed a staff.
-But I don't know how good it'd be for healing.
-Where did you find it?
+That is indeed a staff.[AN]
+But I don't know how good[N]
+it'd be for healing.[AN]
+Where did you find it?[A]
 
 [MidRight]
-While I was in Ochren, I received it as a gift from an acolyte of Aingha.
-She said it may turn out useful, so I wanted to get your opinion.
+While I was in Ochren,[.5] I received it[N]
+as a gift from an acolyte of Aingha.[AN]
+I figured I should give it to someone[N]
+who can use it to its full potential.[A]
 
 [MidLeft]
-... [ToggleSmile]...
-I think this will be incredibly useful.
-Thank you very much.[X]
+[Beat][ToggleSmile] I think this will[N]
+be incredibly useful.[AN]
+Thank you very much.[A][X]
 
 
 
 ## P1CFCethernHanlinTorch
-[ConversationText]
-[MidRight][LoadCethern]
 [MidLeft][LoadHanlin]
-This fortress is pitch dark...
-We should hide well against the sky knights here.
-
-[MidRight]
-It's black with night, but we should be careful.
-Is there anything we could use for a small amount of light?
+[MidRight][LoadCethern]
+It's pitch black out.[.6] Is there anything we[N]
+could use to light up the valley?[A]
 
 [MidLeft]
-Hmm...[MoveMidLeft]
-If you could light it with fire, this might do.
+Hmm...[.6][MoveMidLeft] If you could light[N]
+it with fire,[.5] this might do.[A]
 
 [MidRight]
-That could do.
-Thank you, Hanlin.[X]
+That'll do.[.6][N]
+Thank you,[.5] Hanlin.[A][X]
 
 
 
 ## P1CFCethernSadhbhTorch
-[ConversationText]
-[MidRight][LoadCethern]
 [MidLeft][LoadSadhbh]
-This fortress is off the beaten path.
-It may be a good play to lay low for now.
-
-[MidRight]
-It's black with night, but we should be careful.
-Is there anything we could use for a small amount of light?
-
-[MidLeft][MoveMidLeft]
-Try using this, Cethern.
-You'll need to light it first, but...
-
-[MidRight]
-That could do.
-Thank you, Lady Sadhbh.[X]
-
-
-
-## P1CFCethernMiachTorch
-[ConversationText]
 [MidRight][LoadCethern]
-[MidLeft][LoadMiach]
-It's so dark...
-But it doesn't look like anyone's here.
-
-[MidRight]
-We should still be careful.
-Is there anything we could use for light?
+It's pitch black out.[.6] Is there anything we[N]
+could use to light up the valley?[A]
 
 [MidLeft][MoveMidLeft]
-Maybe this?
-It won't give much, but...
+Try using this,[.5] Cethern.[.6] You'll[N]
+need to light it first,[.4] but...[A]
 
 [MidRight]
-That could do.
-Thanks, Miach.[X]
+That'll do.[.6][N]
+Thank you,[.5] Lady Sadhbh.[A][X]
 
 
 
 ## P1CFGedeonPrince
-[ConversationText]
-[MidRight][LoadGedeon]
 [MidLeft][LoadCethern]
-Gedeon, right?
-
-[MidRight]
-That's me.
-What's going on?
-
-[MidLeft]
-You're from Heichalot, aren't you?
-Why are you fighting with us?
-
-[MidRight]
-I've got more reason to fight with you than against you.
-It's not like my old job gave me much anyways.
+[MidRight][LoadGedeon]
+Heichalot shouldn't have as much[N]
+forces stationed here.[AN]
+We should be safe for a short time.[.5][N]
+Enough to catch our breath.[A]
 
 [MidLeft]
-That's a fair answer...
-If you are from Heichalot, though...
-I'd like to ask what's going on.
+Gedeon,[.5] right?[A]
 
 [MidRight]
-What's going on?
-There's a war going on.
-Not much else to say about it.
+That's me.[.6] What's going on?[A]
 
 [MidLeft]
-Not like that.
-You're from Heichalot, so I wanna ask why--
+You're from Heichalot,[.5] aren't you?[.6][N]
+Why did you join up with us?[A]
 
 [MidRight]
-Why we'd declare war on you?
-Ask the Prince.
+I've got more reason to fight[N]
+with you than against you.[AN]
+It's not like my old job gave[N]
+me much anyways.[A]
 
 [MidLeft]
-The Prince of Heichalot?
-I've heard him mentioned, and yet...
-I don't know anything about him.
+If you are from Heichalot,[.5] though...[.6][N]
+I'd like to ask what's going on.[AN]
+What's with this war?[A]
 
 [MidRight]
-He's the leader of Heichalot.
-We venerate Heichalot's Wardbearer through him.
+It's a war.[.6] Not much else to[N]
+say about it.[AN]
+If you wanna know the why,[.4][N]
+ask our prince.[A]
 
 [MidLeft]
-Do you know why he'd declare war?
+The prince of Heichalot?[AN]
+I've heard him mentioned,[.5] and yet...[.5][N]
+I don't know anything about him.[A]
 
 [MidRight]
-I'm just a mercenary.
-You'd be better asking a clergymember, but...[MoveMidRight]
-I've hung around with enough priests to know it's related to their religion.
+He's the highest clergyman of Heichalot.[.6][N]
+Of course,[.5] it's a blood position,[.5] but...[A]
 
 [MidLeft]
-Relating to the bearers?
+Do you know why he'd declare war?[A]
 
 [MidRight]
-Yep.
-Maybe a vision told them of the right call to make.
+I might know a fair bit of the bearers,[.5][N]
+but I'm still only a mercenary.[AN]
+You'd be better asking a clergymember.[.5][N]
+It's gotta be related to them.[A]
 
 [MidLeft]
-A vision?[MoveMidLeft]
-But the Wardbearers are dead!
-I'm not that religious, but even I know that!
+Is it related to the bearers?[A]
 
 [MidRight]
-Maybe it's different in Corbenic, but the Wardbearers have only disappeared.
-You're making the assumption that they're dead.
+Perhaps it is.[.6] Maybe a communing with[N]
+our bearer told them to do so.[A]
 
 [MidLeft]
-... ...
-Hold on.
-Do you hear that?
+Communing?[.6] Is that even possible?[.6] I[N]
+thought the bearers were long gone.[A]
 
 [MidRight]
-I...[MoveMidRight]
-I think I do hear that.
+They may be gone,[.5] but their influence[N]
+lingers on Maghmeall still.[AN]
+They control more than you may think,[.5][N]
+even from beyond corporeality.[A]
 
 [MidLeft]
-Outside.
-Now.[X]
+You don't speak like[N]
+a mercenary,[.5] Gedeon.[A]
+
+[MidRight]
+Like I said,[.5] I've got some[N]
+knowledge on the bearers.[AN]
+We put much importance on the[N]
+study of the Wardbearers.[AN]
+Are they not as important to[N]
+you as they are to us?[A]
+
+[MidLeft]
+Aingha is important to us...[AN]
+I can't say I know as much as...[.6][MoveMidLeft][N]
+Hold on.[.6] Do you hear that?[A]
+
+[MidRight]
+I...[MoveMidRight] I think I do hear that.[A]
+
+[MidLeft]
+Outside,[.5] now![A][X]
 
 
 
 ## P1CFHanlinPrince
-[ConversationText]
-[MidLeft][LoadHanlin]
 [MidRight][LoadCethern]
-Hanlin, can I talk to you about something?
-
-[MidLeft]
-Idle chatter may not be the best idea right now.
-
-[MidRight]
-I promise it's not idle.
-I wanted to ask about Heichalot.
-They've declared war on us, yet I can't entirely say I know that much about them.
-I don't know why they'd want to invade us.
-
-[MidLeft]
-I don't know why either, but it's probably the Prince's doing.
-Either him or Heichalot's clergy.
+[MidLeft][LoadHanlin]
+If I'm correct,[.5] this is a[N]
+remote area of Heichalot.[AN]
+For the time being,[.5] we'll[N]
+have some relief.[A]
 
 [MidRight]
-The Prince of Heichalot...
-I've heard him mentioned, and still he's a mystery to me.
+Thank you for your insight,[.5] Hanlin.[.6][MoveMidRight][N]
+Can I talk to you about something?[A]
 
 [MidLeft]
-Heichalot treats him as the highest order of their religion.
-They worship the Wardbearer through him.
-Perhaps this war is related to that?
+Idle chatter may not be[N]
+the best idea right now.[A]
 
 [MidRight]
-Perhaps it is.
-But aren't you from Macha?
-How do you know so much about Heichalot?
+I promise it's not idle.[.6][N]
+I wanted to ask about Heichalot.[AN]
+They've declared war on us,[.5] yet[N]
+I don't know much about them.[AN]
+Why would they invade us?[A]
 
 [MidLeft]
-I'm a member of Macha's clergy.
-It's easier to hear things when we all venerate the Wardbearers.
+I don't know why either.[.6][N]
+It's probably the Prince's doing.[AN]
+Either him or Heichalot's clergy.[A]
 
 [MidRight]
-I see...
-I'm not the most pious, but I do still acknowledge them.
+The prince of Heichalot...[AN]
+I've heard him mentioned,[.5] and[N]
+still he's a mystery to me.[A]
 
 [MidLeft]
-You would do better to give them more respect.
-They may be gone, but their presence can still be felt around us.
+Heichalot worships their patron[N]
+Wardbearer through his existence.[AN]
+They claim descendancy from him.[AN]
+Of course,[.5] he's also surrounded by[N]
+clergy that declare his decrees.[AN]
+The war could be their doing as[N]
+much as the Heavenly Prince's.[A]
 
 [MidRight]
-Presence...
-Around us...[......][MoveMidRight]
-Hanlin, do you hear that?
+Aren't you from Macha?[.6] How do you[N]
+know so much about Heichalot?[A]
 
 [MidLeft]
-... ...
-I believe I do hear that.
-It's coming from outside.
+That...[.6] is a secret I cannot divulge.[.6][N]
+At least at this time.[.6] I'm sorry.[AN]
+I can assure you that I am on your side.[.5][N]
+We share the same enemy.[AN]
+For as long as I believe Heichalot's bearer[N]
+is responsible,[.5] I am your ally.[A]
 
 [MidRight]
-Come with me!
-Now![X]
+You...[.5] think this is a Wardbearer's doing?[.6][N]
+How would that even work?[A]
+
+[MidLeft]
+The Wardbearers are not regular humans[N]
+like you or I,[.5] Cethern.[A]
+They may be gone,[.5] but their presence[N]
+can still be felt around us.[A]
+
+[MidRight]
+Presence...[.5] Around us...?[......][MoveMidRight][N]
+Hanlin,[.4] do you hear that?[A]
+
+[MidLeft]
+[Beat] I believe I do hear that.[.6][N]
+It's coming from outside![A]
+
+[MidRight]
+Come with me,[.5] now![A][X]
 
 
 
 ## P1CFSadhbhPrince
-[ConversationText]
-[MidLeft][LoadSadhbh]
 [MidRight][LoadCethern]
-Lady Sadhbh?
-You're a Crownflier, so you travel often, right?
+[MidLeft][LoadSadhbh]
+I can't fly up to check,[.5] but[N]
+resting should be okay.[AN]
+We need it,[.5] after all.[A]
 
 [MidLeft]
-That would be correct.
-What about it?
+[Beat] Lady Sadhbh?[.6] You're a Crownflier,[.5][N]
+so you travel often, right?[A]
+
+[MidLeft]
+That would be correct.[.6][N]
+What about it?[A]
 
 [MidRight]
-Have you ever been to Heichalot?
-I don't know much about them, so I don't know why they'd declare war...
-But it still doesn't seem right.
-Corbenic hasn't done much, has it?
+Have you ever been to Heichalot?[AN]
+I don't know much about them,[.5] so[N]
+why they'd declare war...[AN]
+I can't think of a reason why.[.5][N]
+Has Corbenic done anything?[A]
 
 [MidLeft]
-There's nothing I know of that'd be just grounds.
-If I had to guess, you should put the blame on either the Prince or his clergy.
+There's nothing I know of to be just.[AN]
+If I had to guess,[.5] you should put the[N]
+blame on the prince or his clergy.[A]
 
 [MidRight]
-Heichalot's prince...
-I've heard him mentioned, yet I know nothing about him.
+Heichalot's prince...[AN]
+I've heard him mentioned,[.5] yet[N]
+I know nothing about him.[A]
 
 [MidLeft]
-The clergy adore him.
-He's mostly kept away from the rest of Maghmeall, though.
+The clergy adore him. If you think the[N]
+priests of Aingha are devout...[AN]
+You've not seen how Heichalot treats[N]
+their patron Wardbearer.[A]
 
 [MidRight]
-Kept away?
+I've not met much of either.[.6][N]
+Are they that devoted?[A]
 
 [MidLeft]
-He's the centre of their entire religion.
-It'd make sense to keep him safe from anything.
+Their bearer is the centre of[N]
+Heichalot's entire culture.[AN]
+The Heavenly Prince is just a[N]
+proxy for their Wardbearer.[A]
 
 [MidRight]
-I...[......][MoveMidRight]
-Hold on.
-Lady Sadhbh, do you hear that?
+That doesn't sound...[.6] Hold on.[.6][N]
+Sadhbh,[.4] do you hear that?[A]
 
 [MidLeft]
-I do.[MoveMidLeft]
-Cethern, follow me.
-There could be trouble.[X]
+I do.[.6] Cethern,[.4] follow me.[.6][N]
+There could be trouble![A][X]
 
 
 
 ## P1CFCethernMiachThroughTheHills
-[ConversationText]
 [MidRight][LoadCethern]
 [MidLeft][LoadMiach]
-[MoveMidLeft]Brrr...
-It's starting to snow.
+[MoveMidLeft]Brrr...[.6][N]
+It's starting to snow.[A]
 
 [MidRight]
-It is...
-This'd never happen this early at home.
-Try to keep your head low, Miach.
-We don't want to be spotted by anybody.
+It'd never snow this early at home.[.6][N]
+Try to keep your head low, Miach.[AN]
+We don't want to be spotted.[A]
 
 [MidLeft]
-Cethern...[MoveMidLeft]
-Why couldn't we run the other way?
+Cethern...[.6] Why didn't we[N]
+run the other way?[A]
 
 [MidRight]
-It was the heat of the moment.
-We both weren't thinking.
-If we head back, Lord Rionall will get us and probably kill us.
-It's best if we keep moving.
+That probably would've been[N]
+the better move...[AN]
+It's too late now. We can't[N]
+go back through the trail.[AN]
+At least we're safe from[N]
+any large army here.[A][X]
 
-[MidLeft][MoveMidLeft]
-Cethern!
-Look!
-Up there in the sky--!
 
-[MidRight][MoveRight]
-Miach...!
-They'll hear you!
+
+## P1CFDagmemaHills
+[FarFarLeft][LoadDagmema][MoveFarLeft][MidLeft][MoveLeft][FarLeft]
+Watch out...![.6] Sky knights,[.5][N]
+coming from above![A]
+
+[MidRight]
+Dagmema,[.5] quiet...![.6][N]
+They'll hear you.[A][CloseSpeechSlow][.6][LoadOverworldFaces]
+
+[Left]
+They're flying past us...[.6][N]
+Where are they going?[A]
+
+[MidRight]
+They might not see us...[.6][N]
+We need to stay vigilant.[AN]
+They're probably not the[N]
+only sky knights coming...[A]
+
+[Left]
+Over there,[.5] down the path...[.6][N]
+There's a fortress.[AN]
+It looks like it's ruined![.6][N]
+We could hide out there![A]
+
+[FarLeft]
+Is that a good idea?[.6] We're[N]
+in enemy territory...[AN]
+
+[MidRight]
+You're right.[.6] But we've also been on[N]
+this trail since the afternoon.[AN]
+Time to recuperate could be quite[N]
+useful for us.[AN]
+The sky knights wouldn't be able[N]
+to see us without us noticing.[A]
+
+[Left]
+Then let's go![.6] I'm exhausted...[A][ClearFace][.6]
+
+[MidRight]
+Miach,[.4] don't get ahead of us![A][ClearFace][.7]
+
+[FarLeft]
+I don't have a good[N]
+feeling about this...[A][X]
+
+
+
+## P1CFMiachHills
+[MidLeft]
+Cethern...?[.6] Up there in the sky--![A]
+
+[MidRight]
+Miach,[.5] quiet...![.6][N]
+They'll hear you.[A][CloseSpeechSlow][.6][LoadOverworldFaces]
 
 [MidLeft]
-They're flying past us...
-Where are they going?
+They're flying past us...[.6][N]
+Where are they going?[A]
 
-[Right]
-They might not be seeing us...[MoveRight]
-We still need to stay vigilant.
-There could be more coming to find us.
+[MidRight]
+They might not see us...[.6][N]
+We need to stay vigilant.[AN]
+They're probably not the[N]
+only sky knights coming...[A]
 
 [MidLeft]
-Hey, look ahead.
-Isn't that a fortress?
-We could hide in there!
+Over there,[.5] down the path...[.6][N]
+There's a fortress.[AN]
+It looks like it's ruined![.6][N]
+We could hide out there![A]
 
-[Right]
-It's starting to get too late to continue...
-It looks as dark as anywhere else.
-Could be worth trying to hide in there.[X]
+[MidRight]
+It might not be the best place[N]
+to recuperate...[AN]
+But it could be the only one.[AN]
+We can't stay on this trail[N]
+the entire night.[AN]
+
+[MidLeft]
+Then let's go![.6] I'm exhausted...[A][ClearFace][.6]
+
+[MidRight]
+Miach,[.4] don't go ahead of me![A][X]
 
 
 
 ## P1CFMiachPrince
-[ConversationText]
 [MidLeft][LoadMiach]
 [MidRight][LoadCethern]
-Miach?
-Are you doing okay?
+We should be safe for...[.6][N]
+Miach?[.6] Are you doing okay?[A]
 
 [MidLeft]
-I don't know...
-I thought I would be ready to fight.
-I thought that I could just pick up a sword and chase everyone down.
-But after all this...?
-I'm not sure anymore.
+I thought I would be ready to fight.[AN]
+That I could just pick up a sword and[N]
+everything would come naturally.[AN]
+But after all this...?[.6] This fighting,[.4][N]
+the dread we can't escape from?[A]
 
 [MidRight]
-I told you to stay back, Miach.
-Out here it isn't playfighting.
-People get killed for real.
+I told you to stay back,[.4] Miach.[.6][N]
+It's not just training out--[A]
 
 [MidLeft]
-I knew that, Cethern...!
-But I guess I didn't realize how serious it was.
+I knew that,[.4] Cethern...![.6] I...[.6][N]
+thought I knew that...[A]
 
 [MidRight]
-We can't go back now, Miach.
-All we can do is continue fighting.
+We can't go back now,[.5] Miach.[.6] All[N]
+we can do is continue fighting.[A]
 
 [MidLeft]
-Cethern...[MoveMidLeft][CloseEyes]
-Sniff...
+Cethern...[.6][CloseEyes][MoveMidLeft] Sniff...[A]
 
 [MidRight]
-Miach?
-Are you crying?
+Miach?[.6] Are you...[.5] crying?[A]
 
 [MidLeft]
-I'm fine, I'm fine...
-A snowflake just went in my eye.
+I'm fine,[.4] I'm fine...[.6][N]
+Just a snowflake in my eye.[A]
 
 [MidRight]
-... ...![MoveMidRight]
-Miach, I need you to get up and follow me.
-I don't think we're alone here.[ClearFace][......]
+[Beat] Miach,[.4] follow me![.6][N]
+I don't think we're alone![A][ClearFace][......]
 
 [MidLeft][OpenEyes]
-Cethern?[MoveMidLeft]
-Cethern...![X]
+Cethern?[MoveMidLeft] Cethern![A][X]
 
 
 
 ## P1CFLalithaNotices
-[ConversationText]
 [MidRight][LoadLalitha]
-[FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
-Talitha!
-Have you seen anything?
+[FarFarLeft][LoadCethern][MoveMidLeft]
+Talitha![.6] Have you seen anything?[A]
 
 [MidRight]
-They're coming.
-I can hear their footsteps, even through the snow...
-There's gotta be at least a couple hundreds!
+They're coming![.6] I can hear their voices...[.6][N]
+Sounds like a lot of them, too![A]
 
 [MidLeft]
-In the hundreds?![MoveMidLeft]
-Of course!
-Those sky knights weren't trying to catch us, they were trying to warn the enemy!
+Were they expecting us?![.6][MoveMidLeft][N]
+Of course...![AN]
+Those sky knights weren't[N]
+trying to catch us.[AN]
+They were flying to warn[N]
+Heichalot about us![AN]
 
 [MidRight]
-It'll be hard to see where they're coming from.
-I can augment my vision with magic, but you might not be able to.
+It'll be hard to see where they're[N]
+coming from with the darkness.[AN]
+I can augment my vision with magic,[.5][N]
+but you might not be able to.[A]
 
 [MidLeft]
-Augment your vision?
-You can tell us where the enemy is!
-But for now, we should fall inside![X]
+Augment your vision?[AN]
+You can tell us where[N]
+the enemy is![AN]
+But for now,[.5] we need[N]
+to gather everyone![A][X]
 
 
 
 ## P1CFCethernNotices
-[ConversationText]
 [FarFarLeft][LoadCethern][MoveMidLeft][MidLeft]
-I can hear their voices...
-There's so many of them!
-We need to fall back inside and form up...![X]
+I can hear their voices...[.6][N]
+There's so many of them![AN]
+We need to fall back and[N]
+form up.[.6] Now![A][X]
 
 
 
 ## P1CFCethernEncourages
-[ConversationText]
 [MidLeft][LoadCethern]
-We're stuck in this valley...
-The only thing we can do is fight!
-Everybody, brace yourselves![X]
+We're stuck in this valley...[AN]
+The only thing we can do is fight![N]
+Everybody,[.5] brace yourselves![A][X]
 
 
 
 ## P1CFCethernRein
-[ConversationText]
 [MidRight][LoadCethern]
-There's more approaching...[MoveMidRight]
-Stay vigilant![X]
+There's more approaching...[.6][N]
+Stay vigilant![A][X]
 
 
 
 ## P1CFGedeonRein
-[ConversationText]
 [MidRight][LoadGedeon]
-They're still coming...
-Reinforcements from all sides![X]
+They're still coming...[.6][N]
+Reinforcements from all sides![A][X]
 
 
 
 ## P1CFSadhbhRein
-[ConversationText]
 [MidLeft][LoadSadhbh]
-They're sending loads of pegasi...
-Careful near the mountains![X]
+I hear the flapping of pegasi...[.6][N]
+Careful near the mountains![A][X]
 
 
 
 ## P1CFFerdiadRein
-[ConversationText]
 [MidRight][LoadFerdiad]
-There's so many...
-Can we even do this...?[MoveMidRight]
-We can do this, right?![X]
+There's so many...[.6][N]
+Can we even do this...?[AN][MoveMidRight]
+We can do this,[.5] right?![A][X]
 
 
 
 ## P1CFBresRein
-[ConversationText]
 [MidLeft][LoadBres][CloseEyes]
-We can't hold them off forever.
-No matter how hard we try, more will come...[X]
+We can't hold them off forever.[AN]
+No matter how hard we try,[.5] more[N]
+will take their place...[A][X]
 
 
 
 ## P1CFHanlinRein
-[ConversationText]
 [MidRight][LoadHanlin]
-It's foolish to stay here.
-Yet we cannot flee.[CloseEyes]
-Are we truly so doomed...?[X]
+It's foolish to stay here.[.6][N]
+Yet we cannot flee.[AN][CloseEyes]
+Are we truly doomed...?[A][X]
 
 
 
 ## CethernDeathQ
-[BattleText]
 [MidRight][LoadCethern]
-Hrrk...! I...[N]
-I did it...[ClearFace]
+I may have lost the duel,[.5][CloseEyes] but[N]
+the battle is won...![A][ClearFace]
+
+
 [MidLeft][LoadJhudiel]
-To think you would actually land a mark on me...[ToggleSmile]
-You're more apt than I first thought.
-Well done, Cethern.[X]
+To think you would actually[N]
+land a mark on me...[AN]
+You're more apt than I first[N]
+thought.[.6] Well done,[.5] Cethern.[A][X]
 
 
 
 ## P1CFSFCDeath
-[ConversationText]
 [Right][LoadCethernClosed]
 [Left][LoadMiach]
 [FarLeft][LoadFerdiad]
 [FarRight][LoadSetanta]
-Cethern!
-What were you thinking?!
-You're...!
+Cethern![.6] What were you[N]
+thinking?![.6] You're...![A]
 
 [Right]
-You're right.[ToggleSmile]
-I don't think I'm gonna make it.[MoveRight][ToggleSmile]
-Agh, this hurts...
+You're right.[.6][ToggleSmile] I don't think I'll[N]
+make it.[.6][MoveRight][ToggleSmile] Agh,[.4] this hurts...[A]
 
 [FarLeft]
-Maybe we can still help you!
-If we can get you something, anything--!
+Maybe we can still help you![AN]
+If we can heal you,[.5] tend to[N]
+your wounds,[.5] anything--![A]
 
 [Right]
-Don't try it...
-If anybody heals me up, it'd be breaking that oath.
-Jhudiel wouldn't have any reason to keep you all alive.
+Don't try it...[.6] I can't live.[.6][N]
+If you patch me up,[.5] Ferdiad...[AN]
+Jhudiel won't have any reason[N]
+to keep you all alive.[AN]
+Those were the duel terms.[A]
 
 [FarRight]
-We're not going to let you die for some stupid duel rules!
-The three of us...
-We're a trio, Cethern!
+Duel terms?![.6] You weren't dueling,[.5][N]
+you were a sacrifice![AN]
+Damn those terms![.6] The three of us...[.5][N]
+We're a trio,[.5] Cethern![A]
 
 [Left][MoveLeft]
-Sniff...
-Cethern, please don't die...
-What's supposed to happen without you?
-What am I going to tell Airmed...?
+Sniff...[.6] Cethern,[.5] please don't die...[.6][N]
+What do I tell Airmed?[.6] Grandpa?[A]
 
 [Right]
-Miach, S[0xE9]tanta, Ferdiad, Airmed...
-You all need to keep fighting.
-No matter how long it takes, no matter how hard it is...
-Even if they take every blade of grass in Maghmeall, you need to fight back...!
+You all need to keep fighting.[AN]
+No matter how long it takes...[.6][N]
+No matter how hard it is...[AN]
+Even if they take every blade of grass[N]
+in Maghmeall,[.5] you need to fight![A]
 
 [Left]
-I...
-I don't want to lose you...
-Not like our parents...
-
-[FarLeft]
-Miach, I think we need to respect his wishes.
-He's saved all of us.
-I-It's for the best.
+I...[.6] I don't want to lose you...[.6][N]
+Not like our ma and pa...[A]
 
 [FarRight]
-Imprisonment isn't much of a better option than death![MoveFarRight][CloseEyes]
-Ugh, Cethern...
-I really wish you didn't do this.[OpenEyes]
-But you'd be the type to die like this.
-A knight's death is what you got, huh?
+Ugh,[.5] Cethern...[AN]
+Imprisonment isn't much of a[N]
+better option than death![AN][MoveFarRight][CloseEyes]
+But you'd be the type to do this.[.5][N][OpenEyes]
+You got a knight's death...[A]
 
 [FarLeft]
-S[0xE9]tanta![MoveFarLeft]
-We don't have any other choice.
-I just want to say that...
-I've always adored you, Cethern.
-I'm sad to see you go...
-I don't want it to end like this...
+S[0xE9]tanta![.6][N]
+We did't have any other choice.[AN]
+You saved us,[.5] Cethern.[AN]
+I'm sure your grandpa'll be proud[N]
+of what you did here.[A]
 
 [Left]
-Cethern, I love you...
-Sniff...
-I'll take care of Airmed, promise...
+Sniff...[.6][N]
+I'll take care of Airmed,[.5] promise.[A]
 
 [Right]
-Miach...[......][MoveRight]
-The sun's rising...
-That's why it feels so... warm...[ClearFace]
+Miach...[......][MoveRight] The sun's rising...[.6][N]
+That's why it feels so...[.6] warm...[A][CloseSpeechSlow][ClearFace]
 
 [Left][LoadOverworldFaces][.......][CloseEyes]
-Cethern...[X]
+Cethern...[A][X]
 
 
 
 ## P1CFSCDeath
-[ConversationText]
 [Right][LoadCethernClosed]
 [MidLeft][LoadMiach]
 [FarRight][LoadSetanta]
-Cethern!
-What were you thinking?!
-You're...!
+Cethern![.6] What were you[N]
+thinking?![.6] You're...![A]
 
 [Right]
-You're right.[ToggleSmile]
-I don't think I'm gonna make it.[MoveRight][ToggleSmile]
-Agh, this hurts...
+You're right.[.6][ToggleSmile] I don't think I'll[N]
+make it.[.6][MoveRight][ToggleSmile] Agh,[.4] this hurts...[A]
 
 [MidLeft]
-Cethern...!
-Can't we heal you...?
-I have--
+Cethern...![.6] Can't we heal you?![.6][N]
+I have a staff--![A]
 
 [Right]
-Don't try it...
-If anybody heals me up, it'd be breaking that oath.
-Jhudiel wouldn't have any reason to keep you all alive.
+Don't try it...[.6] I can't live.[.6][N]
+If you patch me up,[.5] Ferdiad...[AN]
+Jhudiel won't have any reason[N]
+to keep you all alive.[AN]
+Those were the duel terms.[A]
 
 [FarRight]
-We're not going to let you die for some stupid duel rules!
-We're a duo, Cethern!
-I can't let you die...
+Duel terms?![.6] You weren't dueling,[.5][N]
+you were a sacrifice![AN]
+Damn those terms![.6] The three of us...[.5][N]
+We're a trio,[.5] Cethern![A]
 
 [MidLeft][MoveMidLeft]
-Sniff...
-Please don't die...
-What's supposed to happen without you?
-What am I going to tell Airmed...?
+Sniff...[.6] Cethern,[.5] please don't die...[.6][N]
+What do I tell Airmed?[.6] Grandpa?[A]
 
 [Right]
-Miach, S[0xE9]tanta, Airmed...
-You all need to keep fighting.
-No matter how long it takes, no matter how hard it is...
-Even if they take every blade of grass in Maghmeall, you need to fight back...!
+You all need to keep fighting.[AN]
+No matter how long it takes...[.6][N]
+No matter how hard it is...[AN]
+Even if they take every blade of grass[N]
+in Maghmeall,[.5] you need to fight![A]
 
 [MidLeft]
-I...
-I don't want to lose you...
-Not like our parents...
+I...[.6] I don't want to lose you...[.6][N]
+Not like our ma and pa...[A]
 
 [FarRight]
-Ugh, Cethern...
-I really wish you didn't do this.[OpenEyes]
-But you'd be the type to die like this.
-A knight's death is what you got, huh?
+Ugh,[.5] Cethern...[AN]
+Imprisonment isn't much of a[N]
+better option than death![AN][MoveFarRight][CloseEyes]
+But you'd be the type to do this.[.5][N][OpenEyes]
+You got a knight's death...[A]
 
 [MidLeft]
-Cethern, I love you...
-Sniff...
-I'll take care of Airmed, promise...
+Sniff...[.6][N]
+I'll take care of Airmed,[.5] promise.[A]
 
 [Right]
-Miach...[......][MoveRight]
-The sun's rising...
-That's why it feels so... warm...[ClearFace]
+Miach...[......][MoveRight] The sun's rising...[.6][N]
+That's why it feels so...[.6] warm...[A][CloseSpeechSlow][ClearFace]
 
 [MidLeft][LoadOverworldFaces][.......][CloseEyes]
-Cethern...[X]
+Cethern...[A][X]
 
 
 
 ## P1CFFCDeath
-[ConversationText]
 [Right][LoadCethernClosed]
 [MidLeft][LoadMiach]
 [FarRight][LoadFerdiad]
-Cethern!
-You're hurt!
-Really hurt...
+Cethern![.6] You're hurt...![.6][N]
+Really hurt...[A]
 
 [Right]
-You're right.[ToggleSmile]
-I don't think I'm gonna make it.[MoveRight][ToggleSmile]
-Agh, this hurts...
+You're right.[.6][ToggleSmile] I don't think I'll[N]
+make it.[.6][MoveRight][ToggleSmile] Agh,[.4] this hurts...[A]
 
 [FarRight]
-Maybe we can still help you!
-If we can get you something, anything--!
+Maybe we can still help you![AN]
+If we can heal you,[.5] tend to[N]
+your wounds,[.5] anything--![A]
 
 [Right]
-Don't try it...
-If anybody heals me up, it'd be breaking that oath.
-Jhudiel wouldn't have any reason to keep you all alive.
+Don't try it...[.6] I can't live.[.6][N]
+If you patch me up,[.5] Ferdiad...[AN]
+Jhudiel won't have any reason[N]
+to keep you all alive.[AN]
+Those were the duel terms.[A]
+
+[FarRight]
+That wasn't a fair duel,[.5] and[N]
+you both know that...[A]
+
+[Right]
+But you'll live.[.6][N]
+Everyone will live...[A]
 
 [MidLeft][MoveMidLeft]
-Sniff...
-Cethern, please don't die...
-What's supposed to happen without you?
-What am I going to tell Airmed...?
+Sniff...[.6] Cethern,[.5] please don't die...[.6][N]
+What do I tell Airmed?[.6] Grandpa?[A]
 
 [Right]
-Miach, Ferdiad, Airmed...
-You all need to keep fighting.
-No matter how long it takes, no matter how hard it is...
-Even if they take every blade of grass in Maghmeall, you need to fight back...!
+You all need to keep fighting.[AN]
+No matter how long it takes...[.6][N]
+No matter how hard it is...[AN]
+Even if they take every blade of grass[N]
+in Maghmeall,[.5] you need to fight![A]
 
 [MidLeft]
-I...
-I don't want to lose you...
-Not like our parents...
+I...[.6] I don't want to lose you...[.6][N]
+Not like our ma and pa...[A]
 
 [FarRight]
-Miach, I think we need to respect his wishes.
-He's saved all of us.
-I-It's for the best.[MoveFarRight]
-I just want to say that I've always adored you, Cethern.
-I'm sad to see you go...
-I don't want it to end like this...
+Miach,[.5] as much as I don't like it...[.6][N]
+We need to respect his wishes.[AN]
+Cethern's saved all of us...[A]
 
 [MidLeft]
-Cethern, I love you...
-Sniff...
-I'll take care of Airmed, promise...
+Sniff...[.6][N]
+I'll take care of Airmed,[.5] promise.[A]
 
 [Right]
-Miach...[......][MoveRight]
-The sun's rising...
-That's why it feels so... warm...[ClearFace]
+Miach...[......][MoveRight] The sun's rising...[.6][N]
+That's why it feels so...[.6] warm...[A][CloseSpeechSlow][ClearFace]
 
 [MidLeft][LoadOverworldFaces][.......][CloseEyes]
-Cethern...[X]
+Cethern...[A][X]
 
 
 
 ## P1CFCDeath
-[ConversationText]
 [MidLeft][LoadMiach]
 [MidRight][LoadCethernClosed]
-Damn... Miach...[ToggleSmile]
-I don't think I'm gonna make it.[MoveMidRight][ToggleSmile]
-Agh, this hurts...
+Damn...[.6] Miach...[.6][ToggleSmile] I don't[N]
+think I'm gonna make it.[AN][MoveMidRight][ToggleSmile]
+Agh,[.5] this hurts...[A]
 
 [MidLeft]
-Cethern...!
-Can't we heal you...?
-I have--
+Cethern...![.6] Can't we heal you?![.6][N]
+I have a staff--![A]
 
 [MidRight]
-Don't try it...
-If anybody heals me up, it'd be breaking that oath.
-Jhudiel wouldn't have any reason to keep you all alive.
+Don't try it...[.6] I can't live.[.6][N]
+If you patch me up,[.5] Ferdiad...[AN]
+Jhudiel won't have any reason[N]
+to keep you all alive.[AN]
+Those were the duel terms.[A]
 
 [MidLeft][MoveMidLeft]
-Sniff...
-Cethern, please don't die...
-What's supposed to happen without you?
-What am I going to tell Airmed...?
+Sniff...[.6] Cethern,[.5] please don't die...[.6][N]
+What do I tell Airmed?[.6] Grandpa?[A]
 
 [MidRight]
-Miach, you and Airmed...
-You all need to keep fighting.
-No matter how long it takes, no matter how hard it is...
-Even if they take every blade of grass in Maghmeall, you need to fight back...!
+Miach,[.5] you and Airmed...[.6][N]
+You both need to keep fighting.[AN]
+No matter how long it takes...[.6][N]
+No matter how hard it is...[AN]
+Even if they take every blade of grass[N]
+in Maghmeall,[.5] you need to fight![A]
 
 [MidLeft]
-I...
-I don't want to lose you...
-Not like our parents...
+I...[.6] I don't want to lose you...[.6][N]
+Not like our ma and pa...[A]
 
 [MidRight]
-It's okay, Miach.
-You're a fighter.
-You and Airmed can pull through anything...
+It's okay,[.5] Miach.[.6] You're a fighter.[.6][N]
+A stronger one than I ever thought...
 
 [MidLeft]
-Cethern, I love you...
-Sniff...
-I'll take care of Airmed, promise...
+Sniff...[.6][N]
+I'll take care of Airmed,[.5] promise.[A]
 
 [MidRight]
-Miach...[......][MoveRight]
-The sun's rising...
-That's why it feels so...[......] warm...[ClearFace]
+Miach...[......][MoveMidRight] The sun's rising...[.6][N]
+That's why it feels so...[.6] warm...[A][CloseSpeechSlow][ClearFace]
 
 [MidLeft][LoadOverworldFaces][.......][CloseEyes]
 Cethern...[X]
@@ -984,368 +1091,490 @@ Cethern...[X]
 
 
 ## P1CFCethernJhudiel
-[ConversationText]
 [MidRight][LoadCethern]
-They're everywhere...
-We can't hold them off forever.
-But we're also stuck!
-What are we supposed to do?!
+They're everywhere...[AN]
+We can't hold them off forever,[N]
+and we can't run away![AN]
+What are we supposed to do?![A]
 
 [FarFarLeft]
-Forces of Corbenic.
-I cannot allow this to continue on any longer.
+Forces of Corbenic.[AN]
+I cannot allow this to[N]
+continue on any longer.[A]
 
 [MidRight][MoveRight]
-Show yourself!
+Who is that?[.6][N]
+Show yourself![A]
 
 [MidLeft][LoadJhudiel]
-I cannot let you struggle against us any longer.
-Surrender before us, and I can promise an honourable death.[X]
+I cannot let you struggle[N]
+against us any longer.[AN]
+Surrender,[.5] and I can promise[N]
+an honourable death.[A][X]
 
 
 
 ## P1CFSadhbhInterrupt
-[ConversationText]
 [FarRight][LoadSadhbh]
-The Shield Jhudiel...!
-Cethern, be careful!
-That's a stem of Heichalot!
+The Shield Jhudiel...[AN]
+Our advance was important enough[N]
+for the Stems of Heichalot?[A]
 
 [Right]
-A stem of Heichalot?
+The Shield?[.6] Stem of Heichalot...?[.6][N]
+Do you know him,[.5] Sadhbh?[A]
 
 [MidLeft]
-The ten stems of Heichalot are tasked with serving the essence of Heichalot.
-Fighting against Heichalot means I must fight you.
-I apologize.
-I can promise to make your deaths quick and merciful.
+The ten Stems of Heichalot are tasked with[N]
+serving the essence of Heichalot.[AN]
+Your trespass is an affront to the Heavenly[N]
+Prince.[.6] This struggle is over.[AN]
 
 [Right]
-Please, Shield Jhudiel...!
-I'm the leader of this group.
-I surrender.
-Please do not harm anybody else.
-There are children among us.
+Please,[.5] Shield Jhudiel...![.6][N]
+I am the leader of this group.[AN]
+I surrender.[.6] Please,[.5] harm no one else.[.5][N]
+There are children among us.[A]
 
 [FarRight]
-Cethern...!
+Cethern...![A]
 
 [MidLeft]
-But...[......][MoveMidLeft]
-You're so young.
-Your name is Cethern?
+But...[......] You're so young.[.6][N]
+Your name is Cethern?[A]
 
 [Right]
-Yes, it is.
-Please, I beg of you, spare everybody else.
+Cethern MacCumail.[.6][N]
+Please.[.6] I beg of you.[AN]
+Spare everybody else.[A]
 
 [MidLeft]
-We were given orders by our prince to destroy all opposition.
-No matter how much I hate that order...
-I cannot deny it.
+We were given orders by our prince[N]
+to destroy all opposition.[AN]
+I loathe that order with my every[N]
+fiber of my being...[AN]
+Yet I cannot renege my oath.[A]
 
 [Right]
-Then...
-Duel me, Jhudiel.
-I will oppose you.
-Nobody else.
-Take all of them prisoner if you wish.
-I ask that you please only leave them alive.
+If that is the case...[.6][N]
+Duel me,[.5] Shield Jhudiel.[AN]
+I am the only opposition[N]
+you will find here.[AN]
 
 [MidLeft]
-I see what you intend to do...
-Very well.
-You are a brave young man.[X]
+You face a Stem of Heichalot.[AN]
+Our position is not given lightly.[.6][N]
+What is your play here?[A]
+
+[Right]
+Like I said,[.5] I am the only obstruction[N]
+you'll find in this valley.[AN]
+If you must follow your prince,[.5] do it.[.5][N]
+Destroy your opposition.[A]
+
+[MidLeft]
+[Beat] I see what you intend to do...[.6][N]
+You are a brave young man.[A][X]
 
 
 
 ## P1CFCethernInterrupt
-[ConversationText]
-[Right]
-Are you the commander of the Heichalotian forces?
+[Right][MoveMidRight]
+Are you the commander of the[N]
+Heichalotian forces?[A]
 
 [MidLeft]
-I am The Shield Stem Jhudiel of Heichalot.
-These soldiers fight under myself.
+You could say that.[A]
+I am The Shield Jhudiel,[.5] one[N]
+of the Stems of Heichalot.[AN]
 
-[Right]
-A stem of Heichalot?
-
-[MidLeft]
-The ten stems of Heichalot are tasked with serving the essence of Heichalot.
-Fighting against Heichalot means I must fight you.
-I apologize.
-I can promise to make your deaths quick and merciful.
-
-[Right]
-Please, Shield Jhudiel...!
-I'm the leader of this group.
-I surrender.
-Please do not harm anybody else.
-There are children among us.
+[MidRight]
+A Stem of Heichalot?[A]
 
 [MidLeft]
-I...[......][MoveMidLeft]
-You're so young.
-What is your name?
+The ten Stems of Heichalot are tasked with[N]
+serving the essence of Heichalot.[AN]
+Your trespass is an affront to the Heavenly[N]
+Prince.[.6] This battle is over.[AN]
+Your deaths will be merciful.[A]
 
-[Right]
-My name is Cethern.
-Please, I beg of you, spare everybody else.
-
-[MidLeft]
-We were given orders by our prince to destroy all opposition.
-No matter how much I hate that order...
-I cannot deny it.
-
-[Right]
-Then...
-Duel me, Jhudiel.
-I will oppose you.
-Nobody else.
-Take all of them prisoner if you wish.
-I ask that you please only leave them alive.
+[MidRight]
+Please,[.5] Shield Jhudiel...![.6][N]
+I am the leader of this group.[AN]
+I surrender.[.6] Please,[.5] harm no one else.[.5][N]
+There are children among us.[A]
 
 [MidLeft]
-I see what you intend to do...
-Very well.
-You are a brave young man.[X]
+You're their leader?[AN]
+But you're so young...[.6][N]
+Your name is Cethern?[A]
+
+[MidRight]
+Cethern MacCumail.[.6][N]
+Please.[.6] I beg of you.[AN]
+Spare everybody else.[A]
+
+[MidLeft]
+We were given orders by our prince[N]
+to destroy all opposition.[AN]
+I loathe that order with my every[N]
+fiber of my being...[AN]
+Yet I cannot renege my oath.[A]
+
+[MidRight]
+If that is the case...[.6][N]
+Duel me,[.5] Shield Jhudiel.[AN]
+I am the only opposition[N]
+you will find here.[AN]
+
+[MidLeft]
+You face a Stem of Heichalot.[AN]
+Our position is not given lightly.[.6][N]
+What is your play here?[A]
+
+[MidRight]
+Like I said,[.5] I am the only obstruction[N]
+you'll find in this valley.[A][CloseSpeechSlow][MoveRight][Right]
+If you must follow your prince,[.5] do it.[.6][N]
+Destroy your opposition.[A]
+
+[MidLeft]
+[Beat] I see what you intend to do...[.6][N]
+You are a brave young man.[A][X]
 
 
 
 ## P1CFFerdiadInterrupt
-[ConversationText]
 [FarRight][ClearFace][LoadFerdiad]
-Cethern, what are you doing?!
-You're not going to...!
+Cethern,[.5] what are you doing?![.6][N]
+You're not going to--![A]
 
 [Right]
-I am.
-This is best for everybody.
-Stay back from us![X]
+I'm doing this for everyone.[.6][N]
+Stay back![A][X]
 
 
 
 ## P1CFSetantaInterrupt
-[ConversationText]
 [FarRight][ClearFace][LoadSetanta]
-This is insane!
-You're taking him on by yourself!
+This is insane![.6] You're taking[N]
+him on by yourself?![A]
 
 [Right]
-This is the only option, S[0xE9]tanta!
-It's just between the two of us![X]
+This is what's best,[.5] S[0xE9]tanta![.6][N]
+It's between the two of us![A][X]
 
 
 
 ## P1CFSadhbh2
-[ConversationText]
-[MidLeft][ClearFace][Right][ClearFace][FarRight][ClearFace][.......]
+[CloseSpeechSlow][MidLeft][ClearFace][Right][ClearFace][FarRight][ClearFace][.......]
 [Right][LoadMiach]
-Cethern?[MoveRight]
-Cethern!
+Cethern?[MoveRight] Cethern![A]
 
 [FarRight][LoadSadhbh]
-Stay away, Miach!
-I can't let you both get hurt!
+Stay away,[.5] Miach![.6] I can't[N]
+let you both get hurt![A]
 
 [Right][LoadMiach]
-Cethern![MoveRight]
-Let go of me, Sadhbh![X]
+Cethern![MoveRight] Let go of me,[.4] Sadhbh![A][X]
 
 
 
 ## P1CFOneHit
-[ConversationText]
 [MidRight][LoadCethern]
 [MidLeft][LoadJhudiel]
-You understand exactly what you're doing, right Cethern?
-Who you're facing, and the consequences of it?
+You understand exactly what[N]
+you're doing,[.5] correct?[AN]
+Who you're facing,[.5] and the[N]
+consequences of this duel?[A]
 
 [MidRight]
-I understand exactly what I'm doing.
-This is for my friends, my family...
-I can't let them get hurt!
+I understand exactly what I'm doing.[.6][N]
+This is for those I care about...[AN]
+I can't let you hurt them![A]
 
 [MidLeft]
-Then we'll both be trying our hardest.[MoveMidLeft]
-Hit me if you can![X]
+Your words are gallant.[.6] Let us see[N]
+if your actions ring the same![A][X]
 
 
 
 ## P1CFTwoHit
-[ConversationText]
 [MidRight][LoadCethern]
 [MidLeft][LoadJhudiel]
-You're competent, I'll give you that.
-But you're facing a stem of Heichalot.
-As much as I feel empathy towards your group...
-I cannot neglect my duty.
+You're competent,[.5] I'll give you that.[AN]
+But as much as I pity your group...[.5][N]
+I cannot neglect my duty.[A]
 
 [MidRight]
-I know that, Jhudiel.
-That's exactly what I'm counting on![X]
+I know that,[.5] Jhudiel.[AN]
+That's exactly what I'm counting on![A][X]
 
 
 
 ## P1CFJhudielPromise
-[ConversationText]
 [MidLeft][LoadJhudiel]
-The opposition has been dealt with.
-The rest can be taken back to camp.
+The opposition has been dealt with.[.6][N]
+The rest can be taken back to camp.[A]
 
 [FarFarLeft]
-Jhudiel, what is this?[X]
+Jhudiel,[.5] what is this?[A][X]
 
 
 
 ## P1CFCamnielPromise
-[ConversationText]
 [MidLeft][LoadCamniel]
 [MidRight][LoadJhudiel]
-Camniel, you missed me striking down Corbenic's opposition here.
-I was about to take these soldiers' surrender.
+Camniel,[.5] you missed me striking[N]
+down Corbenic's opposition.[AN]
+I was about to return to camp with[N]
+these prisoners.[A]
 
 [MidLeft]
-What are you talking about, Jhudiel?
-We were not supposed to add burden to ourselves.
-Prisoners are exactly what we were told not to take.
+What are you talking about,[.5] Jhudiel?[.6][N]
+We weren't supposed to take prisoners.[A]
 
 [MidRight]
-They cannot fight back against us, Camniel!
-Their leader is dead, their morale weakened...
-Do you ask of me to kill them?
+They cannot fight back, Camniel![AN]
+Their leader is dead,[.5] their morale[N]
+gone...[.6] Do you ask me to kill them?[A]
 
 [MidLeft]
-Of course I do not.
-That would be what the prince asked of us.
-Do you not remember his words?
+Of course not.[.6] That would be what[N]
+the prince asked of us.[AN]
+Do you not remember his words?[A]
 
 [MidRight]
-His words were not given to me by him.
-It was by his clergy.
+His words were not given to me by him.[AN]
+It was by his cardinals.[A]
 
 [MidLeft]
-And you distrust the clergy of Heichalot?
-Are you a traitor, Jhudiel?
+And you distrust those cardinals?[.6][N]
+Are you a traitor,[.5] Jhudiel?[A]
 
 [MidRight]
-I...
-I am not a traitor.
-I am Jhudiel, Shield Stem of Heichalot.
+I...[.7] am not a traitor.[AN]
+I am Shield Jhudiel,[.4][N]
+Stem of Heichalot.[A]
 
 [MidLeft]
-Then do what you were told to do.[X]
+Then follow your prince's orders.[.6][N]
+Execute his will.[A][X]
 
 
 
 ## P1CFJhudielBad
-[ConversationText]
 [MidLeft][LoadJhudiel]
-I am sorry to your group, but I cannot stand against my prince.
-This will be quick, I promise that.[X]
+I am sorry,[.5] but I cannot[N]
+stand against my prince.[AN]
+This will be merciful,[.4][N]
+I promise you that.[A][X]
 
 
 
 ## P1CFSadhbhRun
-[ConversationText]
 [MidRight][LoadSadhbh]
-Everybody!
-Fall back immediately![X]
+Everyone![.6] Retreat![A][X]
 
 
 
 ## P1CFSetantaRun
-[ConversationText]
 [MidRight][LoadSetanta]
-Damn!
-We all need to run, now![X]
+Damn![.6] We need to run,[.5] now![A][X]
 
 
 
 ## P1CFFerdiadRun
-[ConversationText]
 [MidRight][LoadFerdiad]
-Everybody, into the forest![X]
+Everybody,[.6] into the forest![A][X]
 
 
 
 ## P1CFEthniuRun
-[ConversationText]
 [MidRight][LoadEthniu]
-Retreat!
-They won't get any of us![X]
+Not today![.6]
+Everyone,[.5] run![A][X]
 
 
 
 ## P1CFHanlinRun
-[ConversationText]
 [MidRight][LoadHanlin]
-Move back into the forest!
-Now![X]
+Back into the forest![.6][N]
+Heichalot cannot win![A][X]
 
 
 
 ## P1CFMiachRun
-[ConversationText]
 [MidRight][LoadMiach]
-Everybody, run...![X]
+No...![.6] I won't![A][X]
 
 
 
 ## P1CFCamnielAngery
-[ConversationText]
 [MidRight][LoadJhudiel]
 [MidLeft][LoadCamniel]
-Look what you've done, Jhudiel.
-I'll be bringing this up with the prince![MoveMidLeft]
-Everybody, round them up!
-Dead or alive![X]
+Look what you've done,[.5] Jhudiel.[.6][N]
+I'm telling our prince of this![AN][MoveMidLeft]
+Everybody,[.5] round them up![.5][N]
+Dead or alive![A][X]
 
 
 
 ## P1CFJhudielRemorse
-[ConversationText]
 [MidRight][LoadJhudiel]
-None of this is right...
-This war isn't right.
-This slaughter isn't right.
-It'd be foolish to bring this up with the prince...[CloseEyes]
-My prince...
-I'm sorry to doubt you so.[X]
+None of this is right...[AN]
+This war is baseless,[.5] this[N]
+slaughter anything but just.[AN]
+Maghmeall will flow red once[N]
+more,[.5] my prince...[AN]
+Is this truly your desire?[AN][CloseSpeechSlow][.7]
+[MidRight]
+[LoadOverworldFaces][Beat][A][X]
 
 
 
 ## P1CFHouseStem
-[ConversationText]
 [MidRight][LoadFace][0xFF][0xFF]
 [MidLeft][LoadLittleGirl]
-Have you seen any of the Stems?
-They're so cool!
-Riding around, with their armour and weapons, taking out evil for the prince...
-I've heard that they've even gotten a new Stem!
-She apparently rides a pegasus!
-I want to ride a pegasus like that when I'm older![X]
+Have you ever met any of the Stems?[.6][N]
+They're so cool![AN]
+Riding around Maghmeall,[.5] taking out[N]
+corruption for the prince...[AN]
+I've heard that they've even gotten a new[N]
+Stem![.6] She apparently rides a pegasus![AN]
+I want to ride a pegasus when I'm older![A][X]
 
 
 
 ## P1CFHouseClergy
-[ConversationText]
 [MidRight][LoadFace][0xFF][0xFF]
 [MidLeft][LoadOldWoman]
-There's been a fair commotion in the clergy over Corbenic.
-And the prince has been hiding from the public too!
-I'm not sure what's going on, but it doesn't bode well for us.
-If he won't show his face, whose to say he's even still well?[X]
+There's been a fair commotion in[N]
+the clergy over Corbenic.[AN]
+Not to mention,[.5] the prince hasn't[N]
+shown himself in a while.[AN]
+I'm not sure what's going on,[.5] but[N]
+it doesn't bode well for us.[AN]
+If he won't show his face,[.5] who's[N]
+to say he's even still well?[A][X]
 
 
 
 ## P1CFHouseTrail
-[ConversationText]
 [MidRight][LoadFace][0xFF][0xFF]
 [MidLeft][LoadOldMan]
-Hello.
-We don't often get visitors here.
-Not many people have the bravery to trek through here.
-Especially during the winter!
-You're a courageous soul, you know that?[X]
+We don't often get visitors here.[AN]
+Not many people have the bravery[N]
+to trek to this valley...[AN]
+Especially during the winter![.5][N]
+You're one courageous soul![A][X]
+
+
+## P1CFFerdiadSadhbh
+[MidLeft][LoadFerdiad]
+[MidRight][LoadSadhbh]
+Ferdiad![.6] Watch yourself![AN]
+Enemies could emerge from the[N]
+darkness at any angle.[A]
+
+[MidLeft]
+I'm keeping an eye out,[.5] Lady Sadhbh.[.6][N]
+[Beat] Could I ask you something?[A]
+
+[MidRight]
+Is it important enough to[N]
+ask during a battle?[A]
+
+[MidLeft]
+Well,[.6] I'm trying to be optimistic,[.5] but[N]
+this fight seems...[.6] a little futile...[AN]
+If we fall here,[.5] I want to at least[N]
+know one thing:[.6] Is my mother okay?[A]
+
+[MidRight]
+That's your question?[.6] I'm afraid I[N]
+wouldn't know the answer.[AN]
+From what I heard at the encampment,[.5][N]
+she went missing in Heichalot.[A]
+
+[MidLeft]
+That's...[.6] what I expected...[.6][N]
+[Beat] Let's assume she's alive.[AN]
+
+[MidRight]
+That's a good assumption.[A]
+
+[MidLeft]
+What would happen if Heichalot[N]
+caught her?[A]
+
+[MidRight]
+[ToggleMouthMove].[.5].[.5].[ToggleMouthMove][A]
+
+[MidLeft]
+[Beat] Do you not want to tell me?[A]
+
+[MidRight]
+Keep an eye out while you listen.[AN][.6]
+It was when I was first bestowed the title[N]
+of Crownflier I met your mother.[AN]
+She had been in the Crownflight for a few[N]
+years before I joined.[AN]
+Back then,[.5] she was an oddity of the ranks.[.5][N]
+Her voice,[.5] her demeanor.[AN]
+She wasn't the paragon of perfection I'd[N]
+heard the Crownfliers were.[AN]
+
+[MidLeft]
+What does this have to do[N]
+with her right now?[A]
+
+[MidRight]
+As we got to know each other,[.5] she began[N]
+to tell me about her past.[AN]
+Stuff that I couldn't believe.[AN]
+She told me everything while we were out[N]
+on a dangerous mission in Macha.[AN]
+Our morale was low,[.5] our forces crippled...[.5][N]
+She wanted to tell someone.[AN]
+Tell someone else her truth if she didn't[N]
+end up making it back home.[AN]
+We ended up surviving.[.6] But when we made it[N]
+back,[.5] she made me promise something.[AN]
+A promise to never tell anyone what she[N]
+had told me that night.[A]
+
+[MidLeft]
+Does...[.5] that include me?[.6][N]
+Her own daughter?[A]
+
+[MidRight]
+She wanted to tell you everything.[.6][N]
+She only wanted the right time.[AN]
+While I can't break my promise to[N]
+her,[.5] I can divulge one thing.[AN]
+If Heichalot has captured A[0xED]fe...[.6][N]
+She'll manage.[.6] I'm sure.[A]
+
+[MidLeft]
+[Beat] So you won't tell me.[A]
+
+[MidRight]
+I'm sorry,[.5] Ferdiad.[A]
+
+[MidLeft]
+I...[.7] This doesn't help.[A]
+
+[MidRight]
+Is everything okay?[A]
+
+[MidLeft]
+Never mind.[.6] Never mind.[AN]
+We need to move our attention[N]
+back to the battle.[AN][CloseEyes]
+That's the only thing that[N]
+matters right now...[A][ClearFace][.7]
+
+[MidRight]
+I only made it worse for her...[.6][CloseEyes][N]
+I"m sorry,[.5] Ferdiad.[A][X]

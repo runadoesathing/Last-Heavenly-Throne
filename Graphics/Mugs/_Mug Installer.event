@@ -48,13 +48,8 @@ setMugSlot(VarunaPort, Varuna_Mug, Varuna_Minimug, Varuna_Palette, Varuna_Frames
 setMugSlot(NalaPort, Nandi_Mug, Nandi_Minimug, Nandi_Palette, Nandi_Frames, 3, 5, 3, 3)
 setMugSlot(NairatmyaPort, Nairatmya_Mug, Nairatmya_Minimug, Nairatmya_Palette, Nairatmya_Frames, 3, 6, 3, 4)
 setMugSlot(ChakoraPort, Chakora_Mug, Chakora_Minimug, Chakora_Palette, Chakora_Frames, 3, 5, 3, 3)
-
-// PLACEHOLDER
-setMugSlot(SirinPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
-
-// PLACEHOLDER
-setMugSlot(BirnathPort, Lalitha_Mug, Lalitha_Minimug, Lalitha_Palette, Lalitha_Frames, 2, 6, 3, 4)
-
+setMugSlot(SirinPort, Sirin_Mug, Sirin_Minimug, Sirin_Palette, Sirin_Frames, 2, 6, 3, 4)
+setMugSlot(BirnathPort, Birnath_Mug, Birnath_Minimug, Birnath_Palette, Birnath_Frames, 2, 6, 3, 4)
 setMugSlot(NakstraniPort, Nakstrani_Mug, Nakstrani_Minimug, Nakstrani_Palette, Nakstrani_Frames, 3, 6, 3, 4)
 setMugSlot(BabhruPort, Babhru_Mug, Babhru_Minimug, Babhru_Palette, Babhru_Frames, 3, 5, 3, 3)
 setMugSlot(GogaPort, Goga_Mug, Goga_Minimug, Goga_Palette, Goga_Frames, 3, 5, 3, 3)

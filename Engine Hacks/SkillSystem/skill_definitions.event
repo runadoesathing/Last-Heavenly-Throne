@@ -447,9 +447,9 @@
 //By SD9k
 #define HawkeyeID 255
 
-//Heavy Strikes: Add weapon weight to critical chance.
+//Resolute: Add weapon weight to hit chance.
 //By Datagne
-#define HeavyStrikesID 255
+#define HeavyStrikesID 127
 
 //Holy Aura: Gain +1 damage, +5% hit, +5% avoid, +5% crit when using light.
 //By Datagne
@@ -563,7 +563,7 @@
 
 //Tower Shield: Gain 6 defense against attacks recieved at range.
 //By Sme
-#define TowerShieldID 255
+#define TowerShieldID 128
 
 //Tower Shield+: Take no damage against attacks recieved at range.
 //By Sme

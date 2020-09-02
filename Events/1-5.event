@@ -24,6 +24,7 @@ END_MAIN
 CharacterBasedEvents:
 CharacterEventBothWays(0xF,GedeonRecruitE,Ethniu,Gedeon)
 CharacterEventBothWays(0xF,GedeonRecruitA,Aengus,Gedeon)
+CharacterEventBothWays(0x12,MiachSadhbhTalk,Miach,Sadhbh)
 END_MAIN
 
 LocationBasedEvents:
@@ -157,7 +158,7 @@ UNIT
 GedeonP:
 UNIT Gedeon Fighter 0x0 Level(4, Enemy, 0)    [3,0] 0 0 1 REDA3R1    [IronAxe, SpectreCard] [0x0,0x6,0x4,0x0]
 UNIT 0x84 LanceKnight 0x0 Level(4, Enemy, 1)    [3,0] 0 0 1 REDA3R0    [SteelLance] [0x0,0x6,0x4,0x0]
-UNIT 0x85 Mage 0x0 Level(4, Enemy, 1)    [3,0] 0 0 1 REDA4R0    [Fire,Elixir] [0x0,0x6,0x4,0x0]
+UNIT 0x85 Mage 0x0 Level(4, Enemy, 1)    [3,0] DropItem 0 1 REDA4R0    [Fire,Elixir] [0x0,0x6,0x4,0x0]
 UNIT
 
 Banditsu:
@@ -356,6 +357,7 @@ TEXTSTART
 TEXTSHOW P1C4CethernRealizesTheTruth
 TEXTEND
 REMA
+STAL 30
 CHECK_ALIVE Sadhbh
 BEQ 0xA0A0 0xC 0x0
 	LOAD2 0x1 SadhbhP
@@ -422,6 +424,7 @@ TEXTSTART
 TEXTSHOW P1C4RionallBetray
 TEXTEND
 REMA
+STAL 30
 LOAD2 0x1 TheBoisFromOchren
 ENUN
 CUMO [1,8]
@@ -497,22 +500,28 @@ NoFade
 ENDA
 
 GedeonRecruitA:
-MUSC 0x30
+MUSS 0x30
+STAL 33
+STORETOSOMETHING 0x0
 TEXTSTART
 TEXTSHOW P1C4GedeonAengus
 TEXTEND
 REMA
+MURE 0x2
 CUSA Gedeon
 ENUT 0xC
 NoFade
 ENDA
 
 GedeonRecruitE:
-MUSC 0x30
+MUSS 0x30
+STAL 33
+STORETOSOMETHING 0x0
 TEXTSTART
 TEXTSHOW P1C4GedeonEthniu
 TEXTEND
 REMA
+MURE 0x2
 CUSA Gedeon
 ENUT 0xC
 NoFade
@@ -568,6 +577,14 @@ MUSI // lowers music volume
 SVAL 0x2 InsideMapHouse // decides background 
 SVAL 0x3 P1C4RionallHouse // decides text id
 CALL 0x9EE310 // runs the text
+MUNO // increases music volume
+NoFade
+ENDA
+
+MiachSadhbhTalk:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+Text(P1C4MiachSadhbhTalk)
 MUNO // increases music volume
 NoFade
 ENDA

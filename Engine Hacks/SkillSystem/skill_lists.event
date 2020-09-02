@@ -11,7 +11,7 @@ BYTE 00 00
 ALIGN 4
 
 HobelarSkillList:
-BYTE 10 FierceStanceID
+BYTE 10 SolID
 BYTE 00 00
 ALIGN 4
 
@@ -163,19 +163,19 @@ BYTE 00 00
 ALIGN 4
 
 MercenarySkillList:
-BYTE 10 ArmsthriftID
+BYTE 10 ReliefID
 BYTE 00 00
 ALIGN 4
 
 HeroSkillList:
-BYTE 255 ArmsthriftID
+BYTE 255 ReliefID
 BYTE 1 DartingBlowID
 BYTE 00 00
 ALIGN 4
 
 RangerSkillList:
-BYTE 255 ArmsthriftID
-BYTE 1 NatureRushID
+BYTE 255 ReliefID
+BYTE 1 OpportunistID
 BYTE 00 00
 ALIGN 4
 
@@ -198,7 +198,7 @@ ALIGN 4
 
 GreatKnightSkillList:
 BYTE 255 DisciplineID
-BYTE 1 IndoorMarchID
+BYTE 1 TowerShieldID
 BYTE 00 00
 ALIGN 4
 
@@ -262,12 +262,12 @@ ALIGN 4
 
 ArbalestSkillList:
 BYTE 255 WardingBlowID
-BYTE 1 OpportunistID
+BYTE 1 HeavyStrikesID
 BYTE 00 00
 ALIGN 4
 
 VillagerSkillList:
-BYTE 10 UnderdogID
+BYTE 10 ArmsthriftID
 BYTE 00 00
 ALIGN 4
 

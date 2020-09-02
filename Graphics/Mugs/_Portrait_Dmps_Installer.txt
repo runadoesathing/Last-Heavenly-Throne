@@ -104,6 +104,19 @@ Babhru_Minimug:
 #incbin "Babhru_minimug.dmp"
 
 ALIGN 4
+Birnath_Mug:
+#incbin "Birnath_mug.dmp"
+ALIGN 4
+Birnath_Frames:
+#incbin "Birnath_frames.dmp"
+ALIGN 4
+Birnath_Palette:
+#incbin "Birnath_palette.dmp"
+ALIGN 4
+Birnath_Minimug:
+#incbin "Birnath_minimug.dmp"
+
+ALIGN 4
 Bres_Mug:
 #incbin "Bres_mug.dmp"
 ALIGN 4
@@ -570,6 +583,19 @@ Shuka_Palette:
 ALIGN 4
 Shuka_Minimug:
 #incbin "Shuka_minimug.dmp"
+
+ALIGN 4
+Sirin_Mug:
+#incbin "Sirin_mug.dmp"
+ALIGN 4
+Sirin_Frames:
+#incbin "Sirin_frames.dmp"
+ALIGN 4
+Sirin_Palette:
+#incbin "Sirin_palette.dmp"
+ALIGN 4
+Sirin_Minimug:
+#incbin "Sirin_minimug.dmp"
 
 ALIGN 4
 Soma_Mug:

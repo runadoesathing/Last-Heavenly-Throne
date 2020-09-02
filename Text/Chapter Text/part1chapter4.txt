@@ -1,67 +1,67 @@
 ## IshpanBQ
-[BattleText]
 [OpenMidLeft][LoadIshpan]
-Ochren has fallen beneath our heel.
-Why won't you be good and follow their example?[X]
+Ochren has taken their place[N]
+underneath our heel.[AN]
+Why won't you be good and[N]
+follow their example?[A][X]
 
 
 
 ## Miach1BQ
-[BattleText]
 [OpenMidLeft][LoadIshpan]
-Run along, knave.
-I do not wish to fight children.[ClearFace]
+Run along,[.5] knave.[.6] I do not[N]
+wish to fight children.[A][ClearFace]
 
 [OpenMidRight][LoadMiach]
-Well, I wish to fight you!
-How dare you invade us!
-What have we done to you?![ClearFace]
+Well,[.5] I wish to fight you![.6][N]
+How dare you invade us![AN]
+What have we done to you?![A][ClearFace]
 
 [OpenMidLeft][LoadIshpan]
-It is the will of the Heavenly Prince.
-His cardinals have decreed it so.
-If you truly wish to fight, child...
-I must honour your wishes.[X]
+It is the will of my prince.[.6][N]
+His cardinals decreed it so.[AN]
+If you truly wish to fight,[.4][N]
+child...[.6] I'll honour your wishes.[A][X]
 
 
 
 ## GedeonBQ
-[BattleText]
 [OpenMidLeft][LoadGedeon]
-It's nothing personal.
-This is just my job.[X]
+It's nothing personal.[.6] This[N]
+is just my job.[X]
 
 
 
 ## Gedeon1BQ
-[BattleText]
 [OpenMidLeft][LoadIshpan]
-So the mercenary returns with a new employer.
-Better offer?[ClearFace]
+So the mercenary returns[N]
+with a new employer.[AN]
+Why am I not surprised?[A][ClearFace]
 
 [OpenMidRight][LoadGedeon]
-That's how it works.
-You understand, don't you?[ClearFace]
+That's how it works.[.6] You[N]
+understand,[.5] don't you?[A][ClearFace]
 
 [OpenMidLeft][LoadIshpan]
-Hmph.[ToggleSmile]
-Indeed I do.
-[ToggleSmile]Now face me, traitorous sellsword![X]
+Hmph.[.6][ToggleSmile] Indeed I do.[.6][.4] [ToggleSmile]Now face[N]
+me,[.5] traitorous sellsword![A][X]
 
 
 
 ## IshpanDeathQ
-[BattleText]
 [OpenMidLeft][LoadIshpan]
-My death matters not.
-The rest of your nation shall soon respect the might of Heichalot, just as Ochren already has...[X]
+My death matters not.[AN]
+The rest of your nation shall[N]
+soon respect our might.[AN]
+The Heavenly Prince does not[N]
+take well to opposition...[A][X]
 
 
 
 ## GedeonEnemyDeathQ
-[BattleText]
 [OpenMidLeft][LoadGedeon]
-I can hear the bells toll once again...[X]
+No one can save me now...[.6][N]
+Not a prince nor a bearer...[A][X]
 
 
 
@@ -80,7 +80,7 @@ from the province of Ochren.[A][X]
 
 ## P1C4WMIntro2
 Ochren is a calm and quiet[N]
-land on the eastern part of[N]
+land on the western part of[N]
 Corbenic's dominion.[AN]
 Ruled by Lord Rionall, and covered[N]
 in untamed forests on one side[N]
@@ -293,9 +293,9 @@ before we break through![A][X]
 
 ## P1C4IshpanNotices
 [MidLeft][LoadIshpan]
-There![.6] Corbenic forces,[N] 
+There![.6] Corbenic forces,[N]
 coming from the trees![AN]
-Take your positions,[.5] men![AN]
+Take your positions,[.4] men![AN]
 You fight for both Ochren[N]
 and Heichalot![A][X]
 
@@ -303,7 +303,7 @@ and Heichalot![A][X]
 
 ## P1C4CethernRealizesTheTruth
 [MidRight][LoadCethern]
-They're fortified,[.5] yes.[.6] But they're set[N] 
+They're fortified,[.5] yes.[.6] But they're set[N]
 up towards this forest,[.5] not the trail...[AN][MoveMidRight]
 Have they betrayed Corbenic?![A]
 
@@ -685,7 +685,7 @@ back to camp could be dangerous.[AN]
 You and Miach need to flee south.[A]
 
 [MidLeft]
-With all respect,[.5] Lady Sadhbh...[.6][N]
+With all due respect,[.5] Lady Sadhbh...[.6][N]
 I'm not fleeing.[A]
 
 [Right]
@@ -709,7 +709,7 @@ Can you listen to me,[.5] Miach?[.6] Why can't[N]
 you just follow instructions?![A]
 
 [FarRight]
-If neither of you wish to flee,[.5][N]
+If neither of you wishes to flee,[.5][N]
 I cannot stop you.[AN]
 But I would never be able to sleep[N]
 at night if I left you alone.[AN][.5]
@@ -864,7 +864,7 @@ How the heck a book like this[N]
 goes from words to lightning...[AN]
 Maybe you'd have a better eye[N]
 for it than myself.[AN]
-An old man like me ain't gonna[N] 
+An old man like me ain't gonna[N]
 have much luck![A][X]
 
 
@@ -886,17 +886,17 @@ I don't want to fight you[N]
 either,[.5] Aengus.[AN]
 Didn't we just get a drink[N]
 together a month ago?[AN][MoveMidLeft]
-Now we're here.[A]
+Now look where we are.[A]
 
 [MidRight][ToggleSmile]
-Yeah,[.5] we did![.6][ToggleSmile] How much are[N]
-you gettin' for this?[A]
+So, how much are you[N]
+gettin' for this?[A]
 
 [MidLeft]
 To be perfectly frank,[.5][N]
 not that much.[AN]
-Not the best job,[.5] but[N]
-it's hard to get any.[A]
+Not the best job,[.5] but it's[N]
+what pays the most.[A]
 
 [MidRight]
 Why don't you join us?[AN]
@@ -987,8 +987,8 @@ He's always been the saviour of[N]
 Ochren.[.6] Our saviour.[AN]
 When Caer Siddi ignored our pleas[N]
 for help,[.5] he would answer us.[AN]
-Unlike the capital,[.5] he truly[N]
-treats us as his own.[AN]
+Unlike the capital,[.5] he truly treats[N]
+us as his own.[AN]
 It hurts to see this unfold...[A][X]
 
 
@@ -1003,171 +1003,198 @@ the Wardbearers.[AN]
 To come into contact with their[N]
 essence weakens the body.[AN]
 The scars it leaves behind hurt[N]
-both the body and soul.[AN]
-So if you ever see a diviner of[N]
-the Wardbearers...[AN]
-You'd be best suited dodging[N]
-their strikes.[A][X]
+the soul as much as the flesh.[AN]
+So, if you ever make a diviner[N]
+of the Wardbearers angry...[AN]
+Dodge their strikes.[.6] You'd hate[N]
+to live with the wounds.[A][X]
 
 
 
 ## P1C4SetFerForest
-[ConversationText]
 [FarFarRight][LoadCethern][MoveMidLeft]
 [FarFarRight][LoadSetanta][MoveRight]
 [FarFarRight][LoadFerdiad][MoveFarRight]
-These forests sure are dense...
-Even more than the ones back home.
+These forests sure are dense...[.6] Even[N]
+more than the ones back home.[A]
 
 [MidLeft]
-It's rockier too.
-Careful riding through.
+It's rockier too.[.6] Watch[N]
+where you're going.[AN]
 
 [Right]
-Have either of you ever been to Heichalot?
-Well, probably not you, Cethern.
+So...[.6] Have either of you[N]
+ever been to Heichalot?[A]
 
 [MidLeft]
-Definitely not.
-I've gone to Caer Siddi a few times with my grandfather...
-Not much else outside.
+I've gone to Caer Siddi a few[N]
+times with my grandfather...[AN]
+But never Heichalot.[.6] Not even[N]
+up to Uffren.[A]
 
 [FarRight]
-I've actually been to Heichalot a few times.
-I was really young though.
-Hard to recall anything about it.
+I've actually been there a few[N]
+times.[.6] I was pretty young, though.[AN]
+Hard to recall anything about it.[A]
 
 [Right]
-Oh, right!
-Fern, you're not from Cluain Bolg, are you?
+Oh, right![.6] Fern, you're not[N]
+from Cluain Bolg,[.4] are you?[A]
 
 [FarRight]
-For as long as I can remember, I've been in Cluain Bolg.
-But, if I can be honest...
-I'm not actually sure where I'm from.
+For as long as I can remember,[.5][N]
+I've been in Cluain Bolg.[AN]
+But in all honesty,[.5] I'm not[N]
+actually sure where I'm from.[A]
 
 [MidLeft]
-You're not sure?
-You've told us--
+You're not sure?[.6] You've told us--[A]
 
 [FarRight]
-I know what I've told you.
-That was just to get you off my back.
-But every time I've brought the question up, my parents avoid it.
+I know what I've told you two.[.6] That[N]
+was just to get you off my back.[AN]
+Every time I've brought the topic[N]
+up to my parents,[.5] they avoid it.[A]
+
+[MidLeft]
+That doesn't seem right at all.[.6][N]
+They've never told you?[A]
+
+[FarRight]
+It doesn't feel right either.[.6] What's the[N]
+worth of hiding where you're from?[A]
 
 [Right]
-They avoid it?
-That doesn't sound right.
+Do you think you're[N]
+from Heichalot?[A]
 
 [FarRight]
-It doesn't feel right either.
-What's worth hiding where you're from?
+I...[.7] It's not something[N]
+I can deny for sure.[A]
 
 [MidLeft]
-We're almost out of the forest.
-Let's keep moving forward.[X]
+.[.4].[.4].[A]
+
+[FarRight]
+.[.4].[.4].[A]
+
+[Right]
+[Beat] We're almost out of the forest.[.6][N]
+Let's keep moving forward.[A][X]
 
 
 
 ## P1C4SetForest
-[ConversationText]
 [FarFarRight][LoadCethern][MoveMidLeft]
 [FarFarRight][LoadSetanta][MoveMidRight]
 [MidLeft]
-Watch out, S[0xE9]tanta.
-The ground is rockier than it should be.
+Watch out,[.5] S[0xE9]tanta.[.6] The earth[N]
+is rockier than we're used to.[A]
 
 [MidRight]
-I've noticed that.[MoveMidRight]
-Hey, Cethern.
-Have you ever been to Heichalot?
+I've noticed that.[A][MoveMidRight]
+Hey,[.5] Cethern.[.6] Have you ever[N]
+been to Heichalot[A]
 
 [MidLeft]
-Definitely not.
-I've gone to Caer Siddi a few times with my grandfather...
-Not much else outside.
+I've gone to Caer Siddi a few[N]
+times with my grandfather...[AN]
+But never Heichalot.[.6] Not even[N]
+up to Uffren.[A]
 
 [MidRight]
-I haven't either...
-Do you think Fern ever went?
+I haven't either...[.6] Do you[N]
+think Fern ever went?[A]
 
 [MidLeft]
-Maybe she did.
-Her mother's in the Crownflight, so...
+Maybe she did.[.6] Her mother's[N]
+in the Crownflight, so...[A]
 
 [MidRight]
-... ...
-I don't know how we'll explain what happened to A[0xED]fe.
+[Beat] I don't know how we'll[N]
+explain what happened to A[0xED]fe.[A]
 
 [MidLeft]
-That'll be tough.
-She could be proud of Ferdiad, but...
-I couldn't imagine losing Airmed or Miach.
+That'll be tough.[.6][N]
+She could be proud of Ferdiad,[.4] but...[AN]
+Losing Airmed or Miach would devastate me.[N]
+I can't imagine losing a child.[A]
 
 [MidRight]
-Right...[MoveMidRight]
-Hey, the end of the forest is up ahead.
-We can finally get out of here.[X]
+[Beat] Hey,[.5] the end of the forest is up ahead.[N]
+We can finally get out of here.[A][X]
 
 
 
 ## P1C4FerForest
-[ConversationText]
 [FarFarRight][LoadCethern][MoveMidLeft]
 [FarFarRight][LoadFerdiad][MoveMidRight]
-These forests sure are dense...
-Even more than the ones back home.
+These forests sure are dense...[.6] Even[N]
+more than the ones back home.[A]
 
 [MidLeft]
-It's rockier too.
-Careful riding through.[MoveMidLeft]
-Hey, Ferdiad.
-Have you ever been to Heichalot?
+It's rockier too.[.6] Watch[N]
+where you're going.[AN][.6]
+Hey, Ferdiad.[.6] Have you[N]
+ever been to Heichalot?[A]
 
 [MidRight]
-I've actually been there a few times.
-I was really young though.
-Hard to recall anything about it.
+I've actually been there a few[N]
+times.[.6] I was pretty young, though.[AN]
+Hard to recall anything about it.[A]
 
 [MidLeft]
-You're not from Cluain Bolg, right?
-I can't say I've been outside of it much.
+Makes sense.[.6] You're not from[N]
+Cluain Bolg,[.5] after all...[A]
 
 [MidRight]
-For as long as I can remember, I've been in Cluain Bolg.
-But, if I can be honest...
-I'm not actually sure where I'm from.
+For as long as I can remember,[.5][N]
+I've been in Cluain Bolg.[AN]
+But in all honesty,[.5] I'm not[N]
+actually sure where I'm from.[A]
 
 [MidLeft]
-You're not sure?
-You've told us--
+You're not sure?[.6] You've told me--[A]
 
 [MidRight]
-I know what I've told you.
-That was just to get you off my back.
-But every time I've brought the question up, my parents avoid it.
+I know what I've told you.[.6] That[N]
+was just to get you off my back.[AN]
+Every time I've brought the topic[N]
+up to my parents,[.5] they avoid it.[A]
 
 [MidLeft]
-That doesn't seem right at all.
-They've never told you?
+That doesn't seem right at all.[.6][N]
+They've never told you?[A]
 
 [MidRight]
-It doesn't feel right either.
-What's worth hiding where you're from?
+It doesn't feel right either.[.6] What's the[N]
+worth of hiding where you're from?[A]
 
-[MidLeft][MoveMidLeft]
-We're almost out of the forest.
-Let's keep moving forward.[X]
+[MidLeft]
+[Beat] Do you think you're[N]
+from Heichalot?[A]
+
+[MidRight]
+[Beat] I can't deny the[N]
+possibility.[A]
+
+[MidLeft]
+Let's...[.5] just keep going.[AN]
+The end of this forest should[N]
+be in sight soon enough.[A][X]
 
 
 
 ## P1C4CethernForest
-[ConversationText]
-[FarFarRight][LoadCethern][MoveMidLeft]
-This forest sure is rocky...
-I'll have to be careful riding my horse through it.[MoveMidLeft]
-I wonder what Heichalot is like.
-Can't say I've ever been there.[X]
+[FarFarRight][LoadCethern][MoveMidRight]
+This forest sure is rocky...[AN]
+I'll have to be careful riding my[N]
+horse through it.[A]
+I wonder what Heichalot is like...[A][CloseSpeechSlow][MoveMidLeft]
+If grandfather is from Uffren,[.5] maybe[N]
+the people there know of him![AN]
+[Beat] I better not tell anyone there.[N]
+They may not like him as much as I do.[A][X]
 
 
 
@@ -1241,3 +1268,62 @@ with her every breath.[A][X]
 Units with a [ToggleRed]diamond[ToggleRed] on them will cause[N]
 a game over if they are killed.[......][N]
 Please be cautious.[A][X]
+
+
+
+## P1C4MiachSadhbhTalk
+[MidLeft][LoadMiach]
+[MidRight][LoadSadhbh]
+Is everything okay,[.5] Miach?[.6][N]
+You're not hurt,[.5] are you?[A]
+
+[MidLeft]
+I'm doing fine...[.6][N]
+Don't worry about me.[AN]
+I'm a lot stronger than[N]
+people might think.[A]
+
+[MidRight]
+I'm not trying to baby you.[AN]
+Your swordwork might be inexperienced,[.4][N]
+but you've got a strong foundation.[A]
+
+[MidLeft]
+Cethern likes to pretend that I'm just[N]
+a kid.[.6][ToggleSmile] Glad someone sees my worth![AN][ToggleSmile]
+Of course,[.5] if I knew how to ride a horse,[N]
+I'd be a lot better...[.6][ToggleSmile] Or a pegasus![AN]
+I could be a sky knight like my ma'![A]
+
+[MidRight][ToggleSmile]
+Your mother was a Crownflier?[AN]
+I didn't know Sir MacCumail had[N]
+a Crownflier daughter.[A]
+
+[MidLeft]
+Her name was Findch[0xF3]em.[.6] My grandfather[N]
+told me she was an amazing flier![A]
+
+[MidRight]
+That name sounds familiar...[.6][N]
+Where is she now?[A]
+
+[MidLeft]
+[Beat] She died when I was young.[.6][N]
+Out on a mission,[.5] I think.[A]
+
+[MidRight]
+I...[.6] didn't know.[.6][N]
+I'm sorry, Miach.[A]
+
+[MidLeft]
+It's okay, though.[.6] I'm gonna do her,[.5][N]
+my grandpa,[.5] and Cethern proud![AN][ToggleSmile]
+And once this is all over,[.5] maybe I[N]
+can see about being a Crownflier![A][ClearFace][.......][ToggleSmile]
+
+[MidRight]
+Poor kid.[.6] I didn't have the[N]
+heart to tell him...[AN]
+The Crownflight only allows[N]
+women in their ranks.[A][X]

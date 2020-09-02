@@ -25,7 +25,7 @@ add r2,r3
 mov r3,#23
 ldrb r2,[r2,r3]
 
-mov r1, #0x66
+mov r1, #0x60
 ldrh r0, [r4, r1]
 add r0, r2
 strh r0, [r4,r1]

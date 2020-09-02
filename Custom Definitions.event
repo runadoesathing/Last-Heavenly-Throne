@@ -275,6 +275,8 @@
 #define CluainBolgGone 0x78
 #define Part1Completed 0x79
 #define TimeSkipFlag 0x7A
+#define SetantaRetreat 0x7B
+#define EthniuRetreat 0x7C
 
 #define CethernPort 0x2
 #define AinghaPort 0x3

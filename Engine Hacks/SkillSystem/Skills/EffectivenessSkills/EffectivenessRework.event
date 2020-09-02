@@ -35,6 +35,7 @@ ItemEffectivenessPtr(WindSword, FlierEffectiveness)
 ItemEffectivenessPtr(Wind, FlierEffectiveness)
 ItemEffectivenessPtr(BodkinBow, BodkinEffectiveness)
 ItemEffectivenessPtr(CaltropBow, CaltropEffectiveness)
+ItemEffectivenessPtr(SlimBow, FlierEffectiveness)
 
 //Protector item (macro still works, even if it's wrongly named)
 ItemEffectivenessPtr(DelphiShield, FlierProtection)

@@ -449,7 +449,7 @@ cheese[X]
 energetic souls[X]
 
 ## JhudielLike1ID
-The Heavenly Prince[X]
+serving his country[X]
 
 ## JhudielLike2ID
 marble buildings[X]
@@ -497,13 +497,13 @@ breaking promises[X]
 180cm[X]
 
 ## JhudielAgeID
-46[X]
+39[X]
 
 ## JhudielHeightID
 192cm[X]
 
 ## JhudielAgePTSID
-54[X]
+47[X]
 
 ## JhudielHeightPTSID
 190cm[X]
@@ -515,7 +515,7 @@ breaking promises[X]
 157cm[X]
 
 ## CamnielLike1ID
-The Heavenly Prince[X]
+the Heavenly Prince[X]
 
 ## CamnielLike2ID
 foggy lakes[X]
@@ -525,6 +525,18 @@ bright red hair[X]
 
 ## CamnielDislike2ID
 temples[X]
+
+## CamnielAgeID
+43[X]
+
+## CamnielHeightID
+173cm[X]
+
+## CamnielAgePTSID
+51[X]
+
+## CamnielHeightPTSID
+173cm[X]
 
 ## NairatmyaLike1ID
 huge trees[X]
@@ -905,7 +917,7 @@ the clergy of Heichalot[X]
 horseback riding[X]
 
 ## RionallAgeID
-62[X]
+54[X]
 
 ## RionallHeightID
 182cm[X]

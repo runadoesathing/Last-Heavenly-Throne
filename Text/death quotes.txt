@@ -84,10 +84,10 @@ Please,[.5] keep my brother safe...[.6][N]
 
 
 ## SetantaDeathQ
-[BattleText]
 [OpenMidRight][LoadSetanta]
-I wasn't good enough for either of you...
-I'm running back to Cluain Bolg and staying there for good![X]
+This is too much...![AN]
+I'm returning to Cluain Bolg[N]
+to stay there for good![A][X]
 
 
 
@@ -100,8 +100,8 @@ Mother...?[......][N]
 
 ## HanlinDeathQ
 [OpenMidRight][LoadHanlin]
-Does the vigil...[.6][N]
-die with me...?[A][X]
+Does the vigil die with me?[.6][N]
+The corruption...[.6][CloseEyes] it cannot...[A][X]
 
 
 
@@ -113,54 +113,51 @@ daughter with my life...[A][X]
 
 
 ## LalithaDeathQ
-[BattleText]
 [OpenMidRight][LoadLalitha]
-Oh...[CloseEyes]
-I guess I wasn't as smart as I thought...[X]
+Oh...[.6][CloseEyes] I guess I wasn't as[N]
+smart as I thought...[A][X]
 
 
 
 ## AengusDeathQ
-[BattleText]
 [OpenMidRight][LoadAengus]
-No! I can't rest here...!
-I have to get...[CloseEyes] up...[X]
+No![.6] I can't rest here...![.6][N]
+I have to...[.6][CloseEyes] get up...[A][X]
 
 
 
 ## BresDeathQ
-[BattleText]
 [OpenMidRight][LoadBres]
-I'm not afraid of death.
-I'll see you soon,[CloseEyes] my...[X]
+I'm not afraid of death.[.6][N]
+I'll see you soon,[.5][CloseEyes] my...[A][X]
 
 
 
 ## EthniuDeathQ
-[BattleText]
 [OpenMidRight][LoadEthniu]
-[CloseEyes]So I was the incompetent one this entire time...[.....][OpenEyes]
-But running away isn't beneath me.
-I'm sorry, Aengus...[X]
+[CloseEyes]So I was the incompetent one[N]
+this entire time...[AN][OpenEyes]
+But running away isn't beneath[N]
+me.[.6] I'm sorry, Aengus...[A][X]
 
 
 
 ## GedeonDeathQ
-[BattleText]
 [OpenMidRight][LoadGedeon]
-I can hear the bells toll once again...[X]
+No one can save me now...[.6][N]
+Not a prince nor a bearer...[A][X]
 
 
 
 ## MiachDeathQ
-[BattleText]
 [OpenMidRight][LoadMiach]
-C[....]-Cethern...[CloseEyes][N]
-It hurts so much...[ClearFace]
+C[....]-Cethern...[.6][CloseEyes] It hurts...![.6][N]
+I'm sorry I wasn't stronger...[A][ClearFace]
 
 [LoadCethern]
-Miach![.....][CloseEyes] No...![......][OpenEyes]
-Please don't die on me, Miach!![X]
+Miach![.....][CloseEyes] No...![......][N][OpenEyes]
+You can't die on me, Miach![AN]
+I...[CloseEyes][.7] can't forgive myself...[A][X]
 
 
 
@@ -283,10 +280,9 @@ Is this truly worth it...?[X]
 
 
 ## DagmemaDeathQ
-[BattleText]
 [MidRight][LoadDagmema]
-I wasn't cut out for this...[N]
-I want... [CloseEyes]to go home...[X]
+I wasn't cut out for this...[.6][N]
+I want...[.6] [CloseEyes]to go home...[A][X]
 
 
 

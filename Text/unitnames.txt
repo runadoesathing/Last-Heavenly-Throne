@@ -477,6 +477,10 @@ Equip: Swords, axes, bows.[X]
 ## Villager_Name
 Villager[X]
 
+## Miach_Desc
+Common folk with little experience[N]
+in combat. Equip: Swords, staves.[X]
+
 ## Villager_Desc
 Common folk with little experience[N]
 in combat. Equip: Swords.[X]

@@ -348,7 +348,7 @@ Intimidate: -10 Avoid to[N]
 all enemies within 2 tiles.[X]
 
 ## SD_Opportunist
-Opportunist: +4 damage if[N]
+Trained Hunter: +4 damage if[N]
 the enemy cannot counter.[X]
 
 ## SD_Trample
@@ -719,7 +719,7 @@ them +2 Atk/Def until the next turn.[X]
 
 ## SD_Forager
 Forager: Recover 20% HP each turn[N]
-if on a Plain, Forest or Mountain.[X]
+if on a Plain, Forest or Hills tile.[X]
 
 ## SD_FullMetalBody
 Full Metal Body: This unit is[N]
@@ -763,7 +763,7 @@ to 20% of the enemy's max[N]
 HP after every battle.[X]
 
 ## SD_Hex
-Hex: -10 avoid to all[N]
+Hex: -10 Avoid to all[N]
 adjacent enemies.[X]
 
 ## SD_Barricade
@@ -971,7 +971,7 @@ Short Shield: Gain 6 defense[N]
 against attacks recieved in melee.[X]
 
 ## SD_TowerShield
-Tower Shield: Gain 6 defense[N]
+Impervious: Unit takes -4 damage[N]
 against attacks recieved at range.[X]
 
 ## SD_TowerShieldPlus
@@ -1174,8 +1174,8 @@ Indoor March: If unit is on[N]
 indoor terrain, unit gains +2 Mov.[X]
 
 ## SD_NatureRush
-Nature Rush: If unit is on[N]
-rough terrain, unit gains +2 Mov.[X]
+Nature Rush: If unit is on a Plain,[N]
+Forest, or Hills tile, unit gains +2 Mov.[X]
 
 ## SD_Amische
 Amische: This unit's religion prevents[N]
@@ -1221,9 +1221,9 @@ Quintain: +15 Hit against[N]
 unmounted units.[X]
 
 ## SD_Underdog
-Underdog: +15 Hit/Avo when unit level[N]
-is less than enemy's. (Promoted[N]
-units count as Level + 20).[X]
+Underdog: +15 Hit/Avo when unit's[N]
+level is less than enemy's level.[N]
+(Promoted units count as Level + 20).[X]
 
 ## SD_Chandelle
 Chandelle: +3 Avoid per space moved.[N]

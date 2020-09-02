@@ -8,15 +8,13 @@ a game over.[......] Please be cautious.[A][X]
 
 
 ## ChakoraDQ
-[BattleText]
 [MidLeft][LoadChakora]
-Damn the Anusuya Grove...
-Damn the Antariksan Order...[X]
+Damn the Anusuya Grove...[.6][N]
+Damn the Antariksan Order...[A][X]
 
 
 
 ## ChakoraBQ
-[BattleText]
 [MidLeft][LoadChakora]
 Ever since my banishment...[N]
 I've sought revenge.[AN]

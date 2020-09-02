@@ -125,6 +125,7 @@ ldr	r0, =SkillTester
 mov	lr,r0
 mov	r0,r5
 ldr	r1, =RenewalForagerIDLink
+ldrb r1,[r1]
 .short 0xf800
 cmp	r0,#0x0
 beq	no_forager
@@ -222,26 +223,6 @@ add r4,r0
 
 
 NoImbue:
-
-@check for Retrograde
-ldr	r0,=#0x202BCF0
-ldrh	r0, [r0,#0x10]
-mov	r1, #0x01
-and	r0, r1
-cmp	r0, #0x00
-beq	NoRetrograde
-
-ldr	r0, =SkillTester
-mov	lr,r0
-mov	r0,r5
-ldr	r1, =RenewalRetrogradeIDLink
-.short 0xf800
-cmp	r0,#0x0
-beq	NoRetrograde
- @add hp
- add r4, #30
- 
-NoRetrograde:
 
 mov r0, r4 @return the amount healed.
 pop {r4 - r6}
