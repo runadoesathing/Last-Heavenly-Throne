@@ -2,7 +2,7 @@
 //To disable a skill, define it as 255.
 //Skills are categorized broadly by where their effect is applied, in no particular order within each category.
 
-// Used up to: 126
+// Used up to: 130
 
 //AI Skills
 
@@ -172,7 +172,7 @@
 
 //Void Curse: This unit gives no experience when defeated.
 //By Sme
-#define VoidCurseID 255
+#define VoidCurseID 130
 
 //Growth Skills
 
@@ -320,6 +320,9 @@
 
 //Anticipation: Unit gains +2 Avoid for each point of Speed, instead of +1.
 #define AnticipationID 126
+
+//Archetype: Unit adds half their Defense to their Hit.
+#define ArchetypeID 129
 
 //Axefaith: Axes can't lose durability, and grants +Luck*1.5 Hit when wielding axes.
 //By 2WB & Colorz

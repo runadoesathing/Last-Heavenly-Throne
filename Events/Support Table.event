@@ -115,19 +115,23 @@ NewSupportTable:
   BYTE 4 //number of partners
   BYTE 0x0 0x0 //separator
 
-  SirinSupport:
-  SupportCompatibility(Birnath,Sadhbh,Flidais,Sanjana,0,0,0)
-  SupportInitialValues(0,0,0,0,0,0,0)
-  SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 3 //number of partners
-  BYTE 0x0 0x0 //separator
+  // WRITTEN: Birnath
+  // INSERTED: Birnath (C)
+    SirinSupport:
+    SupportCompatibility(Birnath,Sadhbh,Flidais,Sanjana,0,0,0)
+    SupportInitialValues(0x51,0,0,0,0,0,0)
+    SupportPerChapter(0,0,0,0,0,0,0)
+    BYTE 3 //number of partners
+    BYTE 0x0 0x0 //separator
 
-  BirnathSupport:
-  SupportCompatibility(Sirin,SinGu,0,0,0,0,0)
-  SupportInitialValues(0,0,0,0,0,0,0)
-  SupportPerChapter(0,0,0,0,0,0,0)
-  BYTE 2 //number of partners
-  BYTE 0x0 0x0 //separator
+  // WRITTEN: Sirin
+  // INSERTED: Sirin (C)
+    BirnathSupport:
+    SupportCompatibility(Sirin,SinGu,0,0,0,0,0)
+    SupportInitialValues(0x51,0,0,0,0,0,0)
+    SupportPerChapter(0,0,0,0,0,0,0)
+    BYTE 2 //number of partners
+    BYTE 0x0 0x0 //separator
 
   SinGuSupport:
   SupportCompatibility(Hanlin,Sengann,Birnath,Gusainji,0,0,0)

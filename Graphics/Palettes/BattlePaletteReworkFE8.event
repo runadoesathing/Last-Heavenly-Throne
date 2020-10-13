@@ -108,6 +108,8 @@ BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 
 VagabondPaletteList:
+PaletteAssociationEntry(Ferdiad, $33)
+PaletteAssociationEntry(Aingha, $33)
 BYTE $00 $00 $00 $00 $00 $00 $00 $00
 ALIGN 4
 

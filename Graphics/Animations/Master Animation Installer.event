@@ -12,7 +12,7 @@
 #define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
 #define SpearAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
 #define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
-#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE ShortAxe 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
 #define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
 #define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
 #define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
@@ -189,6 +189,12 @@
 #include "Trobairitz PikminMaiser/Unarmed/Unarmed Installer.event"
 }
 {
+#include "Vagabond/5. Bow/Bow Installer.event"
+}
+{
+#include "Vagabond/8. Unarmed/Unarmed Installer.event"
+}
+{
 #include "Villager M (Nuramon)/1. Sword/Sword Installer.event"
 }
 {
@@ -243,11 +249,10 @@
 #include "Wyvern Rider/Handaxe/Handaxe Installer.event"
 }
 
-ConallAnim:
-SwordAnim(0x34)
-SpearAnim(0x35)
-UnarmedAnim(0x36)
-WORD 0x0    // Seperator
+VagabondAnim:
+BowAnim(0x1)
+UnarmedAnim(0x2)
+WORD 0x0    // Separator
 
 CavalierMAnim:
 SwordAnim(0x34)
@@ -255,18 +260,18 @@ SpearAnim(0x35)
 AxeAnim(0xd2)
 HandAxeAnim(0xd3)
 UnarmedAnim(0x36)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 CavalierFAnim:
 SwordAnim(0x37)
 SpearAnim(0x38)
 UnarmedAnim(0x39)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 BowCavalierAnim:
 BowAnim(0xd4)
 UnarmedAnim(0xd5)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 KnightAnim:
 SwordAnim(0xcb)
@@ -275,94 +280,94 @@ AxeAnim(0xca)
 HandAxeAnim(0xcc)
 BowAnim(0xea)
 UnarmedAnim(0x41)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 WyvernRiderAnim:
 AxeAnim(0xcd)
 HandAxeAnim(0xce)
 UnarmedAnim(0x59)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 VillagerMAnim:
 SwordAnim(0xd6)
 UnarmedAnim(0xd7)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 VillagerFAnim:
 SwordAnim(0xd8)
 UnarmedAnim(0xd9)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 SibylAnim:
 StaffAnim(0xda)
 UnarmedAnim(0xdb)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 HalberdierAnim:
 SpearAnim(0xdc)
 UnarmedAnim(0xdd)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 HalberdierFAnim:
 SpearAnim(0xde)
 UnarmedAnim(0xd1)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 SoldierFAnim:
 SpearAnim(0xcf)
 UnarmedAnim(0xd0)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 AssassinMAnim:
 SwordAnim(0x8B)
 BowAnim(0xDF)
 UnarmedAnim(0x8C)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 AssassinFAnim:
 SwordAnim(0x8D)
 BowAnim(0xE0)
 UnarmedAnim(0x8E)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 WyvernLordAnim:
 SwordAnim(0x5C)
 AxeAnim(0x5D)
 HandAxeAnim(0x5F)
 UnarmedAnim(0x5E)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 WyvernKnightAnim:
 SpearAnim(0x62)
 AxeAnim(0x60)
 HandAxeAnim(0x61)
 UnarmedAnim(0x63)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 WarClericAnim:
 AxeAnim(0xE1)
 HandAxeAnim(0xE2)
 StaffAnim(0xE3)
 UnarmedAnim(0xE4)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 WarMonkAnim:
 AxeAnim(0xE5)
 HandAxeAnim(0xE6)
 StaffAnim(0xE7)
 UnarmedAnim(0xE8)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 GoldKnightAnim:
 AxeAnim(0x3B)
 HandAxeAnim(0xE9)
 SwordAnim(0x3A)
 UnarmedAnim(0x3C)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator
 
 FemaleDivinerAnim:
 AnimaAnim(0xEB)
 LightAnim(0xEB)
 DarkAnim(0xEB)
 UnarmedAnim(0xEB)
-WORD 0x0    // Seperator
+WORD 0x0    // Separator

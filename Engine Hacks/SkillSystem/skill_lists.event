@@ -290,3 +290,9 @@ AteamSkillList:
 BYTE 1 NullifyID
 BYTE 00 00
 ALIGN 4
+
+AnilaVoidSkillList:
+BYTE 1 SecondWindID
+BYTE 1 VoidCurseID
+BYTE 00 00
+ALIGN 4

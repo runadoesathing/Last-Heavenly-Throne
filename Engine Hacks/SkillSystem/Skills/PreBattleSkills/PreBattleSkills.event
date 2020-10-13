@@ -392,3 +392,9 @@ Anticipation:
 #incbin "Anticipation/Anticipation.dmp"
 POIN SkillTester
 WORD AnticipationID
+
+ALIGN 4
+Archetype:
+#incbin "Archetype/Archetype.dmp"
+POIN SkillTester
+WORD ArchetypeID

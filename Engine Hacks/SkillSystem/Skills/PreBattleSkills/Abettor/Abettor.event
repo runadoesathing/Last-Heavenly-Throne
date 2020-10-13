@@ -10,4 +10,4 @@ ALIGN 4
 RallyDefTester:
 #incbin "RallyDefTester.dmp"
 POIN SkillTester
-WORD RallyDefID
+WORD ArchetypeID

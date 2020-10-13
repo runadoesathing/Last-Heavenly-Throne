@@ -83,7 +83,7 @@ Ochren[X]
 Nandi[X]
 
 ## SirinName
-Sirin[X]
+Shirin[X]
 
 ## BirnathName
 Birnath[X]
@@ -1047,3 +1047,6 @@ Non-magic users only.[X]
 
 ## RescueCardName
 Rescue Card[X]
+
+## ShortAxeName
+Short Axe[X]

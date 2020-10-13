@@ -111,7 +111,6 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-//CALL FEE3TrailerEvent
 SetBackground(0x35)
 SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
 STAL 60

@@ -568,15 +568,16 @@ MUSCMID 0x7FFF
 FADI 4
 STAL 60
 LABEL 0xFEFE
-
-/* FEE3 ending
 SetBackground(BlackCG)
-Text(FEE3Over)
+CALL 0x591F40
+SVAL 0xB 0xFFFFFFFF // coordinates for the tutorial text box (0xFFFFFFFF loads in the centre)
+TUTORIALTEXTBOXSTART
+TEXTSHOW FEE3Over
+TEXTEND
+REMA
 FADI 4
 MNTS 0x0
-*/
-
-MNC2 0x8
+//MNC2 0x8
 NoFade
 ENDA
 

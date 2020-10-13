@@ -25,8 +25,8 @@
 #include "windsofchange.event"
 }
 {
-#include "northernwind.event"
+//#include "northernwind2.event"
 }
 {
-#include "anala.event"
+//#include "anala.event"
 }

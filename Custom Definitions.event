@@ -44,7 +44,9 @@
 #define Srihwen 0xF
 #define Rudram 0x10
 #define Nala 0x11
+#define Nandi 0x11
 #define Sirin 0x12
+#define Shirin 0x12
 #define Birnath 0x13
 #define SinGu 0x14
 #define Len 0x15
@@ -100,6 +102,7 @@
 #define Malava 0x8C
 #define MalavaMag 0x8D
 #define AntariksaGuard 0x8E
+#define AnilaVoid 0x8F
 
 #define Sibyl 0x1
 #define Hobelar 0x2
@@ -114,6 +117,7 @@
 #define LanceKeeper 0x9
 #define LanceKeeper_F 0xA
 #define Vagabond 0x10
+#define Termagant 0x10
 #define Thief_F 0x12
 #define Diabolist 0x25
 #define Diabolist_F 0x26
@@ -193,6 +197,7 @@
 #define Kachchhapa 0xC3
 #define BodkinBow 0xC4
 #define CaltropBow 0xC5
+#define ShortAxe 0xC6
 
 #define ClonkeineLock 0x1
 #define PadmaLock 0x2

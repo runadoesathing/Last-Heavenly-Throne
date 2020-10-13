@@ -134,7 +134,7 @@ my people are in danger?![A]
 
 [Right]
 To be fair to Soma,[.5] you're talking[N]
-about her grove being in danger.[A]
+about her grove being at risk.[A]
 
 [MidLeft]
 Soma,[.5] I understand your concern.[AN]

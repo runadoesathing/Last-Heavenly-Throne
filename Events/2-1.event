@@ -86,8 +86,8 @@ UNIT Anila Myrmidon Shuka Level(2, Enemy, 1)    [14,9] 0 0 1 REDA14R9 [SteelSwor
 UNIT
 
 ReinforcementsTime:
-UNIT Anila SwordCav Shuka Level(1, Enemy, 1)    [0,2] 0 0 1 REDA0R2 [IronSword] [0,0,4,0]
-UNIT Anila AxeCav Shuka Level(1, Enemy, 1)    [0,3] 0 0 1 REDA0R3 [IronAxe] [0,0,4,0]
+UNIT AnilaVoid SwordCav Shuka Level(5, Enemy, 1)    [0,2] 0 0 1 REDA0R2 [SteelSword] [0,0,4,0]
+UNIT AnilaVoid AxeCav Shuka Level(5, Enemy, 1)    [0,3] 0 0 1 REDA0R3 [SteelAxe] [0,0,4,0]
 UNIT
 
 BANDITNO:

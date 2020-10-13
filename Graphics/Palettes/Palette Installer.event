@@ -193,3 +193,6 @@ Alvarin_WyvernLord:
 Trieu_Myrmidon:
 	#incbin "./_palettes/Trieu_Myrmidon.lzpal"
 
+Aingha_Termagant:
+	#incbin "./_palettes/Aingha_Termagant.lzpal"
+

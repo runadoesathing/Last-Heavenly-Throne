@@ -107,7 +107,7 @@ ItemIconSlot(0x6B,"Weapon Icons/Items/Elixir.png")
 ItemIconSlot(0x6C,"Weapon Icons/Items/PureWater.png")
 ItemIconSlot(0x6D,"Weapon Icons/Items/Antitoxin.png")
 ItemIconSlot(0x6E,"Weapon Icons/Items/Torch.png")
-//0x6F - whip thing (replaceable?)
+ItemIconSlot(0x6F,"Weapon Icons/Items/ShortAxe.png")
 
 ORG 0x5926F4+(0x80*0x70)
 #incbin "Weapon Icons/SwordProf.dmp"
@@ -216,7 +216,7 @@ ItemIconSlot(0xAF,"Weapon Icons/Items/Wind.png")
 ItemIconSlot(0xB6,"Weapon Icons/Items/Dragonspear.png")
 //0xB7 - replaceable
 //0xB8 - replaceable
-//0xB9 - replaceable
+ItemIconSlot(0xB9,"Weapon Icons/Items/Hatchet.png")
 //0xBA - replaceable
 //0xBB - replaceable
 //0xBC - replaceable

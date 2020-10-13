@@ -1,50 +1,55 @@
 ## NakstraniBQ
-[BattleText]
 [MidLeft][LoadNakstrani]
-So we must fight...
-This is unfortunate.[X]
+Must we fight...?[.6] Unfortuante.[.6][N]
+If I truly must,[.5] I will.[A][X]
 
 
 
 ## BabhruBQ
-[BattleText]
 [MidLeft][LoadBabhru]
-For the unity of both Anila and Antariksa...
-I must halt your passage![X]
+So it is shown.[.6] Our orders[N]
+cannot exist in peace.[AN]
+One of us must fall here![A][X]
 
 
 
 ## BabhruSrihwenQ
-[BattleText]
 [MidLeft][LoadBabhru]
-You're that false prophet Dhara keeps locked away...
-The one responsible for our Shuka's death![ClearFace]
+You're that false prophet[N]
+Dhara keeps locked away...[AN]
+The one responsible for[N]
+our Shuka's death![A][ClearFace]
 
 [MidRight][LoadSrihwen]
-What do you want with me?
-Am I truly so important...?[ClearFace]
+What do you want with me?[.6][N]
+Am I truly so important...?[A][ClearFace]
 
 [MidLeft][LoadBabhru]
-Your order holds you on an altar of lies.
-Hwen and Bhatn would seek your death![ClearFace]
+Your order holds you on[N]
+an altar of lies.[AN]
+Hwen and Bhatn would seek[N]
+your death![A][ClearFace]
 
 [MidRight][LoadSrihwen]
-I follow the Springmother's heart...
-You can't--![ClearFace]
+I follow the Springmother's[N]
+desires...[.6] You can't--![A][ClearFace]
 
 [MidLeft][LoadBabhru]
-You could never comprehend the divinity of Anila...
-So who tells you the lies of Hwen's heart?
-Your hag of a greatmother?
-Those delusions in your head?
-I'll silence your lies, I can promise you that![X]
+You could never comprehend[N]
+the divinity of Anila...[AN]
+So who tells you these[N]
+fabrications?[AN]
+Your hag of a greatmother?[.5][N]
+Those delusions of yours?[AN]
+I'll silence your lies,[.5] I can[N]
+promise you that![A][X]
 
 
 
 ## BabhruDQ
-[BattleText]
 [MidLeft][LoadBabhru]
-I send curses upon you from the bearers...[X]
+I die for my beliefs...[.7][N]
+You shall join me soon![A][X]
 
 
 
@@ -64,58 +69,69 @@ I can feel your feet sulk on the ground.[A]
 [MidLeft]
 You can feel it in my footsteps?[......][N]
 No magic tome can do that...[AN]
-You're lying, aren't you?
-Trying to fool me into your cause?
+You're lying,[.5] aren't you?[.6] Trying[N]
+to fool me into your cause?[A]
 
 [MidRight]
-The Springmother brings me many blessings...
-Your movements tell me that you're reluctant to fight against us.
-You don't have to believe in my powers.
-But will you believe me when I say I don't wish to fight you either?
+The Springmother has given me[N]
+many of her blessings...[AN]
+Your movements tell me you're[N]
+reluctant to fight against us.[AN]
+Will you believe me if I say I[N]
+don't wish to fight you either?[A]
 
 [MidLeft]
-I...[MoveMidLeft]
-What is it, then?
-Do you wish to capture me?
-Hold me ransom against my greatmother?
+Do you wish to proselytize me[N]
+to your Springmother?[AN]
+Is that your goal?[.6] You're not much[N]
+different than Antariksa.[A]
 
 [MidRight]
-Join us, please.[.....]
-Our group is worried over the balance of Bhuloka...
-Fight with us, and we can find a better solution than war.
+No...![.6] I want you to join us![AN]
+Our grove is worried over the[N]
+balance of Bhuloka...[AN]
+We're not looking to conquer.[.5][N]
+All we want is peace.[A]
 
 [MidLeft]
-That sounds silly.[.....]
-I'm not sure if there's a way to stop this fighting.
-But, as much as I believe that there's no solution...[.....]
-I want to find one.
-What is your name, oracle?
+You seek peace,[.5] yet you find[N]
+it by fighting the orders...[AN]
+No matter who wins,[.5] this will[N]
+paint Bhuloka with blood.[AN]
+But,[.4] as much as I believe[N]
+there's no solution...[AN]
+I want to find one.[.6] I want to[N]
+fight alongside you.[AN]
 
 [MidRight]
-My name is Srihwen.[MoveMidRight]
-Quickly, before the Anilan Order notices us...![X]
+Then we should move before the[N]
+Anilan Order notices us...![A][X]
 
 
 
 ## P2C3NakstraniDoubt
-[ConversationText]
 [MidRight][LoadNakstrani]
-So they're here already...
-It looks like this truly will be a war.
-Is this really worth it, greatmother?
+So they're here already...[AN]
+It looks like this truly[N]
+will be a war.[AN]
+Is this really worth it,[.4][N]
+greatmother?[A]
 
 [MidLeft][LoadEnemySoldier]
-Hey, lassie!
-Just because you're Antariksan don't give you a free pass!
-You still gotta fight with the rest of us!
+Hey,[.5] lassie![.6] Back to earth![AN]
+Just because you're Antariksan[N]
+don't give you a free pass.[AN]
+You still gotta fight with the[N]
+rest of us![A]
 
 [MidRight][MidLeft][ClearFace][......][MidRight]
-Hmm...
-I can cover this road.
-Nobody'll come up from there, so I should be a little safer.
-I wonder if that pale harpy they're so obsessed with is here?
-Not like that would change much, though...
-It seems I'm doomed no matter what.[X]
+Hmm...[.6] I can hide in the woods.[AN]
+Nobody'll come up from there,[.5] so[N]
+I should be a little safer.[AN]
+I wonder if that pale harpy they're[N]
+so obsessed with is here?[AN]
+Not like that would change much...[.5][N]
+It seems Bhuloka is damned.[A][X]
 
 
 
@@ -135,21 +151,6 @@ this?[......] If so,[.....] it's yours.[A][X]
 
 
 
-## P2C3HandAxeVillage
-[MidLeft][LoadFace][0xFF][0xFF]
-[MidRight][LoadBlandMan]
-Have you ever wondered why a hand[N]
-axe always flies back to its owner?[AN]
-[MoveMidRight]Don't expect me to tell you why![......][N]
-I'm just as curious as you are![AN]
-It's gotta be magic, I'm telling you.[......][N]
-Some sort of hocus pocus stuff.[AN]
-Here,[.....] you could take one and find[N]
-out the answer for me.[AN]
-Just make sure you come back![A][X]
-
-
-
 ## P2C3MendVillage
 [MidLeft][LoadFace][0xFF][0xFF]
 [MidRight][LoadEnemySoldier]
@@ -158,4 +159,220 @@ I'm too young to die![AN]
 I can't even fight![.5] Please![.5][N]
 I'm just a healer![AN]
 Here,[.....] take what I have...[......][N]
-Just please let me live![A][X]
+Just please,[.4] let me live![A][X]
+
+
+
+## P2C3ForestEvent
+[FarFarRight][LoadFace][0xFF][0xFF]
+[MoveMidRight]
+Looks like no one's here.[.7][N][CloseEyes]
+It's so quiet and secluded...[AN][OpenEyes][CloseSpeechSlow][MoveRight][.6]
+There's an axe stuck in this tree.[.7][N]
+Maybe if I can get it out...[.6][MoveRight] Hah![A][CloseSpeechSlow][MoveMidRight]
+There we go![.6][ToggleSmile] Let's keep moving.[A][X]
+
+
+
+## AnilaText
+Anila[X]
+
+
+
+## P2C3MenOutsideHouse
+[Right][LoadVaruna][FarRight][LoadNala][X]
+
+
+
+## P2C3NalaOutsideHouse
+[MidRight][LoadNandi][X]
+
+
+
+## P2C3VarunaOutsideHouse
+[MidRight][LoadVaruna][X]
+
+
+
+## P2C3EthniuAppears
+[FarFarLeft][LoadEthniu][MoveLeft][FarFarLeft][LoadSoma][MoveFarLeft]
+Good morning![.6] Did you get a good sleep?[A][X]
+
+
+
+## P2C3SomaAppears
+[FarFarLeft][LoadSoma][MoveMidLeft]
+Good morning![.6] Did you get a good sleep?[A][X]
+
+
+
+## P2C3VarunaMadNalaRespond
+[Right]
+We were packed like rats in there![.6][N]
+How did you expect us to sleep?![A]
+
+[FarRight]
+It wasn't that bad...[.6] Not the best conditions,[.5][N]
+but I've definitely been less comfortable.[A][X]
+
+
+
+## P2C3NalaOkay
+[MidRight]
+It wasn't that bad...[.6] Not the best conditions,[.5][N]
+but I've definitely been less comfortable.[A][X]
+
+
+
+## P2C3VarunaMad
+[Right]
+We were packed like rats in there![.6][N]
+How did you expect us to sleep?![A][X]
+
+
+
+## P2C3SanjanaIsThere
+[Right][ClearFace][LoadSanjana][ToggleSmile]
+I'd do it again.[A][ToggleSmile][X]
+
+
+
+## P2C3SanjanaIsThereToPush
+[MidRight][MoveFarRight][Right][LoadSanjana][ToggleSmile]
+I'd do it again.[A][ToggleSmile][X]
+
+
+
+## P2C3BirnathArrivesWithOne
+[MidRight][MoveRight][FarRight][LoadBirnath]
+You must be the girls the greatmother was[N]
+talking about.[.6][ToggleSmile] How great to meet you![A][ToggleSmile][X]
+
+
+
+## P2C3BirnathArrivesWithTwo
+[FarRight][ClearFace][LoadBirnath]
+You must be the girls the greatmother was[N]
+talking about.[.6][ToggleSmile] How great to meet you![A][ToggleSmile][X]
+
+
+
+## P2C3EthniuWho
+[Left]
+Excuse me,[.5] who are you?[A]
+
+[FarLeft][ClearFace][LoadKhema]
+I believe I can explain who he is.[.6][N]
+That's Birnath,[.5] a knight of Pancala.[AN]
+While you were gone,[.5] I explained our[N]
+situation to the houses of Srughna.[AN]
+Though I couldn't get any aid,[.5] he and[N]
+another agreed to help in our defense.[A][X]
+
+
+
+## P2C3SomaWho
+[MidLeft]
+Wait a minute...[.6] I don't remember you![A]
+
+[FarFarLeft][LoadKhema][MoveFarLeft][MidLeft][MoveLeft][FarLeft]
+I believe I can explain who he is.[.6][N]
+That's Birnath,[.5] a knight of Pancala.[AN]
+While you were gone,[.5] I explained our[N]
+situation to the houses of Srughna.[AN]
+Though I could not find any aid,[.5] he and[N]
+another agreed to help in our defense.[A][X]
+
+
+
+## P2C3SanjanaPegasus
+[Right]
+Where is she, anyways?[.6] Her pegasus[N]
+wouldn't shut up last night.[A][X]
+
+
+
+## P2C3BirnathWhatsThePlan
+[FarRight]
+So,[.4] what's on the schedule for[N]
+your monastery today?[A][CloseSpeechSlow]
+
+[FarLeft][MoveLeft]
+We are gathered here to exchange[N]
+information,[.5] Birnath.[AN]
+We shall determine our best course[N]
+of action once we talk.[AN]
+
+[FarLeft]
+I found out after the assault that[N]
+Prabhasa's currently ambivalent.[AN]
+There's been some internal strife[N]
+about who to side with.[A][X]
+
+
+
+## P2C3EthniuInterject
+[FarLeft][CloseSpeechSlow][MoveLeft][FarLeft][ClearFace][LoadEthniu]
+Prabhasa?[.6] Did Bres finally take[N]
+over as the greatfather?[A]
+
+[Left]
+It was someone named Bholenath who[N]
+told them of the situation.[AN]
+He wanted to assist us, but some[N]
+of their monks wish to defect.[A]
+
+
+
+## P2C3KhemaPrabhasa
+[FarLeft][ClearFace][LoadKhema]
+Assuming Prabhasa comes to our aid,[.6][N]
+we still face a numbers problem.[AN][.6]
+Unless we sought help from...[.6][MoveFarLeft]
+But it'd pose too much risk.[A]
+
+
+
+## P2C3MariciRisky
+[Right][LoadMarici]
+Risk?[.6] You know we're not afraid[N]
+of a little risk,[.5] ma'am![A]
+
+
+
+## P2C3BholenathRisky
+[FarRight]
+A little risk won't stop us![.6][N]
+What's your plan,[.5] madam?[A]
+
+
+
+## P2C3KhemaPavaka
+[FarLeft]
+Those most likely to join us would[N]
+be the order of the Pavakan people.[AN]
+The descendants of Bhatn would never[N]
+go against our bearers' pact.[AN]
+Our only issue lies in finding the[N]
+location of their monastery.[A]
+
+
+
+## P2C3VarunaExclamation
+[Right][LoadVaruna]
+I've got a wyvern![.6] And there's[N]
+a pegasus out back.[AN]
+We should be able to find their[N]
+home no problem if we--[A]
+
+
+## P2C3VarunaExclamationNMS
+[Right]
+I've got a wyvern![.6] And there's[N]
+a pegasus out back.[AN]
+We should be able to find their[N]
+home no problem if we--[A]
+
+
+
+## P2C3KhemaPavaka2

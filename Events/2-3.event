@@ -14,9 +14,8 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TURN 0x0 NakstraniAppear [1,0] 0x0
-TURN 0x0 BanditoYi [4,0] 0x0
-TURN 0x0 BanditoEr [5,0] 0x0
-TURN 0xF Speakers [1,255] 0x0
+TURN 0xE EasternRein [1,255] 0x0
+TURN 0xF NorthernRein [1,255] 0x0
 END_MAIN
 
 CharacterBasedEvents:
@@ -24,18 +23,21 @@ CharacterEventBothWays(0xD, NakstraniRecruit, Srihwen, Nakstrani)
 END_MAIN
 
 LocationBasedEvents:
-Village(0x8,MendVillage,4,3)
-Village(0x9,HammerVillage,12,4)
-Village(0xA,SnakespearVillage,9,13)
+Vendor(Shoppery,6,11)
+Armory(Armoryery,7,7)
+Village(0x8,MendVillage,3,3)
+Village(0xA,SnakespearVillage,16,15)
+House(0x0,EntranceHouse,3,10)
+House(0x0,LeftRiverHouse,14,17)
+House(0x0,RightRiverHouse,17,16)
+House(0x10,ForestEvent,9,10)
+Seize(19,2)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AREA 0xB AttackEm [0,0] [19,7]
-AREA 0xE Moskau [8,0] [19,7]
-AREA 0xE Moskau [12,8] [19,14]
-AREA 0x10 BrainChallenge [12,7] [19,14]
-AFEV 0 EndingScene 0x2
+AREA 0xB Reinboi [0,0] [21,7] // eastern reinforcements
+AREA 0xC Reinboi [13,0] [21,17] //northern reinforcements
 END_MAIN
 
 Dunno1:
@@ -51,61 +53,63 @@ Tutorial:
 END_MAIN
 
 UnitsP:
-UNIT Srihwen Sibyl 0x0 Level(0, Ally, 0)     [2,10] 0 0 0 0 [0x0] [0,0,0,0]
-UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,9]  0 0 0 0 [0x0] [0,0,0,0]
-UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [3,11] 0 0 0 0 [0x0] [0,0,0,0]
-UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,13] 0 0 0 0 [0x0] [0,0,0,0]
-UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [0,14] 0 0 0 0 [0x0] [0,0,0,0]
-UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [0,10] 0 0 0 0 [0x0] [0,0,0,0]
-UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,11] 0 0 0 0 [0x0] [0,0,0,0]
-UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [2,12] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Srihwen Sibyl 0x0 Level(0, Ally, 0)     [3,13] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [2,12]  0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [2,14] 0 0 0 0 [0x0] [0,0,0,0]
 UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [0,12] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,13] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [3,15] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [0,14] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [1,15] 0 0 0 0 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 0)    [2,16] 0 0 0 0 [0x0] [0,0,0,0]
 UNIT
 
 Birin:
-UNIT Sirin SkyKnight 0x0 Level(3, Ally, 0)      [1,9]  0 0 0 0 [IronLance, HeavySpear] [0,0,0,0]
+UNIT Sirin SkyKnight 0x0 Level(3, Ally, 0)      [1,9]  0 0 0 0 [IronLance, Vulnerary] [0,0,0,0]
 UNIT Birnath AxeKnight 0x0 Level(3, Ally, 0)    [3,11] 0 0 0 0 [IronAxe, IronPoleax] [0,0,0,0]
 UNIT
 
 EnemiesP:
-UNIT Babhru AxeKnight 0x0 Level(10, Enemy, 1)   [19,10] 0 0 0 0        [HandAxe, Vulnerary] [0,3,4,0]
-UNIT AnilaMag Mystic 0x0 Level(5, Enemy, 1)     [14,7]  0 0 0 0        [Worm]               [0x3,0x3,0x4,0x20]
-UNIT Anila Soldier 0x0 Level(4, Enemy, 1)       [4,9]   0 0 0 0        [IronLance]          [0,0,4,0]
-UNIT AnilaMag Diabolist 0x0 Level(3, Enemy, 1)  [7,13]  DropItem 0 0 0 [Fire, Vulnerary]    [0,0,4,0]
-UNIT Anila SwordCav 0x0 Level(3, Enemy, 1)      [6,8]   0 0 0 0        [IronSword]          [0,6,4,0]
-UNIT Anila Mercenary 0x0 Level(3, Enemy, 1)     [3,6]   0 0 0 0        [IronSword]          [0,3,4,0]
-UNIT Anila Myrmidon 0x0 Level(3, Enemy, 1)      [9,2]   0 0 0 0        [IronSword]          [0,3,4,0]
-UNIT Anila BowKnight 0x0 Level(3, Enemy, 1)     [8,3]   0 0 0 0        [IronWarbow]         [3,3,4,0x20]
-UNIT Anila AxeCav 0x0 Level(4, Enemy, 1)        [10,3]  0 0 0 0        [IronAxe]            [0,3,4,0]
-UNIT Anila LanceCav 0x0 Level(3, Enemy, 1)      [10,4]  0 0 0 0        [HeavySpear]         [0,3,4,0]
-UNIT Anila Mercenary 0x0 Level(3, Enemy, 1)     [11,7]  0 0 0 0        [SteelSword]         [0,3,4,0]
-UNIT Anila Soldier 0x0 Level(4, Enemy, 1)       [15,4]  0 0 0 0        [IronLance]          [0,3,4,0]
-UNIT Anila SwordCav 0x0 Level(4, Enemy, 1)      [19,5]  0 0 0 0        [IronBlade]          [0,3,4,0]
-UNIT Anila Fighter 0x0 Level(3, Enemy, 1)       [15,10] 0 0 0 0        [IronAxe]            [0,3,4,0]
-UNIT Anila LanceCav 0x0 Level(4, Enemy, 1)      [18,12] 0 0 0 0        [IronLance]          [0,6,4,0]
-UNIT Anila Archer 0x0 Level(5, Enemy, 1)        [15,14] 0 0 0 0        [BodkinBow]          [0,3,4,0]
+UNIT Babhru AxeKnight 0x0 Level(10, Enemy, 1)    [19,2] 0 0 0 0         [ShortAxe,Vulnerary] [3,3,4,32]
+UNIT Anila Soldier 0x0 Level(3, Enemy, 1)        [6,13] 0 0 0 0         [IronLance]          [0,0,4,0]
+UNIT Anila BowKnight 0x0 Level(3, Enemy, 1)      [10,14] 0 0 0 0        [IronBow]            [0,3,4,0]
+UNIT Anila Myrmidon 0x0 Level(3, Enemy, 1)       [4,10] DropItem 0 0 0  [IronSword,Antidote] [0,3,4,0]
+UNIT AnilaMag Shaman 0x0 Level(4, Enemy, 1)      [4,7] 0 0 0 0          [Flux]               [3,3,4,32]
+UNIT Anila Fighter 0x0 Level(3, Enemy, 1)        [7,6] 0 0 0 0          [HandAxe]            [0,3,4,0]
+UNIT Anila WyvernRider 0x0 Level(3, Enemy, 1)    [12,9] 0 0 0 0         [IronAxe]            [0,3,4,0]
+UNIT AnilaMag Diabolist 0x0 Level(3, Enemy, 1)   [14,15] DropItem 0 0 0 [Fire,Vulnerary]     [0,6,4,0]
+UNIT Anila Mercenary 0x0 Level(3, Enemy, 1)      [13,12] 0 0 0 0        [IronSword]          [0,3,4,0]
+UNIT Anila Knight 0x0 Level(5, Enemy, 1)         [3,3]   0 0 0 0        [Javelin]            [3,3,4,32]
+UNIT Anila LanceCav 0x0 Level(3, Enemy, 1)       [15,17] 0 0 0 0        [IronLance]          [0,3,4,0]
+UNIT AnilaMag SwordKnight 0x0 Level(5, Enemy, 1) [15,11] 0 0 0 0        [LightBrand]         [3,3,4,32]
+UNIT Anila Archer 0x0 Level(4, Enemy, 1)         [17,10] 0 0 0 0        [IronBow]            [0,3,4,0]
+UNIT AnilaMag Shaman 0x0 Level(3, Enemy, 1)      [11,4] 0 0 0 0         [Worm]               [0,3,4,0]
+UNIT Anila AxeCav 0x0 Level(4, Enemy, 1)         [14,6] 0 0 0 0         [IronAxe]            [0,6,4,0]
+UNIT Anila WyvernRider 0x0 Level(3, Enemy, 1)    [15,2] 0 0 0 0         [IronAxe]            [0,3,4,0]
+UNIT Anila Knight 0x0 Level(5, Enemy, 1)         [19,7] 0 0 0 0         [Javelin]            [0,3,4,0]
+UNIT AnilaMag Shaman 0x0 Level(4, Enemy, 1)      [16,8] 0 0 0 0         [Worm]               [0,3,4,0]
 UNIT
 
 NakstraniP:
-UNIT Nakstrani Diviner_F 0x0 Level(1, Enemy, 0) [4,3]   0 0 1 REDA4R4  [MalkuthI]           [3,3,4,0x20]
+UNIT Nakstrani Diviner_F 0x0 Level(1, Enemy, 0) [3,3]   0 0 1 REDA3R4  [MalkuthI]           [3,3,4,0x20]
 UNIT
 
-ReinDa:
-UNIT Anila SwordCav 0x0 Level(5, Enemy, 1)    [0,5] 0 0 1 REDA1R5    [IronBlade]            [0,0,4,0]
-UNIT Anila LanceCav 0x0 Level(5, Enemy, 1)    [0,6] 0 0 1 REDA2R6    [IronGreatlance]       [0,0,4,0]
+ERN:
+UNIT Anila AxeCav 0x0 Level(4, Enemy, 1) [20,8]         0 0 1 REDA20R9 [SteelAxe, Vulnerary] [0,0,0,0]
+UNIT Anila SwordCav 0x0 Level(4, Enemy, 1) [20,8]       0 0 1 REDA20R7 [SteelSword]          [0,0,0,0]
 UNIT
 
-ReinDa2:
-UNIT AntariksaMag Diviner_F 0x0 Level(5, Enemy, 1)      [19,9]  0 0 1 REDA18R9  [MalkuthI]           [0,6,4,0]
-UNIT AntariksaMag Diviner 0x0 Level(5, Enemy, 1)        [19,11] 0 0 1 REDA18R11 [YesodII]            [0,6,4,0]
+NRN:
+UNIT Anila LanceCav 0x0 Level(4, Enemy, 1) [6,3]        0 0 1 REDA5R3  [SteelLance]          [0,0,0,0]
+UNIT Anila LanceCav 0x0 Level(4, Enemy, 1) [6,3]        0 0 1 REDA7R3  [IronGreatlance]      [0,0,0,0]
 UNIT
 
-Brigando:
-UNIT 0x80 Brigand 0x0 Level(3, Enemy, 1)    [11,14] 0 0 1 REDA11R14 [IronAxe] [0,4,4,0]
+GangGang:
+UNIT Srihwen Sibyl 0x0 Level(0, Ally, 1) [0,13]  0 0 1 REDA2R13 [0x0] [0,0,0,0]
+UNIT Soma Soldier_F 0x0 Level(0, Ally, 1) [0,14]  0 0 1 REDA2R14 [0x0] [0,0,0,0]
+UNIT Shirin SkyKnight 0x0 Level(0, Ally, 1) [0,12]  0 0 1 REDA1R12 [0x0] [0,0,0,0]
+UNIT Birnath AxeKnight 0x0 Level(0, Ally, 1) [0,15]  0 0 1 REDA1R15 [0x0] [0,0,0,0]
 UNIT
-
-Brigando2:
-UNIT 0x80 Brigand 0x0 Level(5, Enemy, 1)    [19,4] 0 0 1 REDA18R4 [IronPoleax] [0,4,4,0]
 
 Traps1:
 ENDTRAP
@@ -116,17 +120,171 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-MUSC 0x4C
-SetBackground(BedroomDay)
-Text(PlaceholderText)
+CHECK_ALIVE Varuna
+BNE 0x1 0xC 0x0
+CHECK_ALIVE Nala
+BNE 0x1 0xC 0x0
+GOTO 0x0
+//if varuna or nala is alive
+  LABEL 0x1
+  MUSC 0x4C
+  SetBackground(OutsideHouse)
+  TEXTSTART
+  CHECK_ALIVE Nala
+  BEQ 0x10 0xC 0x0
+    CHECK_ALIVE Varuna
+    BEQ 0x11 0xC 0x0
+      TEXTSHOW P2C3MenOutsideHouse
+      GOTO 0x12
+    LABEL 0x11
+    TEXTSHOW P2C3NalaOutsideHouse
+    GOTO 0x12
+  LABEL 0x10
+  TEXTSHOW P2C3VarunaOutsideHouse
+  LABEL 0x12
+  TEXTEND
+  CHECK_ALIVE Ethniu
+  BEQ 0x13 0xC 0x0
+    TEXTSHOW2 P2C3EthniuAppears
+    GOTO 0x14
+  LABEL 0x13
+  TEXTSHOW2 P2C3SomaAppears
+  LABEL 0x14
+  TEXTEND
+  CHECK_ALIVE Varuna
+  BEQ 0x15 0xC 0x0
+    CHECK_ALIVE Nandi
+    BEQ 0x17 0xC 0x0
+      TEXTSHOW2 P2C3VarunaMadNalaRespond
+      TEXTEND
+      GOTO 0x16
+    LABEL 0x17
+    TEXTSHOW2 P2C3VarunaMad
+    TEXTEND
+    GOTO 0x16
+  LABEL 0x15
+  TEXTSHOW2 P2C3NalaOkay
+  TEXTEND
+  LABEL 0x16
+  CHECK_ALIVE Sanjana
+  BEQ 0x18 0xC 0x0
+    CHECK_ALIVE Varuna
+    BEQ 0xF3 0xC 0x0
+      CHECK_ALIVE Nandi
+      BEQ 0xF3 0xC 0x0
+        TEXTSHOW2 P2C3SanjanaIsThere
+        TEXTEND
+        GOTO 0x18
+    LABEL 0xF3
+    TEXTSHOW2 P2C3SanjanaIsThereToPush
+    TEXTEND
+  LABEL 0x18
+  CHECK_ALIVE Nandi
+  BEQ 0xF0 0xC 0x0
+    CHECK_ALIVE Varuna
+    BEQ 0xF0 0xC 0x0
+      TEXTSHOW2 P2C3BirnathArrivesWithTwo
+      GOTO 0xF1
+  LABEL 0xF0
+  CHECK_ALIVE Sanjana
+  BEQ 0xF2 0xC 0x0
+    TEXTSHOW2 P2C3BirnathArrivesWithTwo
+    GOTO 0xF1
+  LABEL 0xF2
+  TEXTSHOW2 P2C3BirnathArrivesWithOne
+  LABEL 0xF1
+  TEXTEND
+  CHECK_ALIVE Ethniu
+  BEQ 0x19 0xC 0x0
+    TEXTSHOW2 P2C3EthniuWho
+    GOTO 0x1A
+  LABEL 0x19
+  TEXTSHOW2 P2C3SomaWho
+  LABEL 0x1A
+  TEXTEND
+  CHECK_ALIVE Sanjana
+  BEQ 0x1B 0xC 0x0
+    TEXTSHOW2 P2C3SanjanaPegasus
+    TEXTEND
+  LABEL 0x1B
+  TEXTSHOW2 P2C3BirnathWhatsThePlan
+  TEXTEND
+  
+  
+  REMA
+  GOTO 0x2
+  
+//if varuna and nala aren't alive
+  LABEL 0x0
+  MUSC 0x4C
+  SetBackground(MeetingRoom)
+  TEXTSTART
+  //TEXTSHOW P2C3NoMenOutsideHouse
+  TEXTEND
+  REMA
+
+LABEL 0x2
 MUSCMID 0x7FFF
 FADI 4
+STAL 120
+EnterStop
+MUSC 0x5
+SetBackground(0x34)
+SVAL 0xB 0xFFFFFFFF
 STAL 60
+TUTORIALTEXTBOXSTART
+//TEXTSHOW P2C3WMIntro
+TEXTEND
+REMA
+SVAL 0xB 0xFFFFFFFF
+STAL 60
+TUTORIALTEXTBOXSTART
+//TEXTSHOW P2C3WMIntro2
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 3 // W
+STAL 60
+CLEAN
+EnterStop
+
+// BAM
+
+MUSC 0x2E
+SetBackground(FortInterior)
+BROWNBOXTEXT AnilaText [8,8] // box in the top right that's pretty cool for small text
+TEXTSTART
+//TEXTSHOW P2C3KalkinAnila
+TEXTEND
+REMA
+MUSCMID 0x7FFF
+FADI 4
+LOAD1 0x1 EnemiesP
+ENUN
+CLEAN
+CAM1 Babhru
+STAL 60
+FADU 7
+MUSC 0x25
+STAL 90
+CAM1 [2,14]
+STAL 30
+LOAD2 0x1 GangGang
+ENUN
+STAL 30
+CUMO Srihwen
+STAL 60
+CURE
+TEXTSTART
+//TEXTSHOW P2C3ShirinBirnathSrihwenSoma
+TEXTEND
+REMA
+FADI 4
+STAL 60
+CLEA 0x0
 LOAD2 0x1 UnitsP
 ENUN
 LOAD1 0x1 Birin
-ENUN
-LOAD1 0x1 EnemiesP
 ENUN
 NoFade
 ASMC ClearDebuffs|1
@@ -169,83 +327,31 @@ MUNO // increases music volume
 NoFade
 ENDA
 
-HammerVillage:
-STORETOSOMETHING 0x0 // lowers music volume
-MUSI // lowers music volume
-TEXTSTART
-SVAL 0x2 VillageCG
-SVAL 0x3 P2C3HandAxeVillage
-CALL 0x9EE310
-REMA
-CALL 0x591F40
-SVAL 0x3 HandAxe
-GIVEITEMTO 0xFFFF
-MUNO // increases music volume
-NoFade
-ENDA
-
-AttackEm:
+Reinboi:
 SVAL 0x2 0x0
 CALL 0x9EE1B8
-SVAL 0x1 0x00040600
-CHAI [10,3]
-SVAL 0x1 0x00040600
-CHAI [10,4]
 NoFade
 ENDA
 
-Moskau:
-SVAL 0x2 0x0
-CALL 0x9EE1B8
-SVAL 0x1 0x00040600
-CHAI [11,7]
-SVAL 0x1 0x00040600
-CHAI [15,4]
-SVAL 0x1 0x00040600
-CHAI [19,5]
-SVAL 0x1 0x00040600
-CHAI [9,2]
-NoFade
-ENDA
-
-NakstraniAppear:
-MUSC 0x2E
-CAM1 [4,3]
-ENUN
-LOAD1 0x1 NakstraniP
-ENUN
-CUMO [4,4]
-STAL 60
-CURE
-Text(P2C3NakstraniDoubt)
-MOVE 0xA Nakstrani [0,4]
-ENUN
-NoFade
-ENDA
-
-NakstraniRecruit:
-MUSC 0x30
-Text(P2C3NakstraniSrihwenTalk)
-CUSA Nakstrani
-NoFade
-ENDA
-
-Speakers:
-CHECK_EVENTID 0xE
+EasternRein:
+CHECK_EVENTID 0xB
 BEQ 0x0 0x0 0xC
-	CAM1 [0,5]
-  ENUN
-    LOAD1 0x1 ReinDa
-    ENUN
+	CAM1 [20,8]
+    LOAD1 0x1 ERN
 	STAL 60
-	CAM1 [19,10]
-  ENUN
-    LOAD1 0x1 ReinDa2
-    ENUN
-  CUMO Babhru
-  STAL 60
-  CURE
-  Text(PlaceholderText)
+    GOTO 0x1
+LABEL 0x0
+    ENUF 0xE
+LABEL 0x1
+NoFade
+ENDA
+
+NorthernRein:
+CHECK_EVENTID 0xC
+BEQ 0x0 0x0 0xC
+	CAM1 [6,3]
+    LOAD1 0x1 NRN
+	STAL 60
     GOTO 0x1
 LABEL 0x0
     ENUF 0xF
@@ -253,37 +359,61 @@ LABEL 0x1
 NoFade
 ENDA
 
-BanditoYi:
-CAM1 [11,14]
+NakstraniAppear:
+MUSC 0x2E
+CAM1 [3,4]
 ENUN
-LOAD1 0x1 Brigando
+LOAD1 0x1 NakstraniP
 ENUN
-CUMO [11,14]
+CUMO [3,4]
 STAL 60
 CURE
-Text(PlaceholderText)
+Text(P2C3NakstraniDoubt)
+MOVE 0xA Nakstrani [8,3]
+ENUN
 NoFade
 ENDA
 
-BanditoEr:
-CAM1 [19,4]
-ENUN
-LOAD1 0x1 Brigando2
-ENUN
-STAL 60
+NakstraniRecruit:
+MUSS 0x30
+STAL 33
+STORETOSOMETHING 0x0
+Text(P2C3NakstraniSrihwenTalk)
+MURE 0x2
+SVAL 0x1 0x00000000
+CHAI Nakstrani
+CUSA Nakstrani
 NoFade
 ENDA
 
-BrainChallenge:
-SVAL 0x2 0x0
-CALL 0x9EE1B8
-SVAL 0x1 0x00040600
-CHAI [15,10]
-SVAL 0x1 0x00040600
-CHAI [15,14]
-SVAL 0x1 0x00040600
-CHAI [18,12]
-SVAL 0x1 0x00040600
-CHAI [19,10]
+EntranceHouse:
+ENDA
+
+LeftRiverHouse:
+ENDA
+
+RightRiverHouse:
+ENDA
+
+ForestEvent:
+STORETOSOMETHING 0x0 // lowers music volume
+MUSI // lowers music volume
+TEXTSTART
+SVAL 0x2 WoodsCG
+SVAL 0x3 P2C3ForestEvent
+CALL 0x9EE310
+REMA
+CALL 0x591F40
+SVAL 0x3 Hatchet
+GIVEITEMTO 0xFFFF
+MUNO // increases music volume
 NoFade
 ENDA
+
+Shoppery:
+SHLI Fire Flux MalkuthI Heal Vulnerary
+ALIGN 4
+
+Armoryery:
+SHLI IronSword SteelSword IronLance SteelLance IronAxe SteelAxe IronBow SteelBow
+ALIGN 4

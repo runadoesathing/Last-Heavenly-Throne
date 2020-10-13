@@ -54,6 +54,9 @@ Seize the throne[X]
 ## SeizeThroneObj
 Seize throne[X]
 
+## SeizeRuinsObj
+Seize ruins[X]
+
 #include "Chapter Text/fee3trailer.txt"
 #include "Chapter Text/part1chapter1.txt"
 #include "Chapter Text/part1chapter1x.txt"

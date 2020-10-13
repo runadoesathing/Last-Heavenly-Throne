@@ -166,7 +166,7 @@ I...[CloseEyes][.7] can't forgive myself...[A][X]
 Her voice...[.6] I can hear it[N]
 calling for me,[.5] somewhere.[AN]
 I'm sorry for disappointing you,[.4][N]
-Springmother.[.6][CloseEyes] Forgive me...[A][X]
+Springmother...[.5][CloseEyes] Forgive me...[A][X]
 
 
 
